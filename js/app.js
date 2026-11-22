@@ -30,12 +30,17 @@ async function demarrer() {
   if (!S.get().prenom) S.maj((s) => (s.prenom = C.prenomParDefaut() || "toi"));
   remplirIcones(nav);
   // La barre du bas s'efface quand elle lit en descendant, et revient dès qu'elle remonte.
-  let dernierY = window.scrollY;
+  // Au doigt, l'iPhone envoie beaucoup de tout petits défilements : on cumule la distance
+  // parcourue dans un même sens au lieu de regarder chaque petit pas.
+  let dernierY = window.scrollY, ancre = dernierY, sens = 0;
   window.addEventListener("scroll", () => {
-    const y = window.scrollY;
+    const y = Math.max(0, window.scrollY);
     const enBas = window.innerHeight + y >= document.documentElement.scrollHeight - 40;
-    if (y > dernierY + 6 && y > 120 && !enBas) nav.classList.add("nav-cachee");
-    else if (y < dernierY - 6 || y <= 120 || enBas) nav.classList.remove("nav-cachee");
+    const nouveauSens = y > dernierY ? 1 : y < dernierY ? -1 : sens;
+    if (nouveauSens !== sens) { sens = nouveauSens; ancre = dernierY; }
+    if (y <= 80 || enBas) nav.classList.remove("nav-cachee");
+    else if (sens === 1 && y - ancre > 36) nav.classList.add("nav-cachee");
+    else if (sens === -1 && ancre - y > 24) nav.classList.remove("nav-cachee");
     dernierY = y;
   }, { passive: true });
   window.addEventListener("hashchange", router);
