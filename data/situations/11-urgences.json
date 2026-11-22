@@ -1,0 +1,317 @@
+{
+  "id": "urgences",
+  "ordre": 11,
+  "titre": "Les urgences",
+  "titre_es": "Las urgencias",
+  "intro": "On espère que tu n'en auras jamais besoin, mais ces phrases-là, mieux vaut les avoir dans la poche : appeler le 112, demander de l'aide, porter plainte ou trouver une pharmacie de garde. Respire, tu sauras quoi dire.",
+  "phrases": [
+    {
+      "id": "urgences-01",
+      "es": "¡Socorro! ¡Ayúdeme, por favor!",
+      "fr": "Au secours ! Aidez-moi, s'il vous plaît !",
+      "pron": "so-KO-rro a-YOU-dé-mé por fa-BOR",
+      "note": "Dans la rue, on crie aussi simplement « ¡Ayuda! ». Avec « ayúdeme », tu t'adresses poliment à un inconnu."
+    },
+    {
+      "id": "urgences-02",
+      "es": "Llame a una ambulancia, por favor.",
+      "fr": "Appelez une ambulance, s'il vous plaît.",
+      "pron": "YA-mé a OU-na am-bou-LAN-thya por fa-BOR",
+      "note": "Si tu n'as pas de téléphone ou si tu dois rester près de la personne, demande à quelqu'un d'appeler pour toi."
+    },
+    {
+      "id": "urgences-03",
+      "es": "Estoy en la calle Portales, número diez.",
+      "fr": "Je suis rue Portales, au numéro dix.",
+      "pron": "éss-TOÏ én la KA-yé por-TA-léss NOU-mé-ro DYÉTH",
+      "note": "Au 112, on te demande d'abord où tu es. Si c'est chez toi, ajoute l'étage et la porte : « tercero izquierda », troisième gauche.",
+      "rapide": "'Toy en la calle Portales, número diez."
+    },
+    {
+      "id": "urgences-04",
+      "es": "No hablo bien español. ¿Hay alguien que hable francés?",
+      "fr": "Je ne parle pas bien espagnol. Il y a quelqu'un qui parle français ?",
+      "pron": "no A-blo BYÉN éss-pa-GNOL AÏ AL-guién ké A-blé fran-THÉSS",
+      "note": "Le 112 est gratuit et le service peut faire appel à quelqu'un qui parle d'autres langues. N'hésite pas à le demander."
+    },
+    {
+      "id": "urgences-05",
+      "es": "Ha habido un accidente.",
+      "fr": "Il y a eu un accident.",
+      "pron": "a a-BI-do oun ak-thi-DÉN-té",
+      "note": "« Ha habido » est le passé composé de « hay ». Ensuite, dis simplement où et combien de personnes sont concernées."
+    },
+    {
+      "id": "urgences-06",
+      "es": "Hay una persona herida y no se mueve.",
+      "fr": "Il y a une personne blessée et elle ne bouge pas.",
+      "pron": "AÏ OU-na pér-SSO-na é-RI-da i no sé MOUÉ-bé",
+      "note": "« Herido » ou « herida », c'est blessé ou blessée. Au 112, on te dira quoi faire en attendant : écoute bien et ne raccroche pas."
+    },
+    {
+      "id": "urgences-07",
+      "es": "Un señor se ha desmayado en la calle.",
+      "fr": "Un monsieur s'est évanoui dans la rue.",
+      "pron": "oun sé-GNOR sé a déss-ma-YA-do én la KA-yé",
+      "note": "« Desmayarse », c'est s'évanouir. Pour une femme : « una señora se ha desmayado ».",
+      "rapide": "Un señor s'ha desmayao en la calle."
+    },
+    {
+      "id": "urgences-08",
+      "es": "Respira, pero no contesta.",
+      "fr": "Il respire, mais il ne répond pas.",
+      "pron": "rréss-PI-ra PÉ-ro no kon-TÉSS-ta",
+      "note": "Les deux informations que l'opérateur du 112 voudra avoir en premier. Le reste, il te le demandera."
+    },
+    {
+      "id": "urgences-09",
+      "es": "¡Me han robado el bolso!",
+      "fr": "On m'a volé mon sac !",
+      "pron": "mé an rro-BA-do él BOL-sso",
+      "note": "« Me han robado » se traduit par « on m'a volé ». En espagnol, on dit « el bolso » et pas « mi bolso » : le « me » suffit à dire que c'est le tien.",
+      "rapide": "¡M'han robao el bolso!"
+    },
+    {
+      "id": "urgences-10",
+      "es": "Me han robado el móvil en el autobús.",
+      "fr": "On m'a volé mon portable dans le bus.",
+      "pron": "mé an rro-BA-do él MO-bil én él aou-to-BOUSS",
+      "note": "Pense à faire bloquer ta carte SIM auprès de ton opérateur. Le numéro IMEI du téléphone, s'il est noté quelque part, aidera pour la plainte."
+    },
+    {
+      "id": "urgences-11",
+      "es": "Quiero poner una denuncia.",
+      "fr": "Je voudrais porter plainte.",
+      "pron": "KYÉ-ro po-NÉR OU-na dé-NOUN-thya",
+      "note": "« Poner una denuncia », c'est porter plainte. Garde bien la copie qu'on te donne : on te la demandera pour refaire tes papiers."
+    },
+    {
+      "id": "urgences-12",
+      "es": "¿Dónde está la comisaría más cercana?",
+      "fr": "Où est le commissariat le plus proche ?",
+      "pron": "DON-dé éss-TA la ko-mi-ssa-RI-a MASS thér-KA-na",
+      "note": "Les plaintes se déposent en général à la comisaría de la Policía Nacional. Prends une pièce d'identité si tu en as encore une.",
+      "rapide": "¿Dónde 'tá la comisaría más cercana?"
+    },
+    {
+      "id": "urgences-13",
+      "es": "He perdido el pasaporte.",
+      "fr": "J'ai perdu mon passeport.",
+      "pron": "é pér-DI-do él pa-ssa-POR-té",
+      "note": "Même pour une perte, fais une déclaration à la police, puis contacte ton ambassade avec cette déclaration pour le refaire."
+    },
+    {
+      "id": "urgences-14",
+      "es": "Me he dejado las llaves dentro y no puedo entrar.",
+      "fr": "J'ai laissé mes clés à l'intérieur et je ne peux pas rentrer.",
+      "pron": "mé é dé-KHA-do lass YA-béss DÉN-tro i no POUÉ-do én-TRAR",
+      "note": "Si personne n'a de double, il faut appeler « un cerrajero », un serrurier. La nuit et le dimanche, demande le prix avant qu'il ne se déplace.",
+      "rapide": "M'he dejao las llaves dentro y no puedo entrar."
+    },
+    {
+      "id": "urgences-15",
+      "es": "Huele mucho a gas en la cocina.",
+      "fr": "Ça sent très fort le gaz dans la cuisine.",
+      "pron": "OUÉ-lé MOU-tcho a GASS én la ko-THI-na",
+      "note": "Ouvre les fenêtres, ne touche à aucun interrupteur, sors de l'appartement et appelle seulement une fois dehors."
+    },
+    {
+      "id": "urgences-16",
+      "es": "¡Fuego! Hay humo en la escalera.",
+      "fr": "Au feu ! Il y a de la fumée dans l'escalier.",
+      "pron": "FOUÉ-go AÏ OU-mo én la éss-ka-LÉ-ra",
+      "note": "Les pompiers, ce sont « los bomberos ». En cas d'incendie, on ne prend jamais l'ascenseur."
+    },
+    {
+      "id": "urgences-17",
+      "es": "Estoy perdida. ¿Me puede ayudar?",
+      "fr": "Je suis perdue. Vous pouvez m'aider ?",
+      "pron": "éss-TOÏ pér-DI-da mé POUÉ-dé a-you-DAR",
+      "note": "Au féminin, puisque c'est toi. Montre l'adresse sur ton téléphone, les gens de Logroño adorent indiquer le chemin.",
+      "rapide": "'Toy perdida. ¿Me puede ayudar?"
+    },
+    {
+      "id": "urgences-18",
+      "es": "Llame a la policía, por favor.",
+      "fr": "Appelez la police, s'il vous plaît.",
+      "pron": "YA-mé a la po-li-THI-a por fa-BOR",
+      "note": "« Llamar a » : on appelle toujours « a » quelqu'un, même la police. Le 112 transmet aussi les appels à la police."
+    },
+    {
+      "id": "urgences-19",
+      "es": "¿Sabe dónde hay una farmacia de guardia?",
+      "fr": "Vous savez où il y a une pharmacie de garde ?",
+      "pron": "SA-bé DON-dé AÏ OU-na far-MA-thya dé GOUAR-dya",
+      "note": "La nuit et le dimanche, chaque pharmacie affiche sur sa porte la liste des « farmacias de guardia » ouvertes."
+    },
+    {
+      "id": "urgences-20",
+      "es": "Tranquilo, ya viene la ambulancia.",
+      "fr": "Ne vous inquiétez pas, l'ambulance arrive.",
+      "pron": "tran-KI-lo ya BYÉ-né la am-bou-LAN-thya",
+      "note": "« Tranquilo » pour un homme, « tranquila » pour une femme. Ça rassure la personne, et souvent soi-même aussi."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Un appel au 112",
+      "contexte": "En rentrant du marché, tu vois un monsieur tomber sur le trottoir. Tu appelles le 112.",
+      "lignes": [
+        {
+          "qui": "Operadora",
+          "es": "Emergencias 112, ¿en qué puedo ayudarle?",
+          "fr": "Urgences 112, que puis-je faire pour vous ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Hola. Un señor se ha desmayado en la calle.",
+          "fr": "Bonjour. Un monsieur s'est évanoui dans la rue."
+        },
+        {
+          "qui": "Operadora",
+          "es": "De acuerdo. ¿Dónde está usted exactamente?",
+          "fr": "D'accord. Où êtes-vous exactement ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Estoy en la calle Portales, número diez, delante de una farmacia. No hablo bien español. ¿Hay alguien que hable francés?",
+          "fr": "Je suis rue Portales, au numéro dix, devant une pharmacie. Je ne parle pas bien espagnol. Il y a quelqu'un qui parle français ?"
+        },
+        {
+          "qui": "Operadora",
+          "es": "Sí, enseguida le paso. Antes, dígame: ¿el señor respira?",
+          "fr": "Oui, je vous passe quelqu'un tout de suite. Avant, dites-moi : le monsieur respire ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Respira, pero no contesta.",
+          "fr": "Il respire, mais il ne répond pas."
+        },
+        {
+          "qui": "Operadora",
+          "es": "Muy bien. La ambulancia ya va para allá. Quédese con él y no cuelgue.",
+          "fr": "Très bien. L'ambulance est en route. Restez avec lui et ne raccrochez pas."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Vale, no cuelgo. Tranquilo, señor, ya viene la ambulancia.",
+          "fr": "D'accord, je ne raccroche pas. Ne vous inquiétez pas, monsieur, l'ambulance arrive."
+        }
+      ]
+    },
+    {
+      "titre": "Le sac envolé",
+      "contexte": "Sur une terrasse, quelqu'un attrape ton sac et part en courant. Une passante, Marta, s'approche.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "¡Al ladrón! ¡Me han robado el bolso!",
+          "fr": "Au voleur ! On m'a volé mon sac !"
+        },
+        {
+          "qui": "Marta",
+          "es": "¿Estás bien? ¿Te ha hecho daño?",
+          "fr": "Ça va ? Il t'a fait mal ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "No, estoy bien, pero llevaba el pasaporte y las llaves de casa.",
+          "fr": "Non, ça va, mais j'avais mon passeport et les clés de chez moi."
+        },
+        {
+          "qui": "Marta",
+          "es": "¡Qué susto! Tienes que poner una denuncia.",
+          "fr": "Quelle frayeur ! Il faut que tu portes plainte."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Dónde está la comisaría más cercana?",
+          "fr": "Où est le commissariat le plus proche ?"
+        },
+        {
+          "qui": "Marta",
+          "es": "Está aquí cerca. Si quieres, te acompaño.",
+          "fr": "C'est tout près d'ici. Si tu veux, je t'accompagne."
+        },
+        {
+          "qui": "Policía",
+          "es": "Buenas tardes. ¿Qué le ha pasado?",
+          "fr": "Bonjour. Que vous est-il arrivé ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Quiero poner una denuncia. Me han robado el bolso con el pasaporte dentro.",
+          "fr": "Je voudrais porter plainte. On m'a volé mon sac avec mon passeport dedans."
+        },
+        {
+          "qui": "Policía",
+          "es": "Siéntese, por favor. ¿Tiene algún otro documento?",
+          "fr": "Asseyez-vous, je vous en prie. Vous avez un autre document ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Tengo una foto del NIE en el móvil. Menos mal que el móvil no me lo han robado.",
+          "fr": "J'ai une photo de mon NIE sur mon portable. Heureusement qu'on ne m'a pas volé le portable."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Llame, ayúdeme, venga : l'impératif poli",
+    "explication": "Avec un inconnu ou au téléphone, on demande de l'aide avec l'impératif de « usted ». Les verbes en -ar prennent un -e : llamar donne llame, esperar donne espere. Les verbes en -er et -ir prennent un -a : subir donne suba, et venir donne venga, sur le modèle de « yo vengo ». Le pronom se colle à la fin du verbe, avec un accent écrit : ayúdeme. Avec une amie que tu tutoies, c'est plus court : llama, ayúdame, ven.",
+    "tableau": [
+      ["Llame a los bomberos.", "Appelez les pompiers."],
+      ["Ayúdeme, por favor.", "Aidez-moi, s'il vous plaît."],
+      ["Venga rápido.", "Venez vite."],
+      ["Espere aquí.", "Attendez ici."],
+      ["No cuelgue.", "Ne raccrochez pas."],
+      ["Llama al 112. (tú)", "Appelle le 112."]
+    ],
+    "exemples": [
+      {
+        "es": "Por favor, venga rápido. Hay humo en el portal.",
+        "fr": "S'il vous plaît, venez vite. Il y a de la fumée dans l'entrée de l'immeuble."
+      },
+      {
+        "es": "Espere aquí, la policía llega enseguida.",
+        "fr": "Attendez ici, la police arrive tout de suite."
+      },
+      {
+        "es": "Lucía, ayúdame, no encuentro las llaves.",
+        "fr": "Lucía, aide-moi, je ne trouve pas mes clés."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "¡Qué susto!",
+      "fr": "Quelle frayeur !",
+      "note": "La première chose qu'on dit quand tout est fini. Avec « me he llevado », ça donne : « ¡Qué susto me he llevado! »."
+    },
+    {
+      "es": "Se ha quedado en un susto",
+      "fr": "Plus de peur que de mal",
+      "note": "La phrase qui rassure tout le monde après un petit accident sans gravité."
+    },
+    {
+      "es": "¡Al ladrón!",
+      "fr": "Au voleur !",
+      "note": "À crier fort : les gens autour se retournent, et c'est déjà beaucoup."
+    },
+    {
+      "es": "¡Ojo!",
+      "fr": "Attention !",
+      "note": "Très espagnol. « ¡Ojo con el bolso! » : fais attention à ton sac, surtout dans la foule des fêtes de San Mateo."
+    },
+    {
+      "es": "Estar hecha un flan",
+      "fr": "Être toute tremblante",
+      "note": "Quand on tremble comme un flan après une grosse peur. Au masculin : « estar hecho un flan »."
+    },
+    {
+      "es": "Me he quedado de piedra",
+      "fr": "Je suis restée pétrifiée",
+      "note": "Pour raconter qu'on n'a pas pu réagir sur le moment. C'est normal, et ça arrive à tout le monde."
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "id": "administration",
+  "ordre": 9,
+  "titre": "L'administration",
+  "titre_es": "Los trámites",
+  "intro": "Cita previa, padrón, huellas, impresos : l'administration espagnole a son propre vocabulaire. Avec ces phrases, tu sauras demander, comprendre et revenir avec le bon papier. La patience, elle, n'est pas fournie.",
+  "phrases": [
+    {
+      "id": "administration-01",
+      "es": "Quería pedir cita previa para el empadronamiento.",
+      "fr": "Je voudrais prendre rendez-vous pour l'inscription au padrón.",
+      "pron": "ké-RI-a pé-DIR THI-ta PRÉ-bya PA-ra él ém-pa-dro-na-MYÉN-to",
+      "note": "La « cita previa », c'est le rendez-vous qu'on te demande pour presque toutes les démarches. À Logroño, le padrón se fait à l'Ayuntamiento.",
+      "rapide": "Quería pedir cita previa pa'l empadronamiento."
+    },
+    {
+      "id": "administration-02",
+      "es": "¿Se puede pedir cita por internet o solo por teléfono?",
+      "fr": "On peut prendre rendez-vous sur internet ou seulement par téléphone ?",
+      "pron": "sé POUÉ-dé pé-DIR THI-ta por in-tér-NÉT o SO-lo por té-LÉ-fo-no",
+      "note": "Souvent, les deux existent. Si aucun créneau n'apparaît en ligne, réessaie un autre jour : les nouvelles dates s'ouvrent au fur et à mesure."
+    },
+    {
+      "id": "administration-03",
+      "es": "Vengo a empadronarme. Aquí tiene mi pasaporte y el contrato de alquiler.",
+      "fr": "Je viens m'inscrire au padrón. Voici mon passeport et le contrat de location.",
+      "pron": "BÉN-go a ém-pa-dro-NAR-mé a-KI TYÉ-né mi pa-ssa-POR-té i él kon-TRA-to dé al-ki-LÉR",
+      "note": "S'empadronar, c'est déclarer où tu habites à la mairie. La liste exacte des documents est sur le site de l'Ayuntamiento : jette un œil avant d'y aller."
+    },
+    {
+      "id": "administration-04",
+      "es": "¿Me puede dar un certificado de empadronamiento?",
+      "fr": "Vous pouvez me donner un certificat d'inscription au padrón ?",
+      "pron": "mé POUÉ-dé DAR oun thér-ti-fi-KA-do dé ém-pa-dro-na-MYÉN-to",
+      "note": "On parle aussi du « volante de empadronamiento ». Il prouve où tu vis et on te le demandera pour d'autres trámites."
+    },
+    {
+      "id": "administration-05",
+      "es": "Tengo cita para la toma de huellas.",
+      "fr": "J'ai rendez-vous pour la prise d'empreintes.",
+      "pron": "TÉN-go THI-ta PA-ra la TO-ma dé OUÉ-yass",
+      "note": "Pour la TIE, ta carte de séjour, les empreintes se prennent à la Policía Nacional, en général une fois que Extranjería a donné son accord.",
+      "rapide": "Tengo cita pa' la toma de huellas."
+    },
+    {
+      "id": "administration-06",
+      "es": "¿Cuándo puedo recoger la tarjeta?",
+      "fr": "Quand est-ce que je peux récupérer la carte ?",
+      "pron": "KOUAN-do POUÉ-do rré-ko-KHÉR la tar-KHÉ-ta",
+      "note": "La TIE porte ton NIE, ton numéro d'étranger, qui ne changera plus. On t'indiquera où et comment la récupérer, souvent avec un nouveau rendez-vous."
+    },
+    {
+      "id": "administration-07",
+      "es": "¿Quién es el último?",
+      "fr": "Qui est le dernier ?",
+      "pron": "KYÉN ÉSS él OUL-ti-mo",
+      "note": "Là où il n'y a pas de ticket, on demande qui est le dernier et on passe après lui. Quand quelqu'un arrive après toi, c'est toi qui réponds : « Yo ». Au féminin, on entend aussi « ¿Quién es la última? »."
+    },
+    {
+      "id": "administration-08",
+      "es": "Perdone, ¿es aquí la cola para Extranjería?",
+      "fr": "Excusez-moi, c'est bien ici la file pour le service des étrangers ?",
+      "pron": "pér-DO-né ÉSS a-KI la KO-la PA-ra éks-tran-khé-RI-a",
+      "note": "« La cola », c'est la file d'attente. Mieux vaut vérifier avant d'y passer une heure.",
+      "rapide": "Perdone, ¿es aquí la cola pa' Extranjería?"
+    },
+    {
+      "id": "administration-09",
+      "es": "¿Tengo que rellenar este impreso?",
+      "fr": "Je dois remplir ce formulaire ?",
+      "pron": "TÉN-go ké rré-yé-NAR ÉSS-té im-PRÉ-sso",
+      "note": "« Rellenar », c'est remplir. On dit aussi « el formulario ». Si on te demande d'écrire « en mayúsculas », c'est en majuscules.",
+      "rapide": "¿Tengo que rellenar 'ste impreso?"
+    },
+    {
+      "id": "administration-10",
+      "es": "¿Dónde tengo que firmar?",
+      "fr": "Où est-ce que je dois signer ?",
+      "pron": "DON-dé TÉN-go ké fir-MAR",
+      "note": "La réponse sera souvent « firme aquí » ou « firme abajo ». Parfois une signature par page : échauffe ton poignet."
+    },
+    {
+      "id": "administration-11",
+      "es": "Perdone, no entiendo esta casilla. ¿Qué tengo que poner aquí?",
+      "fr": "Excusez-moi, je ne comprends pas cette case. Qu'est-ce que je dois mettre ici ?",
+      "pron": "pér-DO-né no én-TYÉN-do ÉSS-ta ka-SSI-ya KÉ TÉN-go ké po-NÉR a-KI",
+      "note": "« La casilla », c'est la petite case à remplir. Et « poner » sert pour tout ce qu'on écrit dans un formulaire."
+    },
+    {
+      "id": "administration-12",
+      "es": "¿Me lo puede explicar más despacio? Todavía estoy aprendiendo.",
+      "fr": "Vous pouvez me l'expliquer plus lentement ? J'apprends encore.",
+      "pron": "mé lo POUÉ-dé éks-pli-KAR MASS déss-PA-thyo to-da-BI-a éss-TOÏ a-prén-DYÉN-do",
+      "note": "Au guichet, on parle vite et avec des mots techniques. Cette phrase fait presque toujours ralentir, et souvent sourire."
+    },
+    {
+      "id": "administration-13",
+      "es": "Vuelva mañana con la fotocopia del pasaporte.",
+      "fr": "Revenez demain avec la photocopie du passeport.",
+      "pron": "BOUÉL-ba ma-GNA-na kon la fo-to-KO-pya dél pa-ssa-POR-té",
+      "note": "Une phrase que personne n'aime entendre, mais qu'il faut comprendre. « Vuelva » veut dire « revenez » : c'est l'impératif de usted, voir la grammaire."
+    },
+    {
+      "id": "administration-14",
+      "es": "Perdone, ¿qué papel me falta exactamente?",
+      "fr": "Excusez-moi, il me manque quel papier exactement ?",
+      "pron": "pér-DO-né KÉ pa-PÉL mé FAL-ta ék-sak-ta-MÉN-té",
+      "note": "Quand on te dit « le falta un papel », il vous manque un papier, demande lequel et note-le tout de suite. Ça évite un troisième aller-retour."
+    },
+    {
+      "id": "administration-15",
+      "es": "He traído una foto de carné y una fotocopia del contrato.",
+      "fr": "J'ai apporté une photo d'identité et une photocopie du contrat.",
+      "pron": "é tra-I-do OU-na FO-to dé kar-NÉ i OU-na fo-to-KO-pya dél kon-TRA-to",
+      "note": "La « foto de carné », c'est la photo d'identité. Avoir une fotocopia de chaque document dans ton sac, c'est jouer la sécurité."
+    },
+    {
+      "id": "administration-16",
+      "es": "¿Me puede dar un justificante, por favor?",
+      "fr": "Vous pouvez me donner un justificatif, s'il vous plaît ?",
+      "pron": "mé POUÉ-dé DAR oun khous-ti-fi-KAN-té por fa-BOR",
+      "note": "Le « justificante » prouve que tu as fait la démarche ou payé. Garde-le précieusement, il te sauvera le jour où on te dira « aquí no consta ».",
+      "rapide": "¿Me pue' dar un justificante, por favor?"
+    },
+    {
+      "id": "administration-17",
+      "es": "Necesito el número de la Seguridad Social para empezar a trabajar.",
+      "fr": "J'ai besoin du numéro de Sécurité sociale pour commencer à travailler.",
+      "pron": "né-thé-SSI-to él NOU-mé-ro dé la sé-gou-ri-DAD so-THYAL PA-ra ém-pé-THAR a tra-ba-KHAR",
+      "note": "C'est le « número de afiliación », que ton employeur te demandera. Il s'obtient auprès de la Tesorería General de la Seguridad Social, en ligne ou sur rendez-vous.",
+      "rapide": "Necesito el número de la Seguridá Social pa' empezar a trabajar."
+    },
+    {
+      "id": "administration-18",
+      "es": "Quería solicitar la tarjeta sanitaria.",
+      "fr": "Je voudrais demander la carte de santé.",
+      "pron": "ké-RI-a so-li-thi-TAR la tar-KHÉ-ta sa-ni-TA-rya",
+      "note": "En La Rioja, elle se demande en général à ton centro de salud. On te demandera sans doute ton padrón et ton número de la Seguridad Social."
+    },
+    {
+      "id": "administration-19",
+      "es": "Quería abrir una cuenta en el banco. ¿Qué documentos necesito?",
+      "fr": "Je voudrais ouvrir un compte à la banque. De quels documents j'ai besoin ?",
+      "pron": "ké-RI-a a-BRIR OU-na KOUÉN-ta én él BAN-ko KÉ do-kou-MÉN-toss né-thé-SSI-to",
+      "note": "Pour le salaire et le loyer, un compte devient vite indispensable. Demande aussi les « comisiones », les frais, avant de signer quoi que ce soit."
+    },
+    {
+      "id": "administration-20",
+      "es": "Perdone, creo que me he equivocado de ventanilla.",
+      "fr": "Excusez-moi, je crois que je me suis trompée de guichet.",
+      "pron": "pér-DO-né KRÉ-o ké mé é é-ki-bo-KA-do dé bén-ta-NI-ya",
+      "note": "« La ventanilla », c'est le guichet. Ça arrive à tout le monde, Espagnols compris.",
+      "rapide": "Perdone, creo que m'he equivocao de ventanilla."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Le padrón à l'Ayuntamiento",
+      "contexte": "Tu as ta cita previa à l'Ayuntamiento de Logroño pour t'inscrire au padrón. Il y a déjà du monde devant le guichet.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "Buenos días. ¿Quién es el último?",
+          "fr": "Bonjour. Qui est le dernier ?"
+        },
+        {
+          "qui": "Un señor",
+          "es": "Yo. Pero tranquila, que hoy va rápido.",
+          "fr": "Moi. Mais ne vous inquiétez pas, aujourd'hui ça avance vite."
+        },
+        {
+          "qui": "La funcionaria",
+          "es": "Buenos días. ¿Qué necesita?",
+          "fr": "Bonjour. Qu'est-ce qu'il vous faut ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Vengo a empadronarme. Aquí tiene mi pasaporte y el contrato de alquiler.",
+          "fr": "Je viens m'inscrire au padrón. Voici mon passeport et le contrat de location."
+        },
+        {
+          "qui": "La funcionaria",
+          "es": "Muy bien. Rellene este impreso y firme abajo, por favor.",
+          "fr": "Très bien. Remplissez ce formulaire et signez en bas, s'il vous plaît."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Perdone, no entiendo esta casilla. ¿Qué tengo que poner aquí?",
+          "fr": "Excusez-moi, je ne comprends pas cette case. Qu'est-ce que je dois mettre ici ?"
+        },
+        {
+          "qui": "La funcionaria",
+          "es": "Su dirección: calle, número, piso y letra. Ah, y le falta un papel: la fotocopia del pasaporte.",
+          "fr": "Votre adresse : rue, numéro, étage et lettre. Ah, et il vous manque un papier : la photocopie du passeport."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Un momento! Creo que la he traído… ¡Sí, aquí está!",
+          "fr": "Un instant ! Je crois que je l'ai apportée… Oui, la voilà !"
+        },
+        {
+          "qui": "La funcionaria",
+          "es": "Perfecto, pues ya está. ¿Necesita un volante de empadronamiento?",
+          "fr": "Parfait, alors c'est bon. Vous avez besoin d'un certificat d'inscription ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí, por favor. Me lo van a pedir para todos los trámites.",
+          "fr": "Oui, s'il vous plaît. On va me le demander pour toutes les démarches."
+        }
+      ]
+    },
+    {
+      "titre": "Les empreintes, premier essai",
+      "contexte": "Tu arrives à la Policía Nacional pour la prise d'empreintes de ta TIE, avec ton dossier sous le bras.",
+      "lignes": [
+        {
+          "qui": "El policía",
+          "es": "Buenos días. ¿Tiene cita?",
+          "fr": "Bonjour. Vous avez rendez-vous ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí, tengo cita para la toma de huellas. Aquí tiene mi pasaporte y una foto de carné.",
+          "fr": "Oui, j'ai rendez-vous pour la prise d'empreintes. Voici mon passeport et une photo d'identité."
+        },
+        {
+          "qui": "El policía",
+          "es": "Muy bien. ¿Y el justificante de pago de la tasa?",
+          "fr": "Très bien. Et le justificatif de paiement de la taxe ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿La tasa? Perdone, ¿qué papel me falta exactamente?",
+          "fr": "La taxe ? Excusez-moi, il me manque quel papier exactement ?"
+        },
+        {
+          "qui": "El policía",
+          "es": "El impreso de la tasa, pagado en el banco. Sin eso no puedo tomarle las huellas.",
+          "fr": "Le formulaire de la taxe, payé à la banque. Sans ça, je ne peux pas prendre vos empreintes."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Vaya… ¿Y tengo que pedir cita otra vez?",
+          "fr": "Mince… Et je dois reprendre rendez-vous ?"
+        },
+        {
+          "qui": "El policía",
+          "es": "Me temo que sí. Pague la tasa, pida cita y vuelva con todo.",
+          "fr": "J'en ai peur. Payez la taxe, prenez rendez-vous et revenez avec tout."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Vale. Esta vez vengo con todos los papeles, y con fotocopias de las fotocopias.",
+          "fr": "D'accord. Cette fois je viens avec tous les papiers, et avec des photocopies des photocopies."
+        },
+        {
+          "qui": "El policía",
+          "es": "Así me gusta. ¡Ánimo, que ya casi lo tiene!",
+          "fr": "C'est comme ça que j'aime. Courage, vous y êtes presque !"
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "L'impératif de usted : rellene, firme, traiga",
+    "explication": "Au guichet, les consignes arrivent à l'impératif de usted. L'astuce : on part du « yo » au présent, on enlève le -o et on change de voyelle. Les verbes en -ar prennent -e (firmo donne firme), les verbes en -er et -ir prennent -a (escribo donne escriba). Ça marche même avec les irréguliers : traigo donne traiga, vuelvo donne vuelva, tengo donne tenga. Si tu reconnais ces terminaisons, tu sais qu'on te demande de faire quelque chose.",
+    "tableau": [
+      ["rellenar → rellene", "remplissez"],
+      ["firmar → firme", "signez"],
+      ["esperar → espere", "attendez"],
+      ["escribir → escriba", "écrivez"],
+      ["traer (traigo) → traiga", "apportez"],
+      ["volver (vuelvo) → vuelva", "revenez"],
+      ["tener (tengo) → tenga", "tenez, prenez"]
+    ],
+    "exemples": [
+      {
+        "es": "Rellene este impreso en mayúsculas y firme aquí.",
+        "fr": "Remplissez ce formulaire en majuscules et signez ici."
+      },
+      {
+        "es": "Espere un momento, por favor. Tenga, su justificante.",
+        "fr": "Attendez un instant, s'il vous plaît. Tenez, votre justificatif."
+      },
+      {
+        "es": "Traiga el contrato original y vuelva el lunes.",
+        "fr": "Apportez le contrat original et revenez lundi."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "¡Vaya papeleo!",
+      "fr": "Quelle paperasse !",
+      "note": "« El papeleo », c'est l'ensemble des papiers et démarches. Tout le monde en Espagne s'en plaint, tu es en bonne compagnie."
+    },
+    {
+      "es": "Ir de ventanilla en ventanilla",
+      "fr": "Courir d'un guichet à l'autre",
+      "note": "Pour raconter une matinée où chaque guichet t'a renvoyée au suivant."
+    },
+    {
+      "es": "Armarse de paciencia",
+      "fr": "S'armer de patience",
+      "note": "Le meilleur conseil avant un trámite : « Ármate de paciencia »."
+    },
+    {
+      "es": "Me están dando largas",
+      "fr": "On me fait lanterner",
+      "note": "« Dar largas », c'est repousser sans jamais donner de réponse claire."
+    },
+    {
+      "es": "Me tienen mareada",
+      "fr": "Ils me font tourner en bourrique",
+      "note": "Littéralement « ils me donnent le tournis ». Au féminin, puisque c'est toi qui tournes."
+    },
+    {
+      "es": "Es el cuento de nunca acabar",
+      "fr": "C'est une histoire sans fin",
+      "note": "Quand il manque toujours un dernier papier. Courage, il y a bien une fin."
+    }
+  ]
+}

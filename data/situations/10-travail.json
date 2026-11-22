@@ -1,0 +1,322 @@
+{
+  "id": "travail",
+  "ordre": 10,
+  "titre": "Le travail",
+  "titre_es": "El trabajo",
+  "intro": "Chercher une offre, passer l'entretien, comprendre ton contrat, puis survivre au premier lundi avec les collègues : tout ce qu'il faut pour travailler en espagnol, du currículum jusqu'à la nómina. Sans oublier l'almuerzo de dix heures, sacré à Logroño.",
+  "phrases": [
+    {
+      "id": "travail-01",
+      "es": "Estoy buscando trabajo. ¿Sabes de alguna oferta?",
+      "fr": "Je cherche du travail. Tu connais une offre ?",
+      "pron": "éss-TOÏ bouss-KAN-do tra-BA-kho SA-béss dé al-GOU-na o-FÉR-ta",
+      "note": "Parles-en autour de toi : en Espagne, beaucoup de postes se trouvent par le bouche-à-oreille, qu'on appelle ici « el boca a boca ».",
+      "rapide": "'Toy buscando trabajo. ¿Sabes d'alguna oferta?"
+    },
+    {
+      "id": "travail-02",
+      "es": "Vengo a dejar mi currículum.",
+      "fr": "Je viens déposer mon CV.",
+      "pron": "BÉN-go a dé-KHAR mi kou-RRI-kou-loum",
+      "note": "Dans les commerces et les bars, on dépose souvent son CV en main propre. Imprime-le en plusieurs exemplaires, ça part vite."
+    },
+    {
+      "id": "travail-03",
+      "es": "¿Le puedo enviar el currículum por correo electrónico?",
+      "fr": "Je peux vous envoyer mon CV par mail ?",
+      "pron": "lé POUÉ-do én-BYAR él kou-RRI-kou-loum por ko-RRÉ-o é-lék-TRO-ni-ko",
+      "note": "« Le » veut dire « vous » : avec un recruteur, on vouvoie. Plus court, on dit aussi « por correo » ou « por email »."
+    },
+    {
+      "id": "travail-04",
+      "es": "Tengo una entrevista de trabajo el lunes.",
+      "fr": "J'ai un entretien d'embauche lundi.",
+      "pron": "TÉN-go OU-na én-tré-BISS-ta dé tra-BA-kho él LOU-néss",
+      "note": "« Una entrevista », c'est un entretien. Rien à voir avec « entretener », qui veut dire distraire, même si ça peut aider.",
+      "rapide": "Tengo un'entrevista de trabajo el lunes."
+    },
+    {
+      "id": "travail-05",
+      "es": "Tengo tres años de experiencia en atención al cliente.",
+      "fr": "J'ai trois ans d'expérience dans l'accueil client.",
+      "pron": "TÉN-go TRÉSS A-gnoss dé ékss-pé-RYÉN-thya én a-tén-THYON al KLYÉN-té",
+      "note": "Adapte à ton métier : en hostelería, en limpieza, en cuidado de mayores. Et soigne le ñ de « años » : sans lui, le mot devient franchement moins présentable."
+    },
+    {
+      "id": "travail-06",
+      "es": "Hablo francés y me defiendo en español.",
+      "fr": "Je parle français et je me débrouille en espagnol.",
+      "pron": "A-blo fran-THÉSS i mé dé-FYÉN-do én éss-pa-GNOL",
+      "note": "« Me defiendo », c'est modeste sans être timide. Le français est un vrai atout à Logroño, où passent chaque année des milliers de pèlerins du Camino de Santiago."
+    },
+    {
+      "id": "travail-07",
+      "es": "Tengo disponibilidad inmediata.",
+      "fr": "Je suis disponible tout de suite.",
+      "pron": "TÉN-go diss-po-ni-bi-li-DAD in-mé-DYA-ta",
+      "note": "La phrase que les recruteurs adorent entendre. Si tu n'es libre que le matin : « Tengo disponibilidad por las mañanas »."
+    },
+    {
+      "id": "travail-08",
+      "es": "¿El contrato es indefinido o temporal?",
+      "fr": "Le contrat, c'est un CDI ou un CDD ?",
+      "pron": "él kon-TRA-to ÉSS in-dé-fi-NI-do o tém-po-RAL",
+      "note": "« Indefinido » correspond au CDI, « temporal » au CDD. Tu entendras aussi « fijo » : « me han hecho fija », on m'a embauchée en CDI."
+    },
+    {
+      "id": "travail-09",
+      "es": "¿Es a media jornada o a jornada completa?",
+      "fr": "C'est à mi-temps ou à temps plein ?",
+      "pron": "ÉSS a MÉ-dya khor-NA-da o a khor-NA-da kom-PLÉ-ta",
+      "note": "« La jornada », c'est le temps de travail. Pour un temps partiel qui n'est pas un mi-temps, on dit « jornada parcial »."
+    },
+    {
+      "id": "travail-10",
+      "es": "¿El sueldo es bruto o neto?",
+      "fr": "Le salaire, c'est en brut ou en net ?",
+      "pron": "él SOUÉL-do ÉSS BROU-to o NÉ-to",
+      "note": "En Espagne, on annonce souvent un salaire brut annuel, versé en douze ou quatorze paies. Le net, c'est ce qui arrive vraiment sur ton compte."
+    },
+    {
+      "id": "travail-11",
+      "es": "¿Me toca el turno de mañana o el de tarde?",
+      "fr": "Je suis du matin ou de l'après-midi ?",
+      "pron": "mé TO-ka él TOUR-no dé ma-GNA-na o él dé TAR-dé",
+      "note": "« Me toca », c'est « c'est mon tour, ça me revient ». Il sert pour les horaires, les tâches et même la tournée au bar."
+    },
+    {
+      "id": "travail-12",
+      "es": "¿A qué hora entro y a qué hora salgo?",
+      "fr": "Je commence à quelle heure et je finis à quelle heure ?",
+      "pron": "a KÉ O-ra ÉN-tro i a KÉ O-ra SAL-go",
+      "note": "Au travail, « entrar » veut dire commencer et « salir », finir. Le verbe le plus attendu de la journée, c'est le deuxième.",
+      "rapide": "¿A qué'ora entro y a qué'ora salgo?"
+    },
+    {
+      "id": "travail-13",
+      "es": "Perdona, soy nueva. ¿Me explicas cómo funciona esto?",
+      "fr": "Excuse-moi, je suis nouvelle. Tu m'expliques comment ça marche ?",
+      "pron": "pér-DO-na SOÏ NOUÉ-ba mé ékss-PLI-kass KO-mo foun-THYO-na ÉSS-to",
+      "note": "Entre collègues, on se tutoie dès le premier jour. Et « soy nueva » ouvre toutes les portes la première semaine : profites-en, ça ne dure pas."
+    },
+    {
+      "id": "travail-14",
+      "es": "No lo he entendido bien. ¿Me lo repites, por favor?",
+      "fr": "Je n'ai pas bien compris. Tu peux me le répéter, s'il te plaît ?",
+      "pron": "no lo é én-tén-DI-do BYÉN mé lo rré-PI-téss por fa-BOR",
+      "note": "Demander de répéter, ce n'est pas avouer une faiblesse, c'est éviter de ranger les yaourts au rayon lessive.",
+      "rapide": "No lo he entendío bien. ¿Me lo repites, por favor?"
+    },
+    {
+      "id": "travail-15",
+      "es": "¿Me echas una mano con esto?",
+      "fr": "Tu me donnes un coup de main ?",
+      "pron": "mé É-tchass OU-na MA-no kon ÉSS-to",
+      "note": "« Echar una mano », c'est donner un coup de main. Pour rendre service à ton tour : « ¿Te echo una mano? ».",
+      "rapide": "¿M'echas una mano con esto?"
+    },
+    {
+      "id": "travail-16",
+      "es": "Perdona, llego diez minutos tarde. El autobús no ha pasado.",
+      "fr": "Désolée, je vais avoir dix minutes de retard. Le bus n'est pas passé.",
+      "pron": "pér-DO-na YÉ-go DYÉTH mi-NOU-toss TAR-dé él aou-to-BOUSS no a pa-SSA-do",
+      "note": "Le présent « llego tarde » sert aussi pour un retard qui n'est pas encore arrivé. Préviens avant l'heure, ton jefe appréciera.",
+      "rapide": "Perdona, llego diez minutos tarde. El autobús no'a pasao."
+    },
+    {
+      "id": "travail-17",
+      "es": "Hoy no puedo ir, estoy de baja.",
+      "fr": "Aujourd'hui je ne peux pas venir, je suis en arrêt maladie.",
+      "pron": "OÏ no POUÉ-do IR éss-TOÏ dé BA-kha",
+      "note": "« Estar de baja », c'est être en arrêt. C'est le médecin de famille, « el médico de cabecera », qui te la donne. En espagnol, on « va » au travail, même au téléphone avec la jefa."
+    },
+    {
+      "id": "travail-18",
+      "es": "¿Me podrías dar el viernes libre? Tengo cita en Extranjería.",
+      "fr": "Tu pourrais me donner mon vendredi ? J'ai rendez-vous au bureau des étrangers.",
+      "pron": "mé po-DRI-ass DAR él BYÉR-néss LI-bré TÉN-go THI-ta én ékss-tran-khé-RI-a",
+      "note": "Le conditionnel « podrías » adoucit la demande. Avec la jefa, le tutoiement est courant en Espagne : fais comme tes collègues."
+    },
+    {
+      "id": "travail-19",
+      "es": "¿Cuándo pagan la nómina?",
+      "fr": "La paie tombe quand ?",
+      "pron": "KOUAN-do PA-gan la NO-mi-na",
+      "note": "« La nómina », c'est la fiche de paie et, par extension, le salaire du mois. Garde-les bien : on te les demandera pour louer un piso."
+    },
+    {
+      "id": "travail-20",
+      "es": "¿Hacemos un descanso para almorzar?",
+      "fr": "On fait une pause pour manger un morceau ?",
+      "pron": "a-THÉ-moss oun déss-KAN-so PA-ra al-mor-THAR",
+      "note": "En La Rioja, « el almuerzo » est l'en-cas du milieu de matinée, vers dix ou onze heures : un pincho, un bocadillo, un café. Ailleurs, le mot peut désigner le déjeuner.",
+      "rapide": "¿Hacemos un descanso pa' almorzar?"
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "L'entretien avec Marta",
+      "contexte": "Tu passes un entretien pour un poste dans un supermarché du centre. Marta, la responsable, te reçoit dans son bureau.",
+      "lignes": [
+        {
+          "qui": "Marta",
+          "es": "Buenos días, Elisabeth. Siéntese, por favor. Cuénteme, ¿qué experiencia tiene?",
+          "fr": "Bonjour Elisabeth. Asseyez-vous, je vous en prie. Racontez-moi, quelle expérience avez-vous ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Buenos días. Tengo tres años de experiencia en atención al cliente.",
+          "fr": "Bonjour. J'ai trois ans d'expérience dans l'accueil client."
+        },
+        {
+          "qui": "Marta",
+          "es": "Muy bien. ¿Y qué idiomas habla?",
+          "fr": "Très bien. Et quelles langues parlez-vous ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Hablo francés y me defiendo en español. Aprendo rápido, se lo prometo.",
+          "fr": "Je parle français et je me débrouille en espagnol. J'apprends vite, je vous le promets."
+        },
+        {
+          "qui": "Marta",
+          "es": "Eso se nota. ¿Cuándo podría empezar?",
+          "fr": "Ça se voit. Quand pourriez-vous commencer ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Tengo disponibilidad inmediata. ¿El contrato es indefinido o temporal?",
+          "fr": "Je suis disponible tout de suite. Le contrat, c'est un CDI ou un CDD ?"
+        },
+        {
+          "qui": "Marta",
+          "es": "Temporal, de seis meses, y luego ya veremos. Es a media jornada.",
+          "fr": "Un CDD de six mois, et ensuite on verra. C'est à mi-temps."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Y me toca el turno de mañana o el de tarde?",
+          "fr": "Et je suis du matin ou de l'après-midi ?"
+        },
+        {
+          "qui": "Marta",
+          "es": "De mañana. Entraría a las siete y saldría a la una.",
+          "fr": "Du matin. Vous commenceriez à sept heures et vous finiriez à une heure."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Perfecto. Soy muy madrugadora.",
+          "fr": "Parfait. Je suis très matinale."
+        }
+      ]
+    },
+    {
+      "titre": "Un lundi très lundi",
+      "contexte": "Deuxième semaine au supermarché. Le bus te fait faux bond, alors tu appelles Rosa, ta jefa, puis tu retrouves Dani, ton collègue.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "Hola, Rosa. Perdona, llego diez minutos tarde. El autobús no ha pasado.",
+          "fr": "Bonjour Rosa. Désolée, je vais avoir dix minutes de retard. Le bus n'est pas passé."
+        },
+        {
+          "qui": "Rosa",
+          "es": "No pasa nada, Elisabeth. Tranquila, te esperamos.",
+          "fr": "Ce n'est pas grave, Elisabeth. Ne t'inquiète pas, on t'attend."
+        },
+        {
+          "qui": "Dani",
+          "es": "¡Buenos días! Ya estás aquí. ¿Qué tal?",
+          "fr": "Bonjour ! Te voilà. Ça va ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Pues muy de lunes, la verdad. Oye, ¿me echas una mano con esto?",
+          "fr": "Eh bien, très lundi, pour être honnête. Dis, tu me donnes un coup de main ?"
+        },
+        {
+          "qui": "Dani",
+          "es": "Claro. Primero pones la etiqueta y luego lo colocas en la estantería.",
+          "fr": "Bien sûr. D'abord tu mets l'étiquette et ensuite tu le ranges sur l'étagère."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "No lo he entendido bien. ¿Me lo repites, por favor?",
+          "fr": "Je n'ai pas bien compris. Tu peux me le répéter, s'il te plaît ?"
+        },
+        {
+          "qui": "Dani",
+          "es": "Sin problema. Mira: etiqueta… y estantería. Así.",
+          "fr": "Pas de problème. Regarde : l'étiquette… et l'étagère. Comme ça."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Ah, vale! Gracias. ¿Hacemos un descanso para almorzar?",
+          "fr": "Ah, d'accord ! Merci. On fait une pause pour manger un morceau ?"
+        },
+        {
+          "qui": "Dani",
+          "es": "Son las diez y media, es la hora del almuerzo. Hoy invito yo al pincho de tortilla.",
+          "fr": "Il est dix heures et demie, c'est l'heure de l'almuerzo. Aujourd'hui, c'est moi qui offre le pincho de tortilla."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Tengo, puedo, sé, hago : parler de ce que tu sais faire",
+    "explication": "Plusieurs verbes très utiles en entretien sont irréguliers, surtout à la forme « yo ». Tener, hacer et salir prennent un g : tengo, hago, salgo. Poder change son o en ue (puedo, puedes, puede), sauf avec nosotros et vosotros. Pour tes compétences, « sé » + infinitif dit ce que tu as appris (sé conducir), et « puedo » + infinitif ce qui est possible pour toi (puedo trabajar los sábados). Le « sé » de saber garde son accent, pour ne pas le confondre avec « se ».",
+    "tableau": [
+      ["tener → tengo", "j'ai"],
+      ["poder → puedo", "je peux"],
+      ["saber → sé", "je sais"],
+      ["hacer → hago", "je fais"],
+      ["salir → salgo", "je sors, je finis"]
+    ],
+    "exemples": [
+      {
+        "es": "Sé usar la caja registradora y puedo trabajar los fines de semana.",
+        "fr": "Je sais me servir de la caisse et je peux travailler le week-end."
+      },
+      {
+        "es": "Hago turnos de tarde y salgo a las diez de la noche.",
+        "fr": "Je fais les après-midi et je finis à dix heures du soir."
+      },
+      {
+        "es": "Tengo carné de conducir, pero no tengo coche.",
+        "fr": "J'ai le permis de conduire, mais je n'ai pas de voiture."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "¡A currar!",
+      "fr": "Au boulot !",
+      "note": "« Currar », c'est bosser, et « el curro », le boulot. Très familier, parfait entre collègues, moins devant le recruteur."
+    },
+    {
+      "es": "Estar hasta arriba",
+      "fr": "Être débordée",
+      "note": "« Estoy hasta arriba de trabajo » : quand les cartons s'empilent plus vite que tu ne les ranges."
+    },
+    {
+      "es": "Estar muy de lunes",
+      "fr": "Avoir une tête de lundi",
+      "note": "Se dit un lundi, mais aussi n'importe quel jour où rien ne va. Les collègues compatiront."
+    },
+    {
+      "es": "Hacer el puente",
+      "fr": "Faire le pont",
+      "note": "Quand un jour férié tombe un jeudi ou un mardi. En Espagne, c'est presque un sport national."
+    },
+    {
+      "es": "Hacerle la pelota al jefe",
+      "fr": "Cirer les pompes du chef",
+      "note": "Celui ou celle qui le fait, c'est « un pelota » ou « una pelota ». Personne ne veut ce surnom."
+    },
+    {
+      "es": "Echar horas",
+      "fr": "Faire des heures",
+      "note": "« Esta semana he echado muchas horas » : j'ai beaucoup travaillé. Les heures supplémentaires, ce sont « las horas extra »."
+    }
+  ]
+}

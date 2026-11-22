@@ -8,24 +8,11 @@
     "situations/05-bar.json",
     "situations/06-medecin.json",
     "situations/07-voisins.json",
-    "situations/08-logement.json"
+    "situations/08-logement.json",
+    "situations/09-administration.json",
+    "situations/10-travail.json",
+    "situations/11-urgences.json",
+    "situations/12-ecole.json"
   ],
-  "bientot": [
-    {
-      "titre": "L'administration",
-      "titre_es": "Los trámites"
-    },
-    {
-      "titre": "Le travail",
-      "titre_es": "El trabajo"
-    },
-    {
-      "titre": "Les urgences",
-      "titre_es": "Las urgencias"
-    },
-    {
-      "titre": "L'école et les enfants",
-      "titre_es": "El cole y los niños"
-    }
-  ]
+  "bientot": []
 }
