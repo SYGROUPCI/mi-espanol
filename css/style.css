@@ -582,3 +582,12 @@ input:focus, textarea:focus { border-color: var(--violet-vif); }
   :root { --nav-h: 46px; }
   .nav a { flex-direction: row; display: flex; align-items: center; gap: 6px; }
 }
+
+/* ---------- Mise à jour en direct ---------- */
+.maintenance {
+  position: fixed; inset: 0; z-index: 50; display: grid; place-content: center; justify-items: center; gap: 14px;
+  background: var(--papier); text-align: center; padding: 24px; animation: fondu-maj .25s ease;
+}
+.maintenance .logo { animation: tamponner .55s cubic-bezier(.3, 1.6, .5, 1) both; --rot: -6deg; transform: rotate(var(--rot)); }
+.maintenance-titre { font-family: var(--titre); font-size: 1.6rem; }
+@keyframes fondu-maj { from { opacity: 0; } }

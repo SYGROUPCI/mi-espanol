@@ -57,15 +57,45 @@ async function demarrer() {
   window.addEventListener("hashchange", router);
   router();
   if ("serviceWorker" in navigator) {
-    // Quand une nouvelle version est mise en ligne, on recharge une fois pour l'afficher tout de suite.
-    const avaitUneVersion = !!navigator.serviceWorker.controller;
-    let recharge = false;
+    // Mises à jour sans fermer l'appli :
+    // - on vérifie s'il y a une nouvelle version au retour dans l'appli et toutes les 5 minutes ;
+    // - si oui, écran « Petite mise à jour » une seconde, puis l'appli se recharge au même endroit ;
+    // - jamais au milieu d'un exercice, d'une conversation, d'une saisie ou d'une fenêtre ouverte :
+    //   on attend qu'elle revienne à un écran calme.
+    // Au tout premier lancement, le premier « changement de version » est juste l'installation :
+    // on l'ignore. Toutes les mises à jour suivantes, elles, sont appliquées.
+    let dejaInstallee = !!navigator.serviceWorker.controller;
+    let enAttente = false;
+    let enCours = false;
+    const occupee = () =>
+      /^#\/(defi|apprendre|pratiquer|charla)/.test(location.hash) ||
+      !!document.activeElement?.matches?.("input, textarea") ||
+      !$("#modale").hidden;
+    const appliquer = () => {
+      if (enCours) return;
+      if (occupee()) { enAttente = true; return; }
+      enCours = true;
+      const ecran = document.createElement("div");
+      ecran.className = "maintenance";
+      ecran.setAttribute("role", "status");
+      ecran.innerHTML = `<span class="logo">Ñ</span><p class="maintenance-titre">Petite mise à jour…</p><p class="petit">Ta progression est bien gardée.</p>`;
+      document.body.appendChild(ecran);
+      setTimeout(() => location.reload(), 1100);
+    };
     navigator.serviceWorker.addEventListener("controllerchange", () => {
-      if (!avaitUneVersion || recharge || location.hash.startsWith("#/defi")) return;
-      recharge = true;
-      location.reload();
+      if (!dejaInstallee) { dejaInstallee = true; return; }
+      appliquer();
     });
-    navigator.serviceWorker.register("sw.js").catch(() => {});
+    window.addEventListener("hashchange", () => {
+      if (enAttente) setTimeout(() => { if (!occupee()) { enAttente = false; appliquer(); } }, 300);
+    });
+    navigator.serviceWorker.register("sw.js").then((reg) => {
+      const verifier = () => reg.update().catch(() => {});
+      document.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "visible") verifier();
+      });
+      setInterval(verifier, 5 * 60 * 1000);
+    }).catch(() => {});
   }
   navigator.storage?.persist?.().catch(() => {});
 }
