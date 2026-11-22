@@ -25,7 +25,7 @@
   --rouge-doux: #FBE5EA;
   --raisin: #3E1A5C;
   --ombre: 0 1px 2px rgba(29, 22, 48, .05), 0 10px 30px -12px rgba(75, 42, 134, .18);
-  --verre: rgba(246, 243, 250, .82);
+  --verre: rgba(246, 243, 250, .97);
   color-scheme: light;
 }
 
@@ -39,7 +39,7 @@
     --vert: #5BD3A2; --vert-doux: #163528; --rouge: #FF8CA3; --rouge-doux: #3D1A27;
     --raisin: #2A1145;
     --ombre: 0 1px 2px rgba(0, 0, 0, .3), 0 12px 32px -14px rgba(0, 0, 0, .7);
-    --verre: rgba(23, 18, 42, .84);
+    --verre: rgba(23, 18, 42, .97);
     color-scheme: dark;
   }
 }
@@ -51,7 +51,7 @@
   --vert: #5BD3A2; --vert-doux: #163528; --rouge: #FF8CA3; --rouge-doux: #3D1A27;
   --raisin: #2A1145;
   --ombre: 0 1px 2px rgba(0, 0, 0, .3), 0 12px 32px -14px rgba(0, 0, 0, .7);
-  --verre: rgba(23, 18, 42, .84);
+  --verre: rgba(23, 18, 42, .97);
   color-scheme: dark;
 }
 
@@ -60,7 +60,7 @@
   --texte: "Atkinson Hyperlegible", -apple-system, "Segoe UI", Roboto, sans-serif;
   --main: "Caveat", "Segoe Print", cursive;
   --ease: cubic-bezier(.2, .8, .2, 1);
-  --nav-h: 66px;
+  --nav-h: 60px;
   --marge: clamp(16px, 4.5vw, 44px);
 }
 
@@ -400,6 +400,9 @@ input:focus, textarea:focus { border-color: var(--violet-vif); }
   background: var(--verre); backdrop-filter: saturate(160%) blur(18px); -webkit-backdrop-filter: saturate(160%) blur(18px);
   border: 1.5px solid var(--trait); border-radius: 22px; box-shadow: var(--ombre);
 }
+.nav { transition: transform .28s var(--ease), opacity .28s var(--ease); }
+/* Quand elle lit en descendant, la barre s'efface ; elle revient dès qu'elle remonte. */
+.nav.nav-cachee { transform: translate(-50%, calc(100% + 24px)); opacity: 0; pointer-events: none; }
 .nav-marque { display: none; }
 .nav a { display: grid; justify-items: center; gap: 2px; font-size: .72rem; color: var(--gris); text-decoration: none; padding: 7px 10px; border-radius: 14px; min-width: 66px; font-weight: 700; }
 .nav a.actif { color: var(--violet); background: var(--violet-doux); }
@@ -461,4 +464,9 @@ input:focus, textarea:focus { border-color: var(--violet-vif); }
 
 @media (prefers-reduced-motion: reduce) {
   *, ::view-transition-old(root), ::view-transition-new(root) { animation: none !important; transition: none !important; }
+}
+
+/* Sur ordinateur, le menu de gauche reste toujours visible. */
+@media (min-width: 1080px) {
+  .nav.nav-cachee { transform: none; opacity: 1; pointer-events: auto; }
 }

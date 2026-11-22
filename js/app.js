@@ -28,6 +28,15 @@ async function demarrer() {
   }
   if (!S.get().prenom) S.maj((s) => (s.prenom = C.prenomParDefaut() || "toi"));
   remplirIcones(nav);
+  // La barre du bas s'efface quand elle lit en descendant, et revient dès qu'elle remonte.
+  let dernierY = window.scrollY;
+  window.addEventListener("scroll", () => {
+    const y = window.scrollY;
+    const enBas = window.innerHeight + y >= document.documentElement.scrollHeight - 40;
+    if (y > dernierY + 6 && y > 120 && !enBas) nav.classList.add("nav-cachee");
+    else if (y < dernierY - 6 || y <= 120 || enBas) nav.classList.remove("nav-cachee");
+    dernierY = y;
+  }, { passive: true });
   window.addEventListener("hashchange", router);
   router();
   if ("serviceWorker" in navigator) {
@@ -60,6 +69,7 @@ function router() {
     prononciation: guidePrononciation,
   };
   const rendre = () => {
+    nav.classList.remove("nav-cachee");
     (ecrans[route] || accueil)();
     window.scrollTo(0, 0);
   };
