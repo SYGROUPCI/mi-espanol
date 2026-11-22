@@ -20,6 +20,8 @@ const DEFAUT = () => ({
   defi: null,        // défi du jour en cours
   motsVus: [],       // petits mots déjà ouverts
   sellos: [],        // tampons déjà célébrés (situations terminées)
+  charla: null,      // conversation IA en cours { scene, messages }
+  codeIA: null,      // code d'accès à la conversation (jamais exporté)
   bienvenueVue: false,
 });
 
@@ -136,7 +138,8 @@ export function retirerDuCarnet(id) {
 
 // ---------- sauvegarde ----------
 export function exporter() {
-  return JSON.stringify({ app: "mi-espanol", exporteLe: new Date().toISOString(), etat }, null, 1);
+  const { codeIA, ...sansCode } = etat;
+  return JSON.stringify({ app: "mi-espanol", exporteLe: new Date().toISOString(), etat: sansCode }, null, 1);
 }
 export function importer(texte) {
   const data = JSON.parse(texte);

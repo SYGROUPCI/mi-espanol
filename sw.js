@@ -2,7 +2,7 @@
 // Stratégie « stale-while-revalidate » : on sert tout de suite la version en cache,
 // et on met le cache à jour en arrière-plan. Les nouveautés apparaissent au lancement suivant.
 // Changer VERSION à chaque mise en ligne force le renouvellement complet du cache.
-const VERSION = "mi-espanol-20261122-2141";
+const VERSION = "mi-espanol-20261122-2204";
 
 const FICHIERS = [
   "./",
@@ -16,6 +16,7 @@ const FICHIERS = [
   "js/contenu.js",
   "js/ui.js",
   "js/exercices.js",
+  "js/charla.js",
   "data/index.json",
   "data/mots.json",
   "icons/apple-touch-icon.png",

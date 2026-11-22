@@ -2,6 +2,7 @@
 import * as S from "./store.js";
 import * as C from "./contenu.js";
 import * as X from "./exercices.js";
+import { ecranCharla } from "./charla.js";
 import { $, $$, e, ico, remplirIcones, toast, modale, confirmer, melanger, auHasard } from "./ui.js";
 
 const app = $("#app");
@@ -63,6 +64,7 @@ function router() {
     apprendre: () => apprendre(arg),
     pratiquer: () => pratiquer(arg),
     defi: defi,
+    charla: () => ecranCharla(app, { montrerNav, aller }),
     carnet: carnet,
     surprises: surprises,
     reglages: reglages,
