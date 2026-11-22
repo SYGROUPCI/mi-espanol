@@ -1,0 +1,34 @@
+{
+  "prenom": "Elisabeth",
+  "situations": [
+    "situations/01-amis.json",
+    "situations/02-telephone.json",
+    "situations/03-beaute.json",
+    "situations/04-culture.json",
+    "situations/05-bar.json",
+    "situations/06-medecin.json",
+    "situations/07-voisins.json"
+  ],
+  "bientot": [
+    {
+      "titre": "Le logement",
+      "titre_es": "La vivienda"
+    },
+    {
+      "titre": "L'administration",
+      "titre_es": "Los trámites"
+    },
+    {
+      "titre": "Le travail",
+      "titre_es": "El trabajo"
+    },
+    {
+      "titre": "Les urgences",
+      "titre_es": "Las urgencias"
+    },
+    {
+      "titre": "L'école et les enfants",
+      "titre_es": "El cole y los niños"
+    }
+  ]
+}

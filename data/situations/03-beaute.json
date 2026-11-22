@@ -1,0 +1,206 @@
+{
+  "id": "beaute",
+  "ordre": 3,
+  "titre": "Coiffeur, ongles et vêtements",
+  "titre_es": "Peluquería, uñas y ropa",
+  "intro": "Chez le coiffeur, un mot de travers et c'est la frange surprise. Ici tu apprends à dire exactement ce que tu veux, à essayer, à négocier les soldes et à rapporter ce qui ne va pas.",
+  "phrases": [
+    {
+      "id": "beaute-01",
+      "es": "Quería pedir cita para cortarme el pelo.",
+      "fr": "Je voudrais prendre rendez-vous pour une coupe.",
+      "pron": "ké-RI-a pé-DIR THI-ta pa-ra kor-TAR-mé él PÉ-lo",
+      "note": "« Quería » (à l'imparfait) est la formule polie pour demander, comme « je voudrais ».",
+      "rapide": "Quería pedir cita pa' cortarme el pelo."
+    },
+    {
+      "id": "beaute-02",
+      "es": "Solo las puntas, por favor.",
+      "fr": "Juste les pointes, s'il vous plaît.",
+      "pron": "SO-lo lass POUN-tass por fa-BOR",
+      "note": "Phrase de survie. À répéter deux fois si les ciseaux s'approchent trop.",
+      "rapide": "Solo las puntas, por fa."
+    },
+    {
+      "id": "beaute-03",
+      "es": "¿Hacéis trenzas?",
+      "fr": "Vous faites les tresses ?",
+      "pron": "a-THÉÏSS TRÉN-thass",
+      "note": "Avec « vosotros », tu t'adresses à tout le salon."
+    },
+    {
+      "id": "beaute-04",
+      "es": "Quiero trenzas largas, con extensiones.",
+      "fr": "Je voudrais des tresses longues, avec des rajouts.",
+      "pron": "KYÉ-ro TRÉN-thass LAR-gass kon éks-tén-SYO-néss"
+    },
+    {
+      "id": "beaute-05",
+      "es": "Me gustaría cambiar de color.",
+      "fr": "J'aimerais changer de couleur.",
+      "pron": "mé gouss-ta-RI-a kam-BYAR dé ko-LOR",
+      "note": "Pour plus de précision : « un poco más claro » (un peu plus clair), « más oscuro » (plus foncé)."
+    },
+    {
+      "id": "beaute-06",
+      "es": "¿Cuánto cuesta una manicura semipermanente?",
+      "fr": "Combien coûte une manucure semi-permanente ?",
+      "pron": "KOUAN-to KOUÉSS-ta OU-na ma-ni-KOU-ra sé-mi-pér-ma-NÉN-té",
+      "note": "Au salon, on dit souvent juste « el semipermanente », voire « el semi »."
+    },
+    {
+      "id": "beaute-07",
+      "es": "Las quiero cortas y en rojo.",
+      "fr": "Je les veux courtes et en rouge.",
+      "pron": "lass KYÉ-ro KOR-tass i én RRO-kho",
+      "note": "« Las », ce sont les ongles : « las uñas » est féminin."
+    },
+    {
+      "id": "beaute-08",
+      "es": "¿Dónde están los probadores?",
+      "fr": "Où sont les cabines d'essayage ?",
+      "pron": "DON-dé éss-TAN loss pro-ba-DO-réss",
+      "rapide": "¿Dónde 'tán los probadores?"
+    },
+    {
+      "id": "beaute-09",
+      "es": "¿Puedo probármelo?",
+      "fr": "Je peux l'essayer ?",
+      "pron": "POUÉ-do pro-BAR-mé-lo",
+      "note": "Pour un pantalon ou une robe (el vestido, masculin). Pour une jupe : « probármela »."
+    },
+    {
+      "id": "beaute-10",
+      "es": "¿Lo tienes en una talla más?",
+      "fr": "Tu l'as dans la taille au-dessus ?",
+      "pron": "lo TYÉ-néss én OU-na TA-ya MASS",
+      "note": "Pour la taille en dessous : « una talla menos ». En boutique, les vendeuses te tutoient souvent."
+    },
+    {
+      "id": "beaute-11",
+      "es": "Este color no me gusta mucho.",
+      "fr": "Cette couleur ne me plaît pas trop.",
+      "pron": "ÉSS-té ko-LOR no mé GOUSS-ta MOU-tcho",
+      "note": "« Color » est masculin en espagnol : este color."
+    },
+    {
+      "id": "beaute-12",
+      "es": "¿Me queda bien?",
+      "fr": "Ça me va bien ?",
+      "pron": "mé KÉ-da BYÉN",
+      "note": "La question à poser à une amie honnête, pas à la vendeuse."
+    },
+    {
+      "id": "beaute-13",
+      "es": "Me queda un poco grande.",
+      "fr": "C'est un peu grand pour moi.",
+      "pron": "mé KÉ-da oun PO-ko GRAN-dé",
+      "note": "Et l'inverse : « me queda un poco pequeño » ou « me queda estrecho » (serré)."
+    },
+    {
+      "id": "beaute-14",
+      "es": "Me encantan estos zapatos.",
+      "fr": "J'adore ces chaussures.",
+      "pron": "mé én-KAN-tan ÉSS-toss tha-PA-toss",
+      "note": "« Encantan » au pluriel, parce que les chaussures sont deux. Au moins."
+    },
+    {
+      "id": "beaute-15",
+      "es": "¿Cuánto vale esta falda?",
+      "fr": "Combien coûte cette jupe ?",
+      "pron": "KOUAN-to BA-lé ÉSS-ta FAL-da",
+      "note": "« ¿Cuánto vale? » et « ¿Cuánto cuesta? » veulent dire la même chose.",
+      "rapide": "¿Cuánto vale 'sta falda?"
+    },
+    {
+      "id": "beaute-16",
+      "es": "¿Esto está rebajado?",
+      "fr": "C'est soldé ?",
+      "pron": "ÉSS-to éss-TA rré-ba-KHA-do",
+      "note": "Les grandes rebajas commencent début janvier et début juillet.",
+      "rapide": "¿Esto 'tá rebajao?"
+    },
+    {
+      "id": "beaute-17",
+      "es": "Me lo llevo.",
+      "fr": "Je le prends.",
+      "pron": "mé lo YÉ-bo",
+      "note": "Littéralement « je l'emporte ». Pour un objet féminin : « me la llevo »."
+    },
+    {
+      "id": "beaute-18",
+      "es": "¿Lo puedo cambiar si no me queda bien?",
+      "fr": "Je peux l'échanger s'il ne me va pas ?",
+      "pron": "lo POUÉ-do kam-BYAR si no mé KÉ-da BYÉN"
+    },
+    {
+      "id": "beaute-19",
+      "es": "Quería devolver esto. Aquí tiene el tique.",
+      "fr": "Je voudrais rendre ceci. Voici le ticket.",
+      "pron": "ké-RI-a dé-bol-BÉR ÉSS-to a-KI TYÉ-né él TI-ké",
+      "note": "Sans ticket, c'est souvent non. Garde-le dans ton portefeuille, pas au fond du sac."
+    },
+    {
+      "id": "beaute-20",
+      "es": "¿Me devolvéis el dinero o es un vale?",
+      "fr": "Vous me remboursez ou c'est un avoir ?",
+      "pron": "mé dé-bol-BÉÏSS él di-NÉ-ro o ÉSS oun BA-lé",
+      "note": "Ici « vale » veut dire avoir. Oui, le même mot que « d'accord » : l'espagnol aime recycler."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Des tresses pour samedi",
+      "contexte": "Tu entres dans un salon de coiffure afro du centre-ville.",
+      "lignes": [
+        { "qui": "Elisabeth", "es": "Hola, buenas. Quería pedir cita para hacerme trenzas.", "fr": "Bonjour. Je voudrais prendre rendez-vous pour me faire des tresses." },
+        { "qui": "Peluquera", "es": "Muy bien. ¿Qué quieres exactamente?", "fr": "Très bien. Qu'est-ce que tu veux exactement ?" },
+        { "qui": "Elisabeth", "es": "Quiero trenzas largas, con extensiones. ¿Cuánto cuesta?", "fr": "Je voudrais des tresses longues, avec des rajouts. Ça coûte combien ?" },
+        { "qui": "Peluquera", "es": "Unos ciento veinte euros, y son unas cinco horas.", "fr": "Environ cent vingt euros, et ça prend à peu près cinq heures." },
+        { "qui": "Elisabeth", "es": "¡Cinco horas! Vale, me traigo un libro.", "fr": "Cinq heures ! D'accord, j'apporte un livre." },
+        { "qui": "Peluquera", "es": "¿Te viene bien el sábado a las nueve?", "fr": "Samedi à neuf heures, ça te va ?" },
+        { "qui": "Elisabeth", "es": "Perfecto. Y ya que estoy, ¿hacéis manicura semipermanente?", "fr": "Parfait. Et tant que j'y suis, vous faites la manucure semi-permanente ?" },
+        { "qui": "Peluquera", "es": "Sí, claro. Te la hace mi compañera mientras te trenzo.", "fr": "Oui, bien sûr. Ma collègue te la fait pendant que je te tresse." }
+      ]
+    },
+    {
+      "titre": "La robe des soldes",
+      "contexte": "En pleines soldes de janvier, tu essaies une robe avec Lucía.",
+      "lignes": [
+        { "qui": "Elisabeth", "es": "Perdona, ¿dónde están los probadores?", "fr": "Excusez-moi, où sont les cabines d'essayage ?" },
+        { "qui": "Dependienta", "es": "Al fondo, a la derecha.", "fr": "Au fond, à droite." },
+        { "qui": "Elisabeth", "es": "Lucía, ¿me queda bien?", "fr": "Lucía, ça me va bien ?" },
+        { "qui": "Lucía", "es": "Te queda genial, pero un poco grande.", "fr": "Elle te va super bien, mais elle est un peu grande." },
+        { "qui": "Elisabeth", "es": "¿Lo tienes en una talla menos?", "fr": "Tu l'as dans la taille en dessous ?" },
+        { "qui": "Dependienta", "es": "Sí, toma. Y está rebajado, un treinta por ciento.", "fr": "Oui, tiens. Et elle est soldée, moins trente pour cent." },
+        { "qui": "Elisabeth", "es": "¡Me encanta! Me lo llevo. ¿Lo puedo cambiar si no me queda bien?", "fr": "Je l'adore ! Je la prends. Je peux l'échanger si elle ne me va pas ?" },
+        { "qui": "Dependienta", "es": "Sí, tienes treinta días con el tique.", "fr": "Oui, tu as trente jours avec le ticket." }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Gustar, encantar et quedar bien",
+    "explication": "Avec gustar, ce qui plaît est le sujet du verbe : me gusta + une chose, me gustan + plusieurs choses. Encantar (adorer) fonctionne exactement pareil. Quedar bien ou mal, pour un vêtement, suit la même logique : el vestido me queda bien, los zapatos me quedan mal. Pour dire à qui ça plaît ou ça va, change le petit pronom : me, te, le, nos, os, les.",
+    "tableau": [
+      ["me gusta", "une chose : me gusta este vestido"],
+      ["me gustan", "plusieurs : me gustan tus trenzas"],
+      ["me encanta / me encantan", "j'adore : me encantan las rebajas"],
+      ["me queda bien", "ça me va : la falda me queda bien"],
+      ["me quedan mal", "ça ne me va pas : los vaqueros me quedan mal"],
+      ["te, le, nos, os, les", "à toi, à lui ou à elle, à nous, à vous, à eux"]
+    ],
+    "exemples": [
+      { "es": "¿Te gustan mis uñas?", "fr": "Elles te plaisent, mes ongles ?" },
+      { "es": "Esa falda te queda genial.", "fr": "Cette jupe te va super bien." },
+      { "es": "Nos encanta ir de tiendas.", "fr": "On adore faire les boutiques." }
+    ]
+  },
+  "expressions": [
+    { "es": "¡Qué mona!", "fr": "Trop mignonne !", "note": "Pour une robe, un sac, un bébé. Au masculin : « ¡qué mono! »." },
+    { "es": "Te queda que ni pintado.", "fr": "Ça te va comme un gant.", "note": "Le compliment parfait en sortant de la cabine." },
+    { "es": "Cuesta un ojo de la cara.", "fr": "Ça coûte les yeux de la tête.", "note": "Les Espagnols sont plus économes : un seul œil suffit." },
+    { "es": "Ir de tiendas", "fr": "Faire les boutiques" },
+    { "es": "Darse un capricho", "fr": "Se faire plaisir", "note": "La justification officielle de tout achat imprévu." },
+    { "es": "Ir hecha un pincel", "fr": "Être tirée à quatre épingles", "note": "Au masculin : « ir hecho un pincel »." }
+  ]
+}

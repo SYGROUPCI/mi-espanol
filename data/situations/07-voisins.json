@@ -1,0 +1,331 @@
+{
+  "id": "voisins",
+  "ordre": 7,
+  "titre": "Les voisins",
+  "titre_es": "Los vecinos",
+  "intro": "Dire bonjour dans l'ascenseur, demander un coup de main, parler poubelles et réunion de copropriété : de quoi devenir la voisine préférée de l'immeuble. Ou au moins celle qu'on salue avec le sourire.",
+  "phrases": [
+    {
+      "id": "voisins-01",
+      "es": "¡Buenos días!",
+      "fr": "Bonjour !",
+      "pron": "BOUÉ-noss DI-ass",
+      "note": "Dans l'ascenseur ou l'escalier, on salue toujours, même quelqu'un qu'on n'a jamais vu. Ne rien dire passe pour froid."
+    },
+    {
+      "id": "voisins-02",
+      "es": "¡Hasta luego!",
+      "fr": "Au revoir ! / À plus tard !",
+      "pron": "ASS-ta LOUÉ-go",
+      "note": "On le dit en sortant de l'ascenseur, même si on ne reverra pas la personne avant une semaine.",
+      "rapide": "¡'Ta luego!"
+    },
+    {
+      "id": "voisins-03",
+      "es": "¿A qué piso va?",
+      "fr": "Vous allez à quel étage ?",
+      "pron": "a KÉ PI-sso BA",
+      "note": "« Va » pour vouvoyer une personne âgée. À quelqu'un de ton âge : « ¿A qué piso vas? »"
+    },
+    {
+      "id": "voisins-04",
+      "es": "Soy la nueva vecina del tercero.",
+      "fr": "Je suis la nouvelle voisine du troisième.",
+      "pron": "SOÏ la NOUÉ-ba bé-THI-na dél tér-THÉ-ro",
+      "note": "On donne l'étage puis la porte : « el tercero B ». Et « vecina » au féminin, puisque c'est toi."
+    },
+    {
+      "id": "voisins-05",
+      "es": "Encantada de conocerla.",
+      "fr": "Enchantée de faire votre connaissance.",
+      "pron": "én-kan-TA-da dé ko-no-THÉR-la",
+      "note": "« La » pour une dame que tu vouvoies, « le » pour un monsieur. Si tu tutoies : « encantada de conocerte »."
+    },
+    {
+      "id": "voisins-06",
+      "es": "Si necesita algo, ya sabe dónde estoy.",
+      "fr": "Si vous avez besoin de quoi que ce soit, vous savez où me trouver.",
+      "pron": "si né-thé-SSI-ta AL-go YA SA-bé DON-dé éss-TOÏ",
+      "note": "La phrase de bonne voisine. Elle marche aussi dans l'autre sens, et c'est un peu le but.",
+      "rapide": "Si necesita algo, ya sabe dónde 'stoy."
+    },
+    {
+      "id": "voisins-07",
+      "es": "¿Lleva mucho tiempo viviendo aquí?",
+      "fr": "Ça fait longtemps que vous habitez ici ?",
+      "pron": "YÉ-ba MOU-tcho TYÉM-po bi-BYÉN-do a-KI",
+      "note": "Parfait pour lancer la conversation avec une voisine âgée : elle aura sûrement mille histoires sur l'immeuble."
+    },
+    {
+      "id": "voisins-08",
+      "es": "¿Le importaría recoger un paquete por mí?",
+      "fr": "Ça vous dérangerait de récupérer un colis pour moi ?",
+      "pron": "lé im-por-ta-RI-a rré-ko-KHÉR oun pa-KÉ-té por MI",
+      "note": "« ¿Le importaría…? » est très poli, idéal avec un voisin que tu connais encore peu."
+    },
+    {
+      "id": "voisins-09",
+      "es": "¿Me puedes dejar un poco de sal?",
+      "fr": "Tu peux me dépanner d'un peu de sel ?",
+      "pron": "mé POUÉ-déss dé-KHAR oun PO-ko dé SAL",
+      "note": "Ici « dejar » veut dire prêter. Pour le sel, personne ne te demandera de le rendre."
+    },
+    {
+      "id": "voisins-10",
+      "es": "¿Me echas una mano con las cajas?",
+      "fr": "Tu me donnes un coup de main avec les cartons ?",
+      "pron": "mé É-tchass OU-na MA-no kon lass KA-khass",
+      "note": "« Echar una mano », c'est donner un coup de main. Très utile le jour du déménagement.",
+      "rapide": "¿M'echas una mano con las cajas?"
+    },
+    {
+      "id": "voisins-11",
+      "es": "¿Podéis bajar un poco la música, por favor?",
+      "fr": "Vous pouvez baisser un peu la musique, s'il vous plaît ?",
+      "pron": "po-DÉÏSS ba-KHAR oun PO-ko la MOU-ssi-ka por fa-BOR",
+      "note": "« Podéis » pour les jeunes d'à côté. Demandé avec le sourire, ça marche mieux que le balai contre le plafond.",
+      "rapide": "¿Podéis bajar un poco la música, porfa?"
+    },
+    {
+      "id": "voisins-12",
+      "es": "Es que mañana madrugo.",
+      "fr": "C'est que demain je me lève tôt.",
+      "pron": "ÉSS ké ma-GNA-na ma-DROU-go",
+      "note": "« Es que » adoucit n'importe quelle demande. « Madrugar », c'est se lever tôt, en un seul verbe."
+    },
+    {
+      "id": "voisins-13",
+      "es": "Perdón por el ruido de anoche.",
+      "fr": "Désolée pour le bruit d'hier soir.",
+      "pron": "pér-DON por él RROUI-do dé a-NO-tché",
+      "note": "Pour le lendemain de ton anniversaire. Une petite boîte de gâteaux aide beaucoup.",
+      "rapide": "Perdón por el ruido d'anoche."
+    },
+    {
+      "id": "voisins-14",
+      "es": "¿A qué hora se baja la basura?",
+      "fr": "À quelle heure on sort les poubelles ?",
+      "pron": "a KÉ O-ra sé BA-kha la ba-SSOU-ra",
+      "note": "On dit « bajar la basura », descendre la poubelle. Les horaires sont souvent affichés dans le hall, le « portal »."
+    },
+    {
+      "id": "voisins-15",
+      "es": "¿Dónde está el contenedor del reciclaje?",
+      "fr": "Où est le conteneur de tri ?",
+      "pron": "DON-dé éss-TA él kon-té-né-DOR dél rré-thi-KLA-khé",
+      "note": "Jaune pour les plastiques et les canettes, bleu pour le papier, vert pour le verre. Le reste va dans le gris.",
+      "rapide": "¿Dónde 'stá el contenedor del reciclaje?"
+    },
+    {
+      "id": "voisins-16",
+      "es": "¿Cuándo es la próxima reunión de vecinos?",
+      "fr": "C'est quand, la prochaine réunion de copropriété ?",
+      "pron": "KOUAN-do ÉSS la PROK-ssi-ma rré-ou-NYON dé bé-THI-noss",
+      "note": "On y vote les travaux et on y découvre qui est fâché avec qui depuis 1987."
+    },
+    {
+      "id": "voisins-17",
+      "es": "¿Hay que pagar algo a la comunidad?",
+      "fr": "Est-ce qu'il y a des charges à payer à la copropriété ?",
+      "pron": "AÏ ké pa-GAR AL-go a la ko-mou-ni-DAD",
+      "note": "La « comunidad de vecinos », c'est la copropriété. Si tu es locataire, c'est souvent le propriétaire qui paie : regarde ton contrat."
+    },
+    {
+      "id": "voisins-18",
+      "es": "Se me ha perdido la llave del buzón.",
+      "fr": "J'ai perdu la clé de la boîte aux lettres.",
+      "pron": "sé mé a pér-DI-do la YA-bé dél bou-THON",
+      "note": "Avec « se me ha perdido », la clé s'est perdue toute seule : ce n'est pas ta faute. Le portero ou la portera saura qui appeler.",
+      "rapide": "Se m'ha perdido la llave del buzón."
+    },
+    {
+      "id": "voisins-19",
+      "es": "¡Uy, perdone! Ahora mismo miro de dónde sale el agua.",
+      "fr": "Oh, pardon ! Je regarde tout de suite d'où vient l'eau.",
+      "pron": "OUÏ pér-DO-né a-O-ra MISS-mo MI-ro dé DON-dé SA-lé él A-goua",
+      "note": "Si l'eau vient de chez toi, préviens ton propriétaire : en général, c'est l'assurance habitation, el seguro del hogar, qui s'en occupe."
+    },
+    {
+      "id": "voisins-20",
+      "es": "¿Por qué no subís a cenar el sábado?",
+      "fr": "Pourquoi vous ne monteriez pas dîner samedi ?",
+      "pron": "por KÉ no sou-BISS a thé-NAR él SA-ba-do",
+      "note": "« Subís » parce qu'ils habitent en dessous. S'ils habitent au-dessus : « ¿Por qué no bajáis…? »"
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Dans l'ascenseur avec Carmen",
+      "contexte": "Un matin, tu entres dans l'ascenseur avec une dame âgée de l'immeuble, son cabas à la main.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "¡Buenos días! ¿A qué piso va?",
+          "fr": "Bonjour ! Vous allez à quel étage ?"
+        },
+        {
+          "qui": "Carmen",
+          "es": "Al segundo, gracias, hija. Tú eres nueva, ¿verdad?",
+          "fr": "Au deuxième, merci, ma petite. Tu es nouvelle, non ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí, soy la nueva vecina del tercero. Me llamo Elisabeth.",
+          "fr": "Oui, je suis la nouvelle voisine du troisième. Je m'appelle Elisabeth."
+        },
+        {
+          "qui": "Carmen",
+          "es": "Yo soy Carmen. Bienvenida al edificio.",
+          "fr": "Moi, c'est Carmen. Bienvenue dans l'immeuble."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Encantada de conocerla, Carmen. ¡Qué frío hace hoy!",
+          "fr": "Enchantée de faire votre connaissance, Carmen. Qu'est-ce qu'il fait froid aujourd'hui !"
+        },
+        {
+          "qui": "Carmen",
+          "es": "Es el cierzo, hija. Ya te acostumbrarás.",
+          "fr": "C'est le cierzo, ma petite. Tu t'y habitueras."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Oiga, ¿a qué hora se baja la basura?",
+          "fr": "Dites-moi, à quelle heure on sort les poubelles ?"
+        },
+        {
+          "qui": "Carmen",
+          "es": "Por la noche. Los horarios están en el portal. Y si necesitas algo, ya sabes dónde estoy.",
+          "fr": "Le soir. Les horaires sont affichés dans le hall. Et si tu as besoin de quoi que ce soit, tu sais où me trouver."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Muchas gracias. ¡Hasta luego!",
+          "fr": "Merci beaucoup. Au revoir !"
+        }
+      ]
+    },
+    {
+      "titre": "De l'eau chez Álex",
+      "contexte": "Un dimanche soir, on sonne : c'est le jeune voisin du dessous, l'air embêté.",
+      "lignes": [
+        {
+          "qui": "Álex",
+          "es": "Hola, perdona, soy Álex, el vecino de abajo. Me está cayendo agua en el baño.",
+          "fr": "Bonsoir, excuse-moi, je suis Álex, le voisin du dessous. J'ai de l'eau qui coule dans ma salle de bains."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Uy, perdona! Ahora mismo miro de dónde sale el agua.",
+          "fr": "Oh, pardon ! Je regarde tout de suite d'où vient l'eau."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Es la lavadora. Ya he cerrado la llave de paso. ¡Qué apuro!",
+          "fr": "C'est la machine à laver. J'ai déjà fermé le robinet d'arrivée. Je suis vraiment confuse !"
+        },
+        {
+          "qui": "Álex",
+          "es": "Tranquila, no pasa nada. ¿Tienes seguro del hogar?",
+          "fr": "T'inquiète, ce n'est rien. Tu as une assurance habitation ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí, ahora llamo al seguro y al dueño del piso. Lo siento mucho, de verdad.",
+          "fr": "Oui, j'appelle l'assurance et le propriétaire tout de suite. Je suis vraiment désolée."
+        },
+        {
+          "qui": "Álex",
+          "es": "Son cosas que pasan. Hoy por ti, mañana por mí.",
+          "fr": "Ce sont des choses qui arrivent. Un jour c'est toi, un jour c'est moi."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Gracias. Oye, ¿por qué no subís a cenar el sábado, tú y tu novia?",
+          "fr": "Merci. Dis, pourquoi vous ne monteriez pas dîner samedi, ta copine et toi ?"
+        },
+        {
+          "qui": "Álex",
+          "es": "¡Hecho! Llevamos el vino. Y prometo no poner la música muy alta.",
+          "fr": "Marché conclu ! On apporte le vin. Et je promets de ne pas mettre la musique trop fort."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Tú ou usted ?",
+    "explication": "Usted, c'est le vouvoiement : pour une personne âgée, un inconnu plus âgé que toi ou le président de la copropriété la première fois. Avec les voisins de ton âge, on passe vite au tú, et si on te tutoie, tu peux tutoyer aussi. Bonne nouvelle : usted se conjugue comme él ou ella, il suffit souvent d'enlever le -s de la forme tú. À gauche, la version tú ; à droite, la version usted.",
+    "tableau": [
+      [
+        "¿Necesitas algo?",
+        "¿Necesita algo?"
+      ],
+      [
+        "¿Tienes un momento?",
+        "¿Tiene un momento?"
+      ],
+      [
+        "¿Puedes ayudarme?",
+        "¿Puede ayudarme?"
+      ],
+      [
+        "Perdona",
+        "Perdone"
+      ],
+      [
+        "Oye",
+        "Oiga"
+      ],
+      [
+        "Encantada de conocerte",
+        "Encantada de conocerla / conocerle"
+      ]
+    ],
+    "exemples": [
+      {
+        "es": "Perdone, ¿tiene un momento?",
+        "fr": "Excusez-moi, vous avez un moment ?"
+      },
+      {
+        "es": "Oye, ¿vienes a la reunión de vecinos?",
+        "fr": "Dis, tu viens à la réunion de copropriété ?"
+      },
+      {
+        "es": "Carmen, ¿quiere pasar a tomar un café?",
+        "fr": "Carmen, vous voulez entrer prendre un café ?"
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "¡Buenas!",
+      "fr": "Bonjour ! / Salut !",
+      "note": "La version courte de buenos días et buenas tardes. Parfaite dans l'escalier quand tu ne sais plus quelle heure il est."
+    },
+    {
+      "es": "¡Qué apuro!",
+      "fr": "Quelle gêne !",
+      "note": "Quand ta machine à laver inonde le voisin, ou que tu croises quelqu'un en pyjama devant les poubelles."
+    },
+    {
+      "es": "No pasa nada",
+      "fr": "Ce n'est rien / Pas de souci",
+      "note": "La réponse la plus rassurante d'Espagne. Tu l'entendras après chaque excuse."
+    },
+    {
+      "es": "Hoy por ti, mañana por mí",
+      "fr": "Un jour c'est toi, un jour c'est moi",
+      "note": "Pour accepter un service, ou en rendre un, sans se sentir redevable."
+    },
+    {
+      "es": "Es una cotilla",
+      "fr": "C'est une commère",
+      "note": "Chaque immeuble a la sienne. C'est aussi la mieux informée sur les horaires des poubelles."
+    },
+    {
+      "es": "Tranqui",
+      "fr": "T'inquiète",
+      "note": "Version courte et décontractée de « tranquilo » ou « tranquila ». Entre gens qui se tutoient."
+    }
+  ]
+}

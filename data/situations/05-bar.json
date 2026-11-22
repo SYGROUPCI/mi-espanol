@@ -1,0 +1,211 @@
+{
+  "id": "bar",
+  "ordre": 5,
+  "titre": "Bar et restaurant",
+  "titre_es": "Bar y restaurante",
+  "intro": "Au bar, en Espagne, on ne dit pas « je voudrais » : on dit « mets-moi ». Ça paraît brusque, c'est juste efficace. Ici, tu apprends à commander comme une habituée, à payer et même à râler gentiment.",
+  "phrases": [
+    {
+      "id": "bar-01",
+      "es": "¿Me pones un café con leche?",
+      "fr": "Je peux avoir un café au lait ?",
+      "pron": "mé PO-néss oun ka-FÉ kon LÉ-tché",
+      "note": "« ¿Me pones...? » (tu me mets...?), c'est LA formule du bar. Polie et naturelle."
+    },
+    {
+      "id": "bar-02",
+      "es": "Ponme un cortado, por favor.",
+      "fr": "Un cortado, s'il te plaît.",
+      "pron": "PON-mé oun kor-TA-do por fa-BOR",
+      "note": "Un cortado, c'est un expresso avec une goutte de lait. Le compromis parfait.",
+      "rapide": "Ponme un cortao, por favor."
+    },
+    {
+      "id": "bar-03",
+      "es": "Para mí, un café solo.",
+      "fr": "Pour moi, un café noir.",
+      "pron": "PA-ra MI oun ka-FÉ SO-lo",
+      "note": "Un « café solo », c'est un expresso. Rien à voir avec la solitude.",
+      "rapide": "Pa' mí, un café solo."
+    },
+    {
+      "id": "bar-04",
+      "es": "Una caña, por favor.",
+      "fr": "Une petite pression, s'il te plaît.",
+      "pron": "OU-na KA-gna por fa-BOR",
+      "note": "La caña, c'est le petit verre de bière pression. L'unité de mesure de l'apéro espagnol."
+    },
+    {
+      "id": "bar-05",
+      "es": "¿Me pones un tinto de crianza?",
+      "fr": "Je peux avoir un verre de rouge crianza ?",
+      "pron": "mé PO-néss oun TIN-to dé KRYAN-tha",
+      "note": "Un « crianza » est un vin qui a vieilli un peu en fût. Plus simple : « un tinto » tout court."
+    },
+    {
+      "id": "bar-06",
+      "es": "¿Qué pinchos tenéis?",
+      "fr": "Vous avez quoi comme pinchos ?",
+      "pron": "ké PIN-tchoss té-NÉÏSS",
+      "note": "Souvent, ils sont exposés sur le comptoir : tu peux aussi montrer du doigt."
+    },
+    {
+      "id": "bar-07",
+      "es": "¿Qué tenéis hoy de menú?",
+      "fr": "Qu'est-ce que vous avez au menu du jour ?",
+      "pron": "ké té-NÉÏSS OÏ dé mé-NOU",
+      "note": "Le « menú del día » : entrée, plat, dessert, pain et boisson, à prix fixe, surtout le midi en semaine."
+    },
+    {
+      "id": "bar-08",
+      "es": "De primero, la ensalada, y de segundo, el pescado.",
+      "fr": "En entrée, la salade, et en plat, le poisson.",
+      "pron": "dé pri-MÉ-ro la én-sa-LA-da i dé sé-GOUN-do él péss-KA-do",
+      "note": "« Primero » et « segundo », ce sont les deux plats du menu. Le dessert, c'est « el postre ».",
+      "rapide": "De primero, la ensalada, y de segundo, el pescao."
+    },
+    {
+      "id": "bar-09",
+      "es": "¿Me cobras?",
+      "fr": "Je te dois combien ?",
+      "pron": "mé KO-brass",
+      "note": "Mot à mot « tu m'encaisses ? ». Au comptoir, c'est la façon la plus naturelle de demander à payer."
+    },
+    {
+      "id": "bar-10",
+      "es": "La cuenta, por favor.",
+      "fr": "L'addition, s'il vous plaît.",
+      "pron": "la KOUÉN-ta por fa-BOR",
+      "note": "Plutôt à table, au restaurant. Le serveur ne l'apporte presque jamais sans qu'on la demande."
+    },
+    {
+      "id": "bar-11",
+      "es": "¿Puedo pagar con tarjeta?",
+      "fr": "Je peux payer par carte ?",
+      "pron": "POUÉ-do pa-GAR kon tar-KHÉ-ta",
+      "note": "Presque toujours oui, même pour un café."
+    },
+    {
+      "id": "bar-12",
+      "es": "Soy alérgica a los frutos secos.",
+      "fr": "Je suis allergique aux fruits à coque.",
+      "pron": "SOÏ a-LÉR-khi-ka a loss FROU-toss SÉ-koss",
+      "note": "Au féminin : alérgica. Un homme dirait « alérgico »."
+    },
+    {
+      "id": "bar-13",
+      "es": "¿Esto lleva gluten?",
+      "fr": "Est-ce qu'il y a du gluten là-dedans ?",
+      "pron": "ESS-to YÉ-ba GLOU-tén",
+      "note": "« Llevar », c'est contenir pour un plat : « ¿Lleva cebolla? », il y a de l'oignon ?"
+    },
+    {
+      "id": "bar-14",
+      "es": "Querría reservar una mesa para cuatro.",
+      "fr": "Je voudrais réserver une table pour quatre.",
+      "pron": "ké-RRI-a rré-ssér-BAR OU-na MÉ-ssa PA-ra KOUA-tro",
+      "note": "Au téléphone, « querría » fait son petit effet : poli sans être guindé.",
+      "rapide": "Querría reservar una mesa pa' cuatro."
+    },
+    {
+      "id": "bar-15",
+      "es": "Para esta noche, a las nueve y media.",
+      "fr": "Pour ce soir, à neuf heures et demie.",
+      "pron": "PA-ra ESS-ta NO-tché a lass NOUÉ-bé i MÉ-dya",
+      "note": "21 h 30, en Espagne, c'est une heure tout à fait normale pour dîner.",
+      "rapide": "Pa' esta noche, a las nueve y media."
+    },
+    {
+      "id": "bar-16",
+      "es": "Me gustaría ver la carta, por favor.",
+      "fr": "J'aimerais voir la carte, s'il vous plaît.",
+      "pron": "mé gouss-ta-RI-a BÉR la KAR-ta por fa-BOR",
+      "note": "« La carta », c'est le menu. Le « menú », c'est la formule à prix fixe."
+    },
+    {
+      "id": "bar-17",
+      "es": "Perdona, esto está un poco frío.",
+      "fr": "Excuse-moi, c'est un peu froid.",
+      "pron": "pér-DO-na ESS-to ess-TA oun PO-ko FRI-o",
+      "note": "Commencer par « perdona » et ajouter « un poco » : la réclamation version douce.",
+      "rapide": "Perdona, esto 'tá un poco frío."
+    },
+    {
+      "id": "bar-18",
+      "es": "Creo que hay un error en la cuenta.",
+      "fr": "Je crois qu'il y a une erreur dans l'addition.",
+      "pron": "KRÉ-o ké AÏ oun é-RROR én la KOUÉN-ta",
+      "note": "« Creo que » adoucit tout. On ne vexe personne."
+    },
+    {
+      "id": "bar-19",
+      "es": "¿Nos traes un poco más de pan?",
+      "fr": "Tu nous apportes encore un peu de pain ?",
+      "pron": "noss TRA-éss oun PO-ko MASS dé PAN",
+      "note": "Avec le menú del día, le pain est en général compris."
+    },
+    {
+      "id": "bar-20",
+      "es": "Estaba todo buenísimo, gracias.",
+      "fr": "Tout était délicieux, merci.",
+      "pron": "ess-TA-ba TO-do boué-NI-ssi-mo GRA-thyass",
+      "note": "Le compliment qui fait sourire le cuisinier. Et parfois arriver un petit chupito offert."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Le café du matin",
+      "contexte": "Elisabeth entre dans le bar du coin avant le travail. Le serveur a l'air pressé, elle aussi.",
+      "lignes": [
+        { "qui": "Camarero", "es": "¡Buenos días! ¿Qué te pongo?", "fr": "Bonjour ! Je te sers quoi ?" },
+        { "qui": "Elisabeth", "es": "Ponme un cortado, por favor.", "fr": "Un cortado, s'il te plaît." },
+        { "qui": "Camarero", "es": "¿Algo más?", "fr": "Autre chose ?" },
+        { "qui": "Elisabeth", "es": "Sí, un pincho de tortilla.", "fr": "Oui, une part de tortilla." },
+        { "qui": "Camarero", "es": "¡Marchando!", "fr": "Ça arrive !" },
+        { "qui": "Elisabeth", "es": "¿Me cobras?", "fr": "Je te dois combien ?" },
+        { "qui": "Camarero", "es": "Son tres euros con veinte.", "fr": "Ça fait trois euros vingt." },
+        { "qui": "Elisabeth", "es": "¿Puedo pagar con tarjeta?", "fr": "Je peux payer par carte ?" },
+        { "qui": "Camarero", "es": "Claro, acerca la tarjeta.", "fr": "Bien sûr, approche ta carte." }
+      ]
+    },
+    {
+      "titre": "Le menú del día",
+      "contexte": "À midi, Elisabeth et une collègue s'installent dans un petit restaurant du centre.",
+      "lignes": [
+        { "qui": "Camarera", "es": "Hola, ¿cuántos sois?", "fr": "Bonjour, vous êtes combien ?" },
+        { "qui": "Elisabeth", "es": "Dos. ¿Qué tenéis hoy de menú?", "fr": "Deux. Qu'est-ce que vous avez au menu du jour ?" },
+        { "qui": "Camarera", "es": "De primero, ensalada o pochas, y de segundo, pescado o carne.", "fr": "En entrée, salade ou haricots blancs, et en plat, poisson ou viande." },
+        { "qui": "Elisabeth", "es": "Para mí, la ensalada y el pescado. Soy alérgica a los frutos secos.", "fr": "Pour moi, la salade et le poisson. Je suis allergique aux fruits à coque." },
+        { "qui": "Camarera", "es": "Vale, aviso en cocina.", "fr": "D'accord, je préviens la cuisine." },
+        { "qui": "Elisabeth", "es": "Perdona, esto está un poco frío.", "fr": "Excuse-moi, c'est un peu froid." },
+        { "qui": "Camarera", "es": "¡Uy, perdona! Te lo caliento ahora mismo.", "fr": "Oh, pardon ! Je te le réchauffe tout de suite." },
+        { "qui": "Elisabeth", "es": "Estaba todo buenísimo. La cuenta, por favor.", "fr": "Tout était délicieux. L'addition, s'il te plaît." }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Commander : pon, ponme et le conditionnel de politesse",
+    "explication": "Au bar, on utilise le verbe « poner » (mettre). À l'impératif avec « tú », il devient « pon », et on colle le pronom à la fin : « ponme » (sers-moi), « ponnos » (sers-nous). La question « ¿Me pones...? » est encore plus douce et c'est la plus courante. Au restaurant ou au téléphone, le conditionnel fait plus soigné : « querría » (je voudrais) et « me gustaría » (j'aimerais).",
+    "tableau": [
+      ["pon", "mets, sers (impératif tú)"],
+      ["ponme", "sers-moi"],
+      ["ponnos", "sers-nous"],
+      ["¿me pones...?", "tu me sers... ?"],
+      ["querría", "je voudrais"],
+      ["me gustaría", "j'aimerais"]
+    ],
+    "exemples": [
+      { "es": "Ponnos dos cañas, por favor.", "fr": "Sers-nous deux bières, s'il te plaît." },
+      { "es": "¿Me pones otro café?", "fr": "Tu me sers un autre café ?" },
+      { "es": "Me gustaría reservar para el sábado.", "fr": "J'aimerais réserver pour samedi." }
+    ]
+  },
+  "expressions": [
+    { "es": "¡Que aproveche!", "fr": "Bon appétit !", "note": "On le dit même à des inconnus qui mangent à la table d'à côté." },
+    { "es": "¡Marchando!", "fr": "Ça arrive !", "note": "Ce que crie le serveur quand il a pris ta commande." },
+    { "es": "Invito yo.", "fr": "C'est moi qui invite.", "note": "Prépare-toi à une petite bataille pour payer : c'est un rituel." },
+    { "es": "Pagar a escote", "fr": "Partager l'addition", "note": "Chacun paie sa part, à parts égales." },
+    { "es": "Ir de cañas", "fr": "Aller boire un verre", "note": "Même si, au final, personne ne boit que des cañas." },
+    { "es": "¿Algo más?", "fr": "Autre chose ?", "note": "La question du serveur. Réponse classique : « Nada más, gracias »." }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "culture",
+  "ordre": 4,
+  "titre": "Météo, fêtes et culture",
+  "titre_es": "El tiempo, las fiestas y la cultura",
+  "intro": "En Espagne, la météo est le meilleur brise-glace : un « ¡Qué frío! » dans l'ascenseur et la conversation démarre toute seule. Ensuite, on parle fêtes, vin et pinchos, et là tu es à Logroño, tu joues à domicile.",
+  "phrases": [
+    {
+      "id": "culture-01",
+      "es": "¡Qué frío hace hoy!",
+      "fr": "Qu'est-ce qu'il fait froid aujourd'hui !",
+      "pron": "ké FRI-o A-thé OÏ",
+      "note": "La phrase parfaite pour l'ascenseur ou l'arrêt de bus. Personne ne te contredira en janvier."
+    },
+    {
+      "id": "culture-02",
+      "es": "Hace mucho calor, ¿eh?",
+      "fr": "Il fait super chaud, hein ?",
+      "pron": "A-thé MOU-tcho ka-LOR é",
+      "note": "Pour le temps, on dit « hace » : hace calor, hace frío, hace sol."
+    },
+    {
+      "id": "culture-03",
+      "es": "Está lloviendo otra vez.",
+      "fr": "Il pleut encore.",
+      "pron": "ess-TA yo-BYÉN-do O-tra BÉTH",
+      "note": "« Está lloviendo », c'est en ce moment même. « Llueve mucho aquí », c'est en général.",
+      "rapide": "'Tá lloviendo otra vez."
+    },
+    {
+      "id": "culture-04",
+      "es": "¡Qué día más bueno hace!",
+      "fr": "Quelle belle journée !",
+      "pron": "ké DI-a MASS BOUÉ-no A-thé",
+      "note": "Quand il fait beau, le jour est « bueno ». Logique, non ?"
+    },
+    {
+      "id": "culture-05",
+      "es": "Dicen que mañana va a llover.",
+      "fr": "Il paraît qu'il va pleuvoir demain.",
+      "pron": "DI-thén ké ma-GNA-na BA a yo-BÉR",
+      "note": "« Dicen que », c'est « on dit que » : très pratique pour relayer la météo sans en être responsable.",
+      "rapide": "Dicen que mañana v'a llover."
+    },
+    {
+      "id": "culture-06",
+      "es": "Hoy hace un poco de viento.",
+      "fr": "Aujourd'hui, il y a un peu de vent.",
+      "pron": "OÏ A-thé oun PO-ko dé BYÉN-to",
+      "note": "On entend aussi « hay viento ». Les deux sont justes."
+    },
+    {
+      "id": "culture-07",
+      "es": "¡Hola, buenos días! ¿Qué tal todo?",
+      "fr": "Bonjour ! Tout va bien ?",
+      "pron": "O-la BOUÉ-noss DI-ass ké TAL TO-do",
+      "note": "Le salut idéal pour les voisins. Personne n'attend une vraie réponse : « Bien, ¿y tú? » suffit."
+    },
+    {
+      "id": "culture-08",
+      "es": "¿Qué tal el fin de semana?",
+      "fr": "C'était comment, ton week-end ?",
+      "pron": "ké TAL él FIN dé sé-MA-na",
+      "note": "La question rituelle du lundi matin avec les collègues."
+    },
+    {
+      "id": "culture-09",
+      "es": "¿Has ido alguna vez a San Mateo?",
+      "fr": "Tu es déjà allée aux fêtes de San Mateo ?",
+      "pron": "ass I-do al-GOU-na BÉTH a SAN ma-TÉ-o",
+      "note": "Les fêtes de San Mateo, c'est la grande fête de Logroño, autour du 21 septembre."
+    },
+    {
+      "id": "culture-10",
+      "es": "En San Mateo se pisa la uva.",
+      "fr": "À San Mateo, on foule le raisin.",
+      "pron": "én SAN ma-TÉ-o sé PI-ssa la OU-ba",
+      "note": "San Mateo, c'est aussi la fête des vendanges : le foulage du raisin en est un moment phare."
+    },
+    {
+      "id": "culture-11",
+      "es": "¿Has probado el vino de Rioja?",
+      "fr": "Tu as goûté le vin de la Rioja ?",
+      "pron": "ass pro-BA-do él BI-no dé rri-O-kha",
+      "note": "Ici, on te posera cette question souvent. La bonne réponse commence par « sí ».",
+      "rapide": "¿Has probao el vino de Rioja?"
+    },
+    {
+      "id": "culture-12",
+      "es": "¿Conoces la calle Laurel?",
+      "fr": "Tu connais la rue Laurel ?",
+      "pron": "ko-NO-théss la KA-yé laou-RÉL",
+      "note": "La rue des pinchos à Logroño : chaque bar a sa spécialité."
+    },
+    {
+      "id": "culture-13",
+      "es": "Aquí se come muy tarde.",
+      "fr": "Ici, on mange très tard.",
+      "pron": "a-KI sé KO-mé MOUÏ TAR-dé",
+      "note": "Déjeuner vers 14 h, dîner vers 21 h ou plus. Un petit pincho en route aide à tenir."
+    },
+    {
+      "id": "culture-14",
+      "es": "¿A qué hora coméis normalmente?",
+      "fr": "Vous déjeunez à quelle heure, d'habitude ?",
+      "pron": "a ké O-ra ko-MÉÏSS nor-mal-MÉN-té",
+      "note": "« Comer », c'est le repas de midi. Le soir, c'est « cenar »."
+    },
+    {
+      "id": "culture-15",
+      "es": "¿Qué haces este puente?",
+      "fr": "Tu fais quoi pour le pont ?",
+      "pron": "ké A-théss ESS-té POUÉN-té",
+      "note": "Un « puente », c'est un jour férié collé au week-end. Les Espagnols le guettent dès janvier.",
+      "rapide": "¿Qu'haces este puente?"
+    },
+    {
+      "id": "culture-16",
+      "es": "¿Qué hacéis en Navidad?",
+      "fr": "Vous faites quoi pour Noël ?",
+      "pron": "ké a-THÉÏSS én na-bi-DAD",
+      "note": "Le d final s'entend à peine, voire pas du tout.",
+      "rapide": "¿Qué hacéis en Navidá?"
+    },
+    {
+      "id": "culture-17",
+      "es": "Aquí los Reyes Magos traen los regalos el seis de enero.",
+      "fr": "Ici, ce sont les Rois mages qui apportent les cadeaux, le 6 janvier.",
+      "pron": "a-KI loss RRÉ-yéss MA-goss TRA-én loss rré-GA-loss él SÉÏSS dé é-NÉ-ro",
+      "note": "Beaucoup de familles fêtent aussi le Père Noël, mais le grand jour des enfants reste souvent les Reyes."
+    },
+    {
+      "id": "culture-18",
+      "es": "¡Felices fiestas!",
+      "fr": "Bonnes fêtes !",
+      "pron": "fé-LI-théss FYÉSS-tass",
+      "note": "Marche pour Noël comme pour les fêtes du village."
+    },
+    {
+      "id": "culture-19",
+      "es": "Me encanta el ambiente de las fiestas.",
+      "fr": "J'adore l'ambiance des fêtes.",
+      "pron": "mé én-KAN-ta él am-BYÉN-té dé lass FYÉSS-tass",
+      "note": "« Me encanta », c'est plus fort que « me gusta ». Les gens d'ici adorent l'entendre.",
+      "rapide": "M'encanta l'ambiente de las fiestas."
+    },
+    {
+      "id": "culture-20",
+      "es": "Todavía no he visitado ninguna bodega.",
+      "fr": "Je n'ai encore visité aucune bodega.",
+      "pron": "to-da-BI-a no é bi-ssi-TA-do nin-GOU-na bo-DÉ-ga",
+      "note": "Une « bodega », c'est une cave à vin. Dis cette phrase et quelqu'un t'en proposera une.",
+      "rapide": "Toavía no he visitao ninguna bodega."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Dans l'ascenseur avec Carmen",
+      "contexte": "Elisabeth croise sa voisine du troisième, une dame très bavarde, un matin glacial.",
+      "lignes": [
+        {
+          "qui": "Carmen",
+          "es": "¡Hola, buenos días! ¿Qué tal todo?",
+          "fr": "Bonjour ! Tout va bien ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Muy bien, gracias. ¡Qué frío hace hoy!",
+          "fr": "Très bien, merci. Qu'est-ce qu'il fait froid aujourd'hui !"
+        },
+        {
+          "qui": "Carmen",
+          "es": "Sí, hija, y dicen que mañana va a llover.",
+          "fr": "Eh oui, ma petite, et il paraît qu'il va pleuvoir demain."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Vaya... ¿Y qué haces este puente?",
+          "fr": "Mince... Et tu fais quoi pour le pont ?"
+        },
+        {
+          "qui": "Carmen",
+          "es": "Me voy al pueblo a ver a mis nietos.",
+          "fr": "Je vais au village voir mes petits-enfants."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Qué bien! Pues buen puente.",
+          "fr": "Super ! Alors bon week-end prolongé."
+        },
+        {
+          "qui": "Carmen",
+          "es": "Igualmente, guapa. ¡Y abrígate!",
+          "fr": "Toi aussi, ma belle. Et couvre-toi bien !"
+        }
+      ]
+    },
+    {
+      "titre": "La pause café avec Javier",
+      "contexte": "Lundi matin, au travail. Javier, un collègue de Logroño, veut tout savoir du week-end d'Elisabeth.",
+      "lignes": [
+        {
+          "qui": "Javier",
+          "es": "¿Qué tal el fin de semana?",
+          "fr": "C'était comment, ton week-end ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Muy bien. He ido a la Laurel con unas amigas.",
+          "fr": "Très bien. Je suis allée rue Laurel avec des amies."
+        },
+        {
+          "qui": "Javier",
+          "es": "¡Muy bien! ¿Y has probado el vino de Rioja?",
+          "fr": "Bravo ! Et tu as goûté le vin de la Rioja ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí, ¡me encanta! Pero todavía no he visitado ninguna bodega.",
+          "fr": "Oui, j'adore ! Mais je n'ai encore visité aucune bodega."
+        },
+        {
+          "qui": "Javier",
+          "es": "Pues tienes que ir. ¿Has ido alguna vez a San Mateo?",
+          "fr": "Alors il faut que tu y ailles. Tu es déjà allée aux fêtes de San Mateo ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "No, todavía no.",
+          "fr": "Non, pas encore."
+        },
+        {
+          "qui": "Javier",
+          "es": "Es en septiembre. Se pisa la uva y hay fiesta por toda la ciudad.",
+          "fr": "C'est en septembre. On foule le raisin et toute la ville fait la fête."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Qué ganas! Me encanta el ambiente de las fiestas.",
+          "fr": "J'ai hâte ! J'adore l'ambiance des fêtes."
+        },
+        {
+          "qui": "Javier",
+          "es": "Pues el año que viene vamos juntos.",
+          "fr": "Alors l'année prochaine, on y va ensemble."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Parler du temps : hace, hay, está",
+    "explication": "Pour la météo, l'espagnol utilise surtout « hace » (comme notre « il fait ») : hace frío, hace calor, hace sol. Pour ce qu'on voit dans le ciel, on utilise souvent « hay » : hay niebla, hay tormenta. « Está » décrit l'état du ciel ou ce qui se passe en ce moment : está nublado, está lloviendo. Et pour la pluie et la neige en général, un seul mot suffit : llueve, nieva.",
+    "tableau": [
+      [
+        "hace frío / calor / sol",
+        "il fait froid / chaud / il y a du soleil"
+      ],
+      [
+        "hace buen tiempo / mal tiempo",
+        "il fait beau / mauvais"
+      ],
+      [
+        "hay niebla / tormenta",
+        "il y a du brouillard / de l'orage"
+      ],
+      [
+        "está nublado / despejado",
+        "c'est nuageux / dégagé"
+      ],
+      [
+        "está lloviendo / nevando",
+        "il pleut / il neige (en ce moment)"
+      ],
+      [
+        "llueve / nieva",
+        "il pleut / il neige (en général)"
+      ]
+    ],
+    "exemples": [
+      {
+        "es": "Hoy hace sol, pero mañana va a llover.",
+        "fr": "Aujourd'hui il fait soleil, mais demain il va pleuvoir."
+      },
+      {
+        "es": "Hay mucha niebla, conduce despacio.",
+        "fr": "Il y a beaucoup de brouillard, conduis doucement."
+      },
+      {
+        "es": "Está nublado, coge el paraguas.",
+        "fr": "C'est nuageux, prends le parapluie."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "¡Hace un frío que pela!",
+      "fr": "Il fait un froid de canard !",
+      "note": "Mot à mot, un froid qui épluche. Très imagé, très courant."
+    },
+    {
+      "es": "¡Qué bochorno!",
+      "fr": "Quelle chaleur étouffante !",
+      "note": "Pour la chaleur lourde et moite de l'été."
+    },
+    {
+      "es": "Hace un día de perros.",
+      "fr": "Il fait un temps de chien.",
+      "note": "Les chiens d'Espagne et de France partagent la même réputation."
+    },
+    {
+      "es": "el finde",
+      "fr": "le week-end",
+      "note": "Abréviation de « fin de semana ». « ¿Qué haces el finde? »"
+    },
+    {
+      "es": "ir de vinos",
+      "fr": "faire la tournée des bars à vin",
+      "note": "Un verre et un pincho par bar, puis on change. Sport local à Logroño."
+    },
+    {
+      "es": "hacer puente",
+      "fr": "faire le pont",
+      "note": "« Este año hacemos puente » : on prend le jour entre le férié et le week-end."
+    }
+  ]
+}

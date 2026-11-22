@@ -1,0 +1,205 @@
+{
+  "id": "amis",
+  "ordre": 1,
+  "titre": "Sortir entre amis",
+  "titre_es": "Salir con amigos",
+  "intro": "Se présenter, proposer un verre, dire oui ou non sans vexer personne et payer sa tournée : tout ce qu'il faut pour survivre à une soirée dans la Laurel. Le reste, c'est le vin qui s'en charge.",
+  "phrases": [
+    {
+      "id": "amis-01",
+      "es": "¡Hola! Me llamo Elisabeth.",
+      "fr": "Salut ! Je m'appelle Elisabeth.",
+      "pron": "O-la mé YA-mo é-li-ssa-BÉT",
+      "note": "« Me llamo » est bien plus naturel que « mi nombre es », qui sonne comme un formulaire."
+    },
+    {
+      "id": "amis-02",
+      "es": "Soy de Guinea, de Guinea Conakry.",
+      "fr": "Je viens de Guinée, la Guinée Conakry.",
+      "pron": "SOÏ dé gui-NÉ-a dé gui-NÉ-a ko-NA-kri",
+      "note": "En Espagne, « Guinea » fait souvent penser à la Guinée équatoriale, ancienne colonie espagnole. Préciser « Conakry » évite le malentendu."
+    },
+    {
+      "id": "amis-03",
+      "es": "Vivo en Logroño desde hace poco.",
+      "fr": "J'habite à Logroño depuis peu.",
+      "pron": "BI-bo én lo-GRO-gno DÉSS-dé A-thé PO-ko",
+      "note": "Pour être précise : « desde hace dos meses », depuis deux mois."
+    },
+    {
+      "id": "amis-04",
+      "es": "Hablo un poco de español, pero voy aprendiendo.",
+      "fr": "Je parle un peu espagnol, mais j'apprends petit à petit.",
+      "pron": "A-blo oun PO-ko dé éss-pa-GNOL PÉ-ro BOÏ a-prén-DYÉN-do",
+      "note": "La phrase magique : les gens ralentissent et deviennent tout de suite plus gentils."
+    },
+    {
+      "id": "amis-05",
+      "es": "¿Y tú de dónde eres?",
+      "fr": "Et toi, tu viens d'où ?",
+      "pron": "i TOU dé DON-dé É-réss",
+      "note": "À Logroño, la réponse est souvent « de aquí, de toda la vida »."
+    },
+    {
+      "id": "amis-06",
+      "es": "Encantada.",
+      "fr": "Enchantée.",
+      "pron": "én-kan-TA-da",
+      "note": "Au féminin parce que c'est toi qui parles. En vrai, on le dit en faisant les deux bises."
+    },
+    {
+      "id": "amis-07",
+      "es": "¿Quedamos esta tarde?",
+      "fr": "On se voit cet après-midi ?",
+      "pron": "ké-DA-moss ÉSS-ta TAR-dé",
+      "note": "« Quedar » veut dire se retrouver : c'est LE verbe des sorties.",
+      "rapide": "¿Quedamos 'sta tarde?"
+    },
+    {
+      "id": "amis-08",
+      "es": "¿Te apetece tomar algo?",
+      "fr": "Ça te dit d'aller boire un verre ?",
+      "pron": "té a-pé-TÉ-thé to-MAR AL-go",
+      "note": "« Tomar algo », c'est un verre, un café ou un pincho : ça reste volontairement vague.",
+      "rapide": "¿T'apetece tomar algo?"
+    },
+    {
+      "id": "amis-09",
+      "es": "¡Vale, me apunto!",
+      "fr": "OK, j'en suis !",
+      "pron": "BA-lé mé a-POUN-to",
+      "rapide": "¡Vale, m'apunto!"
+    },
+    {
+      "id": "amis-10",
+      "es": "Hoy no puedo, pero otro día sí.",
+      "fr": "Aujourd'hui je ne peux pas, mais un autre jour avec plaisir.",
+      "pron": "OÏ no POUÉ-do PÉ-ro O-tro DI-a SI",
+      "note": "Le refus poli parfait : tu dis non, mais tu laisses la porte ouverte."
+    },
+    {
+      "id": "amis-11",
+      "es": "Lo siento, ya he quedado.",
+      "fr": "Désolée, j'ai déjà quelque chose de prévu.",
+      "pron": "lo SYÉN-to YA é ké-DA-do",
+      "rapide": "Lo siento, ya he quedao."
+    },
+    {
+      "id": "amis-12",
+      "es": "¿A qué hora quedamos?",
+      "fr": "On se retrouve à quelle heure ?",
+      "pron": "a KÉ O-ra ké-DA-moss"
+    },
+    {
+      "id": "amis-13",
+      "es": "Quedamos a las ocho en la plaza del Mercado.",
+      "fr": "On se retrouve à huit heures sur la place du Marché.",
+      "pron": "ké-DA-moss a lass O-tcho én la PLA-tha dél mér-KA-do",
+      "note": "La place devant La Redonda, la cathédrale : le point de rendez-vous classique."
+    },
+    {
+      "id": "amis-14",
+      "es": "¿Vamos de pinchos por la Laurel?",
+      "fr": "On va manger des pinchos rue Laurel ?",
+      "pron": "BA-moss dé PIN-tchoss por la laou-RÉL",
+      "note": "À Logroño on dit « pinchos » plus que « tapas », et on change de bar à chaque bouchée."
+    },
+    {
+      "id": "amis-15",
+      "es": "Para mí, un crianza, por favor.",
+      "fr": "Pour moi, un crianza, s'il te plaît.",
+      "pron": "pa-ra MI oun KRYAN-tha por fa-BOR",
+      "note": "Ici on commande le vin par son type : un joven, un crianza. Tu es en Rioja, après tout.",
+      "rapide": "Pa' mí, un crianza, por favor."
+    },
+    {
+      "id": "amis-16",
+      "es": "¿Qué queréis tomar?",
+      "fr": "Qu'est-ce que vous prenez ?",
+      "pron": "KÉ ké-RÉÏSS to-MAR",
+      "note": "Avec « vosotros », tu poses la question à toute la bande d'un coup."
+    },
+    {
+      "id": "amis-17",
+      "es": "Invito yo.",
+      "fr": "C'est moi qui invite.",
+      "pron": "in-BI-to YO",
+      "note": "À dire avec assurance, la carte déjà à la main."
+    },
+    {
+      "id": "amis-18",
+      "es": "Esta ronda la pago yo.",
+      "fr": "Cette tournée, c'est pour moi.",
+      "pron": "ÉSS-ta RRON-da la PA-go YO"
+    },
+    {
+      "id": "amis-19",
+      "es": "La próxima te toca a ti.",
+      "fr": "La prochaine, c'est ton tour.",
+      "pron": "la PROK-ssi-ma té TO-ka a TI",
+      "note": "Entre amis, on paie chacun sa tournée plutôt que de diviser l'addition au centime."
+    },
+    {
+      "id": "amis-20",
+      "es": "Me lo he pasado genial.",
+      "fr": "Je me suis super bien amusée.",
+      "pron": "mé lo é pa-SSA-do khé-NYAL",
+      "rapide": "Me lo he pasao genial."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Lucía propose une sortie",
+      "contexte": "Lucía, une collègue sympa, t'appelle un vendredi en fin d'après-midi.",
+      "lignes": [
+        { "qui": "Lucía", "es": "¡Hola, guapa! ¿Qué tal?", "fr": "Coucou ma belle ! Ça va ?" },
+        { "qui": "Elisabeth", "es": "¡Muy bien! ¿Y tú?", "fr": "Très bien ! Et toi ?" },
+        { "qui": "Lucía", "es": "Bien. Oye, ¿quedamos esta tarde? ¿Te apetece tomar algo?", "fr": "Bien. Dis, on se voit ce soir ? Ça te dit d'aller boire un verre ?" },
+        { "qui": "Elisabeth", "es": "¡Vale, me apunto! ¿A qué hora quedamos?", "fr": "OK, j'en suis ! On se retrouve à quelle heure ?" },
+        { "qui": "Lucía", "es": "¿A las ocho en la plaza del Mercado?", "fr": "À huit heures sur la place du Marché ?" },
+        { "qui": "Elisabeth", "es": "Perfecto. ¿Vamos de pinchos por la Laurel?", "fr": "Parfait. On va manger des pinchos rue Laurel ?" },
+        { "qui": "Lucía", "es": "¡Claro! Viene también mi amigo Javi, ¿vale?", "fr": "Bien sûr ! Mon ami Javi vient aussi, ça te va ?" },
+        { "qui": "Elisabeth", "es": "¡Qué guay! Hasta luego.", "fr": "Trop bien ! À tout à l'heure." }
+      ]
+    },
+    {
+      "titre": "Un crianza dans la Laurel",
+      "contexte": "Dans un bar bondé de la rue Laurel, Lucía te présente Javi.",
+      "lignes": [
+        { "qui": "Javi", "es": "Hola, soy Javi. ¿Tú eres Elisabeth?", "fr": "Salut, moi c'est Javi. C'est toi, Elisabeth ?" },
+        { "qui": "Elisabeth", "es": "Sí, encantada. Soy de Guinea Conakry, pero vivo en Logroño desde hace poco.", "fr": "Oui, enchantée. Je viens de Guinée, mais j'habite à Logroño depuis peu." },
+        { "qui": "Javi", "es": "¡Qué bien! ¿Y qué tal el español?", "fr": "Super ! Et ça va, l'espagnol ?" },
+        { "qui": "Elisabeth", "es": "Hablo un poco de español, pero voy aprendiendo.", "fr": "Je parle un peu espagnol, mais j'apprends petit à petit." },
+        { "qui": "Lucía", "es": "Venga, ¿qué queréis tomar?", "fr": "Allez, qu'est-ce que vous prenez ?" },
+        { "qui": "Elisabeth", "es": "Para mí, un crianza. Y esta ronda la pago yo.", "fr": "Pour moi, un crianza. Et cette tournée, c'est pour moi." },
+        { "qui": "Javi", "es": "¡Gracias! Pues la próxima te toca a ti, Lucía.", "fr": "Merci ! Alors la prochaine, c'est ton tour, Lucía." },
+        { "qui": "Lucía", "es": "Vale, pero la siguiente es tuya, Javi. ¡Qué morro!", "fr": "D'accord, mais celle d'après est pour toi, Javi. Quel culot !" }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Le présent de quedar, ir et querer",
+    "explication": "Quedar est un verbe régulier en -ar : on enlève -ar et on ajoute -o, -as, -a, -amos, -áis, -an. Ir est complètement irrégulier, il faut l'apprendre par cœur : voy, vas, va, vamos, vais, van. Querer change son e en ie, sauf avec nosotros et vosotros, qui gardent le e. Le pronom sujet (yo, tú…) est presque toujours omis : la terminaison suffit.",
+    "tableau": [
+      ["yo", "quedo · voy · quiero"],
+      ["tú", "quedas · vas · quieres"],
+      ["él, ella", "queda · va · quiere"],
+      ["nosotros, nosotras", "quedamos · vamos · queremos"],
+      ["vosotros, vosotras", "quedáis · vais · queréis"],
+      ["ellos, ellas", "quedan · van · quieren"]
+    ],
+    "exemples": [
+      { "es": "Quedo con Ana a las ocho.", "fr": "Je retrouve Ana à huit heures." },
+      { "es": "¿Vais a la Laurel esta noche?", "fr": "Vous allez rue Laurel ce soir ?" },
+      { "es": "¿Quieres otro vino?", "fr": "Tu veux un autre verre de vin ?" }
+    ]
+  },
+  "expressions": [
+    { "es": "¡Qué guay!", "fr": "Trop bien !", "note": "Pour tout ce qui est chouette, d'un plan de sortie à une nouvelle robe." },
+    { "es": "¡Venga!", "fr": "Allez !", "note": "Sert à tout : encourager, conclure, dire au revoir. Tu l'entendras cent fois par jour." },
+    { "es": "Ir de vinos", "fr": "Faire la tournée des bars à vin", "note": "Le sport local à Logroño, surtout le week-end." },
+    { "es": "¿Nos tomamos la penúltima?", "fr": "On prend un dernier verre ?", "note": "On dit l'avant-dernière, jamais la dernière : c'est plus prudent." },
+    { "es": "¡Qué morro!", "fr": "Quel culot !", "note": "Pour la copine qui oublie toujours sa tournée. Avec le sourire." },
+    { "es": "Es muy majo / muy maja", "fr": "Il est très sympa / elle est très sympa", "note": "« Majo » est typique d'Espagne, et très utilisé dans le nord." }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "id": "medecin",
+  "ordre": 6,
+  "titre": "Médecin et pharmacie",
+  "titre_es": "Médico y farmacia",
+  "intro": "Être malade dans une autre langue, c'est la double peine. Avec ces phrases, tu sauras dire où ça fait mal, comprendre le médecin et repartir de la pharmacie avec le bon sirop.",
+  "phrases": [
+    {
+      "id": "medecin-01",
+      "es": "Quería pedir cita con mi médico.",
+      "fr": "Je voudrais prendre rendez-vous avec mon médecin.",
+      "pron": "ké-RI-a pé-DIR THI-ta kon mi MÉ-di-ko",
+      "note": "« Pedir cita », c'est prendre rendez-vous. Au centro de salud, on parle aussi de « cita previa »."
+    },
+    {
+      "id": "medecin-02",
+      "es": "Aquí tiene mi tarjeta sanitaria.",
+      "fr": "Voici ma carte de santé.",
+      "pron": "a-KI TYÉ-né mi tar-KHÉ-ta sa-ni-TA-rya",
+      "note": "La tarjeta sanitaria, on te la demandera partout : au centro de salud comme à la pharmacie."
+    },
+    {
+      "id": "medecin-03",
+      "es": "¿Tiene algo para mañana?",
+      "fr": "Vous avez quelque chose pour demain ?",
+      "pron": "TYÉ-né AL-go PA-ra ma-GNA-na",
+      "note": "Pour demander un créneau. Avec le personnel de santé, le « usted » est un bon réflexe.",
+      "rapide": "¿Tiene algo pa' mañana?"
+    },
+    {
+      "id": "medecin-04",
+      "es": "Me duele mucho la cabeza.",
+      "fr": "J'ai très mal à la tête.",
+      "pron": "mé DOUÉ-lé MOU-tcho la ka-BÉ-tha",
+      "note": "On dit « la cabeza », pas « mi cabeza » : on sait bien que c'est la tienne."
+    },
+    {
+      "id": "medecin-05",
+      "es": "Me duelen los oídos.",
+      "fr": "J'ai mal aux oreilles.",
+      "pron": "mé DOUÉ-lén loss o-I-doss",
+      "note": "Plusieurs oreilles, donc « duelen » au pluriel. « Oídos », c'est l'intérieur de l'oreille."
+    },
+    {
+      "id": "medecin-06",
+      "es": "Tengo fiebre desde ayer.",
+      "fr": "J'ai de la fièvre depuis hier.",
+      "pron": "TÉN-go FYÉ-bré DÉSS-dé a-YÉR",
+      "note": "« Desde » pour dire depuis quand. Le médecin te le demandera toujours."
+    },
+    {
+      "id": "medecin-07",
+      "es": "Estoy un poco mareada.",
+      "fr": "J'ai un peu la tête qui tourne.",
+      "pron": "ess-TOÏ oun PO-ko ma-ré-A-da",
+      "note": "« Mareada » sert aussi pour le mal de mer ou de voiture. Au féminin, avec un a.",
+      "rapide": "'Toy un poco mareada."
+    },
+    {
+      "id": "medecin-08",
+      "es": "Tengo tos y me duele la garganta.",
+      "fr": "Je tousse et j'ai mal à la gorge.",
+      "pron": "TÉN-go TOSS i mé DOUÉ-lé la gar-GAN-ta",
+      "note": "En espagnol, on « a de la toux » : tengo tos."
+    },
+    {
+      "id": "medecin-09",
+      "es": "Estoy muy cansada últimamente.",
+      "fr": "Je suis très fatiguée ces derniers temps.",
+      "pron": "ess-TOÏ MOUÏ kan-SA-da OUL-ti-ma-MÉN-té",
+      "note": "« Últimamente » ne veut pas dire ultimement, mais ces derniers temps. Un faux ami de plus."
+    },
+    {
+      "id": "medecin-10",
+      "es": "Me he cortado el dedo.",
+      "fr": "Je me suis coupé le doigt.",
+      "pron": "mé é kor-TA-do él DÉ-do",
+      "note": "Avec « he », le participe ne s'accorde jamais : cortado, même pour toi.",
+      "rapide": "M'he cortao el dedo."
+    },
+    {
+      "id": "medecin-11",
+      "es": "Creo que estoy resfriada.",
+      "fr": "Je crois que je suis enrhumée.",
+      "pron": "KRÉ-o ké ess-TOÏ rréss-FRYA-da",
+      "note": "Pour un gros rhume, on entend aussi « tengo un catarro »."
+    },
+    {
+      "id": "medecin-12",
+      "es": "¿Cada cuántas horas tengo que tomarlo?",
+      "fr": "Je dois le prendre toutes les combien d'heures ?",
+      "pron": "KA-da KOUAN-tass O-rass TÉN-go ké to-MAR-lo",
+      "note": "« Tener que » + verbe, c'est devoir. Très utile pour comprendre les consignes."
+    },
+    {
+      "id": "medecin-13",
+      "es": "¿Me lo puede repetir más despacio, por favor?",
+      "fr": "Vous pouvez me le répéter plus lentement, s'il vous plaît ?",
+      "pron": "mé lo POUÉ-dé rré-pé-TIR MASS déss-PA-thyo por fa-BOR",
+      "note": "La phrase la plus importante de la page. Aucun médecin ne t'en voudra de la dire deux fois."
+    },
+    {
+      "id": "medecin-14",
+      "es": "¿Tiene algo para la tos?",
+      "fr": "Vous avez quelque chose contre la toux ?",
+      "pron": "TYÉ-né AL-go PA-ra la TOSS",
+      "note": "À la pharmacie, « algo para » + le problème, et le tour est joué.",
+      "rapide": "¿Tiene algo pa' la tos?"
+    },
+    {
+      "id": "medecin-15",
+      "es": "¿Hace falta receta?",
+      "fr": "Il faut une ordonnance ?",
+      "pron": "A-thé FAL-ta rré-THÉ-ta",
+      "note": "Une « receta », c'est une ordonnance. Et aussi une recette de cuisine, mais pas ici."
+    },
+    {
+      "id": "medecin-16",
+      "es": "Soy alérgica a la penicilina.",
+      "fr": "Je suis allergique à la pénicilline.",
+      "pron": "SOÏ a-LÉR-khi-ka a la pé-ni-thi-LI-na",
+      "note": "Remplace « la penicilina » par ce qui te concerne. Au féminin : alérgica."
+    },
+    {
+      "id": "medecin-17",
+      "es": "Es urgente, ¿dónde están las urgencias?",
+      "fr": "C'est urgent, où sont les urgences ?",
+      "pron": "éss our-KHÉN-té DON-dé ess-TAN lass our-KHÉN-thyass",
+      "note": "En cas d'urgence grave, appelle le 112, le numéro d'urgence européen.",
+      "rapide": "Es urgente, ¿dónde 'tán las urgencias?"
+    },
+    {
+      "id": "medecin-18",
+      "es": "Tómese una pastilla cada ocho horas.",
+      "fr": "Prenez un comprimé toutes les huit heures.",
+      "pron": "TO-mé-ssé OU-na pass-TI-ya KA-da O-tcho O-rass",
+      "note": "Ce que dira le médecin. S'il te tutoie, ce sera « tómate »."
+    },
+    {
+      "id": "medecin-19",
+      "es": "Tiene que hacer reposo unos días.",
+      "fr": "Vous devez vous reposer quelques jours.",
+      "pron": "TYÉ-né ké a-THÉR rré-PO-sso OU-noss DI-ass",
+      "note": "« Hacer reposo », c'est rester tranquille. Ordre du médecin, tu n'as pas le choix."
+    },
+    {
+      "id": "medecin-20",
+      "es": "Me encuentro mucho mejor, gracias.",
+      "fr": "Je me sens beaucoup mieux, merci.",
+      "pron": "mé én-KOUÉN-tro MOU-tcho mé-KHOR GRA-thyass",
+      "note": "« Encontrarse », c'est se sentir. La phrase qu'on aime dire en dernier.",
+      "rapide": "M'encuentro mucho mejor, gracias."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Au téléphone avec le centro de salud",
+      "contexte": "Elisabeth a de la fièvre et appelle son centre de santé. La dame à l'accueil parle très vite.",
+      "lignes": [
+        { "qui": "Administrativa", "es": "Centro de salud, ¿dígame?", "fr": "Centre de santé, j'écoute ?" },
+        { "qui": "Elisabeth", "es": "Hola, buenos días. Quería pedir cita con mi médico.", "fr": "Bonjour. Je voudrais prendre rendez-vous avec mon médecin." },
+        { "qui": "Administrativa", "es": "¿Me da su número de tarjeta sanitaria y su fecha de nacimiento?", "fr": "Vous me donnez votre numéro de carte de santé et votre date de naissance ?" },
+        { "qui": "Elisabeth", "es": "Perdone, ¿me lo puede repetir más despacio, por favor?", "fr": "Pardon, vous pouvez me le répéter plus lentement, s'il vous plaît ?" },
+        { "qui": "Administrativa", "es": "Claro. Su número de tarjeta sanitaria, por favor.", "fr": "Bien sûr. Votre numéro de carte de santé, s'il vous plaît." },
+        { "qui": "Elisabeth", "es": "Sí, un momento, que la busco.", "fr": "Oui, un instant, je la cherche." },
+        { "qui": "Administrativa", "es": "Muy bien. ¿Qué le pasa?", "fr": "Très bien. Qu'est-ce qui ne va pas ?" },
+        { "qui": "Elisabeth", "es": "Tengo fiebre desde ayer y me duele la garganta.", "fr": "J'ai de la fièvre depuis hier et j'ai mal à la gorge." },
+        { "qui": "Administrativa", "es": "Tengo hueco mañana a las diez y cuarto.", "fr": "J'ai une place demain à dix heures et quart." },
+        { "qui": "Elisabeth", "es": "Perfecto, muchas gracias.", "fr": "Parfait, merci beaucoup." }
+      ]
+    },
+    {
+      "titre": "À la pharmacie",
+      "contexte": "Quelques jours plus tard, Elisabeth tousse encore et passe à la pharmacie en bas de chez elle.",
+      "lignes": [
+        { "qui": "Farmacéutica", "es": "Hola, ¿qué querías?", "fr": "Bonjour, qu'est-ce qu'il te fallait ?" },
+        { "qui": "Elisabeth", "es": "Hola. ¿Tiene algo para la tos?", "fr": "Bonjour. Vous avez quelque chose contre la toux ?" },
+        { "qui": "Farmacéutica", "es": "¿Es tos seca o con flemas?", "fr": "C'est une toux sèche ou grasse ?" },
+        { "qui": "Elisabeth", "es": "Seca. Y estoy un poco mareada.", "fr": "Sèche. Et j'ai un peu la tête qui tourne." },
+        { "qui": "Farmacéutica", "es": "¿Tienes fiebre?", "fr": "Tu as de la fièvre ?" },
+        { "qui": "Elisabeth", "es": "No, pero estoy muy cansada. ¿Hace falta receta?", "fr": "Non, mais je suis très fatiguée. Il faut une ordonnance ?" },
+        { "qui": "Farmacéutica", "es": "No, no hace falta. Te doy este jarabe: tómalo cada ocho horas.", "fr": "Non, pas besoin. Je te donne ce sirop : prends-le toutes les huit heures." },
+        { "qui": "Farmacéutica", "es": "Y si no mejoras, vuelve al médico. ¡Que te mejores!", "fr": "Et si ça ne va pas mieux, retourne voir le médecin. Bon rétablissement !" }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Dire où on a mal : doler et tener",
+    "explication": "« Doler » fonctionne comme « gustar » : c'est la partie du corps qui fait mal, et toi tu es « me ». Si c'est une seule chose, on dit « me duele » ; si c'est plusieurs, « me duelen ». On met l'article, pas le possessif : me duele la espalda. Pour les symptômes, on utilise « tener » + nom (tengo fiebre, tengo tos) ou « estar » + adjectif au féminin (estoy mareada, estoy cansada).",
+    "tableau": [
+      ["me duele + une chose", "j'ai mal à... (me duele la espalda)"],
+      ["me duelen + plusieurs", "j'ai mal aux... (me duelen los pies)"],
+      ["te duele / te duelen", "tu as mal"],
+      ["le duele / le duelen", "il, elle a mal / vous avez mal"],
+      ["tengo fiebre / tos / náuseas", "j'ai de la fièvre / je tousse / j'ai la nausée"],
+      ["estoy mareada / cansada", "j'ai la tête qui tourne / je suis fatiguée"]
+    ],
+    "exemples": [
+      { "es": "Me duele la espalda desde el lunes.", "fr": "J'ai mal au dos depuis lundi." },
+      { "es": "Me duelen mucho los pies.", "fr": "J'ai très mal aux pieds." },
+      { "es": "¿Te duele aquí?", "fr": "Tu as mal ici ?" }
+    ]
+  },
+  "expressions": [
+    { "es": "¡Que te mejores!", "fr": "Bon rétablissement !", "note": "Ce qu'on te dira partout. À dire aussi aux autres, bien sûr." },
+    { "es": "Estoy hecha polvo.", "fr": "Je suis crevée.", "note": "Mot à mot, réduite en poussière. Au féminin : hecha." },
+    { "es": "Estoy pachucha.", "fr": "Je suis patraque.", "note": "Pas vraiment malade, pas vraiment en forme. Un mot très doux." },
+    { "es": "Me he puesto mala.", "fr": "Je suis tombée malade.", "note": "Au féminin : mala. Un homme dirait « me he puesto malo »." },
+    { "es": "Estar de baja", "fr": "Être en arrêt maladie", "note": "« Estoy de baja esta semana » : pratique pour prévenir au travail." },
+    { "es": "No es nada.", "fr": "Ce n'est rien.", "note": "Ce que dit le médecin quand il n'y a vraiment pas de quoi s'inquiéter." }
+  ]
+}

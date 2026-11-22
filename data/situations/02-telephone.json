@@ -1,0 +1,208 @@
+{
+  "id": "telephone",
+  "ordre": 2,
+  "titre": "Téléphone et WhatsApp",
+  "titre_es": "Teléfono y WhatsApp",
+  "intro": "Au téléphone, pas de gestes ni de sourire pour t'aider : juste une voix pressée. Voici de quoi décrocher, faire répéter sans gêne et déchiffrer les textos pleins de « xq » et de « tb ».",
+  "phrases": [
+    {
+      "id": "telephone-01",
+      "es": "¿Sí?",
+      "fr": "Allô ?",
+      "pron": "SI",
+      "note": "La façon la plus courante de décrocher quand on voit qui appelle."
+    },
+    {
+      "id": "telephone-02",
+      "es": "¿Dígame?",
+      "fr": "Allô, j'écoute ?",
+      "pron": "DI-ga-mé",
+      "note": "Plus formel : c'est ce que tu entendras dans les cabinets, les salons et les administrations."
+    },
+    {
+      "id": "telephone-03",
+      "es": "Hola, llamo para pedir cita.",
+      "fr": "Bonjour, j'appelle pour prendre rendez-vous.",
+      "pron": "O-la YA-mo pa-ra pé-DIR THI-ta",
+      "note": "« Cita » sert pour le médecin, le coiffeur et aussi pour un rendez-vous galant.",
+      "rapide": "Hola, llamo pa' pedir cita."
+    },
+    {
+      "id": "telephone-04",
+      "es": "¿Tiene algún hueco esta semana?",
+      "fr": "Vous auriez un créneau cette semaine ?",
+      "pron": "TYÉ-né al-GOUN OUÉ-ko ÉSS-ta sé-MA-na",
+      "note": "« Hueco », littéralement un trou : ici, une place libre dans l'agenda.",
+      "rapide": "¿Tiene algún hueco 'sta semana?"
+    },
+    {
+      "id": "telephone-05",
+      "es": "¿Le viene bien el martes a las diez?",
+      "fr": "Mardi à dix heures, ça vous va ?",
+      "pron": "lé BYÉ-né BYÉN él MAR-téss a lass DYÉTH",
+      "note": "Tu l'entendras plus que tu ne la diras. Entre amis, ça devient « ¿Te viene bien? »."
+    },
+    {
+      "id": "telephone-06",
+      "es": "¿De parte de quién?",
+      "fr": "C'est de la part de qui ?",
+      "pron": "dé PAR-té dé KYÉN",
+      "rapide": "¿De parte 'e quién?"
+    },
+    {
+      "id": "telephone-07",
+      "es": "Perdone, ¿puede repetir?",
+      "fr": "Pardon, vous pouvez répéter ?",
+      "pron": "pér-DO-né POUÉ-dé rré-pé-TIR",
+      "note": "Avec une amie : « Perdona, ¿puedes repetir? »."
+    },
+    {
+      "id": "telephone-08",
+      "es": "¿Puede hablar más despacio, por favor?",
+      "fr": "Vous pouvez parler plus lentement, s'il vous plaît ?",
+      "pron": "POUÉ-dé a-BLAR MASS déss-PA-thyo por fa-BOR",
+      "note": "Personne ne s'en vexe. Au pire, on te parlera lentement mais plus fort."
+    },
+    {
+      "id": "telephone-09",
+      "es": "No le oigo bien, se corta.",
+      "fr": "Je vous entends mal, ça coupe.",
+      "pron": "no lé OÏ-go BYÉN sé KOR-ta",
+      "note": "Avec une amie : « No te oigo bien »."
+    },
+    {
+      "id": "telephone-10",
+      "es": "¿Me oyes ahora?",
+      "fr": "Tu m'entends, là ?",
+      "pron": "mé O-yéss a-O-ra",
+      "rapide": "¿M'oyes ahora?"
+    },
+    {
+      "id": "telephone-11",
+      "es": "¿Cómo se escribe?",
+      "fr": "Ça s'écrit comment ?",
+      "pron": "KO-mo sé éss-KRI-bé"
+    },
+    {
+      "id": "telephone-12",
+      "es": "Se lo deletreo: e, ele, i, ese, a, be, e, te, hache.",
+      "fr": "Je vous l'épelle : E, L, I, S, A, B, E, T, H.",
+      "pron": "sé lo dé-lé-TRÉ-o É É-lé I É-ssé A BÉ É TÉ A-tché",
+      "note": "Le b se dit « be » et le v « uve » : comme ils sonnent pareil, on précise souvent."
+    },
+    {
+      "id": "telephone-13",
+      "es": "Elisabeth, con ese, no con zeta.",
+      "fr": "Elisabeth, avec un s, pas avec un z.",
+      "pron": "é-li-ssa-BÉT kon É-ssé no kon THÉ-ta",
+      "note": "Sinon, tu risques fort de recevoir des messages adressés à Elizabeth."
+    },
+    {
+      "id": "telephone-14",
+      "es": "Ahora no puedo hablar, estoy en el trabajo.",
+      "fr": "Je ne peux pas parler, là, je suis au travail.",
+      "pron": "a-O-ra no POUÉ-do a-BLAR éss-TOÏ én él tra-BA-kho",
+      "rapide": "Ahora no puedo hablar, 'toy en el trabajo."
+    },
+    {
+      "id": "telephone-15",
+      "es": "Te llamo luego.",
+      "fr": "Je te rappelle plus tard.",
+      "pron": "té YA-mo LOUÉ-go",
+      "note": "En Espagne, « luego » veut dire plus tard. Combien plus tard, c'est un mystère."
+    },
+    {
+      "id": "telephone-16",
+      "es": "Te devuelvo la llamada en cuanto pueda.",
+      "fr": "Je te rappelle dès que je peux.",
+      "pron": "té dé-BOUÉL-bo la ya-MA-da én KOUAN-to POUÉ-da",
+      "note": "« En cuanto pueda » est au subjonctif : apprends-le d'un bloc, sans te poser de questions."
+    },
+    {
+      "id": "telephone-17",
+      "es": "Te he dejado un audio.",
+      "fr": "Je t'ai laissé un vocal.",
+      "pron": "té é dé-KHA-do oun AOU-dyo",
+      "note": "Un message vocal WhatsApp, c'est « un audio ». Certains en envoient de sept minutes.",
+      "rapide": "T'he dejao un audio."
+    },
+    {
+      "id": "telephone-18",
+      "es": "Te mando un wasap.",
+      "fr": "Je t'envoie un WhatsApp.",
+      "pron": "té MAN-do oun goua-SSAP",
+      "note": "« Wasap » est l'orthographe espagnole de WhatsApp. On entend aussi le verbe « wasapear »."
+    },
+    {
+      "id": "telephone-19",
+      "es": "¿Q tal el finde?",
+      "fr": "C'était comment, ton week-end ?",
+      "pron": "ké TAL él FIN-dé",
+      "note": "Dans les textos, q veut dire que ou qué, et « finde » c'est « fin de semana ». Le ¿ saute souvent aussi."
+    },
+    {
+      "id": "telephone-20",
+      "es": "Yo tb voy, pero llego tarde xq salgo a las 8.",
+      "fr": "Moi aussi je viens, mais j'arrive tard parce que je sors à 20 h.",
+      "pron": "YO tam-BYÉN BOÏ PÉ-ro YÉ-go TAR-dé POR-ké SAL-go a lass O-tcho",
+      "note": "tb = también, xq = porque (ou « por qué » dans une question). Ça se lit en entier."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Rendez-vous au centre de santé",
+      "contexte": "Tu appelles le centre de santé de ton quartier pour voir une médecin.",
+      "lignes": [
+        { "qui": "Recepcionista", "es": "Centro de salud, dígame.", "fr": "Centre de santé, j'écoute." },
+        { "qui": "Elisabeth", "es": "Hola, buenos días. Llamo para pedir cita con la médica.", "fr": "Bonjour. J'appelle pour prendre rendez-vous avec la médecin." },
+        { "qui": "Recepcionista", "es": "¿Me dice su nombre, por favor?", "fr": "Vous pouvez me donner votre nom, s'il vous plaît ?" },
+        { "qui": "Elisabeth", "es": "Elisabeth.", "fr": "Elisabeth." },
+        { "qui": "Recepcionista", "es": "¿Cómo se escribe?", "fr": "Ça s'écrit comment ?" },
+        { "qui": "Elisabeth", "es": "Se lo deletreo: e, ele, i, ese, a, be, e, te, hache. Con ese, no con zeta.", "fr": "Je vous l'épelle : E, L, I, S, A, B, E, T, H. Avec un s, pas avec un z." },
+        { "qui": "Recepcionista", "es": "Muy bien. ¿Le viene bien el martes a las diez?", "fr": "Très bien. Mardi à dix heures, ça vous va ?" },
+        { "qui": "Elisabeth", "es": "Perdone, ¿puede hablar más despacio, por favor?", "fr": "Pardon, vous pouvez parler plus lentement, s'il vous plaît ?" },
+        { "qui": "Recepcionista", "es": "Claro. El martes, a las diez de la mañana.", "fr": "Bien sûr. Mardi, à dix heures du matin." },
+        { "qui": "Elisabeth", "es": "Perfecto, muchas gracias. Hasta luego.", "fr": "Parfait, merci beaucoup. Au revoir." }
+      ]
+    },
+    {
+      "titre": "Lucía appelle au mauvais moment",
+      "contexte": "Ton téléphone sonne en plein travail, et le réseau fait des siennes.",
+      "lignes": [
+        { "qui": "Elisabeth", "es": "¿Sí?", "fr": "Allô ?" },
+        { "qui": "Lucía", "es": "¡Hola, guapa! ¿Qué haces el finde?", "fr": "Coucou ma belle ! Tu fais quoi ce week-end ?" },
+        { "qui": "Elisabeth", "es": "Perdona, no te oigo bien, se corta.", "fr": "Pardon, je t'entends mal, ça coupe." },
+        { "qui": "Lucía", "es": "¿Y ahora? ¿Me oyes ahora?", "fr": "Et là ? Tu m'entends, là ?" },
+        { "qui": "Elisabeth", "es": "Sí, ahora sí. Pero ahora no puedo hablar, estoy en el trabajo.", "fr": "Oui, là oui. Mais je ne peux pas parler, je suis au travail." },
+        { "qui": "Lucía", "es": "Vale, vale. Te mando un wasap.", "fr": "D'accord, d'accord. Je t'envoie un WhatsApp." },
+        { "qui": "Elisabeth", "es": "Genial. Te llamo luego. ¡Un beso!", "fr": "Super. Je te rappelle plus tard. Bisous !" },
+        { "qui": "Lucía", "es": "¡Venga, chao!", "fr": "Allez, salut !" }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Poder + infinitif pour demander",
+    "explication": "Pour demander quelque chose poliment, il suffit de poder suivi de l'infinitif, sans préposition : ¿Puede repetir? Poder change son o en ue, sauf avec nosotros et vosotros. Au téléphone avec un inconnu, on vouvoie avec usted, qui se conjugue comme él : ¿Puede…? Avec une amie, on passe à tú : ¿Puedes…?",
+    "tableau": [
+      ["yo", "puedo"],
+      ["tú", "puedes"],
+      ["él, ella, usted", "puede"],
+      ["nosotros, nosotras", "podemos"],
+      ["vosotros, vosotras", "podéis"],
+      ["ellos, ellas, ustedes", "pueden"]
+    ],
+    "exemples": [
+      { "es": "¿Puede repetir su nombre, por favor?", "fr": "Vous pouvez répéter votre nom, s'il vous plaît ?" },
+      { "es": "¿Puedes llamarme esta tarde?", "fr": "Tu peux m'appeler cet après-midi ?" },
+      { "es": "Mañana no podemos, ¿el jueves?", "fr": "Demain on ne peut pas, jeudi ?" }
+    ]
+  },
+  "expressions": [
+    { "es": "Te doy un toque.", "fr": "Je te passe un coup de fil.", "note": "Ça peut aussi vouloir dire faire sonner une fois pour que l'autre rappelle." },
+    { "es": "Está comunicando.", "fr": "C'est occupé.", "note": "Quand la ligne sonne occupé." },
+    { "es": "Me ha dejado en visto.", "fr": "Il m'a laissée en vu.", "note": "Les deux coches bleues, et rien. Drame moderne." },
+    { "es": "Me he quedado sin batería.", "fr": "Je n'ai plus de batterie.", "note": "L'excuse universelle, parfois même vraie." },
+    { "es": "¡Venga, chao!", "fr": "Allez, salut !", "note": "La façon la plus courante de raccrocher entre amis." },
+    { "es": "Un beso / Bss", "fr": "Bisous", "note": "À l'oral pour finir un appel, à l'écrit en version courte." }
+  ]
+}
