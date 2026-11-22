@@ -19,6 +19,7 @@ const DEFAUT = () => ({
   defisFaits: 0,     // nombre de jours où le défi a été terminé en entier
   defi: null,        // défi du jour en cours
   motsVus: [],       // petits mots déjà ouverts
+  sellos: [],        // tampons déjà célébrés (situations terminées)
   bienvenueVue: false,
 });
 

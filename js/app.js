@@ -118,10 +118,9 @@ async function ouvrirMot(m) {
   S.maj((s) => { if (!s.motsVus.includes(m.id)) s.motsVus.push(m.id); });
   await modale(`
     <div class="lettre">
-      <span class="lettre-ico">${ico("coeur")}</span>
-      <p class="lettre-sur">Un petit mot pour toi</p>
+      <p class="lettre-sur">Para ti</p>
       <p class="lettre-texte">${e(m.texte).replace(/\n/g, "<br>")}</p>
-      <button class="btn" data-fermer>Fermer</button>
+      <button class="btn" data-fermer>Cerrar</button>
     </div>`, { classe: "modale-lettre" });
 }
 
@@ -132,94 +131,106 @@ async function verifierSurprises() {
 
 // ---------------------------------------------------------------------------
 // Accueil
+const COURT = {
+  amis: "Amigos", telephone: "Teléfono", beaute: "Peluquería", culture: "Fiestas",
+  bar: "El bar", medecin: "Médico", voisins: "Vecinos", logement: "Mi piso",
+  administration: "Trámites", travail: "Trabajo", urgences: "Urgencias", ecole: "El cole",
+};
+const nomCourt = (s) => COURT[s.id] || s.titre_es;
+const ROTATIONS = [-8, 5, -3, 7, -6, 4, -2, 6, -7, 3, -4, 8];
+
+// Un tampon de la credencial : pointillé tant que la situation est en cours, encré quand elle est finie.
+function sello(s, k) {
+  const v = vues(s).length, n = s.phrases.length;
+  const fini = v === n;
+  const etat = fini ? "sellado" : v ? "en-curso" : "nuevo";
+  return `
+    <a class="sello sello-${etat}" href="#/situation/${e(s.id)}" data-rot="${fini ? ROTATIONS[k % ROTATIONS.length] : 0}"
+       aria-label="${e(s.titre)} : ${fini ? "terminée" : `${v} phrases vues sur ${n}`}">
+      <svg class="sello-svg" viewBox="0 0 100 100" aria-hidden="true">
+        <circle class="sello-piste" cx="50" cy="50" r="46" />
+        ${fini
+          ? `<circle class="sello-encre" cx="50" cy="50" r="46" /><circle class="sello-encre fin" cx="50" cy="50" r="39" />`
+          : `<circle class="sello-progres" cx="50" cy="50" r="46" pathLength="100" stroke-dasharray="${Math.round((v / n) * 100)} 100" transform="rotate(-90 50 50)" />`}
+      </svg>
+      <span class="sello-txt">
+        <strong>${e(nomCourt(s))}</strong>
+        <span>${fini ? "Sellado" : v ? `${v} / ${n}` : "Nuevo"}</span>
+      </span>
+    </a>`;
+}
+
 function accueil() {
   const etat = S.get();
   if (!etat.bienvenueVue) return bienvenue();
   montrerNav("accueil");
   const serie = S.serieActuelle();
   const d = defiDuJour();
-  const faits = d.morceaux.filter((m) => m.fini).length;
   const enCours = d.morceaux.findIndex((m) => !m.fini);
   const estIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
   const installee = navigator.standalone || matchMedia("(display-mode: standalone)").matches;
-
-  const pct = Math.round((faits / 3) * 100);
-  const minutesRestantes = d.morceaux.reduce((t, m, k) => t + (m.fini ? 0 : [4, 5, 8][k]), 0);
+  const minutes = d.morceaux.reduce((t, m, k) => t + (m.fini ? 0 : [4, 5, 8][k]), 0);
+  const prochaine = prochainesNouvelles(1)[0];
+  const sitDuJour = prochaine ? C.situationDe(prochaine) : null;
+  const scelles = C.toutes().filter((s) => vues(s).length === s.phrases.length).length;
+  const TRAMOS = ["Repaso", "Novedades", "Práctica"];
 
   app.innerHTML = `
     <div class="accueil">
-      <header class="accueil-haut">
+      <header class="credencial-haut">
         <div>
-          <p class="surtitre">${e(jourEnLettres())}</p>
-          <h1>Hola,<br><span class="accent">${e(etat.prenom)}.</span></h1>
-          <p class="sous-titre">${e(auHasard(PETITES_PHRASES))}</p>
+          <p class="credencial-sur">Credencial de</p>
+          <h1 class="credencial-nom">${e(etat.prenom)}</h1>
+          <p class="manuscrit">${e(auHasard(PETITES_PHRASES))}</p>
         </div>
-        <div class="serie ${S.serieFaiteAujourdhui() ? "serie-ok" : ""}" title="Jours d'affilée">
-          ${ico("flamme")}<strong>${serie}</strong><span>jour${serie > 1 ? "s" : ""}</span>
+        <div class="camino ${S.serieFaiteAujourdhui() ? "camino-hoy" : ""}">
+          <strong>${serie}</strong>
+          <span>${serie > 1 ? "días" : "día"} de camino</span>
         </div>
       </header>
 
       ${estIOS && !installee ? `
       <div class="encart">
-        <p><strong>Installe-moi sur ton écran d'accueil.</strong> Dans Safari, touche ${ico("partager", "ico-inline")} Partager, puis « Sur l'écran d'accueil ». Je marcherai même sans réseau.</p>
+        <p>Installe-moi sur ton écran d'accueil : dans Safari, touche ${ico("partager", "ico-inline")} Partager, puis « Sur l'écran d'accueil ». Je marcherai même sans réseau.</p>
       </div>` : ""}
 
       <div class="accueil-grille">
-        <section class="defi-carte carte-surface">
-          <div class="defi-tete">
-            <div class="anneau" data-p="${pct}"><span>${faits}/3</span></div>
-            <div>
-              <h2>Défi du jour</h2>
-              <p class="petit">${enCours === -1 ? "Terminé, bravo" : `Encore ${minutesRestantes} min environ`}</p>
-            </div>
-          </div>
-          <ol class="morceaux">
+        <section class="etapa">
+          <svg class="etapa-fleche" viewBox="0 0 120 60" aria-hidden="true"><path d="M8 30h78M64 10l24 20-24 20" /></svg>
+          <p class="etapa-sur">${enCours === -1 ? "Etapa de hoy, cumplida" : `Etapa de hoy, unos ${minutes} min`}</p>
+          <h2 class="etapa-titre">${enCours === -1 ? "¡Hasta mañana!" : e(sitDuJour ? sitDuJour.titre_es : "Repaso general")}</h2>
+          <ol class="tramos">
             ${d.morceaux.map((m, k) => `
               <li class="${m.fini ? "fini" : k === enCours ? "actuel" : ""}">
-                <span class="puce">${m.fini ? ico("coche") : k + 1}</span>
-                <span><strong>${e(m.titre)}</strong><br><span class="petit">${e(m.sousTitre)}</span></span>
+                <span class="tramo-marque">${m.fini ? ico("coche") : ""}</span>
+                <span>${TRAMOS[k]}</span>
               </li>`).join("")}
           </ol>
           ${enCours === -1
-            ? `<p class="defi-fini">${ico("etoile")} ¡Enhorabuena! Rendez-vous demain.</p>`
-            : `<button class="btn btn-large" data-defi>${faits ? "Reprendre" : "Commencer"}</button>
-               <p class="petit centre">Un seul morceau suffit pour garder ta série.</p>`}
+            ? `<p class="etapa-note">Les trois tramos sont faits. Ta série est sauve.</p>`
+            : `<button class="btn btn-etapa" data-defi>${d.morceaux.some((m) => m.fini) ? "Seguir" : "Empezar"}</button>
+               <p class="etapa-note">Un seul tramo suffit pour garder ta série.</p>`}
         </section>
 
-        <div class="chiffres">
-          <div><span class="petit">Phrases maîtrisées</span><strong>${S.nbAcquises()}</strong></div>
-          <div><span class="petit">Meilleure série</span><strong>${etat.serie.record}</strong></div>
-          <div><span class="petit">Défis complets</span><strong>${etat.defisFaits}</strong></div>
-        </div>
+        <dl class="chiffres">
+          <div><dt>Frases dominadas</dt><dd>${S.nbAcquises()}</dd></div>
+          <div><dt>Mejor racha</dt><dd>${etat.serie.record} <small>${etat.serie.record > 1 ? "días" : "día"}</small></dd></div>
+          <div><dt>Etapas completas</dt><dd>${etat.defisFaits}</dd></div>
+        </dl>
       </div>
 
-      <h2 class="titre-section">Tes situations <span class="petit">${C.toutes().length} disponibles</span></h2>
-      <div class="situations">
-        ${C.toutes().map((s) => {
-          const v = vues(s).length, n = s.phrases.length;
-          const acq = idsSituation(s).filter(S.estAcquise).length;
-          return `
-          <a class="situation" href="#/situation/${e(s.id)}">
-            <span class="situation-num">${String(s.ordre).padStart(2, "0")}</span>
-            <span class="situation-txt">
-              <strong>${e(s.titre)}</strong>
-              <span class="es">${e(s.titre_es)}</span>
-              <span class="jauge"><span data-largeur="${Math.round((v / n) * 100)}"></span></span>
-              <span class="petit">${v === 0 ? "À découvrir" : `${v}/${n} vues · ${acq} maîtrisée${acq > 1 ? "s" : ""}`}</span>
-            </span>
-          </a>`;
-        }).join("")}
-        ${C.bientot().map((b) => `
-          <div class="situation bientot" aria-disabled="true">
-            <span class="situation-num">${ico("cadenas")}</span>
-            <span class="situation-txt"><strong>${e(b.titre)}</strong><span class="es">${e(b.titre_es)}</span><span class="petit">Bientôt</span></span>
-          </div>`).join("")}
-      </div>
+      <section>
+        <div class="titre-section">
+          <h2>Tus sellos</h2>
+          <span class="petit">${scelles} sur ${C.toutes().length} tamponnés</span>
+        </div>
+        <div class="sellos">
+          ${C.toutes().map((s, k) => sello(s, k)).join("")}
+        </div>
+      </section>
     </div>`;
 
-  // Largeurs et anneaux appliqués en JS (pas de style en ligne : la politique de sécurité l'interdit)
-  $$("[data-largeur]", app).forEach((el) => (el.style.width = el.dataset.largeur + "%"));
-  $$("[data-p]", app).forEach((el) => el.style.setProperty("--p", el.dataset.p));
+  $$("[data-rot]", app).forEach((el) => el.style.setProperty("--rot", el.dataset.rot + "deg"));
   $("[data-defi]", app)?.addEventListener("click", () => aller("#/defi"));
   verifierSurprises();
 }
@@ -234,12 +245,16 @@ function bienvenue() {
   const etat = S.get();
   app.innerHTML = `
     <div class="bienvenue">
-      <span class="logo">Ñ</span>
-      <h1>¡Hola,<br><span class="accent">${e(etat.prenom)}!</span></h1>
+      <div class="couverture">
+        <svg class="couverture-fleche" viewBox="0 0 120 60" aria-hidden="true"><path d="M8 30h78M64 10l24 20-24 20" /></svg>
+        <p class="credencial-sur">Credencial de</p>
+        <h1 class="credencial-nom">${e(etat.prenom)}</h1>
+        <p class="couverture-lieu">Logroño, La Rioja</p>
+      </div>
       <p>Cette appli a été faite pour toi, et pour personne d'autre.</p>
-      <p>Chaque jour, un petit défi : des phrases qu'on entend vraiment à Logroño, des petits jeux, et des surprises cachées en chemin.</p>
-      <p>Pas besoin d'être parfaite. Il suffit d'être là, un peu chaque jour.</p>
-      <button class="btn btn-large" data-go>Empezamos</button>
+      <p>Chaque jour, une étape : des phrases qu'on entend vraiment à Logroño, des petits jeux, et un tampon à gagner pour chaque situation de ta vie ici.</p>
+      <p class="manuscrit">Pas besoin d'être parfaite. Il suffit d'être là, un peu chaque jour.</p>
+      <button class="btn btn-large" data-go>Abrir mi credencial</button>
     </div>`;
   $("[data-go]", app).onclick = () => {
     S.maj((s) => (s.bienvenueVue = true));
@@ -260,18 +275,18 @@ function defiDuJour() {
   const connus = idsConnus();
 
   const m1 = aReviser.length >= 3
-    ? { titre: "Réveil", sousTitre: `${aReviser.length} phrases à réviser · 4 min`, items: aReviser.map((id) => ({ type: "carte", id })) }
-    : { titre: "Réveil", sousTitre: "Tes premières phrases du jour · 3 min", items: nouvelles1.map((id) => ({ type: "carte", id, nouveau: true })) };
+    ? { titre: "Repaso", sousTitre: `${aReviser.length} phrases à réviser`, items: aReviser.map((id) => ({ type: "carte", id })) }
+    : { titre: "Repaso", sousTitre: "Tes premières phrases du jour", items: nouvelles1.map((id) => ({ type: "carte", id, nouveau: true })) };
 
   const m2items = nouvelles2.map((id) => ({ type: "carte", id, nouveau: true }));
   if (nouvelles2.length >= 4) m2items.push({ type: "relier", ids: nouvelles2 });
   nouvelles2.slice(0, 3).forEach((id) => m2items.push({ type: "qcm", id, sens: "es-fr" }));
   const m2 = nouvelles2.length
-    ? { titre: "Nouveautés", sousTitre: `${nouvelles2.length} nouvelles phrases · 5 min`, items: m2items }
-    : { titre: "Nouveautés", sousTitre: "Tu as tout vu ! On consolide · 5 min", items: X.exercicesSur(melanger(connus).slice(0, 12), 8) };
+    ? { titre: "Novedades", sousTitre: `${nouvelles2.length} nouvelles phrases`, items: m2items }
+    : { titre: "Novedades", sousTitre: "Tu as tout vu, on consolide", items: X.exercicesSur(melanger(connus).slice(0, 12), 8) };
 
   // Le 3e morceau se construit au moment où on l'ouvre, avec tout ce qui a été vu.
-  const m3 = { titre: "Entraînement", sousTitre: "Quiz, écrire, oreille rapide · 8 min", items: null };
+  const m3 = { titre: "Práctica", sousTitre: "Quiz, écrire, oreille rapide", items: null };
 
   const morceaux = [m1, m2, m3].map((m) => ({ ...m, pos: 0, fini: false }));
   // Premier jour sans rien à réviser : si le 1er morceau est vide, on le passe.
@@ -304,10 +319,29 @@ function defi() {
   });
 }
 
+// Nouveaux tampons gagnés depuis la dernière fois : on les célèbre une seule fois.
+async function celebrerSellos() {
+  const etat = S.get();
+  const deja = new Set(etat.sellos || []);
+  const nouveaux = C.toutes().filter((s) => vues(s).length === s.phrases.length && !deja.has(s.id));
+  for (const s of nouveaux) {
+    S.maj((x) => { x.sellos = [...(x.sellos || []), s.id]; });
+    await modale(`
+      <div class="nuevo-sello">
+        <p class="cartel-sur">Nuevo sello</p>
+        <div class="sello sello-sellado sello-geant" aria-hidden="true">
+          <svg class="sello-svg" viewBox="0 0 100 100"><circle class="sello-encre" cx="50" cy="50" r="46" /><circle class="sello-encre fin" cx="50" cy="50" r="39" /></svg>
+          <span class="sello-txt"><strong>${e(nomCourt(s))}</strong><span>Sellado</span></span>
+        </div>
+        <p>Tu as découvert toutes les phrases de « ${e(s.titre)} ». Ce tampon est à toi.</p>
+        <button class="btn btn-large" data-fermer>¡Olé!</button>
+      </div>`, { classe: "modale-sello" });
+  }
+}
+
 async function finMorceau(d, k, stats) {
-  let serieMontee = false;
   S.maj(() => (d.morceaux[k].fini = true));
-  serieMontee = S.compterJour();
+  const serieMontee = S.compterJour();
   const tousFinis = d.morceaux.every((m) => m.fini);
   if (tousFinis && !d.complet) S.maj((s) => { d.complet = true; s.defisFaits++; });
   const restant = d.morceaux.filter((m) => !m.fini).length;
@@ -315,21 +349,24 @@ async function finMorceau(d, k, stats) {
   const total = stats.ok + stats.ko;
 
   app.innerHTML = `
-    <div class="fin">
-      <span class="fin-ico">${ico(tousFinis ? "etoile" : "coche")}</span>
-      <h1>${tousFinis ? "¡Lo has conseguido!" : "¡Bien hecho!"}</h1>
-      <p>${tousFinis
-        ? "Défi du jour terminé en entier. Tu peux être fière de toi."
-        : `Morceau terminé. Il en reste ${restant}, quand tu veux : dans le bus, à la pause ou ce soir.`}</p>
-      ${total ? `<p class="fin-score">${stats.ok} bonne${stats.ok > 1 ? "s" : ""} réponse${stats.ok > 1 ? "s" : ""} sur ${total}</p>` : ""}
-      ${serieMontee ? `<p class="fin-serie">${ico("flamme")} Série : ${serie} jour${serie > 1 ? "s" : ""}</p>` : ""}
+    <div class="cartel ${tousFinis ? "cartel-fete" : ""}">
+      <p class="cartel-sur">${tousFinis ? "Etapa de hoy" : `Tramo ${k + 1} de 3`}</p>
+      <h1 class="cartel-titre">${tousFinis ? "¡Etapa<br>cumplida!" : "¡Bien<br>hecho!"}</h1>
+      <p class="cartel-texte">${tousFinis
+        ? "Les trois tramos du jour sont faits. Tu peux être fière de toi."
+        : `Il en reste ${restant}, quand tu veux : dans le bus, à la pause ou ce soir.`}</p>
+      <div class="cartel-chiffres">
+        ${total ? `<div><strong>${stats.ok}/${total}</strong><span>bonnes réponses</span></div>` : ""}
+        <div><strong>${serie}</strong><span>${serie > 1 ? "días" : "día"} de camino${serieMontee ? ", un de plus" : ""}</span></div>
+      </div>
       <div class="pile">
-        ${restant ? `<button class="btn btn-large" data-suite>Morceau suivant</button>` : ""}
-        <button class="btn ${restant ? "btn-doux" : "btn-large"}" data-accueil>Retour à l'accueil</button>
+        ${restant ? `<button class="btn btn-cartel btn-large" data-suite>Tramo siguiente</button>` : ""}
+        <button class="btn ${restant ? "btn-cartel-doux" : "btn-cartel btn-large"}" data-accueil>Volver a la credencial</button>
       </div>
     </div>`;
   $("[data-suite]", app)?.addEventListener("click", defi);
   $("[data-accueil]", app).onclick = () => aller("#/");
+  await celebrerSellos();
   await verifierSurprises();
 }
 
@@ -347,8 +384,8 @@ function ecranSituation(id, onglet = "phrases") {
     <header class="page-haut">
       <a class="btn-ico" href="#/" aria-label="Retour">${ico("retour")}</a>
       <div>
-        <p class="petit es">${e(s.titre_es)}</p>
-        <h1>${e(s.titre)}</h1>
+        <h1>${e(s.titre_es)}</h1>
+        <p class="page-sous">${e(s.titre)}</p>
       </div>
     </header>
     <p class="intro">${e(s.intro)}</p>
@@ -444,14 +481,15 @@ function lancer(items, titre, retour) {
     onFin: async (stats) => {
       const total = stats.ok + stats.ko;
       app.innerHTML = `
-        <div class="fin">
-          <span class="fin-ico">${ico("coche")}</span>
-          <h1>¡Hecho!</h1>
-          ${total ? `<p class="fin-score">${stats.ok} sur ${total}</p>` : ""}
-          <p>Tout est enregistré. Les phrases ratées reviendront bientôt.</p>
-          <button class="btn btn-large" data-retour>Continuer</button>
+        <div class="cartel">
+          <p class="cartel-sur">${e(titre)}</p>
+          <h1 class="cartel-titre">¡Hecho!</h1>
+          <p class="cartel-texte">Tout est enregistré. Les phrases ratées reviendront bientôt.</p>
+          ${total ? `<div class="cartel-chiffres"><div><strong>${stats.ok}/${total}</strong><span>bonnes réponses</span></div></div>` : ""}
+          <button class="btn btn-cartel btn-large" data-retour>Seguir</button>
         </div>`;
       $("[data-retour]", app).onclick = retour;
+      await celebrerSellos();
       await verifierSurprises();
     },
   });
@@ -463,23 +501,23 @@ function carnet() {
   montrerNav("carnet");
   const etat = S.get();
   app.innerHTML = `
-    <header class="page-haut"><div><p class="petit es">Mi cuaderno</p><h1>Mon carnet</h1></div></header>
+    <header class="page-haut"><div><h1>Mi libreta</h1><p class="page-sous">Mon carnet</p></div></header>
     <p class="intro">Une phrase entendue dans la rue, au travail, à la télé ? Note-la ici : elle rejoindra tes révisions.</p>
-    <form class="formulaire" data-ajout autocomplete="off">
+    <form class="postit" data-ajout autocomplete="off">
       <label>En espagnol<input name="es" required autocapitalize="sentences" autocorrect="off" spellcheck="false" placeholder="¿Me pones un cortado?"></label>
       <label>En français<input name="fr" required placeholder="Tu me sers un cortado ?"></label>
-      <label>Note (facultatif)<input name="note" placeholder="Entendu au bar en bas de chez moi"></label>
-      <button class="btn">${ico("plus")} Ajouter</button>
+      <label>Une note, si tu veux<input name="note" placeholder="Entendu au bar en bas de chez moi"></label>
+      <button class="btn">${ico("plus")} Apuntar</button>
     </form>
     ${etat.carnet.length ? `
-      <div class="rangee"><button class="btn btn-doux" data-reviser>Réviser mon carnet (${etat.carnet.length})</button></div>
-      <ul class="liste-carnet">
+      <div class="rangee"><button class="btn btn-doux" data-reviser>Repasar mi libreta (${etat.carnet.length})</button></div>
+      <ul class="libreta">
         ${etat.carnet.map((p) => `
           <li>
-            <span class="phrase-txt"><span class="es">${e(p.es)}</span><span class="fr">${e(p.fr)}</span>${p.note ? `<span class="note">${e(p.note)}</span>` : ""}</span>
+            <span class="phrase-txt"><span class="manuscrit-es">${e(p.es)}</span><span class="fr">${e(p.fr)}</span>${p.note ? `<span class="note">${e(p.note)}</span>` : ""}</span>
             <button class="btn-ico" data-suppr="${e(p.id)}" aria-label="Supprimer">${ico("poubelle")}</button>
           </li>`).join("")}
-      </ul>` : `<p class="petit centre">Ton carnet est encore vide.</p>`}`;
+      </ul>` : `<div class="libreta libreta-vide"><p class="manuscrit">Ta libreta attend sa première phrase.</p></div>`}`;
 
   $("[data-ajout]", app).onsubmit = (ev) => {
     ev.preventDefault();
@@ -487,15 +525,15 @@ function carnet() {
     const es = f.get("es").trim(), fr = f.get("fr").trim();
     if (!es || !fr) return;
     S.ajouterAuCarnet({ es, fr, note: f.get("note").trim() });
-    toast("Ajoutée à ton carnet");
+    toast("Apuntada en ta libreta");
     carnet();
   };
   $("[data-reviser]", app)?.addEventListener("click", () => {
     const items = melanger(S.get().carnet).slice(0, 20).map((p) => ({ type: "carte", id: p.id }));
-    lancer(items, "Mon carnet", () => aller("#/carnet"));
+    lancer(items, "Mi libreta", () => aller("#/carnet"));
   });
   $$("[data-suppr]", app).forEach((b) => (b.onclick = async () => {
-    if (await confirmer("Supprimer cette phrase ?", "Elle sera retirée de ton carnet et de tes révisions.", "Supprimer")) {
+    if (await confirmer("Supprimer cette phrase ?", "Elle sera retirée de ta libreta et de tes révisions.", "Supprimer")) {
       S.retirerDuCarnet(b.dataset.suppr);
       carnet();
     }
@@ -509,17 +547,18 @@ function surprises() {
   const mots = C.petitsMots();
   const etat = S.get();
   app.innerHTML = `
-    <header class="page-haut"><div><p class="petit es">Sorpresas</p><h1>Tes surprises</h1></div></header>
-    <p class="intro">Des petits mots se cachent dans l'appli. Ils s'ouvrent au fil de tes progrès.</p>
+    <header class="page-haut"><div><h1>Sorpresas</h1><p class="page-sous">Tes surprises</p></div></header>
+    <p class="intro">Des petits mots se cachent dans ta credencial. Ils s'ouvrent au fil de ton camino.</p>
     ${mots.length ? `<div class="enveloppes">
       ${mots.map((m) => {
         const ouvert = motDebloque(m);
+        const lu = etat.motsVus.includes(m.id);
         return `<button class="enveloppe ${ouvert ? "ouverte" : ""}" data-mot="${e(m.id)}" ${ouvert ? "" : "disabled"}>
-          <span class="enveloppe-ico">${ico(ouvert ? "coeur" : "cadenas")}</span>
-          <span>${ouvert ? (etat.motsVus.includes(m.id) ? "À relire" : "Nouveau !") : e(m.indice)}</span>
+          <span class="cachet" aria-hidden="true">${ouvert ? ico("coeur") : ""}</span>
+          <span class="enveloppe-txt">${ouvert ? (lu ? "Relire" : "Ouvre-moi") : e(m.indice)}</span>
         </button>`;
       }).join("")}</div>`
-      : `<p class="petit centre">Rien pour l'instant… ou peut-être que si, bientôt.</p>`}`;
+      : `<div class="libreta libreta-vide"><p class="manuscrit">Rien pour l'instant… ou peut-être que si, bientôt.</p></div>`}`;
   $$("[data-mot]", app).forEach((b) => (b.onclick = async () => {
     await ouvrirMot(mots.find((m) => m.id === b.dataset.mot));
     surprises();
@@ -532,7 +571,7 @@ function reglages() {
   montrerNav("reglages");
   const etat = S.get();
   app.innerHTML = `
-    <header class="page-haut"><div><p class="petit es">Ajustes</p><h1>Réglages</h1></div></header>
+    <header class="page-haut"><div><h1>Ajustes</h1><p class="page-sous">Réglages</p></div></header>
     <section class="bloc">
       <h2>Affichage</h2>
       <div class="segment" role="radiogroup" aria-label="Thème">
@@ -637,7 +676,7 @@ function guidePrononciation() {
   app.innerHTML = `
     <header class="page-haut">
       <a class="btn-ico" href="#/reglages" aria-label="Retour">${ico("retour")}</a>
-      <div><p class="petit es">Pronunciación</p><h1>Lire la prononciation</h1></div>
+      <div><h1>Pronunciación</h1><p class="page-sous">Lire la prononciation</p></div>
     </header>
     <p class="intro">Sous chaque phrase, la prononciation est écrite « à la française ». Les tirets séparent les syllabes.</p>
     <table class="tableau tableau-pron">
