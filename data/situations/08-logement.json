@@ -1,0 +1,327 @@
+{
+  "id": "logement",
+  "ordre": 8,
+  "titre": "Le logement",
+  "titre_es": "La vivienda",
+  "intro": "Chercher un appartement, le visiter, signer le contrat, puis appeler le propriétaire quand la chaudière fait grève : tout ce qu'il faut pour être vraiment chez toi à Logroño. Avec de l'eau chaude, de préférence.",
+  "phrases": [
+    {
+      "id": "logement-01",
+      "es": "Estoy buscando una habitación en un piso compartido.",
+      "fr": "Je cherche une chambre en colocation.",
+      "pron": "éss-TOÏ bouss-KAN-do OU-na a-bi-ta-THYON én oun PI-sso kom-par-TI-do",
+      "note": "En Espagne, « piso » veut dire appartement, pas seulement étage. Pour un appartement entier : « Estoy buscando piso de alquiler ».",
+      "rapide": "'Toy buscando un'habitación en un piso compartido."
+    },
+    {
+      "id": "logement-02",
+      "es": "Llamo por el piso del anuncio. ¿Cuándo podría verlo?",
+      "fr": "J'appelle pour l'appartement de l'annonce. Quand est-ce que je pourrais le visiter ?",
+      "pron": "YA-mo por él PI-sso dél a-NOUN-thyo KOUAN-do po-DRI-a BÉR-lo",
+      "note": "On ne dit pas « visitar » un appartement mais « verlo », le voir. Les bons pisos partent vite : appelle le jour même."
+    },
+    {
+      "id": "logement-03",
+      "es": "¿Cuánto es el alquiler al mes?",
+      "fr": "Le loyer, c'est combien par mois ?",
+      "pron": "KOUAN-to ÉSS él al-ki-LÉR al MÉSS",
+      "note": "« El alquiler » désigne à la fois la location et le loyer. « Alquilar », c'est louer.",
+      "rapide": "¿Cuánt'es el alquiler al mes?"
+    },
+    {
+      "id": "logement-04",
+      "es": "¿Los gastos están incluidos?",
+      "fr": "Les charges sont comprises ?",
+      "pron": "loss GASS-toss éss-TAN in-KLOUI-doss",
+      "note": "Les « gastos », ce sont la luz, el agua, el gas et internet. Un loyer pas cher avec des gastos aparte peut vite devenir un loyer cher.",
+      "rapide": "¿Los gastos 'tán incluidos?"
+    },
+    {
+      "id": "logement-05",
+      "es": "¿Está amueblado?",
+      "fr": "Il est meublé ?",
+      "pron": "éss-TA a-moué-BLA-do",
+      "note": "« Amueblado » pour un piso, « amueblada » pour une habitación. Sans meubles : « sin amueblar »."
+    },
+    {
+      "id": "logement-06",
+      "es": "¿Cuánto es la fianza?",
+      "fr": "La caution, c'est combien ?",
+      "pron": "KOUAN-to ÉSS la FYAN-tha",
+      "note": "Pour un logement, la loi prévoit un mois de loyer. Le propriétaire peut demander une garantie en plus, mais demande toujours un reçu."
+    },
+    {
+      "id": "logement-07",
+      "es": "¿Hay calefacción?",
+      "fr": "Il y a le chauffage ?",
+      "pron": "AÏ ka-lé-fak-THYON",
+      "note": "Question vitale à Logroño, où le cierzo souffle fort en hiver. Si elle est « central », elle est souvent comprise dans les charges de l'immeuble."
+    },
+    {
+      "id": "logement-08",
+      "es": "Hola, ¿es usted la casera? Vengo a ver el piso.",
+      "fr": "Bonjour, vous êtes la propriétaire ? Je viens voir l'appartement.",
+      "pron": "O-la ÉSS ouss-TÉD la ka-SSÉ-ra BÉN-go a BÉR él PI-sso",
+      "note": "« El casero » ou « la casera », c'est le propriétaire qui loue. On dit aussi « el dueño » ou « la dueña »."
+    },
+    {
+      "id": "logement-09",
+      "es": "¿Cuántos compañeros de piso sois?",
+      "fr": "Vous êtes combien de colocataires ?",
+      "pron": "KOUAN-toss kom-pa-GNÉ-ross dé PI-sso SOÏSS",
+      "note": "Entre futurs colocs, on se tutoie tout de suite, d'où le « sois » de vosotros."
+    },
+    {
+      "id": "logement-10",
+      "es": "Soy tranquila y muy ordenada, lo prometo.",
+      "fr": "Je suis calme et très ordonnée, promis.",
+      "pron": "SOÏ tran-KI-la i MOUÏ or-dé-NA-da lo pro-MÉ-to",
+      "note": "La phrase qui rassure les colocs pendant l'entretien. Au féminin, puisque c'est toi, et à tenir aussi après l'emménagement."
+    },
+    {
+      "id": "logement-11",
+      "es": "Me lo quedo. ¿Cuándo firmamos el contrato?",
+      "fr": "Je le prends. Quand est-ce qu'on signe le contrat ?",
+      "pron": "mé lo KÉ-do KOUAN-do fir-MA-moss él kon-TRA-to",
+      "note": "« Me lo quedo », c'est « je le prends », comme dans un magasin. Pour une chambre : « me la quedo »."
+    },
+    {
+      "id": "logement-12",
+      "es": "¿Puedo leer el contrato con calma antes de firmar?",
+      "fr": "Je peux lire le contrat tranquillement avant de signer ?",
+      "pron": "POUÉ-do lé-ÉR él kon-TRA-to kon KAL-ma AN-téss dé fir-MAR",
+      "note": "Le « contrato de alquiler » mérite une lecture attentive. Tu peux le montrer à une amie avant de signer, personne ne s'en vexera."
+    },
+    {
+      "id": "logement-13",
+      "es": "Le hago una transferencia a principios de mes.",
+      "fr": "Je vous fais un virement en début de mois.",
+      "pron": "lé A-go OU-na trans-fé-RÉN-thya a prin-THI-pyoss dé MÉSS",
+      "note": "En Espagne, le loyer se paie presque toujours par virement. Le contrat dit avant quel jour du mois.",
+      "rapide": "L'hago una transferencia a principios de mes."
+    },
+    {
+      "id": "logement-14",
+      "es": "¿Cómo repartimos las facturas de la luz y el gas?",
+      "fr": "Comment on partage les factures d'électricité et de gaz ?",
+      "pron": "KO-mo rré-par-TI-moss lass fak-TOU-rass dé la LOUTH i él GASS",
+      "note": "« La luz », c'est l'électricité. Entre colocs, on se rembourse souvent par Bizum, le virement instantané que tout le monde a sur son móvil."
+    },
+    {
+      "id": "logement-15",
+      "es": "Se ha roto la caldera y no hay agua caliente.",
+      "fr": "La chaudière est en panne et il n'y a pas d'eau chaude.",
+      "pron": "sé a RRO-to la kal-DÉ-ra i no AÏ A-goua ka-LYÉN-té",
+      "note": "En général, les grosses réparations sont pour le propriétaire. Préviens-le tout de suite, de préférence avant de prendre ta douche.",
+      "rapide": "S'ha roto la caldera y no hay agua caliente."
+    },
+    {
+      "id": "logement-16",
+      "es": "Hay una gotera en el techo del baño.",
+      "fr": "Il y a une fuite au plafond de la salle de bains.",
+      "pron": "AÏ OU-na go-TÉ-ra én él TÉ-tcho dél BA-gno",
+      "note": "Une « gotera », c'est l'eau qui tombe goutte à goutte du plafond. Prends une photo pour le propriétaire, et une bassine pour toi."
+    },
+    {
+      "id": "logement-17",
+      "es": "La lavadora no funciona.",
+      "fr": "La machine à laver ne marche pas.",
+      "pron": "la la-ba-DO-ra no foun-THYO-na",
+      "note": "Si elle marche mais fait un bruit d'hélicoptère, tu peux ajouter : « hace un ruido raro »."
+    },
+    {
+      "id": "logement-18",
+      "es": "Necesito a alguien para arreglar un enchufe.",
+      "fr": "J'ai besoin de quelqu'un pour réparer une prise.",
+      "pron": "né-thé-SSI-to a AL-guién PA-ra a-rré-GLAR oun én-TCHOU-fé",
+      "note": "Pour les prises et la lumière, on appelle « el electricista ». Arreglar, c'est réparer : le verbe de tous les dépannages.",
+      "rapide": "Necesito a alguien pa' arreglar un enchufe."
+    },
+    {
+      "id": "logement-19",
+      "es": "¿Puede mandar a un fontanero, por favor?",
+      "fr": "Vous pouvez envoyer un plombier, s'il vous plaît ?",
+      "pron": "POUÉ-dé man-DAR a oun fon-ta-NÉ-ro por fa-BOR",
+      "note": "« El fontanero », c'est le plombier. Avec « puede », tu vouvoies le propriétaire, ce qui aide toujours à obtenir un rendez-vous rapide."
+    },
+    {
+      "id": "logement-20",
+      "es": "Me voy a final de mes. ¿Cuándo me devuelve la fianza?",
+      "fr": "Je pars à la fin du mois. Quand est-ce que vous me rendez la caution ?",
+      "pron": "mé BOÏ a fi-NAL dé MÉSS KOUAN-do mé dé-BOUÉL-bé la FYAN-tha",
+      "note": "Préviens au moins trente jours avant et prends des photos le jour du départ. Le propriétaire a un mois après la remise des clés pour te rendre la fianza."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "La visite chez Pilar",
+      "contexte": "Tu as rendez-vous pour voir un petit appartement près de la calle Portales. La propriétaire t'ouvre la porte.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "Hola, buenas tardes. ¿Es usted la casera? Vengo a ver el piso.",
+          "fr": "Bonjour. Vous êtes la propriétaire ? Je viens voir l'appartement."
+        },
+        {
+          "qui": "Pilar",
+          "es": "Sí, soy Pilar. Pasa, pasa. Mira, aquí está el salón y allí la cocina.",
+          "fr": "Oui, je suis Pilar. Entre, entre. Regarde, ici c'est le salon et là-bas la cuisine."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Qué luminoso! ¿Está amueblado?",
+          "fr": "Qu'il est lumineux ! Il est meublé ?"
+        },
+        {
+          "qui": "Pilar",
+          "es": "Sí, tiene de todo: cama, sofá, lavadora… Solo faltas tú.",
+          "fr": "Oui, il y a tout : lit, canapé, machine à laver… Il ne manque plus que toi."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Y cuánto es el alquiler al mes?",
+          "fr": "Et le loyer, c'est combien par mois ?"
+        },
+        {
+          "qui": "Pilar",
+          "es": "Quinientos cincuenta euros. Los gastos van aparte.",
+          "fr": "Cinq cent cinquante euros. Les charges sont en plus."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Hay calefacción? Me han dicho que aquí en invierno hace mucho frío.",
+          "fr": "Il y a le chauffage ? On m'a dit qu'ici, en hiver, il fait très froid."
+        },
+        {
+          "qui": "Pilar",
+          "es": "Sí, de gas, y la caldera es nueva. La fianza es de un mes.",
+          "fr": "Oui, au gaz, et la chaudière est neuve. La caution, c'est un mois."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Me lo quedo. ¿Cuándo firmamos el contrato?",
+          "fr": "Je le prends. Quand est-ce qu'on signe le contrat ?"
+        },
+        {
+          "qui": "Pilar",
+          "es": "¿Te viene bien el lunes? Trae el NIE y tu última nómina.",
+          "fr": "Lundi, ça te va ? Apporte ton NIE et ta dernière fiche de paie."
+        }
+      ]
+    },
+    {
+      "titre": "La chaudière fait grève",
+      "contexte": "Un matin de décembre, l'eau de la douche reste glacée. Tu appelles Javier, ton propriétaire.",
+      "lignes": [
+        {
+          "qui": "Javier",
+          "es": "¿Dígame?",
+          "fr": "Allô ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Hola, Javier, soy Elisabeth, la inquilina de la calle Portales.",
+          "fr": "Bonjour Javier, c'est Elisabeth, la locataire de la calle Portales."
+        },
+        {
+          "qui": "Javier",
+          "es": "Hola, Elisabeth. ¿Qué tal todo?",
+          "fr": "Bonjour Elisabeth. Tout va bien ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Pues regular. Se ha roto la caldera y no hay agua caliente.",
+          "fr": "Bof, pas trop. La chaudière est en panne et il n'y a pas d'eau chaude."
+        },
+        {
+          "qui": "Javier",
+          "es": "Vaya por Dios. ¿Desde cuándo?",
+          "fr": "Mince alors. Depuis quand ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Desde esta mañana. Me he duchado con agua fría y todavía estoy congelada.",
+          "fr": "Depuis ce matin. J'ai pris une douche froide et je suis encore gelée."
+        },
+        {
+          "qui": "Javier",
+          "es": "Lo siento mucho. Hoy mismo llamo al técnico. ¿Vas a estar en casa esta tarde?",
+          "fr": "Je suis vraiment désolé. J'appelle le technicien aujourd'hui même. Tu seras chez toi cet après-midi ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí, a partir de las cinco. Y otra cosa: hay una gotera en el techo del baño. ¿Puede mandar a un fontanero, por favor?",
+          "fr": "Oui, à partir de cinq heures. Et autre chose : il y a une fuite au plafond de la salle de bains. Vous pouvez envoyer un plombier, s'il vous plaît ?"
+        },
+        {
+          "qui": "Javier",
+          "es": "Claro. Hay que arreglarlo antes de que le caiga agua al vecino de abajo.",
+          "fr": "Bien sûr. Il faut réparer ça avant que l'eau ne tombe chez le voisin du dessous."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Muchas gracias, Javier. ¡Hasta luego!",
+          "fr": "Merci beaucoup, Javier. Au revoir !"
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Se ha roto, no funciona, hay que",
+    "explication": "Pour signaler une panne, on utilise le passé composé avec « se » : « se ha roto » (c'est cassé), « se ha estropeado » (c'est tombé en panne). Au pluriel, « ha » devient « han ». Pour dire que quelque chose ne marche pas en ce moment, le présent suffit : « no funciona », ou plus familier « no va ». Et pour dire ce qu'il faut faire, « hay que » + infinitif : il ne se conjugue jamais, c'est le cadeau du jour.",
+    "tableau": [
+      ["Se ha roto la caldera.", "La chaudière est cassée."],
+      ["Se han roto dos persianas.", "Deux volets roulants sont cassés."],
+      ["No funciona la lavadora.", "La machine à laver ne marche pas."],
+      ["No funcionan los enchufes.", "Les prises ne marchent pas."],
+      ["Hay que cambiar el grifo.", "Il faut changer le robinet."],
+      ["Hay que llamar al electricista.", "Il faut appeler l'électricien."]
+    ],
+    "exemples": [
+      {
+        "es": "Se ha roto la cisterna del váter. Hay que llamar al fontanero.",
+        "fr": "La chasse d'eau est cassée. Il faut appeler le plombier."
+      },
+      {
+        "es": "La luz del pasillo no funciona desde ayer.",
+        "fr": "La lumière du couloir ne marche plus depuis hier."
+      },
+      {
+        "es": "Se ha estropeado la nevera y hay que tirar la comida.",
+        "fr": "Le frigo est tombé en panne et il faut jeter la nourriture."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "¡Es un chollo!",
+      "fr": "C'est une affaire en or !",
+      "note": "Pour un piso bien placé, pas cher et lumineux. Si ça existe, dis-le vite et signe."
+    },
+    {
+      "es": "Es un zulo",
+      "fr": "C'est un placard",
+      "note": "Pour un appartement minuscule et sombre. À dire après la visite, pas devant le propriétaire."
+    },
+    {
+      "es": "Se cae a cachos",
+      "fr": "Il tombe en morceaux",
+      "note": "Pour un vieux piso où tout est à refaire, de la caldera aux persianas."
+    },
+    {
+      "es": "¡Qué cutre!",
+      "fr": "Qu'est-ce que c'est miteux !",
+      "note": "Pour une moquette douteuse ou une salle de bains de 1975. Très courant, un peu moqueur."
+    },
+    {
+      "es": "Estar a dos velas",
+      "fr": "Être fauchée",
+      "note": "Le joli nom de la fin du mois, juste après le virement du loyer."
+    },
+    {
+      "es": "Llegar a fin de mes",
+      "fr": "Boucler les fins de mois",
+      "note": "Souvent à la forme négative : « no llego a fin de mes ». Sujet de conversation numéro un entre colocs."
+    }
+  ]
+}

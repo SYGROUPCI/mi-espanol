@@ -7,13 +7,10 @@
     "situations/04-culture.json",
     "situations/05-bar.json",
     "situations/06-medecin.json",
-    "situations/07-voisins.json"
+    "situations/07-voisins.json",
+    "situations/08-logement.json"
   ],
   "bientot": [
-    {
-      "titre": "Le logement",
-      "titre_es": "La vivienda"
-    },
     {
       "titre": "L'administration",
       "titre_es": "Los trámites"
