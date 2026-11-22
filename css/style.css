@@ -529,3 +529,5 @@ input:focus, textarea:focus { border-color: var(--violet-vif); }
   .saisie { left: var(--nav-l); }
   .charla-haut { margin: -52px -60px 0; padding: 14px 60px; }
 }
+
+.fil-vide { padding: 30px 4px; text-align: center; }

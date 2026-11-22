@@ -77,6 +77,10 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
 
   const afficher = () => {
     const msgs = etat().charla.messages.filter((m) => m.content !== ouvrir);
+    if (!msgs.length) {
+      fil.innerHTML = `<p class="manuscrit fil-vide">Dis bonjour à ${e(scene.nom)}, ou touche « Nueva » pour qu'il commence.</p>`;
+      return;
+    }
     fil.innerHTML = msgs.map((m) => m.role === "assistant"
       ? `<button class="bulle-ia ${cachee ? "" : "revele"}" data-reveler>
            <span class="es">${e(m.content)}</span>
