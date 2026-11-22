@@ -22,6 +22,7 @@ const DEFAUT = () => ({
   sellos: [],        // tampons déjà célébrés (situations terminées)
   charla: null,      // conversation IA en cours { scene, messages }
   codeIA: null,      // code d'accès à la conversation (jamais exporté)
+  compte: null,      // { prenom, role } quand on est connecté avec Face ID
   bienvenueVue: false,
 });
 
@@ -35,7 +36,18 @@ function charger() {
   return DEFAUT();
 }
 
+// Écouteurs de changement (la synchronisation avec le compte s'y abonne).
+const abonnes = new Set();
+export const surChangement = (fn) => abonnes.add(fn);
+
 export function sauver() {
+  try { localStorage.setItem(CLE, JSON.stringify(etat)); } catch (e) { /* plein ou bloqué */ }
+  for (const fn of abonnes) { try { fn(); } catch (_) { /* un abonné ne doit pas tout casser */ } }
+}
+
+// Remplace tout l'état (après une fusion avec le compte), sans déclencher de nouvel envoi.
+export function remplacer(nouvelEtat) {
+  etat = { ...DEFAUT(), ...nouvelEtat, reglages: { ...DEFAUT().reglages, ...(nouvelEtat.reglages || {}) } };
   try { localStorage.setItem(CLE, JSON.stringify(etat)); } catch (e) { /* plein ou bloqué */ }
 }
 
@@ -106,6 +118,11 @@ export function serieActuelle() {
   const auj = aujourdhui();
   if (s.dernier === auj || s.dernier === plusJours(auj, -1)) return s.jours;
   return 0;
+}
+export function serieActuelleDe(s) {
+  if (!s?.dernier) return 0;
+  const auj = aujourdhui();
+  return s.dernier === auj || s.dernier === plusJours(auj, -1) ? s.jours || 0 : 0;
 }
 export const serieFaiteAujourdhui = () => etat.serie.dernier === aujourdhui();
 

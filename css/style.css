@@ -591,3 +591,17 @@ input:focus, textarea:focus { border-color: var(--violet-vif); }
 .maintenance .logo { animation: tamponner .55s cubic-bezier(.3, 1.6, .5, 1) both; --rot: -6deg; transform: rotate(var(--rot)); }
 .maintenance-titre { font-family: var(--titre); font-size: 1.6rem; }
 @keyframes fondu-maj { from { opacity: 0; } }
+
+/* ---------- Compte et duo ---------- */
+.encart-compte { display: grid; gap: 12px; }
+.encart-compte .rangee { flex-wrap: wrap; }
+.btn.en-cours { opacity: .6; pointer-events: none; }
+.duo-carte {
+  display: grid; gap: 8px; padding: 14px 16px; border-radius: 18px;
+  background: var(--surface); box-shadow: var(--ombre); border-left: 4px solid var(--violet-vif);
+}
+.duo-sur { font-size: .82rem; font-weight: 700; color: var(--violet); }
+.duo-ligne { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: baseline; color: var(--encre-2); font-size: .92rem; }
+.duo-ligne strong { font-family: var(--titre); font-weight: 400; font-size: 1.35rem; color: var(--encre); margin-right: 4px; }
+.duo-ligne b { color: var(--encre); }
+.bienvenue .btn-doux { margin-top: 0; }

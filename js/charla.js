@@ -122,14 +122,14 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
 
   async function appeler() {
     let code = etat().codeIA;
-    if (!code) {
+    if (!code && !etat().compte) {
       code = await demanderCode();
       if (!code) return { ok: false };
     }
     try {
       const rep = await fetch("api/conversacion", {
         method: "POST",
-        headers: { "Content-Type": "application/json", "X-Code-Acces": code },
+        headers: { "Content-Type": "application/json", ...(code ? { "X-Code-Acces": code } : {}) },
         body: JSON.stringify({
           scene: etat().charla.scene,
           messages: etat().charla.messages.map((m) => ({ role: m.role, content: m.content })),

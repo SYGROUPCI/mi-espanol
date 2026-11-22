@@ -4,6 +4,7 @@ import * as C from "./contenu.js";
 import * as X from "./exercices.js";
 import { ecranCharla } from "./charla.js";
 import * as V from "./voix.js";
+import * as K from "./compte.js";
 import { $, $$, e, ico, remplirIcones, toast, modale, confirmer, melanger, auHasard } from "./ui.js";
 
 const app = $("#app");
@@ -31,6 +32,11 @@ async function demarrer() {
   if (!S.get().prenom) S.maj((s) => (s.prenom = C.prenomParDefaut() || "toi"));
   remplirIcones(nav);
   V.brancher();
+  majNavCompte();
+  K.demarrer().then((ok) => {
+    majNavCompte();
+    if (ok && ["", "#", "#/"].includes(location.hash)) accueil();
+  });
   // Barre du bas (kaizen, 3e version) :
   // - elle s'efface dès qu'elle lit en descendant ;
   // - elle ne revient pas pour une petite remontée (relire une ligne), seulement pour une vraie
@@ -111,6 +117,7 @@ function router() {
     pratiquer: () => pratiquer(arg),
     defi: defi,
     charla: () => ecranCharla(app, { montrerNav, aller }),
+    compte: ecranCompte,
     carnet: carnet,
     surprises: surprises,
     reglages: reglages,
@@ -247,6 +254,13 @@ function accueil() {
         </div>
       </header>
 
+      ${!K.connecte() && K.faceIdDisponible() && !etat.compteReporte ? `
+      <div class="encart encart-compte">
+        <p>Mets ta credencial à l'abri : avec Face ID, ta progression est sauvegardée et tu la retrouves sur tous tes appareils.</p>
+        <div class="rangee"><a class="btn btn-petit" href="#/compte">Activer Face ID</a><button class="btn btn-doux btn-petit" data-plus-tard>Plus tard</button></div>
+      </div>` : ""}
+      ${K.connecte() ? `<div class="duo-carte" data-duo hidden></div>` : ""}
+
       ${estIOS && !installee ? `
       <div class="encart">
         <p>Installe-moi sur ton écran d'accueil : dans Safari, touche ${ico("partager", "ico-inline")} Partager, puis « Sur l'écran d'accueil ». Je marcherai même sans réseau.</p>
@@ -290,7 +304,12 @@ function accueil() {
 
   $$("[data-rot]", app).forEach((el) => el.style.setProperty("--rot", el.dataset.rot + "deg"));
   $("[data-defi]", app)?.addEventListener("click", () => aller("#/defi"));
-  verifierSurprises();
+  $("[data-plus-tard]", app)?.addEventListener("click", () => {
+    S.maj((s) => (s.compteReporte = true));
+    accueil();
+  });
+  afficherDuo();
+  if (!K.compte() || K.compte().role === "eli") verifierSurprises();
 }
 
 function jourEnLettres() {
@@ -313,6 +332,7 @@ function bienvenue() {
       <p>Chaque jour, une étape : des phrases qu'on entend vraiment à Logroño, des petits jeux, et un tampon à gagner pour chaque situation de ta vie ici.</p>
       <p class="manuscrit">Pas besoin d'être parfaite. Il suffit d'être là, un peu chaque jour.</p>
       <button class="btn btn-large" data-go>Abrir mi credencial</button>
+      ${K.faceIdDisponible() ? `<a class="btn btn-doux btn-large" href="#/compte">J'ai déjà un compte (Face ID)</a>` : ""}
     </div>`;
   $("[data-go]", app).onclick = () => {
     S.maj((s) => (s.bienvenueVue = true));
@@ -641,6 +661,14 @@ function reglages() {
       <p class="petit">Auto suit le réglage de ton téléphone : clair le jour, sombre le soir si tu l'as activé.</p>
     </section>
     <section class="bloc">
+      <h2>Mon compte</h2>
+      ${K.connecte()
+        ? `<p>Connectée en tant que <strong>${e(K.compte().prenom)}</strong>, avec Face ID. Ta progression est sauvegardée en ligne.</p>
+           <button class="btn btn-doux" data-deconnexion>Me déconnecter de cet appareil</button>`
+        : `<p class="petit">Sans compte, ta progression reste seulement sur cet appareil.</p>
+           <a class="btn" href="#/compte">Activer Face ID</a>`}
+    </section>
+    <section class="bloc">
       <h2>La voix</h2>
       ${V.disponible() ? `
       <div class="segment segment-2" role="radiogroup" aria-label="Vitesse de la voix">
@@ -678,6 +706,13 @@ function reglages() {
     if (v) { S.maj((s) => (s.prenom = v)); toast("C'est noté"); }
   };
   $$("[data-r]", app).forEach((c) => (c.onchange = () => S.maj((s) => (s.reglages[c.dataset.r] = c.checked))));
+  $("[data-deconnexion]", app)?.addEventListener("click", async () => {
+    if (await confirmer("Te déconnecter ?", "Ta progression reste sauvegardée en ligne. Cet appareil repartira de zéro jusqu'à ta prochaine connexion avec Face ID.", "Me déconnecter")) {
+      await K.seDeconnecter();
+      majNavCompte();
+      aller("#/");
+    }
+  });
   $$("[data-vitesse-choix]", app).forEach((b) => (b.onclick = () => {
     S.maj((s) => (s.reglages.vitesseVoix = b.dataset.vitesseChoix));
     $$("[data-vitesse-choix]", app).forEach((x) => {
@@ -765,6 +800,81 @@ function guidePrononciation() {
       ${regles.map(([a, b, c]) => `<tr><td><strong>${e(a)}</strong></td><td>${e(b)}<br><span class="pron">${e(c)}</span></td></tr>`).join("")}
     </table>
     <p class="petit">Le h ne se prononce jamais, et le v se dit comme un b.</p>`;
+}
+
+// ---------------------------------------------------------------------------
+// Compte : Face ID
+function majNavCompte() {
+  const lien = $('a[data-onglet="surprises"]', nav);
+  if (lien) lien.hidden = K.compte()?.role === "duo";
+}
+
+function ecranCompte() {
+  montrerNav("reglages");
+  if (K.connecte()) return aller("#/reglages");
+  app.innerHTML = `
+    <header class="page-haut">
+      <a class="btn-ico" href="#/" aria-label="Retour">${ico("retour")}</a>
+      <div><h1>Tu credencial</h1><p class="page-sous">Ton compte avec Face ID</p></div>
+    </header>
+    <p class="intro">Pas de mot de passe : c'est ton visage qui ouvre ta credencial. Ta progression est sauvegardée en ligne et tu la retrouves sur tous tes appareils.</p>
+    ${K.faceIdDisponible() ? `
+    <section class="bloc">
+      <h2>J'ai déjà mon compte</h2>
+      <button class="btn btn-large" data-connexion>${ico("visage")} Me connecter avec Face ID</button>
+    </section>
+    <section class="bloc">
+      <h2>Je crée mon compte</h2>
+      <p class="petit">Avec le code d'invitation qu'on t'a donné. Il ne sert qu'une seule fois.</p>
+      <form class="pile" data-inscription autocomplete="off">
+        <input name="code" required autocapitalize="characters" autocorrect="off" spellcheck="false" placeholder="XXXX-XXXX-XXXX" aria-label="Code d'invitation">
+        <button class="btn btn-large">${ico("visage")} Créer avec Face ID</button>
+      </form>
+    </section>
+    <p class="petit centre" data-message aria-live="polite"></p>`
+    : `<p class="encart">Cet appareil ne permet pas Face ID. Ouvre l'appli sur ton iPhone, dans Safari ou depuis l'écran d'accueil.</p>`}`;
+
+  const message = $("[data-message]", app);
+  const occupe = (b, on) => { if (b) { b.disabled = on; b.classList.toggle("en-cours", on); } };
+  const resultat = (r) => {
+    if (r.ok) {
+      toast(`Bienvenida, ${r.utilisateur.prenom}`);
+      majNavCompte();
+      return aller("#/");
+    }
+    message.textContent = K.MESSAGES[r.erreur] || "Ça n'a pas marché. Réessaie dans un instant.";
+  };
+  $("[data-connexion]", app)?.addEventListener("click", async (ev) => {
+    occupe(ev.currentTarget, true);
+    message.textContent = "";
+    try { resultat(await K.seConnecter()); } finally { occupe(ev.currentTarget, false); }
+  });
+  $("[data-inscription]", app)?.addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    const bouton = $("button", ev.currentTarget);
+    const code = new FormData(ev.currentTarget).get("code");
+    occupe(bouton, true);
+    message.textContent = "";
+    try { resultat(await K.creerCompte(code)); } finally { occupe(bouton, false); }
+  });
+}
+
+// Carte duo : où en est l'autre.
+async function afficherDuo() {
+  const place = $("[data-duo]", app);
+  if (!place) return;
+  const d = await K.duo();
+  if (!d || !document.body.contains(place)) return;
+  const jours = S.serieActuelleDe ? S.serieActuelleDe(d.serie) : d.serie.jours;
+  place.innerHTML = `
+    <p class="duo-sur">Tu duo</p>
+    <div class="duo-ligne">
+      <strong>${e(d.prenom)}</strong>
+      <span><b>${jours}</b> ${jours > 1 ? "días" : "día"} de camino</span>
+      <span><b>${d.sellos}</b> ${d.sellos > 1 ? "sellos" : "sello"}</span>
+      <span><b>${d.acquises}</b> frases</span>
+    </div>`;
+  place.hidden = false;
 }
 
 demarrer();
