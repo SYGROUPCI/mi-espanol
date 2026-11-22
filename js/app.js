@@ -3,6 +3,7 @@ import * as S from "./store.js";
 import * as C from "./contenu.js";
 import * as X from "./exercices.js";
 import { ecranCharla } from "./charla.js";
+import * as V from "./voix.js";
 import { $, $$, e, ico, remplirIcones, toast, modale, confirmer, melanger, auHasard } from "./ui.js";
 
 const app = $("#app");
@@ -29,6 +30,7 @@ async function demarrer() {
   }
   if (!S.get().prenom) S.maj((s) => (s.prenom = C.prenomParDefaut() || "toi"));
   remplirIcones(nav);
+  V.brancher();
   // La barre du bas s'efface quand elle lit en descendant, et revient dès qu'elle remonte.
   // Au doigt, l'iPhone envoie beaucoup de tout petits défilements : on cumule la distance
   // parcourue dans un même sens au lieu de regarder chaque petit pas.
@@ -429,27 +431,29 @@ function contenuOnglet(s, onglet, cachee) {
     return `<p class="petit">Touche une phrase pour voir sa traduction.</p><ul class="liste-phrases">
       ${s.phrases.map((p) => {
         const etat = S.estAcquise(p.id) ? "acquise" : S.carte(p.id) ? "vue" : "neuve";
-        return `<li><button class="phrase ${rev}" data-reveler>
+        return `<li class="ligne-voix"><button class="phrase ${rev}" data-reveler>
           <span class="point point-${etat}" title="${etat === "acquise" ? "Maîtrisée" : etat === "vue" ? "Déjà vue" : "Nouvelle"}"></span>
           <span class="phrase-txt">
             <span class="es">${e(p.es)}</span>
             ${pron && p.pron ? `<span class="pron">${e(p.pron)}</span>` : ""}
             <span class="fr">${e(p.fr)}</span>
             ${p.note ? `<span class="note">${e(p.note)}</span>` : ""}
-          </span></button></li>`;
+          </span></button>${V.bouton(p.es)}</li>`;
       }).join("")}</ul>`;
   }
   if (onglet === "dialogues") {
     return (s.dialogues || []).map((d) => `
       <article class="dialogue">
-        <h3>${e(d.titre)}</h3>
+        <div class="dialogue-tete"><h3>${e(d.titre)}</h3>${V.bouton(d.lignes.map((l) => l.es).join(" … "), { classe: "btn-voix-large" })}</div>
         <p class="petit">${e(d.contexte)}</p>
         ${d.lignes.map((l, k) => `
-          <button class="bulle ${k % 2 ? "bulle-droite" : ""} ${rev}" data-reveler>
-            <span class="qui">${e(l.qui)}</span>
-            <span class="es">${e(l.es)}</span>
-            <span class="fr">${e(l.fr)}</span>
-          </button>`).join("")}
+          <div class="bulle-ligne ${k % 2 ? "bulle-ligne-droite" : ""}">
+            <button class="bulle ${k % 2 ? "bulle-droite" : ""} ${rev}" data-reveler>
+              <span class="qui">${e(l.qui)}</span>
+              <span class="es">${e(l.es)}</span>
+              <span class="fr">${e(l.fr)}</span>
+            </button>${V.bouton(l.es)}
+          </div>`).join("")}
       </article>`).join("") || `<p class="petit">Pas de dialogue ici.</p>`;
   }
   if (onglet === "grammaire") {
@@ -458,11 +462,11 @@ function contenuOnglet(s, onglet, cachee) {
       <h3>${e(g.titre)}</h3>
       <p>${e(g.explication)}</p>
       ${g.tableau?.length ? `<table class="tableau">${g.tableau.map((r) => `<tr>${r.map((c) => `<td>${e(c)}</td>`).join("")}</tr>`).join("")}</table>` : ""}
-      ${(g.exemples || []).map((x) => `<p class="exemple"><span class="es">${e(x.es)}</span><br><span class="fr">${e(x.fr)}</span></p>`).join("")}
+      ${(g.exemples || []).map((x) => `<div class="exemple ligne-voix"><p><span class="es">${e(x.es)}</span><br><span class="fr">${e(x.fr)}</span></p>${V.bouton(x.es)}</div>`).join("")}
     </article>`;
   }
   return `<ul class="liste-expressions">${(s.expressions || []).map((x) => `
-    <li><span class="es">${e(x.es)}</span><span class="fr">${e(x.fr)}</span>${x.note ? `<span class="note">${e(x.note)}</span>` : ""}</li>`).join("")}</ul>`;
+    <li class="ligne-voix"><span class="phrase-txt"><span class="es">${e(x.es)}</span><span class="fr">${e(x.fr)}</span>${x.note ? `<span class="note">${e(x.note)}</span>` : ""}</span>${V.bouton(x.es)}</li>`).join("")}</ul>`;
 }
 
 function apprendre(id) {
@@ -531,7 +535,7 @@ function carnet() {
       <ul class="libreta">
         ${etat.carnet.map((p) => `
           <li>
-            <span class="phrase-txt"><span class="manuscrit-es">${e(p.es)}</span><span class="fr">${e(p.fr)}</span>${p.note ? `<span class="note">${e(p.note)}</span>` : ""}</span>
+            ${V.bouton(p.es)}<span class="phrase-txt"><span class="manuscrit-es">${e(p.es)}</span><span class="fr">${e(p.fr)}</span>${p.note ? `<span class="note">${e(p.note)}</span>` : ""}</span>
             <button class="btn-ico" data-suppr="${e(p.id)}" aria-label="Supprimer">${ico("poubelle")}</button>
           </li>`).join("")}
       </ul>` : `<div class="libreta libreta-vide"><p class="manuscrit">Ta libreta attend sa première phrase.</p></div>`}`;
@@ -598,6 +602,20 @@ function reglages() {
       <p class="petit">Auto suit le réglage de ton téléphone : clair le jour, sombre le soir si tu l'as activé.</p>
     </section>
     <section class="bloc">
+      <h2>La voix</h2>
+      ${V.disponible() ? `
+      <div class="segment segment-2" role="radiogroup" aria-label="Vitesse de la voix">
+        ${[["lente", "Lente"], ["normale", "Normale"]].map(([v, l]) =>
+          `<button role="radio" aria-checked="${(etat.reglages.vitesseVoix || "normale") === v}" class="${(etat.reglages.vitesseVoix || "normale") === v ? "actif" : ""}" data-vitesse-choix="${v}">${l}</button>`).join("")}
+      </div>
+      <label class="bascule"><input type="checkbox" data-r="lectureAuto" ${etat.reglages.lectureAuto !== false ? "checked" : ""}><span>Lire les phrases automatiquement pendant les exercices</span></label>
+      <button class="btn btn-doux" data-voix="¡Hola, ${e(etat.prenom)}! ¿Qué tal? Vamos a aprender español juntas.">${ico("son")} Essayer la voix</button>
+      <p class="petit">${V.aUneVoixEspagnole()
+        ? `Voix utilisée : ${e(V.nomVoix() || "espagnole")}. `
+        : "Aucune voix espagnole n'est installée sur cet appareil. "}Pour une voix plus naturelle sur iPhone : Réglages, Accessibilité, Contenu énoncé, Voix, Espagnol (Espagne), puis télécharge « Mónica (améliorée) ».</p>`
+        : `<p class="petit">Ce navigateur ne sait pas lire à voix haute.</p>`}
+    </section>
+    <section class="bloc">
       <label class="champ">Ton prénom<input data-prenom value="${e(etat.prenom)}" maxlength="30"></label>
       <label class="bascule"><input type="checkbox" data-r="pron" ${etat.reglages.pron ? "checked" : ""}><span>Afficher la prononciation à la française</span></label>
       <label class="bascule"><input type="checkbox" data-r="traductionCachee" ${etat.reglages.traductionCachee ? "checked" : ""}><span>Cacher la traduction (je la découvre en touchant)</span></label>
@@ -621,6 +639,14 @@ function reglages() {
     if (v) { S.maj((s) => (s.prenom = v)); toast("C'est noté"); }
   };
   $$("[data-r]", app).forEach((c) => (c.onchange = () => S.maj((s) => (s.reglages[c.dataset.r] = c.checked))));
+  $$("[data-vitesse-choix]", app).forEach((b) => (b.onclick = () => {
+    S.maj((s) => (s.reglages.vitesseVoix = b.dataset.vitesseChoix));
+    $$("[data-vitesse-choix]", app).forEach((x) => {
+      x.classList.toggle("actif", x === b);
+      x.setAttribute("aria-checked", x === b);
+    });
+    V.parler("Así suena esta velocidad.");
+  }));
   $$("[data-theme-choix]", app).forEach((b) => (b.onclick = () => {
     const t = b.dataset.themeChoix;
     S.maj((s) => (s.reglages.theme = t));

@@ -12,7 +12,7 @@ const DEFAUT = () => ({
   version: 1,
   creeLe: aujourdhui(),
   prenom: null,
-  reglages: { pron: true, traductionCachee: true, theme: "auto" },
+  reglages: { pron: true, traductionCachee: true, theme: "auto", vitesseVoix: "normale", lectureAuto: true },
   cartes: {},        // id -> { boite, due, vu, ok, ko }
   carnet: [],        // { id, es, fr, note, creeLe }
   serie: { jours: 0, dernier: null, record: 0 },

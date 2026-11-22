@@ -2,6 +2,9 @@
 import * as S from "./store.js";
 import * as C from "./contenu.js";
 import { e, ico, melanger, auHasard, normaliser, distance, vibrer } from "./ui.js";
+import * as V from "./voix.js";
+
+const auto = () => S.get().reglages.lectureAuto !== false;
 
 const BRAVO = ["¡Muy bien!", "¡Eso es!", "¡Perfecto!", "¡Olé!", "¡Genial!", "¡Qué crack!"];
 const OUPS = [
@@ -114,7 +117,7 @@ function carte(corps, it, { resultat, suivant, remettre }) {
   const p = ph(it.id);
   const cachee = S.get().reglages.traductionCachee;
   corps.innerHTML = `
-    <p class="consigne">${it.nouveau ? '<span class="pastille">Nouvelle phrase</span>' : "Tu te souviens ?"}</p>
+    <div class="consigne-ligne"><p class="consigne">${it.nouveau ? '<span class="pastille">Nouvelle phrase</span>' : "Tu te souviens ?"}</p>${V.bouton(p.es, { classe: "btn-voix-large" })}</div>
     <button class="carte ${cachee ? "" : "retournee"}" data-carte>
       <span class="carte-es">${e(p.es)}</span>
       ${pron(p)}
@@ -130,6 +133,7 @@ function carte(corps, it, { resultat, suivant, remettre }) {
     </div>`;
   const c = corps.querySelector("[data-carte]");
   const choix = corps.querySelector(".choix-carte");
+  if (auto()) setTimeout(() => V.parler(p.es), 250);
   c.onclick = () => {
     c.classList.add("retournee");
     choix.hidden = false;
@@ -161,12 +165,14 @@ function qcm(corps, it, { resultat, suivant }) {
     <p class="consigne">${versFr ? "Ça veut dire…" : "Comment tu dis…"}</p>
     <div class="enonce">
       <p class="enonce-texte">${e(versFr ? p.es : p.fr)}</p>
-      ${versFr ? pron(p) : ""}
+      ${versFr ? pron(p) + V.bouton(p.es, { classe: "btn-voix-centre" }) : ""}
     </div>
     <div class="options">${options.map((o, k) => `<button class="option" data-k="${k}">${e(o)}</button>`).join("")}</div>`;
+  if (versFr && auto()) setTimeout(() => V.parler(p.es), 250);
   corps.querySelectorAll(".option").forEach((b) => {
     b.onclick = () => {
       const ok = options[+b.dataset.k] === p[champ];
+      if (!versFr) V.parler(p.es);
       corps.querySelectorAll(".option").forEach((x) => {
         x.disabled = true;
         if (options[+x.dataset.k] === p[champ]) x.classList.add("juste");
@@ -265,7 +271,8 @@ function ecrire(corps, it, { resultat, suivant }) {
     const proche = !exact && b.length > 0 && distance(a, b) <= Math.max(1, Math.round(b.length * 0.12));
     const ok = !abandon && (exact || proche);
     form.querySelectorAll("button, textarea").forEach((x) => (x.disabled = true));
-    let extra = `<p class="retour-solution">${e(attendu)}</p>${pron(p)}`;
+    let extra = `<div class="ligne-voix"><p class="retour-solution">${e(attendu)}</p>${V.bouton(attendu)}</div>${pron(p)}`;
+    V.parler(attendu);
     if (ok && exact && !accentsOk) extra = `<p class="retour-texte">Juste ! Attention juste aux accents :</p>` + extra;
     else if (ok && proche) extra = `<p class="retour-texte">Presque parfait, regarde la petite différence :</p>` + extra;
     resultat(ok, it.id);
@@ -284,14 +291,27 @@ function ecrire(corps, it, { resultat, suivant }) {
 function rapide(corps, it, { resultat, suivant }) {
   const p = ph(it.id);
   const options = melanger([p.es, ...leurres(it.id, "es")]);
+  const audio = V.disponible();
   corps.innerHTML = `
     <p class="consigne">À l'oreille rapide</p>
     <div class="enonce enonce-rapide">
-      <p class="petit">Dans la rue, tu entends :</p>
-      <p class="enonce-texte">« ${e(p.rapide)} »</p>
+      ${audio ? `
+        <p class="petit">Écoute, comme dans la rue, à vitesse réelle :</p>
+        <div class="ecoute">
+          <button type="button" class="btn btn-ecoute" data-voix="${e(p.es)}" data-vitesse="rapide">${ico("son")} Écouter</button>
+          <button type="button" class="btn btn-doux btn-petit" data-voix="${e(p.es)}" data-vitesse="lente">Plus lentement</button>
+        </div>
+        <button type="button" class="lien-texte" data-montrer>Je préfère lire</button>
+        <p class="enonce-texte" data-texte-rapide hidden>« ${e(p.rapide)} »</p>`
+      : `<p class="petit">Dans la rue, tu entends :</p><p class="enonce-texte">« ${e(p.rapide)} »</p>`}
     </div>
     <p class="consigne-2">Quelle phrase on t'a dite ?</p>
     <div class="options">${options.map((o, k) => `<button class="option" data-k="${k}">${e(o)}</button>`).join("")}</div>`;
+  if (audio && auto()) setTimeout(() => V.parler(p.es, { vitesse: "rapide" }), 300);
+  corps.querySelector("[data-montrer]")?.addEventListener("click", (ev) => {
+    corps.querySelector("[data-texte-rapide]").hidden = false;
+    ev.currentTarget.remove();
+  });
   corps.querySelectorAll(".option").forEach((b) => {
     b.onclick = () => {
       const ok = options[+b.dataset.k] === p.es;
@@ -300,6 +320,8 @@ function rapide(corps, it, { resultat, suivant }) {
         if (options[+x.dataset.k] === p.es) x.classList.add("juste");
       });
       if (!ok) b.classList.add("faux");
+      const t = corps.querySelector("[data-texte-rapide]");
+      if (t) t.hidden = false;
       resultat(ok, it.id);
       piedContinuer(corps, ok, suivant, `<p class="retour-texte">${e(p.fr)}</p>`);
     };
@@ -309,7 +331,7 @@ function rapide(corps, it, { resultat, suivant }) {
 // ---------------------------------------------------------------------------
 // Fabrique d'exercices variés à partir d'une liste de phrases déjà vues.
 export function exercicesSur(ids, n = 10) {
-  const avecRapide = ids.filter((id) => ph(id)?.rapide);
+  const avecRapide = ids.filter((id) => ph(id)?.rapide || (V.disponible() && ph(id)?.es));
   const items = [];
   const pool = melanger(ids);
   let k = 0;

@@ -3,6 +3,7 @@
 // qui vérifie un code d'accès et un plafond quotidien avant d'appeler Claude.
 import * as S from "./store.js";
 import { $, $$, e, ico, modale, toast } from "./ui.js";
+import * as V from "./voix.js";
 
 export const SCENES = [
   { id: "amiga", nom: "Lucía", lieu: "Una amiga", texte: "Une amie espagnole de ton âge. On papote : le week-end, les sorties, San Mateo." },
@@ -82,10 +83,10 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
       return;
     }
     fil.innerHTML = msgs.map((m) => m.role === "assistant"
-      ? `<button class="bulle-ia ${cachee ? "" : "revele"}" data-reveler>
+      ? `<div class="bulle-ligne"><button class="bulle-ia ${cachee ? "" : "revele"}" data-reveler>
            <span class="es">${e(m.content)}</span>
            ${m.traduccion ? `<span class="fr">${e(m.traduccion)}</span>` : ""}
-         </button>`
+         </button>${V.bouton(m.content)}</div>`
       : `<div class="bulle-moi"><span>${e(m.content)}</span>${m.correccion ? `<p class="correction">${e(m.correccion)}</p>` : ""}</div>`).join("");
     $$("[data-reveler]", fil).forEach((b) => (b.onclick = () => b.classList.toggle("revele")));
     window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
@@ -110,6 +111,7 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
         if (dernier && dernier.role === "user") dernier.correccion = r.correccion || "";
         msgs.push({ role: "assistant", content: r.respuesta, traduccion: r.traduccion });
       });
+      if (S.get().reglages.lectureAuto !== false) V.parler(r.respuesta);
     } else {
       // On retire le message non traité pour qu'elle puisse le renvoyer.
       S.maj((s) => s.charla.messages.pop());
