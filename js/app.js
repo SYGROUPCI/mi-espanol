@@ -31,20 +31,29 @@ async function demarrer() {
   if (!S.get().prenom) S.maj((s) => (s.prenom = C.prenomParDefaut() || "toi"));
   remplirIcones(nav);
   V.brancher();
-  // La barre du bas s'efface quand elle lit en descendant, et revient dès qu'elle remonte.
-  // Au doigt, l'iPhone envoie beaucoup de tout petits défilements : on cumule la distance
-  // parcourue dans un même sens au lieu de regarder chaque petit pas.
+  // Barre du bas (kaizen, 3e version) :
+  // - elle s'efface dès qu'elle lit en descendant ;
+  // - elle ne revient pas pour une petite remontée (relire une ligne), seulement pour une vraie
+  //   remontée volontaire, en haut de page ou tout en bas ;
+  // - au doigt, l'iPhone envoie beaucoup de petits défilements : on cumule la distance.
   let dernierY = window.scrollY, ancre = dernierY, sens = 0;
   window.addEventListener("scroll", () => {
     const y = Math.max(0, window.scrollY);
-    const enBas = window.innerHeight + y >= document.documentElement.scrollHeight - 40;
+    const enBas = window.innerHeight + y >= document.documentElement.scrollHeight - 30;
     const nouveauSens = y > dernierY ? 1 : y < dernierY ? -1 : sens;
     if (nouveauSens !== sens) { sens = nouveauSens; ancre = dernierY; }
-    if (y <= 80 || enBas) nav.classList.remove("nav-cachee");
-    else if (sens === 1 && y - ancre > 36) nav.classList.add("nav-cachee");
-    else if (sens === -1 && ancre - y > 24) nav.classList.remove("nav-cachee");
+    if (y <= 60 || enBas) nav.classList.remove("nav-cachee");
+    else if (sens === 1 && y - ancre > 30) nav.classList.add("nav-cachee");
+    else if (sens === -1 && ancre - y > 160) nav.classList.remove("nav-cachee");
     dernierY = y;
   }, { passive: true });
+  // Clavier ouvert (libreta, réglages, exercices écrits) : la barre se retire pour laisser la place.
+  document.addEventListener("focusin", (ev) => {
+    if (ev.target.matches("input:not([type=checkbox]):not([type=file]), textarea")) nav.classList.add("nav-clavier");
+  });
+  document.addEventListener("focusout", () => setTimeout(() => {
+    if (!document.activeElement?.matches?.("input, textarea")) nav.classList.remove("nav-clavier");
+  }, 50));
   window.addEventListener("hashchange", router);
   router();
   if ("serviceWorker" in navigator) {
@@ -78,7 +87,7 @@ function router() {
     prononciation: guidePrononciation,
   };
   const rendre = () => {
-    nav.classList.remove("nav-cachee");
+    nav.classList.remove("nav-cachee", "nav-clavier");
     (ecrans[route] || accueil)();
     window.scrollTo(0, 0);
   };
