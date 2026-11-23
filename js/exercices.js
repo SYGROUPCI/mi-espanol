@@ -114,7 +114,7 @@ export function seance(racine, items, { titre = "", etape = "", depart = 0, onAv
 function piedContinuer(corps, ok, suivant, extra = "") {
   const pied = document.createElement("div");
   pied.className = `retour ${ok ? "retour-ok" : "retour-ko"}`;
-  pied.innerHTML = `<p class="retour-titre">${ok ? e(auHasard(BRAVO)) : e(auHasard(OUPS))}</p>${extra}
+  pied.innerHTML = `<p class="retour-titre"><span class="retour-signe" aria-hidden="true">${ok ? "✓" : "✕"}</span><span class="sr">${ok ? "Juste." : "Pas tout à fait."}</span> ${ok ? e(auHasard(BRAVO)) : e(auHasard(OUPS))}</p>${extra}
     <button class="btn btn-large" data-suivant>Continuer</button>`;
   corps.appendChild(pied);
   vibrer(ok ? 12 : 40);

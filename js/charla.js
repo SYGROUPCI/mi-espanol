@@ -96,10 +96,24 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
          <span class="es" lang="es">${e(m.content)}</span>
          ${m.traduccion ? `<span class="fr">${e(m.traduccion)}</span>` : ""}
        </button>${V.bouton(m.content)}</div>`
-    : `<div class="bulle-moi"><span lang="es">${e(m.content)}</span>${m.correccion ? `<p class="correction">${e(m.correccion)}</p>` : ""}</div>`;
-  const brancher = (racine) => $$("[data-reveler]", racine).forEach((b) => (b.onclick = () => {
-    b.setAttribute("aria-expanded", b.classList.toggle("revele"));
-  }));
+    : `<div class="bulle-moi"><span lang="es">${e(m.content)}</span>${m.correccion ? `<div class="correction"><p>${e(m.correccion)}</p>${
+        m.bonne ? (m.note
+          ? `<p class="apunte-fait">${ico("carnet", "ico-inline")} Dans ta libreta</p>`
+          : `<button type="button" class="btn-apuntar" data-apuntar="${e(m.id || "")}">${ico("carnet", "ico-inline")} Apuntar</button>`) : ""}</div>` : ""}</div>`;
+  const brancher = (racine) => {
+    $$("[data-reveler]", racine).forEach((b) => (b.onclick = () => {
+      b.setAttribute("aria-expanded", b.classList.toggle("revele"));
+    }));
+    // Apuntar : la tournure corrigée part dans la libreta et rejoint les révisions.
+    $$("[data-apuntar]", racine).forEach((b) => (b.onclick = () => {
+      const m = etat().charla?.messages.find((x) => x.id === b.dataset.apuntar);
+      if (!m?.bonne) return;
+      S.ajouterAuCarnet({ es: m.bonne, fr: m.bonneFr || "", note: `Corrigé avec ${scene.nom} : ${m.correccion}`.slice(0, 280) });
+      S.maj(() => (m.note = true));
+      b.outerHTML = `<p class="apunte-fait">${ico("carnet", "ico-inline")} Dans ta libreta</p>`;
+      toast("Ajoutée à ta libreta. Elle reviendra dans tes révisions.");
+    }));
+  };
   const visibles = () => etat().charla.messages.filter((m) => m.content !== ouvrir && String(m.content || "").trim());
   // Tout redessiner (ouverture, retrait d'un message) : sans relecture par VoiceOver.
   const afficher = () => {
@@ -132,7 +146,7 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
     if (enVol) return;
     enVol = true;
     const conv = etat().charla;
-    const moi = { role: "user", content: texte };
+    const moi = { role: "user", content: texte, id: Date.now().toString(36) };
     S.maj(() => conv.messages.push(moi));
     if (texte !== ouvrir) ajouter(moi);
     ecrit(true);
@@ -145,6 +159,7 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
       const reponse = { role: "assistant", content: r.respuesta, traduccion: r.traduccion };
       S.maj(() => {
         moi.correccion = r.correccion || "";
+        if (r.correccion && r.frase_correcta) { moi.bonne = r.frase_correcta; moi.bonneFr = r.frase_correcta_fr || ""; }
         conv.messages.push(reponse);
       });
       if (moi.correccion) afficher(); else ajouter(reponse);

@@ -6,6 +6,7 @@ import { ecranCharla } from "./charla.js";
 import * as V from "./voix.js";
 import * as K from "./compte.js";
 import * as N from "./notifs.js";
+import * as Son from "./son.js";
 import { $, $$, e, ico, remplirIcones, toast, modale, confirmer, melanger, auHasard } from "./ui.js";
 
 const app = $("#app");
@@ -368,15 +369,14 @@ function bienvenue() {
         <h1 class="credencial-nom">${e(etat.prenom)}</h1>
         <p class="couverture-lieu">Logroño, La Rioja</p>
       </div>
-      <p>Cette appli a été faite pour toi, et pour personne d'autre.</p>
-      <p>Chaque jour, une étape : des phrases qu'on entend vraiment à Logroño, des petits jeux, et un tampon à gagner pour chaque situation de ta vie ici.</p>
-      <p class="manuscrit">Pas besoin d'être ${g("parfaite", "parfait")}. Il suffit d'être là, un peu chaque jour.</p>
-      <button class="btn btn-large" data-go>Abrir mi credencial</button>
+      <p>Chaque jour, une petite étape de cinq minutes. Un tampon pour chaque situation de ta vie ici.</p>
+      <button class="btn btn-large" data-go>Empezar mi primera etapa</button>
       ${K.faceIdDisponible() ? `<a class="btn btn-doux btn-large" href="#/compte">J'ai déjà un compte (Face ID)</a>` : ""}
     </div>`;
+  // Premier lancement : on entre tout de suite dans la première étape.
   $("[data-go]", app).onclick = () => {
     S.maj((s) => (s.bienvenueVue = true));
-    accueil();
+    aller("#/defi");
   };
 }
 
@@ -459,7 +459,7 @@ async function celebrerSellos() {
         </div>
         <p>Tu as découvert toutes les phrases de « ${e(s.titre)} ». Ce tampon est à toi.</p>
         <button class="btn btn-large" data-fermer>¡Olé!</button>
-      </div>`, { classe: "modale-sello" });
+      </div>`, { classe: "modale-sello", apresOuverture: () => setTimeout(Son.tampon, 330) });
   }
 }
 
@@ -739,7 +739,8 @@ function reglages() {
           `<button role="radio" aria-checked="${(etat.reglages.vitesseVoix || "normale") === v}" class="${(etat.reglages.vitesseVoix || "normale") === v ? "actif" : ""}" data-vitesse-choix="${v}">${l}</button>`).join("")}
       </div>
       <label class="bascule"><input type="checkbox" data-r="lectureAuto" ${etat.reglages.lectureAuto !== false ? "checked" : ""}><span>Lire les phrases automatiquement pendant les exercices</span></label>
-      <button class="btn btn-doux" data-voix="¡Hola, ${e(etat.prenom)}! ¿Qué tal? Vamos a aprender español juntas.">${ico("son")} Essayer la voix</button>
+      <label class="bascule"><input type="checkbox" data-r="sons" ${etat.reglages.sons !== false ? "checked" : ""}><span>Le bruit du tampon quand tu gagnes un sello</span></label>
+      <button class="btn btn-doux" data-voix="¡Hola, ${e(etat.prenom)}! ¿Qué tal? Vamos a aprender español ${g("juntas", "juntos")}.">${ico("son")} Essayer la voix</button>
       <p class="petit">${V.aUneVoixEspagnole()
         ? `Voix utilisée : ${e(V.nomVoix() || "espagnole")}. `
         : "Aucune voix espagnole n'est installée sur cet appareil. "}Pour une voix plus naturelle sur iPhone : Réglages, Accessibilité, Contenu énoncé, Voix, Espagnol (Espagne), puis télécharge « Mónica (améliorée) ».</p>`
