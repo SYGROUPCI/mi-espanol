@@ -246,18 +246,18 @@
         },
         {
           "qui": "Elisabeth",
-          "es": "Este año he vendimiado una semana en Cenicero. Es el trabajo más duro que he hecho en mi vida.",
-          "fr": "Cette année, j'ai fait une semaine de vendanges à Cenicero. C'est le travail le plus dur que j'aie fait de ma vie."
+          "es": "Este año quiero probar la vendimia en algún pueblo, como Cenicero o Haro.",
+          "fr": "Cette année, j'ai envie d'essayer les vendanges dans un village, comme Cenicero ou Haro."
         },
         {
           "qui": "Lucía",
-          "es": "¿En serio? ¿Y qué tal?",
-          "fr": "Sérieux ? Et alors, c'était comment ?"
+          "es": "¿En serio? ¡Qué valiente! Es un trabajo durísimo.",
+          "fr": "Sérieux ? Quel courage ! C'est un travail très dur."
         },
         {
           "qui": "Elisabeth",
-          "es": "Durísimo, pero me ha encantado. Eso sí, a mediodía hacía muchísimo calor.",
-          "fr": "Très dur, mais j'ai adoré. Par contre, à midi, il faisait une chaleur terrible."
+          "es": "Ya me lo han dicho. Y dicen que a mediodía hace muchísimo calor.",
+          "fr": "On me l'a déjà dit. Et il paraît qu'à midi il fait une chaleur terrible."
         },
         {
           "qui": "Lucía",
@@ -286,12 +286,30 @@
     "titre": "Comparer : más que, tan como, el mejor, -ísimo",
     "explication": "Pour comparer, « más » ou « menos » + adjectif + « que » : « el reserva es más caro que el crianza ». Pour l'égalité, « tan » + adjectif + « como », mais devant un nom, « tanto » s'accorde : « tanta gente como ». Le superlatif, c'est l'article + « más » : « la bodega más antigua ». Attention aux irréguliers : bueno donne mejor, malo donne peor. Et pour dire « très, très », on remplace la voyelle finale par -ísimo : « caro » devient « carísimo », « rico » devient « riquísimo ».",
     "tableau": [
-      ["más… que / menos… que", "plus… que / moins… que"],
-      ["tan + adjectif + como", "aussi… que"],
-      ["tanto, tanta, tantos, tantas + nom + como", "autant de… que"],
-      ["mejor / peor", "meilleur, mieux / pire"],
-      ["el más… / el mejor…", "le plus… / le meilleur…"],
-      ["-ísimo : caro → carísimo", "très, très cher"]
+      [
+        "más… que / menos… que",
+        "plus… que / moins… que"
+      ],
+      [
+        "tan + adjectif + como",
+        "aussi… que"
+      ],
+      [
+        "tanto, tanta, tantos, tantas + nom + como",
+        "autant de… que"
+      ],
+      [
+        "mejor / peor",
+        "meilleur, mieux / pire"
+      ],
+      [
+        "el más… / el mejor…",
+        "le plus… / le meilleur…"
+      ],
+      [
+        "-ísimo : caro → carísimo",
+        "très, très cher"
+      ]
     ],
     "exemples": [
       {

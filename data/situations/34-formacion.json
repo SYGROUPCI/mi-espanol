@@ -31,7 +31,9 @@
       "pron": "mé é a-poun-TA-do a oun KOUR-so PA-ra ké mé rré-SSOUL-té MASS FA-thil én-kon-TRAR tra-BA-kho",
       "note": "« Apuntarse a », c'est s'inscrire, en version de tous les jours. « Matricularse » fait plus officiel.",
       "rapide": "M'he apuntao a un curso pa' que me resulte más fácil encontrar trabajo.",
-      "duo": { "fr": "Je me suis inscrit à une formation pour avoir plus de facilité à trouver du travail." }
+      "duo": {
+        "fr": "Je me suis inscrit à une formation pour avoir plus de facilité à trouver du travail."
+      }
     },
     {
       "id": "formacion-04",
@@ -99,15 +101,10 @@
     },
     {
       "id": "formacion-12",
-      "es": "En Conakri hice dos años de Administración de Empresas.",
-      "fr": "À Conakry, j'ai fait deux ans d'études de gestion.",
-      "pron": "én ko-na-KRI I-thé DOSS A-gnoss dé ad-mi-niss-tra-THYON dé ém-PRÉ-ssass",
-      "note": "Pour parler de ses études, « hacer » ou « estudiar » + la matière, que l'on écrit souvent avec une majuscule.",
-      "duo": {
-        "es": "En Abiyán hice dos años de Administración de Empresas.",
-        "fr": "À Abidjan, j'ai fait deux ans d'études de gestion.",
-        "pron": "én a-bi-YAN I-thé DOSS A-gnoss dé ad-mi-niss-tra-THYON dé ém-PRÉ-ssass"
-      }
+      "es": "Estudié en mi país y quiero seguir formándome aquí.",
+      "fr": "J'ai fait des études dans mon pays et je veux continuer à me former ici.",
+      "pron": "éss-tou-DYÉ én mi pa-ÏSS i KYÉ-ro sé-GUIR for-MAN-do-mé a-KI",
+      "note": "« Formarse », c'est se former. Pour parler de tes vraies études : « estudié » + la matière (estudié Enfermería, estudié Comercio)."
     },
     {
       "id": "formacion-13",
@@ -228,17 +225,13 @@
         },
         {
           "qui": "Elisabeth",
-          "es": "Sí, tengo el bachillerato y en Conakri hice dos años de Administración de Empresas.",
-          "fr": "Oui, j'ai le baccalauréat et à Conakry, j'ai fait deux ans d'études de gestion.",
-          "duo": {
-            "es": "Sí, tengo el bachillerato y en Abiyán hice dos años de Administración de Empresas.",
-            "fr": "Oui, j'ai le baccalauréat et à Abidjan, j'ai fait deux ans d'études de gestion."
-          }
+          "es": "Sí. ¿Qué tengo que hacer para que me los reconozcan aquí?",
+          "fr": "Oui. Qu'est-ce que je dois faire pour qu'on me les reconnaisse ici ?"
         },
         {
           "qui": "Orientadora",
-          "es": "Entonces tendrá que homologar el bachillerato. Le explico los pasos para que no pierda tiempo.",
-          "fr": "Alors il faudra faire reconnaître votre baccalauréat. Je vous explique les étapes pour que vous ne perdiez pas de temps."
+          "es": "Depende del título. Si es el bachillerato, tendrá que homologarlo. Le explico los pasos para que no pierda tiempo.",
+          "fr": "Ça dépend du diplôme. Si c'est le baccalauréat, il faudra le faire reconnaître. Je vous explique les étapes pour que vous ne perdiez pas de temps."
         },
         {
           "qui": "Elisabeth",
@@ -258,22 +251,18 @@
         },
         {
           "qui": "Elisabeth",
-          "es": "En Conakri hice dos años de Administración de Empresas, pero dejé los estudios cuando empecé a trabajar.",
-          "fr": "À Conakry, j'ai fait deux ans d'études de gestion, mais j'ai arrêté mes études quand j'ai commencé à travailler.",
-          "duo": {
-            "es": "En Abiyán hice dos años de Administración de Empresas, pero dejé los estudios cuando empecé a trabajar.",
-            "fr": "À Abidjan, j'ai fait deux ans d'études de gestion, mais j'ai arrêté mes études quand j'ai commencé à travailler."
-          }
+          "es": "Un poco de todo. Pero ahora lo que quiero es formarme aquí.",
+          "fr": "Un peu de tout. Mais maintenant, ce que je veux, c'est me former ici."
         },
         {
           "qui": "Lucía",
-          "es": "¿Y no te gustaría retomarlos aquí?",
-          "fr": "Et ça ne te plairait pas de les reprendre ici ?"
+          "es": "¿Y por dónde quieres empezar?",
+          "fr": "Et tu veux commencer par quoi ?"
         },
         {
           "qui": "Elisabeth",
-          "es": "Sí. Quiero homologar mi título de bachillerato, pero me piden el título traducido y legalizado.",
-          "fr": "Si. Je veux faire reconnaître mon baccalauréat, mais on me demande le diplôme traduit et légalisé."
+          "es": "Primero quiero homologar mi título, pero me piden el título traducido y legalizado.",
+          "fr": "D'abord, je veux faire reconnaître mon diplôme, mais on me demande le diplôme traduit et légalisé."
         },
         {
           "qui": "Lucía",
@@ -311,12 +300,30 @@
     "titre": "Para et para que : exprimer le but",
     "explication": "Pour dire dans quel but on fait quelque chose, deux cas. Si c'est la même personne qui agit, « para » + infinitif : « estudio para encontrar trabajo ». Si le sujet change, « para que » + subjonctif : « te lo explico para que lo entiendas », c'est moi qui explique, toi qui comprends. Le subjonctif présent se forme à partir du « yo » du présent : on enlève le -o et on échange les voyelles, -ar prend un e, -er et -ir prennent un a. Donc « tengo » donne « tenga », « hablo » donne « hable », « aprendo » donne « aprenda ».",
     "tableau": [
-      ["para + infinitif", "même sujet : Estudio para aprobar."],
-      ["para que + subjonctif", "sujet différent : Te lo explico para que lo entiendas."],
-      ["hablar → hable, hables, hable", "que je parle, que tu parles, qu'il parle"],
-      ["aprender → aprenda, aprendas, aprenda", "que j'apprenne, que tu apprennes…"],
-      ["tener → tenga, tengas, tenga", "que j'aie, que tu aies…"],
-      ["poder → pueda, puedas, pueda", "que je puisse, que tu puisses…"]
+      [
+        "para + infinitif",
+        "même sujet : Estudio para aprobar."
+      ],
+      [
+        "para que + subjonctif",
+        "sujet différent : Te lo explico para que lo entiendas."
+      ],
+      [
+        "hablar → hable, hables, hable",
+        "que je parle, que tu parles, qu'il parle"
+      ],
+      [
+        "aprender → aprenda, aprendas, aprenda",
+        "que j'apprenne, que tu apprennes…"
+      ],
+      [
+        "tener → tenga, tengas, tenga",
+        "que j'aie, que tu aies…"
+      ],
+      [
+        "poder → pueda, puedas, pueda",
+        "que je puisse, que tu puisses…"
+      ]
     ],
     "exemples": [
       {
@@ -343,7 +350,9 @@
       "es": "Estar pez",
       "fr": "N'y connaître rien",
       "note": "« Estoy pez en informática » : je suis nulle en informatique. On est un poisson hors de l'eau, en somme.",
-      "duo": { "note": "« Estoy pez en informática » : je suis nul en informatique. On est un poisson hors de l'eau, en somme." }
+      "duo": {
+        "note": "« Estoy pez en informática » : je suis nul en informatique. On est un poisson hors de l'eau, en somme."
+      }
     },
     {
       "es": "Aprobar por los pelos",
