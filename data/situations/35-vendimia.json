@@ -1,0 +1,347 @@
+{
+  "id": "vendimia",
+  "ordre": 35,
+  "niveau": "B1",
+  "titre": "La Rioja à fond : vendanges et vin",
+  "titre_es": "La Rioja a tope: vendimia y vino",
+  "intro": "Les vendanges, une visite de bodega, crianza ou reserva, San Mateo et le raisin foulé sur l'Espolón : bienvenue au cœur de La Rioja. De quoi comparer les vins comme une connaisseuse, et dire que c'était la meilleure semaine de l'année.",
+  "duo": {
+    "intro": "Les vendanges, une visite de bodega, crianza ou reserva, San Mateo et le raisin foulé sur l'Espolón : bienvenue au cœur de La Rioja. De quoi comparer les vins comme un connaisseur, et dire que c'était la meilleure semaine de l'année."
+  },
+  "phrases": [
+    {
+      "id": "vendimia-01",
+      "es": "La vendimia suele empezar en septiembre y dura varias semanas.",
+      "fr": "Les vendanges commencent en général en septembre et durent plusieurs semaines.",
+      "pron": "la bén-DI-mya SOUÉ-lé ém-pé-THAR én sép-TYÉM-bré i DOU-ra BA-ryass sé-MA-nass",
+      "note": "« Soler » + infinitif : avoir l'habitude de. Selon la météo et le raisin, ça peut continuer jusqu'en octobre."
+    },
+    {
+      "id": "vendimia-02",
+      "es": "Este año me han ofrecido trabajo en la vendimia.",
+      "fr": "Cette année, on m'a proposé du travail pour les vendanges.",
+      "pron": "ÉSS-té A-gno mé an o-fré-THI-do tra-BA-kho én la bén-DI-mya",
+      "note": "Beaucoup de gens font les vendanges pour un complément de revenus. C'est dur pour le dos, mais l'ambiance est souvent excellente.",
+      "rapide": "Este año m'han ofrecío trabajo en la vendimia."
+    },
+    {
+      "id": "vendimia-03",
+      "es": "Es el trabajo más duro que he hecho en mi vida, pero me ha encantado.",
+      "fr": "C'est le travail le plus dur que j'aie fait de ma vie, mais j'ai adoré.",
+      "pron": "ÉSS él tra-BA-kho MASS DOU-ro ké é É-tcho én mi BI-da PÉ-ro mé a én-kan-TA-do",
+      "note": "Le superlatif : el + nom + más + adjectif. Pas besoin de répéter l'article comme en français (« le plus dur »).",
+      "rapide": "Es el trabajo más duro que he hecho en mi vida, pero m'ha encantao."
+    },
+    {
+      "id": "vendimia-04",
+      "es": "¿Hay que reservar para visitar la bodega?",
+      "fr": "Il faut réserver pour visiter la bodega ?",
+      "pron": "AÏ ké rré-ssér-BAR PA-ra bi-ssi-TAR la bo-DÉ-ga",
+      "note": "Presque toujours, oui, surtout le week-end. La plupart des visites se terminent par une dégustation, « una cata »."
+    },
+    {
+      "id": "vendimia-05",
+      "es": "En Haro, en el barrio de la Estación, hay algunas de las bodegas más antiguas.",
+      "fr": "À Haro, dans le quartier de la Gare, il y a certaines des bodegas les plus anciennes.",
+      "pron": "én A-ro én él BA-rryo dé la éss-ta-THYON AÏ al-GOU-nass dé lass bo-DÉ-gass MASS an-TI-gouass",
+      "note": "Quand le train est arrivé à Haro au XIXe siècle, les bodegas se sont installées juste à côté pour expédier leur vin."
+    },
+    {
+      "id": "vendimia-06",
+      "es": "El vino envejece en barricas de roble.",
+      "fr": "Le vin vieillit dans des barriques de chêne.",
+      "pron": "él BI-no ém-bé-KHÉ-thé én ba-RRI-kass dé RRO-blé",
+      "note": "C'est le chêne qui donne ces arômes de vanille et de bois qu'on retrouve dans un crianza."
+    },
+    {
+      "id": "vendimia-07",
+      "es": "Un crianza pasa por lo menos un año en barrica.",
+      "fr": "Un crianza passe au moins un an en barrique.",
+      "pron": "oun KRYAN-tha PA-ssa por lo MÉ-noss oun A-gno én ba-RRI-ka",
+      "note": "Pour un rouge crianza, il faut au moins deux ans de vieillissement en tout, dont un an en barrique."
+    },
+    {
+      "id": "vendimia-08",
+      "es": "El reserva es más caro que el crianza, pero no siempre es mejor.",
+      "fr": "Le reserva est plus cher que le crianza, mais il n'est pas toujours meilleur.",
+      "pron": "él rré-SSÉR-ba ÉSS MASS KA-ro ké él KRYAN-tha PÉ-ro no SYÉM-pré ÉSS mé-KHOR",
+      "note": "Un reserva rouge vieillit au moins trois ans, dont un en barrique. Meilleur ou pas, c'est surtout une question de goût.",
+      "rapide": "El reserva es más caro que'l crianza, pero no siempre es mejor."
+    },
+    {
+      "id": "vendimia-09",
+      "es": "Este es el mejor vino que he probado nunca.",
+      "fr": "C'est le meilleur vin que j'aie jamais goûté.",
+      "pron": "ÉSS-té ÉSS él mé-KHOR BI-no ké é pro-BA-do NOUN-ka",
+      "note": "« Mejor » est irrégulier : on ne dit jamais « más bueno » pour parler de qualité. Et « nunca » se met à la fin, comme un point d'exclamation.",
+      "rapide": "Este es el mejor vino que he probao nunca."
+    },
+    {
+      "id": "vendimia-10",
+      "es": "Este blanco es tan bueno como el tinto.",
+      "fr": "Ce blanc est aussi bon que le rouge.",
+      "pron": "ÉSS-té BLAN-ko ÉSS TAN BOUÉ-no KO-mo él TIN-to",
+      "note": "On l'oublie souvent, mais La Rioja fait aussi du blanc et du rosé. « Tan » + adjectif + « como » : aussi… que."
+    },
+    {
+      "id": "vendimia-11",
+      "es": "¿Qué vino me recomienda para acompañar la carne?",
+      "fr": "Quel vin me conseillez-vous avec la viande ?",
+      "pron": "KÉ BI-no mé rré-ko-MYÉN-da PA-ra a-kom-pa-GNAR la KAR-né",
+      "note": "La question qui fait plaisir à tous les serveurs de la région. Prépare-toi à une réponse longue et passionnée."
+    },
+    {
+      "id": "vendimia-12",
+      "es": "Las fiestas de San Mateo son alrededor del veintiuno de septiembre.",
+      "fr": "Les fêtes de San Mateo ont lieu autour du 21 septembre.",
+      "pron": "lass FYÉSS-tass dé san ma-TÉ-o SON al-rré-dé-DOR dél béïn-TYOU-no dé sép-TYÉM-bré",
+      "note": "Une semaine de fête qui célèbre aussi les vendanges. Pendant ces jours-là, Logroño ne dort pas beaucoup."
+    },
+    {
+      "id": "vendimia-13",
+      "es": "En el Espolón pisan la uva y ofrecen el primer mosto a la Virgen de Valvanera.",
+      "fr": "Sur l'Espolón, on foule le raisin et on offre le premier moût à la Vierge de Valvanera.",
+      "pron": "én él éss-po-LON PI-ssan la OU-ba i o-FRÉ-thén él pri-MÉR MOSS-to a la BIR-khén dé bal-ba-NÉ-ra",
+      "note": "La Virgen de Valvanera est la patronne de La Rioja. « El mosto », c'est le jus de raisin qui n'a pas encore fermenté."
+    },
+    {
+      "id": "vendimia-14",
+      "es": "Fue la mejor semana desde que vivo en Logroño.",
+      "fr": "C'était la meilleure semaine depuis que je vis à Logroño.",
+      "pron": "FOUÉ la mé-KHOR sé-MA-na DÉSS-dé ké BI-bo én lo-GRO-gno",
+      "note": "« Mejor » ne change pas au féminin : el mejor día, la mejor semana. Seul l'article bouge.",
+      "duo": {
+        "es": "Fue la mejor semana de mi visita a Logroño.",
+        "fr": "C'était la meilleure semaine de mon séjour à Logroño.",
+        "pron": "FOUÉ la mé-KHOR sé-MA-na dé mi bi-SSI-ta a lo-GRO-gno"
+      }
+    },
+    {
+      "id": "vendimia-15",
+      "es": "Las chuletillas al sarmiento son el plato más típico de aquí.",
+      "fr": "Les côtelettes d'agneau grillées sur des sarments sont le plat le plus typique d'ici.",
+      "pron": "lass tchou-lé-TI-yass al sar-MYÉN-to SON él PLA-to MASS TI-pi-ko dé a-KI",
+      "note": "« El sarmiento », c'est le sarment de vigne. Ce feu-là donne à la viande un goût qu'on n'oublie pas."
+    },
+    {
+      "id": "vendimia-16",
+      "es": "Estas peras al vino están riquísimas.",
+      "fr": "Ces poires au vin sont délicieuses.",
+      "pron": "ÉSS-tass PÉ-rass al BI-no éss-TAN rri-KI-ssi-mass",
+      "note": "-ísimo veut dire « très, très ». « Rico » devient « riquísimo » : le c se change en qu pour garder le son.",
+      "rapide": "Estas peras al vino 'tán riquísimas."
+    },
+    {
+      "id": "vendimia-17",
+      "es": "Los champiñones de la Laurel son los más famosos de la ciudad.",
+      "fr": "Les champignons de la rue Laurel sont les plus célèbres de la ville.",
+      "pron": "loss tcham-pi-GNO-néss dé la laou-RÉL SON loss MASS fa-MO-ssoss dé la thyou-DAD",
+      "note": "Des champignons grillés, une crevette, le tout piqué sur une tranche de pain : le pincho vedette de la Laurel."
+    },
+    {
+      "id": "vendimia-18",
+      "es": "Hace muchísimo calor para vendimiar a mediodía.",
+      "fr": "Il fait beaucoup trop chaud pour vendanger en plein midi.",
+      "pron": "A-thé mou-TCHI-ssi-mo ka-LOR PA-ra bén-di-MYAR a mé-dyo-DI-a",
+      "note": "-ísimo marche aussi avec « mucho ». C'est pour ça qu'on commence à couper le raisin très tôt le matin."
+    },
+    {
+      "id": "vendimia-19",
+      "es": "En San Mateo hay tanta gente como en Navidad, o más.",
+      "fr": "À San Mateo, il y a autant de monde qu'à Noël, sinon plus.",
+      "pron": "én san ma-TÉ-o AÏ TAN-ta KHÉN-té KO-mo én na-bi-DAD o MASS",
+      "note": "Devant un nom, « tanto » s'accorde : tanta gente, tantos turistas, tantas botellas."
+    },
+    {
+      "id": "vendimia-20",
+      "es": "No hay mejor sitio que La Rioja para aprender de vino.",
+      "fr": "Il n'y a pas de meilleur endroit que La Rioja pour s'y connaître en vin.",
+      "pron": "no AÏ mé-KHOR SI-tyo ké la RRYO-kha PA-ra a-prén-DÉR dé BI-no",
+      "note": "« No hay mejor… que » : une façon élégante de dire que c'est le top du top.",
+      "rapide": "No hay mejor sitio que La Rioja pa' aprender de vino."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Visite d'une bodega",
+      "contexte": "Khalil est à Logroño pour quelques jours. Vous visitez une bodega de Haro avec un guide, et la dégustation approche.",
+      "duo": {
+        "contexte": "Tu es à Logroño pour quelques jours. Avec Elisabeth, vous visitez une bodega de Haro avec un guide, et la dégustation approche."
+      },
+      "lignes": [
+        {
+          "qui": "Guía",
+          "es": "Bienvenidos a la bodega. Vamos a empezar por la sala de barricas.",
+          "fr": "Bienvenue à la bodega. Nous allons commencer par la salle des barriques."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Cuántas barricas! ¿Todas son de roble?",
+          "fr": "Que de barriques ! Elles sont toutes en chêne ?"
+        },
+        {
+          "qui": "Guía",
+          "es": "Sí, de roble americano y francés. Un crianza pasa por lo menos un año en barrica.",
+          "fr": "Oui, en chêne américain et français. Un crianza passe au moins un an en barrique."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Y el reserva?",
+          "fr": "Et le reserva ?"
+        },
+        {
+          "qui": "Guía",
+          "es": "Por lo menos tres años en total. Es más caro que el crianza, pero no siempre es mejor: depende del gusto.",
+          "fr": "Au moins trois ans en tout. Il est plus cher que le crianza, mais il n'est pas toujours meilleur : ça dépend des goûts."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Mi novio está de visita y quiere llevar vino a Abiyán. ¿Qué nos recomienda?",
+          "fr": "Mon compagnon est en visite et il veut rapporter du vin à Abidjan. Qu'est-ce que vous nous conseillez ?",
+          "duo": {
+            "es": "Estoy de visita y quiero llevar vino a Abiyán. ¿Qué nos recomienda?",
+            "fr": "Je suis en visite et je veux rapporter du vin à Abidjan. Qu'est-ce que vous nous conseillez ?"
+          }
+        },
+        {
+          "qui": "Guía",
+          "es": "Pruebe este gran reserva. Para mí, es lo mejor de la casa.",
+          "fr": "Goûtez ce gran reserva. Pour moi, c'est ce qu'on fait de mieux ici."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Madre mía! Este es el mejor vino que he probado nunca.",
+          "fr": "Oh là là ! C'est le meilleur vin que j'aie jamais goûté."
+        },
+        {
+          "qui": "Guía",
+          "es": "Y pruebe también este blanco. Es tan bueno como el tinto, aunque mucha gente no lo sabe.",
+          "fr": "Et goûtez aussi ce blanc. Il est aussi bon que le rouge, même si beaucoup de gens l'ignorent."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Nos llevamos dos botellas de cada uno.",
+          "fr": "On prend deux bouteilles de chaque."
+        }
+      ]
+    },
+    {
+      "titre": "Rendez-vous à San Mateo",
+      "contexte": "Fin septembre, les fêtes de San Mateo commencent. Lucía t'appelle pour le foulage du raisin sur l'Espolón.",
+      "lignes": [
+        {
+          "qui": "Lucía",
+          "es": "¿Vienes mañana al Espolón? Es el pisado de la uva.",
+          "fr": "Tu viens demain sur l'Espolón ? C'est le foulage du raisin."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Claro! ¿Es verdad que ofrecen el primer mosto a la Virgen de Valvanera?",
+          "fr": "Bien sûr ! C'est vrai qu'on offre le premier moût à la Vierge de Valvanera ?"
+        },
+        {
+          "qui": "Lucía",
+          "es": "Sí, es lo más bonito de las fiestas. Y después, a comer chuletillas al sarmiento.",
+          "fr": "Oui, c'est le plus beau moment des fêtes. Et après, on va manger des côtelettes grillées sur des sarments."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Este año he vendimiado una semana en Cenicero. Es el trabajo más duro que he hecho en mi vida.",
+          "fr": "Cette année, j'ai fait une semaine de vendanges à Cenicero. C'est le travail le plus dur que j'aie fait de ma vie."
+        },
+        {
+          "qui": "Lucía",
+          "es": "¿En serio? ¿Y qué tal?",
+          "fr": "Sérieux ? Et alors, c'était comment ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Durísimo, pero me ha encantado. Eso sí, a mediodía hacía muchísimo calor.",
+          "fr": "Très dur, mais j'ai adoré. Par contre, à midi, il faisait une chaleur terrible."
+        },
+        {
+          "qui": "Lucía",
+          "es": "Pues prepárate, que en San Mateo hay tanta gente como en Navidad.",
+          "fr": "Eh bien prépare-toi, parce qu'à San Mateo il y a autant de monde qu'à Noël."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "No me importa. Con este ambiente, seguro que va a ser la mejor semana del año.",
+          "fr": "Ça m'est égal. Avec cette ambiance, ce sera sûrement la meilleure semaine de l'année."
+        },
+        {
+          "qui": "Lucía",
+          "es": "¡Eso! Y de postre, peras al vino.",
+          "fr": "Exactement ! Et en dessert, des poires au vin."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Me encantan! Están riquísimas.",
+          "fr": "J'adore ! Elles sont délicieuses."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Comparer : más que, tan como, el mejor, -ísimo",
+    "explication": "Pour comparer, « más » ou « menos » + adjectif + « que » : « el reserva es más caro que el crianza ». Pour l'égalité, « tan » + adjectif + « como », mais devant un nom, « tanto » s'accorde : « tanta gente como ». Le superlatif, c'est l'article + « más » : « la bodega más antigua ». Attention aux irréguliers : bueno donne mejor, malo donne peor. Et pour dire « très, très », on remplace la voyelle finale par -ísimo : « caro » devient « carísimo », « rico » devient « riquísimo ».",
+    "tableau": [
+      ["más… que / menos… que", "plus… que / moins… que"],
+      ["tan + adjectif + como", "aussi… que"],
+      ["tanto, tanta, tantos, tantas + nom + como", "autant de… que"],
+      ["mejor / peor", "meilleur, mieux / pire"],
+      ["el más… / el mejor…", "le plus… / le meilleur…"],
+      ["-ísimo : caro → carísimo", "très, très cher"]
+    ],
+    "exemples": [
+      {
+        "es": "Este reserva es más suave que el crianza de ayer.",
+        "fr": "Ce reserva est plus doux que le crianza d'hier."
+      },
+      {
+        "es": "Es la bodega más antigua del pueblo.",
+        "fr": "C'est la bodega la plus ancienne du village."
+      },
+      {
+        "es": "Después de vendimiar, estoy cansadísima.",
+        "fr": "Après les vendanges, je suis épuisée.",
+        "duo": {
+          "es": "Después de vendimiar, estoy cansadísimo.",
+          "fr": "Après les vendanges, je suis épuisé."
+        }
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Al pan, pan, y al vino, vino",
+      "fr": "Appeler un chat un chat",
+      "note": "Chaque chose par son nom, sans détour. Le vin trouve toujours sa place dans les proverbes d'ici."
+    },
+    {
+      "es": "Con pan y vino se anda el camino",
+      "fr": "Ventre plein, le chemin est moins long",
+      "note": "Avec du pain et du vin, on avance. Un vieux proverbe qu'on ressort volontiers à la pause des vendanges."
+    },
+    {
+      "es": "Tener mal vino",
+      "fr": "Avoir le vin mauvais",
+      "note": "Se dit de quelqu'un qui devient désagréable quand il boit. À éviter à table, la personne comme l'expression."
+    },
+    {
+      "es": "Bueno, bonito y barato",
+      "fr": "Bon et pas cher",
+      "note": "Le rêve de tout acheteur de vin. Dans les petites bodegas de la région, on en trouve plus souvent qu'on ne croit."
+    },
+    {
+      "es": "Darse un homenaje",
+      "fr": "Se faire un festin",
+      "note": "« Hoy nos damos un homenaje » : aujourd'hui, on se fait plaisir à table, sans regarder l'addition."
+    },
+    {
+      "es": "Ponerse morado",
+      "fr": "Se goinfrer",
+      "note": "Devenir violet à force de manger. Avec les chuletillas et les peras al vino, le risque est réel."
+    }
+  ]
+}

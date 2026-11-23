@@ -1,0 +1,385 @@
+{
+  "id": "futuro",
+  "ordre": 36,
+  "niveau": "B1",
+  "titre": "Projets et hypothèses",
+  "titre_es": "Planes de futuro y sueños",
+  "intro": "Où vivre dans cinq ans, ce que tu ferais avec plus de temps, ce que tu achèterais si le Gordo tombait sur ton billet : ici, on rêve à voix haute. Le futur, le conditionnel et le fameux « si tuviera », c'est tout ce qu'il faut pour bâtir des projets à deux.",
+  "phrases": [
+    {
+      "id": "futuro-01",
+      "es": "Dentro de cinco años, me veo viviendo en Logroño con Khalil.",
+      "fr": "Dans cinq ans, je me vois vivre à Logroño avec Khalil.",
+      "pron": "DÉN-tro dé THIN-ko A-gnoss mé BÉ-o bi-BYÉN-do én lo-GRO-gno kon ka-LIL",
+      "note": "« Dentro de » + durée : dans cinq ans. « En cinco años » voudrait dire « en l'espace de cinq ans ».",
+      "duo": {
+        "es": "Dentro de cinco años, me veo viviendo en Logroño con Elisabeth.",
+        "fr": "Dans cinq ans, je me vois vivre à Logroño avec Elisabeth.",
+        "pron": "DÉN-tro dé THIN-ko A-gnoss mé BÉ-o bi-BYÉN-do én lo-GRO-gno kon é-li-ssa-BÉT"
+      }
+    },
+    {
+      "id": "futuro-02",
+      "es": "¿Dónde te ves dentro de cinco años?",
+      "fr": "Où est-ce que tu te vois dans cinq ans ?",
+      "pron": "DON-dé té BÉSS DÉN-tro dé THIN-ko A-gnoss",
+      "note": "La question piège des entretiens d'embauche. Réponds au futur, et avec le sourire."
+    },
+    {
+      "id": "futuro-03",
+      "es": "Supongo que para entonces tendremos un piso más grande.",
+      "fr": "Je suppose que d'ici là, on aura un appartement plus grand.",
+      "pron": "sou-PON-go ké PA-ra én-TON-théss tén-DRÉ-moss oun PI-sso MASS GRAN-dé",
+      "note": "« Tener » devient « tendr- » au futur. « Supongo que » + futur : une prévision prudente.",
+      "rapide": "Supongo que pa' entonces tendremos un piso más grande."
+    },
+    {
+      "id": "futuro-04",
+      "es": "Khalil vendrá a vivir aquí en cuanto tenga los papeles.",
+      "fr": "Khalil viendra vivre ici dès qu'il aura ses papiers.",
+      "pron": "ka-LIL bén-DRA a bi-BIR a-KI én KOUAN-to TÉN-ga loss pa-PÉ-léss",
+      "note": "« En cuanto » + subjonctif pour parler de l'avenir : dès que. Là où le français met un futur, l'espagnol met un subjonctif.",
+      "duo": {
+        "es": "Vendré a vivir aquí en cuanto tenga los papeles.",
+        "fr": "Je viendrai vivre ici dès que j'aurai mes papiers.",
+        "pron": "bén-DRÉ a bi-BIR a-KI én KOUAN-to TÉN-ga loss pa-PÉ-léss"
+      }
+    },
+    {
+      "id": "futuro-05",
+      "es": "Algún día abriré mi propio negocio.",
+      "fr": "Un jour, j'ouvrirai ma propre affaire.",
+      "pron": "al-GOUN DI-a a-bri-RÉ mi PRO-pyo né-GO-thyo",
+      "note": "Le futur simple sonne décidé, presque comme une promesse. « Un negocio », c'est un commerce ou une petite entreprise."
+    },
+    {
+      "id": "futuro-06",
+      "es": "¿Qué harías si tuvieras más tiempo?",
+      "fr": "Qu'est-ce que tu ferais si tu avais plus de temps ?",
+      "pron": "KÉ a-RI-ass si tou-BYÉ-rass MASS TYÉM-po",
+      "note": "La structure reine des hypothèses : si + imparfait du subjonctif, puis conditionnel. Le français dit « si tu avais », l'espagnol « si tuvieras »."
+    },
+    {
+      "id": "futuro-07",
+      "es": "Si tuviera más tiempo, estudiaría para ser enfermera.",
+      "fr": "Si j'avais plus de temps, je ferais des études pour devenir infirmière.",
+      "pron": "si tou-BYÉ-ra MASS TYÉM-po éss-tou-dya-RI-a PA-ra SÉR én-fér-MÉ-ra",
+      "note": "« Tuviera » vient de « tuvieron », le passé simple de « tener ». Retiens-le tel quel : c'est le plus utile de tous.",
+      "duo": {
+        "es": "Si tuviera más tiempo, estudiaría para ser enfermero.",
+        "fr": "Si j'avais plus de temps, je ferais des études pour devenir infirmier.",
+        "pron": "si tou-BYÉ-ra MASS TYÉM-po éss-tou-dya-RI-a PA-ra SÉR én-fér-MÉ-ro"
+      }
+    },
+    {
+      "id": "futuro-08",
+      "es": "Si pudiera, viajaría a Conakri todos los veranos.",
+      "fr": "Si je pouvais, j'irais à Conakry tous les étés.",
+      "pron": "si pou-DYÉ-ra bya-kha-RI-a a ko-na-KRI TO-doss loss bé-RA-noss",
+      "note": "« Pudiera », de « poder » : si je pouvais. Avec « tuviera », il couvre la moitié de tes rêves.",
+      "rapide": "Si pudiera, viajaría a Conakri to'os los veranos.",
+      "duo": {
+        "es": "Si pudiera, viajaría a Abiyán todos los veranos.",
+        "fr": "Si je pouvais, j'irais à Abidjan tous les étés.",
+        "pron": "si pou-DYÉ-ra bya-kha-RI-a a a-bi-YAN TO-doss loss bé-RA-noss",
+        "rapide": "Si pudiera, viajaría a Abiyán to'os los veranos."
+      }
+    },
+    {
+      "id": "futuro-09",
+      "es": "Si me tocara el Gordo, lo primero que haría sería comprar una casa.",
+      "fr": "Si je gagnais le Gordo, la première chose que je ferais, ce serait d'acheter une maison.",
+      "pron": "si mé to-KA-ra él GOR-do lo pri-MÉ-ro ké a-RI-a sé-RI-a kom-PRAR OU-na KA-ssa",
+      "note": "El Gordo, c'est le gros lot de la loterie de Noël, tirée le 22 décembre. On ne gagne pas à la loterie, c'est elle qui te « toca »."
+    },
+    {
+      "id": "futuro-10",
+      "es": "¿Llevas lotería de Navidad este año?",
+      "fr": "Tu as pris des billets pour la loterie de Noël cette année ?",
+      "pron": "YÉ-bass lo-té-RI-a dé na-bi-DAD ÉSS-té A-gno",
+      "note": "La question de tout le mois de décembre. Au travail, au bar du coin, dans la famille : tout le monde partage un numéro."
+    },
+    {
+      "id": "futuro-11",
+      "es": "He comprado un décimo con los compañeros del trabajo.",
+      "fr": "J'ai acheté un dixième de billet avec les collègues du boulot.",
+      "pron": "é kom-PRA-do oun DÉ-thi-mo kon loss kom-pa-GNÉ-ross dél tra-BA-kho",
+      "note": "« Un décimo », c'est un dixième de billet, ce qu'on achète d'habitude. Ne pas jouer avec les collègues, c'est risquer de les voir gagner sans toi.",
+      "rapide": "He comprao un décimo con los compañeros del trabajo."
+    },
+    {
+      "id": "futuro-12",
+      "es": "Yo no dejaría de trabajar, pero trabajaría menos.",
+      "fr": "Moi, je n'arrêterais pas de travailler, mais je travaillerais moins.",
+      "pron": "YO no dé-kha-RI-a dé tra-ba-KHAR PÉ-ro tra-ba-kha-RI-a MÉ-noss",
+      "note": "Le conditionnel, c'est l'infinitif + -ía, -ías, -ía… Les mêmes terminaisons pour les trois groupes : un cadeau."
+    },
+    {
+      "id": "futuro-13",
+      "es": "Ayudaría a mi familia y le compraría una casa a mi madre.",
+      "fr": "J'aiderais ma famille et j'achèterais une maison à ma mère.",
+      "pron": "a-you-da-RI-a a mi fa-MI-lya i lé kom-pra-RI-a OU-na KA-ssa a mi MA-dré",
+      "note": "« Le » annonce déjà « a mi madre ». L'espagnol aime dire deux fois à qui il pense."
+    },
+    {
+      "id": "futuro-14",
+      "es": "Si nos casáramos, haríamos la boda en Conakri y en Abiyán.",
+      "fr": "Si on se mariait, on ferait la noce à Conakry et à Abidjan.",
+      "pron": "si noss ka-SSA-ra-moss a-RI-a-moss la BO-da én ko-na-KRI i én a-bi-YAN",
+      "note": "Deux pays, deux familles, deux fêtes. Rien que d'y penser, c'est épuisant et merveilleux."
+    },
+    {
+      "id": "futuro-15",
+      "es": "Cuando Khalil viva aquí, buscaremos un piso con terraza.",
+      "fr": "Quand Khalil vivra ici, on cherchera un appartement avec terrasse.",
+      "pron": "KOUAN-do ka-LIL BI-ba a-KI bouss-ka-RÉ-moss oun PI-sso kon té-RRA-tha",
+      "note": "« Cuando » + subjonctif pour parler de l'avenir. Jamais « cuando vivirá », même si le français dit « quand il vivra ».",
+      "duo": {
+        "es": "Cuando viva aquí, buscaremos un piso con terraza.",
+        "fr": "Quand je vivrai ici, on cherchera un appartement avec terrasse.",
+        "pron": "KOUAN-do BI-ba a-KI bouss-ka-RÉ-moss oun PI-sso kon té-RRA-tha"
+      }
+    },
+    {
+      "id": "futuro-16",
+      "es": "Ojalá podamos vivir juntos pronto.",
+      "fr": "Pourvu qu'on puisse vivre ensemble bientôt.",
+      "pron": "o-kha-LA po-DA-moss bi-BIR KHOUN-toss PRON-to",
+      "note": "« Ojalá », un mot venu de l'arabe, toujours suivi du subjonctif. Le mot des grands espoirs."
+    },
+    {
+      "id": "futuro-17",
+      "es": "No sé si me quedaré en Logroño toda la vida.",
+      "fr": "Je ne sais pas si je resterai à Logroño toute ma vie.",
+      "pron": "no SÉ si mé ké-da-RÉ én lo-GRO-gno TO-da la BI-da",
+      "note": "Après « no sé si », on garde l'indicatif, ici le futur. Pas de subjonctif à chaque doute.",
+      "rapide": "No sé si me quedaré en Logroño to'a la vida.",
+      "duo": {
+        "es": "No sé si me quedaré en España toda la vida.",
+        "fr": "Je ne sais pas si je resterai en Espagne toute ma vie.",
+        "pron": "no SÉ si mé ké-da-RÉ én éss-PA-gna TO-da la BI-da",
+        "rapide": "No sé si me quedaré en España to'a la vida."
+      }
+    },
+    {
+      "id": "futuro-18",
+      "es": "Khalil no contesta; estará durmiendo.",
+      "fr": "Khalil ne répond pas ; il doit être en train de dormir.",
+      "pron": "ka-LIL no kon-TÉSS-ta éss-ta-RA dour-MYÉN-do",
+      "note": "Le futur sert aussi à faire une supposition sur le présent : « estará durmiendo », il doit dormir. Avec le décalage horaire, c'est souvent vrai.",
+      "duo": {
+        "es": "Elisabeth no contesta; estará trabajando.",
+        "fr": "Elisabeth ne répond pas ; elle doit être en train de travailler.",
+        "pron": "é-li-ssa-BÉT no kon-TÉSS-ta éss-ta-RA tra-ba-KHAN-do",
+        "note": "Le futur sert aussi à faire une supposition sur le présent : « estará trabajando », elle doit être au travail."
+      }
+    },
+    {
+      "id": "futuro-19",
+      "es": "Yo que tú, aprovecharía para sacarte el carné de conducir.",
+      "fr": "À ta place, j'en profiterais pour passer le permis de conduire.",
+      "pron": "YO ké TOU a-pro-bé-tcha-RI-a PA-ra sa-KAR-té él kar-NÉ dé kon-dou-THIR",
+      "note": "« Yo que tú » : à ta place. Suivi du conditionnel, c'est le conseil d'amie par excellence.",
+      "rapide": "Yo que tú, aprovecharía pa' sacarte el carné de conducir.",
+      "duo": { "note": "« Yo que tú » : à ta place. Suivi du conditionnel, c'est le conseil d'ami par excellence." }
+    },
+    {
+      "id": "futuro-20",
+      "es": "Pase lo que pase, lo haremos juntos.",
+      "fr": "Quoi qu'il arrive, on le fera ensemble.",
+      "pron": "PA-ssé lo ké PA-ssé lo a-RÉ-moss KHOUN-toss",
+      "note": "« Pase lo que pase » : quoi qu'il arrive. À garder pour les jours de doute."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Et si on gagnait le Gordo ?",
+      "contexte": "Mi-décembre, à la pause café. Dani, ton collègue, ne parle plus que de la loterie de Noël.",
+      "lignes": [
+        {
+          "qui": "Dani",
+          "es": "Oye, ¿llevas lotería de Navidad este año?",
+          "fr": "Dis, tu as pris des billets pour la loterie de Noël cette année ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí, he comprado un décimo con los compañeros del trabajo.",
+          "fr": "Oui, j'ai acheté un dixième de billet avec les collègues du boulot."
+        },
+        {
+          "qui": "Dani",
+          "es": "¿Y qué harías si te tocara el Gordo?",
+          "fr": "Et qu'est-ce que tu ferais si tu gagnais le Gordo ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Si me tocara el Gordo, lo primero que haría sería comprar una casa.",
+          "fr": "Si je gagnais le Gordo, la première chose que je ferais, ce serait d'acheter une maison."
+        },
+        {
+          "qui": "Dani",
+          "es": "¿Y dejarías de trabajar?",
+          "fr": "Et tu arrêterais de travailler ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Yo no dejaría de trabajar, pero trabajaría menos. Y le compraría una casa a mi madre en Conakri.",
+          "fr": "Moi, je n'arrêterais pas de travailler, mais je travaillerais moins. Et j'achèterais une maison à ma mère à Conakry.",
+          "duo": {
+            "es": "Yo no dejaría de trabajar, pero trabajaría menos. Y le compraría una casa a mi madre en Abiyán.",
+            "fr": "Moi, je n'arrêterais pas de travailler, mais je travaillerais moins. Et j'achèterais une maison à ma mère à Abidjan."
+          }
+        },
+        {
+          "qui": "Dani",
+          "es": "Pues yo me iría a dar la vuelta al mundo. Un año entero, sin móvil.",
+          "fr": "Eh bien moi, je partirais faire le tour du monde. Une année entière, sans portable."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Y si no nos toca nada?",
+          "fr": "Et si on ne gagne rien ?"
+        },
+        {
+          "qui": "Dani",
+          "es": "Pues el veintitrés, a trabajar como siempre. ¡Pero hasta el veintidós, soñamos!",
+          "fr": "Eh bien le 23, au boulot comme d'habitude. Mais jusqu'au 22, on rêve !"
+        }
+      ]
+    },
+    {
+      "titre": "Des projets à deux",
+      "contexte": "Le soir, appel vidéo avec Khalil. Ce soir, vous ne parlez ni du temps qu'il fait ni de la journée, mais de l'avenir.",
+      "duo": {
+        "contexte": "Le soir, appel vidéo avec Elisabeth. Ce soir, vous ne parlez ni du temps qu'il fait ni de la journée, mais de l'avenir."
+      },
+      "lignes": [
+        {
+          "qui": "Khalil",
+          "es": "¿Dónde te ves dentro de cinco años?",
+          "fr": "Où est-ce que tu te vois dans cinq ans ?",
+          "duo": { "qui": "Elisabeth" }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Me veo viviendo en Logroño contigo, en un piso más grande.",
+          "fr": "Je me vois vivre à Logroño avec toi, dans un appartement plus grand."
+        },
+        {
+          "qui": "Khalil",
+          "es": "Supongo que para entonces ya tendré trabajo allí.",
+          "fr": "Je suppose que d'ici là, j'aurai déjà du travail là-bas.",
+          "duo": {
+            "qui": "Elisabeth",
+            "es": "Supongo que para entonces ya tendrás trabajo aquí.",
+            "fr": "Je suppose que d'ici là, tu auras déjà du travail ici."
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Claro. Cuando vivas aquí, buscaremos un piso con terraza.",
+          "fr": "Bien sûr. Quand tu vivras ici, on cherchera un appartement avec terrasse.",
+          "duo": {
+            "es": "Claro. Cuando viva allí, buscaremos un piso con terraza.",
+            "fr": "Bien sûr. Quand je vivrai là-bas, on cherchera un appartement avec terrasse."
+          }
+        },
+        {
+          "qui": "Khalil",
+          "es": "¿Y qué harías si tuvieras más tiempo?",
+          "fr": "Et qu'est-ce que tu ferais si tu avais plus de temps ?",
+          "duo": { "qui": "Elisabeth" }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Si tuviera más tiempo, estudiaría para ser enfermera.",
+          "fr": "Si j'avais plus de temps, je ferais des études pour devenir infirmière.",
+          "duo": {
+            "es": "Si tuviera más tiempo, estudiaría para ser enfermero.",
+            "fr": "Si j'avais plus de temps, je ferais des études pour devenir infirmier."
+          }
+        },
+        {
+          "qui": "Khalil",
+          "es": "Y yo, si pudiera, abriría un restaurante de comida marfileña en la Laurel.",
+          "fr": "Et moi, si je pouvais, j'ouvrirais un restaurant ivoirien dans la rue Laurel.",
+          "duo": {
+            "qui": "Elisabeth",
+            "es": "Y yo, si pudiera, abriría un restaurante de comida guineana en la Laurel.",
+            "fr": "Et moi, si je pouvais, j'ouvrirais un restaurant guinéen dans la rue Laurel."
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Me encanta la idea! Ojalá podamos vivir juntos pronto.",
+          "fr": "J'adore l'idée ! Pourvu qu'on puisse vivre ensemble bientôt."
+        },
+        {
+          "qui": "Khalil",
+          "es": "Pase lo que pase, lo haremos juntos.",
+          "fr": "Quoi qu'il arrive, on le fera ensemble.",
+          "duo": { "qui": "Elisabeth" }
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Futur, conditionnel et « si tuviera »",
+    "explication": "Le futur et le conditionnel se construisent sur l'infinitif entier : « viviré », je vivrai, « viviría », je vivrais. Les irréguliers partagent le même radical dans les deux temps : tendr-, podr-, har-, vendr-, saldr-. Pour une hypothèse, si + imparfait du subjonctif, puis conditionnel : « si tuviera tiempo, viajaría ». Cet imparfait du subjonctif se fabrique à partir du passé simple à la 3e personne du pluriel : « tuvieron » donne « tuviera ». Pas besoin de tout connaître : tuviera, pudiera, fuera, estuviera et hiciera suffisent pour presque tous tes rêves.",
+    "tableau": [
+      ["tener", "tendré / tendría / si tuviera"],
+      ["poder", "podré / podría / si pudiera"],
+      ["hacer", "haré / haría / si hiciera"],
+      ["ser, ir", "seré, iré / sería, iría / si fuera"],
+      ["estar", "estaré / estaría / si estuviera"],
+      ["vivir", "viviré / viviría / si viviera"]
+    ],
+    "exemples": [
+      {
+        "es": "Mañana sabré si me han dado el trabajo.",
+        "fr": "Demain, je saurai si on m'a donné le poste."
+      },
+      {
+        "es": "Si viviera más cerca, te vería todos los días.",
+        "fr": "Si j'habitais plus près, je te verrais tous les jours."
+      },
+      {
+        "es": "Si fuera rica, viajaría por todo el mundo.",
+        "fr": "Si j'étais riche, je voyagerais dans le monde entier.",
+        "duo": { "es": "Si fuera rico, viajaría por todo el mundo." }
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Hacer castillos en el aire",
+      "fr": "Bâtir des châteaux en Espagne",
+      "note": "Les Français les construisent en Espagne, les Espagnols dans les airs. Dans les deux cas, ils ne tiennent pas debout."
+    },
+    {
+      "es": "Hacer las cuentas de la lechera",
+      "fr": "Faire comme Perrette et le pot au lait",
+      "note": "Dépenser en rêve un argent qu'on n'a pas encore. Le sport national du mois de décembre, avant le tirage du Gordo."
+    },
+    {
+      "es": "Lo importante es la salud",
+      "fr": "L'essentiel, c'est la santé",
+      "note": "La phrase rituelle du 22 décembre quand on n'a rien gagné. Tout le monde la dit, personne n'y croit tout à fait."
+    },
+    {
+      "es": "Dios dirá",
+      "fr": "On verra bien",
+      "note": "Littéralement « Dieu dira ». Pour laisser l'avenir décider, avec un haussement d'épaules."
+    },
+    {
+      "es": "Al mal tiempo, buena cara",
+      "fr": "Faire contre mauvaise fortune bon cœur",
+      "note": "Quand les projets prennent du retard, on garde le sourire. Une devise qui va bien à deux personnes qui s'aiment à distance."
+    },
+    {
+      "es": "Vivir del cuento",
+      "fr": "Vivre aux crochets des autres",
+      "note": "Se dit de quelqu'un qui vit sans trop travailler, grâce à son bagout. Pas vraiment un projet d'avenir."
+    }
+  ]
+}

@@ -162,7 +162,11 @@
         {
           "qui": "Frutera",
           "es": "¡Buenos días, guapa! ¿Qué te pongo?",
-          "fr": "Bonjour ma belle ! Qu'est-ce que je te sers ?"
+          "fr": "Bonjour ma belle ! Qu'est-ce que je te sers ?",
+          "duo": {
+            "es": "¡Buenos días, guapo! ¿Qué te pongo?",
+            "fr": "Bonjour mon beau ! Qu'est-ce que je te sers ?"
+          }
         },
         {
           "qui": "Elisabeth",
@@ -209,6 +213,9 @@
     {
       "titre": "La tortilla de Khalil",
       "contexte": "Khalil veut absolument réussir une tortilla. Tu joues les cheffes, il joue le commis.",
+      "duo": {
+        "contexte": "Tu veux absolument réussir une tortilla. Elisabeth joue la cheffe, toi le commis."
+      },
       "lignes": [
         {
           "qui": "Khalil",
@@ -218,7 +225,10 @@
         {
           "qui": "Elisabeth",
           "es": "Claro. Primero pela las patatas y córtalas en rodajas finas.",
-          "fr": "Bien sûr. D'abord, épluche les pommes de terre et coupe-les en fines rondelles."
+          "fr": "Bien sûr. D'abord, épluche les pommes de terre et coupe-les en fines rondelles.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Khalil",
@@ -228,7 +238,10 @@
         {
           "qui": "Elisabeth",
           "es": "Echa un buen chorro de aceite en la sartén y fríe las patatas a fuego lento con la cebolla.",
-          "fr": "Verse un bon filet d'huile dans la poêle et fais cuire les pommes de terre à feu doux avec l'oignon."
+          "fr": "Verse un bon filet d'huile dans la poêle et fais cuire les pommes de terre à feu doux avec l'oignon.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Khalil",
@@ -238,7 +251,10 @@
         {
           "qui": "Elisabeth",
           "es": "Eso es un debate eterno. En esta casa, con cebolla. Ahora bate los huevos.",
-          "fr": "C'est un débat sans fin. Dans cette maison, c'est avec oignon. Maintenant, bats les œufs."
+          "fr": "C'est un débat sans fin. Dans cette maison, c'est avec oignon. Maintenant, bats les œufs.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Khalil",
@@ -248,7 +264,10 @@
         {
           "qui": "Elisabeth",
           "es": "Seis o siete, a ojo. Añade una pizca de sal, mézclalo todo y luego dale la vuelta con un plato, pero con cuidado.",
-          "fr": "Six ou sept, à l'œil. Ajoute une pincée de sel, mélange tout, puis retourne-la avec une assiette, mais doucement."
+          "fr": "Six ou sept, à l'œil. Ajoute une pincée de sel, mélange tout, puis retourne-la avec une assiette, mais doucement.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Khalil",
@@ -258,7 +277,10 @@
         {
           "qui": "Elisabeth",
           "es": "Mmm… ¡Está de rechupete!",
-          "fr": "Mmm… Elle est délicieuse !"
+          "fr": "Mmm… Elle est délicieuse !",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         }
       ]
     }

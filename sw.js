@@ -2,7 +2,7 @@
 // Stratégie « stale-while-revalidate » : on sert tout de suite la version en cache,
 // et on met le cache à jour en arrière-plan. Les nouveautés apparaissent au lancement suivant.
 // Changer VERSION à chaque mise en ligne force le renouvellement complet du cache.
-const VERSION = "mi-espanol-20261123-0918";
+const VERSION = "mi-espanol-20261123-0935";
 
 const FICHIERS = [
   "./",
@@ -33,6 +33,18 @@ const FICHIERS = [
   "data/situations/22-paquetes.json",
   "data/situations/23-reuniones.json",
   "data/situations/24-fiesta.json",
+  "data/situations/25-residencia.json",
+  "data/situations/26-banco.json",
+  "data/situations/27-empleo.json",
+  "data/situations/28-especialista.json",
+  "data/situations/29-recuerdos.json",
+  "data/situations/30-actualidad.json",
+  "data/situations/31-consejos.json",
+  "data/situations/32-familia.json",
+  "data/situations/33-reclamar.json",
+  "data/situations/34-formacion.json",
+  "data/situations/35-vendimia.json",
+  "data/situations/36-futuro.json",
   "fonts/atkinson-hyperlegible-400-latin-ext.woff2",
   "fonts/atkinson-hyperlegible-400-latin.woff2",
   "fonts/atkinson-hyperlegible-700-latin-ext.woff2",

@@ -1,0 +1,335 @@
+{
+  "id": "reclamar",
+  "ordre": 33,
+  "niveau": "B1",
+  "titre": "Réclamer par écrit et au téléphone",
+  "titre_es": "Reclamar por escrito y por teléfono",
+  "intro": "Le chauffage qui ne marche toujours pas, une facture d'électricité qui a doublé sans raison : ici, tu apprends à réclamer comme une pro, par courriel et au téléphone. Poliment, avec usted, mais sans te laisser faire.",
+  "duo": {
+    "intro": "Le chauffage qui ne marche toujours pas, une facture d'électricité qui a doublé sans raison : ici, tu apprends à réclamer comme un pro, par courriel et au téléphone. Poliment, avec usted, mais sans te laisser faire."
+  },
+  "phrases": [
+    {
+      "id": "reclamar-01",
+      "es": "Me pongo en contacto con usted por la avería de la calefacción.",
+      "fr": "Je me permets de vous contacter au sujet de la panne du chauffage.",
+      "pron": "mé PON-go én kon-TAK-to kon ouss-TÉD por la a-bé-RI-a dé la ka-lé-fak-THYON",
+      "note": "Une ouverture de courriel un cran plus formelle que « Le escribo para… ». « Una avería », c'est une panne."
+    },
+    {
+      "id": "reclamar-02",
+      "es": "Le escribo para informarle de que la ventana del dormitorio no cierra.",
+      "fr": "Je vous écris pour vous informer que la fenêtre de la chambre ne ferme pas.",
+      "pron": "lé éss-KRI-bo PA-ra in-for-MAR-lé dé ké la bén-TA-na dél dor-mi-TO-ryo no THYÉ-rra",
+      "note": "Ici, le « de » avant « que » est correct : on informe de quelque chose."
+    },
+    {
+      "id": "reclamar-03",
+      "es": "Hace ya tres semanas que le avisé y todavía no ha venido nadie.",
+      "fr": "Ça fait déjà trois semaines que je vous ai prévenu, et personne n'est encore venu.",
+      "pron": "A-thé YA TRÉSS sé-MA-nass ké lé a-bi-SSÉ i to-da-BI-a no a bé-NI-do NA-dyé",
+      "note": "Les dates précises donnent du poids à une réclamation. Note chaque appel et chaque message quelque part.",
+      "rapide": "Hace ya tres semanas que le avisé y to'avía no ha venío nadie."
+    },
+    {
+      "id": "reclamar-04",
+      "es": "Le agradecería que lo solucionara lo antes posible.",
+      "fr": "Je vous serais reconnaissante de régler cela au plus vite.",
+      "pron": "lé a-gra-dé-thé-RI-a ké lo so-lou-thyo-NA-ra lo AN-téss po-SSI-blé",
+      "note": "La formule polie mais ferme par excellence. Inutile de l'analyser : apprends-la en bloc, elle sert partout.",
+      "duo": { "fr": "Je vous serais reconnaissant de régler cela au plus vite." }
+    },
+    {
+      "id": "reclamar-05",
+      "es": "Según el contrato, las reparaciones de la caldera le corresponden a usted.",
+      "fr": "D'après le contrat, les réparations de la chaudière sont à votre charge.",
+      "pron": "sé-GOUN él kon-TRA-to lass rré-pa-ra-THYO-néss dé la kal-DÉ-ra lé ko-rréss-PON-dén a ouss-TÉD",
+      "note": "En général, les grosses réparations reviennent au propriétaire et les petits frais d'usage au locataire. Relis quand même ton contrat avant d'écrire."
+    },
+    {
+      "id": "reclamar-06",
+      "es": "Le adjunto unas fotos para que vea el estado de la pared.",
+      "fr": "Je vous joins quelques photos pour que vous voyiez l'état du mur.",
+      "pron": "lé ad-KHOUN-to OU-nass FO-toss PA-ra ké BÉ-a él éss-TA-do dé la pa-RÉD",
+      "note": "Des photos datées, c'est ta meilleure preuve. « Para que » + subjonctif : tu le retrouveras dans la situation sur les études."
+    },
+    {
+      "id": "reclamar-07",
+      "es": "Quedo a la espera de su respuesta.",
+      "fr": "Dans l'attente de votre réponse.",
+      "pron": "KÉ-do a la éss-PÉ-ra dé sou rréss-POUÉSS-ta",
+      "note": "L'avant-dernière ligne du courriel, juste avant « Atentamente » et ta signature."
+    },
+    {
+      "id": "reclamar-08",
+      "es": "Sin otro particular, le saluda atentamente.",
+      "fr": "Je vous prie d'agréer mes salutations distinguées.",
+      "pron": "sin O-tro par-ti-kou-LAR lé sa-LOU-da a-tén-ta-MÉN-té",
+      "note": "La formule de fin très officielle, pour une administration ou une grande entreprise. Pour un propriétaire, « Atentamente » suffit."
+    },
+    {
+      "id": "reclamar-09",
+      "es": "Quería poner una reclamación por la factura de la luz.",
+      "fr": "Je voudrais faire une réclamation concernant la facture d'électricité.",
+      "pron": "ké-RI-a po-NÉR OU-na rré-kla-ma-THYON por la fak-TOU-ra dé la LOUTH",
+      "note": "Pour la facture, tout le monde dit « la luz ». « La electricidad » sonne comme un manuel de physique."
+    },
+    {
+      "id": "reclamar-10",
+      "es": "Me han cobrado casi el doble que el mes pasado y no he gastado más.",
+      "fr": "On m'a facturé presque le double du mois dernier, et je n'ai pas consommé plus.",
+      "pron": "mé an ko-BRA-do KA-ssi él DO-blé ké él MÉSS pa-SSA-do i no é gass-TA-do MASS",
+      "note": "Une comparaison chiffrée vaut mieux qu'un long discours. Garde l'ancienne facture sous la main.",
+      "rapide": "Me han cobrao casi el doble que el mes pasao y no he gastao más."
+    },
+    {
+      "id": "reclamar-11",
+      "es": "Creo que la lectura del contador no es correcta.",
+      "fr": "Je pense que le relevé du compteur n'est pas correct.",
+      "pron": "KRÉ-o ké la lék-TOU-ra dél kon-ta-DOR no ÉSS ko-RRÉK-ta",
+      "note": "Parfois la facture est « estimada », calculée sur une estimation. Une photo du compteur avec la date règle souvent l'affaire."
+    },
+    {
+      "id": "reclamar-12",
+      "es": "¿Me puede dar un número de incidencia, por favor?",
+      "fr": "Vous pouvez me donner un numéro de dossier, s'il vous plaît ?",
+      "pron": "mé POUÉ-dé DAR oun NOU-mé-ro dé in-thi-DÉN-thya por fa-BOR",
+      "note": "À demander à chaque appel. Sans ce numéro, officiellement, ton appel n'a jamais existé.",
+      "rapide": "¿Me pue' dar un número de incidencia, por favor?"
+    },
+    {
+      "id": "reclamar-13",
+      "es": "Ya he llamado tres veces y siempre me dicen lo mismo.",
+      "fr": "J'ai déjà appelé trois fois et on me dit toujours la même chose.",
+      "pron": "YA é ya-MA-do TRÉSS BÉ-théss i SYÉM-pré mé DI-thén lo MISS-mo",
+      "note": "Dite calmement, c'est un argument très fort. Plus le ton monte, plus l'argument perd de sa force.",
+      "rapide": "Ya he llamao tres veces y siempre me dicen lo mismo."
+    },
+    {
+      "id": "reclamar-14",
+      "es": "¿Podría pasarme con alguien que pueda solucionarlo?",
+      "fr": "Pourriez-vous me passer quelqu'un qui puisse régler le problème ?",
+      "pron": "po-DRI-a pa-SSAR-mé kon AL-guién ké POUÉ-da so-lou-thyo-NAR-lo",
+      "note": "« Que pueda » est au subjonctif : tu cherches quelqu'un qui en serait capable, sans savoir encore qui."
+    },
+    {
+      "id": "reclamar-15",
+      "es": "Le ruego que revise la factura y me envíe una nueva.",
+      "fr": "Je vous prie de vérifier la facture et de m'en envoyer une nouvelle.",
+      "pron": "lé RROUÉ-go ké rré-BI-ssé la fak-TOU-ra i mé én-BI-é OU-na NOUÉ-ba",
+      "note": "« Le ruego que » + subjonctif : très formel, parfait à l'écrit. À l'oral, « ¿Podría revisar…? » suffit."
+    },
+    {
+      "id": "reclamar-16",
+      "es": "He rellenado la hoja de reclamaciones y me he quedado con mi copia.",
+      "fr": "J'ai rempli la feuille de réclamation et j'ai gardé mon exemplaire.",
+      "pron": "é rré-yé-NA-do la O-kha dé rré-kla-ma-THYO-néss i mé é ké-DA-do kon mi KO-pya",
+      "note": "La feuille a plusieurs exemplaires : un reste au commerce, un est pour toi. Le tien, c'est ta preuve si tu vas plus loin.",
+      "rapide": "He rellenao la hoja de reclamaciones y m'he quedao con mi copia."
+    },
+    {
+      "id": "reclamar-17",
+      "es": "Todos los establecimientos están obligados a tener hojas de reclamaciones.",
+      "fr": "Tous les commerces sont obligés d'avoir des feuilles de réclamation.",
+      "pron": "TO-doss loss éss-ta-blé-thi-MYÉN-toss éss-TAN o-bli-GA-doss a té-NÉR O-khass dé rré-kla-ma-THYO-néss",
+      "note": "Un panneau doit l'indiquer à l'entrée ou près de la caisse. S'ils refusent de te la donner, c'est eux qui sont en faute."
+    },
+    {
+      "id": "reclamar-18",
+      "es": "Lamento tener que insistir, pero el problema sigue sin resolverse.",
+      "fr": "Je suis désolée d'insister, mais le problème n'est toujours pas réglé.",
+      "pron": "la-MÉN-to té-NÉR ké in-siss-TIR PÉ-ro él pro-BLÉ-ma SI-gué sin rré-ssol-BÉR-sé",
+      "note": "« Seguir sin » + infinitif : toujours pas. La phrase idéale pour un deuxième courriel de relance.",
+      "duo": { "fr": "Je suis désolé d'insister, mais le problème n'est toujours pas réglé." }
+    },
+    {
+      "id": "reclamar-19",
+      "es": "Si no recibo respuesta en diez días, presentaré una reclamación en Consumo.",
+      "fr": "Si je n'ai pas de réponse sous dix jours, je déposerai une réclamation auprès de la Consommation.",
+      "pron": "si no rré-THI-bo rréss-POUÉSS-ta én DYÉTH DI-ass pré-ssén-ta-RÉ OU-na rré-kla-ma-THYON én kon-SSOU-mo",
+      "note": "« Consumo », c'est le nom courant du service public qui défend les consommateurs. Le futur annonce la suite sans menacer."
+    },
+    {
+      "id": "reclamar-20",
+      "es": "Le agradezco la rapidez con la que ha respondido.",
+      "fr": "Je vous remercie d'avoir répondu si rapidement.",
+      "pron": "lé a-gra-DÉTH-ko la rra-pi-DÉTH kon la ké a rréss-pon-DI-do",
+      "note": "Une réclamation réglée, ça se remercie aussi. Et ça aide pour la prochaine fois."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Un courriel au propriétaire",
+      "contexte": "Le chauffage est en panne depuis trois semaines et le mur de la salle de bains se couvre d'humidité. Tu écris au propriétaire, le señor Martínez.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "Estimado señor Martínez: Me pongo en contacto con usted por la avería de la calefacción.",
+          "fr": "Monsieur Martínez, je me permets de vous contacter au sujet de la panne du chauffage."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Hace ya tres semanas que le avisé y todavía no ha venido nadie. Según el contrato, las reparaciones de la caldera le corresponden a usted.",
+          "fr": "Ça fait déjà trois semaines que je vous ai prévenu, et personne n'est encore venu. D'après le contrat, les réparations de la chaudière sont à votre charge."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Además, hay humedad en el baño. Le adjunto unas fotos para que vea el estado de la pared.",
+          "fr": "En plus, il y a de l'humidité dans la salle de bains. Je vous joins quelques photos pour que vous voyiez l'état du mur."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Le agradecería que lo solucionara lo antes posible. Quedo a la espera de su respuesta. Atentamente, Elisabeth.",
+          "fr": "Je vous serais reconnaissante de régler cela au plus vite. Dans l'attente de votre réponse. Salutations distinguées, Elisabeth.",
+          "duo": {
+            "es": "Le agradecería que lo solucionara lo antes posible. Quedo a la espera de su respuesta. Atentamente, Khalil.",
+            "fr": "Je vous serais reconnaissant de régler cela au plus vite. Dans l'attente de votre réponse. Salutations distinguées, Khalil."
+          }
+        },
+        {
+          "qui": "Sr. Martínez",
+          "es": "Estimada Elisabeth: Disculpe la demora, he estado unos días fuera de Logroño.",
+          "fr": "Chère Elisabeth, excusez le délai, j'ai été absent de Logroño quelques jours.",
+          "duo": {
+            "es": "Estimado Khalil: Disculpe la demora, he estado unos días fuera de Logroño.",
+            "fr": "Cher Khalil, excusez le délai, j'ai été absent de Logroño quelques jours."
+          }
+        },
+        {
+          "qui": "Sr. Martínez",
+          "es": "El técnico pasará el jueves por la mañana para arreglar la caldera y mirar la humedad. ¿Estará usted en casa?",
+          "fr": "Le technicien passera jeudi matin pour réparer la chaudière et regarder l'humidité. Vous serez chez vous ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí, estaré en casa toda la mañana. Le agradezco la rapidez con la que ha respondido.",
+          "fr": "Oui, je serai chez moi toute la matinée. Je vous remercie d'avoir répondu si rapidement."
+        },
+        {
+          "qui": "Sr. Martínez",
+          "es": "No hay de qué. Si hay cualquier otro problema, avíseme. Un saludo.",
+          "fr": "Je vous en prie. S'il y a le moindre autre problème, prévenez-moi. Cordialement."
+        }
+      ]
+    },
+    {
+      "titre": "La facture d'électricité",
+      "contexte": "Ta facture d'électricité a presque doublé. Tu appelles le service client de la compagnie, et ce n'est pas ton premier appel.",
+      "lignes": [
+        {
+          "qui": "Operadora",
+          "es": "Buenos días, le atiende Sara. ¿En qué puedo ayudarle?",
+          "fr": "Bonjour, Sara à votre écoute. Comment puis-je vous aider ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Buenos días. Quería poner una reclamación por la factura de la luz.",
+          "fr": "Bonjour. Je voudrais faire une réclamation concernant la facture d'électricité."
+        },
+        {
+          "qui": "Operadora",
+          "es": "Muy bien. ¿Me dice el nombre del titular del contrato, por favor?",
+          "fr": "Très bien. Vous pouvez me donner le nom du titulaire du contrat, s'il vous plaît ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Soy yo, Elisabeth. Me han cobrado casi el doble que el mes pasado y no he gastado más.",
+          "fr": "C'est moi, Elisabeth. On m'a facturé presque le double du mois dernier, et je n'ai pas consommé plus.",
+          "duo": {
+            "es": "Soy yo, Khalil. Me han cobrado casi el doble que el mes pasado y no he gastado más.",
+            "fr": "C'est moi, Khalil. On m'a facturé presque le double du mois dernier, et je n'ai pas consommé plus."
+          }
+        },
+        {
+          "qui": "Operadora",
+          "es": "Veo que es una factura estimada. No tenemos la lectura real del contador.",
+          "fr": "Je vois que c'est une facture estimée. Nous n'avons pas le relevé réel du compteur."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Pues creo que la lectura no es correcta. Tengo una foto del contador de ayer.",
+          "fr": "Justement, je pense que le relevé n'est pas correct. J'ai une photo du compteur d'hier."
+        },
+        {
+          "qui": "Operadora",
+          "es": "Perfecto. Envíenosla por correo y revisaremos la factura.",
+          "fr": "Parfait. Envoyez-nous-la par courriel et nous vérifierons la facture."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Ya he llamado tres veces y siempre me dicen lo mismo. ¿Me puede dar un número de incidencia, por favor?",
+          "fr": "J'ai déjà appelé trois fois et on me dit toujours la même chose. Vous pouvez me donner un numéro de dossier, s'il vous plaît ?"
+        },
+        {
+          "qui": "Operadora",
+          "es": "Claro. Apunte: cuatro, ocho, dos, siete, uno. Le contestaremos en un plazo de diez días.",
+          "fr": "Bien sûr. Notez : quatre, huit, deux, sept, un. Nous vous répondrons sous dix jours."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Gracias. Si no recibo respuesta en diez días, presentaré una reclamación en Consumo.",
+          "fr": "Merci. Si je n'ai pas de réponse sous dix jours, je déposerai une réclamation auprès de la Consommation."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Le courriel formel et usted",
+    "explication": "Avec usted, le verbe se conjugue comme pour él ou ella, « te » devient « le » et « tu » devient « su » : « le escribo », « su respuesta ». Un courriel formel suit toujours le même chemin : une salutation suivie de deux-points, la raison du message dès la première phrase, la demande, puis la formule d'attente et la formule de fin. Pour demander sans brusquer, le conditionnel fait le travail : « le agradecería que… », « ¿podría…? ». Et pour annoncer la suite, le futur : « presentaré una reclamación ».",
+    "tableau": [
+      ["Estimado señor / Estimada señora:", "Monsieur, / Madame,"],
+      ["Me pongo en contacto con usted por…", "Je me permets de vous contacter au sujet de…"],
+      ["Le escribo para…", "Je vous écris pour…"],
+      ["Le agradecería que…", "Je vous serais reconnaissant(e) de…"],
+      ["Quedo a la espera de su respuesta.", "Dans l'attente de votre réponse."],
+      ["Atentamente,", "Salutations distinguées,"]
+    ],
+    "exemples": [
+      {
+        "es": "Le escribo para solicitar la devolución del importe cobrado de más.",
+        "fr": "Je vous écris pour demander le remboursement de la somme facturée en trop."
+      },
+      {
+        "es": "¿Podría enviarme una copia del contrato, por favor?",
+        "fr": "Pourriez-vous m'envoyer une copie du contrat, s'il vous plaît ?"
+      },
+      {
+        "es": "Le agradecería que me llamara por la mañana.",
+        "fr": "Je vous serais reconnaissante de m'appeler le matin.",
+        "duo": { "fr": "Je vous serais reconnaissant de m'appeler le matin." }
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Las cosas claras y el chocolate espeso",
+      "fr": "Il faut appeler un chat un chat",
+      "note": "Mot à mot : les choses claires et le chocolat épais. Pour dire qu'on préfère parler franchement."
+    },
+    {
+      "es": "Erre que erre",
+      "fr": "Encore et toujours, sans lâcher",
+      "note": "« Y él, erre que erre » : il insiste et ne change pas d'avis. Ça peut aussi être toi face à la compagnie d'électricité."
+    },
+    {
+      "es": "Hacerse el sueco",
+      "fr": "Faire celui qui ne comprend pas",
+      "note": "Littéralement, faire le Suédois. « El casero se hace el sueco » : le propriétaire fait semblant de ne rien savoir."
+    },
+    {
+      "es": "No dar su brazo a torcer",
+      "fr": "Ne pas céder d'un pouce",
+      "note": "Ne pas se laisser tordre le bras. « No pienso dar mi brazo a torcer » : je ne lâcherai pas tant que ce n'est pas réglé."
+    },
+    {
+      "es": "Ir de mal en peor",
+      "fr": "Aller de mal en pis",
+      "note": "Presque comme en français. Pratique pour résumer une histoire de chaudière qui s'éternise."
+    },
+    {
+      "es": "Tener la sartén por el mango",
+      "fr": "Avoir le pouvoir, tenir les rênes",
+      "note": "Tenir la poêle par le manche : c'est celui qui décide. Avec des preuves écrites, c'est un peu toi qui la tiens."
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "id": "residencia",
+  "ordre": 25,
+  "niveau": "B1",
+  "titre": "Titre de séjour et démarches",
+  "titre_es": "La residencia y los trámites",
+  "intro": "La carte de séjour à renouveler, la cita previa qui se fait désirer, la lettre officielle qu'on relit trois fois : ici, tu apprends à parler à l'administration avec les bons mots. Courage, les fonctionnaires de Logroño ne mordent pas.",
+  "phrases": [
+    {
+      "id": "residencia-01",
+      "es": "Mi tarjeta de residencia caduca el mes que viene y tengo que renovarla.",
+      "fr": "Ma carte de séjour expire le mois prochain et je dois la renouveler.",
+      "pron": "mi tar-KHÉ-ta dé rré-ssi-DÉN-thya ka-DOU-ka él MÉSS ké BYÉ-né i TÉN-go ké rré-no-BAR-la",
+      "note": "« Caducar », c'est expirer, comme sur les yaourts. En général, on peut demander le renouvellement dans les soixante jours avant l'expiration : n'attends pas le dernier moment."
+    },
+    {
+      "id": "residencia-02",
+      "es": "¿Se puede renovar la tarjeta antes de que caduque?",
+      "fr": "On peut renouveler la carte avant qu'elle expire ?",
+      "pron": "sé POUÉ-dé rré-no-BAR la tar-KHÉ-ta AN-téss dé ké ka-DOU-ké",
+      "note": "« Antes de que » est toujours suivi du subjonctif : caduque, et non caduca. Comme « avant qu'elle expire » en français."
+    },
+    {
+      "id": "residencia-03",
+      "es": "Llevo una semana intentando coger cita y no hay manera.",
+      "fr": "Ça fait une semaine que j'essaie d'avoir un rendez-vous, impossible.",
+      "pron": "YÉ-bo OU-na sé-MA-na in-tén-TAN-do ko-KHÉR THI-ta i no AÏ ma-NÉ-ra",
+      "note": "« No hay manera », c'est « rien à faire ». Les créneaux de cita previa partent vite : beaucoup de gens se connectent tôt le matin pour en attraper un.",
+      "rapide": "Llevo una semana intentando coger cita y no'ay manera."
+    },
+    {
+      "id": "residencia-04",
+      "es": "Las citas se piden por internet, en la sede electrónica.",
+      "fr": "Les rendez-vous se demandent sur internet, sur le site officiel.",
+      "pron": "lass THI-tass sé PI-dén por in-tér-NÉT én la SÉ-dé é-lék-TRO-ni-ka",
+      "note": "« Se piden » s'accorde avec « las citas » : c'est la voix passive avec se. La « sede electrónica », c'est le site officiel où l'on fait les démarches en ligne."
+    },
+    {
+      "id": "residencia-05",
+      "es": "¿Qué documentos se necesitan para la renovación?",
+      "fr": "Quels documents faut-il pour le renouvellement ?",
+      "pron": "KÉ do-kou-MÉN-toss sé né-thé-SSI-tan PA-ra la rré-no-ba-THYON",
+      "note": "« Se necesitan » au pluriel, parce que « documentos » est au pluriel. Pour un seul papier, on dirait « se necesita »."
+    },
+    {
+      "id": "residencia-06",
+      "es": "Hay que pagar la tasa antes de ir a la cita.",
+      "fr": "Il faut payer la taxe avant d'aller au rendez-vous.",
+      "pron": "AÏ ké pa-GAR la TA-ssa AN-téss dé IR a la THI-ta",
+      "note": "« La tasa », c'est la taxe administrative : on remplit un formulaire et on la paie en général à la banque. Garde bien le justificatif, on te le demandera."
+    },
+    {
+      "id": "residencia-07",
+      "es": "Es necesario que traiga el pasaporte original y una foto reciente.",
+      "fr": "Il faut que vous apportiez le passeport original et une photo récente.",
+      "pron": "ÉSS né-thé-SSA-ryo ké TRAÏ-ga él pa-ssa-POR-té o-ri-khi-NAL i OU-na FO-to rré-THYÉN-té",
+      "note": "Ce que te dira le fonctionnaire. « Es necesario que » appelle le subjonctif : traiga vient de traer, apporter."
+    },
+    {
+      "id": "residencia-08",
+      "es": "Me ha llegado una carta de Extranjería y no entiendo bien lo que pone.",
+      "fr": "J'ai reçu une lettre de l'Extranjería et je ne comprends pas bien ce qu'elle dit.",
+      "pron": "mé a yé-GA-do OU-na KAR-ta dé éks-tran-khé-RI-a i no én-TYÉN-do BYÉN lo ké PO-né",
+      "note": "Pour un papier, on dit « lo que pone », ce qui est écrit, plutôt que « lo que dice ».",
+      "rapide": "M'ha llegao una carta de Extranjería y no entiendo bien lo que pone."
+    },
+    {
+      "id": "residencia-09",
+      "es": "Me piden que presente un documento que falta: es un requerimiento.",
+      "fr": "On me demande de fournir un document manquant : c'est une demande de pièces.",
+      "pron": "mé PI-dén ké pré-SSÉN-té oun do-kou-MÉN-to ké FAL-ta ÉSS oun rré-ké-ri-MYÉN-to",
+      "note": "Un « requerimiento » te demande de compléter ton dossier dans un délai précis. Pas de panique, c'est fréquent, mais ne laisse pas passer la date."
+    },
+    {
+      "id": "residencia-10",
+      "es": "¿Cuál es el plazo para entregar los papeles?",
+      "fr": "Quel est le délai pour remettre les papiers ?",
+      "pron": "KOUAL ÉSS él PLA-tho PA-ra én-tré-GAR loss pa-PÉ-léss",
+      "note": "« El plazo », c'est le délai. Sur les lettres officielles, on compte souvent en « días hábiles », jours ouvrés : sans samedis, dimanches ni jours fériés.",
+      "rapide": "¿Cuál es el plazo pa' entregar los papeles?"
+    },
+    {
+      "id": "residencia-11",
+      "es": "Me han concedido la renovación: la resolución es favorable.",
+      "fr": "On m'a accordé le renouvellement : la décision est favorable.",
+      "pron": "mé AN kon-thé-DI-do la rré-no-ba-THYON la rré-sso-lou-THYON ÉSS fa-bo-RA-blé",
+      "note": "« La resolución », c'est la décision officielle. Favorable, tu peux souffler : il reste à prendre rendez-vous pour les empreintes puis à récupérer la carte."
+    },
+    {
+      "id": "residencia-12",
+      "es": "Mientras se resuelve, el resguardo sirve como justificante.",
+      "fr": "En attendant la décision, le récépissé sert de justificatif.",
+      "pron": "MYÉN-trass sé rré-SSOUÉL-bé él rréss-GOUAR-do SIR-bé KO-mo khouss-ti-fi-KAN-té",
+      "note": "« El resguardo », c'est le récépissé de dépôt. Garde-le avec ton passeport : il prouve que ta demande est en cours."
+    },
+    {
+      "id": "residencia-13",
+      "es": "Una amiga quiere pedir el arraigo. ¿Qué requisitos se piden?",
+      "fr": "Une amie veut demander l'arraigo. Quelles conditions faut-il remplir ?",
+      "pron": "OU-na a-MI-ga KYÉ-ré pé-DIR él a-RRAÏ-go KÉ rré-ki-SSI-toss sé PI-dén",
+      "note": "L'arraigo permet d'obtenir des papiers quand on vit en Espagne depuis un certain temps et qu'on y a des attaches : travail, famille, formation. Les règles changent souvent, vérifie toujours auprès d'Extranjería ou d'une association.",
+      "rapide": "Un'amiga quiere pedir el arraigo. ¿Qué requisitos se piden?"
+    },
+    {
+      "id": "residencia-14",
+      "es": "Para pedir la nacionalidad, se necesitan diez años de residencia legal.",
+      "fr": "Pour demander la nationalité, il faut dix ans de résidence légale.",
+      "pron": "PA-ra pé-DIR la na-thyo-na-li-DAD sé né-thé-SSI-tan DYÉTH A-gnoss dé rré-ssi-DÉN-thya lé-GAL",
+      "note": "C'est la règle générale. Pour certains pays, comme ceux d'Amérique latine ou la Guinée équatoriale, deux ans suffisent : la Guinée-Conakry n'en fait pas partie, hélas.",
+      "duo": {
+        "note": "C'est la règle générale. Pour certains pays, comme ceux d'Amérique latine ou la Guinée équatoriale, deux ans suffisent : la Côte d'Ivoire n'en fait pas partie, hélas."
+      }
+    },
+    {
+      "id": "residencia-15",
+      "es": "También hay que aprobar dos exámenes: uno de español y otro de cultura.",
+      "fr": "Il faut aussi réussir deux examens : un d'espagnol et un de culture.",
+      "pron": "tam-BYÉN AÏ ké a-pro-BAR DOSS ék-SSA-mé-néss OU-no dé éss-pa-GNOL i O-tro dé koul-TOU-ra",
+      "note": "Le DELE A2 pour la langue et le CCSE sur la Constitution et la société espagnoles, tous les deux à l'Instituto Cervantes. Avec cette appli, le premier est à ta portée."
+    },
+    {
+      "id": "residencia-16",
+      "es": "¿Hace falta que vaya en persona o se puede hacer por internet?",
+      "fr": "Il faut que j'y aille en personne ou on peut le faire en ligne ?",
+      "pron": "A-thé FAL-ta ké BA-ya én pér-SSO-na o sé POUÉ-dé a-THÉR por in-tér-NÉT",
+      "note": "« Hace falta que » + subjonctif : vaya vient de ir. Sans « que », on garde l'infinitif : « hace falta ir en persona ».",
+      "rapide": "¿Hace falta que vaya en persona o se puede'cer por internet?"
+    },
+    {
+      "id": "residencia-17",
+      "es": "Se ruega puntualidad: si llega tarde, pierde la cita.",
+      "fr": "Merci d'être ponctuel : en cas de retard, vous perdez le rendez-vous.",
+      "pron": "sé RROUÉ-ga poun-toua-li-DAD si YÉ-ga TAR-dé PYÉR-dé la THI-ta",
+      "note": "« Se ruega », « on vous prie de », c'est la tournure des panneaux et des courriers officiels. Tu la verras partout : se ruega silencio, se ruega no fumar."
+    },
+    {
+      "id": "residencia-18",
+      "es": "Quería saber en qué estado está mi expediente.",
+      "fr": "Je voudrais savoir où en est mon dossier.",
+      "pron": "ké-RI-a sa-BÉR én KÉ éss-TA-do éss-TA mi éks-pé-DYÉN-té",
+      "note": "« El expediente », c'est ton dossier. Son numéro figure sur le récépissé, et on peut aussi suivre son état en ligne.",
+      "rapide": "Quería saber en qué estao está mi expediente."
+    },
+    {
+      "id": "residencia-19",
+      "es": "Es importante que guardes copia de todo lo que entregas.",
+      "fr": "C'est important que tu gardes une copie de tout ce que tu remets.",
+      "pron": "ÉSS im-por-TAN-té ké GOUAR-déss KO-pya dé TO-do lo ké én-TRÉ-gass",
+      "note": "Un conseil au subjonctif : guardes. Et un vrai conseil d'amie : une pochette avec toutes les photocopies t'évitera bien des allers-retours."
+    },
+    {
+      "id": "residencia-20",
+      "es": "Por fin tengo la tarjeta nueva. ¡Qué alivio!",
+      "fr": "J'ai enfin ma nouvelle carte. Quel soulagement !",
+      "pron": "por FIN TÉN-go la tar-KHÉ-ta NOUÉ-ba KÉ a-LI-byo",
+      "note": "« ¡Qué alivio! », la phrase qu'on dit en sortant du commissariat, la carte à la main. Note la date de la prochaine expiration tout de suite."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Au guichet de l'Extranjería",
+      "contexte": "Tu as enfin décroché ta cita previa. Au guichet, la fonctionnaire vérifie ton dossier de renouvellement.",
+      "lignes": [
+        {
+          "qui": "Funcionaria",
+          "es": "Buenos días. ¿Tiene cita?",
+          "fr": "Bonjour. Vous avez rendez-vous ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí, a las diez. Vengo a renovar la tarjeta de residencia.",
+          "fr": "Oui, à dix heures. Je viens renouveler ma carte de séjour."
+        },
+        {
+          "qui": "Funcionaria",
+          "es": "Muy bien. ¿Ha pagado la tasa?",
+          "fr": "Très bien. Vous avez payé la taxe ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí, aquí tiene el justificante del banco.",
+          "fr": "Oui, voici le justificatif de la banque."
+        },
+        {
+          "qui": "Funcionaria",
+          "es": "Perfecto. Para la renovación es necesario que traiga también el pasaporte original.",
+          "fr": "Parfait. Pour le renouvellement, il faut aussi que vous apportiez le passeport original."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Lo tengo aquí. ¿Hace falta que vuelva otro día?",
+          "fr": "Je l'ai ici. Il faut que je revienne un autre jour ?"
+        },
+        {
+          "qui": "Funcionaria",
+          "es": "De momento no. Le doy un resguardo: mientras se resuelve, el resguardo sirve como justificante.",
+          "fr": "Pour le moment, non. Je vous donne un récépissé : en attendant la décision, il sert de justificatif."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Y cómo puedo saber en qué estado está mi expediente?",
+          "fr": "Et comment je peux savoir où en est mon dossier ?"
+        },
+        {
+          "qui": "Funcionaria",
+          "es": "Se puede consultar por internet con el número que pone aquí.",
+          "fr": "On peut le consulter sur internet avec le numéro indiqué ici."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Muchas gracias. ¡Qué alivio!",
+          "fr": "Merci beaucoup. Quel soulagement !"
+        }
+      ]
+    },
+    {
+      "titre": "La lettre officielle",
+      "contexte": "Une enveloppe officielle t'attend dans la boîte aux lettres. Tu appelles Lucía pour qu'elle t'aide à la déchiffrer.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "Lucía, me ha llegado una carta de Extranjería y no entiendo bien lo que pone. Estoy un poco nerviosa.",
+          "fr": "Lucía, j'ai reçu une lettre de l'Extranjería et je ne comprends pas bien ce qu'elle dit. Je suis un peu inquiète.",
+          "duo": {
+            "es": "Lucía, me ha llegado una carta de Extranjería y no entiendo bien lo que pone. Estoy un poco nervioso.",
+            "fr": "Lucía, j'ai reçu une lettre de l'Extranjería et je ne comprends pas bien ce qu'elle dit. Je suis un peu inquiet."
+          }
+        },
+        {
+          "qui": "Lucía",
+          "es": "Tranquila, léemela.",
+          "fr": "Du calme, lis-la-moi.",
+          "duo": {
+            "es": "Tranquilo, léemela."
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Pone «requerimiento». Me piden que presente un documento que falta.",
+          "fr": "C'est écrit « requerimiento ». On me demande de fournir un document manquant."
+        },
+        {
+          "qui": "Lucía",
+          "es": "Eso es normal, no te asustes. ¿Qué documento?",
+          "fr": "C'est normal, ne t'affole pas. Quel document ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Un certificado de empadronamiento actualizado.",
+          "fr": "Un certificat d'inscription au padrón à jour."
+        },
+        {
+          "qui": "Lucía",
+          "es": "Eso se pide en el ayuntamiento, es fácil. ¿Cuál es el plazo?",
+          "fr": "Ça se demande à la mairie, c'est facile. Quel est le délai ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Diez días hábiles.",
+          "fr": "Dix jours ouvrés."
+        },
+        {
+          "qui": "Lucía",
+          "es": "Entonces hay que ir mañana mismo. No lo dejes para el último día.",
+          "fr": "Alors il faut y aller dès demain. Ne le laisse pas pour le dernier jour."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Tienes razón. Mañana voy y cruzo los dedos.",
+          "fr": "Tu as raison. J'y vais demain et je croise les doigts."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Se necesita, hay que, es necesario que",
+    "explication": "Dans les papiers officiels, on parle souvent sans dire qui agit. Avec se + verbe à la troisième personne, le verbe s'accorde avec la chose : se necesita una foto, se necesitan dos fotos. « Hay que » + infinitif dit ce qu'il faut faire, pour tout le monde. Quand on précise qui doit agir, « es necesario que », « hace falta que » et « es importante que » demandent le subjonctif : es necesario que traiga el pasaporte.",
+    "tableau": [
+      [
+        "se necesita + singulier",
+        "il faut, on a besoin de (une chose)"
+      ],
+      [
+        "se necesitan + pluriel",
+        "il faut (plusieurs choses)"
+      ],
+      [
+        "se puede + infinitif",
+        "on peut"
+      ],
+      [
+        "hay que + infinitif",
+        "il faut (en général)"
+      ],
+      [
+        "es necesario que + subjonctif",
+        "il faut que…"
+      ],
+      [
+        "hace falta que + subjonctif",
+        "il faut que…"
+      ]
+    ],
+    "exemples": [
+      {
+        "es": "Se necesita una foto de carné en color.",
+        "fr": "Il faut une photo d'identité en couleur."
+      },
+      {
+        "es": "Hay que pedir cita con antelación.",
+        "fr": "Il faut prendre rendez-vous à l'avance."
+      },
+      {
+        "es": "Es necesario que firmes aquí y aquí.",
+        "fr": "Il faut que tu signes ici et ici."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Tener los papeles en regla",
+      "fr": "Avoir ses papiers en règle",
+      "note": "Le but de toutes ces démarches. On dit aussi simplement « tener papeles »."
+    },
+    {
+      "es": "Eso va para largo",
+      "fr": "Ça va prendre du temps",
+      "note": "Ce qu'on soupire en voyant la file d'attente, ou la date de la prochaine cita disponible."
+    },
+    {
+      "es": "Cruzar los dedos",
+      "fr": "Croiser les doigts",
+      "note": "« Cruzo los dedos » : comme en français, en attendant une réponse importante."
+    },
+    {
+      "es": "A la tercera va la vencida",
+      "fr": "La troisième fois sera la bonne",
+      "note": "Pour se donner du courage quand on revient pour la troisième fois au même guichet."
+    },
+    {
+      "es": "Estar con el alma en vilo",
+      "fr": "Être dans l'angoisse de l'attente",
+      "note": "Quand on guette chaque jour la boîte aux lettres en attendant la résolution."
+    },
+    {
+      "es": "Ser papel mojado",
+      "fr": "Ne plus rien valoir",
+      "note": "Mot à mot « du papier mouillé » : un document ou une promesse qui n'a plus aucune valeur. D'où l'intérêt de surveiller les dates d'expiration."
+    }
+  ]
+}

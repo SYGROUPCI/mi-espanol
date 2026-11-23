@@ -88,14 +88,26 @@
       "es": "Se lo deletreo: e, ele, i, ese, a, be, e, te, hache.",
       "fr": "Je vous l'épelle : E, L, I, S, A, B, E, T, H.",
       "pron": "sé lo dé-lé-TRÉ-o É É-lé I É-ssé A BÉ É TÉ A-tché",
-      "note": "Le b se dit « be » et le v « uve » : comme ils sonnent pareil, on précise souvent."
+      "note": "Le b se dit « be » et le v « uve » : comme ils sonnent pareil, on précise souvent.",
+      "duo": {
+        "es": "Se lo deletreo: ka, hache, a, ele, i, ele.",
+        "fr": "Je vous l'épelle : K, H, A, L, I, L.",
+        "pron": "sé lo dé-lé-TRÉ-o KA A-tché A É-lé I É-lé",
+        "note": "Le k se dit « ka » et le h « hache ». Comme le h est muet en espagnol, on l'oublie vite à l'écrit : épelle-le bien."
+      }
     },
     {
       "id": "telephone-13",
       "es": "Elisabeth, con ese, no con zeta.",
       "fr": "Elisabeth, avec un s, pas avec un z.",
       "pron": "é-li-ssa-BÉT kon É-ssé no kon THÉ-ta",
-      "note": "Sinon, tu risques fort de recevoir des messages adressés à Elizabeth."
+      "note": "Sinon, tu risques fort de recevoir des messages adressés à Elizabeth.",
+      "duo": {
+        "es": "Khalil, con ka y con hache.",
+        "fr": "Khalil, avec un k et un h.",
+        "pron": "ka-LIL kon KA i kon A-tché",
+        "note": "Sinon, on risque fort de t'écrire « Jalil », la façon espagnole de noter ce son."
+      }
     },
     {
       "id": "telephone-14",
@@ -156,9 +168,9 @@
         { "qui": "Recepcionista", "es": "Centro de salud, dígame.", "fr": "Centre de santé, j'écoute." },
         { "qui": "Elisabeth", "es": "Hola, buenos días. Llamo para pedir cita con la médica.", "fr": "Bonjour. J'appelle pour prendre rendez-vous avec la médecin." },
         { "qui": "Recepcionista", "es": "¿Me dice su nombre, por favor?", "fr": "Vous pouvez me donner votre nom, s'il vous plaît ?" },
-        { "qui": "Elisabeth", "es": "Elisabeth.", "fr": "Elisabeth." },
+        { "qui": "Elisabeth", "es": "Elisabeth.", "fr": "Elisabeth.", "duo": { "es": "Khalil.", "fr": "Khalil." } },
         { "qui": "Recepcionista", "es": "¿Cómo se escribe?", "fr": "Ça s'écrit comment ?" },
-        { "qui": "Elisabeth", "es": "Se lo deletreo: e, ele, i, ese, a, be, e, te, hache. Con ese, no con zeta.", "fr": "Je vous l'épelle : E, L, I, S, A, B, E, T, H. Avec un s, pas avec un z." },
+        { "qui": "Elisabeth", "es": "Se lo deletreo: e, ele, i, ese, a, be, e, te, hache. Con ese, no con zeta.", "fr": "Je vous l'épelle : E, L, I, S, A, B, E, T, H. Avec un s, pas avec un z.", "duo": { "es": "Se lo deletreo: ka, hache, a, ele, i, ele. Con ka y con hache.", "fr": "Je vous l'épelle : K, H, A, L, I, L. Avec un k et un h." } },
         { "qui": "Recepcionista", "es": "Muy bien. ¿Le viene bien el martes a las diez?", "fr": "Très bien. Mardi à dix heures, ça vous va ?" },
         { "qui": "Elisabeth", "es": "Perdone, ¿puede hablar más despacio, por favor?", "fr": "Pardon, vous pouvez parler plus lentement, s'il vous plaît ?" },
         { "qui": "Recepcionista", "es": "Claro. El martes, a las diez de la mañana.", "fr": "Bien sûr. Mardi, à dix heures du matin." },
@@ -170,7 +182,7 @@
       "contexte": "Ton téléphone sonne en plein travail, et le réseau fait des siennes.",
       "lignes": [
         { "qui": "Elisabeth", "es": "¿Sí?", "fr": "Allô ?" },
-        { "qui": "Lucía", "es": "¡Hola, guapa! ¿Qué haces el finde?", "fr": "Coucou ma belle ! Tu fais quoi ce week-end ?" },
+        { "qui": "Lucía", "es": "¡Hola, guapa! ¿Qué haces el finde?", "fr": "Coucou ma belle ! Tu fais quoi ce week-end ?", "duo": { "es": "¡Hola, Khalil! ¿Qué haces el finde?", "fr": "Salut Khalil ! Tu fais quoi ce week-end ?" } },
         { "qui": "Elisabeth", "es": "Perdona, no te oigo bien, se corta.", "fr": "Pardon, je t'entends mal, ça coupe." },
         { "qui": "Lucía", "es": "¿Y ahora? ¿Me oyes ahora?", "fr": "Et là ? Tu m'entends, là ?" },
         { "qui": "Elisabeth", "es": "Sí, ahora sí. Pero ahora no puedo hablar, estoy en el trabajo.", "fr": "Oui, là oui. Mais je ne peux pas parler, je suis au travail." },
@@ -200,7 +212,7 @@
   "expressions": [
     { "es": "Te doy un toque.", "fr": "Je te passe un coup de fil.", "note": "Ça peut aussi vouloir dire faire sonner une fois pour que l'autre rappelle." },
     { "es": "Está comunicando.", "fr": "C'est occupé.", "note": "Quand la ligne sonne occupé." },
-    { "es": "Me ha dejado en visto.", "fr": "Il m'a laissée en vu.", "note": "Les deux coches bleues, et rien. Drame moderne." },
+    { "es": "Me ha dejado en visto.", "fr": "Il m'a laissée en vu.", "note": "Les deux coches bleues, et rien. Drame moderne.", "duo": { "fr": "Il m'a laissé en vu." } },
     { "es": "Me he quedado sin batería.", "fr": "Je n'ai plus de batterie.", "note": "L'excuse universelle, parfois même vraie." },
     { "es": "¡Venga, chao!", "fr": "Allez, salut !", "note": "La façon la plus courante de raccrocher entre amis." },
     { "es": "Un beso / Bss", "fr": "Bisous", "note": "À l'oral pour finir un appel, à l'écrit en version courte." }

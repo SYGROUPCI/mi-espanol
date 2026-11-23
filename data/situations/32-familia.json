@@ -1,0 +1,413 @@
+{
+  "id": "familia",
+  "ordre": 32,
+  "niveau": "B1",
+  "titre": "La famille et le couple",
+  "titre_es": "La familia y la pareja",
+  "intro": "Présenter ta belle-famille, recevoir une tante de passage, fêter un anniversaire de mariage, appeler les tiens au pays : la famille tient une grande place dans la conversation. Et pour dire « je le lui ai envoyé » sans t'emmêler, on va apprivoiser se lo, me la et toute la bande.",
+  "phrases": [
+    {
+      "id": "familia-01",
+      "es": "Te presento a mis suegros, los padres de Khalil.",
+      "fr": "Je te présente mes beaux-parents, les parents de Khalil.",
+      "pron": "té pré-SSÉN-to a miss SOUÉ-gross loss PA-dréss dé ka-LIL",
+      "note": "Suegro, suegra : beau-père, belle-mère. En Espagne, on les appelle ainsi dès que le couple est sérieux, mariés ou pas.",
+      "duo": {
+        "es": "Te presento a mis suegros, los padres de Elisabeth.",
+        "fr": "Je te présente mes beaux-parents, les parents d'Elisabeth.",
+        "pron": "té pré-SSÉN-to a miss SOUÉ-gross loss PA-dréss dé é-li-ssa-BÉT"
+      }
+    },
+    {
+      "id": "familia-02",
+      "es": "Mis suegros viven en Abiyán, pero este verano vienen a vernos.",
+      "fr": "Mes beaux-parents habitent à Abidjan, mais cet été ils viennent nous voir.",
+      "pron": "miss SOUÉ-gross BI-bén én a-bi-YAN PÉ-ro ÉSS-té bé-RA-no BYÉ-nén a BÉR-noss",
+      "note": "« Vienen a vernos » : le pronom se colle à l'infinitif. On peut aussi dire « nos vienen a ver ».",
+      "duo": {
+        "es": "Mis suegros viven en Conakri, pero este verano vienen a vernos.",
+        "fr": "Mes beaux-parents habitent à Conakry, mais cet été ils viennent nous voir.",
+        "pron": "miss SOUÉ-gross BI-bén én ko-na-KRI PÉ-ro ÉSS-té bé-RA-no BYÉ-nén a BÉR-noss"
+      }
+    },
+    {
+      "id": "familia-03",
+      "es": "¿Te gusta este vestido? Me lo regaló mi suegra.",
+      "fr": "Tu aimes cette robe ? C'est ma belle-mère qui me l'a offerte.",
+      "pron": "té GOUSS-ta ÉSS-té béss-TI-do mé lo rré-ga-LO mi SOUÉ-gra",
+      "note": "Me lo : « me » pour la personne, « lo » pour la robe. L'ordre ne change jamais : d'abord la personne, ensuite la chose.",
+      "duo": {
+        "es": "¿Te gusta esta camisa? Me la regaló mi suegra.",
+        "fr": "Tu aimes cette chemise ? C'est ma belle-mère qui me l'a offerte.",
+        "pron": "té GOUSS-ta ÉSS-ta ka-MI-ssa mé la rré-ga-LO mi SOUÉ-gra",
+        "note": "Me la : « me » pour la personne, « la » pour la chemise. L'ordre ne change jamais : d'abord la personne, ensuite la chose."
+      }
+    },
+    {
+      "id": "familia-04",
+      "es": "La hermana de Khalil es mi cuñada, y nos llevamos muy bien.",
+      "fr": "La sœur de Khalil, c'est ma belle-sœur, et on s'entend très bien.",
+      "pron": "la ér-MA-na dé ka-LIL ÉSS mi kou-GNA-da i noss yé-BA-moss MOUÏ BYÉN",
+      "note": "Llevarse bien : bien s'entendre. Cuñado, cuñada : beau-frère, belle-sœur.",
+      "rapide": "La hermana de Khalil es mi cuñá, y nos llevamos muy bien.",
+      "duo": {
+        "es": "La hermana de Elisabeth es mi cuñada, y nos llevamos muy bien.",
+        "fr": "La sœur d'Elisabeth, c'est ma belle-sœur, et on s'entend très bien.",
+        "pron": "la ér-MA-na dé é-li-ssa-BÉT ÉSS mi kou-GNA-da i noss yé-BA-moss MOUÏ BYÉN",
+        "rapide": "La hermana de Elisabeth es mi cuñá, y nos llevamos muy bien."
+      }
+    },
+    {
+      "id": "familia-05",
+      "es": "Este fin de semana viene mi tía de Madrid a pasar unos días.",
+      "fr": "Ce week-end, ma tante vient de Madrid passer quelques jours.",
+      "pron": "ÉSS-té FIN dé sé-MA-na BYÉ-né mi TI-a dé ma-DRID a pa-SSAR OU-noss DI-ass",
+      "note": "Pasar unos días : passer quelques jours. Prépare le lit d'amis et le programme des visites."
+    },
+    {
+      "id": "familia-06",
+      "es": "¿La maleta de tu tía? Ya se la subo yo.",
+      "fr": "La valise de ta tante ? Je la lui monte, t'inquiète.",
+      "pron": "la ma-LÉ-ta dé tou TI-a YA sé la SOU-bo YO",
+      "note": "Le piège classique : « le la » est impossible, on dit « se la ». Dès que le ou les tombe devant lo, la, los, las, il devient se."
+    },
+    {
+      "id": "familia-07",
+      "es": "Mi tía nos ha traído un montón de regalos y nos los ha dado todos de golpe.",
+      "fr": "Ma tante nous a apporté plein de cadeaux et nous les a tous donnés d'un coup.",
+      "pron": "mi TI-a noss a tra-I-do oun mon-TON dé rré-GA-loss i noss loss a DA-do TO-doss dé GOL-pé",
+      "note": "Nos los : à nous (nos), les cadeaux (los). Les deux pronoms se placent devant le verbe conjugué.",
+      "rapide": "Mi tía nos ha traío un montón de regalos y nos los ha dao todos de golpe."
+    },
+    {
+      "id": "familia-08",
+      "es": "Mañana mis suegros cumplen treinta y cinco años de casados.",
+      "fr": "Demain, mes beaux-parents fêtent leurs trente-cinq ans de mariage.",
+      "pron": "ma-GNA-na miss SOUÉ-gross KOUM-plén TRÉÏN-ta i THIN-ko A-gnoss dé ka-SSA-doss",
+      "note": "Cumplir años de casados : fêter ses années de mariage. Les bodas de plata, c'est vingt-cinq ans, les bodas de oro, cinquante.",
+      "rapide": "Mañana mis suegros cumplen treinta y cinco años de casaos."
+    },
+    {
+      "id": "familia-09",
+      "es": "Les hemos comprado un marco con fotos de toda la familia.",
+      "fr": "On leur a acheté un cadre avec des photos de toute la famille.",
+      "pron": "léss É-moss kom-PRA-do oun MAR-ko kon FO-toss dé TO-da la fa-MI-lya",
+      "note": "« Les » : à eux. Regarde bien la phrase suivante : il va changer de forme."
+    },
+    {
+      "id": "familia-10",
+      "es": "Se lo mandamos ayer por mensajería y les llega la semana que viene.",
+      "fr": "On le leur a envoyé hier par transporteur et ils le recevront la semaine prochaine.",
+      "pron": "sé lo man-DA-moss a-YÉR por mén-ssa-khé-RI-a i léss YÉ-ga la sé-MA-na ké BYÉ-né",
+      "note": "Voilà la transformation : « les lo » devient « se lo ». Se lo veut dire « le lui », « le leur » ou « vous le », selon le contexte."
+    },
+    {
+      "id": "familia-11",
+      "es": "¡Feliz aniversario! Que sigáis tan enamorados como el primer día.",
+      "fr": "Joyeux anniversaire de mariage ! Restez aussi amoureux qu'au premier jour.",
+      "pron": "fé-LITH a-ni-bér-SSA-ryo ké si-GAÏSS TAN é-na-mo-RA-doss KO-mo él pri-MÉR DI-a",
+      "note": "Que + subjonctif pour un vœu, comme dans « que te mejores ». Sigáis, avec vosotros, parce que tu parles aux deux."
+    },
+    {
+      "id": "familia-12",
+      "es": "¿Cuánto tiempo lleváis juntos?",
+      "fr": "Ça fait combien de temps que vous êtes ensemble ?",
+      "pron": "KOUAN-to TYÉM-po yé-BAÏSS KHOUN-toss",
+      "note": "Llevar + durée : ça fait… que. La question qu'on vous posera à chaque dîner, alors mettez-vous d'accord sur la réponse."
+    },
+    {
+      "id": "familia-13",
+      "es": "Hablamos todas las noches, aunque sea cinco minutos.",
+      "fr": "On se parle tous les soirs, même si ce n'est que cinq minutes.",
+      "pron": "a-BLA-moss TO-dass lass NO-tchéss AOUN-ké SÉ-a THIN-ko mi-NOU-toss",
+      "note": "Aunque sea : même si ce n'est que. Le subjonctif, encore lui. La distance se supporte mieux avec ce petit rendez-vous du soir."
+    },
+    {
+      "id": "familia-14",
+      "es": "Algún día nos gustaría casarnos, pero sin prisa.",
+      "fr": "Un jour, on aimerait se marier, mais sans se presser.",
+      "pron": "al-GOUN DI-a noss gouss-ta-RI-a ka-SSAR-noss PÉ-ro SIN PRI-ssa",
+      "note": "Nos gustaría : on aimerait, au conditionnel, pour un projet qu'on prend le temps de rêver. Casarse : se marier."
+    },
+    {
+      "id": "familia-15",
+      "es": "¡Hola, mamá! ¿Qué tal estáis todos por Conakri?",
+      "fr": "Coucou maman ! Comment vous allez tous, là-bas à Conakry ?",
+      "pron": "O-la ma-MA KÉ TAL éss-TAÏSS TO-doss por ko-na-KRI",
+      "note": "« Por » + lieu : là-bas, du côté de. Et estáis, parce que tu demandes des nouvelles de toute la maison.",
+      "rapide": "¡Hola, mamá! ¿Qué tal 'táis todos por Conakri?",
+      "duo": {
+        "es": "¡Hola, mamá! ¿Qué tal estáis todos por Abiyán?",
+        "fr": "Coucou maman ! Comment vous allez tous, là-bas à Abidjan ?",
+        "pron": "O-la ma-MA KÉ TAL éss-TAÏSS TO-doss por a-bi-YAN",
+        "rapide": "¡Hola, mamá! ¿Qué tal 'táis todos por Abiyán?"
+      }
+    },
+    {
+      "id": "familia-16",
+      "es": "Dile a papá que ya le he mandado el dinero. Se lo mandé el lunes.",
+      "fr": "Dis à papa que je lui ai déjà envoyé l'argent. Je le lui ai envoyé lundi.",
+      "pron": "DI-lé a pa-PA ké YA lé é man-DA-do él di-NÉ-ro sé lo man-DÉ él LOU-néss",
+      "note": "« Dile » : dis-lui, le pronom se colle à l'impératif. Puis « se lo », parce que le et lo ne vont jamais ensemble."
+    },
+    {
+      "id": "familia-17",
+      "es": "Mi hermana pequeña me ha pedido unas zapatillas de aquí. Se las compro mañana.",
+      "fr": "Ma petite sœur m'a demandé des baskets d'ici. Je les lui achète demain.",
+      "pron": "mi ér-MA-na pé-KÉ-gna mé a pé-DI-do OU-nass tha-pa-TI-yass dé a-KI sé lass KOM-pro ma-GNA-na",
+      "note": "Se las : à elle (se), les baskets (las). Le pronom de la chose s'accorde, celui de la personne reste se.",
+      "rapide": "Mi hermana pequeña m'ha pedío unas zapatillas de aquí. Se las compro mañana."
+    },
+    {
+      "id": "familia-18",
+      "es": "Mi abuela siempre me pregunta si como bien. Le digo que sí, pero no se lo cree.",
+      "fr": "Ma grand-mère me demande toujours si je mange bien. Je lui dis que oui, mais elle n'y croit pas.",
+      "pron": "mi a-BOUÉ-la SYÉM-pré mé pré-GOUN-ta si KO-mo BYÉN lé DI-go ké SI PÉ-ro no sé lo KRÉ-é",
+      "note": "Ici, le se de « no se lo cree » vient de creerse, « y croire ». Les grands-mères sont pareilles sur tous les continents."
+    },
+    {
+      "id": "familia-19",
+      "es": "Mándame las fotos del cumple del niño, que quiero enseñárselas a Khalil.",
+      "fr": "Envoie-moi les photos de l'anniversaire du petit, je veux les montrer à Khalil.",
+      "pron": "MAN-da-mé lass FO-toss dél KOUM-plé dél NI-gno ké KYÉ-ro én-sé-GNAR-sé-lass a ka-LIL",
+      "note": "Enseñárselas : montrer (enseñar), à lui (se), elles (las), tout collé à l'infinitif. L'accent écrit garde l'accent tonique à sa place.",
+      "duo": {
+        "es": "Mándame las fotos del cumple del niño, que quiero enseñárselas a Elisabeth.",
+        "fr": "Envoie-moi les photos de l'anniversaire du petit, je veux les montrer à Elisabeth.",
+        "pron": "MAN-da-mé lass FO-toss dél KOUM-plé dél NI-gno ké KYÉ-ro én-sé-GNAR-sé-lass a é-li-ssa-BÉT",
+        "note": "Enseñárselas : montrer (enseñar), à elle (se), elles (las), tout collé à l'infinitif. L'accent écrit garde l'accent tonique à sa place."
+      }
+    },
+    {
+      "id": "familia-20",
+      "es": "Os echo mucho de menos, pero aquí estoy bien, no os preocupéis.",
+      "fr": "Vous me manquez beaucoup, mais ici je vais bien, ne vous inquiétez pas.",
+      "pron": "oss É-tcho MOU-tcho dé MÉ-noss PÉ-ro a-KI éss-TOÏ BYÉN no oss pré-o-kou-PÉÏSS",
+      "note": "Os : vous, quand tu parles à toute la famille. « No os preocupéis » : l'impératif négatif de vosotros, au subjonctif.",
+      "rapide": "Os echo mucho de menos, pero aquí 'toy bien, no os preocupéis."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Tata Aminata débarque",
+      "contexte": "Ta tante Aminata, qui vit à Madrid, arrive à Logroño pour le week-end. Khalil est là aussi : il la rencontre pour la première fois.",
+      "duo": {
+        "contexte": "Ta tante Aminata, qui vit à Madrid, arrive à Logroño pour le week-end. Elisabeth est là aussi : elle la rencontre pour la première fois."
+      },
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "¡Tía Aminata, bienvenida! Te presento a Khalil.",
+          "fr": "Tata Aminata, bienvenue ! Je te présente Khalil.",
+          "duo": {
+            "es": "¡Tía Aminata, bienvenida! Te presento a Elisabeth.",
+            "fr": "Tata Aminata, bienvenue ! Je te présente Elisabeth."
+          }
+        },
+        {
+          "qui": "Khalil",
+          "es": "Encantado, señora. Elisabeth me ha hablado mucho de usted.",
+          "fr": "Enchanté, madame. Elisabeth m'a beaucoup parlé de vous.",
+          "duo": {
+            "qui": "Elisabeth",
+            "es": "Encantada, señora. Khalil me ha hablado mucho de usted.",
+            "fr": "Enchantée, madame. Khalil m'a beaucoup parlé de vous."
+          }
+        },
+        {
+          "qui": "Aminata",
+          "es": "¡Nada de señora! Llámame tía, como todos.",
+          "fr": "Pas de madame ! Appelle-moi tata, comme tout le monde."
+        },
+        {
+          "qui": "Khalil",
+          "es": "Vale, tía. ¿Y la maleta? ¿Te la subo a la habitación?",
+          "fr": "D'accord, tata. Et la valise ? Je te la monte dans la chambre ?",
+          "duo": {
+            "qui": "Elisabeth"
+          }
+        },
+        {
+          "qui": "Aminata",
+          "es": "Sí, gracias, hijo. Pesa muchísimo: os he traído un montón de cosas.",
+          "fr": "Oui, merci, mon fils. Elle pèse une tonne : je vous ai apporté plein de choses.",
+          "duo": {
+            "es": "Sí, gracias, hija. Pesa muchísimo: os he traído un montón de cosas.",
+            "fr": "Oui, merci, ma fille. Elle pèse une tonne : je vous ai apporté plein de choses."
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Tía, no hacía falta! ¿Y esto qué es?",
+          "fr": "Tata, il ne fallait pas ! Et ça, c'est quoi ?"
+        },
+        {
+          "qui": "Aminata",
+          "es": "Es una tela para ti. Te la manda tu madre.",
+          "fr": "C'est un tissu pour toi. C'est ta mère qui te l'envoie."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Qué bonita! Mañana la llamo y se lo agradezco.",
+          "fr": "Qu'il est beau ! Demain, je l'appelle pour la remercier."
+        }
+      ]
+    },
+    {
+      "titre": "Et le mariage, c'est pour quand ?",
+      "contexte": "Marta et Dani vous ont invités à dîner, Khalil et toi. Entre deux plats, les questions sur votre couple commencent.",
+      "duo": {
+        "contexte": "Marta et Dani vous ont invités à dîner, Elisabeth et toi. Entre deux plats, les questions sur votre couple commencent."
+      },
+      "lignes": [
+        {
+          "qui": "Marta",
+          "es": "¿Y cuánto tiempo lleváis juntos?",
+          "fr": "Et ça fait combien de temps que vous êtes ensemble ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Uf, ya unos cuantos años. Y todavía me aguanta.",
+          "fr": "Ouh, ça fait déjà quelques années. Et il me supporte toujours.",
+          "duo": {
+            "fr": "Ouh, ça fait déjà quelques années. Et elle me supporte toujours."
+          }
+        },
+        {
+          "qui": "Khalil",
+          "es": "Y yo a ella, que tiene su mérito.",
+          "fr": "Et moi, je la supporte, ce qui n'est pas rien.",
+          "duo": {
+            "qui": "Elisabeth",
+            "es": "Y yo a él, que tiene su mérito.",
+            "fr": "Et moi, je le supporte, ce qui n'est pas rien."
+          }
+        },
+        {
+          "qui": "Dani",
+          "es": "¿Y qué planes tenéis? ¿Os vais a quedar en Logroño?",
+          "fr": "Et c'est quoi, vos projets ? Vous allez rester à Logroño ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí, la idea es vivir aquí los dos. De momento, hablamos todas las noches, aunque sea cinco minutos.",
+          "fr": "Oui, l'idée, c'est de vivre ici tous les deux. Pour l'instant, on se parle tous les soirs, même si ce n'est que cinq minutes."
+        },
+        {
+          "qui": "Marta",
+          "es": "¿Y la boda? ¿Para cuándo la boda?",
+          "fr": "Et le mariage ? C'est pour quand, le mariage ?"
+        },
+        {
+          "qui": "Khalil",
+          "es": "Algún día nos gustaría casarnos, pero sin prisa.",
+          "fr": "Un jour, on aimerait se marier, mais sans se presser.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
+        },
+        {
+          "qui": "Dani",
+          "es": "Hablando de bodas, ¿tus padres no cumplían años de casados esta semana?",
+          "fr": "En parlant de mariage, ce n'était pas l'anniversaire de mariage de tes parents cette semaine ?"
+        },
+        {
+          "qui": "Khalil",
+          "es": "Sí, mañana cumplen treinta y cinco años. Les hemos comprado un marco con fotos y se lo mandamos ayer.",
+          "fr": "Si, demain ils fêtent leurs trente-cinq ans. On leur a acheté un cadre photo et on le leur a envoyé hier.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
+        },
+        {
+          "qui": "Marta",
+          "es": "¡Qué detalle! Felicítalos de nuestra parte.",
+          "fr": "Quelle jolie attention ! Félicite-les de notre part."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Deux pronoms ensemble : me lo, te la, se lo",
+    "explication": "Quand deux pronoms se suivent, la personne passe d'abord, la chose ensuite : me lo das, te la traigo. Ils se placent devant le verbe conjugué, ou se collent derrière l'infinitif, le gérondif et l'impératif : voy a dártelo, dámelo. Le grand piège : le et les ne vont jamais devant lo, la, los, las, ils deviennent se. On ne dit pas « le lo doy », mais « se lo doy ». Quand les pronoms sont collés au verbe, on ajoute souvent un accent écrit : dámelo, enseñárselas.",
+    "tableau": [
+      [
+        "me lo, me la",
+        "me le, me la"
+      ],
+      [
+        "te lo, te la",
+        "te le, te la"
+      ],
+      [
+        "se lo, se la",
+        "le lui, la lui, le leur"
+      ],
+      [
+        "nos lo, nos la",
+        "nous le, nous la"
+      ],
+      [
+        "os lo, os la",
+        "vous le, vous la"
+      ],
+      [
+        "dámelo, dáselo",
+        "donne-le-moi, donne-le-lui"
+      ]
+    ],
+    "exemples": [
+      {
+        "es": "¿El regalo? Se lo doy mañana a mi suegra.",
+        "fr": "Le cadeau ? Je le donne demain à ma belle-mère."
+      },
+      {
+        "es": "Esta foto es preciosa. ¿Me la mandas?",
+        "fr": "Cette photo est magnifique. Tu me l'envoies ?"
+      },
+      {
+        "es": "Las llaves, Khalil, dámelas antes de irte.",
+        "fr": "Les clés, Khalil, donne-les-moi avant de partir.",
+        "duo": {
+          "es": "Las llaves, Elisabeth, dámelas antes de irte.",
+          "fr": "Les clés, Elisabeth, donne-les-moi avant de partir."
+        }
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Mi media naranja",
+      "fr": "Ma moitié",
+      "note": "Littéralement « ma demi-orange » : l'âme sœur, celle qui complète l'autre moitié. Très tendre, un peu kitsch."
+    },
+    {
+      "es": "De tal palo, tal astilla",
+      "fr": "Tel père, tel fils",
+      "note": "Littéralement « de tel bâton, tel copeau ». Marche aussi pour les mères et les filles."
+    },
+    {
+      "es": "Ser uña y carne",
+      "fr": "Être comme les deux doigts de la main",
+      "note": "« Mi cuñada y yo somos uña y carne » : inséparables, comme l'ongle et la chair."
+    },
+    {
+      "es": "Hacer buenas migas",
+      "fr": "Bien s'entendre",
+      "note": "Pour deux personnes qui accrochent tout de suite : « Khalil y mi tía han hecho buenas migas ».",
+      "duo": {
+        "note": "Pour deux personnes qui accrochent tout de suite : « Elisabeth y mi tía han hecho buenas migas »."
+      }
+    },
+    {
+      "es": "Llevarse como el perro y el gato",
+      "fr": "S'entendre comme chien et chat",
+      "note": "Le contraire de la précédente. Souvent dit de frères et sœurs qui, au fond, s'adorent."
+    },
+    {
+      "es": "Ser la oveja negra",
+      "fr": "Être le mouton noir",
+      "note": "Celui ou celle qui ne fait jamais rien comme le reste de la famille. Toutes les familles en ont un."
+    }
+  ]
+}

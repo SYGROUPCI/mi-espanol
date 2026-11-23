@@ -4,6 +4,7 @@
   "titre": "Bar et restaurant",
   "titre_es": "Bar y restaurante",
   "intro": "Au bar, en Espagne, on ne dit pas « je voudrais » : on dit « mets-moi ». Ça paraît brusque, c'est juste efficace. Ici, tu apprends à commander comme une habituée, à payer et même à râler gentiment.",
+  "duo": { "intro": "Au bar, en Espagne, on ne dit pas « je voudrais » : on dit « mets-moi ». Ça paraît brusque, c'est juste efficace. Ici, tu apprends à commander comme un habitué, à payer et même à râler gentiment." },
   "phrases": [
     {
       "id": "bar-01",
@@ -90,7 +91,12 @@
       "es": "Soy alérgica a los frutos secos.",
       "fr": "Je suis allergique aux fruits à coque.",
       "pron": "SOÏ a-LÉR-khi-ka a loss FROU-toss SÉ-koss",
-      "note": "Au féminin : alérgica. Un homme dirait « alérgico »."
+      "note": "Au féminin : alérgica. Un homme dirait « alérgico ».",
+      "duo": {
+        "es": "Soy alérgico a los frutos secos.",
+        "pron": "SOÏ a-LÉR-khi-ko a loss FROU-toss SÉ-koss",
+        "note": "Au masculin : alérgico. Une femme dirait « alérgica »."
+      }
     },
     {
       "id": "bar-13",
@@ -156,6 +162,7 @@
     {
       "titre": "Le café du matin",
       "contexte": "Elisabeth entre dans le bar du coin avant le travail. Le serveur a l'air pressé, elle aussi.",
+      "duo": { "contexte": "Khalil entre dans le bar du coin un matin. Le serveur a l'air pressé, Khalil aussi." },
       "lignes": [
         { "qui": "Camarero", "es": "¡Buenos días! ¿Qué te pongo?", "fr": "Bonjour ! Je te sers quoi ?" },
         { "qui": "Elisabeth", "es": "Ponme un cortado, por favor.", "fr": "Un cortado, s'il te plaît." },
@@ -171,11 +178,12 @@
     {
       "titre": "Le menú del día",
       "contexte": "À midi, Elisabeth et une collègue s'installent dans un petit restaurant du centre.",
+      "duo": { "contexte": "À midi, Khalil et Elisabeth s'installent dans un petit restaurant du centre." },
       "lignes": [
         { "qui": "Camarera", "es": "Hola, ¿cuántos sois?", "fr": "Bonjour, vous êtes combien ?" },
         { "qui": "Elisabeth", "es": "Dos. ¿Qué tenéis hoy de menú?", "fr": "Deux. Qu'est-ce que vous avez au menu du jour ?" },
         { "qui": "Camarera", "es": "De primero, ensalada o pochas, y de segundo, pescado o carne.", "fr": "En entrée, salade ou haricots blancs, et en plat, poisson ou viande." },
-        { "qui": "Elisabeth", "es": "Para mí, la ensalada y el pescado. Soy alérgica a los frutos secos.", "fr": "Pour moi, la salade et le poisson. Je suis allergique aux fruits à coque." },
+        { "qui": "Elisabeth", "es": "Para mí, la ensalada y el pescado. Soy alérgica a los frutos secos.", "fr": "Pour moi, la salade et le poisson. Je suis allergique aux fruits à coque.", "duo": { "es": "Para mí, la ensalada y el pescado. Soy alérgico a los frutos secos." } },
         { "qui": "Camarera", "es": "Vale, aviso en cocina.", "fr": "D'accord, je préviens la cuisine." },
         { "qui": "Elisabeth", "es": "Perdona, esto está un poco frío.", "fr": "Excuse-moi, c'est un peu froid." },
         { "qui": "Camarera", "es": "¡Uy, perdona! Te lo caliento ahora mismo.", "fr": "Oh, pardon ! Je te le réchauffe tout de suite." },
@@ -203,7 +211,7 @@
   "expressions": [
     { "es": "¡Que aproveche!", "fr": "Bon appétit !", "note": "On le dit même à des inconnus qui mangent à la table d'à côté." },
     { "es": "¡Marchando!", "fr": "Ça arrive !", "note": "Ce que crie le serveur quand il a pris ta commande." },
-    { "es": "¿Lo de siempre?", "fr": "Comme d'habitude ?", "note": "Ce que te demandera le serveur quand tu seras devenue une habituée. Le vrai diplôme d'intégration." },
+    { "es": "¿Lo de siempre?", "fr": "Comme d'habitude ?", "note": "Ce que te demandera le serveur quand tu seras devenue une habituée. Le vrai diplôme d'intégration.", "duo": { "note": "Ce que te demandera le serveur quand tu seras devenu un habitué. Le vrai diplôme d'intégration." } },
     { "es": "Pagar a escote", "fr": "Partager l'addition", "note": "Chacun paie sa part, à parts égales." },
     { "es": "Ir de cañas", "fr": "Aller boire un verre", "note": "Même si, au final, personne ne boit que des cañas." },
     { "es": "¿Algo más?", "fr": "Autre chose ?", "note": "La question du serveur. Réponse classique : « Nada más, gracias »." }

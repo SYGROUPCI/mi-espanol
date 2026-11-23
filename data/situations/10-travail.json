@@ -97,7 +97,13 @@
       "es": "Perdona, soy nueva. ¿Me explicas cómo funciona esto?",
       "fr": "Excuse-moi, je suis nouvelle. Tu m'expliques comment ça marche ?",
       "pron": "pér-DO-na SOÏ NOUÉ-ba mé éks-PLI-kass KO-mo foun-THYO-na ÉSS-to",
-      "note": "Entre collègues, on se tutoie dès le premier jour. Et « soy nueva » ouvre toutes les portes la première semaine : profites-en, ça ne dure pas."
+      "note": "Entre collègues, on se tutoie dès le premier jour. Et « soy nueva » ouvre toutes les portes la première semaine : profites-en, ça ne dure pas.",
+      "duo": {
+        "es": "Perdona, soy nuevo. ¿Me explicas cómo funciona esto?",
+        "fr": "Excuse-moi, je suis nouveau. Tu m'expliques comment ça marche ?",
+        "pron": "pér-DO-na SOÏ NOUÉ-bo mé éks-PLI-kass KO-mo foun-THYO-na ÉSS-to",
+        "note": "Entre collègues, on se tutoie dès le premier jour. Et « soy nuevo » ouvre toutes les portes la première semaine : profites-en, ça ne dure pas."
+      }
     },
     {
       "id": "travail-14",
@@ -121,14 +127,21 @@
       "fr": "Désolée, je vais avoir dix minutes de retard. Le bus n'est pas passé.",
       "pron": "pér-DO-na YÉ-go DYÉTH mi-NOU-toss TAR-dé él aou-to-BOUSS no a pa-SSA-do",
       "note": "Le présent « llego tarde » sert aussi pour un retard qui n'est pas encore arrivé. Préviens avant l'heure, ton jefe appréciera.",
-      "rapide": "Perdona, llego diez minutos tarde. El autobús no'a pasao."
+      "rapide": "Perdona, llego diez minutos tarde. El autobús no'a pasao.",
+      "duo": {
+        "fr": "Désolé, je vais avoir dix minutes de retard. Le bus n'est pas passé."
+      }
     },
     {
       "id": "travail-17",
       "es": "Hoy no puedo ir, estoy mala. Voy al médico.",
       "fr": "Aujourd'hui je ne peux pas venir, je suis malade. Je vais chez le médecin.",
-      "pron": "OÏ no POUÉ-do IR éss-TOÏ dé BA-kha",
-      "note": "« Estar de baja », c'est être en arrêt. C'est le médecin de famille, « el médico de cabecera », qui te la donne. En espagnol, on « va » au travail, même au téléphone avec la jefa."
+      "pron": "OÏ no POUÉ-do IR, éss-TOÏ MA-la. BOÏ al MÉ-di-ko.",
+      "note": "« Estar de baja », c'est être en arrêt. C'est le médecin de famille, « el médico de cabecera », qui te la donne. En espagnol, on « va » au travail, même au téléphone avec la jefa.",
+      "duo": {
+        "es": "Hoy no puedo ir, estoy malo. Voy al médico.",
+        "pron": "OÏ no POUÉ-do IR éss-TOÏ MA-lo BOÏ al MÉ-di-ko"
+      }
     },
     {
       "id": "travail-18",
@@ -161,7 +174,11 @@
         {
           "qui": "Marta",
           "es": "Buenos días, Elisabeth. Siéntese, por favor. Cuénteme, ¿qué experiencia tiene?",
-          "fr": "Bonjour Elisabeth. Asseyez-vous, je vous en prie. Racontez-moi, quelle expérience avez-vous ?"
+          "fr": "Bonjour Elisabeth. Asseyez-vous, je vous en prie. Racontez-moi, quelle expérience avez-vous ?",
+          "duo": {
+            "es": "Buenos días, Khalil. Siéntese, por favor. Cuénteme, ¿qué experiencia tiene?",
+            "fr": "Bonjour Khalil. Asseyez-vous, je vous en prie. Racontez-moi, quelle expérience avez-vous ?"
+          }
         },
         {
           "qui": "Elisabeth",
@@ -206,7 +223,11 @@
         {
           "qui": "Elisabeth",
           "es": "Perfecto. Soy muy madrugadora.",
-          "fr": "Parfait. Je suis très matinale."
+          "fr": "Parfait. Je suis très matinale.",
+          "duo": {
+            "es": "Perfecto. Soy muy madrugador.",
+            "fr": "Parfait. Je suis très matinal."
+          }
         }
       ]
     },
@@ -217,12 +238,19 @@
         {
           "qui": "Elisabeth",
           "es": "Hola, Rosa. Perdona, llego diez minutos tarde. El autobús no ha pasado.",
-          "fr": "Bonjour Rosa. Désolée, je vais avoir dix minutes de retard. Le bus n'est pas passé."
+          "fr": "Bonjour Rosa. Désolée, je vais avoir dix minutes de retard. Le bus n'est pas passé.",
+          "duo": {
+            "fr": "Bonjour Rosa. Désolé, je vais avoir dix minutes de retard. Le bus n'est pas passé."
+          }
         },
         {
           "qui": "Rosa",
           "es": "No pasa nada, Elisabeth. Tranquila, te esperamos.",
-          "fr": "Ce n'est pas grave, Elisabeth. Ne t'inquiète pas, on t'attend."
+          "fr": "Ce n'est pas grave, Elisabeth. Ne t'inquiète pas, on t'attend.",
+          "duo": {
+            "es": "No pasa nada, Khalil. Tranquilo, te esperamos.",
+            "fr": "Ce n'est pas grave, Khalil. Ne t'inquiète pas, on t'attend."
+          }
         },
         {
           "qui": "Dani",
@@ -266,11 +294,26 @@
     "titre": "Tengo, puedo, sé, hago : parler de ce que tu sais faire",
     "explication": "Plusieurs verbes très utiles en entretien sont irréguliers, surtout à la forme « yo ». Tener, hacer et salir prennent un g : tengo, hago, salgo. Poder change son o en ue (puedo, puedes, puede), sauf avec nosotros et vosotros. Pour tes compétences, « sé » + infinitif dit ce que tu as appris (sé conducir), et « puedo » + infinitif ce qui est possible pour toi (puedo trabajar los sábados). Le « sé » de saber garde son accent, pour ne pas le confondre avec « se ».",
     "tableau": [
-      ["tener → tengo", "j'ai"],
-      ["poder → puedo", "je peux"],
-      ["saber → sé", "je sais"],
-      ["hacer → hago", "je fais"],
-      ["salir → salgo", "je sors, je finis"]
+      [
+        "tener → tengo",
+        "j'ai"
+      ],
+      [
+        "poder → puedo",
+        "je peux"
+      ],
+      [
+        "saber → sé",
+        "je sais"
+      ],
+      [
+        "hacer → hago",
+        "je fais"
+      ],
+      [
+        "salir → salgo",
+        "je sors, je finis"
+      ]
     ],
     "exemples": [
       {
@@ -296,7 +339,10 @@
     {
       "es": "Estar hasta arriba",
       "fr": "Être débordée",
-      "note": "« Estoy hasta arriba de trabajo » : quand les cartons s'empilent plus vite que tu ne les ranges."
+      "note": "« Estoy hasta arriba de trabajo » : quand les cartons s'empilent plus vite que tu ne les ranges.",
+      "duo": {
+        "fr": "Être débordé"
+      }
     },
     {
       "es": "Estar muy de lunes",

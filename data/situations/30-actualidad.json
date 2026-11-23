@@ -1,0 +1,326 @@
+{
+  "id": "actualidad",
+  "ordre": 30,
+  "niveau": "B1",
+  "titre": "L'actualité et les débats",
+  "titre_es": "La actualidad y los debates",
+  "intro": "Au bar, au travail, chez la voisine : l'actualité, c'est le meilleur prétexte pour parler. La boulangerie qui ferme, la canicule, le prix des courses, la fête du quartier… Voici de quoi donner ton avis, contredire avec le sourire et nuancer comme une vraie Logroñesa.",
+  "duo": {
+    "intro": "Au bar, au travail, chez les voisins : l'actualité, c'est le meilleur prétexte pour parler. La boulangerie qui ferme, la canicule, le prix des courses, la fête du quartier… Voici de quoi donner ton avis, contredire avec le sourire et nuancer comme un vrai Logroñés."
+  },
+  "phrases": [
+    {
+      "id": "actualidad-01",
+      "es": "¿Has visto que van a cerrar la panadería de la esquina?",
+      "fr": "Tu as vu qu'ils vont fermer la boulangerie du coin ?",
+      "pron": "ASS BISS-to ké BAN a thé-RRAR la pa-na-dé-RI-a dé la éss-KI-na",
+      "note": "« Van a cerrar », sans sujet : c'est le « ils » vague du français, celui des nouvelles du quartier."
+    },
+    {
+      "id": "actualidad-02",
+      "es": "Dicen en las noticias que esta semana vamos a llegar a cuarenta grados.",
+      "fr": "Aux infos, ils disent que cette semaine on va atteindre quarante degrés.",
+      "pron": "DI-thén én lass no-TI-thyass ké ÉSS-ta sé-MA-na BA-moss a yé-GAR a koua-RÉN-ta GRA-doss",
+      "note": "« Las noticias » : le journal à la télé ou à la radio. Eh oui, Logroño peut griller en été autant qu'il gèle en hiver.",
+      "rapide": "Dicen en las noticias qu'esta semana vamos a llegar a cuarenta grados."
+    },
+    {
+      "id": "actualidad-03",
+      "es": "No creo que haga tanto calor como el año pasado.",
+      "fr": "Je ne crois pas qu'il fasse aussi chaud que l'an dernier.",
+      "pron": "no KRÉ-o ké A-ga TAN-to ka-LOR KO-mo él A-gno pa-SSA-do",
+      "note": "Voilà le subjonctif : « no creo que » + haga. À l'affirmatif, on garde l'indicatif : « creo que hace calor ».",
+      "rapide": "No creo que haga tanto calor como el año pasao."
+    },
+    {
+      "id": "actualidad-04",
+      "es": "Creo que el ayuntamiento debería poner más árboles en las plazas.",
+      "fr": "Je crois que la mairie devrait mettre plus d'arbres sur les places.",
+      "pron": "KRÉ-o ké él a-youn-ta-MYÉN-to dé-bé-RI-a po-NÉR MASS AR-bo-léss én lass PLA-thass",
+      "note": "Creo que + indicatif (ou conditionnel) : ton avis, posé et clair. « Debería » adoucit, comme « il faudrait »."
+    },
+    {
+      "id": "actualidad-05",
+      "es": "La compra está cada vez más cara, ¿no te parece?",
+      "fr": "Les courses coûtent de plus en plus cher, tu ne trouves pas ?",
+      "pron": "la KOM-pra éss-TA KA-da BÉTH MASS KA-ra no té pa-RÉ-thé",
+      "note": "« Hacer la compra » : faire les courses. « Cada vez más » : de plus en plus, la formule reine des conversations sur les prix.",
+      "rapide": "La compra 'tá cada vez más cara, ¿no te parece?"
+    },
+    {
+      "id": "actualidad-06",
+      "es": "Pues yo no creo que los precios vayan a bajar pronto.",
+      "fr": "Moi, je ne crois pas que les prix baissent de sitôt.",
+      "pron": "POUÉSS YO no KRÉ-o ké loss PRÉ-thyoss BA-yan a ba-KHAR PRON-to",
+      "note": "Vayan, c'est le subjonctif de ir. « Pues yo » lance ton avis, comme « ben moi »."
+    },
+    {
+      "id": "actualidad-07",
+      "es": "Este fin de semana son las fiestas del barrio y hay conciertos en la plaza.",
+      "fr": "Ce week-end, c'est la fête du quartier et il y a des concerts sur la place.",
+      "pron": "ÉSS-té FIN dé sé-MA-na SON lass FYÉSS-tass dél BA-rryo i AÏ kon-THYÉR-toss én la PLA-tha",
+      "note": "En Espagne, chaque quartier et chaque village a ses fiestas, avec orchestre, repas populaire et parfois des taureaux."
+    },
+    {
+      "id": "actualidad-08",
+      "es": "Me han dicho que este año habrá fuegos artificiales el domingo por la noche.",
+      "fr": "On m'a dit que cette année, il y aura un feu d'artifice dimanche soir.",
+      "pron": "mé AN DI-tcho ké ÉSS-té A-gno a-BRA FOUÉ-goss ar-ti-fi-THYA-léss él do-MIN-go por la NO-tché",
+      "note": "« Me han dicho que » : on m'a dit que. La formule des nouvelles du quartier, vraies ou un peu arrangées.",
+      "rapide": "M'han dicho qu'este año habrá fuegos artificiales el domingo por la noche."
+    },
+    {
+      "id": "actualidad-09",
+      "es": "No creo que sea para tanto.",
+      "fr": "Je ne crois pas que ce soit si grave.",
+      "pron": "no KRÉ-o ké SÉ-a PA-ra TAN-to",
+      "note": "Sea, subjonctif de ser. Pour calmer le jeu quand quelqu'un dramatise un peu."
+    },
+    {
+      "id": "actualidad-10",
+      "es": "Yo lo veo de otra manera.",
+      "fr": "Moi, je vois les choses autrement.",
+      "pron": "YO lo BÉ-o dé O-tra ma-NÉ-ra",
+      "note": "Un désaccord poli, sans dire « no ». Enchaîne avec « porque » et ton argument."
+    },
+    {
+      "id": "actualidad-11",
+      "es": "Hasta cierto punto, sí. Pero hay que ver los dos lados.",
+      "fr": "Jusqu'à un certain point, oui. Mais il faut voir les deux côtés.",
+      "pron": "ASS-ta THYÉR-to POUN-to SI PÉ-ro AÏ ké BÉR loss DOSS LA-doss",
+      "note": "Pour nuancer : tu donnes raison à moitié, puis tu ouvres la discussion."
+    },
+    {
+      "id": "actualidad-12",
+      "es": "¿De verdad? No me lo puedo creer.",
+      "fr": "C'est vrai ? Je n'arrive pas à y croire.",
+      "pron": "dé bér-DAD no mé lo POUÉ-do kré-ÉR",
+      "note": "La réaction de base devant une nouvelle étonnante. L'air surpris est fortement conseillé.",
+      "rapide": "¿De verdá? No me lo puedo creer."
+    },
+    {
+      "id": "actualidad-13",
+      "es": "Es verdad que hace falta más aparcamiento, pero no en el parque.",
+      "fr": "C'est vrai qu'il faut plus de places de parking, mais pas dans le parc.",
+      "pron": "ÉSS bér-DAD ké A-thé FAL-ta MASS a-par-ka-MYÉN-to PÉ-ro no én él PAR-ké",
+      "note": "« Es verdad que… pero… » : tu reconnais un point avant de donner le tien. Imparable en débat."
+    },
+    {
+      "id": "actualidad-14",
+      "es": "Me parece bien que hagan peatonal la calle del mercado.",
+      "fr": "Je trouve ça bien qu'ils rendent piétonne la rue du marché.",
+      "pron": "mé pa-RÉ-thé BYÉN ké A-gan pé-a-to-NAL la KA-yé dél mér-KA-do",
+      "note": "« Me parece bien que » demande aussi le subjonctif (hagan), comme tout ce qui juge ou réagit."
+    },
+    {
+      "id": "actualidad-15",
+      "es": "¿Tú crees que van a arreglar la calle antes de las fiestas?",
+      "fr": "Tu crois qu'ils vont refaire la rue avant les fêtes ?",
+      "pron": "TOU KRÉ-éss ké BAN a a-rré-GLAR la KA-yé AN-téss dé lass FYÉSS-tass",
+      "note": "Dans une question, « ¿crees que…? » garde l'indicatif. Le subjonctif arrive surtout avec « no creo que »."
+    },
+    {
+      "id": "actualidad-16",
+      "es": "Con este calor, no creo que nadie salga a la calle antes de las ocho.",
+      "fr": "Avec cette chaleur, à mon avis personne ne sortira avant huit heures du soir.",
+      "pron": "kon ÉSS-té ka-LOR no KRÉ-o ké NA-dyé SAL-ga a la KA-yé AN-téss dé lass O-tcho",
+      "note": "Salga, subjonctif de salir (salgo, salga). En été, les rues se remplissent quand le soleil baisse, et pas avant."
+    },
+    {
+      "id": "actualidad-17",
+      "es": "Ayer granizó tanto que se rompieron los cristales de varios coches.",
+      "fr": "Hier, il a tellement grêlé que les vitres de plusieurs voitures ont cassé.",
+      "pron": "a-YÉR gra-ni-THO TAN-to ké sé rrom-PYÉ-ron loss kriss-TA-léss dé BA-ryoss KO-tchéss",
+      "note": "La grêle, c'est la grande peur des viticulteurs riojanos : en quelques minutes, elle peut abîmer toute une vendange."
+    },
+    {
+      "id": "actualidad-18",
+      "es": "Los agricultores están preocupados porque no llueve desde hace meses.",
+      "fr": "Les agriculteurs sont inquiets parce qu'il ne pleut plus depuis des mois.",
+      "pron": "loss a-gri-koul-to-RÉSS éss-TAN pré-o-kou-PA-doss POR-ké no YOUÉ-bé DÉSS-dé A-thé MÉ-sséss",
+      "note": "Desde hace + durée : depuis. La sécheresse est un vrai sujet en Espagne, et pas seulement à la campagne.",
+      "rapide": "Los agricultores 'tán preocupaos porque no llueve desde hace meses."
+    },
+    {
+      "id": "actualidad-19",
+      "es": "Puede que tengas razón, ya se verá.",
+      "fr": "Tu as peut-être raison, on verra bien.",
+      "pron": "POUÉ-dé ké TÉN-gass rra-THON YA sé bé-RA",
+      "note": "« Puede que » est suivi du subjonctif, lui aussi : tengas. Une façon élégante de céder sans tout lâcher."
+    },
+    {
+      "id": "actualidad-20",
+      "es": "Bueno, cambiando de tema, ¿qué tal tu madre?",
+      "fr": "Bon, pour changer de sujet, comment va ta mère ?",
+      "pron": "BOUÉ-no kam-BYAN-do dé TÉ-ma KÉ TAL tou MA-dré",
+      "note": "La sortie de secours quand le débat chauffe trop. Ça marche presque à tous les coups."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Les nouvelles du quartier",
+      "contexte": "Au marché, tu croises Rosa, la voisine du quatrième, qui sait toujours tout avant tout le monde.",
+      "duo": {
+        "contexte": "Au marché, tu croises Rosa, la voisine d'Elisabeth, qui sait toujours tout avant tout le monde."
+      },
+      "lignes": [
+        {
+          "qui": "Rosa",
+          "es": "¡Hola, maja! ¿Has visto que van a cerrar la panadería de la esquina?",
+          "fr": "Salut, ma belle ! Tu as vu qu'ils vont fermer la boulangerie du coin ?",
+          "duo": {
+            "es": "¡Hola, majo! ¿Has visto que van a cerrar la panadería de la esquina?",
+            "fr": "Salut, mon grand ! Tu as vu qu'ils vont fermer la boulangerie du coin ?"
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿De verdad? No me lo puedo creer. ¡Con lo bueno que es su pan!",
+          "fr": "C'est vrai ? Je n'arrive pas à y croire. Leur pain est tellement bon !"
+        },
+        {
+          "qui": "Rosa",
+          "es": "Dicen que el dueño se jubila y que nadie quiere seguir con el negocio.",
+          "fr": "Il paraît que le patron part à la retraite et que personne ne veut reprendre l'affaire."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Bueno, no creo que sea para tanto. A lo mejor alguien la compra.",
+          "fr": "Bon, je ne crois pas que ce soit si grave. Peut-être que quelqu'un va la racheter."
+        },
+        {
+          "qui": "Rosa",
+          "es": "Ojalá. Por cierto, este fin de semana son las fiestas del barrio y hay conciertos en la plaza.",
+          "fr": "Espérons. Au fait, ce week-end, c'est la fête du quartier et il y a des concerts sur la place."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Qué bien! Me han dicho que este año habrá fuegos artificiales el domingo por la noche.",
+          "fr": "Super ! On m'a dit que cette année, il y aura un feu d'artifice dimanche soir."
+        },
+        {
+          "qui": "Rosa",
+          "es": "Eso dicen. Pero con este calor, no creo que nadie salga a la calle antes de las ocho.",
+          "fr": "C'est ce qu'on dit. Mais avec cette chaleur, à mon avis personne ne sortira avant huit heures."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Pues nos vemos en la plaza a las nueve, ¿vale?",
+          "fr": "Alors on se retrouve sur la place à neuf heures, d'accord ?"
+        }
+      ]
+    },
+    {
+      "titre": "Débat à la pause café",
+      "contexte": "Au travail, Javier lance le sujet du jour : les prix. Carmen et toi n'êtes pas tout à fait de son avis.",
+      "lignes": [
+        {
+          "qui": "Javier",
+          "es": "La compra está cada vez más cara, ¿no os parece?",
+          "fr": "Les courses coûtent de plus en plus cher, vous ne trouvez pas ?"
+        },
+        {
+          "qui": "Carmen",
+          "es": "¡Totalmente! Ayer pagué una barbaridad por el aceite.",
+          "fr": "Carrément ! Hier, j'ai payé une fortune pour l'huile."
+        },
+        {
+          "qui": "Javier",
+          "es": "Tranquilas, que en unos meses los precios bajan.",
+          "fr": "Du calme, dans quelques mois les prix vont baisser.",
+          "duo": {
+            "es": "Tranquilos, que en unos meses los precios bajan."
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Pues yo no creo que los precios vayan a bajar pronto.",
+          "fr": "Moi, je ne crois pas que les prix baissent de sitôt."
+        },
+        {
+          "qui": "Carmen",
+          "es": "Yo tampoco. Y los sueldos no suben igual.",
+          "fr": "Moi non plus. Et les salaires n'augmentent pas autant."
+        },
+        {
+          "qui": "Javier",
+          "es": "Hombre, es verdad que todo sube, pero no es tan grave como dicen en la tele.",
+          "fr": "Bon, c'est vrai que tout augmente, mais ce n'est pas aussi grave qu'on le dit à la télé."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Yo lo veo de otra manera. Para mucha gente sí es grave.",
+          "fr": "Moi, je vois les choses autrement. Pour beaucoup de gens, si, c'est grave."
+        },
+        {
+          "qui": "Javier",
+          "es": "Bueno, puede que tengáis razón. Ya se verá.",
+          "fr": "Bon, vous avez peut-être raison. On verra bien."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Bueno, cambiando de tema, ¿qué tal tu madre?",
+          "fr": "Bon, pour changer de sujet, comment va ta mère ?"
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Creo que + indicatif, no creo que + subjonctif",
+    "explication": "Quand tu affirmes ton avis (creo que, pienso que, me parece que), le verbe reste à l'indicatif : creo que hace calor. Quand tu le nies (no creo que, no pienso que, no me parece que), il passe au subjonctif : no creo que haga calor. Pour former le subjonctif, pars du « yo » du présent, enlève le -o et inverse la voyelle : -ar donne -e (hable), -er et -ir donnent -a (coma, viva). Un « yo » irrégulier le reste : tengo donne tenga, salgo donne salga, hago donne haga. Trois verbes à apprendre par cœur : ser (sea), ir (vaya) et estar (esté).",
+    "tableau": [
+      ["Creo que hace calor.", "indicatif : j'affirme"],
+      ["No creo que haga calor.", "subjonctif : je doute"],
+      ["hablar → hable", "-ar donne -e"],
+      ["comer → coma, vivir → viva", "-er et -ir donnent -a"],
+      ["tener → tenga, salir → salga", "on part du « yo » : tengo, salgo"],
+      ["ser → sea, ir → vaya, estar → esté", "les irréguliers à connaître"]
+    ],
+    "exemples": [
+      {
+        "es": "Creo que mañana va a llover.",
+        "fr": "Je crois qu'il va pleuvoir demain."
+      },
+      {
+        "es": "No creo que mañana llueva.",
+        "fr": "Je ne crois pas qu'il pleuve demain."
+      },
+      {
+        "es": "No me parece que sea buena idea cerrar el mercado los sábados.",
+        "fr": "Je ne trouve pas que ce soit une bonne idée de fermer le marché le samedi."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "¡No me digas!",
+      "fr": "Sans blague !",
+      "note": "Pour réagir à une nouvelle étonnante. Malgré les mots, ça veut dire « raconte-moi tout »."
+    },
+    {
+      "es": "Ya te digo",
+      "fr": "Tu l'as dit !",
+      "note": "Pour un accord total et enthousiaste. Très courant à l'oral, chez les jeunes comme chez les autres."
+    },
+    {
+      "es": "Dar en el clavo",
+      "fr": "Mettre dans le mille",
+      "note": "« Has dado en el clavo » : tu as tout compris, c'est exactement ça."
+    },
+    {
+      "es": "Es lo que hay",
+      "fr": "C'est comme ça",
+      "note": "Pour accepter une situation qu'on ne peut pas changer, avec un petit haussement d'épaules."
+    },
+    {
+      "es": "Estar al día",
+      "fr": "Être au courant",
+      "note": "« Rosa siempre está al día de todo » : elle sait tout, et souvent avant tout le monde."
+    },
+    {
+      "es": "Llover sobre mojado",
+      "fr": "Un malheur n'arrive jamais seul",
+      "note": "Littéralement « pleuvoir sur du mouillé » : quand un nouveau problème s'ajoute à un autre."
+    }
+  ]
+}

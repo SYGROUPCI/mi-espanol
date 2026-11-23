@@ -71,7 +71,12 @@
       "es": "Vengo a recoger un paquete. Aquí tiene el aviso y mi NIE.",
       "fr": "Je viens récupérer un colis. Voici l'avis de passage et mon NIE.",
       "pron": "BÉN-go a rré-ko-KHÉR oun pa-KÉ-té a-KI TYÉ-né él a-BI-sso i mi NI-é",
-      "note": "En général, on te demande une pièce d'identité au guichet. Si quelqu'un y va à ta place, renseigne-toi sur l'autorisation à fournir."
+      "note": "En général, on te demande une pièce d'identité au guichet. Si quelqu'un y va à ta place, renseigne-toi sur l'autorisation à fournir.",
+      "duo": {
+        "es": "Vengo a recoger un paquete. Aquí tiene el aviso y mi pasaporte.",
+        "fr": "Je viens récupérer un colis. Voici l'avis de passage et mon passeport.",
+        "pron": "BÉN-go a rré-ko-KHÉR oun pa-KÉ-té a-KI TYÉ-né él a-BI-sso i mi pa-ssa-POR-té"
+      }
     },
     {
       "id": "paquetes-10",
@@ -129,14 +134,22 @@
       "es": "Te lo regalo: me equivoqué de talla y ya no puedo devolverlo.",
       "fr": "Je te l'offre : je me suis trompée de taille et je ne peux plus le renvoyer.",
       "pron": "té lo rré-GA-lo mé é-ki-bo-KÉ dé TA-ya i YA no POUÉ-do dé-bol-BÉR-lo",
-      "note": "« Te lo » : je te le. Une erreur de taille transformée en cadeau, c'est de la diplomatie."
+      "note": "« Te lo » : je te le. Une erreur de taille transformée en cadeau, c'est de la diplomatie.",
+      "duo": {
+        "fr": "Je te l'offre : je me suis trompé de taille et je ne peux plus le renvoyer."
+      }
     },
     {
       "id": "paquetes-18",
       "es": "Khalil, ha llegado tu paquete. ¿Te lo dejo encima de la mesa?",
       "fr": "Khalil, ton colis est arrivé. Je te le pose sur la table ?",
       "pron": "ka-LIL a yé-GA-do tou pa-KÉ-té té lo DÉ-kho én-THI-ma dé la MÉ-ssa",
-      "note": "En espagnol, on met souvent le sujet après le verbe : « ha llegado tu paquete » sonne plus naturel que « tu paquete ha llegado »."
+      "note": "En espagnol, on met souvent le sujet après le verbe : « ha llegado tu paquete » sonne plus naturel que « tu paquete ha llegado ».",
+      "duo": {
+        "es": "Elisabeth, ha llegado tu paquete. ¿Te lo dejo encima de la mesa?",
+        "fr": "Elisabeth, ton colis est arrivé. Je te le pose sur la table ?",
+        "pron": "é-li-ssa-BÉT a yé-GA-do tou pa-KÉ-té té lo DÉ-kho én-THI-ma dé la MÉ-ssa"
+      }
     },
     {
       "id": "paquetes-19",
@@ -276,7 +289,11 @@
     "exemples": [
       {
         "es": "¿El paquete de Khalil? Se lo he dejado en su habitación.",
-        "fr": "Le colis de Khalil ? Je le lui ai laissé dans sa chambre."
+        "fr": "Le colis de Khalil ? Je le lui ai laissé dans sa chambre.",
+        "duo": {
+          "es": "¿El paquete de Elisabeth? Se lo he dejado en su habitación.",
+          "fr": "Le colis d'Elisabeth ? Je le lui ai laissé dans sa chambre."
+        }
       },
       {
         "es": "Las zapatillas no me quedan bien: las devuelvo mañana.",
@@ -317,7 +334,10 @@
     {
       "es": "Me han tomado el pelo",
       "fr": "On s'est payé ma tête",
-      "note": "Quand on t'a menti ou arnaquée. Entre amis, « me estás tomando el pelo » veut juste dire « tu te moques de moi »."
+      "note": "Quand on t'a menti ou arnaquée. Entre amis, « me estás tomando el pelo » veut juste dire « tu te moques de moi ».",
+      "duo": {
+        "note": "Quand on t'a menti ou arnaqué. Entre amis, « me estás tomando el pelo » veut juste dire « tu te moques de moi »."
+      }
     }
   ]
 }

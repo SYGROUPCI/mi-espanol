@@ -1,0 +1,369 @@
+{
+  "id": "formacion",
+  "ordre": 34,
+  "niveau": "B1",
+  "titre": "Étudier et se former",
+  "titre_es": "Estudiar y formarse",
+  "intro": "Un cours de langue, une formation pour trouver du travail, ce diplôme de Conakry qu'il faudrait faire reconnaître : ici, on parle études, inscriptions et démarches. Et tu verras que « para que » n'a rien d'effrayant.",
+  "duo": {
+    "intro": "Un cours de langue, une formation pour trouver du travail, ce diplôme d'Abidjan qu'il faudrait faire reconnaître : ici, on parle études, inscriptions et démarches. Et tu verras que « para que » n'a rien d'effrayant."
+  },
+  "phrases": [
+    {
+      "id": "formacion-01",
+      "es": "Quería información sobre los cursos de español para extranjeros.",
+      "fr": "Je voudrais des informations sur les cours d'espagnol pour étrangers.",
+      "pron": "ké-RI-a in-for-ma-THYON SO-bré loss KOUR-soss dé éss-pa-GNOL PA-ra éks-tran-KHÉ-ross",
+      "note": "Les écoles officielles de langues (EOI), les mairies et beaucoup d'associations en proposent. Les inscriptions ont souvent des dates fixes.",
+      "rapide": "Quería información sobre los cursos d'español pa' extranjeros."
+    },
+    {
+      "id": "formacion-02",
+      "es": "¿Cuándo se abre el plazo de matrícula?",
+      "fr": "Quand est-ce que la période d'inscription commence ?",
+      "pron": "KOUAN-do sé A-bré él PLA-tho dé ma-TRI-kou-la",
+      "note": "« El plazo », c'est la période ou le délai. Rate-le, et c'est l'année suivante : ça arrive à tout le monde une fois."
+    },
+    {
+      "id": "formacion-03",
+      "es": "Me he apuntado a un curso para que me resulte más fácil encontrar trabajo.",
+      "fr": "Je me suis inscrite à une formation pour avoir plus de facilité à trouver du travail.",
+      "pron": "mé é a-poun-TA-do a oun KOUR-so PA-ra ké mé rré-SSOUL-té MASS FA-thil én-kon-TRAR tra-BA-kho",
+      "note": "« Apuntarse a », c'est s'inscrire, en version de tous les jours. « Matricularse » fait plus officiel.",
+      "rapide": "M'he apuntao a un curso pa' que me resulte más fácil encontrar trabajo.",
+      "duo": { "fr": "Je me suis inscrit à une formation pour avoir plus de facilité à trouver du travail." }
+    },
+    {
+      "id": "formacion-04",
+      "es": "Estoy inscrita como demandante de empleo.",
+      "fr": "Je suis inscrite comme demandeuse d'emploi.",
+      "pron": "éss-TOÏ inss-KRI-ta KO-mo dé-man-DAN-té dé ém-PLÉ-o",
+      "note": "Être inscrite ouvre la porte à beaucoup de formations gratuites. « Demandante » ne change pas au masculin.",
+      "duo": {
+        "es": "Estoy inscrito como demandante de empleo.",
+        "fr": "Je suis inscrit comme demandeur d'emploi.",
+        "pron": "éss-TOÏ inss-KRI-to KO-mo dé-man-DAN-té dé ém-PLÉ-o",
+        "note": "Être inscrit ouvre la porte à beaucoup de formations gratuites. « Demandante » est le même mot au masculin et au féminin."
+      }
+    },
+    {
+      "id": "formacion-05",
+      "es": "¿Los cursos del SEPE son gratuitos para las personas en paro?",
+      "fr": "Les formations du SEPE sont gratuites pour les demandeurs d'emploi ?",
+      "pron": "loss KOUR-soss dél SÉ-pé SON gra-TOUI-toss PA-ra lass pér-SSO-nass én PA-rro",
+      "note": "On dit souvent « cursos del SEPE » pour les formations gratuites liées à l'emploi, même quand c'est la région qui les organise.",
+      "rapide": "¿Los cursos del SEPE son gratuitos pa' las personas en paro?"
+    },
+    {
+      "id": "formacion-06",
+      "es": "Me interesa el curso de atención sociosanitaria a personas dependientes.",
+      "fr": "La formation d'aide aux personnes dépendantes m'intéresse.",
+      "pron": "mé in-té-RÉ-ssa él KOUR-so dé a-tén-THYON so-thyo-ssa-ni-TA-rya a pér-SSO-nass dé-pén-DYÉN-téss",
+      "note": "Une formation très demandée, qui mène souvent à un emploi en résidence pour personnes âgées ou à domicile."
+    },
+    {
+      "id": "formacion-07",
+      "es": "¿Hace falta tener el título de la ESO para apuntarse?",
+      "fr": "Il faut avoir le diplôme de la ESO pour s'inscrire ?",
+      "pron": "A-thé FAL-ta té-NÉR él TI-tou-lo dé la É-sso PA-ra a-poun-TAR-sé",
+      "note": "La ESO, c'est l'enseignement secondaire obligatoire, jusqu'à seize ans. Beaucoup de formations demandent ce niveau ou un équivalent."
+    },
+    {
+      "id": "formacion-08",
+      "es": "Quiero homologar mi título de bachillerato.",
+      "fr": "Je veux faire reconnaître mon baccalauréat.",
+      "pron": "KYÉ-ro o-mo-lo-GAR mi TI-tou-lo dé ba-tchi-yé-RA-to",
+      "note": "« Homologar » : faire reconnaître un diplôme étranger. Pour les diplômes qui ne sont pas universitaires, la demande va au ministère de l'Éducation."
+    },
+    {
+      "id": "formacion-09",
+      "es": "¿Dónde se presenta la solicitud de homologación?",
+      "fr": "Où est-ce qu'on dépose la demande de reconnaissance du diplôme ?",
+      "pron": "DON-dé sé pré-SSÉN-ta la so-li-thi-TOUD dé o-mo-lo-ga-THYON",
+      "note": "Souvent, la réponse est « por internet » ou « en cualquier registro oficial ». Demande toujours le justificatif."
+    },
+    {
+      "id": "formacion-10",
+      "es": "Me piden el título traducido y legalizado.",
+      "fr": "On me demande le diplôme traduit et légalisé.",
+      "pron": "mé PI-dén él TI-tou-lo tra-dou-THI-do i lé-ga-li-THA-do",
+      "note": "La traduction doit être faite par un traducteur juré, « un traductor jurado ». Garde toujours des copies de tout."
+    },
+    {
+      "id": "formacion-11",
+      "es": "El trámite puede tardar varios meses, así que hay que tener paciencia.",
+      "fr": "La démarche peut prendre plusieurs mois, alors il faut être patient.",
+      "pron": "él TRA-mi-té POUÉ-dé tar-DAR BA-ryoss MÉ-sséss a-SSI ké AÏ ké té-NÉR pa-THYÉN-thya",
+      "note": "« Un trámite », c'est une démarche administrative. En Espagne, le mot revient aussi souvent que la pluie à Logroño en novembre.",
+      "rapide": "El trámite pue' tardar varios meses, así que hay que tener paciencia."
+    },
+    {
+      "id": "formacion-12",
+      "es": "En Conakri hice dos años de Administración de Empresas.",
+      "fr": "À Conakry, j'ai fait deux ans d'études de gestion.",
+      "pron": "én ko-na-KRI I-thé DOSS A-gnoss dé ad-mi-niss-tra-THYON dé ém-PRÉ-ssass",
+      "note": "Pour parler de ses études, « hacer » ou « estudiar » + la matière, que l'on écrit souvent avec une majuscule.",
+      "duo": {
+        "es": "En Abiyán hice dos años de Administración de Empresas.",
+        "fr": "À Abidjan, j'ai fait deux ans d'études de gestion.",
+        "pron": "én a-bi-YAN I-thé DOSS A-gnoss dé ad-mi-niss-tra-THYON dé ém-PRÉ-ssass"
+      }
+    },
+    {
+      "id": "formacion-13",
+      "es": "Dejé los estudios cuando empecé a trabajar.",
+      "fr": "J'ai arrêté mes études quand j'ai commencé à travailler.",
+      "pron": "dé-KHÉ loss éss-TOU-dyoss KOUAN-do ém-pé-THÉ a tra-ba-KHAR",
+      "note": "Deux actions terminées, l'une après l'autre : passé simple pour les deux. « Empezar » donne « empecé », avec un c devant le e."
+    },
+    {
+      "id": "formacion-14",
+      "es": "Cuando era joven, quería ser profesora.",
+      "fr": "Quand j'étais jeune, je voulais être professeure.",
+      "pron": "KOUAN-do É-ra KHO-bén ké-RI-a SÉR pro-fé-SSO-ra",
+      "note": "L'imparfait pour les rêves d'avant, comme en français. Et qui sait, ce n'est peut-être pas fini.",
+      "duo": {
+        "es": "Cuando era joven, quería ser profesor.",
+        "fr": "Quand j'étais jeune, je voulais être professeur.",
+        "pron": "KOUAN-do É-ra KHO-bén ké-RI-a SÉR pro-fé-SSOR"
+      }
+    },
+    {
+      "id": "formacion-15",
+      "es": "Estudio por las noches, cuando termino de trabajar.",
+      "fr": "J'étudie le soir, quand j'ai fini de travailler.",
+      "pron": "éss-TOU-dyo por lass NO-tchéss KOUAN-do tér-MI-no dé tra-ba-KHAR",
+      "note": "« Terminar de » + infinitif : finir de faire quelque chose. Le café du soir est en option."
+    },
+    {
+      "id": "formacion-16",
+      "es": "La profesora repite las cosas para que todos la entendamos.",
+      "fr": "La prof répète les choses pour que tout le monde la comprenne.",
+      "pron": "la pro-fé-SSO-ra rré-PI-té lass KO-ssass PA-ra ké TO-doss la én-tén-DA-moss",
+      "note": "Deux sujets différents (elle répète, nous comprenons) : « para que » + subjonctif.",
+      "rapide": "La profesora repite las cosas pa' que to'os la entendamos."
+    },
+    {
+      "id": "formacion-17",
+      "es": "Khalil, te he apuntado al curso para que practiques conmigo.",
+      "fr": "Khalil, je t'ai inscrit au cours pour que tu pratiques avec moi.",
+      "pron": "ka-LIL té é a-poun-TA-do al KOUR-so PA-ra ké prak-TI-késs kon-MI-go",
+      "note": "« Practicar » devient « practiques » : le c se change en qu pour garder le son devant le e.",
+      "rapide": "Khalil, t'he apuntao al curso pa' que practiques conmigo.",
+      "duo": {
+        "es": "Elisabeth, te he apuntado al curso para que practiques conmigo.",
+        "fr": "Elisabeth, je t'ai inscrite au cours pour que tu pratiques avec moi.",
+        "pron": "é-li-ssa-BÉT té é a-poun-TA-do al KOUR-so PA-ra ké prak-TI-késs kon-MI-go",
+        "rapide": "Elisabeth, t'he apuntao al curso pa' que practiques conmigo."
+      }
+    },
+    {
+      "id": "formacion-18",
+      "es": "Para la nacionalidad piden el DELE A2 y el examen de cultura, el CCSE.",
+      "fr": "Pour la nationalité, on demande le DELE A2 et l'examen de culture, le CCSE.",
+      "pron": "PA-ra la na-thyo-na-li-DAD PI-dén él DÉ-lé A DOSS i él ék-SSA-mén dé koul-TOU-ra él thé thé É-ssé É",
+      "note": "Deux examens de l'Instituto Cervantes, qu'on passe dans des centres agréés. Le DELE A2, tu l'as presque en poche."
+    },
+    {
+      "id": "formacion-19",
+      "es": "El curso incluye prácticas en una empresa para que los alumnos tengan experiencia.",
+      "fr": "La formation comprend un stage en entreprise pour que les élèves aient de l'expérience.",
+      "pron": "él KOUR-so in-KLOU-yé PRAK-ti-kass én OU-na ém-PRÉ-ssa PA-ra ké loss a-LOUM-noss TÉN-gan éks-pé-RYÉN-thya",
+      "note": "« Las prácticas », c'est le stage. Beaucoup d'entreprises embauchent ensuite leurs stagiaires."
+    },
+    {
+      "id": "formacion-20",
+      "es": "Nunca es tarde para aprender.",
+      "fr": "Il n'est jamais trop tard pour apprendre.",
+      "pron": "NOUN-ka ÉSS TAR-dé PA-ra a-prén-DÉR",
+      "note": "La phrase à ressortir quand quelqu'un s'étonne que tu reprennes les études."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "À l'office de l'emploi",
+      "contexte": "Tu as rendez-vous avec une conseillère pour parler des formations qui pourraient t'aider à trouver du travail.",
+      "lignes": [
+        {
+          "qui": "Orientadora",
+          "es": "Buenos días. Siéntese, por favor. ¿En qué la puedo ayudar?",
+          "fr": "Bonjour. Asseyez-vous, je vous en prie. En quoi puis-je vous aider ?",
+          "duo": {
+            "es": "Buenos días. Siéntese, por favor. ¿En qué le puedo ayudar?"
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Buenos días. Estoy inscrita como demandante de empleo y quería información sobre los cursos de formación.",
+          "fr": "Bonjour. Je suis inscrite comme demandeuse d'emploi et je voudrais des informations sur les formations.",
+          "duo": {
+            "es": "Buenos días. Estoy inscrito como demandante de empleo y quería información sobre los cursos de formación.",
+            "fr": "Bonjour. Je suis inscrit comme demandeur d'emploi et je voudrais des informations sur les formations."
+          }
+        },
+        {
+          "qui": "Orientadora",
+          "es": "Muy bien. ¿Qué tipo de curso le interesa?",
+          "fr": "Très bien. Quel type de formation vous intéresse ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Me interesa el curso de atención sociosanitaria a personas dependientes. ¿Los cursos del SEPE son gratuitos para las personas en paro?",
+          "fr": "La formation d'aide aux personnes dépendantes m'intéresse. Les formations du SEPE sont gratuites pour les demandeurs d'emploi ?"
+        },
+        {
+          "qui": "Orientadora",
+          "es": "Este sí. Y el curso incluye prácticas en una empresa para que los alumnos tengan experiencia.",
+          "fr": "Celle-ci, oui. Et la formation comprend un stage en entreprise pour que les élèves aient de l'expérience."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Qué bien! ¿Hace falta tener el título de la ESO para apuntarse?",
+          "fr": "Super ! Il faut avoir le diplôme de la ESO pour s'inscrire ?"
+        },
+        {
+          "qui": "Orientadora",
+          "es": "Sí, o un título equivalente. ¿Tiene usted estudios de su país?",
+          "fr": "Oui, ou un diplôme équivalent. Vous avez fait des études dans votre pays ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí, tengo el bachillerato y en Conakri hice dos años de Administración de Empresas.",
+          "fr": "Oui, j'ai le baccalauréat et à Conakry, j'ai fait deux ans d'études de gestion.",
+          "duo": {
+            "es": "Sí, tengo el bachillerato y en Abiyán hice dos años de Administración de Empresas.",
+            "fr": "Oui, j'ai le baccalauréat et à Abidjan, j'ai fait deux ans d'études de gestion."
+          }
+        },
+        {
+          "qui": "Orientadora",
+          "es": "Entonces tendrá que homologar el bachillerato. Le explico los pasos para que no pierda tiempo.",
+          "fr": "Alors il faudra faire reconnaître votre baccalauréat. Je vous explique les étapes pour que vous ne perdiez pas de temps."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Muchísimas gracias. ¿Y cuándo se abre el plazo de matrícula?",
+          "fr": "Merci beaucoup. Et quand est-ce que la période d'inscription commence ?"
+        }
+      ]
+    },
+    {
+      "titre": "Parler de ses études",
+      "contexte": "Au café avec Lucía, la conversation tombe sur les études. Elle veut tout savoir.",
+      "lignes": [
+        {
+          "qui": "Lucía",
+          "es": "Oye, ¿y tú qué estudiaste en tu país?",
+          "fr": "Dis, et toi, tu as étudié quoi dans ton pays ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "En Conakri hice dos años de Administración de Empresas, pero dejé los estudios cuando empecé a trabajar.",
+          "fr": "À Conakry, j'ai fait deux ans d'études de gestion, mais j'ai arrêté mes études quand j'ai commencé à travailler.",
+          "duo": {
+            "es": "En Abiyán hice dos años de Administración de Empresas, pero dejé los estudios cuando empecé a trabajar.",
+            "fr": "À Abidjan, j'ai fait deux ans d'études de gestion, mais j'ai arrêté mes études quand j'ai commencé à travailler."
+          }
+        },
+        {
+          "qui": "Lucía",
+          "es": "¿Y no te gustaría retomarlos aquí?",
+          "fr": "Et ça ne te plairait pas de les reprendre ici ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí. Quiero homologar mi título de bachillerato, pero me piden el título traducido y legalizado.",
+          "fr": "Si. Je veux faire reconnaître mon baccalauréat, mais on me demande le diplôme traduit et légalisé."
+        },
+        {
+          "qui": "Lucía",
+          "es": "Uf, eso lleva su tiempo.",
+          "fr": "Oh là, ça va prendre du temps."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Ya. El trámite puede tardar varios meses, así que hay que tener paciencia.",
+          "fr": "Eh oui. La démarche peut prendre plusieurs mois, alors il faut être patient."
+        },
+        {
+          "qui": "Lucía",
+          "es": "Mientras tanto, ¿sigues con las clases de español?",
+          "fr": "En attendant, tu continues les cours d'espagnol ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Claro. Y he apuntado a Khalil al curso en línea para que practique conmigo.",
+          "fr": "Bien sûr. Et j'ai inscrit Khalil au cours en ligne pour qu'il pratique avec moi.",
+          "duo": {
+            "es": "Claro. Y Elisabeth me ha apuntado al curso en línea para que practique con ella.",
+            "fr": "Bien sûr. Et Elisabeth m'a inscrit au cours en ligne pour que je pratique avec elle."
+          }
+        },
+        {
+          "qui": "Lucía",
+          "es": "¡Qué bien! Nunca es tarde para aprender.",
+          "fr": "Super ! Il n'est jamais trop tard pour apprendre."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Para et para que : exprimer le but",
+    "explication": "Pour dire dans quel but on fait quelque chose, deux cas. Si c'est la même personne qui agit, « para » + infinitif : « estudio para encontrar trabajo ». Si le sujet change, « para que » + subjonctif : « te lo explico para que lo entiendas », c'est moi qui explique, toi qui comprends. Le subjonctif présent se forme à partir du « yo » du présent : on enlève le -o et on échange les voyelles, -ar prend un e, -er et -ir prennent un a. Donc « tengo » donne « tenga », « hablo » donne « hable », « aprendo » donne « aprenda ».",
+    "tableau": [
+      ["para + infinitif", "même sujet : Estudio para aprobar."],
+      ["para que + subjonctif", "sujet différent : Te lo explico para que lo entiendas."],
+      ["hablar → hable, hables, hable", "que je parle, que tu parles, qu'il parle"],
+      ["aprender → aprenda, aprendas, aprenda", "que j'apprenne, que tu apprennes…"],
+      ["tener → tenga, tengas, tenga", "que j'aie, que tu aies…"],
+      ["poder → pueda, puedas, pueda", "que je puisse, que tu puisses…"]
+    ],
+    "exemples": [
+      {
+        "es": "Voy a clase de español para hablar mejor con mis compañeros.",
+        "fr": "Je vais en cours d'espagnol pour mieux parler avec mes collègues."
+      },
+      {
+        "es": "Te dejo mis apuntes para que puedas estudiar este fin de semana.",
+        "fr": "Je te laisse mes notes pour que tu puisses réviser ce week-end."
+      },
+      {
+        "es": "Hablo despacio para que mi vecina me entienda.",
+        "fr": "Je parle lentement pour que ma voisine me comprenne."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Hincar los codos",
+      "fr": "Bûcher, potasser",
+      "note": "Mot à mot : planter les coudes sur la table. « Esta semana toca hincar los codos » : cette semaine, on révise."
+    },
+    {
+      "es": "Estar pez",
+      "fr": "N'y connaître rien",
+      "note": "« Estoy pez en informática » : je suis nulle en informatique. On est un poisson hors de l'eau, en somme.",
+      "duo": { "note": "« Estoy pez en informática » : je suis nul en informatique. On est un poisson hors de l'eau, en somme." }
+    },
+    {
+      "es": "Aprobar por los pelos",
+      "fr": "Réussir de justesse",
+      "note": "Réussir un examen à un cheveu près. Ça compte quand même, et c'est le principal."
+    },
+    {
+      "es": "Ser un hueso",
+      "fr": "Être un prof très sévère (ou une matière très dure)",
+      "note": "« La de matemáticas es un hueso » : la prof de maths ne fait aucun cadeau."
+    },
+    {
+      "es": "Quemarse las pestañas",
+      "fr": "S'user les yeux à étudier",
+      "note": "Se brûler les cils à force de lire tard le soir. Pour les grandes périodes d'examens."
+    },
+    {
+      "es": "Tener enchufe",
+      "fr": "Avoir du piston",
+      "note": "« Un enchufe », c'est une prise électrique. Celui qui a « enchufe » a obtenu sa place grâce à ses relations."
+    }
+  ]
+}

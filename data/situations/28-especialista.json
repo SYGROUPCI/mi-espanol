@@ -1,0 +1,346 @@
+{
+  "id": "especialista",
+  "ordre": 28,
+  "niveau": "B1",
+  "titre": "Chez le spécialiste",
+  "titre_es": "En la consulta del especialista",
+  "intro": "Après le médecin de famille vient le spécialiste, avec ses examens, ses traitements et ses mots à lui. Ici, tu apprends à raconter comment tes symptômes évoluent, à bien comprendre ce qu'on te prescrit et à donner, toi aussi, de bons conseils.",
+  "phrases": [
+    {
+      "id": "especialista-01",
+      "es": "Mi médica de cabecera me ha derivado al dermatólogo.",
+      "fr": "Mon médecin traitant m'a envoyée chez le dermatologue.",
+      "pron": "mi MÉ-di-ka dé ka-BÉ-thé-ra mé a dé-ri-BA-do al dér-ma-TO-lo-go",
+      "note": "Dans le public, pour voir un spécialiste, on passe d'abord par le médecin de famille, qui fait la demande. « Derivar », c'est orienter vers un autre service.",
+      "rapide": "Mi médica de cabecera m'ha derivao al dermatólogo.",
+      "duo": {
+        "fr": "Mon médecin traitant m'a envoyé chez le dermatologue."
+      }
+    },
+    {
+      "id": "especialista-02",
+      "es": "¿Cuánto tiempo hay de lista de espera para el especialista?",
+      "fr": "Il y a combien d'attente pour voir le spécialiste ?",
+      "pron": "KOUAN-to TYÉM-po AÏ dé LISS-ta dé éss-PÉ-ra PA-ra él éss-pé-thya-LISS-ta",
+      "note": "« La lista de espera », c'est la liste d'attente. Elle peut durer plusieurs mois : si ça s'aggrave entre-temps, retourne voir ton médecin."
+    },
+    {
+      "id": "especialista-03",
+      "es": "Tengo cita en el Hospital San Pedro, en consultas externas.",
+      "fr": "J'ai rendez-vous à l'hôpital San Pedro, en consultation externe.",
+      "pron": "TÉN-go THI-ta én él oss-pi-TAL SAN PÉ-dro én kon-SSOUL-tass éks-TÉR-nass",
+      "note": "San Pedro est le grand hôpital public de Logroño. « Consultas externas », ce sont les consultations de spécialistes, sans hospitalisation."
+    },
+    {
+      "id": "especialista-04",
+      "es": "Hace un mes empezó como un picor y ahora me duele.",
+      "fr": "Il y a un mois, ça a commencé par des démangeaisons et maintenant ça me fait mal.",
+      "pron": "A-thé oun MÉSS ém-pé-THO KO-mo oun pi-KOR i a-O-ra mé DOUÉ-lé",
+      "note": "« Hace un mes » + indefinido donne le point de départ. Raconter dans l'ordre aide beaucoup le médecin."
+    },
+    {
+      "id": "especialista-05",
+      "es": "Al principio solo me pasaba por la noche, pero ahora me pasa todo el día.",
+      "fr": "Au début, ça m'arrivait seulement la nuit, mais maintenant c'est toute la journée.",
+      "pron": "al prin-THI-pyo SO-lo mé pa-SSA-ba por la NO-tché PÉ-ro a-O-ra mé PA-ssa TO-do él DI-a",
+      "note": "L'imperfecto décrit comment c'était avant, le présent comment c'est maintenant : parfait pour parler de l'évolution."
+    },
+    {
+      "id": "especialista-06",
+      "es": "Cada vez va a peor.",
+      "fr": "Ça empire de jour en jour.",
+      "pron": "KA-da BÉTH BA a pé-OR",
+      "note": "« Ir a peor », empirer ; « ir a mejor », s'améliorer. « Cada vez » ajoute l'idée d'une progression."
+    },
+    {
+      "id": "especialista-07",
+      "es": "Desde que tomo las pastillas, estoy algo mejor, pero no del todo.",
+      "fr": "Depuis que je prends les comprimés, je vais un peu mieux, mais pas complètement.",
+      "pron": "DÉSS-dé ké TO-mo lass pass-TI-yass éss-TOÏ AL-go mé-KHOR PÉ-ro no dél TO-do",
+      "note": "« No del todo », pas tout à fait : précieux pour nuancer. « Algo mejor », un peu mieux.",
+      "rapide": "Desde que tomo las pastillas, 'toy algo mejor, pero no del todo."
+    },
+    {
+      "id": "especialista-08",
+      "es": "¿Qué me recomienda hacer si el dolor vuelve?",
+      "fr": "Qu'est-ce que vous me conseillez de faire si la douleur revient ?",
+      "pron": "KÉ mé rré-ko-MYÉN-da a-THÉR si él do-LOR BOUÉL-bé",
+      "note": "« Recomendar » + infinitif quand on ne précise pas qui agit. Avec « que », il faudra le subjonctif."
+    },
+    {
+      "id": "especialista-09",
+      "es": "Le recomiendo que se ponga la crema dos veces al día.",
+      "fr": "Je vous recommande de mettre la crème deux fois par jour.",
+      "pron": "lé rré-ko-MYÉN-do ké sé PON-ga la KRÉ-ma DOSS BÉ-théss al DI-a",
+      "note": "Ce que dira le médecin : « le recomiendo que » + subjonctif. « Ponga » vient de poner, comme « pongo »."
+    },
+    {
+      "id": "especialista-10",
+      "es": "Es mejor que no tome el sol mientras dure el tratamiento.",
+      "fr": "Il vaut mieux que vous ne vous exposiez pas au soleil pendant le traitement.",
+      "pron": "ÉSS mé-KHOR ké no TO-mé él SOL MYÉN-trass DOU-ré él tra-ta-MYÉN-to",
+      "note": "« Tomar el sol », c'est se mettre au soleil. « Mientras dure » est au subjonctif parce qu'on ne sait pas encore quand le traitement finira."
+    },
+    {
+      "id": "especialista-11",
+      "es": "¿Tengo que tomarlo con el estómago lleno o en ayunas?",
+      "fr": "Je dois le prendre le ventre plein ou à jeun ?",
+      "pron": "TÉN-go ké to-MAR-lo kon él éss-TO-ma-go YÉ-no o én a-YOU-nass",
+      "note": "« En ayunas », à jeun : une question qui change tout pour certains médicaments.",
+      "rapide": "¿Tengo que tomarlo con el'stómago lleno o en ayunas?"
+    },
+    {
+      "id": "especialista-12",
+      "es": "¿Puedo dejar el tratamiento cuando me encuentre bien?",
+      "fr": "Je peux arrêter le traitement quand je me sentirai bien ?",
+      "pron": "POUÉ-do dé-KHAR él tra-ta-MYÉN-to KOUAN-do mé én-KOUÉN-tré BYÉN",
+      "note": "« Cuando » + subjonctif pour parler du futur : cuando me encuentre. Et pour les antibiotiques, la réponse est non : on va jusqu'au bout."
+    },
+    {
+      "id": "especialista-13",
+      "es": "Me han mandado unos análisis de sangre y una ecografía.",
+      "fr": "On m'a prescrit une prise de sang et une échographie.",
+      "pron": "mé AN man-DA-do OU-noss a-NA-li-ssiss dé SAN-gré i OU-na é-ko-gra-FI-a",
+      "note": "Chez le médecin, « mandar » veut dire prescrire. « Unos análisis de sangre », c'est une prise de sang.",
+      "rapide": "M'han mandao unos análisis de sangre y una ecografía."
+    },
+    {
+      "id": "especialista-14",
+      "es": "¿Para cuándo tendré los resultados?",
+      "fr": "Quand est-ce que j'aurai les résultats ?",
+      "pron": "PA-ra KOUAN-do tén-DRÉ loss rré-ssoul-TA-doss",
+      "note": "« ¿Para cuándo? », c'est « pour quand ? ». Souvent, c'est le médecin qui t'explique les résultats au rendez-vous suivant."
+    },
+    {
+      "id": "especialista-15",
+      "es": "¿Me puede dar un informe para mi médica de cabecera?",
+      "fr": "Vous pouvez me donner un compte rendu pour mon médecin traitant ?",
+      "pron": "mé POUÉ-dé DAR oun in-FOR-mé PA-ra mi MÉ-di-ka dé ka-BÉ-thé-ra",
+      "note": "« El informe », c'est le compte rendu médical. Garde-les tous dans une même chemise : ils serviront."
+    },
+    {
+      "id": "especialista-16",
+      "es": "¿Hay algún genérico más barato?",
+      "fr": "Il y a un générique moins cher ?",
+      "pron": "AÏ al-GOUN khé-NÉ-ri-ko MASS ba-RA-to",
+      "note": "Un générique a le même principe actif que le médicament de marque. Avec une ordonnance du public, tu ne paies qu'une partie du prix."
+    },
+    {
+      "id": "especialista-17",
+      "es": "La receta está en la tarjeta sanitaria, ¿me la puede mirar?",
+      "fr": "L'ordonnance est sur ma carte de santé, vous pouvez regarder ?",
+      "pron": "la rré-THÉ-ta éss-TA én la tar-KHÉ-ta sa-ni-TA-rya mé la POUÉ-dé mi-RAR",
+      "note": "Avec la « receta electrónica », plus besoin de papier : le pharmacien retrouve l'ordonnance grâce à ta tarjeta sanitaria.",
+      "rapide": "La receta'stá en la tarjeta sanitaria, ¿me la puede mirar?"
+    },
+    {
+      "id": "especialista-18",
+      "es": "El médico me ha dado la baja hasta el viernes.",
+      "fr": "Le médecin m'a mise en arrêt jusqu'à vendredi.",
+      "pron": "él MÉ-di-ko mé a DA-do la BA-kha ASS-ta él BYÉR-néss",
+      "note": "L'arrêt de travail est délivré par le médecin de famille, et l'entreprise est informée par voie électronique. Préviens quand même ton chef.",
+      "rapide": "El médico m'ha dao la baja hasta el viernes.",
+      "duo": {
+        "fr": "Le médecin m'a mis en arrêt jusqu'à vendredi."
+      }
+    },
+    {
+      "id": "especialista-19",
+      "es": "Te recomiendo que pidas una segunda opinión.",
+      "fr": "Je te conseille de demander un deuxième avis.",
+      "pron": "té rré-ko-MYÉN-do ké PI-dass OU-na sé-GOUN-da o-pi-NYON",
+      "note": "Un conseil entre amis : « te recomiendo que » + subjonctif. « Pidas » vient de pedir : le e devient i, comme dans « pido »."
+    },
+    {
+      "id": "especialista-20",
+      "es": "Es mejor que descanses unos días antes de volver al trabajo.",
+      "fr": "Il vaut mieux que tu te reposes quelques jours avant de retourner au travail.",
+      "pron": "ÉSS mé-KHOR ké déss-KAN-sséss OU-noss DI-ass AN-téss dé bol-BÉR al tra-BA-kho",
+      "note": "« Es mejor que » + subjonctif : il vaut mieux que. Descansar devient « descanses » : les verbes en -ar prennent un e."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Chez la dermatologue",
+      "contexte": "Après des semaines sur liste d'attente, tu as enfin rendez-vous en consultation externe à l'hôpital San Pedro.",
+      "lignes": [
+        {
+          "qui": "Dermatóloga",
+          "es": "Buenos días. Cuénteme, ¿qué le pasa?",
+          "fr": "Bonjour. Dites-moi, qu'est-ce qui vous arrive ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Mi médica de cabecera me ha derivado aquí por esta mancha en el brazo.",
+          "fr": "Mon médecin traitant m'a envoyée ici pour cette tache sur le bras.",
+          "duo": {
+            "fr": "Mon médecin traitant m'a envoyé ici pour cette tache sur le bras."
+          }
+        },
+        {
+          "qui": "Dermatóloga",
+          "es": "¿Desde cuándo la tiene?",
+          "fr": "Depuis quand l'avez-vous ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Hace un mes empezó como un picor y ahora me duele. Al principio solo me pasaba por la noche, pero ahora me pasa todo el día.",
+          "fr": "Il y a un mois, ça a commencé par des démangeaisons et maintenant ça me fait mal. Au début, ça m'arrivait seulement la nuit, mais maintenant c'est toute la journée."
+        },
+        {
+          "qui": "Dermatóloga",
+          "es": "Vale. No parece grave, pero le voy a mandar una crema. Le recomiendo que se ponga la crema dos veces al día.",
+          "fr": "D'accord. Ça n'a pas l'air grave, mais je vais vous prescrire une crème. Je vous recommande de la mettre deux fois par jour."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Puedo dejar el tratamiento cuando me encuentre bien?",
+          "fr": "Je peux arrêter le traitement quand je me sentirai bien ?"
+        },
+        {
+          "qui": "Dermatóloga",
+          "es": "No, siga tres semanas aunque mejore antes. Y es mejor que no tome el sol mientras dure el tratamiento.",
+          "fr": "Non, continuez trois semaines, même si ça va mieux avant. Et il vaut mieux ne pas vous exposer au soleil pendant le traitement."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Entendido. ¿Me puede dar un informe para mi médica de cabecera?",
+          "fr": "Compris. Vous pouvez me donner un compte rendu pour mon médecin traitant ?"
+        },
+        {
+          "qui": "Dermatóloga",
+          "es": "Claro, aquí tiene. Y si no mejora, vuelva a pedir cita.",
+          "fr": "Bien sûr, voilà. Et si ça ne s'améliore pas, reprenez rendez-vous."
+        }
+      ]
+    },
+    {
+      "titre": "Au comptoir de la pharmacie",
+      "contexte": "Une vilaine angine t'a valu un arrêt de travail. Tu passes à la pharmacie du quartier avec ta tarjeta sanitaria.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "Buenas tardes. La receta está en la tarjeta sanitaria, ¿me la puede mirar?",
+          "fr": "Bonjour. L'ordonnance est sur ma carte de santé, vous pouvez regarder ?"
+        },
+        {
+          "qui": "Farmacéutico",
+          "es": "Sí, un momento… Tiene un antibiótico y un jarabe para la garganta.",
+          "fr": "Oui, un instant… Vous avez un antibiotique et un sirop pour la gorge."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Hay algún genérico más barato?",
+          "fr": "Il y a un générique moins cher ?"
+        },
+        {
+          "qui": "Farmacéutico",
+          "es": "El antibiótico ya es genérico, no le va a salir caro.",
+          "fr": "L'antibiotique est déjà un générique, il ne vous coûtera pas cher."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Tengo que tomarlo con el estómago lleno o en ayunas?",
+          "fr": "Je dois le prendre le ventre plein ou à jeun ?"
+        },
+        {
+          "qui": "Farmacéutico",
+          "es": "Con comida. Y le recomiendo que lo tome hasta el final, aunque se encuentre mejor.",
+          "fr": "En mangeant. Et je vous recommande de le prendre jusqu'au bout, même si vous vous sentez mieux."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Vale. El médico me ha dado la baja hasta el viernes y quiero volver bien al trabajo.",
+          "fr": "D'accord. Le médecin m'a mise en arrêt jusqu'à vendredi et je veux reprendre le travail en forme.",
+          "duo": {
+            "fr": "D'accord. Le médecin m'a mis en arrêt jusqu'à vendredi et je veux reprendre le travail en forme."
+          }
+        },
+        {
+          "qui": "Farmacéutico",
+          "es": "Entonces es mejor que descanse y beba mucha agua. ¡Que se mejore!",
+          "fr": "Alors il vaut mieux que vous vous reposiez et que vous buviez beaucoup d'eau. Bon rétablissement !"
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Conseiller : te recomiendo que, es mejor que",
+    "explication": "Pour donner un conseil à quelqu'un, on utilise « te recomiendo que », « te aconsejo que » ou « es mejor que », suivis du subjonctif présent. Pour le former, pars du « yo » du présent, enlève le o et change la voyelle : les verbes en -ar prennent un e (descanso → descanses), les verbes en -er et -ir prennent un a (bebo → bebas, pido → pidas). Quelques irréguliers à connaître : ir → vayas, ser → seas, estar → estés. Sans personne précise, on garde l'infinitif : es mejor descansar.",
+    "tableau": [
+      [
+        "descansar (tú)",
+        "que descanses"
+      ],
+      [
+        "tomar (usted)",
+        "que tome"
+      ],
+      [
+        "beber (tú)",
+        "que bebas"
+      ],
+      [
+        "pedir (tú)",
+        "que pidas"
+      ],
+      [
+        "ponerse (usted)",
+        "que se ponga"
+      ],
+      [
+        "ir (tú)",
+        "que vayas"
+      ]
+    ],
+    "exemples": [
+      {
+        "es": "Te recomiendo que bebas mucha agua.",
+        "fr": "Je te conseille de boire beaucoup d'eau."
+      },
+      {
+        "es": "Es mejor que vayas al médico mañana a primera hora.",
+        "fr": "Il vaut mieux que tu ailles chez le médecin demain à la première heure."
+      },
+      {
+        "es": "El médico me aconseja que camine media hora al día.",
+        "fr": "Le médecin me conseille de marcher une demi-heure par jour."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Ir tirando",
+      "fr": "Faire aller",
+      "note": "La réponse à « ¿Qué tal estás? » quand ça ne va ni bien ni mal : « Vamos tirando »."
+    },
+    {
+      "es": "Estar como una rosa",
+      "fr": "Être en pleine forme",
+      "note": "« Después de la baja, estoy como una rosa » : fraîche et rétablie.",
+      "duo": {
+        "note": "« Después de la baja, estoy como una rosa » : frais et rétabli. L'expression reste au féminin, même pour un homme."
+      }
+    },
+    {
+      "es": "Tener una salud de hierro",
+      "fr": "Avoir une santé de fer",
+      "note": "Pour ceux qui ne tombent jamais malades. Les veinards."
+    },
+    {
+      "es": "Más vale prevenir que curar",
+      "fr": "Mieux vaut prévenir que guérir",
+      "note": "Le proverbe qui justifie la visite chez le médecin « pour rien »."
+    },
+    {
+      "es": "Ser mano de santo",
+      "fr": "Faire des miracles",
+      "note": "« Este jarabe es mano de santo » : un remède d'une efficacité étonnante."
+    },
+    {
+      "es": "Tener el cuerpo cortado",
+      "fr": "Se sentir patraque",
+      "note": "Cette sensation de courbatures et de fatigue juste avant de tomber malade."
+    }
+  ]
+}

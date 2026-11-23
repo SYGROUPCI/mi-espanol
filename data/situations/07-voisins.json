@@ -4,6 +4,9 @@
   "titre": "Les voisins",
   "titre_es": "Los vecinos",
   "intro": "Dire bonjour dans l'ascenseur, demander un coup de main, parler poubelles et réunion de copropriété : de quoi devenir la voisine préférée de l'immeuble. Ou au moins celle qu'on salue avec le sourire.",
+  "duo": {
+    "intro": "Dire bonjour dans l'ascenseur, demander un coup de main, parler poubelles et réunion de copropriété : de quoi devenir le voisin préféré de l'immeuble. Ou au moins celui qu'on salue avec le sourire."
+  },
   "phrases": [
     {
       "id": "voisins-01",
@@ -32,14 +35,26 @@
       "es": "Soy la nueva vecina del tercero.",
       "fr": "Je suis la nouvelle voisine du troisième.",
       "pron": "SOÏ la NOUÉ-ba bé-THI-na dél tér-THÉ-ro",
-      "note": "On donne l'étage puis la porte : « el tercero B ». Et « vecina » au féminin, puisque c'est toi."
+      "note": "On donne l'étage puis la porte : « el tercero B ». Et « vecina » au féminin, puisque c'est toi.",
+      "duo": {
+        "es": "Soy el novio de Elisabeth, la vecina del tercero.",
+        "fr": "Je suis le copain d'Elisabeth, la voisine du troisième.",
+        "pron": "SOÏ él NO-byo dé é-li-ssa-BÉT la bé-THI-na dél tér-THÉ-ro",
+        "note": "On donne l'étage puis la porte : « el tercero B ». Une fois installé, tu pourras dire « soy el nuevo vecino del tercero »."
+      }
     },
     {
       "id": "voisins-05",
       "es": "Encantada de conocerla.",
       "fr": "Enchantée de faire votre connaissance.",
       "pron": "én-kan-TA-da dé ko-no-THÉR-la",
-      "note": "« La » pour une dame que tu vouvoies, « lo » ou « le » pour un monsieur (« conocerlo » et « conocerle » s'entendent tous les deux en Espagne). Si tu tutoies : « encantada de conocerte »."
+      "note": "« La » pour une dame que tu vouvoies, « lo » ou « le » pour un monsieur (« conocerlo » et « conocerle » s'entendent tous les deux en Espagne). Si tu tutoies : « encantada de conocerte ».",
+      "duo": {
+        "es": "Encantado de conocerla.",
+        "fr": "Enchanté de faire votre connaissance.",
+        "pron": "én-kan-TA-do dé ko-no-THÉR-la",
+        "note": "« La » pour une dame que tu vouvoies, « lo » ou « le » pour un monsieur (« conocerlo » et « conocerle » s'entendent tous les deux en Espagne). Si tu tutoies : « encantado de conocerte »."
+      }
     },
     {
       "id": "voisins-06",
@@ -99,7 +114,10 @@
       "fr": "Désolée pour le bruit d'hier soir.",
       "pron": "pér-DON por él RROUI-do dé a-NO-tché",
       "note": "Pour le lendemain de ton anniversaire. Une petite boîte de gâteaux aide beaucoup.",
-      "rapide": "Perdón por el ruido d'anoche."
+      "rapide": "Perdón por el ruido d'anoche.",
+      "duo": {
+        "fr": "Désolé pour le bruit d'hier soir."
+      }
     },
     {
       "id": "voisins-14",
@@ -166,27 +184,46 @@
         {
           "qui": "Carmen",
           "es": "Al segundo, gracias, hija. Tú eres nueva, ¿verdad?",
-          "fr": "Au deuxième, merci, ma petite. Tu es nouvelle, non ?"
+          "fr": "Au deuxième, merci, ma petite. Tu es nouvelle, non ?",
+          "duo": {
+            "es": "Al segundo, gracias, hijo. Tú eres nuevo, ¿verdad?",
+            "fr": "Au deuxième, merci, mon petit. Tu es nouveau, non ?"
+          }
         },
         {
           "qui": "Elisabeth",
           "es": "Sí, soy la nueva vecina del tercero. Me llamo Elisabeth.",
-          "fr": "Oui, je suis la nouvelle voisine du troisième. Je m'appelle Elisabeth."
+          "fr": "Oui, je suis la nouvelle voisine du troisième. Je m'appelle Elisabeth.",
+          "duo": {
+            "es": "Sí, soy el novio de Elisabeth, la vecina del tercero. Me llamo Khalil.",
+            "fr": "Oui, je suis le copain d'Elisabeth, la voisine du troisième. Je m'appelle Khalil."
+          }
         },
         {
           "qui": "Carmen",
           "es": "Yo soy Carmen. Bienvenida al edificio.",
-          "fr": "Moi, c'est Carmen. Bienvenue dans l'immeuble."
+          "fr": "Moi, c'est Carmen. Bienvenue dans l'immeuble.",
+          "duo": {
+            "es": "Yo soy Carmen. Bienvenido al edificio."
+          }
         },
         {
           "qui": "Elisabeth",
           "es": "Encantada de conocerla, Carmen. ¡Qué frío hace hoy!",
-          "fr": "Enchantée de faire votre connaissance, Carmen. Qu'est-ce qu'il fait froid aujourd'hui !"
+          "fr": "Enchantée de faire votre connaissance, Carmen. Qu'est-ce qu'il fait froid aujourd'hui !",
+          "duo": {
+            "es": "Encantado de conocerla, Carmen. ¡Qué frío hace hoy!",
+            "fr": "Enchanté de faire votre connaissance, Carmen. Qu'est-ce qu'il fait froid aujourd'hui !"
+          }
         },
         {
           "qui": "Carmen",
           "es": "Es el cierzo, hija. Ya te acostumbrarás.",
-          "fr": "C'est le cierzo, ma petite. Tu t'y habitueras."
+          "fr": "C'est le cierzo, ma petite. Tu t'y habitueras.",
+          "duo": {
+            "es": "Es el cierzo, hijo. Ya te acostumbrarás.",
+            "fr": "C'est le cierzo, mon petit. Tu t'y habitueras."
+          }
         },
         {
           "qui": "Elisabeth",
@@ -222,17 +259,26 @@
         {
           "qui": "Elisabeth",
           "es": "Es la lavadora. Ya he cerrado la llave de paso. ¡Qué apuro!",
-          "fr": "C'est la machine à laver. J'ai déjà fermé le robinet d'arrivée. Je suis vraiment confuse !"
+          "fr": "C'est la machine à laver. J'ai déjà fermé le robinet d'arrivée. Je suis vraiment confuse !",
+          "duo": {
+            "fr": "C'est la machine à laver. J'ai déjà fermé le robinet d'arrivée. Je suis vraiment confus !"
+          }
         },
         {
           "qui": "Álex",
           "es": "Tranquila, no pasa nada. ¿Tienes seguro del hogar?",
-          "fr": "T'inquiète, ce n'est rien. Tu as une assurance habitation ?"
+          "fr": "T'inquiète, ce n'est rien. Tu as une assurance habitation ?",
+          "duo": {
+            "es": "Tranquilo, no pasa nada. ¿Tienes seguro del hogar?"
+          }
         },
         {
           "qui": "Elisabeth",
           "es": "Sí, ahora llamo al seguro y al dueño del piso. Lo siento mucho, de verdad.",
-          "fr": "Oui, j'appelle l'assurance et le propriétaire tout de suite. Je suis vraiment désolée."
+          "fr": "Oui, j'appelle l'assurance et le propriétaire tout de suite. Je suis vraiment désolée.",
+          "duo": {
+            "fr": "Oui, j'appelle l'assurance et le propriétaire tout de suite. Je suis vraiment désolé."
+          }
         },
         {
           "qui": "Álex",

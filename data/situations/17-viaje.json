@@ -48,7 +48,13 @@
       "es": "Tengo una reserva a nombre de Elisabeth.",
       "fr": "J'ai une réservation au nom d'Elisabeth.",
       "pron": "TÉN-go OU-na rré-SSÉR-ba a NOM-bré dé é-li-ssa-BÉT",
-      "note": "La phrase magique de la réception. Prépare ton passeport ou ta TIE : l'hôtel va te la demander."
+      "note": "La phrase magique de la réception. Prépare ton passeport ou ta TIE : l'hôtel va te la demander.",
+      "duo": {
+        "es": "Tengo una reserva a nombre de Khalil.",
+        "fr": "J'ai une réservation au nom de Khalil.",
+        "pron": "TÉN-go OU-na rré-SSÉR-ba a NOM-bré dé ka-LIL",
+        "note": "La phrase magique de la réception. Prépare ton passeport : l'hôtel va te le demander."
+      }
     },
     {
       "id": "viaje-07",
@@ -209,11 +215,17 @@
     {
       "titre": "Une chambre côté rue",
       "contexte": "Khalil et toi arrivez à l'hôtel après une longue journée. La chambre n'est pas tout à fait celle que vous attendiez.",
+      "duo": {
+        "contexte": "Elisabeth et toi arrivez à l'hôtel après une longue journée. La chambre n'est pas tout à fait celle que vous attendiez."
+      },
       "lignes": [
         {
           "qui": "Elisabeth",
           "es": "Buenas noches. Tengo una reserva a nombre de Elisabeth.",
-          "fr": "Bonsoir. J'ai une réservation au nom d'Elisabeth."
+          "fr": "Bonsoir. J'ai une réservation au nom d'Elisabeth.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Recepcionista",
@@ -223,7 +235,10 @@
         {
           "qui": "Elisabeth",
           "es": "Aquí tiene. ¿El desayuno está incluido en el precio?",
-          "fr": "Voilà. Le petit-déjeuner est compris dans le prix ?"
+          "fr": "Voilà. Le petit-déjeuner est compris dans le prix ?",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Recepcionista",
@@ -243,7 +258,10 @@
         {
           "qui": "Elisabeth",
           "es": "Además da a la calle y hay mucho ruido. ¿Nos podría cambiar a otra habitación más tranquila?",
-          "fr": "En plus, elle donne sur la rue et il y a beaucoup de bruit. Vous pourriez nous changer pour une chambre plus calme ?"
+          "fr": "En plus, elle donne sur la rue et il y a beaucoup de bruit. Vous pourriez nous changer pour une chambre plus calme ?",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Recepcionista",
@@ -331,7 +349,12 @@
     {
       "es": "Estoy molida",
       "fr": "Je suis crevée",
-      "note": "Après une journée de visites. Khalil dira « estoy molido »."
+      "note": "Après une journée de visites. Khalil dira « estoy molido ».",
+      "duo": {
+        "es": "Estoy molido",
+        "fr": "Je suis crevé",
+        "note": "Après une journée de visites. Elisabeth dira « estoy molida »."
+      }
     },
     {
       "es": "Perderse por el casco viejo",

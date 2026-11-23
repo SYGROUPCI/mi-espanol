@@ -10,21 +10,38 @@
       "es": "¡Hola! Me llamo Elisabeth.",
       "fr": "Salut ! Je m'appelle Elisabeth.",
       "pron": "O-la mé YA-mo é-li-ssa-BÉT",
-      "note": "« Me llamo » est bien plus naturel que « mi nombre es », qui sonne comme un formulaire."
+      "note": "« Me llamo » est bien plus naturel que « mi nombre es », qui sonne comme un formulaire.",
+      "duo": {
+        "es": "¡Hola! Me llamo Khalil.",
+        "fr": "Salut ! Je m'appelle Khalil.",
+        "pron": "O-la mé YA-mo ka-LIL"
+      }
     },
     {
       "id": "amis-02",
       "es": "Soy de Guinea, de Guinea Conakry.",
       "fr": "Je viens de Guinée, la Guinée Conakry.",
       "pron": "SOÏ dé gui-NÉ-a dé gui-NÉ-a ko-NA-kri",
-      "note": "En Espagne, « Guinea » fait souvent penser à la Guinée équatoriale, ancienne colonie espagnole. Préciser « Conakry » évite le malentendu."
+      "note": "En Espagne, « Guinea » fait souvent penser à la Guinée équatoriale, ancienne colonie espagnole. Préciser « Conakry » évite le malentendu.",
+      "duo": {
+        "es": "Soy de Costa de Marfil, de Abiyán.",
+        "fr": "Je viens de Côte d'Ivoire, d'Abidjan.",
+        "pron": "SOÏ dé KOSS-ta dé mar-FIL dé a-bi-YAN",
+        "note": "En espagnol, la Côte d'Ivoire se dit « Costa de Marfil » et Abidjan s'écrit « Abiyán ». Pour la nationalité : « soy marfileño »."
+      }
     },
     {
       "id": "amis-03",
       "es": "Vivo en Logroño desde hace poco.",
       "fr": "J'habite à Logroño depuis peu.",
       "pron": "BI-bo én lo-GRO-gno DÉSS-dé A-thé PO-ko",
-      "note": "Pour être précise : « desde hace dos meses », depuis deux mois."
+      "note": "Pour être précise : « desde hace dos meses », depuis deux mois.",
+      "duo": {
+        "es": "Estoy de visita en Logroño.",
+        "fr": "Je suis de passage à Logroño.",
+        "pron": "éss-TOÏ dé bi-SSI-ta én lo-GRO-gno",
+        "note": "Et bientôt, tu pourras dire « Pronto voy a vivir en Logroño » : je vais bientôt vivre à Logroño."
+      }
     },
     {
       "id": "amis-04",
@@ -45,7 +62,13 @@
       "es": "Encantada.",
       "fr": "Enchantée.",
       "pron": "én-kan-TA-da",
-      "note": "Au féminin parce que c'est toi qui parles. En vrai, on le dit en faisant les deux bises."
+      "note": "Au féminin parce que c'est toi qui parles. En vrai, on le dit en faisant les deux bises.",
+      "duo": {
+        "es": "Encantado.",
+        "fr": "Enchanté.",
+        "pron": "én-kan-TA-do",
+        "note": "Au masculin parce que c'est toi qui parles. Entre hommes on se serre la main, avec une femme on fait les deux bises."
+      }
     },
     {
       "id": "amis-07",
@@ -82,7 +105,10 @@
       "es": "Lo siento, ya he quedado.",
       "fr": "Désolée, j'ai déjà quelque chose de prévu.",
       "pron": "lo SYÉN-to YA é ké-DA-do",
-      "rapide": "Lo siento, ya he quedao."
+      "rapide": "Lo siento, ya he quedao.",
+      "duo": {
+        "fr": "Désolé, j'ai déjà quelque chose de prévu."
+      }
     },
     {
       "id": "amis-12",
@@ -144,15 +170,19 @@
       "es": "Me lo he pasado genial.",
       "fr": "Je me suis super bien amusée.",
       "pron": "mé lo é pa-SSA-do khé-NYAL",
-      "rapide": "Me lo he pasao genial."
+      "rapide": "Me lo he pasao genial.",
+      "duo": {
+        "fr": "Je me suis super bien amusé."
+      }
     }
   ],
   "dialogues": [
     {
       "titre": "Lucía propose une sortie",
       "contexte": "Lucía, une collègue sympa, t'appelle un vendredi en fin d'après-midi.",
+      "duo": { "contexte": "Lucía, une collègue d'Elisabeth, t'appelle un vendredi en fin d'après-midi." },
       "lignes": [
-        { "qui": "Lucía", "es": "¡Hola, guapa! ¿Qué tal?", "fr": "Coucou ma belle ! Ça va ?" },
+        { "qui": "Lucía", "es": "¡Hola, guapa! ¿Qué tal?", "fr": "Coucou ma belle ! Ça va ?", "duo": { "es": "¡Hola, Khalil! ¿Qué tal?", "fr": "Salut Khalil ! Ça va ?" } },
         { "qui": "Elisabeth", "es": "¡Muy bien! ¿Y tú?", "fr": "Très bien ! Et toi ?" },
         { "qui": "Lucía", "es": "Bien. Oye, ¿quedamos esta tarde? ¿Te apetece tomar algo?", "fr": "Bien. Dis, on se voit ce soir ? Ça te dit d'aller boire un verre ?" },
         { "qui": "Elisabeth", "es": "¡Vale, me apunto! ¿A qué hora quedamos?", "fr": "OK, j'en suis ! On se retrouve à quelle heure ?" },
@@ -166,8 +196,8 @@
       "titre": "Un crianza dans la Laurel",
       "contexte": "Dans un bar bondé de la rue Laurel, Lucía te présente Javi.",
       "lignes": [
-        { "qui": "Javi", "es": "Hola, soy Javi. ¿Tú eres Elisabeth?", "fr": "Salut, moi c'est Javi. C'est toi, Elisabeth ?" },
-        { "qui": "Elisabeth", "es": "Sí, encantada. Soy de Guinea Conakry, pero vivo en Logroño desde hace poco.", "fr": "Oui, enchantée. Je viens de Guinée Conakry, mais j'habite à Logroño depuis peu." },
+        { "qui": "Javi", "es": "Hola, soy Javi. ¿Tú eres Elisabeth?", "fr": "Salut, moi c'est Javi. C'est toi, Elisabeth ?", "duo": { "es": "Hola, soy Javi. ¿Tú eres Khalil?", "fr": "Salut, moi c'est Javi. C'est toi, Khalil ?" } },
+        { "qui": "Elisabeth", "es": "Sí, encantada. Soy de Guinea Conakry, pero vivo en Logroño desde hace poco.", "fr": "Oui, enchantée. Je viens de Guinée Conakry, mais j'habite à Logroño depuis peu.", "duo": { "es": "Sí, encantado. Soy de Costa de Marfil y estoy de visita en Logroño.", "fr": "Oui, enchanté. Je viens de Côte d'Ivoire et je suis de passage à Logroño." } },
         { "qui": "Javi", "es": "¡Qué bien! ¿Y qué tal el español?", "fr": "Super ! Et ça va, l'espagnol ?" },
         { "qui": "Elisabeth", "es": "Hablo un poco de español, pero voy aprendiendo.", "fr": "Je parle un peu espagnol, mais j'apprends petit à petit." },
         { "qui": "Lucía", "es": "Venga, ¿qué queréis tomar?", "fr": "Allez, qu'est-ce que vous prenez ?" },

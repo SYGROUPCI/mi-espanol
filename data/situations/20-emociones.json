@@ -5,6 +5,9 @@
   "titre": "Émotions et sentiments",
   "titre_es": "Emociones y sentimientos",
   "intro": "Dire que tu es contente, stressée ou que ta famille te manque, féliciter une amie, rassurer quelqu'un : les mots qui rapprochent les gens. Avec quelques phrases tendres pour Khalil, à dire au téléphone.",
+  "duo": {
+    "intro": "Dire que tu es content, stressé ou que ta famille te manque, féliciter une amie, rassurer quelqu'un : les mots qui rapprochent les gens. Avec quelques phrases tendres pour Elisabeth, à dire au téléphone."
+  },
   "phrases": [
     {
       "id": "emociones-01",
@@ -12,7 +15,14 @@
       "fr": "Aujourd'hui je suis très contente : on m'a donné le poste.",
       "pron": "OÏ éss-TOÏ MOUÏ kon-TÉN-ta mé an DA-do él tra-BA-kho",
       "note": "« Estar contenta », au féminin puisque c'est toi. Un homme dirait « contento ».",
-      "rapide": "Hoy 'toy muy contenta: m'han dado el trabajo."
+      "rapide": "Hoy 'toy muy contenta: m'han dado el trabajo.",
+      "duo": {
+        "es": "Hoy estoy muy contento: me han dado el trabajo.",
+        "fr": "Aujourd'hui je suis très content : on m'a donné le poste.",
+        "pron": "OÏ éss-TOÏ MOUÏ kon-TÉN-to mé an DA-do él tra-BA-kho",
+        "rapide": "Hoy 'toy muy contento: m'han dado el trabajo.",
+        "note": "« Estar contento », au masculin puisque c'est toi. Une femme dirait « contenta »."
+      }
     },
     {
       "id": "emociones-02",
@@ -20,7 +30,14 @@
       "fr": "Je suis un peu débordée avec tous ces papiers.",
       "pron": "éss-TOÏ oun PO-ko a-go-BYA-da kon TAN-toss pa-PÉ-léss",
       "note": "« Agobiada », c'est stressée, étouffée par trop de choses. Le mot que tout le monde utilise en Espagne en période d'administration.",
-      "rapide": "'Toy un poco agobiá con tantos papeles."
+      "rapide": "'Toy un poco agobiá con tantos papeles.",
+      "duo": {
+        "es": "Estoy un poco agobiado con tantos papeles.",
+        "fr": "Je suis un peu débordé avec tous ces papiers.",
+        "pron": "éss-TOÏ oun PO-ko a-go-BYA-do kon TAN-toss pa-PÉ-léss",
+        "rapide": "'Toy un poco agobiao con tantos papeles.",
+        "note": "« Agobiado », c'est stressé, étouffé par trop de choses. Le mot que tout le monde utilise en Espagne en période d'administration."
+      }
     },
     {
       "id": "emociones-03",
@@ -48,7 +65,10 @@
       "es": "Hablar contigo me hace muy feliz.",
       "fr": "Parler avec toi me rend très heureuse.",
       "pron": "a-BLAR kon-TI-go mé A-thé MOUÏ fé-LITH",
-      "note": "« Feliz » ne change pas au féminin. On dit « me hace feliz » plutôt que « me pone feliz »."
+      "note": "« Feliz » ne change pas au féminin. On dit « me hace feliz » plutôt que « me pone feliz ».",
+      "duo": {
+        "fr": "Parler avec toi me rend très heureux."
+      }
     },
     {
       "id": "emociones-07",
@@ -56,7 +76,13 @@
       "fr": "Je suis nerveuse parce que demain j'ai un entretien d'embauche.",
       "pron": "éss-TOÏ nér-BYO-ssa POR-ké ma-GNA-na TÉN-go OU-na én-tré-BISS-ta dé tra-BA-kho",
       "note": "« Porque » en un mot pour expliquer, « ¿por qué? » en deux pour demander.",
-      "rapide": "'Toy nerviosa porque mañana tengo un'entrevista de trabajo."
+      "rapide": "'Toy nerviosa porque mañana tengo un'entrevista de trabajo.",
+      "duo": {
+        "es": "Estoy nervioso porque mañana tengo una entrevista de trabajo.",
+        "fr": "Je suis nerveux parce que demain j'ai un entretien d'embauche.",
+        "pron": "éss-TOÏ nér-BYO-sso POR-ké ma-GNA-na TÉN-go OU-na én-tré-BISS-ta dé tra-BA-kho",
+        "rapide": "'Toy nervioso porque mañana tengo un'entrevista de trabajo."
+      }
     },
     {
       "id": "emociones-08",
@@ -78,7 +104,10 @@
       "es": "Lo siento mucho. Si necesitas algo, aquí estoy.",
       "fr": "Je suis vraiment désolée. Si tu as besoin de quoi que ce soit, je suis là.",
       "pron": "lo SYÉN-to MOU-tcho si né-thé-SSI-tass AL-go a-KI éss-TOÏ",
-      "note": "Pour consoler après une mauvaise nouvelle. Simple et sincère, c'est ce qui compte."
+      "note": "Pour consoler après une mauvaise nouvelle. Simple et sincère, c'est ce qui compte.",
+      "duo": {
+        "fr": "Je suis vraiment désolé. Si tu as besoin de quoi que ce soit, je suis là."
+      }
     },
     {
       "id": "emociones-11",
@@ -99,7 +128,10 @@
       "es": "Me alegro mucho por ti.",
       "fr": "Je suis très contente pour toi.",
       "pron": "mé a-LÉ-gro MOU-tcho por TI",
-      "note": "« Alegrarse por alguien » : se réjouir pour quelqu'un. Va bien juste après « ¡enhorabuena! »."
+      "note": "« Alegrarse por alguien » : se réjouir pour quelqu'un. Va bien juste après « ¡enhorabuena! ».",
+      "duo": {
+        "fr": "Je suis très content pour toi."
+      }
     },
     {
       "id": "emociones-14",
@@ -113,14 +145,22 @@
       "es": "Cuando recibí tu mensaje, me puse muy contenta.",
       "fr": "Quand j'ai reçu ton message, j'ai été très contente.",
       "pron": "KOUAN-do rré-thi-BI tou mén-SA-khé mé POU-ssé MOUÏ kon-TÉN-ta",
-      "note": "« Me puse » vient de ponerse, au passé simple. Il est irrégulier, mais il sert tout le temps."
+      "note": "« Me puse » vient de ponerse, au passé simple. Il est irrégulier, mais il sert tout le temps.",
+      "duo": {
+        "es": "Cuando recibí tu mensaje, me puse muy contento.",
+        "fr": "Quand j'ai reçu ton message, j'ai été très content.",
+        "pron": "KOUAN-do rré-thi-BI tou mén-SA-khé mé POU-ssé MOUÏ kon-TÉN-to"
+      }
     },
     {
       "id": "emociones-16",
       "es": "Te echo de menos, cariño. ¿Cuándo vienes?",
       "fr": "Tu me manques, mon chéri. Tu viens quand ?",
       "pron": "té É-tcho dé MÉ-noss ka-RI-gno KOUAN-do BYÉ-néss",
-      "note": "« Cariño » marche pour un homme comme pour une femme. Les couples espagnols l'utilisent sans modération."
+      "note": "« Cariño » marche pour un homme comme pour une femme. Les couples espagnols l'utilisent sans modération.",
+      "duo": {
+        "fr": "Tu me manques, ma chérie. Tu viens quand ?"
+      }
     },
     {
       "id": "emociones-17",
@@ -143,7 +183,13 @@
       "es": "Estoy orgullosa de ti. Has trabajado muchísimo.",
       "fr": "Je suis fière de toi. Tu as énormément travaillé.",
       "pron": "éss-TOÏ or-gou-YO-ssa dé TI ass tra-ba-KHA-do mou-TCHI-ssi-mo",
-      "note": "« Orgullosa » au féminin, c'est toi qui parles. Khalil, lui, dira « orgulloso »."
+      "note": "« Orgullosa » au féminin, c'est toi qui parles. Khalil, lui, dira « orgulloso ».",
+      "duo": {
+        "es": "Estoy orgulloso de ti. Has trabajado muchísimo.",
+        "fr": "Je suis fier de toi. Tu as énormément travaillé.",
+        "pron": "éss-TOÏ or-gou-YO-sso dé TI ass tra-ba-KHA-do mou-TCHI-ssi-mo",
+        "note": "« Orgulloso » au masculin, c'est toi qui parles. Elisabeth, elle, dira « orgullosa »."
+      }
     },
     {
       "id": "emociones-20",
@@ -157,6 +203,9 @@
     {
       "titre": "Un appel du soir",
       "contexte": "Khalil est loin pour quelques semaines. Il t'appelle après une longue journée.",
+      "duo": {
+        "contexte": "Tu es à Abidjan, loin d'Elisabeth pour quelques semaines. Tu l'appelles après sa longue journée."
+      },
       "lignes": [
         {
           "qui": "Khalil",
@@ -166,7 +215,10 @@
         {
           "qui": "Elisabeth",
           "es": "Un poco. Estoy un poco agobiada con tantos papeles.",
-          "fr": "Un peu. Je suis un peu débordée avec tous ces papiers."
+          "fr": "Un peu. Je suis un peu débordée avec tous ces papiers.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Khalil",
@@ -176,7 +228,10 @@
         {
           "qui": "Elisabeth",
           "es": "¡Justo te lo iba a contar! Hoy estoy muy contenta: me han dado el trabajo.",
-          "fr": "J'allais justement te le dire ! Aujourd'hui je suis très contente : on m'a donné le poste."
+          "fr": "J'allais justement te le dire ! Aujourd'hui je suis très contente : on m'a donné le poste.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Khalil",
@@ -186,7 +241,10 @@
         {
           "qui": "Elisabeth",
           "es": "Gracias. Hablar contigo me hace muy feliz. Te echo de menos, cariño. ¿Cuándo vienes?",
-          "fr": "Merci. Parler avec toi me rend très heureuse. Tu me manques, mon chéri. Tu viens quand ?"
+          "fr": "Merci. Parler avec toi me rend très heureuse. Tu me manques, mon chéri. Tu viens quand ?",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Khalil",
@@ -196,7 +254,10 @@
         {
           "qui": "Elisabeth",
           "es": "Vale. Mañana te llamo y me cuentas cómo ha ido tu semana.",
-          "fr": "D'accord. Demain je t'appelle et tu me racontes comment s'est passée ta semaine."
+          "fr": "D'accord. Demain je t'appelle et tu me racontes comment s'est passée ta semaine.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Khalil",
@@ -232,17 +293,27 @@
         {
           "qui": "Elisabeth",
           "es": "Lo siento mucho. Si necesitas algo, aquí estoy.",
-          "fr": "Je suis vraiment désolée. Si tu as besoin de quoi que ce soit, je suis là."
+          "fr": "Je suis vraiment désolée. Si tu as besoin de quoi que ce soit, je suis là.",
+          "duo": {
+            "fr": "Je suis vraiment désolé. Si tu as besoin de quoi que ce soit, je suis là."
+          }
         },
         {
           "qui": "Lucía",
           "es": "Gracias, guapa. Ya sabes que soy una persona positiva, pero esto me ha sentado fatal.",
-          "fr": "Merci, ma belle. Tu sais que je suis quelqu'un de positif, mais ça, je l'ai très mal pris."
+          "fr": "Merci, ma belle. Tu sais que je suis quelqu'un de positif, mais ça, je l'ai très mal pris.",
+          "duo": {
+            "es": "Gracias, guapo. Ya sabes que soy una persona positiva, pero esto me ha sentado fatal.",
+            "fr": "Merci, mon beau. Tu sais que je suis quelqu'un de positif, mais ça, je l'ai très mal pris."
+          }
         },
         {
           "qui": "Elisabeth",
           "es": "Ánimo, que tú puedes con esto. Seguro que encuentras algo mejor.",
-          "fr": "Courage, tu vas y arriver. Je suis sûre que tu vas trouver mieux."
+          "fr": "Courage, tu vas y arriver. Je suis sûre que tu vas trouver mieux.",
+          "duo": {
+            "fr": "Courage, tu vas y arriver. Je suis sûr que tu vas trouver mieux."
+          }
         },
         {
           "qui": "Lucía",
@@ -260,6 +331,9 @@
   "grammaire": {
     "titre": "Ser, estar et les verbes des émotions",
     "explication": "Ser décrit ce que tu es en général (soy alegre), estar dit comment tu te sens en ce moment (estoy cansada). Pour dire qu'une chose provoque une émotion, on utilise « me pone » (me pone nerviosa) ou « me hace » (me hace feliz) ; si la cause est au pluriel, le verbe aussi : me ponen. Echar de menos fonctionne à l'envers du français : « echo de menos a mi madre », c'est ma mère qui me manque. Et quand tu parles de toi, les adjectifs passent au féminin : contenta, cansada, orgullosa.",
+    "duo": {
+      "explication": "Ser décrit ce que tu es en général (soy alegre), estar dit comment tu te sens en ce moment (estoy cansado). Pour dire qu'une chose provoque une émotion, on utilise « me pone » (me pone nervioso) ou « me hace » (me hace feliz) ; si la cause est au pluriel, le verbe aussi : me ponen. Echar de menos fonctionne à l'envers du français : « echo de menos a mi madre », c'est ma mère qui me manque. Et quand tu parles de toi, les adjectifs restent au masculin : contento, cansado, orgulloso."
+    },
     "tableau": [
       ["Soy alegre.", "Je suis joyeuse (de caractère)."],
       ["Estoy contenta.", "Je suis contente (en ce moment)."],
@@ -275,7 +349,11 @@
       },
       {
         "es": "Echo de menos a mis amigas de Conakri.",
-        "fr": "Mes amies de Conakry me manquent."
+        "fr": "Mes amies de Conakry me manquent.",
+        "duo": {
+          "es": "Echo de menos a mis amigos de Abiyán.",
+          "fr": "Mes amis d'Abidjan me manquent."
+        }
       },
       {
         "es": "Los días de sol me ponen de buen humor.",
@@ -302,7 +380,10 @@
     {
       "es": "Estar como unas castañuelas",
       "fr": "Être gaie comme un pinson",
-      "note": "Les castagnettes, pour la bonne humeur qui fait du bruit. Un peu à l'ancienne, mais toujours compris."
+      "note": "Les castagnettes, pour la bonne humeur qui fait du bruit. Un peu à l'ancienne, mais toujours compris.",
+      "duo": {
+        "fr": "Être gai comme un pinson"
+      }
     },
     {
       "es": "¡Qué subidón!",

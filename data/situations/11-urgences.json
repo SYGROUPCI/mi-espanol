@@ -69,7 +69,14 @@
       "fr": "On m'a volé mon sac !",
       "pron": "mé an rro-BA-do él BOL-sso",
       "note": "« Me han robado » se traduit par « on m'a volé ». En espagnol, on dit « el bolso » et pas « mi bolso » : le « me » suffit à dire que c'est le tien.",
-      "rapide": "¡M'han robao el bolso!"
+      "rapide": "¡M'han robao el bolso!",
+      "duo": {
+        "es": "¡Me han robado la mochila!",
+        "fr": "On m'a volé mon sac à dos !",
+        "pron": "mé an rro-BA-do la mo-TCHI-la",
+        "rapide": "¡M'han robao la mochila!",
+        "note": "« Me han robado » se traduit par « on m'a volé ». En espagnol, on dit « la mochila » et pas « mi mochila » : le « me » suffit à dire que c'est la tienne."
+      }
     },
     {
       "id": "urgences-10",
@@ -128,7 +135,14 @@
       "fr": "Je suis perdue. Vous pouvez m'aider ?",
       "pron": "éss-TOÏ pér-DI-da mé POUÉ-dé a-you-DAR",
       "note": "Au féminin, puisque c'est toi. Montre l'adresse sur ton téléphone, les gens de Logroño adorent indiquer le chemin.",
-      "rapide": "'Toy perdida. ¿Me puede ayudar?"
+      "rapide": "'Toy perdida. ¿Me puede ayudar?",
+      "duo": {
+        "es": "Estoy perdido. ¿Me puede ayudar?",
+        "fr": "Je suis perdu. Vous pouvez m'aider ?",
+        "pron": "éss-TOÏ pér-DI-do mé POUÉ-dé a-you-DAR",
+        "rapide": "'Toy perdido. ¿Me puede ayudar?",
+        "note": "Au masculin, puisque c'est toi. Montre l'adresse sur ton téléphone, les gens de Logroño adorent indiquer le chemin."
+      }
     },
     {
       "id": "urgences-18",
@@ -202,11 +216,16 @@
     {
       "titre": "Le sac envolé",
       "contexte": "Sur une terrasse, quelqu'un attrape ton sac et part en courant. Une passante, Marta, s'approche.",
+      "duo": { "contexte": "Sur une terrasse, quelqu'un attrape ton sac à dos et part en courant. Une passante, Marta, s'approche." },
       "lignes": [
         {
           "qui": "Elisabeth",
           "es": "¡Al ladrón! ¡Me han robado el bolso!",
-          "fr": "Au voleur ! On m'a volé mon sac !"
+          "fr": "Au voleur ! On m'a volé mon sac !",
+          "duo": {
+            "es": "¡Al ladrón! ¡Me han robado la mochila!",
+            "fr": "Au voleur ! On m'a volé mon sac à dos !"
+          }
         },
         {
           "qui": "Marta",
@@ -241,7 +260,11 @@
         {
           "qui": "Elisabeth",
           "es": "Quiero poner una denuncia. Me han robado el bolso con el pasaporte dentro.",
-          "fr": "Je voudrais porter plainte. On m'a volé mon sac avec mon passeport dedans."
+          "fr": "Je voudrais porter plainte. On m'a volé mon sac avec mon passeport dedans.",
+          "duo": {
+            "es": "Quiero poner una denuncia. Me han robado la mochila con el pasaporte dentro.",
+            "fr": "Je voudrais porter plainte. On m'a volé mon sac à dos avec mon passeport dedans."
+          }
         },
         {
           "qui": "Policía",
@@ -251,7 +274,11 @@
         {
           "qui": "Elisabeth",
           "es": "Tengo una foto del NIE en el móvil. Menos mal que el móvil no me lo han robado.",
-          "fr": "J'ai une photo de mon NIE sur mon portable. Heureusement qu'on ne m'a pas volé le portable."
+          "fr": "J'ai une photo de mon NIE sur mon portable. Heureusement qu'on ne m'a pas volé le portable.",
+          "duo": {
+            "es": "Tengo una foto del pasaporte en el móvil. Menos mal que el móvil no me lo han robado.",
+            "fr": "J'ai une photo de mon passeport sur mon portable. Heureusement qu'on ne m'a pas volé le portable."
+          }
         }
       ]
     }
@@ -306,12 +333,20 @@
     {
       "es": "Estar hecha un flan",
       "fr": "Être toute tremblante",
-      "note": "Quand on tremble comme un flan après une grosse peur. Au masculin : « estar hecho un flan »."
+      "note": "Quand on tremble comme un flan après une grosse peur. Au masculin : « estar hecho un flan ».",
+      "duo": {
+        "es": "Estar hecho un flan",
+        "fr": "Être tout tremblant",
+        "note": "Quand on tremble comme un flan après une grosse peur. Au féminin : « estar hecha un flan »."
+      }
     },
     {
       "es": "Me he quedado de piedra",
       "fr": "Je suis restée pétrifiée",
-      "note": "Pour raconter qu'on n'a pas pu réagir sur le moment. C'est normal, et ça arrive à tout le monde."
+      "note": "Pour raconter qu'on n'a pas pu réagir sur le moment. C'est normal, et ça arrive à tout le monde.",
+      "duo": {
+        "fr": "Je suis resté pétrifié"
+      }
     }
   ]
 }

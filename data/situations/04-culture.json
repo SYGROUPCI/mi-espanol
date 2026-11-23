@@ -157,6 +157,9 @@
     {
       "titre": "Dans l'ascenseur avec Carmen",
       "contexte": "Elisabeth croise sa voisine du deuxième, une dame très bavarde, un matin glacial.",
+      "duo": {
+        "contexte": "Khalil croise la voisine du deuxième, une dame très bavarde, un matin glacial."
+      },
       "lignes": [
         {
           "qui": "Carmen",
@@ -171,7 +174,11 @@
         {
           "qui": "Carmen",
           "es": "Sí, hija, y dicen que mañana va a llover.",
-          "fr": "Eh oui, ma petite, et il paraît qu'il va pleuvoir demain."
+          "fr": "Eh oui, ma petite, et il paraît qu'il va pleuvoir demain.",
+          "duo": {
+            "es": "Sí, hijo, y dicen que mañana va a llover.",
+            "fr": "Eh oui, mon petit, et il paraît qu'il va pleuvoir demain."
+          }
         },
         {
           "qui": "Elisabeth",
@@ -191,13 +198,20 @@
         {
           "qui": "Carmen",
           "es": "Igualmente, guapa. ¡Y abrígate!",
-          "fr": "Toi aussi, ma belle. Et couvre-toi bien !"
+          "fr": "Toi aussi, ma belle. Et couvre-toi bien !",
+          "duo": {
+            "es": "Igualmente, guapo. ¡Y abrígate!",
+            "fr": "Toi aussi, mon beau. Et couvre-toi bien !"
+          }
         }
       ]
     },
     {
       "titre": "La pause café avec Javier",
       "contexte": "Lundi matin, au travail. Javier, un collègue de Logroño, veut tout savoir du week-end d'Elisabeth.",
+      "duo": {
+        "contexte": "Lundi matin, au café. Javier, un ami d'Elisabeth, veut tout savoir du week-end de Khalil."
+      },
       "lignes": [
         {
           "qui": "Javier",
@@ -207,7 +221,11 @@
         {
           "qui": "Elisabeth",
           "es": "Muy bien. He ido a la Laurel con unas amigas.",
-          "fr": "Très bien. Je suis allée rue Laurel avec des amies."
+          "fr": "Très bien. Je suis allée rue Laurel avec des amies.",
+          "duo": {
+            "es": "Muy bien. He ido a la Laurel con unos amigos.",
+            "fr": "Très bien. Je suis allé rue Laurel avec des amis."
+          }
         },
         {
           "qui": "Javier",
@@ -222,7 +240,10 @@
         {
           "qui": "Javier",
           "es": "Pues tienes que ir. ¿Has ido alguna vez a San Mateo?",
-          "fr": "Alors il faut que tu y ailles. Tu es déjà allée aux fêtes de San Mateo ?"
+          "fr": "Alors il faut que tu y ailles. Tu es déjà allée aux fêtes de San Mateo ?",
+          "duo": {
+            "fr": "Alors il faut que tu y ailles. Tu es déjà allé aux fêtes de San Mateo ?"
+          }
         },
         {
           "qui": "Elisabeth",

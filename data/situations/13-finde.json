@@ -20,21 +20,30 @@
       "fr": "Je n'ai rien fait de spécial, je suis restée à la maison.",
       "pron": "no é É-tcho NA-da éss-pé-THYAL mé é ké-DA-do én KA-ssa",
       "note": "« Quedarse en casa », c'est rester chez soi. Réponse parfaite pour un week-end pyjama, aucune honte à avoir.",
-      "rapide": "No he hecho na' especial, m'he quedao en casa."
+      "rapide": "No he hecho na' especial, m'he quedao en casa.",
+      "duo": {
+        "fr": "Je n'ai rien fait de spécial, je suis resté à la maison."
+      }
     },
     {
       "id": "finde-03",
       "es": "El sábado por la mañana fui al mercado y luego di un paseo por el Espolón.",
       "fr": "Samedi matin, je suis allée au marché, puis je me suis promenée sur l'Espolón.",
       "pron": "él SA-ba-do por la ma-GNA-na FOUI al mér-KA-do i LOUÉ-go DI oun pa-SSÉ-o por él éss-po-LON",
-      "note": "« El sábado » est un moment fini et daté, donc passé simple : « fui », « di ». « Dar un paseo », c'est se promener."
+      "note": "« El sábado » est un moment fini et daté, donc passé simple : « fui », « di ». « Dar un paseo », c'est se promener.",
+      "duo": {
+        "fr": "Samedi matin, je suis allé au marché, puis je me suis promené sur l'Espolón."
+      }
     },
     {
       "id": "finde-04",
       "es": "Ayer estuve todo el día en casa porque llovía mucho.",
       "fr": "Hier, je suis restée toute la journée chez moi parce qu'il pleuvait beaucoup.",
       "pron": "a-YÉR éss-TOU-bé TO-do él DI-a én KA-ssa POR-ké yo-BI-a MOU-tcho",
-      "note": "« Estuve » raconte ce que tu as fait, « llovía » décrit le décor. Comme en français avec l'imparfait."
+      "note": "« Estuve » raconte ce que tu as fait, « llovía » décrit le décor. Comme en français avec l'imparfait.",
+      "duo": {
+        "fr": "Hier, je suis resté toute la journée chez moi parce qu'il pleuvait beaucoup."
+      }
     },
     {
       "id": "finde-05",
@@ -71,7 +80,13 @@
       "fr": "Je suis rentrée à trois heures du matin, du coup aujourd'hui je suis morte.",
       "pron": "yé-GUÉ a KA-ssa a lass TRÉSS dé la ma-GNA-na a-SSI ké OÏ éss-TOÏ MOUÉR-ta",
       "note": "« Así que », c'est « du coup » ou « donc ». Pour dire qu'on rentre chez soi, on dit simplement « llegar a casa ».",
-      "rapide": "Llegué a casa a las tres de la mañana, así que hoy 'toy muerta."
+      "rapide": "Llegué a casa a las tres de la mañana, así que hoy 'toy muerta.",
+      "duo": {
+        "es": "Llegué a casa a las tres de la mañana, así que hoy estoy muerto.",
+        "fr": "Je suis rentré à trois heures du matin, du coup aujourd'hui je suis mort.",
+        "pron": "yé-GUÉ a KA-ssa a lass TRÉSS dé la ma-GNA-na a-SSI ké OÏ éss-TOÏ MOUÉR-to",
+        "rapide": "Llegué a casa a las tres de la mañana, así que hoy 'toy muerto."
+      }
     },
     {
       "id": "finde-10",
@@ -92,7 +107,10 @@
       "es": "¿Lo pasaste bien?",
       "fr": "Tu t'es bien amusée ?",
       "pron": "lo pa-SSASS-té BYÉN",
-      "note": "« Pasarlo bien », c'est passer un bon moment. On le dit après une fête, un voyage, un mariage."
+      "note": "« Pasarlo bien », c'est passer un bon moment. On le dit après une fête, un voyage, un mariage.",
+      "duo": {
+        "fr": "Tu t'es bien amusé ?"
+      }
     },
     {
       "id": "finde-13",
@@ -114,21 +132,30 @@
       "fr": "Ce matin, je suis allée courir au parc.",
       "pron": "ÉSS-ta ma-GNA-na é I-do a ko-RRÉR por él PAR-ké",
       "note": "« Esta mañana » fait partie d'aujourd'hui, donc passé composé. Et en espagnol, « he » sert pour tous les verbes, même « ir ».",
-      "rapide": "'Sta mañana he ido a correr por el parque."
+      "rapide": "'Sta mañana he ido a correr por el parque.",
+      "duo": {
+        "fr": "Ce matin, je suis allé courir au parc."
+      }
     },
     {
       "id": "finde-16",
       "es": "Ya he estado en Haro, pero todavía no he ido a la Batalla del Vino.",
       "fr": "Je suis déjà allée à Haro, mais je ne suis pas encore allée à la Bataille du vin.",
       "pron": "YA é éss-TA-do én A-ro PÉ-ro to-da-BI-a no é I-do a la ba-TA-ya dél BI-no",
-      "note": "« Ya » et « todavía no » appellent le passé composé. La Batalla del Vino a lieu à Haro chaque année fin juin : prévois des vêtements que tu ne regretteras pas."
+      "note": "« Ya » et « todavía no » appellent le passé composé. La Batalla del Vino a lieu à Haro chaque année fin juin : prévois des vêtements que tu ne regretteras pas.",
+      "duo": {
+        "fr": "Je suis déjà allé à Haro, mais je ne suis pas encore allé à la Bataille du vin."
+      }
     },
     {
       "id": "finde-17",
       "es": "Anoche salí con los compañeros del trabajo.",
       "fr": "Hier soir, je suis sortie avec les collègues.",
       "pron": "a-NO-tché sa-LI kon loss kom-pa-GNÉ-ross dél tra-BA-kho",
-      "note": "« Anoche », c'est hier soir : comme « ayer », il demande le passé simple."
+      "note": "« Anoche », c'est hier soir : comme « ayer », il demande le passé simple.",
+      "duo": {
+        "fr": "Hier soir, je suis sorti avec les collègues."
+      }
     },
     {
       "id": "finde-18",
@@ -161,12 +188,19 @@
         {
           "qui": "Marta",
           "es": "¡Buenos días, Elisabeth! ¿Qué has hecho este finde?",
-          "fr": "Bonjour Elisabeth ! Qu'est-ce que tu as fait ce week-end ?"
+          "fr": "Bonjour Elisabeth ! Qu'est-ce que tu as fait ce week-end ?",
+          "duo": {
+            "es": "¡Buenos días, Khalil! ¿Qué has hecho este finde?",
+            "fr": "Bonjour Khalil ! Qu'est-ce que tu as fait ce week-end ?"
+          }
         },
         {
           "qui": "Elisabeth",
           "es": "El sábado por la mañana fui al mercado y luego di un paseo por el Espolón.",
-          "fr": "Samedi matin, je suis allée au marché, puis je me suis promenée sur l'Espolón."
+          "fr": "Samedi matin, je suis allée au marché, puis je me suis promenée sur l'Espolón.",
+          "duo": {
+            "fr": "Samedi matin, je suis allé au marché, puis je me suis promené sur l'Espolón."
+          }
         },
         {
           "qui": "Marta",
@@ -208,6 +242,9 @@
     {
       "titre": "Khalil raconte Bilbao",
       "contexte": "Khalil est venu te voir en Espagne. Au bar, Lucía lui demande des nouvelles de votre escapade à Bilbao.",
+      "duo": {
+        "contexte": "Tu es venu voir Elisabeth en Espagne. Au bar, Lucía te demande des nouvelles de votre escapade à Bilbao."
+      },
       "lignes": [
         {
           "qui": "Lucía",
@@ -284,7 +321,10 @@
     "exemples": [
       {
         "es": "Esta semana he ido dos veces al gimnasio.",
-        "fr": "Cette semaine, je suis allée deux fois à la salle de sport."
+        "fr": "Cette semaine, je suis allée deux fois à la salle de sport.",
+        "duo": {
+          "fr": "Cette semaine, je suis allé deux fois à la salle de sport."
+        }
       },
       {
         "es": "El sábado pasado fuimos al cine con Lucía.",
@@ -292,7 +332,11 @@
       },
       {
         "es": "Ayer comí con Marta y hoy he comido sola.",
-        "fr": "Hier, j'ai déjeuné avec Marta et aujourd'hui j'ai déjeuné seule."
+        "fr": "Hier, j'ai déjeuné avec Marta et aujourd'hui j'ai déjeuné seule.",
+        "duo": {
+          "es": "Ayer comí con Marta y hoy he comido solo.",
+          "fr": "Hier, j'ai déjeuné avec Marta et aujourd'hui j'ai déjeuné seul."
+        }
       }
     ]
   },
@@ -305,12 +349,19 @@
     {
       "es": "Pegarse un madrugón",
       "fr": "Se lever aux aurores",
-      "note": "« Me he pegado un madrugón » : je me suis levée très tôt. Se dit souvent avec un soupir."
+      "note": "« Me he pegado un madrugón » : je me suis levée très tôt. Se dit souvent avec un soupir.",
+      "duo": {
+        "note": "« Me he pegado un madrugón » : je me suis levé très tôt. Se dit souvent avec un soupir."
+      }
     },
     {
       "es": "Quedarse frita",
       "fr": "S'endormir comme une masse",
-      "note": "« Me quedé frita en el sofá » : le destin de beaucoup de films du samedi soir."
+      "note": "« Me quedé frita en el sofá » : le destin de beaucoup de films du samedi soir.",
+      "duo": {
+        "es": "Quedarse frito",
+        "note": "« Me quedé frito en el sofá » : le destin de beaucoup de films du samedi soir."
+      }
     },
     {
       "es": "Salir de fiesta",

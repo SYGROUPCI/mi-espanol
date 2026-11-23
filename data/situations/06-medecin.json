@@ -54,7 +54,13 @@
       "fr": "J'ai un peu la tête qui tourne.",
       "pron": "éss-TOÏ oun PO-ko ma-ré-A-da",
       "note": "« Mareada » sert aussi pour le mal de mer ou de voiture. Au féminin, avec un a.",
-      "rapide": "'Toy un poco mareada."
+      "rapide": "'Toy un poco mareada.",
+      "duo": {
+        "es": "Estoy un poco mareado.",
+        "pron": "éss-TOÏ oun PO-ko ma-ré-A-do",
+        "rapide": "'Toy un poco mareado.",
+        "note": "« Mareado » sert aussi pour le mal de mer ou de voiture. Au masculin, avec un o."
+      }
     },
     {
       "id": "medecin-08",
@@ -68,7 +74,12 @@
       "es": "Estoy muy cansada últimamente.",
       "fr": "Je suis très fatiguée ces derniers temps.",
       "pron": "éss-TOÏ MOUÏ kan-SA-da OUL-ti-ma-MÉN-té",
-      "note": "« Últimamente » ne veut pas dire ultimement, mais ces derniers temps. Un faux ami de plus."
+      "note": "« Últimamente » ne veut pas dire ultimement, mais ces derniers temps. Un faux ami de plus.",
+      "duo": {
+        "es": "Estoy muy cansado últimamente.",
+        "fr": "Je suis très fatigué ces derniers temps.",
+        "pron": "éss-TOÏ MOUÏ kan-SA-do OUL-ti-ma-MÉN-té"
+      }
     },
     {
       "id": "medecin-10",
@@ -83,7 +94,13 @@
       "es": "Creo que estoy resfriada.",
       "fr": "Je crois que je suis enrhumée.",
       "pron": "KRÉ-o ké éss-TOÏ rréss-FRYA-da",
-      "note": "Pour un rhume, on dit aussi « tengo un catarro » ou « estoy acatarrada »."
+      "note": "Pour un rhume, on dit aussi « tengo un catarro » ou « estoy acatarrada ».",
+      "duo": {
+        "es": "Creo que estoy resfriado.",
+        "fr": "Je crois que je suis enrhumé.",
+        "pron": "KRÉ-o ké éss-TOÏ rréss-FRYA-do",
+        "note": "Pour un rhume, on dit aussi « tengo un catarro » ou « estoy acatarrado »."
+      }
     },
     {
       "id": "medecin-12",
@@ -119,7 +136,12 @@
       "es": "Soy alérgica a la penicilina.",
       "fr": "Je suis allergique à la pénicilline.",
       "pron": "SOÏ a-LÉR-khi-ka a la pé-ni-thi-LI-na",
-      "note": "Remplace « la penicilina » par ce qui te concerne. Au féminin : alérgica."
+      "note": "Remplace « la penicilina » par ce qui te concerne. Au féminin : alérgica.",
+      "duo": {
+        "es": "Soy alérgico a la penicilina.",
+        "pron": "SOÏ a-LÉR-khi-ko a la pé-ni-thi-LI-na",
+        "note": "Remplace « la penicilina » par ce qui te concerne. Au masculin : alérgico."
+      }
     },
     {
       "id": "medecin-17",
@@ -156,6 +178,7 @@
     {
       "titre": "Au téléphone avec le centro de salud",
       "contexte": "Elisabeth a de la fièvre et appelle son centre de santé. La dame à l'accueil parle très vite.",
+      "duo": { "contexte": "Khalil a de la fièvre et appelle le centre de santé. La dame à l'accueil parle très vite." },
       "lignes": [
         { "qui": "Administrativa", "es": "Centro de salud, ¿dígame?", "fr": "Centre de santé, j'écoute ?" },
         { "qui": "Elisabeth", "es": "Hola, buenos días. Quería pedir cita con mi médico.", "fr": "Bonjour. Je voudrais prendre rendez-vous avec mon médecin." },
@@ -172,13 +195,14 @@
     {
       "titre": "À la pharmacie",
       "contexte": "Quelques jours plus tard, Elisabeth tousse encore et passe à la pharmacie en bas de chez elle.",
+      "duo": { "contexte": "Quelques jours plus tard, Khalil tousse encore et passe à la pharmacie en bas de chez Elisabeth." },
       "lignes": [
         { "qui": "Farmacéutica", "es": "Hola, ¿qué querías?", "fr": "Bonjour, qu'est-ce qu'il te fallait ?" },
         { "qui": "Elisabeth", "es": "Hola. ¿Tiene algo para la tos?", "fr": "Bonjour. Vous avez quelque chose contre la toux ?" },
         { "qui": "Farmacéutica", "es": "¿Es tos seca o con flemas?", "fr": "C'est une toux sèche ou grasse ?" },
-        { "qui": "Elisabeth", "es": "Seca. Y estoy un poco mareada.", "fr": "Sèche. Et j'ai un peu la tête qui tourne." },
+        { "qui": "Elisabeth", "es": "Seca. Y estoy un poco mareada.", "fr": "Sèche. Et j'ai un peu la tête qui tourne.", "duo": { "es": "Seca. Y estoy un poco mareado." } },
         { "qui": "Farmacéutica", "es": "¿Tienes fiebre?", "fr": "Tu as de la fièvre ?" },
-        { "qui": "Elisabeth", "es": "No, pero estoy muy cansada. ¿Hace falta receta?", "fr": "Non, mais je suis très fatiguée. Il faut une ordonnance ?" },
+        { "qui": "Elisabeth", "es": "No, pero estoy muy cansada. ¿Hace falta receta?", "fr": "Non, mais je suis très fatiguée. Il faut une ordonnance ?", "duo": { "es": "No, pero estoy muy cansado. ¿Hace falta receta?", "fr": "Non, mais je suis très fatigué. Il faut une ordonnance ?" } },
         { "qui": "Farmacéutica", "es": "No, no hace falta. Te doy este jarabe: tómalo cada ocho horas.", "fr": "Non, pas besoin. Je te donne ce sirop : prends-le toutes les huit heures." },
         { "qui": "Farmacéutica", "es": "Y si no mejoras, vuelve al médico. ¡Que te mejores!", "fr": "Et si ça ne va pas mieux, retourne voir le médecin. Bon rétablissement !" }
       ]
@@ -203,9 +227,9 @@
   },
   "expressions": [
     { "es": "¡Que te mejores!", "fr": "Bon rétablissement !", "note": "Ce qu'on te dira partout. À dire aussi aux autres, bien sûr." },
-    { "es": "Estoy hecha polvo.", "fr": "Je suis crevée.", "note": "Mot à mot, réduite en poussière. Au féminin : hecha." },
+    { "es": "Estoy hecha polvo.", "fr": "Je suis crevée.", "note": "Mot à mot, réduite en poussière. Au féminin : hecha.", "duo": { "es": "Estoy hecho polvo.", "fr": "Je suis crevé.", "note": "Mot à mot, réduit en poussière. Au masculin : hecho." } },
     { "es": "Estoy pachucha.", "fr": "Je suis patraque.", "note": "Pas vraiment malade, pas vraiment en forme. Un mot très doux." },
-    { "es": "Me he puesto mala.", "fr": "Je suis tombée malade.", "note": "Au féminin : mala. Un homme dirait « me he puesto malo »." },
+    { "es": "Me he puesto mala.", "fr": "Je suis tombée malade.", "note": "Au féminin : mala. Un homme dirait « me he puesto malo ».", "duo": { "es": "Me he puesto malo.", "fr": "Je suis tombé malade.", "note": "Au masculin : malo. Une femme dirait « me he puesto mala »." } },
     { "es": "Estar de baja", "fr": "Être en arrêt maladie", "note": "« Estoy de baja esta semana » : pratique pour prévenir au travail." },
     { "es": "No es nada.", "fr": "Ce n'est rien.", "note": "Ce que dit le médecin quand il n'y a vraiment pas de quoi s'inquiéter." }
   ]

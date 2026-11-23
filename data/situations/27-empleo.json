@@ -1,0 +1,389 @@
+{
+  "id": "empleo",
+  "ordre": 27,
+  "niveau": "B1",
+  "titre": "Décrocher un emploi",
+  "titre_es": "Buscar empleo",
+  "intro": "Ton expérience vaut de l'or, encore faut-il savoir la raconter. Ici, tu apprends à présenter ton parcours, à parler de tes qualités sans rougir et de tes défauts sans te saboter, puis à négocier tes horaires avant de signer.",
+  "phrases": [
+    {
+      "id": "empleo-01",
+      "es": "En Conakry trabajaba en una tienda de ropa y llevaba la caja.",
+      "fr": "À Conakry, je travaillais dans un magasin de vêtements et je tenais la caisse.",
+      "pron": "én ko-NA-kri tra-ba-KHA-ba én OU-na TYÉN-da dé RRO-pa i yé-BA-ba la KA-kha",
+      "note": "L'imperfecto décrit ce que tu faisais d'habitude, le décor de ta vie d'avant. « Llevar la caja », c'est tenir la caisse.",
+      "duo": {
+        "es": "En Abiyán trabajaba en una tienda de ropa y llevaba la caja.",
+        "fr": "À Abidjan, je travaillais dans un magasin de vêtements et je tenais la caisse.",
+        "pron": "én a-bi-YAN tra-ba-KHA-ba én OU-na TYÉN-da dé RRO-pa i yé-BA-ba la KA-kha"
+      }
+    },
+    {
+      "id": "empleo-02",
+      "es": "Durante dos años fui responsable de un equipo de cinco personas.",
+      "fr": "Pendant deux ans, j'ai été responsable d'une équipe de cinq personnes.",
+      "pron": "dou-RAN-té DOSS A-gnoss FOUI rréss-pon-SSA-blé dé oun é-KI-po dé THIN-ko pér-SSO-nass",
+      "note": "Une période fermée, avec une durée précise : indefinido, même si elle a duré deux ans.",
+      "rapide": "Durante dos años fui responsable d'un equipo de cinco personas."
+    },
+    {
+      "id": "empleo-03",
+      "es": "Cuando llegué a España, no hablaba nada de español.",
+      "fr": "Quand je suis arrivée en Espagne, je ne parlais pas du tout espagnol.",
+      "pron": "KOUAN-do yé-GUÉ a éss-PA-gna no a-BLA-ba NA-da dé éss-pa-GNOL",
+      "note": "Le duo classique : « llegué » est l'événement, « no hablaba » la situation à ce moment-là.",
+      "rapide": "Cuando llegué a España, no hablaba na' de español.",
+      "duo": {
+        "fr": "Quand je suis arrivé en Espagne, je ne parlais pas du tout espagnol."
+      }
+    },
+    {
+      "id": "empleo-04",
+      "es": "Empecé limpiando casas y poco a poco encontré trabajos mejores.",
+      "fr": "J'ai commencé par faire des ménages et petit à petit j'ai trouvé de meilleurs emplois.",
+      "pron": "ém-pé-THÉ lim-PYAN-do KA-ssass i PO-ko a PO-ko én-kon-TRÉ tra-BA-khoss mé-KHO-réss",
+      "note": "« Empezar » + gérondif : commencer en faisant quelque chose. Aucune honte à raconter ses débuts, ça montre que tu sais te battre."
+    },
+    {
+      "id": "empleo-05",
+      "es": "Me fui de mi último trabajo porque se terminó el contrato.",
+      "fr": "J'ai quitté mon dernier emploi parce que mon contrat est arrivé à son terme.",
+      "pron": "mé FOUI dé mi OUL-ti-mo tra-BA-kho POR-ké sé tér-mi-NO él kon-TRA-to",
+      "note": "La question piège de l'entretien : pourquoi êtes-vous partie ? Une raison simple et neutre suffit, sans critiquer l'ancien patron.",
+      "duo": {
+        "note": "La question piège de l'entretien : pourquoi êtes-vous parti ? Une raison simple et neutre suffit, sans critiquer l'ancien patron."
+      }
+    },
+    {
+      "id": "empleo-06",
+      "es": "Mientras estudiaba español, hacía prácticas en una residencia de mayores.",
+      "fr": "Pendant que j'étudiais l'espagnol, je faisais un stage dans une maison de retraite.",
+      "pron": "MYÉN-trass éss-tou-DYA-ba éss-pa-GNOL a-THI-a PRAK-ti-kass én OU-na rré-ssi-DÉN-thya dé ma-YO-réss",
+      "note": "« Mientras » + imperfecto pour deux actions qui se déroulent en même temps. « Hacer prácticas », c'est faire un stage."
+    },
+    {
+      "id": "empleo-07",
+      "es": "Lo que más me gustaba de ese trabajo era el trato con la gente.",
+      "fr": "Ce que j'aimais le plus dans ce travail, c'était le contact avec les gens.",
+      "pron": "lo ké MASS mé gouss-TA-ba dé É-ssé tra-BA-kho É-ra él TRA-to kon la KHÉN-té",
+      "note": "« El trato con la gente » : la formule qui plaît aux recruteurs, surtout dans le commerce et l'hôtellerie.",
+      "rapide": "Lo que más me gustaba d'ese trabajo era el trato con la gente."
+    },
+    {
+      "id": "empleo-08",
+      "es": "Soy muy responsable y aprendo rápido.",
+      "fr": "Je suis très sérieuse et j'apprends vite.",
+      "pron": "SOÏ MOUÏ rréss-pon-SSA-blé i a-PRÉN-do RRA-pi-do",
+      "note": "« Responsable » se traduit souvent par « sérieux » : quelqu'un sur qui on peut compter. Le mot est le même au masculin et au féminin.",
+      "duo": {
+        "fr": "Je suis très sérieux et j'apprends vite."
+      }
+    },
+    {
+      "id": "empleo-09",
+      "es": "Mi punto débil es que a veces soy demasiado perfeccionista.",
+      "fr": "Mon point faible, c'est que je suis parfois trop perfectionniste.",
+      "pron": "mi POUN-to DÉ-bil ÉSS ké a BÉ-théss SOÏ dé-ma-SSYA-do pér-fék-thyo-NISS-ta",
+      "note": "La réponse classique à « ¿Cuál es su mayor defecto? ». Un peu attendue, mais elle marche, surtout avec un exemple concret."
+    },
+    {
+      "id": "empleo-10",
+      "es": "Me cuesta delegar, pero estoy aprendiendo a pedir ayuda.",
+      "fr": "J'ai du mal à déléguer, mais j'apprends à demander de l'aide.",
+      "pron": "mé KOUÉSS-ta dé-lé-GAR PÉ-ro éss-TOÏ a-prén-DYÉN-do a pé-DIR a-YOU-da",
+      "note": "« Me cuesta » + infinitif : j'ai du mal à. Un défaut accompagné de sa solution, c'est la meilleure réponse possible.",
+      "rapide": "Me cuesta delegar, pero 'toy aprendiendo a pedir ayuda."
+    },
+    {
+      "id": "empleo-11",
+      "es": "En mi anterior empresa me encargaba de los pedidos y del almacén.",
+      "fr": "Dans mon entreprise précédente, je m'occupais des commandes et de l'entrepôt.",
+      "pron": "én mi an-té-RYOR ém-PRÉ-ssa mé én-kar-GA-ba dé loss pé-DI-doss i dél al-ma-THÉN",
+      "note": "« Encargarse de », s'occuper de : le verbe idéal pour décrire tes tâches. À l'imperfecto, puisque c'était ton quotidien."
+    },
+    {
+      "id": "empleo-12",
+      "es": "¿Sería posible trabajar solo por las mañanas?",
+      "fr": "Est-ce qu'il serait possible de travailler seulement le matin ?",
+      "pron": "sé-RI-a po-SSI-blé tra-ba-KHAR SO-lo por lass ma-GNA-nass",
+      "note": "Le conditionnel pour négocier en douceur. On propose avant d'exiger."
+    },
+    {
+      "id": "empleo-13",
+      "es": "Tengo flexibilidad, pero los domingos preferiría no trabajar.",
+      "fr": "Je suis flexible, mais le dimanche je préférerais ne pas travailler.",
+      "pron": "TÉN-go flék-ssi-bi-li-DAD PÉ-ro loss do-MIN-goss pré-fé-ri-RI-a no tra-ba-KHAR",
+      "note": "D'abord montrer de la souplesse, ensuite poser une limite. « Preferiría » adoucit beaucoup la demande."
+    },
+    {
+      "id": "empleo-14",
+      "es": "¿Cuánto dura el periodo de prueba?",
+      "fr": "Combien de temps dure la période d'essai ?",
+      "pron": "KOUAN-to DOU-ra él pé-RI-o-do dé PROUÉ-ba",
+      "note": "Sa durée dépend du contrat et de la convention collective du secteur : demande-la avant de signer."
+    },
+    {
+      "id": "empleo-15",
+      "es": "¿Qué convenio tiene la empresa?",
+      "fr": "Quelle convention collective applique l'entreprise ?",
+      "pron": "KÉ kon-BÉ-nyo TYÉ-né la ém-PRÉ-ssa",
+      "note": "« El convenio » fixe le salaire minimum du secteur, les congés et les primes. Celui de ton métier se trouve en ligne."
+    },
+    {
+      "id": "empleo-16",
+      "es": "¿Las horas extra se pagan o se compensan con días libres?",
+      "fr": "Les heures supplémentaires sont payées ou récupérées en jours de repos ?",
+      "pron": "lass O-rass ÉKS-tra sé PA-gan o sé kom-PÉN-ssan kon DI-ass LI-bréss",
+      "note": "Une question tout à fait légitime : les heures sup doivent être payées ou récupérées. Mieux vaut le savoir dès le début."
+    },
+    {
+      "id": "empleo-17",
+      "es": "Antes de firmar, ¿me deja leer el contrato con calma?",
+      "fr": "Avant de signer, vous me laissez lire le contrat tranquillement ?",
+      "pron": "AN-téss dé fir-MAR mé DÉ-kha lé-ÉR él kon-TRA-to kon KAL-ma",
+      "note": "Une demande tout à fait normale. Une entreprise sérieuse ne te fera jamais signer à toute vitesse."
+    },
+    {
+      "id": "empleo-18",
+      "es": "Me llamaron ayer para decirme que el puesto es mío.",
+      "fr": "Ils m'ont appelée hier pour me dire que le poste est pour moi.",
+      "pron": "mé ya-MA-ron a-YÉR PA-ra dé-THIR-mé ké él POUÉSS-to ÉSS MI-o",
+      "note": "« El puesto », c'est le poste. « Es mío », il est à moi : la phrase qu'on rêve de dire.",
+      "rapide": "Me llamaron ayer pa' decirme que el puesto es mío.",
+      "duo": {
+        "fr": "Ils m'ont appelé hier pour me dire que le poste est pour moi."
+      }
+    },
+    {
+      "id": "empleo-19",
+      "es": "Estaba muy nerviosa, pero creo que la entrevista salió bien.",
+      "fr": "J'étais très stressée, mais je crois que l'entretien s'est bien passé.",
+      "pron": "éss-TA-ba MOUÏ nér-BYO-ssa PÉ-ro KRÉ-o ké la én-tré-BISS-ta sa-LYO BYÉN",
+      "note": "« Estaba nerviosa » décrit ton état, « salió bien » donne le résultat : imperfecto puis indefinido.",
+      "rapide": "'Taba muy nerviosa, pero creo que la entrevista salió bien.",
+      "duo": {
+        "es": "Estaba muy nervioso, pero creo que la entrevista salió bien.",
+        "fr": "J'étais très stressé, mais je crois que l'entretien s'est bien passé.",
+        "pron": "éss-TA-ba MOUÏ nér-BYO-sso PÉ-ro KRÉ-o ké la én-tré-BISS-ta sa-LYO BYÉN",
+        "note": "« Estaba nervioso » décrit ton état, « salió bien » donne le résultat : imperfecto puis indefinido.",
+        "rapide": "'Taba muy nervioso, pero creo que la entrevista salió bien."
+      }
+    },
+    {
+      "id": "empleo-20",
+      "es": "Me gustaría crecer en la empresa y aprender cosas nuevas.",
+      "fr": "J'aimerais évoluer dans l'entreprise et apprendre de nouvelles choses.",
+      "pron": "mé gouss-ta-RI-a kré-THÉR én la ém-PRÉ-ssa i a-prén-DÉR KO-ssass NOUÉ-bass",
+      "note": "La réponse à « ¿Dónde se ve dentro de cinco años? ». Elle montre que tu veux rester et progresser."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Le deuxième entretien",
+      "contexte": "Un supermarché de Logroño te rappelle pour un second entretien, cette fois avec la responsable des ressources humaines.",
+      "lignes": [
+        {
+          "qui": "Responsable",
+          "es": "Cuénteme un poco su trayectoria.",
+          "fr": "Parlez-moi un peu de votre parcours."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "En Conakry trabajaba en una tienda de ropa y llevaba la caja. Durante dos años fui responsable de un equipo de cinco personas.",
+          "fr": "À Conakry, je travaillais dans un magasin de vêtements et je tenais la caisse. Pendant deux ans, j'ai été responsable d'une équipe de cinq personnes.",
+          "duo": {
+            "es": "En Abiyán trabajaba en una tienda de ropa y llevaba la caja. Durante dos años fui responsable de un equipo de cinco personas.",
+            "fr": "À Abidjan, je travaillais dans un magasin de vêtements et je tenais la caisse. Pendant deux ans, j'ai été responsable d'une équipe de cinq personnes."
+          }
+        },
+        {
+          "qui": "Responsable",
+          "es": "¿Y cuando llegó a España?",
+          "fr": "Et quand vous êtes arrivée en Espagne ?",
+          "duo": {
+            "fr": "Et quand vous êtes arrivé en Espagne ?"
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Cuando llegué, no hablaba nada de español. Empecé limpiando casas y poco a poco encontré trabajos mejores.",
+          "fr": "Quand je suis arrivée, je ne parlais pas du tout espagnol. J'ai commencé par faire des ménages et petit à petit j'ai trouvé de meilleurs emplois.",
+          "duo": {
+            "fr": "Quand je suis arrivé, je ne parlais pas du tout espagnol. J'ai commencé par faire des ménages et petit à petit j'ai trouvé de meilleurs emplois."
+          }
+        },
+        {
+          "qui": "Responsable",
+          "es": "¿Cuál es su mayor defecto?",
+          "fr": "Quel est votre plus gros défaut ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Me cuesta delegar, pero estoy aprendiendo a pedir ayuda.",
+          "fr": "J'ai du mal à déléguer, mais j'apprends à demander de l'aide."
+        },
+        {
+          "qui": "Responsable",
+          "es": "Muy bien. El puesto es de lunes a sábado, con turnos rotativos.",
+          "fr": "Très bien. Le poste est du lundi au samedi, avec des horaires tournants."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Tengo flexibilidad. ¿Cuánto dura el periodo de prueba?",
+          "fr": "Je suis flexible. Combien de temps dure la période d'essai ?"
+        },
+        {
+          "qui": "Responsable",
+          "es": "Un mes. Si todo va bien, la llamamos la semana que viene.",
+          "fr": "Un mois. Si tout va bien, on vous appelle la semaine prochaine.",
+          "duo": {
+            "es": "Un mes. Si todo va bien, le llamamos la semana que viene."
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Perfecto. Me gustaría crecer en la empresa y aprender cosas nuevas.",
+          "fr": "Parfait. J'aimerais évoluer dans l'entreprise et apprendre de nouvelles choses."
+        }
+      ]
+    },
+    {
+      "titre": "La bonne nouvelle",
+      "contexte": "Tu croises Carmen, ta voisine, dans l'escalier. Elle veut tout savoir de ton entretien.",
+      "lignes": [
+        {
+          "qui": "Carmen",
+          "es": "¿Qué tal la entrevista? ¡Cuéntame!",
+          "fr": "Alors, cet entretien ? Raconte !"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Estaba muy nerviosa, pero salió bien. Me llamaron ayer para decirme que el puesto es mío.",
+          "fr": "J'étais très stressée, mais ça s'est bien passé. Ils m'ont appelée hier pour me dire que le poste est pour moi.",
+          "duo": {
+            "es": "Estaba muy nervioso, pero salió bien. Me llamaron ayer para decirme que el puesto es mío.",
+            "fr": "J'étais très stressé, mais ça s'est bien passé. Ils m'ont appelé hier pour me dire que le poste est pour moi."
+          }
+        },
+        {
+          "qui": "Carmen",
+          "es": "¡Enhorabuena! ¿Y ya has firmado?",
+          "fr": "Félicitations ! Et tu as déjà signé ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Todavía no. Antes de firmar, quiero leer el contrato con calma.",
+          "fr": "Pas encore. Avant de signer, je veux lire le contrat tranquillement."
+        },
+        {
+          "qui": "Carmen",
+          "es": "Haces bien. Pregunta qué convenio tiene la empresa y si las horas extra se pagan.",
+          "fr": "Tu as raison. Demande quelle convention collective applique l'entreprise et si les heures sup sont payées."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Ya lo pregunté en la entrevista: se compensan con días libres.",
+          "fr": "Je l'ai déjà demandé pendant l'entretien : elles sont récupérées en jours de repos."
+        },
+        {
+          "qui": "Carmen",
+          "es": "¿Y el horario?",
+          "fr": "Et les horaires ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Lo negocié un poco: los domingos no trabajo.",
+          "fr": "Je les ai un peu négociés : le dimanche, je ne travaille pas."
+        },
+        {
+          "qui": "Carmen",
+          "es": "¡Qué bien! Esto hay que celebrarlo.",
+          "fr": "Génial ! Ça se fête."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Raconter son parcours : imperfecto et indefinido",
+    "explication": "Pour raconter ton parcours, l'imperfecto pose le décor : ce que tu faisais d'habitude, comment c'était, comment tu te sentais (trabajaba, era, estaba). L'indefinido raconte les étapes : ce qui est arrivé une fois, ou pendant une durée fermée (llegué, empecé, fui responsable durante dos años). Une astuce : si tu peux ajouter « d'habitude » ou « à l'époque », c'est l'imperfecto ; si tu peux ajouter « un jour » ou « pendant deux ans », c'est l'indefinido.",
+    "tableau": [
+      [
+        "yo",
+        "imperfecto / indefinido"
+      ],
+      [
+        "trabajar",
+        "trabajaba / trabajé"
+      ],
+      [
+        "tener",
+        "tenía / tuve"
+      ],
+      [
+        "ser",
+        "era / fui"
+      ],
+      [
+        "estar",
+        "estaba / estuve"
+      ],
+      [
+        "empezar",
+        "empezaba / empecé"
+      ]
+    ],
+    "exemples": [
+      {
+        "es": "Cuando vivía en Conakry, trabajaba en un hotel.",
+        "fr": "Quand je vivais à Conakry, je travaillais dans un hôtel.",
+        "duo": {
+          "es": "Cuando vivía en Abiyán, trabajaba en un hotel.",
+          "fr": "Quand je vivais à Abidjan, je travaillais dans un hôtel."
+        }
+      },
+      {
+        "es": "En 2022 hice un curso de cocina y me encantó.",
+        "fr": "En 2022, j'ai suivi une formation en cuisine et j'ai adoré."
+      },
+      {
+        "es": "Tenía un buen sueldo, pero un día la empresa cerró.",
+        "fr": "J'avais un bon salaire, mais un jour l'entreprise a fermé."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Buscarse la vida",
+      "fr": "Se débrouiller",
+      "note": "« Me he buscado la vida » : je me suis débrouillée toute seule. Un compliment en Espagne, pas un reproche.",
+      "duo": {
+        "note": "« Me he buscado la vida » : je me suis débrouillé tout seul. Un compliment en Espagne, pas un reproche."
+      }
+    },
+    {
+      "es": "Tener don de gentes",
+      "fr": "Avoir le contact facile",
+      "note": "Savoir mettre les gens à l'aise, clients comme collègues. Une qualité que les recruteurs adorent entendre."
+    },
+    {
+      "es": "Tener mano izquierda",
+      "fr": "Avoir du tact",
+      "note": "La qualité de ceux qui savent gérer les clients difficiles et les collègues susceptibles. À glisser en entretien."
+    },
+    {
+      "es": "Ser una máquina",
+      "fr": "Être une bête de travail",
+      "note": "« Esta chica es una máquina » : un vrai compliment, pour quelqu'un d'efficace et infatigable."
+    },
+    {
+      "es": "Estar en paro",
+      "fr": "Être au chômage",
+      "note": "On s'inscrit au paro auprès du service public de l'emploi. « Cobrar el paro », c'est toucher les allocations."
+    },
+    {
+      "es": "Empezar con buen pie",
+      "fr": "Bien démarrer",
+      "note": "Ce qu'on souhaite à quelqu'un pour son premier jour : « ¡Que empieces con buen pie! »."
+    }
+  ]
+}

@@ -113,7 +113,10 @@
       "es": "Sinceramente, no me ha convencido.",
       "fr": "Franchement, ça ne m'a pas convaincue.",
       "pron": "sin-thé-ra-MÉN-té no mé a kon-bén-THI-do",
-      "note": "Une façon polie de dire qu'on n'a pas aimé. Plus doux que « no me ha gustado nada »."
+      "note": "Une façon polie de dire qu'on n'a pas aimé. Plus doux que « no me ha gustado nada ».",
+      "duo": {
+        "fr": "Franchement, ça ne m'a pas convaincu."
+      }
     },
     {
       "id": "opiniones-16",
@@ -157,6 +160,9 @@
     {
       "titre": "À la sortie du cinéma",
       "contexte": "Pendant sa visite à Logroño, Khalil et toi sortez du cinéma. Il a adoré, toi un peu moins.",
+      "duo": {
+        "contexte": "Pendant ta visite à Logroño, Elisabeth et toi sortez du cinéma. Tu as adoré, elle un peu moins."
+      },
       "lignes": [
         {
           "qui": "Khalil",
@@ -166,7 +172,10 @@
         {
           "qui": "Elisabeth",
           "es": "Me ha gustado mucho, aunque es un poco larga.",
-          "fr": "Ça m'a beaucoup plu, même s'il est un peu long."
+          "fr": "Ça m'a beaucoup plu, même s'il est un peu long.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Khalil",
@@ -176,7 +185,10 @@
         {
           "qui": "Elisabeth",
           "es": "Bueno, depende. Me parece que el final es un poco flojo.",
-          "fr": "Bon, ça dépend. Je trouve que la fin est un peu faible."
+          "fr": "Bon, ça dépend. Je trouve que la fin est un peu faible.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Khalil",
@@ -186,7 +198,10 @@
         {
           "qui": "Elisabeth",
           "es": "Ya, pero el actor principal no es tan bueno como en su película anterior.",
-          "fr": "Oui, mais l'acteur principal n'est pas aussi bon que dans son film précédent."
+          "fr": "Oui, mais l'acteur principal n'est pas aussi bon que dans son film précédent.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Khalil",
@@ -196,7 +211,10 @@
         {
           "qui": "Elisabeth",
           "es": "Bueno, cada uno tiene sus gustos. ¿Vamos a cenar?",
-          "fr": "Bon, chacun ses goûts. On va dîner ?"
+          "fr": "Bon, chacun ses goûts. On va dîner ?",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         }
       ]
     },
@@ -207,7 +225,11 @@
         {
           "qui": "Marta",
           "es": "Elisabeth, ¿qué tal la tortilla? La he hecho yo.",
-          "fr": "Elisabeth, elle est comment l'omelette ? C'est moi qui l'ai faite."
+          "fr": "Elisabeth, elle est comment l'omelette ? C'est moi qui l'ai faite.",
+          "duo": {
+            "es": "Khalil, ¿qué tal la tortilla? La he hecho yo.",
+            "fr": "Khalil, elle est comment l'omelette ? C'est moi qui l'ai faite."
+          }
         },
         {
           "qui": "Elisabeth",
@@ -217,12 +239,20 @@
         {
           "qui": "Marta",
           "es": "Gracias. ¿Y te gusta vivir aquí? ¿Tú qué opinas de Logroño?",
-          "fr": "Merci. Et ça te plaît de vivre ici ? Tu en penses quoi, de Logroño ?"
+          "fr": "Merci. Et ça te plaît de vivre ici ? Tu en penses quoi, de Logroño ?",
+          "duo": {
+            "es": "Gracias. ¿Y te gustaría vivir aquí? ¿Tú qué opinas de Logroño?",
+            "fr": "Merci. Et ça te plairait de vivre ici ? Tu en penses quoi, de Logroño ?"
+          }
         },
         {
           "qui": "Elisabeth",
           "es": "Me gusta mucho. Es más pequeño que Conakri y mucho más tranquilo.",
-          "fr": "Ça me plaît beaucoup. C'est plus petit que Conakry et beaucoup plus calme."
+          "fr": "Ça me plaît beaucoup. C'est plus petit que Conakry et beaucoup plus calme.",
+          "duo": {
+            "es": "Me gusta mucho. Es más pequeño que Abiyán y mucho más tranquilo.",
+            "fr": "Ça me plaît beaucoup. C'est plus petit qu'Abidjan et beaucoup plus calme."
+          }
         },
         {
           "qui": "Marta",
@@ -290,7 +320,11 @@
       },
       {
         "es": "Estoy de acuerdo con Khalil: este restaurante es peor que el otro.",
-        "fr": "Je suis d'accord avec Khalil : ce restaurant est moins bien que l'autre."
+        "fr": "Je suis d'accord avec Khalil : ce restaurant est moins bien que l'autre.",
+        "duo": {
+          "es": "Estoy de acuerdo con Elisabeth: este restaurante es peor que el otro.",
+          "fr": "Je suis d'accord avec Elisabeth : ce restaurant est moins bien que l'autre."
+        }
       }
     ]
   },

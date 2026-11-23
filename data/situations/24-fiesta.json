@@ -49,7 +49,12 @@
       "es": "Yo me encargo de la tortilla y Khalil trae el postre.",
       "fr": "Moi, je m'occupe de la tortilla et Khalil apporte le dessert.",
       "pron": "YO mé én-KAR-go dé la tor-TI-ya i ka-LIL TRA-é él POSS-tré",
-      "note": "« Encargarse de » : s'occuper de. Répartir les plats à l'avance, c'est éviter trois tortillas et zéro dessert."
+      "note": "« Encargarse de » : s'occuper de. Répartir les plats à l'avance, c'est éviter trois tortillas et zéro dessert.",
+      "duo": {
+        "es": "Yo me encargo del postre y Elisabeth hace la tortilla.",
+        "fr": "Moi, je m'occupe du dessert et Elisabeth fait la tortilla.",
+        "pron": "YO mé én-KAR-go dél POSS-tré i é-li-ssa-BÉT A-thé la tor-TI-ya"
+      }
     },
     {
       "id": "fiesta-07",
@@ -92,7 +97,12 @@
       "es": "¡Chinchín! Por Khalil y por muchos años más.",
       "fr": "Tchin-tchin ! À Khalil, et à encore beaucoup d'années !",
       "pron": "tchin-TCHIN por ka-LIL i por MOU-tchoss A-gnoss MASS",
-      "note": "Pour porter un toast : « por » + la personne ou la chose. « ¡Por nosotros! », à nous !"
+      "note": "Pour porter un toast : « por » + la personne ou la chose. « ¡Por nosotros! », à nous !",
+      "duo": {
+        "es": "¡Chinchín! Por Elisabeth y por muchos años más.",
+        "fr": "Tchin-tchin ! À Elisabeth, et à encore beaucoup d'années !",
+        "pron": "tchin-TCHIN por é-li-ssa-BÉT i por MOU-tchoss A-gnoss MASS"
+      }
     },
     {
       "id": "fiesta-13",
@@ -136,7 +146,10 @@
       "es": "Me lo he pasado muy bien. Gracias por invitarme.",
       "fr": "J'ai passé un très bon moment. Merci de m'avoir invitée.",
       "pron": "mé lo é pa-SSA-do MOUÏ BYÉN GRA-thyass por in-bi-TAR-mé",
-      "note": "Avec « me », c'est la version personnelle. Le lendemain, un petit message qui le répète fait toujours plaisir."
+      "note": "Avec « me », c'est la version personnelle. Le lendemain, un petit message qui le répète fait toujours plaisir.",
+      "duo": {
+        "fr": "J'ai passé un très bon moment. Merci de m'avoir invité."
+      }
     },
     {
       "id": "fiesta-19",
@@ -150,18 +163,28 @@
       "es": "¿Os ayudo a recoger antes de irme?",
       "fr": "Je vous aide à ranger avant de partir ?",
       "pron": "oss a-YOU-do a rré-ko-KHÉR AN-téss dé IR-mé",
-      "note": "« Recoger », c'est ranger après la fête. La proposition qui fait de toi l'invitée qu'on réinvite."
+      "note": "« Recoger », c'est ranger après la fête. La proposition qui fait de toi l'invitée qu'on réinvite.",
+      "duo": {
+        "note": "« Recoger », c'est ranger après la fête. La proposition qui fait de toi l'invité qu'on réinvite."
+      }
     }
   ],
   "dialogues": [
     {
       "titre": "L'invitation",
       "contexte": "Tu appelles Lucía pour l'inviter à ton anniversaire, samedi prochain.",
+      "duo": {
+        "contexte": "Tu appelles Lucía pour l'inviter à l'anniversaire d'Elisabeth, samedi prochain."
+      },
       "lignes": [
         {
           "qui": "Elisabeth",
           "es": "¡Hola, Lucía! El sábado es mi cumpleaños y voy a hacer una fiesta en casa. ¿Te vienes?",
-          "fr": "Coucou Lucía ! Samedi, c'est mon anniversaire et je vais faire une fête à la maison. Tu viens ?"
+          "fr": "Coucou Lucía ! Samedi, c'est mon anniversaire et je vais faire une fête à la maison. Tu viens ?",
+          "duo": {
+            "es": "¡Hola, Lucía! El sábado es el cumpleaños de Elisabeth y vamos a hacer una fiesta en casa. ¿Te vienes?",
+            "fr": "Coucou Lucía ! Samedi, c'est l'anniversaire d'Elisabeth et on va faire une fête à la maison. Tu viens ?"
+          }
         },
         {
           "qui": "Lucía",
@@ -191,7 +214,11 @@
         {
           "qui": "Elisabeth",
           "es": "Va a venir gente del trabajo y algunos vecinos. Yo me encargo de la tortilla y Khalil trae el postre.",
-          "fr": "Il y aura des gens du travail et quelques voisins. Moi, je m'occupe de la tortilla et Khalil apporte le dessert."
+          "fr": "Il y aura des gens du travail et quelques voisins. Moi, je m'occupe de la tortilla et Khalil apporte le dessert.",
+          "duo": {
+            "es": "Va a venir gente de su trabajo y algunos vecinos. Yo me encargo del postre y Elisabeth hace la tortilla.",
+            "fr": "Il y aura des collègues à elle et quelques voisins. Moi, je m'occupe du dessert et Elisabeth fait la tortilla."
+          }
         },
         {
           "qui": "Lucía",
@@ -213,6 +240,9 @@
     {
       "titre": "Le grand jour",
       "contexte": "Samedi, chez toi. Les invités sont arrivés, le dessert est sur la table.",
+      "duo": {
+        "contexte": "Samedi, chez Elisabeth : c'est son anniversaire. Les invités sont arrivés, le dessert est sur la table."
+      },
       "lignes": [
         {
           "qui": "Lucía",
@@ -222,7 +252,10 @@
         {
           "qui": "Elisabeth",
           "es": "¡Qué ilusión! No teníais que molestaros.",
-          "fr": "Ça me fait trop plaisir ! Il ne fallait pas vous embêter."
+          "fr": "Ça me fait trop plaisir ! Il ne fallait pas vous embêter.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Dani",
@@ -232,7 +265,10 @@
         {
           "qui": "Elisabeth",
           "es": "¡Unos pendientes! Son preciosos, muchas gracias.",
-          "fr": "Des boucles d'oreilles ! Elles sont magnifiques, merci beaucoup."
+          "fr": "Des boucles d'oreilles ! Elles sont magnifiques, merci beaucoup.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Khalil",
@@ -257,7 +293,10 @@
         {
           "qui": "Elisabeth",
           "es": "Gracias a todos por venir. Lo estamos pasando genial. ¡Hay que repetirlo!",
-          "fr": "Merci à tous d'être venus. On passe un super moment. Il faut remettre ça !"
+          "fr": "Merci à tous d'être venus. On passe un super moment. Il faut remettre ça !",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Lucía",

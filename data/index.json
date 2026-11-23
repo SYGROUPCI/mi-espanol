@@ -24,7 +24,19 @@
     "situations/21-bienestar.json",
     "situations/22-paquetes.json",
     "situations/23-reuniones.json",
-    "situations/24-fiesta.json"
+    "situations/24-fiesta.json",
+    "situations/25-residencia.json",
+    "situations/26-banco.json",
+    "situations/27-empleo.json",
+    "situations/28-especialista.json",
+    "situations/29-recuerdos.json",
+    "situations/30-actualidad.json",
+    "situations/31-consejos.json",
+    "situations/32-familia.json",
+    "situations/33-reclamar.json",
+    "situations/34-formacion.json",
+    "situations/35-vendimia.json",
+    "situations/36-futuro.json"
   ],
   "bientot": []
 }

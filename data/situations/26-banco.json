@@ -1,0 +1,377 @@
+{
+  "id": "banco",
+  "ordre": 26,
+  "niveau": "B1",
+  "titre": "À la banque",
+  "titre_es": "En el banco",
+  "intro": "Une carte avalée par le distributeur, un prélèvement mystère, de l'argent à envoyer à la famille : la banque, c'est rarement une partie de plaisir. Avec les bons mots, tu expliques ce qui s'est passé sans perdre ton calme, ni ton argent.",
+  "phrases": [
+    {
+      "id": "banco-01",
+      "es": "¿Tienen alguna cuenta sin comisiones de mantenimiento?",
+      "fr": "Vous avez un compte sans frais de tenue de compte ?",
+      "pron": "TYÉ-nén al-GOU-na KOUÉN-ta sin ko-mi-SSYO-néss dé man-té-ni-MYÉN-to",
+      "note": "Beaucoup de banques suppriment ces frais si tu y verses ton salaire ou si tu remplis certaines conditions : demande-les toujours par écrit."
+    },
+    {
+      "id": "banco-02",
+      "es": "¿Qué condiciones hay que cumplir para no pagar nada?",
+      "fr": "Quelles conditions faut-il remplir pour ne rien payer ?",
+      "pron": "KÉ kon-di-THYO-néss AÏ ké koum-PLIR PA-ra no pa-GAR NA-da",
+      "note": "« Cumplir condiciones », remplir des conditions. La question à poser avant de signer quoi que ce soit.",
+      "rapide": "¿Qué condiciones hay que cumplir pa' no pagar na'?"
+    },
+    {
+      "id": "banco-03",
+      "es": "Si domicilio la nómina, ¿me quitan la comisión?",
+      "fr": "Si je fais verser mon salaire ici, vous me supprimez les frais ?",
+      "pron": "si do-mi-THI-lyo la NO-mi-na mé KI-tan la ko-mi-SSYON",
+      "note": "« Domiciliar la nómina », c'est faire verser son salaire sur ce compte. On domicilie aussi les factures : « domiciliar los recibos »."
+    },
+    {
+      "id": "banco-04",
+      "es": "Ayer intenté sacar dinero y el cajero se tragó la tarjeta.",
+      "fr": "Hier, j'ai essayé de retirer de l'argent et le distributeur a avalé ma carte.",
+      "pron": "a-YÉR in-tén-TÉ sa-KAR di-NÉ-ro i él ka-KHÉ-ro sé tra-GO la tar-KHÉ-ta",
+      "note": "« Ayer » ferme la porte : indefinido. « Tragarse », avaler : on le dit vraiment d'un distributeur gourmand."
+    },
+    {
+      "id": "banco-05",
+      "es": "Me he equivocado tres veces con el PIN y se me ha bloqueado la tarjeta.",
+      "fr": "Je me suis trompée trois fois de code et ma carte s'est bloquée.",
+      "pron": "mé é é-ki-bo-KA-do TRÉSS BÉ-théss kon él PIN i sé mé a blo-ké-A-do la tar-KHÉ-ta",
+      "note": "C'est arrivé aujourd'hui, donc pretérito perfecto. « Se me ha bloqueado » dit que ça t'est arrivé sans le vouloir.",
+      "rapide": "M'he equivocao tres veces con el PIN y se m'ha bloqueao la tarjeta.",
+      "duo": {
+        "fr": "Je me suis trompé trois fois de code et ma carte s'est bloquée."
+      }
+    },
+    {
+      "id": "banco-06",
+      "es": "¿Me la pueden desbloquear o tengo que pedir una nueva?",
+      "fr": "Vous pouvez me la débloquer ou je dois en demander une nouvelle ?",
+      "pron": "mé la POUÉ-dén déss-blo-ké-AR o TÉN-go ké pé-DIR OU-na NOUÉ-ba",
+      "note": "Souvent, il suffit d'un passage au guichet ou d'une manipulation dans l'appli. Demande avant de commander une nouvelle carte."
+    },
+    {
+      "id": "banco-07",
+      "es": "En el extracto aparece un cargo que no reconozco.",
+      "fr": "Sur le relevé, il y a un débit que je ne reconnais pas.",
+      "pron": "én él éks-TRAK-to a-pa-RÉ-thé oun KAR-go ké no rré-ko-NOTH-ko",
+      "note": "« Un cargo », c'est un débit sur ton compte ; « el extracto », le relevé. Signale-le vite : plus tu attends, plus c'est compliqué."
+    },
+    {
+      "id": "banco-08",
+      "es": "Yo no he hecho esta compra; nunca he comprado nada en esa web.",
+      "fr": "Je n'ai pas fait cet achat ; je n'ai jamais rien acheté sur ce site.",
+      "pron": "yo no é É-tcho ÉSS-ta KOM-pra NOUN-ka é kom-PRA-do NA-da én É-ssa OUÉB",
+      "note": "« Nunca » + pretérito perfecto : jamais, de toute ta vie jusqu'à aujourd'hui.",
+      "rapide": "Yo no'he hecho esta compra; nunca he comprao na' en esa web."
+    },
+    {
+      "id": "banco-09",
+      "es": "Creo que me han clonado la tarjeta. Quiero anularla ya.",
+      "fr": "Je crois qu'on a copié ma carte. Je veux faire opposition tout de suite.",
+      "pron": "KRÉ-o ké mé AN klo-NA-do la tar-KHÉ-ta KYÉ-ro a-nou-LAR-la YA",
+      "note": "« Anular » ou « cancelar la tarjeta », c'est faire opposition. Ta banque a un numéro d'urgence joignable à toute heure : enregistre-le dans ton móvil."
+    },
+    {
+      "id": "banco-10",
+      "es": "El mes pasado me cobraron dos veces el mismo recibo.",
+      "fr": "Le mois dernier, on m'a prélevé deux fois la même facture.",
+      "pron": "él MÉSS pa-SSA-do mé ko-BRA-ron DOSS BÉ-théss él MISS-mo rré-THI-bo",
+      "note": "« El mes pasado » est terminé : indefinido. « Un recibo », c'est une facture prélevée sur ton compte, l'électricité ou le téléphone par exemple."
+    },
+    {
+      "id": "banco-11",
+      "es": "Quiero devolver este recibo porque no lo he autorizado.",
+      "fr": "Je veux rejeter ce prélèvement parce que je ne l'ai pas autorisé.",
+      "pron": "KYÉ-ro dé-bol-BÉR ÉSS-té rré-THI-bo POR-ké no lo é aou-to-ri-THA-do",
+      "note": "« Devolver un recibo », c'est le rejeter. En Europe, on peut en général contester un prélèvement auprès de sa banque pendant huit semaines."
+    },
+    {
+      "id": "banco-12",
+      "es": "Quiero mandar dinero a mi familia en Conakry. ¿Cómo lo hago?",
+      "fr": "Je veux envoyer de l'argent à ma famille à Conakry. Comment je fais ?",
+      "pron": "KYÉ-ro man-DAR di-NÉ-ro a mi fa-MI-lya én ko-NA-kri KO-mo lo A-go",
+      "note": "« Mandar » et « enviar » veulent dire envoyer. Pour l'Afrique, compare la banque et les agences de transfert : les frais varient beaucoup.",
+      "duo": {
+        "es": "Quiero mandar dinero a mi familia en Abiyán. ¿Cómo lo hago?",
+        "fr": "Je veux envoyer de l'argent à ma famille à Abidjan. Comment je fais ?",
+        "pron": "KYÉ-ro man-DAR di-NÉ-ro a mi fa-MI-lya én a-bi-YAN KO-mo lo A-go"
+      }
+    },
+    {
+      "id": "banco-13",
+      "es": "¿Se puede hacer un Bizum a un número de Guinea?",
+      "fr": "On peut faire un Bizum vers un numéro guinéen ?",
+      "pron": "sé POUÉ-dé a-THÉR oun BI-thoum a oun NOU-mé-ro dé gui-NÉ-a",
+      "note": "Hélas non : Bizum marche entre comptes bancaires en Espagne. Parfait pour rembourser Lucía après un resto, pas pour envoyer de l'argent au pays.",
+      "duo": {
+        "es": "¿Se puede hacer un Bizum a un número de Costa de Marfil?",
+        "fr": "On peut faire un Bizum vers un numéro ivoirien ?",
+        "pron": "sé POUÉ-dé a-THÉR oun BI-thoum a oun NOU-mé-ro dé KOSS-ta dé MAR-fil"
+      }
+    },
+    {
+      "id": "banco-14",
+      "es": "¿Cuánto cuesta una transferencia internacional y cuánto tarda en llegar?",
+      "fr": "Combien coûte un virement international et combien de temps il met à arriver ?",
+      "pron": "KOUAN-to KOUÉSS-ta OU-na trans-fé-RÉN-thya in-tér-na-thyo-NAL i KOUAN-to TAR-da én yé-GAR",
+      "note": "« Tardar en » + infinitif : mettre du temps à. Pose toujours les deux questions, le prix et le délai.",
+      "rapide": "¿Cuánto cuesta una transferencia internacional y cuánto tarda'n llegar?"
+    },
+    {
+      "id": "banco-15",
+      "es": "¿Qué tipo de cambio me aplican?",
+      "fr": "Quel taux de change vous m'appliquez ?",
+      "pron": "KÉ TI-po dé KAM-byo mé a-PLI-kan",
+      "note": "Le piège classique : des frais bas mais un mauvais taux de change. Fais le calcul de ce qui arrive vraiment à Conakry.",
+      "duo": {
+        "note": "Le piège classique : des frais bas mais un mauvais taux de change. Fais le calcul de ce qui arrive vraiment à Abidjan."
+      }
+    },
+    {
+      "id": "banco-16",
+      "es": "Hice la transferencia el lunes, pero mi hermana todavía no ha recibido nada.",
+      "fr": "J'ai fait le virement lundi, mais ma sœur n'a toujours rien reçu.",
+      "pron": "I-thé la trans-fé-RÉN-thya él LOU-néss PÉ-ro mi ér-MA-na to-da-BI-a no a rré-thi-BI-do NA-da",
+      "note": "Les deux passés dans la même phrase : « hice » pour lundi, c'est fini ; « no ha recibido » pour un résultat qu'on attend encore."
+    },
+    {
+      "id": "banco-17",
+      "es": "Me he dado de alta en la banca online, pero no me llega el código por SMS.",
+      "fr": "Je me suis inscrite sur la banque en ligne, mais je ne reçois pas le code par SMS.",
+      "pron": "mé é DA-do dé AL-ta én la BAN-ka on-LAÏN PÉ-ro no mé YÉ-ga él KO-di-go por É-ssé É-mé É-ssé",
+      "note": "« Darse de alta », s'inscrire ; « darse de baja », se désinscrire. Le code de confirmation arrive par SMS ou dans l'appli.",
+      "rapide": "M'he dao de alta en la banca online, pero no me llega el código por SMS.",
+      "duo": {
+        "fr": "Je me suis inscrit sur la banque en ligne, mais je ne reçois pas le code par SMS."
+      }
+    },
+    {
+      "id": "banco-18",
+      "es": "Nunca doy mis claves por teléfono, aunque digan que llaman del banco.",
+      "fr": "Je ne donne jamais mes codes au téléphone, même s'ils disent appeler de la banque.",
+      "pron": "NOUN-ka DOÏ miss KLA-béss por té-LÉ-fo-no AOUN-ké DI-gan ké YA-man dél BAN-ko",
+      "note": "Ta banque ne te demandera jamais ton code ni ton mot de passe. « Aunque » + subjonctif, c'est « même si »."
+    },
+    {
+      "id": "banco-19",
+      "es": "Me han dicho que ya está solucionado y que me devuelven el dinero.",
+      "fr": "On m'a dit que c'est réglé et qu'on me rembourse.",
+      "pron": "mé AN DI-tcho ké YA éss-TA so-lou-thyo-NA-do i ké mé dé-BOUÉL-bén él di-NÉ-ro",
+      "note": "Le « ils » sans sujet de « me han dicho » correspond à notre « on ». Garde quand même le numéro de la réclamation.",
+      "rapide": "M'han dicho que ya'stá solucionao y que me devuelven el dinero."
+    },
+    {
+      "id": "banco-20",
+      "es": "¿Puedo pagar el sofá a plazos sin intereses?",
+      "fr": "Je peux payer le canapé en plusieurs fois sans intérêts ?",
+      "pron": "POUÉ-do pa-GAR él so-FA a PLA-thoss sin in-té-RÉ-sséss",
+      "note": "« A plazos », en plusieurs fois. Lis les petites lignes : « sin intereses » ne veut pas toujours dire sans frais."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "La carte avalée",
+      "contexte": "Ta carte est restée coincée dans le distributeur. Le lendemain matin, tu entres dans ton agence, un peu tendue.",
+      "duo": {
+        "contexte": "Ta carte est restée coincée dans le distributeur. Le lendemain matin, tu entres dans ton agence, un peu tendu."
+      },
+      "lignes": [
+        {
+          "qui": "Empleado",
+          "es": "Buenos días, ¿en qué puedo ayudarla?",
+          "fr": "Bonjour, en quoi puis-je vous aider ?",
+          "duo": {
+            "es": "Buenos días, ¿en qué puedo ayudarle?"
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Ayer intenté sacar dinero y el cajero se tragó la tarjeta.",
+          "fr": "Hier, j'ai essayé de retirer de l'argent et le distributeur a avalé ma carte."
+        },
+        {
+          "qui": "Empleado",
+          "es": "Vaya. ¿Le salió algún mensaje en la pantalla?",
+          "fr": "Mince. Un message s'est affiché à l'écran ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí, ponía «tarjeta retenida». Y esta mañana he visto otra cosa: en el extracto aparece un cargo que no reconozco.",
+          "fr": "Oui, c'était écrit « carte retenue ». Et ce matin, j'ai vu autre chose : sur le relevé, il y a un débit que je ne reconnais pas."
+        },
+        {
+          "qui": "Empleado",
+          "es": "A ver… ¿Este de cuarenta euros?",
+          "fr": "Voyons… Celui de quarante euros ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí. Yo no he hecho esta compra; nunca he comprado nada en esa web.",
+          "fr": "Oui. Je n'ai pas fait cet achat ; je n'ai jamais rien acheté sur ce site."
+        },
+        {
+          "qui": "Empleado",
+          "es": "Entonces lo mejor es anular la tarjeta y pedirle una nueva. Le llegará en unos días.",
+          "fr": "Alors le mieux, c'est de faire opposition et de vous en commander une nouvelle. Vous la recevrez d'ici quelques jours."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Y el dinero?",
+          "fr": "Et l'argent ?"
+        },
+        {
+          "qui": "Empleado",
+          "es": "Abrimos una reclamación. Si usted no lo ha autorizado, se lo devolvemos.",
+          "fr": "On ouvre une réclamation. Si vous ne l'avez pas autorisé, on vous le rembourse."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Muchas gracias. Me quedo más tranquila.",
+          "fr": "Merci beaucoup. Me voilà rassurée.",
+          "duo": {
+            "es": "Muchas gracias. Me quedo más tranquilo.",
+            "fr": "Merci beaucoup. Me voilà rassuré."
+          }
+        }
+      ]
+    },
+    {
+      "titre": "Envoyer de l'argent au pays",
+      "contexte": "Ta sœur a besoin d'un coup de main pour la rentrée de ses enfants. Avant d'aller à la banque, tu demandes conseil à Lucía.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "Lucía, quiero mandar dinero a mi familia en Conakry. ¿Se puede hacer con Bizum?",
+          "fr": "Lucía, je veux envoyer de l'argent à ma famille à Conakry. On peut le faire avec Bizum ?",
+          "duo": {
+            "es": "Lucía, quiero mandar dinero a mi familia en Abiyán. ¿Se puede hacer con Bizum?",
+            "fr": "Lucía, je veux envoyer de l'argent à ma famille à Abidjan. On peut le faire avec Bizum ?"
+          }
+        },
+        {
+          "qui": "Lucía",
+          "es": "No, Bizum solo sirve aquí, en España. Tienes que hacer una transferencia o ir a una agencia de envíos.",
+          "fr": "Non, Bizum ne sert qu'ici, en Espagne. Tu dois faire un virement ou passer par une agence de transfert."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Y qué es más barato?",
+          "fr": "Et qu'est-ce qui est le moins cher ?"
+        },
+        {
+          "qui": "Lucía",
+          "es": "Depende. Yo preguntaría cuánto cuesta y cuánto tarda en llegar.",
+          "fr": "Ça dépend. Moi, je demanderais combien ça coûte et combien de temps ça met à arriver."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "El año pasado mandé dinero con una agencia y la comisión fue altísima.",
+          "fr": "L'année dernière, j'ai envoyé de l'argent avec une agence et les frais étaient énormes."
+        },
+        {
+          "qui": "Lucía",
+          "es": "Fíjate también en el tipo de cambio. A veces la comisión es baja, pero el cambio es malo.",
+          "fr": "Regarde aussi le taux de change. Parfois les frais sont bas, mais le taux est mauvais."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Vale. Hoy he comparado tres páginas y ninguna me convence.",
+          "fr": "D'accord. Aujourd'hui, j'ai comparé trois sites et aucun ne me convainc."
+        },
+        {
+          "qui": "Lucía",
+          "es": "Pues pregunta en tu banco. Y sobre todo, nunca des tus claves por teléfono.",
+          "fr": "Alors demande à ta banque. Et surtout, ne donne jamais tes codes au téléphone."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Ni loca!",
+          "fr": "Jamais de la vie !",
+          "duo": {
+            "es": "¡Ni loco!"
+          }
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Me han cobrado ou me cobraron ?",
+    "explication": "Pour expliquer ce qui s'est passé, tu choisis le passé selon le repère de temps. Avec hoy, esta mañana, esta semana, ya, todavía no ou nunca, on prend le pretérito perfecto : me han cobrado. Avec ayer, el lunes ou el mes pasado, on prend l'indefinido : me cobraron. Les deux peuvent se suivre dans la même phrase : hice la transferencia el lunes, pero todavía no ha llegado. Retiens aussi deux indefinidos irréguliers très utiles au guichet : hice (hacer) et pude (poder).",
+    "tableau": [
+      [
+        "hoy, esta mañana, esta semana",
+        "me han cobrado, he pedido"
+      ],
+      [
+        "ya, todavía no, nunca",
+        "ya he llamado, todavía no ha llegado"
+      ],
+      [
+        "ayer, anoche",
+        "me cobraron, pedí"
+      ],
+      [
+        "el lunes, el mes pasado",
+        "mandé, intenté"
+      ],
+      [
+        "hacer (indefinido)",
+        "hice, hiciste, hizo"
+      ],
+      [
+        "poder (indefinido)",
+        "pude, pudiste, pudo"
+      ]
+    ],
+    "exemples": [
+      {
+        "es": "Esta semana me han cobrado dos comisiones.",
+        "fr": "Cette semaine, on m'a prélevé deux fois des frais."
+      },
+      {
+        "es": "El viernes pasado no pude sacar dinero.",
+        "fr": "Vendredi dernier, je n'ai pas pu retirer d'argent."
+      },
+      {
+        "es": "Llamé ayer, pero todavía no me han contestado.",
+        "fr": "J'ai appelé hier, mais on ne m'a toujours pas répondu."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Estar sin blanca",
+      "fr": "Être fauché",
+      "note": "« Estoy sin blanca hasta que cobre » : la fin du mois, version espagnole."
+    },
+    {
+      "es": "Apretarse el cinturón",
+      "fr": "Se serrer la ceinture",
+      "note": "Comme en français, quand on réduit les dépenses pour un temps."
+    },
+    {
+      "es": "Costar un riñón",
+      "fr": "Coûter une fortune",
+      "note": "Mot à mot « coûter un rein ». Se dit volontiers des frais bancaires."
+    },
+    {
+      "es": "Tirar la casa por la ventana",
+      "fr": "Faire de folles dépenses",
+      "note": "Pour une grande occasion : un mariage, une fête, un cadeau exceptionnel."
+    },
+    {
+      "es": "Ser un agarrado / una agarrada",
+      "fr": "Être radin / radine",
+      "note": "Familier et un peu moqueur. À dire en riant, jamais devant la personne concernée."
+    },
+    {
+      "es": "Hacer números",
+      "fr": "Faire ses comptes",
+      "note": "« Antes de comprar el coche, tengo que hacer números » : calculer si on peut se le permettre."
+    }
+  ]
+}

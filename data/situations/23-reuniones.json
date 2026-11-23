@@ -19,7 +19,10 @@
       "es": "Perdone que le interrumpa, ¿puedo añadir algo?",
       "fr": "Pardon de vous interrompre, je peux ajouter quelque chose ?",
       "pron": "pér-DO-né ké lé in-té-RROUM-pa POUÉ-do a-gna-DIR AL-go",
-      "note": "Une formule toute faite, à apprendre telle quelle. Elle permet de couper la parole tout en restant polie."
+      "note": "Une formule toute faite, à apprendre telle quelle. Elle permet de couper la parole tout en restant polie.",
+      "duo": {
+        "note": "Une formule toute faite, à apprendre telle quelle. Elle permet de couper la parole tout en restant poli."
+      }
     },
     {
       "id": "reuniones-03",
@@ -34,7 +37,10 @@
       "es": "¿Qué quiere decir exactamente con «plazo de entrega»?",
       "fr": "Qu'est-ce que vous voulez dire exactement par « délai de livraison » ?",
       "pron": "KÉ KYÉ-ré dé-THIR ék-sak-ta-MÉN-té kon PLA-tho dé én-TRÉ-ga",
-      "note": "« Querer decir », c'est vouloir dire. Pratique pour demander une précision sans avouer qu'on est perdue."
+      "note": "« Querer decir », c'est vouloir dire. Pratique pour demander une précision sans avouer qu'on est perdue.",
+      "duo": {
+        "note": "« Querer decir », c'est vouloir dire. Pratique pour demander une précision sans avouer qu'on est perdu."
+      }
     },
     {
       "id": "reuniones-05",
@@ -135,7 +141,11 @@
       "fr": "Désolée d'arriver en retard, le bus a eu du retard.",
       "pron": "SYÉN-to yé-GAR TAR-dé él aou-to-BOUSS sé a rré-tra-SSA-do",
       "note": "« Siento » + infinitif : je suis désolée de. Plus soigné que « perdona » quand on entre dans une salle pleine.",
-      "rapide": "Siento llegar tarde, el autobús s'ha retrasao."
+      "rapide": "Siento llegar tarde, el autobús s'ha retrasao.",
+      "duo": {
+        "fr": "Désolé d'arriver en retard, le bus a eu du retard.",
+        "note": "« Siento » + infinitif : je suis désolé de. Plus soigné que « perdona » quand on entre dans une salle pleine."
+      }
     },
     {
       "id": "reuniones-19",
@@ -181,7 +191,11 @@
         {
           "qui": "Sra. Ibáñez",
           "es": "Claro, Elisabeth, adelante.",
-          "fr": "Bien sûr, Elisabeth, allez-y."
+          "fr": "Bien sûr, Elisabeth, allez-y.",
+          "duo": {
+            "es": "Claro, Khalil, adelante.",
+            "fr": "Bien sûr, Khalil, allez-y."
+          }
         },
         {
           "qui": "Elisabeth",
@@ -201,7 +215,11 @@
         {
           "qui": "Dani",
           "es": "Estoy de acuerdo con Elisabeth. Yo lo haría igual.",
-          "fr": "Je suis d'accord avec Elisabeth. Moi, je ferais pareil."
+          "fr": "Je suis d'accord avec Elisabeth. Moi, je ferais pareil.",
+          "duo": {
+            "es": "Estoy de acuerdo con Khalil. Yo lo haría igual.",
+            "fr": "Je suis d'accord avec Khalil. Moi, je ferais pareil."
+          }
         },
         {
           "qui": "Sra. Ibáñez",
@@ -232,7 +250,11 @@
         {
           "qui": "Sr. Ruiz",
           "es": "Estimada Elisabeth: Muchas gracias por su correo. Lo siento, pero el jueves no estaré en la oficina.",
-          "fr": "Chère Elisabeth, merci beaucoup pour votre e-mail. Je suis désolé, mais jeudi je ne serai pas au bureau."
+          "fr": "Chère Elisabeth, merci beaucoup pour votre e-mail. Je suis désolé, mais jeudi je ne serai pas au bureau.",
+          "duo": {
+            "es": "Estimado Khalil: Muchas gracias por su correo. Lo siento, pero el jueves no estaré en la oficina.",
+            "fr": "Cher Khalil, merci beaucoup pour votre e-mail. Je suis désolé, mais jeudi je ne serai pas au bureau."
+          }
         },
         {
           "qui": "Sr. Ruiz",
@@ -252,7 +274,10 @@
         {
           "qui": "Sr. Ruiz",
           "es": "Perfecto, la espero el martes. Un saludo cordial.",
-          "fr": "Parfait, je vous attends mardi. Bien cordialement."
+          "fr": "Parfait, je vous attends mardi. Bien cordialement.",
+          "duo": {
+            "es": "Perfecto, le espero el martes. Un saludo cordial."
+          }
         }
       ]
     }

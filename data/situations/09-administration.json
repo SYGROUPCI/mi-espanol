@@ -150,7 +150,10 @@
       "fr": "Excusez-moi, je crois que je me suis trompée de guichet.",
       "pron": "pér-DO-né KRÉ-o ké mé é é-ki-bo-KA-do dé bén-ta-NI-ya",
       "note": "« La ventanilla », c'est le guichet. Ça arrive à tout le monde, Espagnols compris.",
-      "rapide": "Perdone, creo que m'he equivocao de ventanilla."
+      "rapide": "Perdone, creo que m'he equivocao de ventanilla.",
+      "duo": {
+        "fr": "Excusez-moi, je crois que je me suis trompé de guichet."
+      }
     }
   ],
   "dialogues": [
@@ -166,7 +169,10 @@
         {
           "qui": "Un señor",
           "es": "Yo. Pero tranquila, que hoy va rápido.",
-          "fr": "Moi. Mais ne vous inquiétez pas, aujourd'hui ça avance vite."
+          "fr": "Moi. Mais ne vous inquiétez pas, aujourd'hui ça avance vite.",
+          "duo": {
+            "es": "Yo. Pero tranquilo, que hoy va rápido."
+          }
         },
         {
           "qui": "La funcionaria",
@@ -298,7 +304,10 @@
     {
       "es": "Ir de ventanilla en ventanilla",
       "fr": "Courir d'un guichet à l'autre",
-      "note": "Pour raconter une matinée où chaque guichet t'a renvoyée au suivant."
+      "note": "Pour raconter une matinée où chaque guichet t'a renvoyée au suivant.",
+      "duo": {
+        "note": "Pour raconter une matinée où chaque guichet t'a renvoyé au suivant."
+      }
     },
     {
       "es": "Armarse de paciencia",
@@ -313,7 +322,11 @@
     {
       "es": "Me tienen mareada",
       "fr": "Ils me font tourner en bourrique",
-      "note": "Littéralement « ils me donnent le tournis ». Au féminin, puisque c'est toi qui tournes."
+      "note": "Littéralement « ils me donnent le tournis ». Au féminin, puisque c'est toi qui tournes.",
+      "duo": {
+        "es": "Me tienen mareado",
+        "note": "Littéralement « ils me donnent le tournis ». Au masculin, puisque c'est toi qui tournes."
+      }
     },
     {
       "es": "Es el cuento de nunca acabar",

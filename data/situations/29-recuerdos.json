@@ -1,0 +1,407 @@
+{
+  "id": "recuerdos",
+  "ordre": 29,
+  "niveau": "B1",
+  "titre": "Raconter des souvenirs",
+  "titre_es": "Contar recuerdos",
+  "intro": "Raconter un souvenir, c'est jongler entre deux passés : l'imparfait pour le décor, le passé simple pour ce qui arrive. Ton enfance à Conakry, tes premiers jours à Logroño, le fameux jour du mauvais bus : de quoi faire rire toute la tablée.",
+  "duo": {
+    "intro": "Raconter un souvenir, c'est jongler entre deux passés : l'imparfait pour le décor, le passé simple pour ce qui arrive. Ton enfance à Abidjan, tes premiers jours à Logroño, le fameux jour du mauvais bus : de quoi faire rire toute la tablée."
+  },
+  "phrases": [
+    {
+      "id": "recuerdos-01",
+      "es": "Cuando tenía diez años, vivíamos en Ratoma, cerca del mar.",
+      "fr": "Quand j'avais dix ans, on habitait à Ratoma, près de la mer.",
+      "pron": "KOUAN-do té-NI-a DYÉTH A-gnoss bi-BI-a-moss én rra-TO-ma THÉR-ka dél MAR",
+      "note": "Tenía, vivíamos : l'imparfait plante le décor. Ratoma est une des communes de Conakry, au bord de l'océan.",
+      "duo": {
+        "es": "Cuando tenía diez años, vivíamos en Cocody, cerca de la laguna.",
+        "fr": "Quand j'avais dix ans, on habitait à Cocody, près de la lagune.",
+        "pron": "KOUAN-do té-NI-a DYÉTH A-gnoss bi-BI-a-moss én ko-ko-DI THÉR-ka dé la la-GOU-na",
+        "note": "Tenía, vivíamos : l'imparfait plante le décor. Cocody est une commune d'Abidjan, au bord de la lagune Ébrié."
+      }
+    },
+    {
+      "id": "recuerdos-02",
+      "es": "Mi abuela nos contaba cuentos por la noche, en el patio.",
+      "fr": "Ma grand-mère nous racontait des contes le soir, dans la cour.",
+      "pron": "mi a-BOUÉ-la noss kon-TA-ba KOUÉN-toss por la NO-tché én él PA-tyo",
+      "note": "Contaba : une habitude, donc imparfait. Les verbes en -ar font -aba, et la grand-mère garde toujours le meilleur rôle."
+    },
+    {
+      "id": "recuerdos-03",
+      "es": "Los domingos solíamos comer todos juntos en casa de mis abuelos.",
+      "fr": "Le dimanche, on avait l'habitude de manger tous ensemble chez mes grands-parents.",
+      "pron": "loss do-MIN-goss so-LI-a-moss ko-MÉR TO-doss KHOUN-toss én KA-ssa dé miss a-BOUÉ-loss",
+      "note": "Soler + infinitif, c'est « avoir l'habitude de ». À l'imparfait, solíamos raconte ce qu'on faisait toutes les semaines.",
+      "rapide": "Los domingos solíamos comer to'os juntos en casa de mis abuelos."
+    },
+    {
+      "id": "recuerdos-04",
+      "es": "De niña era muy traviesa y siempre volvía a casa con las rodillas sucias.",
+      "fr": "Petite, j'étais très espiègle et je rentrais toujours avec les genoux sales.",
+      "pron": "dé NI-gna É-ra MOUÏ tra-BYÉ-ssa i SYÉM-pré bol-BI-a a KA-ssa kon lass rro-DI-yass SOU-thyass",
+      "note": "« De niña » : quand j'étais petite fille. « Traviesa » se dit d'un enfant qui fait des bêtises, avec tendresse.",
+      "duo": {
+        "es": "De niño era muy travieso y siempre volvía a casa con las rodillas sucias.",
+        "fr": "Petit, j'étais très espiègle et je rentrais toujours avec les genoux sales.",
+        "pron": "dé NI-gno É-ra MOUÏ tra-BYÉ-sso i SYÉM-pré bol-BI-a a KA-ssa kon lass rro-DI-yass SOU-thyass",
+        "note": "« De niño » : quand j'étais petit garçon. « Travieso » se dit d'un enfant qui fait des bêtises, avec tendresse."
+      }
+    },
+    {
+      "id": "recuerdos-05",
+      "es": "En la temporada de lluvias llovía tanto que a veces no podíamos salir a jugar.",
+      "fr": "À la saison des pluies, il pleuvait tellement que parfois on ne pouvait pas sortir jouer.",
+      "pron": "én la tém-po-RA-da dé YOU-byass yo-BI-a TAN-to ké a BÉ-théss no po-DI-a-moss sa-LIR a khou-GAR",
+      "note": "Conakry est l'une des capitales les plus arrosées du monde, surtout en juillet et en août. « Tanto que » : tellement que.",
+      "duo": {
+        "note": "À Abidjan, la grande saison des pluies tombe surtout en mai et en juin. « Tanto que » : tellement que."
+      }
+    },
+    {
+      "id": "recuerdos-06",
+      "es": "Me acuerdo muy bien de mi primer día en Logroño.",
+      "fr": "Je me souviens très bien de mon premier jour à Logroño.",
+      "pron": "mé a-KOUÉR-do MOUÏ BYÉN dé mi pri-MÉR DI-a én lo-GRO-gno",
+      "note": "Acordarse de : se souvenir de. N'oublie pas le « de », comme en français.",
+      "rapide": "M'acuerdo muy bien de mi primer día en Logroño."
+    },
+    {
+      "id": "recuerdos-07",
+      "es": "Llegué un lunes por la noche, hacía frío y no conocía a nadie.",
+      "fr": "Je suis arrivée un lundi soir, il faisait froid et je ne connaissais personne.",
+      "pron": "yé-GUÉ oun LOU-néss por la NO-tché a-THI-a FRI-o i no ko-no-THI-a a NA-dyé",
+      "note": "Le passé simple pour l'événement (llegué), l'imparfait pour le décor (hacía, conocía). C'est tout le secret du récit.",
+      "duo": {
+        "fr": "Je suis arrivé un lundi soir, il faisait froid et je ne connaissais personne."
+      }
+    },
+    {
+      "id": "recuerdos-08",
+      "es": "Los primeros días no entendía nada cuando la gente hablaba rápido.",
+      "fr": "Les premiers jours, je ne comprenais rien quand les gens parlaient vite.",
+      "pron": "loss pri-MÉ-ross DI-ass no én-tén-DI-a NA-da KOUAN-do la KHÉN-té a-BLA-ba RRA-pi-do",
+      "note": "« La gente » est un singulier : la gente hablaba, jamais hablaban. Et ça va beaucoup mieux maintenant, non ?",
+      "rapide": "Los primeros días no entendía na' cuando la gente hablaba rápido."
+    },
+    {
+      "id": "recuerdos-09",
+      "es": "Un día me equivoqué de autobús y acabé en Villamediana.",
+      "fr": "Un jour, je me suis trompée de bus et je me suis retrouvée à Villamediana.",
+      "pron": "oun DI-a mé é-ki-bo-KÉ dé aou-to-BOUSS i a-ka-BÉ én bi-ya-mé-DYA-na",
+      "note": "Equivocarse de : se tromper de. Villamediana est un village tout près de Logroño : l'aventure, mais pas trop loin.",
+      "duo": {
+        "fr": "Un jour, je me suis trompé de bus et je me suis retrouvé à Villamediana."
+      }
+    },
+    {
+      "id": "recuerdos-10",
+      "es": "Mientras esperaba el autobús de vuelta, empezó a llover a cántaros.",
+      "fr": "Pendant que j'attendais le bus du retour, il s'est mis à pleuvoir des cordes.",
+      "pron": "MYÉN-trass éss-pé-RA-ba él aou-to-BOUSS dé BOUÉL-ta ém-pé-THO a yo-BÉR a KAN-ta-ross",
+      "note": "Mientras + imparfait pour ce qui était en cours, puis le passé simple pour ce qui l'interrompt. « A cántaros » : à seaux."
+    },
+    {
+      "id": "recuerdos-11",
+      "es": "Me reí tanto que se me saltaron las lágrimas.",
+      "fr": "J'ai tellement ri que j'en ai pleuré.",
+      "pron": "mé rré-I TAN-to ké sé mé sal-TA-ron lass LA-gri-mass",
+      "note": "Reírse fait « me reí » au passé simple, avec un accent. « Se me saltaron las lágrimas » : les larmes ont jailli toutes seules."
+    },
+    {
+      "id": "recuerdos-12",
+      "es": "Mi padre solía llevarme al mercado de Madina los sábados.",
+      "fr": "Le samedi, mon père m'emmenait souvent au marché de Madina.",
+      "pron": "mi PA-dré so-LI-a yé-BAR-mé al mér-KA-do dé ma-DI-na loss SA-ba-doss",
+      "note": "Madina, c'est le grand marché de Conakry. Solía + infinitif raconte une habitude du passé.",
+      "rapide": "Mi padre solía llevarme al mercao de Madina los sábados.",
+      "duo": {
+        "es": "Mi padre solía llevarme al mercado de Adjamé los sábados.",
+        "fr": "Le samedi, mon père m'emmenait souvent au marché d'Adjamé.",
+        "pron": "mi PA-dré so-LI-a yé-BAR-mé al mér-KA-do dé a-dja-MÉ loss SA-ba-doss",
+        "note": "Adjamé, c'est le quartier du grand marché d'Abidjan. Solía + infinitif raconte une habitude du passé.",
+        "rapide": "Mi padre solía llevarme al mercao de Adjamé los sábados."
+      }
+    },
+    {
+      "id": "recuerdos-13",
+      "es": "Antes de venir a España, nunca había visto la nieve.",
+      "fr": "Avant de venir en Espagne, je n'avais jamais vu la neige.",
+      "pron": "AN-téss dé bé-NIR a éss-PA-gna NOUN-ka a-BI-a BISS-to la NYÉ-bé",
+      "note": "Había visto, c'est le plus-que-parfait, comme « j'avais vu » : haber à l'imparfait, puis le participe."
+    },
+    {
+      "id": "recuerdos-14",
+      "es": "Cuando por fin vi la nieve en Ezcaray, me puse a gritar como una niña.",
+      "fr": "Quand j'ai enfin vu la neige à Ezcaray, je me suis mise à crier comme une gamine.",
+      "pron": "KOUAN-do por FIN BI la NYÉ-bé én éth-ka-RAÏ mé POU-ssé a gri-TAR KO-mo OU-na NI-gna",
+      "note": "Ponerse a + infinitif : se mettre à. Ezcaray est le village riojan au pied de la station de ski de Valdezcaray.",
+      "duo": {
+        "es": "Cuando por fin vi la nieve en Ezcaray, me puse a gritar como un niño.",
+        "fr": "Quand j'ai enfin vu la neige à Ezcaray, je me suis mis à crier comme un gamin.",
+        "pron": "KOUAN-do por FIN BI la NYÉ-bé én éth-ka-RAÏ mé POU-ssé a gri-TAR KO-mo oun NI-gno"
+      }
+    },
+    {
+      "id": "recuerdos-15",
+      "es": "¿Te acuerdas de cuando nos conocimos?",
+      "fr": "Tu te souviens de quand on s'est rencontrés ?",
+      "pron": "té a-KOUÉR-dass dé KOUAN-do noss ko-no-THI-moss",
+      "note": "La question à poser à Khalil, avec un sourire. Conocerse au passé simple : nos conocimos, on s'est rencontrés.",
+      "rapide": "¿T'acuerdas de cuando nos conocimos?",
+      "duo": {
+        "note": "La question à poser à Elisabeth, avec un sourire. Conocerse au passé simple : nos conocimos, on s'est rencontrés."
+      }
+    },
+    {
+      "id": "recuerdos-16",
+      "es": "Antes no me gustaba el café, y ahora no puedo vivir sin él.",
+      "fr": "Avant, je n'aimais pas le café, et maintenant je ne peux plus m'en passer.",
+      "pron": "AN-téss no mé gouss-TA-ba él ka-FÉ i a-O-ra no POUÉ-do bi-BIR SIN ÉL",
+      "note": "Antes + imparfait, ahora + présent : la façon la plus simple de raconter comment tu as changé."
+    },
+    {
+      "id": "recuerdos-17",
+      "es": "Mi hermano mayor y yo nos peleábamos por el mando de la tele.",
+      "fr": "Mon grand frère et moi, on se disputait la télécommande.",
+      "pron": "mi ér-MA-no ma-YOR i YO noss pé-lé-A-ba-moss por él MAN-do dé la TÉ-lé",
+      "note": "Pelearse : se disputer, se chamailler. L'imparfait dit que ça arrivait tout le temps, et on s'en doute."
+    },
+    {
+      "id": "recuerdos-18",
+      "es": "Aquel día no se me olvidará nunca.",
+      "fr": "Ce jour-là, je ne l'oublierai jamais.",
+      "pron": "a-KÉL DI-a no sé mé ol-bi-da-RA NOUN-ka",
+      "note": "« Aquel » pour un passé lointain : aquel día, aquel verano. On dit aussi « nunca lo olvidaré »."
+    },
+    {
+      "id": "recuerdos-19",
+      "es": "Era la primera vez que probaba las pochas, y repetí dos veces.",
+      "fr": "C'était la première fois que je goûtais les pochas, et je me suis resservie deux fois.",
+      "pron": "É-ra la pri-MÉ-ra BÉTH ké pro-BA-ba lass PO-tchass i rré-pé-TI DOSS BÉ-théss",
+      "note": "À table, « repetir » veut dire se resservir : le plus beau compliment pour la cuisinière.",
+      "duo": {
+        "fr": "C'était la première fois que je goûtais les pochas, et je me suis resservi deux fois."
+      }
+    },
+    {
+      "id": "recuerdos-20",
+      "es": "Al principio me costó mucho, pero ya me he acostumbrado.",
+      "fr": "Au début, ça a été très dur, mais maintenant je m'y suis habituée.",
+      "pron": "al prin-THI-pyo mé koss-TO MOU-tcho PÉ-ro YA mé é a-koss-toum-BRA-do",
+      "note": "Costar, au sens de « être difficile » : me cuesta, me costó. Et « ya », c'est « maintenant, enfin ».",
+      "rapide": "Al principio me costó mucho, pero ya m'he acostumbrao.",
+      "duo": {
+        "fr": "Au début, ça a été très dur, mais maintenant je m'y suis habitué."
+      }
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Les photos de Pilar",
+      "contexte": "Un dimanche après-midi, ta voisine Pilar sort de vieilles photos de son village et te demande comment était ton enfance.",
+      "lignes": [
+        {
+          "qui": "Pilar",
+          "es": "Mira, esta soy yo con siete años, en el pueblo. ¿Y tú? ¿Cómo era tu infancia?",
+          "fr": "Regarde, c'est moi à sept ans, au village. Et toi ? Ton enfance, elle était comment ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Cuando tenía diez años, vivíamos en Ratoma, cerca del mar.",
+          "fr": "Quand j'avais dix ans, on habitait à Ratoma, près de la mer.",
+          "duo": {
+            "es": "Cuando tenía diez años, vivíamos en Cocody, cerca de la laguna.",
+            "fr": "Quand j'avais dix ans, on habitait à Cocody, près de la lagune."
+          }
+        },
+        {
+          "qui": "Pilar",
+          "es": "¡Qué bonito! ¿Y con quién pasabas el tiempo?",
+          "fr": "Comme c'est joli ! Et tu passais ton temps avec qui ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Con mis primos, sobre todo. Y los domingos solíamos comer todos juntos en casa de mis abuelos.",
+          "fr": "Avec mes cousins, surtout. Et le dimanche, on avait l'habitude de manger tous ensemble chez mes grands-parents."
+        },
+        {
+          "qui": "Pilar",
+          "es": "Igual que aquí. Mi abuela hacía unas croquetas buenísimas.",
+          "fr": "Comme ici. Ma grand-mère faisait des croquettes délicieuses."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "La mía nos contaba cuentos por la noche, en el patio.",
+          "fr": "La mienne nous racontait des contes le soir, dans la cour."
+        },
+        {
+          "qui": "Pilar",
+          "es": "¿Y eras una niña buena?",
+          "fr": "Et tu étais une enfant sage ?",
+          "duo": {
+            "es": "¿Y eras un niño bueno?",
+            "fr": "Et tu étais un enfant sage ?"
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Qué va! De niña era muy traviesa y siempre volvía a casa con las rodillas sucias.",
+          "fr": "Pas du tout ! Petite, j'étais très espiègle et je rentrais toujours avec les genoux sales.",
+          "duo": {
+            "es": "¡Qué va! De niño era muy travieso y siempre volvía a casa con las rodillas sucias.",
+            "fr": "Pas du tout ! Petit, j'étais très espiègle et je rentrais toujours avec les genoux sales."
+          }
+        }
+      ]
+    },
+    {
+      "titre": "Le jour du mauvais bus",
+      "contexte": "Khalil est en visite à Logroño. En passant devant un arrêt de bus, tu lui racontes ta pire aventure des premiers jours.",
+      "duo": {
+        "contexte": "Elisabeth et toi passez devant un arrêt de bus à Logroño. Tu lui racontes ta pire aventure en ville."
+      },
+      "lignes": [
+        {
+          "qui": "Khalil",
+          "es": "¿Esta es la parada del autobús que te llevó a Villamediana?",
+          "fr": "C'est l'arrêt du bus qui t'a emmenée à Villamediana ?",
+          "duo": {
+            "qui": "Elisabeth",
+            "fr": "C'est l'arrêt du bus qui t'a emmené à Villamediana ?"
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Esa misma! Un día me equivoqué de autobús y acabé en Villamediana.",
+          "fr": "Celui-là même ! Un jour, je me suis trompée de bus et je me suis retrouvée à Villamediana.",
+          "duo": {
+            "fr": "Celui-là même ! Un jour, je me suis trompé de bus et je me suis retrouvé à Villamediana."
+          }
+        },
+        {
+          "qui": "Khalil",
+          "es": "¿Y qué hiciste?",
+          "fr": "Et qu'est-ce que tu as fait ?",
+          "duo": {
+            "qui": "Elisabeth"
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Me bajé en la última parada. No conocía a nadie y el móvil estaba sin batería.",
+          "fr": "Je suis descendue au dernier arrêt. Je ne connaissais personne et mon portable n'avait plus de batterie.",
+          "duo": {
+            "fr": "Je suis descendu au dernier arrêt. Je ne connaissais personne et mon portable n'avait plus de batterie."
+          }
+        },
+        {
+          "qui": "Khalil",
+          "es": "¡Pobrecita! ¿Y cómo volviste?",
+          "fr": "Ma pauvre ! Et comment tu es rentrée ?",
+          "duo": {
+            "qui": "Elisabeth",
+            "es": "¡Pobrecito! ¿Y cómo volviste?",
+            "fr": "Mon pauvre ! Et comment tu es rentré ?"
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Mientras esperaba el autobús de vuelta, empezó a llover a cántaros. Una señora me vio empapada y me trajo en su coche.",
+          "fr": "Pendant que j'attendais le bus du retour, il s'est mis à pleuvoir des cordes. Une dame m'a vue trempée et m'a ramenée en voiture.",
+          "duo": {
+            "es": "Mientras esperaba el autobús de vuelta, empezó a llover a cántaros. Una señora me vio empapado y me trajo en su coche.",
+            "fr": "Pendant que j'attendais le bus du retour, il s'est mis à pleuvoir des cordes. Une dame m'a vu trempé et m'a ramené en voiture."
+          }
+        },
+        {
+          "qui": "Khalil",
+          "es": "¡Qué suerte! ¿Y te acuerdas de cómo se llamaba?",
+          "fr": "Quelle chance ! Et tu te souviens de son nom ?",
+          "duo": {
+            "qui": "Elisabeth"
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Se llamaba Pilar. ¡Y resulta que ahora es mi vecina! Cada vez que me ve, se ríe.",
+          "fr": "Elle s'appelait Pilar. Et figure-toi que maintenant, c'est ma voisine ! Chaque fois qu'elle me voit, elle rigole.",
+          "duo": {
+            "es": "Se llamaba Pilar. ¡Y resulta que es tu vecina! Cada vez que me ve, se ríe.",
+            "fr": "Elle s'appelait Pilar. Et figure-toi que c'est ta voisine ! Chaque fois qu'elle me voit, elle rigole."
+          }
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Imparfait, passé simple et soler",
+    "explication": "Pour raconter, l'espagnol utilise deux passés. L'imparfait (vivía, hacía, era) peint le décor, l'âge, le temps qu'il faisait et les habitudes. Le passé simple (llegué, vi, empezó) fait avancer l'histoire : ce qui s'est passé, une fois, à un moment précis. Pour une habitude, soler + infinitif est très courant : suelo au présent pour aujourd'hui, solía à l'imparfait pour hier. Astuce : mientras appelle l'imparfait, de repente appelle le passé simple.",
+    "tableau": [
+      ["vivía, tenía, hacía frío", "imparfait : le décor, l'âge, le temps"],
+      ["solía + infinitif", "j'avais l'habitude de…"],
+      ["llegué, vi, me equivoqué", "passé simple : ce qui arrive"],
+      ["mientras esperaba…", "pendant que j'attendais…"],
+      ["de repente empezó…", "tout à coup, ça a commencé…"],
+      ["era, iba, veía", "les trois imparfaits irréguliers"]
+    ],
+    "exemples": [
+      {
+        "es": "Cuando era niña, solía dormir la siesta en casa de mi tía.",
+        "fr": "Quand j'étais petite, je faisais souvent la sieste chez ma tante.",
+        "duo": {
+          "es": "Cuando era niño, solía dormir la siesta en casa de mi tía.",
+          "fr": "Quand j'étais petit, je faisais souvent la sieste chez ma tante."
+        }
+      },
+      {
+        "es": "Estaba en la cocina cuando de repente sonó el teléfono.",
+        "fr": "J'étais dans la cuisine quand, tout à coup, le téléphone a sonné."
+      },
+      {
+        "es": "Hacía sol, así que fuimos a pasear por el Espolón.",
+        "fr": "Il faisait beau, alors on est allés se promener sur l'Espolón."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Me suena",
+      "fr": "Ça me dit quelque chose",
+      "note": "Pour un nom, un visage ou une chanson qu'on a déjà croisés quelque part : « Ese nombre me suena »."
+    },
+    {
+      "es": "Lo tengo en la punta de la lengua",
+      "fr": "Je l'ai sur le bout de la langue",
+      "note": "Exactement comme en français. Parfait pour gagner du temps quand le mot espagnol ne vient pas."
+    },
+    {
+      "es": "Me acuerdo como si fuera ayer",
+      "fr": "Je m'en souviens comme si c'était hier",
+      "note": "« Fuera » est un subjonctif imparfait, mais ici, apprends simplement la formule toute faite."
+    },
+    {
+      "es": "¡Quién te ha visto y quién te ve!",
+      "fr": "Qu'est-ce que tu as changé !",
+      "note": "Pour quelqu'un qui a beaucoup changé, souvent en mieux. Ta famille pourra te le dire quand tu parleras espagnol comme une Riojana.",
+      "duo": {
+        "note": "Pour quelqu'un qui a beaucoup changé, souvent en mieux. Ta famille pourra te le dire quand tu parleras espagnol comme un Riojano."
+      }
+    },
+    {
+      "es": "Hace siglos",
+      "fr": "Ça fait une éternité",
+      "note": "« Hace siglos que no te veo » : ça fait des siècles que je ne t'ai pas vu. Les Espagnols adorent exagérer le temps qui passe."
+    },
+    {
+      "es": "Tener memoria de pez",
+      "fr": "Avoir une mémoire de poisson rouge",
+      "note": "Pour quelqu'un qui oublie tout, toi comprise les jours de fatigue. Le contraire : « tener memoria de elefante ».",
+      "duo": {
+        "note": "Pour quelqu'un qui oublie tout, toi compris les jours de fatigue. Le contraire : « tener memoria de elefante »."
+      }
+    }
+  ]
+}

@@ -121,7 +121,10 @@
       "es": "Ayer vine a quejarme y me dijeron que me llamarían.",
       "fr": "Hier, je suis venue me plaindre et on m'a dit qu'on me rappellerait.",
       "pron": "a-YÉR BI-né a ké-KHAR-mé i mé di-KHÉ-ron ké mé ya-ma-RI-an",
-      "note": "« Vine » (venir) et « dijeron » (decir) sont deux passés simples irréguliers à apprendre par cœur. « Llamarían », c'est le conditionnel."
+      "note": "« Vine » (venir) et « dijeron » (decir) sont deux passés simples irréguliers à apprendre par cœur. « Llamarían », c'est le conditionnel.",
+      "duo": {
+        "fr": "Hier, je suis venu me plaindre et on m'a dit qu'on me rappellerait."
+      }
     },
     {
       "id": "quejas-17",
@@ -167,7 +170,10 @@
         {
           "qui": "Dependienta",
           "es": "Dígame, ¿en qué puedo ayudarla?",
-          "fr": "Je vous écoute, en quoi puis-je vous aider ?"
+          "fr": "Je vous écoute, en quoi puis-je vous aider ?",
+          "duo": {
+            "es": "Dígame, ¿en qué puedo ayudarle?"
+          }
         },
         {
           "qui": "Elisabeth",
@@ -209,6 +215,9 @@
     {
       "titre": "Le dîner qui traîne",
       "contexte": "Khalil et toi, vous attendez vos plats dans un restaurant bondé. Quand ils arrivent enfin, surprise.",
+      "duo": {
+        "contexte": "Elisabeth et toi, vous attendez vos plats dans un restaurant bondé. Quand ils arrivent enfin, surprise."
+      },
       "lignes": [
         {
           "qui": "Khalil",
@@ -218,7 +227,10 @@
         {
           "qui": "Elisabeth",
           "es": "Paciencia, mira, ya viene el camarero.",
-          "fr": "Patience, regarde, le serveur arrive."
+          "fr": "Patience, regarde, le serveur arrive.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Camarero",
@@ -228,7 +240,10 @@
         {
           "qui": "Elisabeth",
           "es": "Perdona, esto no es lo que pedí. Pedí la ensalada sin cebolla, pero lleva cebolla.",
-          "fr": "Pardon, ce n'est pas ce que j'ai commandé. J'ai demandé la salade sans oignon, mais il y a de l'oignon dedans."
+          "fr": "Pardon, ce n'est pas ce que j'ai commandé. J'ai demandé la salade sans oignon, mais il y a de l'oignon dedans.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Camarero",
@@ -248,7 +263,10 @@
         {
           "qui": "Elisabeth",
           "es": "Vale, gracias. Así sí.",
-          "fr": "D'accord, merci. Là, c'est mieux."
+          "fr": "D'accord, merci. Là, c'est mieux.",
+          "duo": {
+            "qui": "Elisabeth"
+          }
         },
         {
           "qui": "Khalil",

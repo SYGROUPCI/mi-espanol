@@ -30,6 +30,7 @@ const PETITES_PHRASES = [
 // Démarrage
 async function demarrer() {
   try {
+    C.profil(K.compte()?.role, K.compte()?.prenom);
     await C.charger();
   } catch (err) {
     app.innerHTML = `<div class="vide"><h1>Oups</h1><p>Je n'arrive pas à charger les leçons. Vérifie ta connexion, puis réessaie.</p>
@@ -160,11 +161,14 @@ const aller = (h) => { location.hash = h; };
 // Petits calculs de progression
 const idsSituation = (s) => s.phrases.map((p) => p.id);
 const vues = (s) => idsSituation(s).filter((id) => S.carte(id));
-// Niveaux : l'A2 s'ouvre avec 6 tampons A1.
+// Niveaux : chaque niveau s'ouvre avec 6 tampons du niveau précédent (A1 → A2 → B1).
 const SEUIL_A2 = 6;
+const NIVEAUX = ["A1", "A2", "B1"];
 const niveauDe = (s) => s.niveau || "A1";
-const sellosA1 = () => C.toutes().filter((s) => niveauDe(s) === "A1" && vues(s).length === s.phrases.length).length;
-const ouverte = (s) => niveauDe(s) === "A1" || sellosA1() >= SEUIL_A2;
+const sellosDe = (niv) => C.toutes().filter((s) => niveauDe(s) === niv && vues(s).length === s.phrases.length).length;
+const precedent = (niv) => NIVEAUX[NIVEAUX.indexOf(niv) - 1];
+const niveauOuvert = (niv) => niv === "A1" || (niveauOuvert(precedent(niv)) && sellosDe(precedent(niv)) >= SEUIL_A2);
+const ouverte = (s) => niveauOuvert(niveauDe(s));
 const nbSituationsFaites = () => C.toutes().filter((s) => vues(s).length === s.phrases.length).length;
 const idsConnus = () => {
   const etat = S.get();
@@ -227,6 +231,8 @@ const COURT = {
   administration: "Trámites", travail: "Trabajo", urgences: "Urgencias", ecole: "El cole",
   finde: "Mi finde", planes: "Planes", opiniones: "Opiniones", quejas: "Quejas", viaje: "De viaje", cocina: "Cocina",
   mipais: "Mi país", emociones: "Emociones", bienestar: "Bienestar", paquetes: "Paquetes", reuniones: "Reuniones", fiesta: "Fiesta",
+  residencia: "Residencia", banco: "El banco", empleo: "Empleo", especialista: "Especialista", recuerdos: "Recuerdos", actualidad: "Actualidad",
+  consejos: "Consejos", familia: "Familia", reclamar: "Reclamar", formacion: "Formación", vendimia: "Vendimia", futuro: "Futuro",
 };
 const nomCourt = (s) => COURT[s.id] || s.titre_es;
 const ROTATIONS = [-8, 5, -3, 7, -6, 4, -2, 6, -7, 3, -4, 8];
@@ -235,7 +241,7 @@ const ROTATIONS = [-8, 5, -3, 7, -6, 4, -2, 6, -7, 3, -4, 8];
 function sello(s, k, ferme = false) {
   if (ferme) {
     return `
-    <div class="sello sello-ferme" aria-label="${e(s.titre)} : niveau A2, pas encore ouvert">
+    <div class="sello sello-ferme" aria-label="${e(s.titre)} : niveau ${niveauDe(s)}, pas encore ouvert">
       <svg class="sello-svg" viewBox="0 0 100 100" aria-hidden="true"><circle class="sello-piste" cx="50" cy="50" r="46" /></svg>
       <span class="sello-txt"><strong>${e(nomCourt(s))}</strong><span>${ico("cadenas", "ico-inline")}</span></span>
     </div>`;
@@ -330,12 +336,14 @@ function accueil() {
           <h2>Tus sellos</h2>
           <span class="petit">${scelles} sur ${C.toutes().length} tamponnés</span>
         </div>
-        ${["A1", "A2"].map((niv) => {
+        ${NIVEAUX.map((niv) => {
           const liste = C.toutes().filter((x) => niveauDe(x) === niv);
           if (!liste.length) return "";
-          const ferme = niv === "A2" && sellosA1() < SEUIL_A2;
+          const ferme = !niveauOuvert(niv);
+          const prec = precedent(niv);
+          const n = prec ? Math.min(sellosDe(prec), SEUIL_A2) : 0;
           return `
-          <div class="niveau-tete"><h3>Nivel ${niv}</h3>${ferme ? `<span class="petit">${ico("cadenas", "ico-inline")} S'ouvre avec ${SEUIL_A2} tampons A1 (${sellosA1()}/${SEUIL_A2})</span>` : ""}</div>
+          <div class="niveau-tete"><h3>Nivel ${niv}</h3>${ferme ? `<span class="petit">${ico("cadenas", "ico-inline")} S'ouvre avec ${SEUIL_A2} tampons ${prec} (${n}/${SEUIL_A2})</span>` : ""}</div>
           <div class="sellos ${ferme ? "sellos-fermes" : ""}">
             ${liste.map((x) => sello(x, C.toutes().indexOf(x), ferme)).join("")}
           </div>`;
@@ -500,7 +508,10 @@ function ecranSituation(id, onglet = "phrases") {
   const s = C.situation(id);
   if (!s) return aller("#/");
   if (!ouverte(s)) {
-    toast(`Le niveau A2 s'ouvre avec ${SEUIL_A2} tampons A1. Encore ${SEUIL_A2 - sellosA1()} à gagner.`);
+    const prec = precedent(niveauDe(s));
+    toast(niveauOuvert(prec)
+      ? `Le niveau ${niveauDe(s)} s'ouvre avec ${SEUIL_A2} tampons ${prec}. Encore ${SEUIL_A2 - sellosDe(prec)} à gagner.`
+      : `Le niveau ${niveauDe(s)} s'ouvre après le niveau ${prec}.`);
     history.replaceState(null, "", "#/");
     return accueil();
   }
@@ -910,6 +921,8 @@ function guidePrononciation() {
 function majNavCompte() {
   const lien = $('a[data-onglet="surprises"]', nav);
   if (lien) lien.hidden = K.compte()?.role === "duo";
+  // Les phrases s'accordent à la personne connectée (Elisabeth ou Khalil).
+  C.profil(K.compte()?.role, K.compte()?.prenom);
 }
 
 function ecranCompte() {

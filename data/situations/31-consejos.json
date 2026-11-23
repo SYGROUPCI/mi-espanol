@@ -1,0 +1,351 @@
+{
+  "id": "consejos",
+  "ordre": 31,
+  "niveau": "B1",
+  "titre": "Conseils et petits services",
+  "titre_es": "Consejos y favores",
+  "intro": "Demander un coup de main sans gêner, conseiller une amie, souhaiter bonne chance à un collègue : c'est là que le subjonctif entre en scène. Rassure-toi, il est plus gentil qu'il n'en a l'air, et il rend tes demandes beaucoup plus douces.",
+  "phrases": [
+    {
+      "id": "consejos-01",
+      "es": "¿Me puedes hacer un favor? Es una tontería.",
+      "fr": "Tu peux me rendre un service ? C'est trois fois rien.",
+      "pron": "mé POUÉ-déss a-THÉR oun fa-BOR ÉSS OU-na ton-té-RI-a",
+      "note": "« Es una tontería » minimise la demande : la petite formule pour ne pas déranger.",
+      "rapide": "¿Me pue'es hacer un favor? Es una tontería."
+    },
+    {
+      "id": "consejos-02",
+      "es": "Siento molestarte, pero necesito pedirte una cosa.",
+      "fr": "Désolée de te déranger, mais j'ai besoin de te demander quelque chose.",
+      "pron": "SYÉN-to mo-léss-TAR-té PÉ-ro né-thé-SSI-to pé-DIR-té OU-na KO-ssa",
+      "note": "Pedir, c'est demander quelque chose. Preguntar, c'est poser une question. Le français mélange les deux, l'espagnol non.",
+      "duo": {
+        "fr": "Désolé de te déranger, mais j'ai besoin de te demander quelque chose."
+      }
+    },
+    {
+      "id": "consejos-03",
+      "es": "Quiero que me des tu opinión sincera.",
+      "fr": "Je veux que tu me donnes ton avis sincère.",
+      "pron": "KYÉ-ro ké mé DÉSS tou o-pi-NYON sin-THÉ-ra",
+      "note": "Querer que + subjonctif : des, de dar. Dès que deux personnes différentes entrent en jeu, le subjonctif arrive."
+    },
+    {
+      "id": "consejos-04",
+      "es": "¿Qué harías tú en mi lugar?",
+      "fr": "Qu'est-ce que tu ferais, toi, à ma place ?",
+      "pron": "KÉ a-RI-ass TOU én mi lou-GAR",
+      "note": "Le conditionnel de hacer : haría, harías. LA question à poser avant une grande décision.",
+      "rapide": "¿Qu'harías tú en mi lugar?"
+    },
+    {
+      "id": "consejos-05",
+      "es": "Yo que tú, hablaría con ella cuanto antes.",
+      "fr": "Moi, à ta place, je lui parlerais le plus vite possible.",
+      "pron": "YO ké TOU a-bla-RI-a kon É-ya KOUAN-to AN-téss",
+      "note": "« Yo que tú » : à ta place. C'est la façon la plus naturelle de donner un conseil en Espagne."
+    },
+    {
+      "id": "consejos-06",
+      "es": "Te aconsejo que no firmes nada sin leerlo bien.",
+      "fr": "Je te conseille de ne rien signer sans bien le lire.",
+      "pron": "té a-kon-SSÉ-kho ké no FIR-méss NA-da SIN lé-ÉR-lo BYÉN",
+      "note": "Aconsejar que + subjonctif. Le français dit « de + infinitif », l'espagnol préfère « que + subjonctif ».",
+      "rapide": "T'aconsejo que no firmes na' sin leerlo bien."
+    },
+    {
+      "id": "consejos-07",
+      "es": "Espero que te vaya muy bien en la entrevista.",
+      "fr": "J'espère que ton entretien se passera très bien.",
+      "pron": "éss-PÉ-ro ké té BA-ya MOUÏ BYÉN én la én-tré-BISS-ta",
+      "note": "Esperar que + subjonctif pour un souhait. « Que te vaya bien » : que tout se passe bien pour toi."
+    },
+    {
+      "id": "consejos-08",
+      "es": "Ojalá encuentres pronto un piso más grande.",
+      "fr": "Pourvu que tu trouves vite un appartement plus grand.",
+      "pron": "o-kha-LA én-KOUÉN-tréss PRON-to oun PI-sso MASS GRAN-dé",
+      "note": "Ojalá vient de l'arabe et voulait dire « si Dieu le veut ». Il est toujours suivi du subjonctif."
+    },
+    {
+      "id": "consejos-09",
+      "es": "Mi vecina me ha pedido que le riegue las plantas este fin de semana.",
+      "fr": "Ma voisine m'a demandé d'arroser ses plantes ce week-end.",
+      "pron": "mi bé-THI-na mé a pé-DI-do ké lé RRYÉ-gué lass PLAN-tass ÉSS-té FIN dé sé-MA-na",
+      "note": "Pedir que + subjonctif : riegue, de regar. Le u sert seulement à garder le son « gué ».",
+      "rapide": "Mi vecina m'ha pedío que le riegue las plantas este fin de semana."
+    },
+    {
+      "id": "consejos-10",
+      "es": "Claro que sí, para eso están los amigos.",
+      "fr": "Mais bien sûr, c'est à ça que servent les amis.",
+      "pron": "KLA-ro ké SI PA-ra É-sso éss-TAN loss a-MI-goss",
+      "note": "La réponse chaleureuse à un « ¿me haces un favor? ». Avec les voisins, on dit « para eso están los vecinos »."
+    },
+    {
+      "id": "consejos-11",
+      "es": "¿Te importa que deje la bici en tu trastero unos días?",
+      "fr": "Ça te dérange si je laisse mon vélo dans ta cave quelques jours ?",
+      "pron": "té im-POR-ta ké DÉ-khé la BI-thi én tou trass-TÉ-ro OU-noss DI-ass",
+      "note": "« ¿Te importa que…? » + subjonctif : la demande la plus polie. Le trastero, c'est le petit débarras des immeubles espagnols."
+    },
+    {
+      "id": "consejos-12",
+      "es": "No quiero que te sientas obligada, ¿eh?",
+      "fr": "Je ne veux pas que tu te sentes obligée, hein ?",
+      "pron": "no KYÉ-ro ké té SYÉN-tass o-bli-GA-da É",
+      "note": "Sientas, subjonctif de sentirse. La phrase à ajouter après une demande, pour laisser une porte de sortie. À un homme : « obligado »."
+    },
+    {
+      "id": "consejos-13",
+      "es": "Si quieres, te acompaño al médico mañana.",
+      "fr": "Si tu veux, je t'accompagne chez le médecin demain.",
+      "pron": "si KYÉ-réss té a-kom-PA-gno al MÉ-di-ko ma-GNA-na",
+      "note": "Proposer son aide sans attendre qu'on la demande : toujours apprécié, entre amis comme entre voisins."
+    },
+    {
+      "id": "consejos-14",
+      "es": "Te recomiendo que te saques la tarjeta del autobús, sale más barato.",
+      "fr": "Je te conseille de faire la carte de bus, ça revient moins cher.",
+      "pron": "té rré-ko-MYÉN-do ké té SA-késs la tar-KHÉ-ta dél aou-to-BOUSS SA-lé MASS ba-RA-to",
+      "note": "Saques, subjonctif de sacar : le c devient qu pour garder le son « k ». « Sale más barato » : ça revient moins cher."
+    },
+    {
+      "id": "consejos-15",
+      "es": "Mi jefa quiere que trabaje el sábado, pero ya tengo planes.",
+      "fr": "Ma cheffe veut que je travaille samedi, mais j'ai déjà des projets.",
+      "pron": "mi KHÉ-fa KYÉ-ré ké tra-BA-khé él SA-ba-do PÉ-ro YA TÉN-go PLA-néss",
+      "note": "Quiere que trabaje : deux personnes différentes, donc subjonctif. Si c'est toi qui veux, c'est l'infinitif : quiero trabajar.",
+      "rapide": "Mi jefa quiere que trabaje el sábao, pero ya tengo planes."
+    },
+    {
+      "id": "consejos-16",
+      "es": "Gracias, te debo una.",
+      "fr": "Merci, je t'en dois une.",
+      "pron": "GRA-thyass té DÉ-bo OU-na",
+      "note": "Pour remercier d'un service. On te répondra sûrement « ¡Nada, mujer! », et à Khalil « ¡Nada, hombre! ».",
+      "duo": {
+        "note": "Pour remercier d'un service. On te répondra sûrement « ¡Nada, hombre! », et à Elisabeth « ¡Nada, mujer! »."
+      }
+    },
+    {
+      "id": "consejos-17",
+      "es": "Te lo agradezco muchísimo, de verdad.",
+      "fr": "Je te remercie infiniment, vraiment.",
+      "pron": "té lo a-gra-DÉTH-ko mou-TCHI-ssi-mo dé bér-DAD",
+      "note": "Agradecer, c'est remercier. Plus fort qu'un simple « gracias », pour un vrai coup de main.",
+      "rapide": "Te l'agradezco muchísimo, de verdá."
+    },
+    {
+      "id": "consejos-18",
+      "es": "Espero que no te moleste que te lo diga, pero la reunión es el jueves.",
+      "fr": "J'espère que ça ne te dérange pas que je te le dise, mais la réunion, c'est jeudi.",
+      "pron": "éss-PÉ-ro ké no té mo-LÉSS-té ké té lo DI-ga PÉ-ro la rré-ou-NYON ÉSS él KHOUÉ-béss",
+      "note": "Deux subjonctifs d'un coup : moleste et diga. Ça a l'air compliqué, mais c'est la phrase idéale pour corriger quelqu'un sans le vexer."
+    },
+    {
+      "id": "consejos-19",
+      "es": "Ojalá te den el trabajo, te lo mereces.",
+      "fr": "Pourvu qu'ils te donnent le poste, tu le mérites.",
+      "pron": "o-kha-LA té DÉN él tra-BA-kho té lo mé-RÉ-théss",
+      "note": "Den, subjonctif de dar. Ojalá + subjonctif présent : un vœu pour ce qui peut encore arriver."
+    },
+    {
+      "id": "consejos-20",
+      "es": "Cualquier cosa, me dices. No dudes en llamarme.",
+      "fr": "Au moindre besoin, tu me dis. N'hésite pas à m'appeler.",
+      "pron": "koual-KYÉR KO-ssa mé DI-théss no DOU-déss én ya-MAR-mé",
+      "note": "« Cualquier cosa, me dices » : la formule toute faite pour offrir ton aide. « No dudes » : l'impératif négatif, au subjonctif lui aussi."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Un service entre voisines",
+      "contexte": "Rosa, ta voisine, sonne chez toi. Elle part quelques jours voir sa fille à Pampelune et elle a une petite chose à te demander.",
+      "duo": {
+        "titre": "Un service entre voisins",
+        "contexte": "Rosa, la voisine d'Elisabeth, sonne à la porte. Elle part quelques jours voir sa fille à Pampelune et elle a une petite chose à te demander."
+      },
+      "lignes": [
+        {
+          "qui": "Rosa",
+          "es": "Hola, Elisabeth. Siento molestarte, pero necesito pedirte una cosa.",
+          "fr": "Salut, Elisabeth. Désolée de te déranger, mais j'ai besoin de te demander quelque chose.",
+          "duo": {
+            "es": "Hola, Khalil. Siento molestarte, pero necesito pedirte una cosa.",
+            "fr": "Salut, Khalil. Désolée de te déranger, mais j'ai besoin de te demander quelque chose."
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Claro, dime. ¿Qué pasa?",
+          "fr": "Bien sûr, dis-moi. Qu'est-ce qui se passe ?"
+        },
+        {
+          "qui": "Rosa",
+          "es": "Me voy a Pamplona a ver a mi hija y quiero que alguien me riegue las plantas. ¿Te importa?",
+          "fr": "Je pars à Pampelune voir ma fille et je voudrais que quelqu'un arrose mes plantes. Ça te dérange ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Para nada! Para eso están los vecinos. ¿Cuántos días te vas?",
+          "fr": "Pas du tout ! C'est à ça que servent les voisins. Tu pars combien de jours ?"
+        },
+        {
+          "qui": "Rosa",
+          "es": "Hasta el domingo. No quiero que te sientas obligada, ¿eh?",
+          "fr": "Jusqu'à dimanche. Je ne veux pas que tu te sentes obligée, hein ?",
+          "duo": {
+            "es": "Hasta el domingo. No quiero que te sientas obligado, ¿eh?",
+            "fr": "Jusqu'à dimanche. Je ne veux pas que tu te sentes obligé, hein ?"
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Que no, de verdad. Si quieres, también te recojo el correo.",
+          "fr": "Mais non, vraiment. Si tu veux, je relève aussi ton courrier."
+        },
+        {
+          "qui": "Rosa",
+          "es": "Gracias, te debo una. Te dejo las llaves y te mando un audio con las instrucciones.",
+          "fr": "Merci, je t'en dois une. Je te laisse les clés et je t'envoie un vocal avec les instructions."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Perfecto. Espero que lo pases muy bien con tu hija.",
+          "fr": "Parfait. J'espère que tu passeras un bon moment avec ta fille."
+        }
+      ]
+    },
+    {
+      "titre": "La veille de l'entretien",
+      "contexte": "Lucía a un entretien d'embauche demain dans une bodega de Haro. Elle t'appelle, un peu paniquée.",
+      "lignes": [
+        {
+          "qui": "Lucía",
+          "es": "Elisabeth, mañana tengo la entrevista y estoy fatal. ¿Qué harías tú en mi lugar?",
+          "fr": "Elisabeth, demain j'ai l'entretien et je suis dans tous mes états. Qu'est-ce que tu ferais à ma place ?",
+          "duo": {
+            "es": "Khalil, mañana tengo la entrevista y estoy fatal. ¿Qué harías tú en mi lugar?",
+            "fr": "Khalil, demain j'ai l'entretien et je suis dans tous mes états. Qu'est-ce que tu ferais à ma place ?"
+          }
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Yo que tú, me acostaría pronto y prepararía la ropa esta noche.",
+          "fr": "Moi, à ta place, je me coucherais tôt et je préparerais mes vêtements ce soir."
+        },
+        {
+          "qui": "Lucía",
+          "es": "¿Y si me preguntan por qué quiero el puesto?",
+          "fr": "Et s'ils me demandent pourquoi je veux le poste ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Diles la verdad: que te encanta el vino y que conoces bien la zona.",
+          "fr": "Dis-leur la vérité : que tu adores le vin et que tu connais bien la région."
+        },
+        {
+          "qui": "Lucía",
+          "es": "Vale. Oye, ¿quieres que te llame cuando salga?",
+          "fr": "D'accord. Dis, tu veux que je t'appelle en sortant ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Claro! Quiero que me lo cuentes todo.",
+          "fr": "Bien sûr ! Je veux que tu me racontes tout."
+        },
+        {
+          "qui": "Lucía",
+          "es": "Te lo agradezco muchísimo, de verdad.",
+          "fr": "Je te remercie infiniment, vraiment."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Nada, mujer. Ojalá te den el trabajo, te lo mereces.",
+          "fr": "De rien, voyons. Pourvu qu'ils te donnent le poste, tu le mérites."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Le subjonctif des souhaits et des demandes",
+    "explication": "Quand tu veux, espères ou demandes que quelqu'un d'autre fasse quelque chose, le deuxième verbe passe au subjonctif : quiero que vengas, espero que te guste, te pido que me ayudes. Si c'est la même personne, on garde l'infinitif : quiero venir, espero llegar pronto. Ojalá est toujours suivi du subjonctif, avec ou sans « que ». Pour le former, pars du « yo » du présent : vengo donne venga, digo donne diga, pido donne pida.",
+    "tableau": [
+      [
+        "quiero que vengas",
+        "je veux que tu viennes"
+      ],
+      [
+        "espero que te guste",
+        "j'espère que ça te plaira"
+      ],
+      [
+        "te pido que me ayudes",
+        "je te demande de m'aider"
+      ],
+      [
+        "te aconsejo que lo pienses",
+        "je te conseille d'y réfléchir"
+      ],
+      [
+        "ojalá haga sol",
+        "pourvu qu'il fasse beau"
+      ],
+      [
+        "dar → dé, des ; ir → vaya ; ser → sea",
+        "les irréguliers les plus fréquents"
+      ]
+    ],
+    "exemples": [
+      {
+        "es": "Espero que os guste la cena.",
+        "fr": "J'espère que le dîner vous plaira."
+      },
+      {
+        "es": "Mi madre me pide que la llame más a menudo.",
+        "fr": "Ma mère me demande de l'appeler plus souvent."
+      },
+      {
+        "es": "Ojalá no llueva el sábado.",
+        "fr": "Pourvu qu'il ne pleuve pas samedi."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Echar un cable",
+      "fr": "Donner un coup de main",
+      "note": "Plus familier que « echar una mano ». « ¿Me echas un cable con la mudanza? »"
+    },
+    {
+      "es": "¡Eres un cielo!",
+      "fr": "Tu es un amour !",
+      "note": "Pour remercier quelqu'un qui vient de te rendre service. Doux et très courant."
+    },
+    {
+      "es": "Por pedir que no quede",
+      "fr": "Demander ne coûte rien",
+      "note": "À dire avec un sourire, juste avant une demande un peu culottée."
+    },
+    {
+      "es": "Dar la lata",
+      "fr": "Casser les pieds",
+      "note": "« Perdona que te dé la lata » : désolée de t'embêter. Encore un subjonctif, il est partout.",
+      "duo": {
+        "note": "« Perdona que te dé la lata » : désolé de t'embêter. Encore un subjonctif, il est partout."
+      }
+    },
+    {
+      "es": "Meterse en camisa de once varas",
+      "fr": "Se mêler de ce qui ne nous regarde pas",
+      "note": "Le conseil des prudents : « Yo no me metería en camisa de once varas »."
+    },
+    {
+      "es": "Ser más bueno que el pan",
+      "fr": "Être bon comme du bon pain",
+      "note": "Pour quelqu'un de généreux qui rend toujours service. Au féminin : « es más buena que el pan »."
+    }
+  ]
+}

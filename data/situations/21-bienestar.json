@@ -12,7 +12,10 @@
       "fr": "Je me suis inscrite à la salle de sport près de chez moi.",
       "pron": "mé é a-poun-TA-do al khim-NA-ssyo ké éss-TA THÉR-ka dé KA-ssa",
       "note": "« Apuntarse a », c'est s'inscrire à quelque chose : un club, un cours, un apéro. Le verbe le plus utile de la rentrée.",
-      "rapide": "M'he apuntao al gimnasio que 'tá cerca de casa."
+      "rapide": "M'he apuntao al gimnasio que 'tá cerca de casa.",
+      "duo": {
+        "fr": "Je me suis inscrit à la salle de sport près de chez moi."
+      }
     },
     {
       "id": "bienestar-02",
@@ -40,7 +43,10 @@
       "es": "Hace mucho tiempo que no voy al dentista.",
       "fr": "Ça fait longtemps que je ne suis pas allée chez le dentiste.",
       "pron": "A-thé MOU-tcho TYÉM-po ké no BOÏ al dén-TISS-ta",
-      "note": "« Hace + durée + que », l'autre façon de dire depuis. Le verbe reste au présent, contrairement au français."
+      "note": "« Hace + durée + que », l'autre façon de dire depuis. Le verbe reste au présent, contrairement au français.",
+      "duo": {
+        "fr": "Ça fait longtemps que je ne suis pas allé chez le dentiste."
+      }
     },
     {
       "id": "bienestar-06",
@@ -143,7 +149,10 @@
       "es": "Ayer fui a clase de zumba y hoy tengo agujetas.",
       "fr": "Hier je suis allée au cours de zumba et aujourd'hui j'ai des courbatures.",
       "pron": "a-YÉR FOUI a KLA-ssé dé THOUM-ba i OÏ TÉN-go a-gou-KHÉ-tass",
-      "note": "« Fui », passé simple de ir. « Agujetas », c'est le mot espagnol pour les courbatures du lendemain."
+      "note": "« Fui », passé simple de ir. « Agujetas », c'est le mot espagnol pour les courbatures du lendemain.",
+      "duo": {
+        "fr": "Hier je suis allé au cours de zumba et aujourd'hui j'ai des courbatures."
+      }
     },
     {
       "id": "bienestar-20",
@@ -196,7 +205,10 @@
         {
           "qui": "Sergio",
           "es": "Eso es buena señal. ¡Bienvenida!",
-          "fr": "C'est bon signe. Bienvenue !"
+          "fr": "C'est bon signe. Bienvenue !",
+          "duo": {
+            "es": "Eso es buena señal. ¡Bienvenido!"
+          }
         }
       ]
     },
@@ -312,7 +324,10 @@
     {
       "es": "No poder ni con mi alma",
       "fr": "Être complètement épuisée",
-      "note": "Mot à mot : ne même plus pouvoir porter son âme. Après la première séance de gym, garanti."
+      "note": "Mot à mot : ne même plus pouvoir porter son âme. Après la première séance de gym, garanti.",
+      "duo": {
+        "fr": "Être complètement épuisé"
+      }
     }
   ]
 }

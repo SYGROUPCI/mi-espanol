@@ -76,7 +76,13 @@
       "es": "Soy tranquila y muy ordenada, lo prometo.",
       "fr": "Je suis calme et très ordonnée, promis.",
       "pron": "SOÏ tran-KI-la i MOUÏ or-dé-NA-da lo pro-MÉ-to",
-      "note": "La phrase qui rassure les colocs pendant l'entretien. Au féminin, puisque c'est toi, et à tenir aussi après l'emménagement."
+      "note": "La phrase qui rassure les colocs pendant l'entretien. Au féminin, puisque c'est toi, et à tenir aussi après l'emménagement.",
+      "duo": {
+        "es": "Soy tranquilo y muy ordenado, lo prometo.",
+        "fr": "Je suis calme et très ordonné, promis.",
+        "pron": "SOÏ tran-KI-lo i MOUÏ or-dé-NA-do lo pro-MÉ-to",
+        "note": "La phrase qui rassure les colocs pendant l'entretien. Au masculin, puisque c'est toi, et à tenir aussi après l'emménagement."
+      }
     },
     {
       "id": "logement-11",
@@ -212,6 +218,7 @@
     {
       "titre": "La chaudière fait grève",
       "contexte": "Un matin de décembre, l'eau de la douche reste glacée. Tu appelles Javier, ton propriétaire.",
+      "duo": { "contexte": "Un matin de décembre, chez Elisabeth, l'eau de la douche reste glacée. Tu appelles Javier, le propriétaire." },
       "lignes": [
         {
           "qui": "Javier",
@@ -221,12 +228,20 @@
         {
           "qui": "Elisabeth",
           "es": "Hola, Javier, soy Elisabeth, la inquilina de la calle Portales.",
-          "fr": "Bonjour Javier, c'est Elisabeth, la locataire de la calle Portales."
+          "fr": "Bonjour Javier, c'est Elisabeth, la locataire de la calle Portales.",
+          "duo": {
+            "es": "Hola, Javier, soy Khalil, el novio de Elisabeth, la inquilina de la calle Portales.",
+            "fr": "Bonjour Javier, c'est Khalil, le copain d'Elisabeth, la locataire de la calle Portales."
+          }
         },
         {
           "qui": "Javier",
           "es": "Hola, Elisabeth. ¿Qué tal todo?",
-          "fr": "Bonjour Elisabeth. Tout va bien ?"
+          "fr": "Bonjour Elisabeth. Tout va bien ?",
+          "duo": {
+            "es": "Hola, Khalil. ¿Qué tal todo?",
+            "fr": "Bonjour Khalil. Tout va bien ?"
+          }
         },
         {
           "qui": "Elisabeth",
@@ -241,7 +256,11 @@
         {
           "qui": "Elisabeth",
           "es": "Desde esta mañana. Me he duchado con agua fría y todavía estoy congelada.",
-          "fr": "Depuis ce matin. J'ai pris une douche froide et je suis encore gelée."
+          "fr": "Depuis ce matin. J'ai pris une douche froide et je suis encore gelée.",
+          "duo": {
+            "es": "Desde esta mañana. Me he duchado con agua fría y todavía estoy congelado.",
+            "fr": "Depuis ce matin. J'ai pris une douche froide et je suis encore gelé."
+          }
         },
         {
           "qui": "Javier",
@@ -316,7 +335,10 @@
     {
       "es": "Estar a dos velas",
       "fr": "Être fauchée",
-      "note": "Le joli nom de la fin du mois, juste après le virement du loyer."
+      "note": "Le joli nom de la fin du mois, juste après le virement du loyer.",
+      "duo": {
+        "fr": "Être fauché"
+      }
     },
     {
       "es": "Llegar a fin de mes",
