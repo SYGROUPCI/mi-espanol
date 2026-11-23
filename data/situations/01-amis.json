@@ -52,7 +52,7 @@
       "es": "¿Quedamos esta tarde?",
       "fr": "On se voit cet après-midi ?",
       "pron": "ké-DA-moss ÉSS-ta TAR-dé",
-      "note": "« Quedar » veut dire se retrouver : c'est LE verbe des sorties.",
+      "note": "« Quedar » veut dire se retrouver : c'est LE verbe des sorties. En Espagne, « esta tarde » va jusqu'à 20 ou 21 h : ça peut donc vouloir dire ce soir.",
       "rapide": "¿Quedamos 'sta tarde?"
     },
     {
@@ -95,7 +95,7 @@
       "es": "Quedamos a las ocho en la plaza del Mercado.",
       "fr": "On se retrouve à huit heures sur la place du Marché.",
       "pron": "ké-DA-moss a lass O-tcho én la PLA-tha dél mér-KA-do",
-      "note": "La place devant La Redonda, la cathédrale : le point de rendez-vous classique."
+      "note": "La place devant La Redonda, la cocathédrale (concatedral) : le point de rendez-vous classique."
     },
     {
       "id": "amis-14",
@@ -108,7 +108,7 @@
       "id": "amis-15",
       "es": "Para mí, un crianza, por favor.",
       "fr": "Pour moi, un crianza, s'il te plaît.",
-      "pron": "pa-ra MI oun KRYAN-tha por fa-BOR",
+      "pron": "PA-ra MI oun KRYAN-tha por fa-BOR",
       "note": "Ici on commande le vin par son type : un joven, un crianza. Tu es en Rioja, après tout.",
       "rapide": "Pa' mí, un crianza, por favor."
     },
@@ -167,7 +167,7 @@
       "contexte": "Dans un bar bondé de la rue Laurel, Lucía te présente Javi.",
       "lignes": [
         { "qui": "Javi", "es": "Hola, soy Javi. ¿Tú eres Elisabeth?", "fr": "Salut, moi c'est Javi. C'est toi, Elisabeth ?" },
-        { "qui": "Elisabeth", "es": "Sí, encantada. Soy de Guinea Conakry, pero vivo en Logroño desde hace poco.", "fr": "Oui, enchantée. Je viens de Guinée, mais j'habite à Logroño depuis peu." },
+        { "qui": "Elisabeth", "es": "Sí, encantada. Soy de Guinea Conakry, pero vivo en Logroño desde hace poco.", "fr": "Oui, enchantée. Je viens de Guinée Conakry, mais j'habite à Logroño depuis peu." },
         { "qui": "Javi", "es": "¡Qué bien! ¿Y qué tal el español?", "fr": "Super ! Et ça va, l'espagnol ?" },
         { "qui": "Elisabeth", "es": "Hablo un poco de español, pero voy aprendiendo.", "fr": "Je parle un peu espagnol, mais j'apprends petit à petit." },
         { "qui": "Lucía", "es": "Venga, ¿qué queréis tomar?", "fr": "Allez, qu'est-ce que vous prenez ?" },

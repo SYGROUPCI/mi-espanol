@@ -39,26 +39,39 @@ function leurres(id, champ, n = 3) {
 // ---------------------------------------------------------------------------
 // Une séance : liste d'items, progression, retour à la fin.
 // items : { type: "carte" | "qcm" | "relier" | "ecrire" | "rapide", id | ids, ... }
-export function seance(racine, items, { titre = "", depart = 0, onAvance, onFin, onQuitter } = {}) {
+export function seance(racine, items, { titre = "", etape = "", depart = 0, onAvance, onFin, onQuitter } = {}) {
   let i = depart;
   const file = [...items];
   const repris = new Set(); // cartes ratées déjà remises en fin de file
   const stats = { ok: 0, ko: 0 };
+  let maxBarre = 0;
+
+  // Pendant une séance, aucune mise à jour automatique ne recharge l'appli.
+  document.body.dataset.seance = "1";
+  const finir = (fn) => (...a) => { delete document.body.dataset.seance; return fn?.(...a); };
+  onFin = finir(onFin);
+  onQuitter = finir(onQuitter);
 
   racine.innerHTML = `
     <div class="seance">
       <header class="seance-haut">
         <button class="btn-ico" data-quitter aria-label="Quitter">${ico("croix")}</button>
-        <div class="barre"><div class="barre-plein"></div></div>
-        <span class="seance-titre">${e(titre)}</span>
+        <div class="barre" role="progressbar" aria-label="Progression" aria-valuemin="0" aria-valuemax="100"><div class="barre-plein"></div></div>
+        <span class="seance-titre">${e(etape || titre)}<span class="seance-compte" data-compte></span></span>
       </header>
       <section class="seance-corps"></section>
     </div>`;
   const corps = racine.querySelector(".seance-corps");
   racine.querySelector("[data-quitter]").onclick = () => onQuitter?.(i);
 
+  // La barre n'avance que vers l'avant : une carte ratée remise en fin de file ne la fait pas reculer.
   const majBarre = () => {
-    racine.querySelector(".barre-plein").style.width = `${Math.round((i / Math.max(file.length, 1)) * 100)}%`;
+    const pct = Math.round((Math.min(i, file.length) / Math.max(file.length, 1)) * 100);
+    maxBarre = Math.max(maxBarre, pct);
+    racine.querySelector(".barre-plein").style.width = `${maxBarre}%`;
+    racine.querySelector(".barre").setAttribute("aria-valuenow", maxBarre);
+    const compte = racine.querySelector("[data-compte]");
+    if (compte) compte.textContent = i < file.length ? ` · ${i + 1}/${file.length}` : "";
   };
 
   const suivant = () => {
@@ -188,6 +201,7 @@ function qcm(corps, it, { resultat, suivant }) {
 // Relier : 4 ou 5 phrases espagnoles avec leur traduction.
 function relier(corps, it, { resultat, suivant }) {
   const ps = it.ids.map(ph).filter(Boolean);
+  if (ps.length < 2) return suivant();
   const gauche = melanger(ps);
   const droite = melanger(ps);
   let choisi = null;
@@ -268,7 +282,8 @@ function ecrire(corps, it, { resultat, suivant }) {
     const a = normaliser(rep), b = normaliser(attendu);
     const exact = a === b;
     const accentsOk = normaliser(rep, true) === normaliser(attendu, true);
-    const proche = !exact && b.length > 0 && distance(a, b) <= Math.max(1, Math.round(b.length * 0.12));
+    // Petite faute de frappe tolérée, mais pas sur les mots très courts (« yo » n'est pas « no »).
+    const proche = !exact && b.length > 4 && distance(a, b) <= Math.max(1, Math.round(b.length * 0.12));
     const ok = !abandon && (exact || proche);
     form.querySelectorAll("button, textarea").forEach((x) => (x.disabled = true));
     let extra = `<div class="ligne-voix"><p class="retour-solution">${e(attendu)}</p>${V.bouton(attendu)}</div>${pron(p)}`;
@@ -302,8 +317,8 @@ function rapide(corps, it, { resultat, suivant }) {
           <button type="button" class="btn btn-doux btn-petit" data-voix="${e(p.es)}" data-vitesse="lente">Plus lentement</button>
         </div>
         <button type="button" class="lien-texte" data-montrer>Je préfère lire</button>
-        <p class="enonce-texte" data-texte-rapide hidden>« ${e(p.rapide)} »</p>`
-      : `<p class="petit">Dans la rue, tu entends :</p><p class="enonce-texte">« ${e(p.rapide)} »</p>`}
+        <p class="enonce-texte" data-texte-rapide lang="es" hidden>« ${e(p.rapide || p.es)} »</p>`
+      : `<p class="petit">Dans la rue, tu entends :</p><p class="enonce-texte" lang="es">« ${e(p.rapide || p.es)} »</p>`}
     </div>
     <p class="consigne-2">Quelle phrase on t'a dite ?</p>
     <div class="options">${options.map((o, k) => `<button class="option" data-k="${k}">${e(o)}</button>`).join("")}</div>`;

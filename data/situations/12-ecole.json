@@ -61,7 +61,7 @@
       "es": "Quería pedir una reunión con la tutora.",
       "fr": "Je voudrais demander un rendez-vous avec la maîtresse.",
       "pron": "ké-RI-a pé-DIR OU-na rré-ou-NYON kon la tou-TO-ra",
-      "note": "« La tutora » est l'enseignante responsable de la classe, que les enfants appellent « la profe ». Un rendez-vous individuel se dit aussi « una tutoría »."
+      "note": "« La tutora » est l'enseignante responsable de la classe, que les petits de primaire appellent souvent « la seño », et les plus grands « la profe ». Un rendez-vous individuel se dit aussi « una tutoría »."
     },
     {
       "id": "ecole-09",
@@ -148,7 +148,7 @@
       "id": "ecole-20",
       "es": "¿Me metes en el grupo de WhatsApp de la clase?",
       "fr": "Tu m'ajoutes au groupe WhatsApp de la classe ?",
-      "pron": "mé MÉ-téss én él GROU-po dé GOUA-ssap dé la KLA-ssé",
+      "pron": "mé MÉ-téss én él GROU-po dé goua-SSAP dé la KLA-ssé",
       "note": "Le groupe des parents, c'est là qu'on apprend tout, des sorties scolaires aux poux. Pense à couper les notifications."
     }
   ],
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "titre": "Un samedi matin au parc",
+      "titre": "Un après-midi au parc",
       "contexte": "Lucas joue au toboggan avec une petite fille. Sa maman, Raquel, s'assoit sur le banc à côté de toi.",
       "lignes": [
         { "qui": "Raquel", "es": "¡Qué rico! ¿Cómo se llama?", "fr": "Trop mignon ! Il s'appelle comment ?" },
@@ -208,6 +208,6 @@
     { "es": "Es un sol", "fr": "C'est un amour", "note": "Le plus beau compliment pour un enfant gentil. Marche aussi pour les adultes." },
     { "es": "Ser una lapa", "fr": "Être un vrai pot de colle", "note": "La lapa, c'est la bernique collée au rocher. Pour le petit qui ne lâche pas la jambe de sa mère le premier jour d'école." },
     { "es": "Hacer novillos", "fr": "Sécher les cours", "note": "Rien à voir avec les jeunes taureaux, ou si peu. Concerne plutôt les ados de l'instituto." },
-    { "es": "Estoy hasta arriba", "fr": "Je suis débordée", "note": "Entre l'école, le comedor et les extraescolares, la phrase préférée des parents. Bonus : elle ne s'accorde pas." }
+    { "es": "No llegar a todo", "fr": "Ne pas arriver à tout faire", "note": "« No llego a todo » : entre l'école, le comedor et les extraescolares, la phrase préférée des parents." }
   ]
 }

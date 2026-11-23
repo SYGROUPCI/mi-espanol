@@ -17,14 +17,14 @@
       "id": "mipais-02",
       "es": "Mi novio, Khalil, es de Abiyán, en Costa de Marfil.",
       "fr": "Mon copain, Khalil, est d'Abidjan, en Côte d'Ivoire.",
-      "pron": "mi NO-byo kha-LIL ÉSS dé a-bi-YAN én KOSS-ta dé mar-FIL",
+      "pron": "mi NO-byo ka-LIL ÉSS dé a-bi-YAN én KOSS-ta dé mar-FIL",
       "note": "Abidjan s'écrit Abiyán en espagnol. « Novio » veut dire copain, pas forcément fiancé."
     },
     {
       "id": "mipais-03",
       "es": "La capital de Costa de Marfil es Yamusukro, pero la ciudad más grande es Abiyán.",
       "fr": "La capitale de la Côte d'Ivoire, c'est Yamoussoukro, mais la plus grande ville, c'est Abidjan.",
-      "pron": "la ka-pi-TAL dé KOSS-ta dé mar-FIL ÉSS ya-mou-SOU-kro PÉ-ro la thyou-DAD MASS GRAN-dé ÉSS a-bi-YAN",
+      "pron": "la ka-pi-TAL dé KOSS-ta dé mar-FIL ÉSS ya-mou-SSOU-kro PÉ-ro la thyou-DAD MASS GRAN-dé ÉSS a-bi-YAN",
       "note": "Le superlatif se fait avec « la más grande » : la plus grande. Pratique pour gagner un quiz de géographie au bar."
     },
     {
@@ -75,7 +75,7 @@
       "id": "mipais-10",
       "es": "Khalil dice que el attiéké es mejor que cualquier paella.",
       "fr": "Khalil dit que l'attiéké est meilleur que n'importe quelle paella.",
-      "pron": "kha-LIL DI-thé ké él a-tyé-KÉ ÉSS mé-KHOR ké koual-KYÉR pa-É-ya",
+      "pron": "ka-LIL DI-thé ké él a-tyé-KÉ ÉSS mé-KHOR ké koual-KYÉR pa-É-ya",
       "note": "À expliquer aux amis : l'attiéké, c'est une semoule de manioc. Et à dire avec un sourire, la paella est un sujet sensible.",
       "rapide": "Khalil dice qu'el attiéké es mejor que cualquier paella."
     },
@@ -127,7 +127,7 @@
       "es": "Hablo con mi familia por videollamada casi todos los domingos.",
       "fr": "Je parle avec ma famille en visio presque tous les dimanches.",
       "pron": "A-blo kon mi fa-MI-lya por bi-dé-o-ya-MA-da KA-ssi TO-doss loss do-MIN-goss",
-      "note": "« Familia » est au singulier en espagnol, même quand elle compte trente personnes."
+      "note": "« Familia » est un singulier : « mi familia vive en Conakri », jamais « viven », même quand elle compte trente personnes."
     },
     {
       "id": "mipais-18",
@@ -146,20 +146,20 @@
     },
     {
       "id": "mipais-20",
-      "es": "El verano que viene voy a volver a Guinea para ver a mi familia.",
-      "fr": "L'été prochain, je vais retourner en Guinée pour voir ma famille.",
-      "pron": "él bé-RA-no ké BYÉ-né BOÏ a bol-BÉR a gui-NÉ-a PA-ra BÉR a mi fa-MI-lya",
-      "note": "Ir a + infinitif, le futur proche, comme en français. « Que viene » veut dire prochain : la semana que viene, el año que viene.",
-      "rapide": "El verano que viene voy a volver a Guinea pa' ver a mi familia."
+      "es": "El año que viene voy a volver a Guinea para ver a mi familia.",
+      "fr": "L'année prochaine, je vais retourner en Guinée pour voir ma famille.",
+      "pron": "él A-gno ké BYÉ-né BOÏ a bol-BÉR a gui-NÉ-a PA-ra BÉR a mi fa-MI-lya",
+      "note": "Ir a + infinitif, le futur proche, comme en français. « Que viene » veut dire prochain : la semana que viene, el verano que viene.",
+      "rapide": "El año que viene voy a volver a Guinea pa' ver a mi familia."
     }
   ],
   "dialogues": [
     {
       "titre": "Une collègue curieuse",
-      "contexte": "Pendant la pause café, Lucía, ta collègue, te pose enfin la question qu'elle n'osait pas poser.",
+      "contexte": "Pendant la pause café, Carmen, ta collègue, te pose enfin la question qu'elle n'osait pas poser.",
       "lignes": [
         {
-          "qui": "Lucía",
+          "qui": "Carmen",
           "es": "Oye, Elisabeth, ¿de dónde eres? Nunca te lo he preguntado.",
           "fr": "Dis, Elisabeth, tu viens d'où ? Je ne te l'ai jamais demandé."
         },
@@ -169,7 +169,7 @@
           "fr": "Je suis de Guinée, de Conakry, la capitale."
         },
         {
-          "qui": "Lucía",
+          "qui": "Carmen",
           "es": "¡Qué interesante! ¿Y qué idioma se habla allí?",
           "fr": "Comme c'est intéressant ! Et quelle langue on parle là-bas ?"
         },
@@ -179,7 +179,7 @@
           "fr": "En Guinée, la langue officielle est le français, mais on en parle beaucoup d'autres, comme le soussou, le peul ou le malinké."
         },
         {
-          "qui": "Lucía",
+          "qui": "Carmen",
           "es": "¡Qué cantidad de lenguas! ¿Y qué es lo que más echas de menos?",
           "fr": "Ça en fait, des langues ! Et qu'est-ce qui te manque le plus ?"
         },
@@ -189,8 +189,8 @@
           "fr": "Ce qui me manque le plus, c'est la cuisine de ma mère. À la maison, on mangeait du riz presque tous les jours."
         },
         {
-          "qui": "Lucía",
-          "es": "¿Y el tiempo? Aquí en invierno hace un frío que pela.",
+          "qui": "Carmen",
+          "es": "¿Y el tiempo? Aquí en invierno hace un frío de narices.",
           "fr": "Et le temps ? Ici, en hiver, il fait un froid de canard."
         },
         {
@@ -211,7 +211,7 @@
         },
         {
           "qui": "Khalil",
-          "es": "Mucha gente lo piensa, pero la capital de Costa de Marfil es Yamusukro. Abiyán es la ciudad más grande.",
+          "es": "Mucha gente cree eso, pero la capital de Costa de Marfil es Yamusukro. Abiyán es la ciudad más grande.",
           "fr": "Beaucoup de gens le pensent, mais la capitale de la Côte d'Ivoire, c'est Yamoussoukro. Abidjan, c'est la plus grande ville."
         },
         {
@@ -275,9 +275,9 @@
   },
   "expressions": [
     {
-      "es": "Hace un frío que pela",
+      "es": "Hace un frío de narices",
       "fr": "Il fait un froid de canard",
-      "note": "La phrase préférée des Riojanos de novembre à mars, quand souffle le cierzo."
+      "note": "Familier mais pas grossier. La phrase préférée des Riojanos de novembre à mars, quand souffle le cierzo."
     },
     {
       "es": "Ni me lo digas",

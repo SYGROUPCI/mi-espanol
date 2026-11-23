@@ -8,7 +8,7 @@
   --papier-2: #EDE7F6;
   --surface: #FFFFFF;
   --trait: #E1D8EE;
-  --trait-fort: #C9BCDF;
+  --trait-fort: #8E80AA;
   --encre: #1D1630;
   --encre-2: #463C5E;
   --gris: #6B6480;
@@ -32,7 +32,7 @@
 /* ---------- Sombre : une nuit violette, pas un noir neutre ---------- */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="clair"]) {
-    --papier: #17122A; --papier-2: #1E1836; --surface: #211A3A; --trait: #342B52; --trait-fort: #4A3F6E;
+    --papier: #17122A; --papier-2: #1E1836; --surface: #211A3A; --trait: #342B52; --trait-fort: #6F6496;
     --encre: #EFEAF7; --encre-2: #CFC6E6; --gris: #A99FC0;
     --violet: #C7B3FF; --violet-vif: #B394FF; --violet-doux: #2D2450;
     --postit: #3A3216; --ligne: #2C2448;
@@ -44,7 +44,7 @@
   }
 }
 :root[data-theme="sombre"] {
-  --papier: #17122A; --papier-2: #1E1836; --surface: #211A3A; --trait: #342B52; --trait-fort: #4A3F6E;
+  --papier: #17122A; --papier-2: #1E1836; --surface: #211A3A; --trait: #342B52; --trait-fort: #6F6496;
   --encre: #EFEAF7; --encre-2: #CFC6E6; --gris: #A99FC0;
   --violet: #C7B3FF; --violet-vif: #B394FF; --violet-doux: #2D2450;
   --postit: #3A3216; --ligne: #2C2448;
@@ -83,7 +83,7 @@ h1 { font-size: clamp(2rem, 1.6rem + 2vw, 3rem); }
 h2 { font-size: 1.35rem; }
 h3 { font-size: 1.12rem; }
 p { margin: 0; }
-:focus-visible { outline: 2.5px solid var(--violet-vif); outline-offset: 3px; border-radius: 8px; }
+:focus-visible { outline: 2.5px solid var(--violet-vif); outline-offset: 3px; }
 ::selection { background: var(--jaune); color: var(--jaune-encre); }
 
 #app {
@@ -617,3 +617,32 @@ input:focus, textarea:focus { border-color: var(--violet-vif); }
 .niveau-tete h3 { font-size: 1.05rem; color: var(--violet); }
 .sellos-fermes .sello { opacity: .5; }
 .sello-ferme .sello-txt span .ico { width: 14px; height: 14px; }
+
+/* ---------- Corrections de l'audit (nuit du 23 novembre) ---------- */
+/* Sombre : le violet vif et le rouge sont clairs, donc le texte posé dessus doit être foncé. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="clair"]) .btn-envoyer, :root:not([data-theme="clair"]) .btn-ecoute,
+  :root:not([data-theme="clair"]) .btn-micro.en-ecoute { color: var(--papier); }
+}
+:root[data-theme="sombre"] .btn-envoyer, :root[data-theme="sombre"] .btn-ecoute,
+:root[data-theme="sombre"] .btn-micro.en-ecoute { color: var(--papier); }
+
+/* Cibles tactiles d'au moins 44 px (recommandation Apple). */
+.btn-petit { min-height: 44px; }
+.accents button { min-width: 44px; height: 44px; }
+.libreta .btn-ico { width: 44px; height: 44px; }
+.btn-voix { width: 44px; height: 44px; }
+
+/* Séance : où on en est (tramo et compteur). */
+.seance-titre { display: block; flex: none; font-size: .85rem; font-weight: 700; color: var(--gris); white-space: nowrap; }
+.seance-compte { font-weight: 400; }
+
+/* Charla : après la dictée, la flèche d'envoi invite à valider. */
+.btn-envoyer.a-envoyer { box-shadow: 0 0 0 4px var(--violet-doux); }
+.btn-reprendre { margin-bottom: 6px; }
+/* Dans Charla, le message s'affiche au-dessus de la zone de saisie, pas dessous. */
+body:has(.charla) .toast { bottom: calc(env(safe-area-inset-bottom) + 150px); }
+
+/* Titres d'écran focusables (lecteur d'écran) sans contour au clic. */
+h1[tabindex="-1"]:focus { outline: none; }
+.libreta li .btn-voix { width: 44px; height: 44px; }

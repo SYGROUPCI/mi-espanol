@@ -12,7 +12,7 @@
       "fr": "Samedi, c'est mon anniversaire et je vais faire une fête à la maison.",
       "pron": "él SA-ba-do ÉSS mi koum-plé-A-gnoss i BOÏ a a-THÉR OU-na FYÉSS-ta én KA-ssa",
       "note": "« Cumpleaños » prend un s même au singulier. À l'oral, tout le monde dit « el cumple ».",
-      "rapide": "El sábado es mi cumple y voy'a hacer una fiesta en casa."
+      "rapide": "El sábado es mi cumple y voy a'cer una fiesta en casa."
     },
     {
       "id": "fiesta-02",
@@ -33,14 +33,15 @@
       "es": "¿Qué llevo? ¿Algo de bebida o algo de picar?",
       "fr": "J'apporte quoi ? Quelque chose à boire ou à grignoter ?",
       "pron": "KÉ YÉ-bo AL-go dé bé-BI-da o AL-go dé pi-KAR",
-      "note": "Ne jamais arriver les mains vides : c'est la règle. « Picar », c'est grignoter, l'activité nationale."
+      "note": "Ne jamais arriver les mains vides : c'est la règle. « Picar », c'est grignoter, l'activité nationale.",
+      "rapide": "¿Qué llevo? ¿Algo'e bebida o algo'e picar?"
     },
     {
       "id": "fiesta-05",
       "es": "No hace falta que traigas nada, solo ven con ganas.",
       "fr": "Pas besoin d'apporter quoi que ce soit, viens juste avec ta bonne humeur.",
       "pron": "no A-thé FAL-ta ké TRAÏ-gass NA-da SO-lo BÉN kon GA-nass",
-      "note": "Ce qu'on répond par politesse. L'invité apporte quand même une bouteille, et tout le monde est content.",
+      "note": "« Traigas » est un subjonctif, à retenir tel quel. On le dit par politesse : l'invité apporte quand même une bouteille.",
       "rapide": "No hace falta que traigas na', solo ven con ganas."
     },
     {
@@ -48,7 +49,7 @@
       "es": "Yo me encargo de la tortilla y Khalil trae el postre.",
       "fr": "Moi, je m'occupe de la tortilla et Khalil apporte le dessert.",
       "pron": "YO mé én-KAR-go dé la tor-TI-ya i ka-LIL TRA-é él POSS-tré",
-      "note": "« Encargarse de » : s'occuper de. Avec ou sans oignon dans la tortilla ? Le débat peut durer toute la soirée."
+      "note": "« Encargarse de » : s'occuper de. Répartir les plats à l'avance, c'est éviter trois tortillas et zéro dessert."
     },
     {
       "id": "fiesta-07",
@@ -62,8 +63,7 @@
       "es": "¡Felicidades! ¿Cuántos cumples?",
       "fr": "Joyeux anniversaire ! Tu as quel âge ?",
       "pron": "fé-li-thi-DA-déss KOUAN-toss KOUM-pléss",
-      "note": "« Cumplir años », c'est fêter ses années. « ¡Felicidades! » marche aussi pour une naissance, un diplôme ou un nouveau travail.",
-      "rapide": "¡Felicidade'! ¿Cuánto' cumples?"
+      "note": "« Cumplir años », c'est prendre un an : « ¿cuántos cumples? », tu as quel âge maintenant ? Pour un succès, on dit plutôt « ¡enhorabuena! »."
     },
     {
       "id": "fiesta-09",
@@ -114,7 +114,7 @@
       "fr": "Ce gâteau est délicieux. C'est toi qui l'as fait ?",
       "pron": "ÉSS-ta TAR-ta éss-TA boué-NI-ssi-ma la ass É-tcho TOU",
       "note": "« Hecho » est le participe irrégulier de « hacer ». Le compliment fonctionne même si la tarta vient de la pâtisserie.",
-      "rapide": "'Sta tarta 'tá buenísima. ¿La'as hecho tú?"
+      "rapide": "'Sta tarta 'tá buenísima. ¿L'has hecho tú?"
     },
     {
       "id": "fiesta-16",
@@ -129,7 +129,7 @@
       "fr": "On s'est super bien amusés. Il faut remettre ça !",
       "pron": "lo É-moss pa-SSA-do khé-NYAL AÏ ké rré-pé-TIR-lo",
       "note": "« Pasarlo bien » ou « pasarlo genial » : passer un bon moment. Au passé composé, parce que la fête vient de finir.",
-      "rapide": "Lo hemo' pasao genial. ¡Hay que repetirlo!"
+      "rapide": "Lo hemos pasao genial. ¡Hay que repetirlo!"
     },
     {
       "id": "fiesta-18",
@@ -140,10 +140,10 @@
     },
     {
       "id": "fiesta-19",
-      "es": "Ya es tarde y mañana madrugo, así que me voy a ir.",
+      "es": "Ya es tarde y mañana madrugo, así que me voy yendo.",
       "fr": "Il est déjà tard et demain je me lève tôt, donc je vais y aller.",
-      "pron": "YA ÉSS TAR-dé i ma-GNA-na ma-DROU-go a-SSI ké mé BOÏ a IR",
-      "note": "« Madrugar », c'est se lever tôt. L'excuse officielle pour partir avant minuit sans vexer personne."
+      "pron": "YA ÉSS TAR-dé i ma-GNA-na ma-DROU-go a-SSI ké mé BOÏ YÉN-do",
+      "note": "« Madrugar », c'est se lever tôt. L'excuse officielle pour partir avant minuit, et « me voy yendo » annonce le départ en douceur."
     },
     {
       "id": "fiesta-20",
@@ -256,8 +256,8 @@
         },
         {
           "qui": "Elisabeth",
-          "es": "Gracias a todos por venir. Lo hemos pasado genial. ¡Hay que repetirlo!",
-          "fr": "Merci à tous d'être venus. On s'est super bien amusés. Il faut remettre ça !"
+          "es": "Gracias a todos por venir. Lo estamos pasando genial. ¡Hay que repetirlo!",
+          "fr": "Merci à tous d'être venus. On passe un super moment. Il faut remettre ça !"
         },
         {
           "qui": "Lucía",

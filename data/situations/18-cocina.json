@@ -11,7 +11,7 @@
       "es": "¿Me enseñas a hacer una tortilla de patatas?",
       "fr": "Tu m'apprends à faire une tortilla de patatas ?",
       "pron": "mé én-SSÉ-gnass a a-THÉR OU-na tor-TI-ya dé pa-TA-tass",
-      "note": "« Enseñar a » + infinitif : apprendre à quelqu'un. La tortilla, c'est l'omelette aux pommes de terre, et le sujet de débats passionnés : avec ou sans oignon ?",
+      "note": "« Enseñar a » + infinitif : apprendre à quelqu'un. La tortilla, c'est l'omelette aux pommes de terre, la star de tous les bars.",
       "rapide": "¿M'enseñas a hacer una tortilla de patatas?"
     },
     {
@@ -56,7 +56,7 @@
       "fr": "Ajoute une pincée de sel et mélange bien.",
       "pron": "a-GNA-dé OU-na PITH-ka dé SAL i rré-MOUÉ-bé BYÉN",
       "note": "« Una pizca », c'est une pincée. « Remover », c'est remuer dans la poêle ou la casserole.",
-      "rapide": "Añad'una pizca'e sal y remueve bien."
+      "rapide": "Añade una pizca'e sal y remueve bien."
     },
     {
       "id": "cocina-08",
@@ -85,7 +85,7 @@
       "es": "¿Cuántos huevos le echo?",
       "fr": "J'en mets combien, des œufs ?",
       "pron": "KOUAN-toss OUÉ-boss lé É-tcho",
-      "note": "« Le echo » : j'en mets dans la recette. Les Espagnols pèsent rarement, la réponse sera souvent « a ojo », à l'œil.",
+      "note": "« Le echo » : j'en mets dedans, le « le » renvoie à la préparation. Les Espagnols pèsent rarement, la réponse sera souvent « a ojo », à l'œil.",
       "rapide": "¿Cuántos huevos l'echo?"
     },
     {
@@ -118,11 +118,11 @@
     },
     {
       "id": "cocina-16",
-      "es": "Este gazpacho está más rico que el del bar.",
-      "fr": "Ce gazpacho est meilleur que celui du bar.",
-      "pron": "ÉSS-té gath-PA-tcho éss-TA MASS RRI-ko ké él dél BAR",
-      "note": "« Más rico que », littéralement plus bon que. On peut aussi dire « está mejor que ». Compliment garanti.",
-      "rapide": "Este gazpacho'stá más rico que'l del bar."
+      "es": "Tu gazpacho está más rico que el de mi madre.",
+      "fr": "Ton gazpacho est meilleur que celui de ma mère.",
+      "pron": "tou gath-PA-tcho éss-TA MASS RRI-ko ké él dé mi MA-dré",
+      "note": "« Más rico que », littéralement plus bon que. On peut aussi dire « está mejor que ». Compliment garanti, mais pas devant ta mère.",
+      "rapide": "Tu gazpacho 'stá más rico que'l de mi madre."
     },
     {
       "id": "cocina-17",

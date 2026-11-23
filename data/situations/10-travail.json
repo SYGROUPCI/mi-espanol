@@ -39,7 +39,7 @@
       "id": "travail-05",
       "es": "Tengo tres años de experiencia en atención al cliente.",
       "fr": "J'ai trois ans d'expérience dans l'accueil client.",
-      "pron": "TÉN-go TRÉSS A-gnoss dé ékss-pé-RYÉN-thya én a-tén-THYON al KLYÉN-té",
+      "pron": "TÉN-go TRÉSS A-gnoss dé éks-pé-RYÉN-thya én a-tén-THYON al KLYÉN-té",
       "note": "Adapte à ton métier : en hostelería, en limpieza, en cuidado de mayores. Et soigne le ñ de « años » : sans lui, le mot devient franchement moins présentable."
     },
     {
@@ -96,7 +96,7 @@
       "id": "travail-13",
       "es": "Perdona, soy nueva. ¿Me explicas cómo funciona esto?",
       "fr": "Excuse-moi, je suis nouvelle. Tu m'expliques comment ça marche ?",
-      "pron": "pér-DO-na SOÏ NOUÉ-ba mé ékss-PLI-kass KO-mo foun-THYO-na ÉSS-to",
+      "pron": "pér-DO-na SOÏ NOUÉ-ba mé éks-PLI-kass KO-mo foun-THYO-na ÉSS-to",
       "note": "Entre collègues, on se tutoie dès le premier jour. Et « soy nueva » ouvre toutes les portes la première semaine : profites-en, ça ne dure pas."
     },
     {
@@ -125,8 +125,8 @@
     },
     {
       "id": "travail-17",
-      "es": "Hoy no puedo ir, estoy de baja.",
-      "fr": "Aujourd'hui je ne peux pas venir, je suis en arrêt maladie.",
+      "es": "Hoy no puedo ir, estoy mala. Voy al médico.",
+      "fr": "Aujourd'hui je ne peux pas venir, je suis malade. Je vais chez le médecin.",
       "pron": "OÏ no POUÉ-do IR éss-TOÏ dé BA-kha",
       "note": "« Estar de baja », c'est être en arrêt. C'est le médecin de famille, « el médico de cabecera », qui te la donne. En espagnol, on « va » au travail, même au téléphone avec la jefa."
     },
@@ -134,7 +134,7 @@
       "id": "travail-18",
       "es": "¿Me podrías dar el viernes libre? Tengo cita en Extranjería.",
       "fr": "Tu pourrais me donner mon vendredi ? J'ai rendez-vous au bureau des étrangers.",
-      "pron": "mé po-DRI-ass DAR él BYÉR-néss LI-bré TÉN-go THI-ta én ékss-tran-khé-RI-a",
+      "pron": "mé po-DRI-ass DAR él BYÉR-néss LI-bré TÉN-go THI-ta én éks-tran-khé-RI-a",
       "note": "Le conditionnel « podrías » adoucit la demande. Avec la jefa, le tutoiement est courant en Espagne : fais comme tes collègues."
     },
     {
@@ -232,7 +232,7 @@
         {
           "qui": "Elisabeth",
           "es": "Pues muy de lunes, la verdad. Oye, ¿me echas una mano con esto?",
-          "fr": "Eh bien, très lundi, pour être honnête. Dis, tu me donnes un coup de main ?"
+          "fr": "Franchement, un vrai lundi. Dis, tu me donnes un coup de main ?"
         },
         {
           "qui": "Dani",
@@ -304,9 +304,9 @@
       "note": "Se dit un lundi, mais aussi n'importe quel jour où rien ne va. Les collègues compatiront."
     },
     {
-      "es": "Hacer el puente",
-      "fr": "Faire le pont",
-      "note": "Quand un jour férié tombe un jeudi ou un mardi. En Espagne, c'est presque un sport national."
+      "es": "Fichar",
+      "fr": "Pointer",
+      "note": "« Fichar » à l'arrivée et au départ : en Espagne, l'enregistrement des heures de travail est obligatoire. Oublier de fichar, c'est le petit drame du lundi."
     },
     {
       "es": "Hacerle la pelota al jefe",

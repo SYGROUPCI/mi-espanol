@@ -96,7 +96,7 @@
       "id": "bar-13",
       "es": "¿Esto lleva gluten?",
       "fr": "Est-ce qu'il y a du gluten là-dedans ?",
-      "pron": "ESS-to YÉ-ba GLOU-tén",
+      "pron": "ÉSS-to YÉ-ba GLOU-tén",
       "note": "« Llevar », c'est contenir pour un plat : « ¿Lleva cebolla? », il y a de l'oignon ?"
     },
     {
@@ -111,7 +111,7 @@
       "id": "bar-15",
       "es": "Para esta noche, a las nueve y media.",
       "fr": "Pour ce soir, à neuf heures et demie.",
-      "pron": "PA-ra ESS-ta NO-tché a lass NOUÉ-bé i MÉ-dya",
+      "pron": "PA-ra ÉSS-ta NO-tché a lass NOUÉ-bé i MÉ-dya",
       "note": "21 h 30, en Espagne, c'est une heure tout à fait normale pour dîner.",
       "rapide": "Pa' esta noche, a las nueve y media."
     },
@@ -126,7 +126,7 @@
       "id": "bar-17",
       "es": "Perdona, esto está un poco frío.",
       "fr": "Excuse-moi, c'est un peu froid.",
-      "pron": "pér-DO-na ESS-to ess-TA oun PO-ko FRI-o",
+      "pron": "pér-DO-na ÉSS-to éss-TA oun PO-ko FRI-o",
       "note": "Commencer par « perdona » et ajouter « un poco » : la réclamation version douce.",
       "rapide": "Perdona, esto 'tá un poco frío."
     },
@@ -148,7 +148,7 @@
       "id": "bar-20",
       "es": "Estaba todo buenísimo, gracias.",
       "fr": "Tout était délicieux, merci.",
-      "pron": "ess-TA-ba TO-do boué-NI-ssi-mo GRA-thyass",
+      "pron": "éss-TA-ba TO-do boué-NI-ssi-mo GRA-thyass",
       "note": "Le compliment qui fait sourire le cuisinier. Et parfois arriver un petit chupito offert."
     }
   ],
@@ -203,7 +203,7 @@
   "expressions": [
     { "es": "¡Que aproveche!", "fr": "Bon appétit !", "note": "On le dit même à des inconnus qui mangent à la table d'à côté." },
     { "es": "¡Marchando!", "fr": "Ça arrive !", "note": "Ce que crie le serveur quand il a pris ta commande." },
-    { "es": "Invito yo.", "fr": "C'est moi qui invite.", "note": "Prépare-toi à une petite bataille pour payer : c'est un rituel." },
+    { "es": "¿Lo de siempre?", "fr": "Comme d'habitude ?", "note": "Ce que te demandera le serveur quand tu seras devenue une habituée. Le vrai diplôme d'intégration." },
     { "es": "Pagar a escote", "fr": "Partager l'addition", "note": "Chacun paie sa part, à parts égales." },
     { "es": "Ir de cañas", "fr": "Aller boire un verre", "note": "Même si, au final, personne ne boit que des cañas." },
     { "es": "¿Algo más?", "fr": "Autre chose ?", "note": "La question du serveur. Réponse classique : « Nada más, gracias »." }

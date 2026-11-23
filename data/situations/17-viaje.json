@@ -48,7 +48,7 @@
       "es": "Tengo una reserva a nombre de Elisabeth.",
       "fr": "J'ai une réservation au nom d'Elisabeth.",
       "pron": "TÉN-go OU-na rré-SSÉR-ba a NOM-bré dé é-li-ssa-BÉT",
-      "note": "La phrase magique de la réception. Prépare ton passeport ou ton NIE : l'hôtel va te le demander."
+      "note": "La phrase magique de la réception. Prépare ton passeport ou ta TIE : l'hôtel va te la demander."
     },
     {
       "id": "viaje-07",
@@ -106,14 +106,14 @@
       "id": "viaje-14",
       "es": "Siga recto hasta la plaza y luego gire a la izquierda.",
       "fr": "Continuez tout droit jusqu'à la place, puis tournez à gauche.",
-      "pron": "SI-ga RRÉK-to AS-ta la PLA-tha i LOUÉ-go KHI-ré a la ith-KYÉR-da",
-      "note": "C'est ce que tu vas entendre, alors apprends surtout à le reconnaître. En tutoyant, ça donne « sigue recto » et « gira a la derecha »."
+      "pron": "SI-ga RRÉK-to ASS-ta la PLA-tha i LOUÉ-go KHI-ré a la ith-KYÉR-da",
+      "note": "C'est ce que tu vas entendre, alors apprends surtout à le reconnaître. En tutoyant, ça donne « sigue recto » et « gira a la izquierda »."
     },
     {
       "id": "viaje-15",
       "es": "Vamos en tren hasta San Sebastián y desde allí en autobús.",
       "fr": "On va en train jusqu'à Saint-Sébastien, et de là en bus.",
-      "pron": "BA-moss én TRÉN AS-ta san sé-bass-TYAN i DÉSS-dé a-YI én aou-to-BOUSS",
+      "pron": "BA-moss én TRÉN ASS-ta SAN sé-bass-TYAN i DÉSS-dé a-YI én aou-to-BOUSS",
       "note": "« En » pour le moyen de transport (en tren, en coche), sauf à pied : « a pie ». « Desde… hasta » marque le départ et l'arrivée."
     },
     {
@@ -125,11 +125,11 @@
     },
     {
       "id": "viaje-17",
-      "es": "El fin de semana pasado fuimos a Bilbao y visitamos el casco viejo.",
-      "fr": "Le week-end dernier, on est allés à Bilbao et on a visité la vieille ville.",
-      "pron": "él FIN dé sé-MA-na pa-SSA-do FOUÏ-moss a bil-BA-o i bi-ssi-TA-moss él KASS-ko BYÉ-kho",
+      "es": "El verano pasado fuimos a Sevilla y visitamos la Giralda.",
+      "fr": "L'été dernier, on est allés à Séville et on a visité la Giralda.",
+      "pron": "él bé-RA-no pa-SSA-do FOUI-moss a sé-BI-ya i bi-ssi-TA-moss la khi-RAL-da",
       "note": "« Fuimos » sert pour ir et pour ser : ici, c'est « nous sommes allés ». Le passé simple raconte le voyage étape par étape.",
-      "rapide": "El fin de semana pasao fuimos a Bilbao y visitamos el casco viejo."
+      "rapide": "El verano pasao fuimos a Sevilla y visitamos la Giralda."
     },
     {
       "id": "viaje-18",
@@ -217,7 +217,7 @@
         },
         {
           "qui": "Recepcionista",
-          "es": "Bienvenida. ¿Me deja su pasaporte, por favor?",
+          "es": "Bienvenidos. ¿Me deja su pasaporte, por favor?",
           "fr": "Bienvenue. Vous me donnez votre passeport, s'il vous plaît ?"
         },
         {

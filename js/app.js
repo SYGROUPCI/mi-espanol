@@ -11,10 +11,14 @@ import { $, $$, e, ico, remplirIcones, toast, modale, confirmer, melanger, auHas
 const app = $("#app");
 const nav = $("#nav");
 
+// Accord au masculin pour le duo (Khalil), au féminin pour Elisabeth.
+const masc = () => K.compte()?.role === "duo";
+const g = (fem, mas) => (masc() ? mas : fem);
+
 const PETITES_PHRASES = [
   "Un petit peu chaque jour, et Logroño n'aura plus de secrets pour toi.",
-  "Aujourd'hui, on parle comme une vraie riojana.",
-  "Pas besoin d'être parfaite, juste d'être là.",
+  () => g("Aujourd'hui, on parle comme une vraie riojana.", "Aujourd'hui, on parle comme un vrai riojano."),
+  () => g("Pas besoin d'être parfaite, juste d'être là.", "Pas besoin d'être parfait, juste d'être là."),
   "Vale, vale… on s'y met ?",
   "Chaque phrase apprise, c'est une conversation de plus.",
   "Les tapas de la calle Laurel n'attendent que toi.",
@@ -27,16 +31,21 @@ async function demarrer() {
   try {
     await C.charger();
   } catch (err) {
-    app.innerHTML = `<div class="vide"><h1>Oups</h1><p>Je n'arrive pas à charger les leçons. Vérifie ta connexion et rouvre l'appli.</p></div>`;
+    app.innerHTML = `<div class="vide"><h1>Oups</h1><p>Je n'arrive pas à charger les leçons. Vérifie ta connexion, puis réessaie.</p>
+      <button class="btn" data-reessayer>Réessayer</button></div>`;
+    $("[data-reessayer]", app).addEventListener("click", () => location.reload());
     return;
   }
+  C.definirMots(K.motsEnCache());
   if (!S.get().prenom) S.maj((s) => (s.prenom = C.prenomParDefaut() || "toi"));
   remplirIcones(nav);
   V.brancher();
   majNavCompte();
-  K.demarrer().then((ok) => {
+  K.demarrer().then(async (ok) => {
     majNavCompte();
-    if (ok && ["", "#", "#/"].includes(location.hash)) accueil();
+    C.definirMots(await K.chargerMots());
+    // On ne redessine l'accueil que s'il est calme (aucune lettre ou fenêtre ouverte).
+    if (ok && ["", "#", "#/"].includes(location.hash) && $("#modale").hidden) accueil();
   });
   // Barre du bas (kaizen, 3e version) :
   // - elle s'efface dès qu'elle lit en descendant ;
@@ -75,7 +84,8 @@ async function demarrer() {
     let enAttente = false;
     let enCours = false;
     const occupee = () =>
-      /^#\/(defi|apprendre|pratiquer|charla)/.test(location.hash) ||
+      /^#\/(defi|apprendre|pratiquer|charla|compte)/.test(location.hash) ||
+      document.body.dataset.seance === "1" ||
       !!document.activeElement?.matches?.("input, textarea") ||
       !$("#modale").hidden;
     const appliquer = () => {
@@ -128,6 +138,9 @@ function router() {
     nav.classList.remove("nav-cachee", "nav-clavier");
     (ecrans[route] || accueil)();
     window.scrollTo(0, 0);
+    // Lecteur d'écran : on annonce le titre du nouvel écran (au lieu de relire toute la page).
+    const h = app.querySelector("h1");
+    if (h && $("#modale").hidden) { h.setAttribute("tabindex", "-1"); h.focus({ preventScroll: true }); }
   };
   // Transition douce entre deux écrans quand le navigateur sait le faire (Safari 18+, Chrome).
   const doux = !matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -195,9 +208,14 @@ async function ouvrirMot(m) {
     </div>`, { classe: "modale-lettre" });
 }
 
+let surprisesEnCours = false;
 async function verifierSurprises() {
-  const nouveaux = C.petitsMots().filter((m) => motDebloque(m) && !S.get().motsVus.includes(m.id));
-  for (const m of nouveaux) await ouvrirMot(m);
+  if (surprisesEnCours) return;          // déjà en train d'en montrer : pas deux fois la même lettre
+  surprisesEnCours = true;
+  try {
+    const nouveaux = C.petitsMots().filter((m) => motDebloque(m) && !S.get().motsVus.includes(m.id));
+    for (const m of nouveaux) await ouvrirMot(m);
+  } finally { surprisesEnCours = false; }
 }
 
 // ---------------------------------------------------------------------------
@@ -261,11 +279,11 @@ function accueil() {
         <div>
           <p class="credencial-sur">Credencial de</p>
           <h1 class="credencial-nom">${e(etat.prenom)}</h1>
-          <p class="manuscrit">${e(auHasard(PETITES_PHRASES))}</p>
+          <p class="manuscrit">${e([auHasard(PETITES_PHRASES)].map((x) => (typeof x === "function" ? x() : x))[0])}</p>
         </div>
         <div class="camino ${S.serieFaiteAujourdhui() ? "camino-hoy" : ""}">
           <strong>${serie}</strong>
-          <span>${serie > 1 ? "días" : "día"} de camino</span>
+          <span>${serie === 1 ? "día" : "días"} de camino</span>
         </div>
       </header>
 
@@ -301,7 +319,7 @@ function accueil() {
 
         <dl class="chiffres">
           <div><dt>Frases dominadas</dt><dd>${S.nbAcquises()}</dd></div>
-          <div><dt>Mejor racha</dt><dd>${etat.serie.record} <small>${etat.serie.record > 1 ? "días" : "día"}</small></dd></div>
+          <div><dt>Mejor racha</dt><dd>${etat.serie.record} <small>${etat.serie.record === 1 ? "día" : "días"}</small></dd></div>
           <div><dt>Etapas completas</dt><dd>${etat.defisFaits}</dd></div>
         </dl>
       </div>
@@ -352,7 +370,7 @@ function bienvenue() {
       </div>
       <p>Cette appli a été faite pour toi, et pour personne d'autre.</p>
       <p>Chaque jour, une étape : des phrases qu'on entend vraiment à Logroño, des petits jeux, et un tampon à gagner pour chaque situation de ta vie ici.</p>
-      <p class="manuscrit">Pas besoin d'être parfaite. Il suffit d'être là, un peu chaque jour.</p>
+      <p class="manuscrit">Pas besoin d'être ${g("parfaite", "parfait")}. Il suffit d'être là, un peu chaque jour.</p>
       <button class="btn btn-large" data-go>Abrir mi credencial</button>
       ${K.faceIdDisponible() ? `<a class="btn btn-doux btn-large" href="#/compte">J'ai déjà un compte (Face ID)</a>` : ""}
     </div>`;
@@ -367,6 +385,8 @@ function bienvenue() {
 function defiDuJour() {
   const etat = S.get();
   if (etat.defi && etat.defi.date === S.aujourdhui()) return etat.defi;
+  // Sans leçons chargées, on n'enregistre pas un défi vide pour toute la journée.
+  if (!C.toutes().length) return { date: S.aujourdhui(), morceaux: [], complet: false, provisoire: true };
 
   const aReviser = dues().slice(0, 15);
   const nouvelles1 = aReviser.length >= 3 ? [] : prochainesNouvelles(5);
@@ -398,6 +418,7 @@ function defiDuJour() {
 
 function defi() {
   const d = defiDuJour();
+  if (d.provisoire) return aller("#/");
   const k = d.morceaux.findIndex((m) => !m.fini);
   if (k === -1) return aller("#/");
   const m = d.morceaux[k];
@@ -409,13 +430,16 @@ function defi() {
     S.maj(() => (m.fini = true));
     return defi();
   }
+  // Toujours relire le défi actuel : une synchro peut avoir remplacé l'état pendant la séance.
+  const morceauActuel = () => S.get().defi?.date === d.date ? S.get().defi.morceaux[k] : m;
   montrerNav(null);
   X.seance(app, m.items, {
     titre: m.titre,
+    etape: `Tramo ${k + 1} de 3`,
     depart: m.pos,
-    onAvance: (i) => S.maj(() => (m.pos = i)),
+    onAvance: (i) => S.maj(() => (morceauActuel().pos = i)),
     onQuitter: () => aller("#/"),
-    onFin: (stats) => finMorceau(d, k, stats),
+    onFin: (stats) => finMorceau(S.get().defi?.date === d.date ? S.get().defi : d, k, stats),
   });
 }
 
@@ -453,11 +477,11 @@ async function finMorceau(d, k, stats) {
       <p class="cartel-sur">${tousFinis ? "Etapa de hoy" : `Tramo ${k + 1} de 3`}</p>
       <h1 class="cartel-titre">${tousFinis ? "¡Etapa<br>cumplida!" : "¡Bien<br>hecho!"}</h1>
       <p class="cartel-texte">${tousFinis
-        ? "Les trois tramos du jour sont faits. Tu peux être fière de toi."
+        ? `Les trois tramos du jour sont faits. Tu peux être ${g("fière", "fier")} de toi.`
         : `Il en reste ${restant}, quand tu veux : dans le bus, à la pause ou ce soir.`}</p>
       <div class="cartel-chiffres">
         ${total ? `<div><strong>${stats.ok}/${total}</strong><span>bonnes réponses</span></div>` : ""}
-        <div><strong>${serie}</strong><span>${serie > 1 ? "días" : "día"} de camino${serieMontee ? ", un de plus" : ""}</span></div>
+        <div><strong>${serie}</strong><span>${serie === 1 ? "día" : "días"} de camino${serieMontee ? ", un de plus" : ""}</span></div>
       </div>
       <div class="pile">
         ${restant ? `<button class="btn btn-cartel btn-large" data-suite>Tramo siguiente</button>` : ""}
@@ -500,7 +524,7 @@ function ecranSituation(id, onglet = "phrases") {
     </div>
     ${v < 4 ? `<p class="petit centre">L'entraînement s'ouvre après 4 phrases découvertes.</p>` : ""}
     <div class="onglets" role="tablist">
-      ${onglets.map(([k, l]) => `<button role="tab" class="${k === onglet ? "actif" : ""}" data-onglet="${k}">${l}</button>`).join("")}
+      ${onglets.map(([k, l]) => `<button role="tab" aria-selected="${k === onglet}" class="${k === onglet ? "actif" : ""}" data-onglet="${k}">${l}</button>`).join("")}
     </div>
     <section class="onglet-contenu">${contenuOnglet(s, onglet, cachee)}</section>`;
 
@@ -557,7 +581,7 @@ function contenuOnglet(s, onglet, cachee) {
 
 function apprendre(id) {
   const s = C.situation(id);
-  if (!s) return aller("#/");
+  if (!s || !ouverte(s)) return aller("#/");
   const aRevoir = idsSituation(s).filter((x) => S.estDue(x));
   const nouvelles = prochainesNouvelles(6, id);
   let items = [
@@ -574,7 +598,7 @@ function apprendre(id) {
 
 function pratiquer(id) {
   const s = C.situation(id);
-  if (!s) return aller("#/");
+  if (!s || !ouverte(s)) return aller("#/");
   const ids = vues(s);
   if (ids.length < 4) return aller(`#/situation/${id}`);
   lancer(X.exercicesSur(ids, 10), s.titre, () => aller(`#/situation/${id}`));
@@ -754,7 +778,8 @@ function reglages() {
       if (!r.ok) { caseRappel.checked = false; msgRappel.textContent = N.MESSAGES[r.erreur] || N.MESSAGES.serveur; return; }
       toast("Rappel activé");
     } else {
-      await N.desactiver();
+      const r = await N.desactiver();
+      if (!r.ok) { caseRappel.checked = true; msgRappel.textContent = N.MESSAGES.serveur; return; }
       toast("Rappel désactivé");
     }
     $("[data-rappel-essai]", app).hidden = !caseRappel.checked;
@@ -770,7 +795,12 @@ function reglages() {
   });
   $("[data-deconnexion]", app)?.addEventListener("click", async () => {
     if (await confirmer("Te déconnecter ?", "Ta progression reste sauvegardée en ligne. Cet appareil repartira de zéro jusqu'à ta prochaine connexion avec Face ID.", "Me déconnecter")) {
-      await K.seDeconnecter();
+      const r = await K.seDeconnecter({
+        avantDeSortir: () => (S.get().reglages.rappel?.actif ? N.desactiver() : null),
+        prenomParDefaut: C.prenomParDefaut(),
+      });
+      if (!r.ok) { toast(K.MESSAGES[r.erreur] || K.MESSAGES.hors_ligne); return; }
+      C.definirMots([]);
       majNavCompte();
       aller("#/");
     }
@@ -811,10 +841,20 @@ function reglages() {
     }
   };
   $("[data-effacer]", app).onclick = async () => {
-    if (await confirmer("Tout recommencer ?", "Toute ta progression, ta série et ton carnet seront effacés. Fais une sauvegarde avant si tu veux les garder.", "Tout effacer")) {
-      S.toutEffacer();
-      S.maj((s) => (s.prenom = C.prenomParDefaut()));
-      window.appliquerTheme?.("auto");
+    const enLigne = K.connecte();
+    const texte = enLigne
+      ? "Toute ta progression, ta série et ton carnet seront effacés, ici et sur ton compte. Fais une sauvegarde avant si tu veux les garder."
+      : "Toute ta progression, ta série et ton carnet seront effacés. Fais une sauvegarde avant si tu veux les garder.";
+    if (await confirmer("Tout recommencer ?", texte, "Tout effacer")) {
+      if (enLigne) {
+        // Le compte reste connecté : on repart de zéro ici, puis on remplace la copie en ligne.
+        const r = await K.remettreAZero(C.prenomParDefaut());
+        if (!r.ok) { toast(K.MESSAGES[r.erreur] || K.MESSAGES.hors_ligne); return; }
+      } else {
+        S.toutEffacer();
+        S.maj((s) => (s.prenom = C.prenomParDefaut()));
+      }
+      window.appliquerTheme?.(S.get().reglages.theme || "auto");
       aller("#/");
     }
   };
@@ -932,8 +972,8 @@ async function afficherDuo() {
     <p class="duo-sur">Tu duo</p>
     <div class="duo-ligne">
       <strong>${e(d.prenom)}</strong>
-      <span><b>${jours}</b> ${jours > 1 ? "días" : "día"} de camino</span>
-      <span><b>${d.sellos}</b> ${d.sellos > 1 ? "sellos" : "sello"}</span>
+      <span><b>${jours}</b> ${jours === 1 ? "día" : "días"} de camino</span>
+      <span><b>${d.sellos}</b> ${d.sellos === 1 ? "sello" : "sellos"}</span>
       <span><b>${d.acquises}</b> frases</span>
     </div>`;
   place.hidden = false;

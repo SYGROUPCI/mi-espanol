@@ -2,30 +2,81 @@
 // Stratégie « stale-while-revalidate » : on sert tout de suite la version en cache,
 // et on met le cache à jour en arrière-plan. Les nouveautés apparaissent au lancement suivant.
 // Changer VERSION à chaque mise en ligne force le renouvellement complet du cache.
-const VERSION = "mi-espanol-20261123-0246";
+const VERSION = "mi-espanol-20261123-0305";
 
 const FICHIERS = [
   "./",
-  "index.html",
-  "manifest.webmanifest",
   "css/fonts.css",
   "css/style.css",
-  "js/app.js",
-  "js/theme.js",
-  "js/store.js",
-  "js/contenu.js",
-  "js/ui.js",
-  "js/exercices.js",
-  "js/charla.js",
-  "js/voix.js",
-  "js/compte.js",
-  "js/notifs.js",
-  "js/vapid.js",
   "data/index.json",
-  "data/mots.json",
+  "data/situations/01-amis.json",
+  "data/situations/02-telephone.json",
+  "data/situations/03-beaute.json",
+  "data/situations/04-culture.json",
+  "data/situations/05-bar.json",
+  "data/situations/06-medecin.json",
+  "data/situations/07-voisins.json",
+  "data/situations/08-logement.json",
+  "data/situations/09-administration.json",
+  "data/situations/10-travail.json",
+  "data/situations/11-urgences.json",
+  "data/situations/12-ecole.json",
+  "data/situations/13-finde.json",
+  "data/situations/14-planes.json",
+  "data/situations/15-opiniones.json",
+  "data/situations/16-quejas.json",
+  "data/situations/17-viaje.json",
+  "data/situations/18-cocina.json",
+  "data/situations/19-mi-pais.json",
+  "data/situations/20-emociones.json",
+  "data/situations/21-bienestar.json",
+  "data/situations/22-paquetes.json",
+  "data/situations/23-reuniones.json",
+  "data/situations/24-fiesta.json",
+  "fonts/atkinson-hyperlegible-400-latin-ext.woff2",
+  "fonts/atkinson-hyperlegible-400-latin.woff2",
+  "fonts/atkinson-hyperlegible-700-latin-ext.woff2",
+  "fonts/atkinson-hyperlegible-700-latin.woff2",
+  "fonts/caveat-500-latin-ext.woff2",
+  "fonts/caveat-500-latin.woff2",
+  "fonts/caveat-700-latin-ext.woff2",
+  "fonts/caveat-700-latin.woff2",
+  "fonts/young-serif-400-latin-ext.woff2",
+  "fonts/young-serif-400-latin.woff2",
   "icons/apple-touch-icon.png",
   "icons/icon-192.png",
+  "icons/icon-512-maskable.png",
   "icons/icon-512.png",
+  "index.html",
+  "js/app.js",
+  "js/charla.js",
+  "js/compte.js",
+  "js/contenu.js",
+  "js/exercices.js",
+  "js/notifs.js",
+  "js/store.js",
+  "js/theme.js",
+  "js/ui.js",
+  "js/vapid.js",
+  "js/vendor/webauthn/helpers/base64URLStringToBuffer.js",
+  "js/vendor/webauthn/helpers/browserSupportsWebAuthn.js",
+  "js/vendor/webauthn/helpers/browserSupportsWebAuthnAutofill.js",
+  "js/vendor/webauthn/helpers/bufferToBase64URLString.js",
+  "js/vendor/webauthn/helpers/identifyAuthenticationError.js",
+  "js/vendor/webauthn/helpers/identifyRegistrationError.js",
+  "js/vendor/webauthn/helpers/isValidDomain.js",
+  "js/vendor/webauthn/helpers/platformAuthenticatorIsAvailable.js",
+  "js/vendor/webauthn/helpers/toAuthenticatorAttachment.js",
+  "js/vendor/webauthn/helpers/toPublicKeyCredentialDescriptor.js",
+  "js/vendor/webauthn/helpers/webAuthnAbortService.js",
+  "js/vendor/webauthn/helpers/webAuthnError.js",
+  "js/vendor/webauthn/index.js",
+  "js/vendor/webauthn/methods/startAuthentication.js",
+  "js/vendor/webauthn/methods/startRegistration.js",
+  "js/vendor/webauthn/types/dom.js",
+  "js/vendor/webauthn/types/index.js",
+  "js/voix.js",
+  "manifest.webmanifest",
 ];
 
 self.addEventListener("install", (e) => {
@@ -46,17 +97,25 @@ self.addEventListener("activate", (e) => {
 
 self.addEventListener("fetch", (e) => {
   const req = e.request;
-  if (req.method !== "GET" || new URL(req.url).origin !== self.location.origin) return;
+  const url = new URL(req.url);
+  if (req.method !== "GET" || url.origin !== self.location.origin) return;
+  // L'API (progression, duo, compte) ne passe jamais par le cache : toujours la version du serveur,
+  // et jamais les données d'une autre personne connectée avant sur ce téléphone.
+  if (url.pathname.startsWith("/api/")) return;
   e.respondWith(
     caches.open(VERSION).then(async (cache) => {
       const enCache = await cache.match(req, { ignoreSearch: true });
       const reseau = fetch(req)
         .then((rep) => {
-          if (rep.ok) cache.put(req, rep.clone());
+          if (rep.ok) return cache.put(req, rep.clone()).then(() => rep, () => rep);
           return rep;
         })
-        .catch(() => enCache);
-      return enCache || reseau;
+        .catch(() => enCache || Response.error());
+      if (enCache) {
+        e.waitUntil(reseau.catch(() => {}));   // la mise à jour du cache va jusqu'au bout
+        return enCache;
+      }
+      return reseau;
     })
   );
 });

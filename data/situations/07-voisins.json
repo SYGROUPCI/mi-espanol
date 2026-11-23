@@ -39,7 +39,7 @@
       "es": "Encantada de conocerla.",
       "fr": "Enchantée de faire votre connaissance.",
       "pron": "én-kan-TA-da dé ko-no-THÉR-la",
-      "note": "« La » pour une dame que tu vouvoies, « le » pour un monsieur. Si tu tutoies : « encantada de conocerte »."
+      "note": "« La » pour une dame que tu vouvoies, « lo » ou « le » pour un monsieur (« conocerlo » et « conocerle » s'entendent tous les deux en Espagne). Si tu tutoies : « encantada de conocerte »."
     },
     {
       "id": "voisins-06",
@@ -83,7 +83,7 @@
       "es": "¿Podéis bajar un poco la música, por favor?",
       "fr": "Vous pouvez baisser un peu la musique, s'il vous plaît ?",
       "pron": "po-DÉÏSS ba-KHAR oun PO-ko la MOU-ssi-ka por fa-BOR",
-      "note": "« Podéis » pour les jeunes d'à côté. Demandé avec le sourire, ça marche mieux que le balai contre le plafond.",
+      "note": "« Podéis » pour les jeunes du dessus. Demandé avec le sourire, ça marche mieux que le balai contre le plafond. « Porfa », c'est « por favor » raccourci.",
       "rapide": "¿Podéis bajar un poco la música, porfa?"
     },
     {
@@ -110,11 +110,11 @@
     },
     {
       "id": "voisins-15",
-      "es": "¿Dónde está el contenedor del reciclaje?",
-      "fr": "Où est le conteneur de tri ?",
-      "pron": "DON-dé éss-TA él kon-té-né-DOR dél rré-thi-KLA-khé",
-      "note": "Jaune pour les plastiques et les canettes, bleu pour le papier, vert pour le verre. Le reste va dans le gris.",
-      "rapide": "¿Dónde 'stá el contenedor del reciclaje?"
+      "es": "¿Dónde están los contenedores de reciclaje?",
+      "fr": "Où sont les conteneurs de tri ?",
+      "pron": "DON-dé éss-TAN loss kon-té-né-DO-réss dé rré-thi-KLA-khé",
+      "note": "Jaune pour les emballages (plastique, canettes, briques), bleu pour le papier, vert pour le verre et, là où il y en a, marron pour les déchets organiques. Le reste va dans le conteneur « resto ».",
+      "rapide": "¿Dónde 'stán los contenedores de reciclaje?"
     },
     {
       "id": "voisins-16",
@@ -135,7 +135,7 @@
       "es": "Se me ha perdido la llave del buzón.",
       "fr": "J'ai perdu la clé de la boîte aux lettres.",
       "pron": "sé mé a pér-DI-do la YA-bé dél bou-THON",
-      "note": "Avec « se me ha perdido », la clé s'est perdue toute seule : ce n'est pas ta faute. Le portero ou la portera saura qui appeler.",
+      "note": "Avec « se me ha perdido », la clé s'est perdue toute seule : ce n'est pas ta faute. Le portero, s'il y en a un, ou l'administrateur de la comunidad saura qui appeler.",
       "rapide": "Se m'ha perdido la llave del buzón."
     },
     {
@@ -278,7 +278,7 @@
       ],
       [
         "Encantada de conocerte",
-        "Encantada de conocerla / conocerle"
+        "Encantada de conocerla / conocerlo"
       ]
     ],
     "exemples": [

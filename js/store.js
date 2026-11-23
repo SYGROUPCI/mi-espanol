@@ -116,21 +116,22 @@ export function serieActuelle() {
   const s = etat.serie;
   if (!s.dernier) return 0;
   const auj = aujourdhui();
-  if (s.dernier === auj || s.dernier === plusJours(auj, -1)) return s.jours;
+  // dernier > auj : validé ailleurs dans un fuseau plus à l'est (Madrid puis Conakry) ; on le compte comme aujourd'hui.
+  if (s.dernier >= plusJours(auj, -1)) return s.jours;
   return 0;
 }
 export function serieActuelleDe(s) {
   if (!s?.dernier) return 0;
   const auj = aujourdhui();
-  return s.dernier === auj || s.dernier === plusJours(auj, -1) ? s.jours || 0 : 0;
+  return s.dernier >= plusJours(auj, -1) ? s.jours || 0 : 0;
 }
-export const serieFaiteAujourdhui = () => etat.serie.dernier === aujourdhui();
+export const serieFaiteAujourdhui = () => !!etat.serie.dernier && etat.serie.dernier >= aujourdhui();
 
 // Appelé quand elle termine au moins un morceau du défi.
 export function compterJour() {
   const auj = aujourdhui();
   const s = etat.serie;
-  if (s.dernier === auj) return false;
+  if (s.dernier && s.dernier >= auj) return false;   // déjà compté (ou compté « demain » dans un autre fuseau)
   s.jours = s.dernier === plusJours(auj, -1) ? s.jours + 1 : 1;
   s.dernier = auj;
   s.record = Math.max(s.record, s.jours);
@@ -150,12 +151,14 @@ export function retirerDuCarnet(id) {
   maj(() => {
     etat.carnet = etat.carnet.filter((p) => p.id !== id);
     delete etat.cartes[id];
+    // Trace de la suppression : l'autre appareil ne la fera pas revenir à la synchro.
+    etat.supprimes = { ...(etat.supprimes || {}), [id]: aujourdhui() };
   });
 }
 
 // ---------- sauvegarde ----------
 export function exporter() {
-  const { codeIA, ...sansCode } = etat;
+  const { codeIA, compte, charla, ...sansCode } = etat;
   return JSON.stringify({ app: "mi-espanol", exporteLe: new Date().toISOString(), etat: sansCode }, null, 1);
 }
 export function importer(texte) {
@@ -163,7 +166,12 @@ export function importer(texte) {
   if (data.app !== "mi-espanol" || !data.etat || typeof data.etat.cartes !== "object") {
     throw new Error("Ce fichier n'est pas une sauvegarde de Mi Español.");
   }
-  etat = { ...DEFAUT(), ...data.etat };
+  // Ce qui appartient à cet appareil (compte connecté, code IA, conversation en cours) ne vient pas du fichier.
+  const { compte, codeIA, charla } = etat;
+  const { compte: _c, codeIA: _k, ...importe } = data.etat;
+  const reglages = { ...DEFAUT().reglages, ...(importe.reglages || {}) };
+  if (etat.reglages?.rappel) reglages.rappel = etat.reglages.rappel; else delete reglages.rappel;
+  etat = { ...DEFAUT(), ...importe, compte, codeIA, charla, reglages };
   sauver();
 }
 export function toutEffacer() {

@@ -10,7 +10,7 @@
       "id": "planes-01",
       "es": "¿Qué vas a hacer este fin de semana?",
       "fr": "Qu'est-ce que tu vas faire ce week-end ?",
-      "pron": "ké BASS a a-THÉR ÉSS-té FIN dé sé-MA-na",
+      "pron": "KÉ BASS a a-THÉR ÉSS-té FIN dé sé-MA-na",
       "note": "« Ir a » + infinitif, c'est le futur proche, exactement comme « aller faire » en français.",
       "rapide": "¿Qué vas a'cer este fin de semana?"
     },
@@ -75,7 +75,7 @@
       "id": "planes-10",
       "es": "¿Te importa si lo dejamos para la semana que viene?",
       "fr": "Ça te dérange si on remet ça à la semaine prochaine ?",
-      "pron": "té im-POR-ta si lo dé-KHA-moss pa-ra la sé-MA-na ké BYÉ-né",
+      "pron": "té im-POR-ta si lo dé-KHA-moss PA-ra la sé-MA-na ké BYÉ-né",
       "note": "« Dejarlo para », c'est reporter. « La semana que viene » est plus courant à l'oral que « la próxima semana ».",
       "rapide": "¿T'importa si lo dejamos pa' la semana que viene?"
     },
@@ -90,7 +90,7 @@
       "id": "planes-12",
       "es": "En agosto iremos a Abiyán a ver a la familia de Khalil.",
       "fr": "En août, on ira à Abidjan voir la famille de Khalil.",
-      "pron": "én a-GOSS-to i-RÉ-moss a a-bi-YAN a BÉR a la fa-MI-lya dé kha-LIL",
+      "pron": "én a-GOSS-to i-RÉ-moss a a-bi-YAN a BÉR a la fa-MI-lya dé ka-LIL",
       "note": "En espagnol, Abidjan s'écrit « Abiyán ». Le futur simple « iremos » donne un ton de projet bien décidé."
     },
     {
@@ -113,7 +113,7 @@
       "fr": "Je ne sais pas encore, ça dépend de l'argent.",
       "pron": "to-da-BI-a no lo SÉ dé-PÉN-dé dél di-NÉ-ro",
       "note": "« Depende », tout seul, est aussi une réponse complète : ça dépend.",
-      "rapide": "Todavía no lo sé, depende'l dinero."
+      "rapide": "Toavía no lo sé, depende del dinero."
     },
     {
       "id": "planes-16",
@@ -146,11 +146,11 @@
     },
     {
       "id": "planes-20",
-      "es": "El año que viene voy a apuntarme a clases de baile.",
-      "fr": "L'année prochaine, je vais m'inscrire à des cours de danse.",
-      "pron": "él A-gno ké BYÉ-né BOÏ a a-poun-TAR-mé a KLA-sséss dé BAÏ-lé",
+      "es": "El año que viene voy a apuntarme a clases de guitarra.",
+      "fr": "L'année prochaine, je vais m'inscrire à des cours de guitare.",
+      "pron": "él A-gno ké BYÉ-né BOÏ a a-poun-TAR-mé a KLA-sséss dé gui-TA-rra",
       "note": "« Apuntarse a », c'est s'inscrire à une activité. La bonne résolution typique de septembre ou de janvier.",
-      "rapide": "El año que viene voy a'puntarme a clases de baile."
+      "rapide": "El año que viene voy a'puntarme a clases de guitarra."
     }
   ],
   "dialogues": [
@@ -226,8 +226,18 @@
         },
         {
           "qui": "Khalil",
-          "es": "Por cierto, ¿ya sabes dónde vas a ir de vacaciones?",
-          "fr": "Au fait, tu sais déjà où tu vas partir en vacances ?"
+          "es": "¡Hola, cariño! ¿Qué tal el día?",
+          "fr": "Coucou, ma chérie ! Ta journée s'est bien passée ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Un poco complicado, pero bien.",
+          "fr": "Un peu compliquée, mais ça va."
+        },
+        {
+          "qui": "Khalil",
+          "es": "Oye, ¿ya sabes dónde vas a ir de vacaciones?",
+          "fr": "Dis, tu sais déjà où tu vas partir en vacances ?"
         },
         {
           "qui": "Elisabeth",
@@ -319,7 +329,7 @@
     },
     {
       "es": "Sobre la marcha",
-      "fr": "Au fur et à mesure",
+      "fr": "Sur le moment, en improvisant",
       "note": "« Lo decidimos sobre la marcha » : on verra sur place. Pour les gens qui n'aiment pas les programmes trop serrés."
     }
   ]

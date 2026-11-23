@@ -10,7 +10,7 @@
       "id": "finde-01",
       "es": "¿Qué has hecho este finde?",
       "fr": "Qu'est-ce que tu as fait ce week-end ?",
-      "pron": "ké ass É-tcho ÉSS-té FIN-dé",
+      "pron": "KÉ ass É-tcho ÉSS-té FIN-dé",
       "note": "« Finde », c'est le fin de semana en version courte. Avec « este finde », on utilise le passé composé : le week-end vient juste de se terminer.",
       "rapide": "¿Qué'as hecho este finde?"
     },
@@ -40,7 +40,7 @@
       "id": "finde-05",
       "es": "Hoy he dormido hasta las once, ¡qué gusto!",
       "fr": "Aujourd'hui, j'ai dormi jusqu'à onze heures, quel bonheur !",
-      "pron": "OÏ é dor-MI-do ASS-ta lass ON-thé ké GOUSS-to",
+      "pron": "OÏ é dor-MI-do ASS-ta lass ON-thé KÉ GOUSS-to",
       "note": "Avec « hoy », toujours le passé composé en Espagne : « he dormido », jamais « dormí »."
     },
     {
@@ -54,7 +54,7 @@
       "id": "finde-07",
       "es": "¿Y tú qué hiciste el sábado por la noche?",
       "fr": "Et toi, tu as fait quoi samedi soir ?",
-      "pron": "i TOU ké i-THISS-té él SA-ba-do por la NO-tché",
+      "pron": "i TOU KÉ i-THISS-té él SA-ba-do por la NO-tché",
       "note": "« Hacer » est irrégulier au passé simple : hice, hiciste, hizo. Le z de « hizo » remplace le c, juste pour garder le même son.",
       "rapide": "¿Y tú qué hiciste el sábao por la noche?"
     },
@@ -149,7 +149,7 @@
       "id": "finde-20",
       "es": "¿Y el tuyo, qué tal?",
       "fr": "Et le tien, c'était comment ?",
-      "pron": "i él TOU-yo ké TAL",
+      "pron": "i él TOU-yo KÉ TAL",
       "note": "Pour renvoyer la question après avoir raconté ton week-end. Sans elle, la conversation risque de devenir un monologue."
     }
   ],
@@ -185,22 +185,22 @@
         },
         {
           "qui": "Elisabeth",
-          "es": "Descansar. Pero anoche dormí poco, así que hoy no me pidas mucho. ¿Y el tuyo, qué tal?",
-          "fr": "Me reposer. Mais cette nuit j'ai peu dormi, alors aujourd'hui ne m'en demande pas trop. Et le tien, c'était comment ?"
+          "es": "Nada, descansar. Pero anoche dormí poco, así que hoy no me pidas mucho. ¿Y el tuyo, qué tal?",
+          "fr": "Rien, me reposer. Mais cette nuit j'ai peu dormi, alors aujourd'hui ne m'en demande pas trop. Et le tien, c'était comment ?"
         },
         {
           "qui": "Marta",
-          "es": "Fue un fin de semana muy tranquilo. Estuve en casa de mis padres, en el pueblo.",
-          "fr": "C'était un week-end très calme. J'étais chez mes parents, au village."
+          "es": "Ha sido un fin de semana muy tranquilo. He estado en casa de mis padres, en el pueblo.",
+          "fr": "Ça a été un week-end très calme. J'étais chez mes parents, au village."
         },
         {
           "qui": "Elisabeth",
-          "es": "¿Lo pasaste bien?",
+          "es": "¿Lo has pasado bien?",
           "fr": "Tu t'es bien amusée ?"
         },
         {
           "qui": "Marta",
-          "es": "Sí, mi madre cocinó para un regimiento. He vuelto con tres táperes.",
+          "es": "Sí, mi madre ha cocinado para un regimiento. He vuelto con tres táperes.",
           "fr": "Oui, ma mère a cuisiné pour un régiment. Je suis revenue avec trois Tupperware."
         }
       ]
@@ -246,7 +246,7 @@
         },
         {
           "qui": "Khalil",
-          "es": "Sí. Al final no hicimos nada de lo que teníamos pensado, pero descansamos.",
+          "es": "Sí. Al final no hemos hecho nada de lo que teníamos pensado, pero hemos descansado.",
           "fr": "Oui. Finalement on n'a rien fait de ce qu'on avait prévu, mais on s'est reposés."
         }
       ]
@@ -298,9 +298,9 @@
   },
   "expressions": [
     {
-      "es": "Estoy hecha polvo",
-      "fr": "Je suis crevée",
-      "note": "Littéralement « réduite en poussière ». Au masculin, Khalil dira « estoy hecho polvo »."
+      "es": "Tirarse en el sofá",
+      "fr": "S'affaler sur le canapé",
+      "note": "« Me he tirado en el sofá toda la tarde » : le programme officiel de beaucoup de dimanches."
     },
     {
       "es": "Pegarse un madrugón",

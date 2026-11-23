@@ -17,7 +17,7 @@
       "id": "opiniones-02",
       "es": "Para mí, es la mejor película del año.",
       "fr": "Pour moi, c'est le meilleur film de l'année.",
-      "pron": "pa-ra MI ÉSS la mé-KHOR pé-LI-kou-la dél A-gno",
+      "pron": "PA-ra MI ÉSS la mé-KHOR pé-LI-kou-la dél A-gno",
       "note": "« Mejor » ne prend pas « más » : c'est déjà un comparatif, comme « meilleur ».",
       "rapide": "Pa' mí, es la mejor película del año."
     },
@@ -54,14 +54,14 @@
       "id": "opiniones-07",
       "es": "¿Tú qué opinas?",
       "fr": "Et toi, tu en penses quoi ?",
-      "pron": "TOU ké o-PI-nass",
+      "pron": "TOU KÉ o-PI-nass",
       "note": "Pour laisser la parole à l'autre. On entend aussi « ¿Y a ti qué te parece? »."
     },
     {
       "id": "opiniones-08",
       "es": "¿Qué te ha parecido la película?",
       "fr": "Tu as trouvé le film comment ?",
-      "pron": "ké té a pa-ré-THI-do la pé-LI-kou-la",
+      "pron": "KÉ té a pa-ré-THI-do la pé-LI-kou-la",
       "note": "On vient de sortir du cinéma, donc passé composé. Pour un film vu la semaine dernière : « ¿Qué te pareció? ».",
       "rapide": "¿Qué t'ha parecido la película?"
     },
@@ -95,16 +95,16 @@
     },
     {
       "id": "opiniones-13",
-      "es": "Las patatas a la riojana están buenísimas, pero pican menos que la comida de casa.",
-      "fr": "Les pommes de terre à la riojana sont délicieuses, mais elles piquent moins que la cuisine de chez nous.",
-      "pron": "lass pa-TA-tass a la rri-o-KHA-na éss-TAN boué-NI-ssi-mass PÉ-ro PI-kan MÉ-noss ké la ko-MI-da dé KA-ssa",
+      "es": "Las patatas a la riojana están buenísimas, pero pican menos que la comida de mi país.",
+      "fr": "Les pommes de terre à la riojana sont délicieuses, mais elles piquent moins que la cuisine de mon pays.",
+      "pron": "lass pa-TA-tass a la rri-o-KHA-na éss-TAN boué-NI-ssi-mass PÉ-ro PI-kan MÉ-noss ké la ko-MI-da dé mi pa-ISS",
       "note": "« Menos… que », c'est « moins… que ». Les patatas a la riojana se font avec du chorizo et du pimentón : ça réchauffe sans brûler."
     },
     {
       "id": "opiniones-14",
       "es": "Es demasiado caro para lo que es.",
       "fr": "C'est trop cher pour ce que c'est.",
-      "pron": "ÉSS dé-ma-SSYA-do KA-ro pa-ra lo ké ÉSS",
+      "pron": "ÉSS dé-ma-SSYA-do KA-ro PA-ra lo ké ÉSS",
       "note": "« Demasiado », c'est « trop ». La phrase parfaite devant un menu ou une veste hors de prix.",
       "rapide": "Es demasiao caro pa' lo que es."
     },
@@ -149,7 +149,7 @@
       "es": "Cada uno tiene sus gustos.",
       "fr": "Chacun ses goûts.",
       "pron": "KA-da OU-no TYÉ-né souss GOUSS-toss",
-      "note": "Pour clore un débat sans vainqueur. Très pratique quand on parle de la tortilla avec ou sans oignon.",
+      "note": "Pour clore un débat sans vainqueur. Très pratique après un match de foot entre amis.",
       "rapide": "Cad'uno tiene sus gustos."
     }
   ],
@@ -185,8 +185,8 @@
         },
         {
           "qui": "Elisabeth",
-          "es": "Ya, pero el actor principal no es tan bueno como en su última película.",
-          "fr": "Oui, mais l'acteur principal n'est pas aussi bon que dans son dernier film."
+          "es": "Ya, pero el actor principal no es tan bueno como en su película anterior.",
+          "fr": "Oui, mais l'acteur principal n'est pas aussi bon que dans son film précédent."
         },
         {
           "qui": "Khalil",
@@ -221,7 +221,7 @@
         },
         {
           "qui": "Elisabeth",
-          "es": "Me gusta mucho. Es más pequeña que Conakry y mucho más tranquila.",
+          "es": "Me gusta mucho. Es más pequeño que Conakri y mucho más tranquilo.",
           "fr": "Ça me plaît beaucoup. C'est plus petit que Conakry et beaucoup plus calme."
         },
         {
@@ -244,7 +244,7 @@
   ],
   "grammaire": {
     "titre": "Donner son avis et comparer",
-    "explication": "Pour donner ton avis, commence par « creo que », « me parece que » ou « para mí », suivi d'une phrase normale à l'indicatif. Pour réagir : « estoy de acuerdo con » + la personne, avec contigo et conmigo à la place de « con ti » et « con mí ». Pour comparer : « más… que » (plus… que), « menos… que » (moins… que), « tan… como » (aussi… que). Deux irréguliers à retenir : mejor (meilleur, mieux) et peor (pire), jamais « más bueno ». Petit piège pour plus tard : « no creo que » demande le subjonctif, alors en attendant, préfère « creo que no ».",
+    "explication": "Pour donner ton avis, commence par « creo que », « me parece que » ou « para mí », suivi d'une phrase normale à l'indicatif. Pour réagir : « estoy de acuerdo con » + la personne, avec contigo et conmigo à la place de « con ti » et « con mí ». Pour comparer : « más… que » (plus… que), « menos… que » (moins… que), « tan… como » (aussi… que). Deux irréguliers à retenir : mejor (meilleur, mieux) et peor (pire). Évite « más bueno » pour parler de qualité. Petit piège pour plus tard : « no creo que » demande le subjonctif, alors en attendant, préfère « creo que no ».",
     "tableau": [
       [
         "Creo que…",

@@ -32,14 +32,14 @@
       "es": "¿Me puede dar un certificado de empadronamiento?",
       "fr": "Vous pouvez me donner un certificat d'inscription au padrón ?",
       "pron": "mé POUÉ-dé DAR oun thér-ti-fi-KA-do dé ém-pa-dro-na-MYÉN-to",
-      "note": "On parle aussi du « volante de empadronamiento ». Il prouve où tu vis et on te le demandera pour d'autres trámites."
+      "note": "Il existe aussi le « volante de empadronamiento », une simple attestation ; le « certificado » est le document officiel, exigé pour certaines démarches. Les deux prouvent où tu vis."
     },
     {
       "id": "administration-05",
       "es": "Tengo cita para la toma de huellas.",
       "fr": "J'ai rendez-vous pour la prise d'empreintes.",
       "pron": "TÉN-go THI-ta PA-ra la TO-ma dé OUÉ-yass",
-      "note": "Pour la TIE, ta carte de séjour, les empreintes se prennent à la Policía Nacional, en général une fois que Extranjería a donné son accord.",
+      "note": "Pour la TIE, ta carte de séjour, les empreintes se prennent à la Policía Nacional, en général une fois qu'Extranjería a donné son accord.",
       "rapide": "Tengo cita pa' la toma de huellas."
     },
     {
@@ -104,8 +104,8 @@
       "id": "administration-14",
       "es": "Perdone, ¿qué papel me falta exactamente?",
       "fr": "Excusez-moi, il me manque quel papier exactement ?",
-      "pron": "pér-DO-né KÉ pa-PÉL mé FAL-ta ék-sak-ta-MÉN-té",
-      "note": "Quand on te dit « le falta un papel », il vous manque un papier, demande lequel et note-le tout de suite. Ça évite un troisième aller-retour."
+      "pron": "pér-DO-né KÉ pa-PÉL mé FAL-ta éks-ak-ta-MÉN-té",
+      "note": "Quand on te dit « le falta un papel » (il vous manque un papier), demande lequel et note-le tout de suite. Ça évite un troisième aller-retour."
     },
     {
       "id": "administration-15",
@@ -201,7 +201,7 @@
         {
           "qui": "La funcionaria",
           "es": "Perfecto, pues ya está. ¿Necesita un volante de empadronamiento?",
-          "fr": "Parfait, alors c'est bon. Vous avez besoin d'un certificat d'inscription ?"
+          "fr": "Parfait, alors c'est bon. Vous avez besoin d'une attestation d'inscription ?"
         },
         {
           "qui": "Elisabeth",
@@ -251,13 +251,13 @@
         },
         {
           "qui": "Elisabeth",
-          "es": "Vale. Esta vez vengo con todos los papeles, y con fotocopias de las fotocopias.",
-          "fr": "D'accord. Cette fois je viens avec tous les papiers, et avec des photocopies des photocopies."
+          "es": "Vale. La próxima vez vengo con todos los papeles, y con fotocopias de las fotocopias.",
+          "fr": "D'accord. La prochaine fois, je viens avec tous les papiers, et avec des photocopies des photocopies."
         },
         {
           "qui": "El policía",
           "es": "Así me gusta. ¡Ánimo, que ya casi lo tiene!",
-          "fr": "C'est comme ça que j'aime. Courage, vous y êtes presque !"
+          "fr": "Voilà qui me plaît ! Courage, vous y êtes presque !"
         }
       ]
     }

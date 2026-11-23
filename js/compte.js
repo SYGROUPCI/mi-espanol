@@ -38,8 +38,13 @@ const appareil = () => {
 const pourServeur = (etat) => {
   const copie = { ...etat };
   for (const k of LOCAL_SEULEMENT) delete copie[k];
+  // Le rappel dépend de l'appareil (abonnement aux notifications) : il ne voyage pas.
+  if (copie.reglages) { copie.reglages = { ...copie.reglages }; delete copie.reglages.rappel; }
   return copie;
 };
+
+// Version du serveur lue en dernier (contrôle de version à l'envoi).
+let base = null;
 
 // ---------------------------------------------------------------------------
 // Fusion de deux progressions (téléphone + serveur) sans rien perdre.
@@ -56,13 +61,22 @@ export function fusionner(local, serveur) {
     if (!s || poidsCarte(c) > poidsCarte(s) || (poidsCarte(c) === poidsCarte(s) && (c.due || "") > (s.due || ""))) r.cartes[id] = c;
   }
 
+  // Suppressions : union des deux côtés, puis on retire ces phrases partout.
+  r.supprimes = { ...(serveur.supprimes || {}), ...(local.supprimes || {}) };
   const parId = new Map();
-  for (const p of [...(serveur.carnet || []), ...(local.carnet || [])]) parId.set(p.id, p);
+  for (const p of [...(serveur.carnet || []), ...(local.carnet || [])]) if (!r.supprimes[p.id]) parId.set(p.id, p);
   r.carnet = [...parId.values()].sort((a, b) => (b.creeLe || "").localeCompare(a.creeLe || ""));
+  for (const id of Object.keys(r.supprimes)) delete r.cartes[id];
 
+  // Série : la plus récente, mais sans perdre les jours que l'autre appareil a déjà comptés.
   const sl = local.serie || {}, ss = serveur.serie || {};
-  const recente = (sl.dernier || "") >= (ss.dernier || "") ? sl : ss;
-  r.serie = { jours: recente.jours || 0, dernier: recente.dernier || null, record: Math.max(sl.record || 0, ss.record || 0) };
+  const [a, b] = (sl.dernier || "") >= (ss.dernier || "") ? [sl, ss] : [ss, sl];
+  let jours = a.jours || 0;
+  if (a.dernier && b.dernier) {
+    if (a.dernier === b.dernier) jours = Math.max(a.jours || 0, b.jours || 0);
+    else if (b.dernier === S.plusJours(a.dernier, -1)) jours = Math.max(jours, (b.jours || 0) + 1);
+  }
+  r.serie = { jours, dernier: a.dernier || null, record: Math.max(sl.record || 0, ss.record || 0, jours) };
 
   r.defisFaits = Math.max(local.defisFaits || 0, serveur.defisFaits || 0);
   r.motsVus = [...new Set([...(serveur.motsVus || []), ...(local.motsVus || [])])];
@@ -75,6 +89,7 @@ export function fusionner(local, serveur) {
 
   r.creeLe = [local.creeLe, serveur.creeLe].filter(Boolean).sort()[0] || local.creeLe;
   r.reglages = { ...(serveur.reglages || {}), ...(local.reglages || {}) };
+  if (local.reglages?.rappel) r.reglages.rappel = local.reglages.rappel; else delete r.reglages.rappel;
   r.bienvenueVue = true;
   return r;
 }
@@ -82,16 +97,33 @@ export function fusionner(local, serveur) {
 // ---------------------------------------------------------------------------
 // Envoi de la progression (différé, regroupé), et récupération.
 let minuteur = null;
-let envoiEnCours = false;
+let envoiEnCours = null;
+let aRenvoyer = false;
 
-async function envoyer({ keepalive = false } = {}) {
-  if (!connecte() || envoiEnCours) return;
-  envoiEnCours = true;
-  try {
-    const r = await api("/api/progression", { methode: "PUT", corps: { progression: pourServeur(S.get()) }, keepalive });
-    if (r.statut === 401) S.remplacer({ ...S.get(), compte: null });
-  } catch { /* hors ligne : on réessaiera au prochain changement ou au retour */ }
-  finally { envoiEnCours = false; }
+// Renvoie true si le serveur a bien reçu la progression.
+async function envoyer({ keepalive = false, essai = 0 } = {}) {
+  if (!connecte()) return false;
+  if (envoiEnCours) { aRenvoyer = true; return envoiEnCours; }
+  let conflit = false;
+  envoiEnCours = (async () => {
+    try {
+      const corps = { progression: pourServeur(S.get()), base };
+      // keepalive est limité à 64 Ko par le navigateur : au-delà, envoi normal.
+      const gros = JSON.stringify(corps).length > 60_000;
+      const r = await api("/api/progression", { methode: "PUT", corps, keepalive: keepalive && !gros });
+      if (r.statut === 401) { S.remplacer({ ...S.get(), compte: null }); return false; }
+      if (r.statut === 409) { conflit = true; return false; }
+      if (r.ok) { base = r.maj_le; return true; }
+      return false;
+    } catch { return false; /* hors ligne : on réessaiera au prochain changement ou au retour */ }
+  })();
+  let ok;
+  try { ok = await envoiEnCours; }
+  finally { envoiEnCours = null; }
+  // Un autre appareil a écrit entre-temps : on récupère, on fusionne, puis on renvoie.
+  if (conflit && essai < 2) return synchroniser(essai + 1);
+  if (aRenvoyer) { aRenvoyer = false; programmerEnvoi(); }
+  return ok;
 }
 
 function programmerEnvoi() {
@@ -100,17 +132,18 @@ function programmerEnvoi() {
   minuteur = setTimeout(envoyer, ENVOI_DIFFERE_MS);
 }
 
-export async function synchroniser() {
+export async function synchroniser(essai = 0) {
   if (!connecte()) return false;
   try {
     const r = await api("/api/progression");
     if (r.statut === 401) { S.remplacer({ ...S.get(), compte: null }); return false; }
+    if (r.statut !== 200) return false;
+    base = r.maj_le || null;
     if (r.progression) {
       const garde = { codeIA: S.get().codeIA, charla: S.get().charla, compte: S.get().compte };
       S.remplacer({ ...fusionner(S.get(), r.progression), ...garde });
     }
-    await envoyer();
-    return true;
+    return await envoyer({ essai });
   } catch { return false; }
 }
 
@@ -136,6 +169,7 @@ export async function creerCompte(code) {
   } catch (err) {
     return { ok: false, erreur: err?.name === "NotAllowedError" ? "annule" : "faceid" };
   }
+  base = null;
   const local = S.get();
   // La progression déjà faite sur ce téléphone rejoint le compte, sauf si elle appartenait à quelqu'un d'autre.
   const progression = local.compte ? null : pourServeur(local);
@@ -164,6 +198,7 @@ export async function seConnecter() {
     corps: { defi: opt.options.challenge, reponse },
   });
   if (!v.ok) return { ok: false, erreur: v.erreur || "verification" };
+  base = null;
   const avant = S.get();
   // Si ce téléphone contenait la progression de quelqu'un d'autre, on ne la mélange pas.
   const autrePersonne = avant.compte && (avant.compte.prenom !== v.utilisateur.prenom || avant.compte.role !== v.utilisateur.role);
@@ -174,13 +209,63 @@ export async function seConnecter() {
 }
 
 // Se déconnecter : la progression reste sur le serveur ; le téléphone repart à zéro.
-export async function seDeconnecter() {
+// Hors ligne, on refuse : sinon le travail pas encore envoyé serait perdu.
+// avantDeSortir : ce qu'il faut faire tant que la session existe encore (désabonner les rappels).
+export async function seDeconnecter({ avantDeSortir, prenomParDefaut = "" } = {}) {
   clearTimeout(minuteur);
-  await envoyer();
-  try { await api("/api/compte/deconnexion", { methode: "POST" }); } catch { /* hors ligne */ }
-  const reglages = S.get().reglages;
+  if (!(await synchroniser())) return { ok: false, erreur: "hors_ligne" };
+  try { await avantDeSortir?.(); } catch { /* le rappel sera nettoyé au prochain envoi */ }
+  try {
+    const r = await api("/api/compte/deconnexion", { methode: "POST" });
+    if (!r.ok) return { ok: false, erreur: "hors_ligne" };
+  } catch { return { ok: false, erreur: "hors_ligne" }; }
+  base = null;
+  const reglages = { ...S.get().reglages };
+  delete reglages.rappel;
   S.toutEffacer();
-  S.remplacer({ ...S.get(), reglages, bienvenueVue: false });
+  S.remplacer({ ...S.get(), reglages, prenom: prenomParDefaut || null, bienvenueVue: false });
+  oublierMots();
+  return { ok: true };
+}
+
+// « Tout recommencer » avec un compte : on efface ici, puis on remplace la copie en ligne (sans fusion,
+// sinon l'ancienne progression reviendrait à la synchro suivante).
+export async function remettreAZero(prenom) {
+  clearTimeout(minuteur);
+  try {
+    const lu = await api("/api/progression");
+    if (lu.statut !== 200) return { ok: false, erreur: "hors_ligne" };
+    const { compte: c, codeIA, reglages } = S.get();
+    S.toutEffacer();
+    S.remplacer({ ...S.get(), compte: c, codeIA, prenom: prenom || c?.prenom || null, bienvenueVue: true,
+      reglages: { ...reglages } });
+    const r = await api("/api/progression", { methode: "PUT", corps: { progression: pourServeur(S.get()), base: lu.maj_le || null } });
+    if (!r.ok) return { ok: false, erreur: "hors_ligne" };
+    base = r.maj_le;
+    return { ok: true };
+  } catch { return { ok: false, erreur: "hors_ligne" }; }
+}
+
+// ---------------------------------------------------------------------------
+// Petits mots (lettres surprises) : servis par le serveur, seulement à Elisabeth,
+// gardés sur l'appareil pour le hors ligne.
+const CLE_MOTS = "miespanol.mots";
+export function motsEnCache() {
+  try { return JSON.parse(localStorage.getItem(CLE_MOTS) || "[]"); } catch { return []; }
+}
+function oublierMots() { try { localStorage.removeItem(CLE_MOTS); } catch { /* rien */ } }
+export async function chargerMots() {
+  if (!connecte()) { oublierMots(); return []; }
+  try {
+    const r = await api("/api/mots");
+    if (r.statut === 200 && Array.isArray(r.mots)) {
+      const mots = r.mots.filter((m) => m && m.texte && String(m.texte).trim());
+      try { localStorage.setItem(CLE_MOTS, JSON.stringify(mots)); } catch { /* stockage plein */ }
+      return mots;
+    }
+    if (r.statut === 401) oublierMots();
+  } catch { /* hors ligne : on garde ce qu'on a */ }
+  return motsEnCache();
 }
 
 export async function duo() {
@@ -199,4 +284,5 @@ export const MESSAGES = {
   defi_expire: "Ça a pris un peu trop de temps. Réessaie.",
   cle_inconnue: "Ce Face ID n'est relié à aucun compte Mi Español.",
   verification: "La vérification a échoué. Réessaie.",
+  hors_ligne: "Pas de connexion : ta progression n'a pas encore pu être envoyée. Reconnecte-toi à internet, puis réessaie.",
 };

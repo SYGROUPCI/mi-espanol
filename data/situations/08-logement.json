@@ -18,7 +18,7 @@
       "es": "Llamo por el piso del anuncio. ¿Cuándo podría verlo?",
       "fr": "J'appelle pour l'appartement de l'annonce. Quand est-ce que je pourrais le visiter ?",
       "pron": "YA-mo por él PI-sso dél a-NOUN-thyo KOUAN-do po-DRI-a BÉR-lo",
-      "note": "On ne dit pas « visitar » un appartement mais « verlo », le voir. Les bons pisos partent vite : appelle le jour même."
+      "note": "On dit plus souvent « verlo », le voir, que « visitarlo ». Les bons pisos partent vite : appelle le jour même."
     },
     {
       "id": "logement-03",
@@ -48,7 +48,7 @@
       "es": "¿Cuánto es la fianza?",
       "fr": "La caution, c'est combien ?",
       "pron": "KOUAN-to ÉSS la FYAN-tha",
-      "note": "Pour un logement, la loi prévoit un mois de loyer. Le propriétaire peut demander une garantie en plus, mais demande toujours un reçu."
+      "note": "Pour un logement, la loi prévoit un mois de loyer. Le propriétaire peut demander une garantie en plus, deux mois de loyer au maximum, mais demande toujours un reçu."
     },
     {
       "id": "logement-07",
@@ -131,11 +131,11 @@
     },
     {
       "id": "logement-18",
-      "es": "Necesito a alguien para arreglar un enchufe.",
+      "es": "Necesito a alguien que me arregle un enchufe.",
       "fr": "J'ai besoin de quelqu'un pour réparer une prise.",
-      "pron": "né-thé-SSI-to a AL-guién PA-ra a-rré-GLAR oun én-TCHOU-fé",
-      "note": "Pour les prises et la lumière, on appelle « el electricista ». Arreglar, c'est réparer : le verbe de tous les dépannages.",
-      "rapide": "Necesito a alguien pa' arreglar un enchufe."
+      "pron": "né-thé-SSI-to a AL-guién ké mé a-RRÉ-glé oun én-TCHOU-fé",
+      "note": "Pour les prises et la lumière, on appelle « el electricista ». Arreglar, c'est réparer : le verbe de tous les dépannages. « Que me arregle » est au subjonctif : apprends-le d'un bloc.",
+      "rapide": "Necesito a alguien que m'arregle un enchufe."
     },
     {
       "id": "logement-19",
@@ -146,9 +146,9 @@
     },
     {
       "id": "logement-20",
-      "es": "Me voy a final de mes. ¿Cuándo me devuelve la fianza?",
+      "es": "Me voy a finales de mes. ¿Cuándo me devuelve la fianza?",
       "fr": "Je pars à la fin du mois. Quand est-ce que vous me rendez la caution ?",
-      "pron": "mé BOÏ a fi-NAL dé MÉSS KOUAN-do mé dé-BOUÉL-bé la FYAN-tha",
+      "pron": "mé BOÏ a fi-NA-léss dé MÉSS KOUAN-do mé dé-BOUÉL-bé la FYAN-tha",
       "note": "Préviens au moins trente jours avant et prends des photos le jour du départ. Le propriétaire a un mois après la remise des clés pour te rendre la fianza."
     }
   ],
@@ -268,7 +268,7 @@
   ],
   "grammaire": {
     "titre": "Se ha roto, no funciona, hay que",
-    "explication": "Pour signaler une panne, on utilise le passé composé avec « se » : « se ha roto » (c'est cassé), « se ha estropeado » (c'est tombé en panne). Au pluriel, « ha » devient « han ». Pour dire que quelque chose ne marche pas en ce moment, le présent suffit : « no funciona », ou plus familier « no va ». Et pour dire ce qu'il faut faire, « hay que » + infinitif : il ne se conjugue jamais, c'est le cadeau du jour.",
+    "explication": "Pour signaler une panne, on utilise le passé composé avec « se » : « se ha roto » (c'est cassé), « se ha estropeado » (c'est tombé en panne). Au pluriel, « ha » devient « han ». Pour dire que quelque chose ne marche pas en ce moment, le présent suffit : « no funciona », ou plus familier « no va ». Et pour dire ce qu'il faut faire, « hay que » + infinitif : il ne change jamais selon la personne, c'est le cadeau du jour.",
     "tableau": [
       ["Se ha roto la caldera.", "La chaudière est cassée."],
       ["Se han roto dos persianas.", "Deux volets roulants sont cassés."],

@@ -9,7 +9,7 @@
       "id": "beaute-01",
       "es": "Quería pedir cita para cortarme el pelo.",
       "fr": "Je voudrais prendre rendez-vous pour une coupe.",
-      "pron": "ké-RI-a pé-DIR THI-ta pa-ra kor-TAR-mé él PÉ-lo",
+      "pron": "ké-RI-a pé-DIR THI-ta PA-ra kor-TAR-mé él PÉ-lo",
       "note": "« Quería » (à l'imparfait) est la formule polie pour demander, comme « je voudrais ».",
       "rapide": "Quería pedir cita pa' cortarme el pelo."
     },
@@ -18,7 +18,7 @@
       "es": "Solo las puntas, por favor.",
       "fr": "Juste les pointes, s'il vous plaît.",
       "pron": "SO-lo lass POUN-tass por fa-BOR",
-      "note": "Phrase de survie. À répéter deux fois si les ciseaux s'approchent trop.",
+      "note": "Phrase de survie. À répéter deux fois si les ciseaux s'approchent trop. « Por fa » ou « porfa », c'est « por favor » raccourci, très courant à l'oral.",
       "rapide": "Solo las puntas, por fa."
     },
     {
@@ -135,16 +135,16 @@
     },
     {
       "id": "beaute-19",
-      "es": "Quería devolver esto. Aquí tiene el tique.",
+      "es": "Quería devolver esto. Aquí tiene el tíquet.",
       "fr": "Je voudrais rendre ceci. Voici le ticket.",
-      "pron": "ké-RI-a dé-bol-BÉR ÉSS-to a-KI TYÉ-né él TI-ké",
+      "pron": "ké-RI-a dé-bol-BÉR ÉSS-to a-KI TYÉ-né él TI-két",
       "note": "Sans ticket, c'est souvent non. Garde-le dans ton portefeuille, pas au fond du sac."
     },
     {
       "id": "beaute-20",
-      "es": "¿Me devolvéis el dinero o es un vale?",
-      "fr": "Vous me remboursez ou c'est un avoir ?",
-      "pron": "mé dé-bol-BÉÏSS él di-NÉ-ro o ÉSS oun BA-lé",
+      "es": "¿Me devolvéis el dinero o me dais un vale?",
+      "fr": "Vous me remboursez ou vous me faites un avoir ?",
+      "pron": "mé dé-bol-BÉÏSS él di-NÉ-ro o mé DAÏSS oun BA-lé",
       "note": "Ici « vale » veut dire avoir. Oui, le même mot que « d'accord » : l'espagnol aime recycler."
     }
   ],
@@ -174,7 +174,7 @@
         { "qui": "Elisabeth", "es": "¿Lo tienes en una talla menos?", "fr": "Tu l'as dans la taille en dessous ?" },
         { "qui": "Dependienta", "es": "Sí, toma. Y está rebajado, un treinta por ciento.", "fr": "Oui, tiens. Et elle est soldée, moins trente pour cent." },
         { "qui": "Elisabeth", "es": "¡Me encanta! Me lo llevo. ¿Lo puedo cambiar si no me queda bien?", "fr": "Je l'adore ! Je la prends. Je peux l'échanger si elle ne me va pas ?" },
-        { "qui": "Dependienta", "es": "Sí, tienes treinta días con el tique.", "fr": "Oui, tu as trente jours avec le ticket." }
+        { "qui": "Dependienta", "es": "Sí, tienes treinta días con el tíquet.", "fr": "Oui, tu as trente jours avec le ticket." }
       ]
     }
   ],

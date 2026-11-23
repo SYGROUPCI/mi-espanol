@@ -2,7 +2,7 @@
 // L'appli n'a jamais la clé de l'IA : elle parle à notre serveur (/api/conversacion),
 // qui vérifie un code d'accès et un plafond quotidien avant d'appeler Claude.
 import * as S from "./store.js";
-import { $, $$, e, ico, modale, toast } from "./ui.js";
+import { $, $$, e, ico, modale, toast, confirmer } from "./ui.js";
 import * as V from "./voix.js";
 
 export const SCENES = [
@@ -31,11 +31,18 @@ export function ecranCharla(app, { montrerNav, aller }) {
   choix(app, { montrerNav, aller });
 }
 
+// Une seule réponse attendue à la fois, quelle que soit la conversation.
+let enVol = false;
+const aDejaParle = (c) => (c?.messages || []).some((m) => m.role === "user" && m.content !== ouvrir);
+
 function choix(app, { montrerNav, aller }) {
   montrerNav("charla");
+  const encours = etat().charla;
+  const sceneEnCours = encours && SCENES.find((x) => x.id === encours.scene);
   app.innerHTML = `
-    <header class="page-haut"><div><h1>Charla</h1><p class="page-sous">Parler avec quelqu'un</p></div></header>
+    <header class="page-haut"><div><h1 tabindex="-1">Charla</h1><p class="page-sous">Parler avec quelqu'un</p></div></header>
     <p class="intro">Choisis une scène. La personne te répond en espagnol simple, tu réponds comme tu peux, et si tu te trompes, un petit post-it te montre la bonne tournure.</p>
+    ${sceneEnCours && aDejaParle(encours) ? `<button class="btn btn-large btn-reprendre" data-reprendre>Reprendre avec ${e(sceneEnCours.nom)}</button>` : ""}
     <div class="scenes">
       ${SCENES.map((s) => `
         <button class="scene" data-scene="${s.id}">
@@ -44,7 +51,12 @@ function choix(app, { montrerNav, aller }) {
           <span class="scene-texte">${e(s.texte)}</span>
         </button>`).join("")}
     </div>`;
-  $$("[data-scene]", app).forEach((b) => (b.onclick = () => {
+  $("[data-reprendre]", app)?.addEventListener("click", () => conversation(app, { montrerNav, aller }));
+  $$("[data-scene]", app).forEach((b) => (b.onclick = async () => {
+    const c = etat().charla;
+    if (c?.scene === b.dataset.scene && aDejaParle(c)) return conversation(app, { montrerNav, aller });
+    if (aDejaParle(c) && !(await confirmer("Nouvelle conversation ?", "La conversation en cours sera effacée.", "Commencer"))) return;
+    if (enVol) return toast("Un instant, la réponse arrive…");
     S.maj((s) => (s.charla = { scene: b.dataset.scene, messages: [] }));
     conversation(app, { montrerNav, aller }, true);
   }));
@@ -65,7 +77,7 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
         <div><strong>${e(scene.nom)}</strong><span class="petit">${e(scene.lieu)}</span></div>
         <button class="btn btn-doux btn-petit" data-nouvelle>Nueva</button>
       </header>
-      <div class="fil" aria-live="polite"></div>
+      <div class="fil" role="log" aria-live="polite" aria-relevant="additions"></div>
       <form class="saisie" data-saisie autocomplete="off">
         <div class="accents">${["á", "é", "í", "ó", "ú", "ñ", "¿", "¡"].map((a) => `<button type="button" data-a="${a}">${a}</button>`).join("")}</div>
         <div class="saisie-ligne">
@@ -79,19 +91,34 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
   const fil = $(".fil", app);
   const zone = $("textarea", app);
 
+  const bulle = (m) => m.role === "assistant"
+    ? `<div class="bulle-ligne"><button class="bulle-ia ${cachee ? "" : "revele"}" data-reveler aria-expanded="${!cachee}">
+         <span class="es" lang="es">${e(m.content)}</span>
+         ${m.traduccion ? `<span class="fr">${e(m.traduccion)}</span>` : ""}
+       </button>${V.bouton(m.content)}</div>`
+    : `<div class="bulle-moi"><span lang="es">${e(m.content)}</span>${m.correccion ? `<p class="correction">${e(m.correccion)}</p>` : ""}</div>`;
+  const brancher = (racine) => $$("[data-reveler]", racine).forEach((b) => (b.onclick = () => {
+    b.setAttribute("aria-expanded", b.classList.toggle("revele"));
+  }));
+  const visibles = () => etat().charla.messages.filter((m) => m.content !== ouvrir && String(m.content || "").trim());
+  // Tout redessiner (ouverture, retrait d'un message) : sans relecture par VoiceOver.
   const afficher = () => {
-    const msgs = etat().charla.messages.filter((m) => m.content !== ouvrir && String(m.content || "").trim());
-    if (!msgs.length) {
-      fil.innerHTML = `<p class="manuscrit fil-vide">Dis bonjour à ${e(scene.nom)}, ou touche « Nueva » pour qu'il commence.</p>`;
-      return;
-    }
-    fil.innerHTML = msgs.map((m) => m.role === "assistant"
-      ? `<div class="bulle-ligne"><button class="bulle-ia ${cachee ? "" : "revele"}" data-reveler>
-           <span class="es">${e(m.content)}</span>
-           ${m.traduccion ? `<span class="fr">${e(m.traduccion)}</span>` : ""}
-         </button>${V.bouton(m.content)}</div>`
-      : `<div class="bulle-moi"><span>${e(m.content)}</span>${m.correccion ? `<p class="correction">${e(m.correccion)}</p>` : ""}</div>`).join("");
-    $$("[data-reveler]", fil).forEach((b) => (b.onclick = () => b.classList.toggle("revele")));
+    const msgs = visibles();
+    fil.setAttribute("aria-live", "off");
+    fil.innerHTML = msgs.length ? msgs.map(bulle).join("")
+      : `<p class="manuscrit fil-vide">Dis bonjour à ${e(scene.nom)}, ou touche « Nueva » pour qu'il commence.</p>`;
+    brancher(fil);
+    requestAnimationFrame(() => fil.setAttribute("aria-live", "polite"));
+    window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+  };
+  // Ajouter seulement la nouvelle bulle : VoiceOver lit juste ce message.
+  const ajouter = (m) => {
+    $(".fil-vide", fil)?.remove();
+    const tmp = document.createElement("div");
+    tmp.innerHTML = bulle(m);
+    const el = tmp.firstElementChild;
+    fil.appendChild(el);
+    brancher(el.parentNode === fil ? el : fil);
     window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
   };
 
@@ -102,28 +129,35 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
   };
 
   async function envoyer(texte) {
-    S.maj((s) => s.charla.messages.push({ role: "user", content: texte }));
-    afficher();
+    if (enVol) return;
+    enVol = true;
+    const conv = etat().charla;
+    const moi = { role: "user", content: texte };
+    S.maj(() => conv.messages.push(moi));
+    if (texte !== ouvrir) ajouter(moi);
     ecrit(true);
-    const r = await appeler();
+    let r;
+    try { r = await appeler(conv); } finally { enVol = false; }
+    // Elle a quitté ou changé de conversation pendant l'attente : la réponse ne va nulle part ailleurs.
+    if (etat().charla !== conv || !document.body.contains(fil)) return;
     ecrit(false);
     if (r.ok) {
-      S.maj((s) => {
-        const msgs = s.charla.messages;
-        const dernier = msgs[msgs.length - 1];
-        if (dernier && dernier.role === "user") dernier.correccion = r.correccion || "";
-        msgs.push({ role: "assistant", content: r.respuesta, traduccion: r.traduccion });
+      const reponse = { role: "assistant", content: r.respuesta, traduccion: r.traduccion };
+      S.maj(() => {
+        moi.correccion = r.correccion || "";
+        conv.messages.push(reponse);
       });
+      if (moi.correccion) afficher(); else ajouter(reponse);
       if (S.get().reglages.lectureAuto !== false) V.parler(r.respuesta);
     } else {
       // On retire le message non traité pour qu'elle puisse le renvoyer.
-      S.maj((s) => s.charla.messages.pop());
+      S.maj(() => { const i = conv.messages.lastIndexOf(moi); if (i >= 0) conv.messages.splice(i, 1); });
       if (texte !== ouvrir) zone.value = texte;
+      afficher();
     }
-    afficher();
   }
 
-  async function appeler() {
+  async function appeler(conv) {
     let code = etat().codeIA;
     if (!code && !etat().compte) {
       code = await demanderCode();
@@ -134,12 +168,13 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
         method: "POST",
         headers: { "Content-Type": "application/json", ...(code ? { "X-Code-Acces": code } : {}) },
         body: JSON.stringify({
-          scene: etat().charla.scene,
-          messages: etat().charla.messages.map((m) => ({ role: m.role, content: m.content })),
+          scene: conv.scene,
+          messages: conv.messages.map((m) => ({ role: m.role, content: m.content })),
         }),
       });
       const d = await rep.json().catch(() => ({}));
       if (rep.status === 404) { toast("La conversation marche sur espanol.elibangoura.com"); return { ok: false }; }
+      if (d.erreur === "trop_essais") { toast("Trop d'essais de code aujourd'hui. Réessaie demain."); return { ok: false }; }
       if (d.erreur === "code") {
         S.maj((s) => (s.codeIA = null));
         toast("Ce code n'est pas le bon.");
@@ -158,8 +193,11 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
     }
   }
 
-  $("[data-retour]", app).onclick = () => { S.maj((s) => (s.charla = null)); aller("#/charla"); choix(app, { montrerNav, aller }); };
-  $("[data-nouvelle]", app).onclick = () => {
+  // Retour : la conversation est gardée, on la retrouve avec « Reprendre ».
+  $("[data-retour]", app).onclick = () => { ecoute?.abort?.(); V.arreter(); choix(app, { montrerNav, aller }); };
+  $("[data-nouvelle]", app).onclick = async () => {
+    if (enVol) return toast("Un instant, la réponse arrive…");
+    if (aDejaParle(etat().charla) && !(await confirmer("Nouvelle conversation ?", `La conversation avec ${scene.nom} sera effacée.`, "Recommencer"))) return;
     S.maj((s) => (s.charla = { scene: s.charla.scene, messages: [] }));
     afficher();
     envoyer(ouvrir);
@@ -170,12 +208,15 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
     zone.focus();
     zone.setSelectionRange(d + 1, d + 1);
   }));
-  // Parler à voix haute : le téléphone écoute, écrit ce qu'elle dit, puis l'envoie.
+  // Parler à voix haute : le téléphone écoute et écrit ce qu'elle dit dans le champ.
+  // Elle relit (et corrige si le téléphone a mal compris), puis elle envoie elle-même.
   let ecoute = null;
   $("[data-micro]", app)?.addEventListener("click", () => {
     const bouton = $("[data-micro]", app);
     if (ecoute) { ecoute.stop(); return; }
-    if ($(".ecrit", fil)) return;
+    if (enVol) return;
+    const initial = zone.value.trim();
+    let echec = false;
     V.arreter();                         // on coupe la voix de Javi pour ne pas l'entendre en boucle
     ecoute = new Reconnaissance();
     ecoute.lang = "es-ES";
@@ -191,9 +232,10 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
         const t = ev.results[i][0].transcript;
         if (ev.results[i].isFinal) final += t; else provisoire += t;
       }
-      zone.value = (final + provisoire).trim();
+      zone.value = [initial, (final + provisoire).trim()].filter(Boolean).join(" ");
     };
     ecoute.onerror = (ev) => {
+      echec = true;
       if (ev.error === "not-allowed" || ev.error === "service-not-allowed") toast("Autorise le micro pour Mi Español dans les réglages de ton téléphone.");
       else if (ev.error === "no-speech") toast("Je n'ai rien entendu. Réessaie en parlant un peu plus fort.");
       else if (ev.error === "network") toast("La reconnaissance vocale a besoin d'internet.");
@@ -202,8 +244,10 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
       bouton.classList.remove("en-ecoute");
       zone.placeholder = "Parle ou écris en español…";
       ecoute = null;
-      const texte = (final || zone.value).trim();
-      if (texte && !$(".ecrit", fil)) { zone.value = ""; envoyer(texte); }
+      if (echec || !final.trim()) { zone.value = initial; return; }
+      zone.value = [initial, final.trim()].filter(Boolean).join(" ");
+      $(".btn-envoyer", app).classList.add("a-envoyer");
+      toast("Relis, puis touche la flèche pour envoyer.");
     };
     try { ecoute.start(); } catch { bouton.classList.remove("en-ecoute"); ecoute = null; }
   });
@@ -213,26 +257,29 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
   $("[data-saisie]", app).onsubmit = (ev) => {
     ev.preventDefault();
     const texte = zone.value.trim();
-    if (!texte || $(".ecrit", fil)) return;
+    if (!texte || enVol) return;
     zone.value = "";
+    $(".btn-envoyer", app).classList.remove("a-envoyer");
     envoyer(texte);
   };
 
   afficher();
-  if (demarrer || !etat().charla.messages.length) envoyer(ouvrir);
+  if (!enVol && (demarrer || !etat().charla.messages.length)) envoyer(ouvrir);
 }
 
 async function demanderCode() {
   let saisi = "";
-  const promesse = modale(`
+  const choix = await modale(`
     <h2>Code d'accès</h2>
     <p>La conversation est réservée à toi. Entre le code que l'on t'a donné.</p>
     <input class="code-champ" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Code d'accès">
-    <div class="rangee"><button class="btn btn-doux" data-valeur="non">Annuler</button><button class="btn" data-valeur="oui">Valider</button></div>`);
-  const champ = $("#modale .code-champ");
-  champ.addEventListener("input", () => (saisi = champ.value.trim()));
-  champ.focus();
-  const choix = await promesse;
+    <div class="rangee"><button class="btn btn-doux" data-valeur="non">Annuler</button><button class="btn" data-valeur="oui">Valider</button></div>`, {
+    apresOuverture: (boite) => {
+      const champ = $(".code-champ", boite);
+      champ.addEventListener("input", () => (saisi = champ.value.trim()));
+      champ.focus();
+    },
+  });
   if (choix !== "oui" || !saisi) return null;
   S.maj((s) => (s.codeIA = saisi));
   return saisi;

@@ -12,7 +12,7 @@
       "fr": "Excusez-moi, je voudrais faire une réclamation.",
       "pron": "pér-DO-né ké-RI-a a-THÉR OU-na rré-kla-ma-THYON",
       "note": "« Quería » à l'imparfait adoucit la demande : c'est la façon polie d'entrer dans le sujet sans attaquer.",
-      "rapide": "Perdone, querí'hacer una reclamación."
+      "rapide": "Perdone, quería'cer una reclamación."
     },
     {
       "id": "quejas-02",
@@ -82,10 +82,10 @@
     },
     {
       "id": "quejas-11",
-      "es": "Me cobraron dos veces el mismo producto.",
-      "fr": "On m'a fait payer deux fois le même produit.",
-      "pron": "mé ko-BRA-ron DOSS BÉ-théss él MISS-mo pro-DOUK-to",
-      "note": "« Cobrar », c'est faire payer, encaisser. Le « ils » sans sujet de « cobraron » correspond à notre « on »."
+      "es": "Me cobraron de más: el precio no es el de la etiqueta.",
+      "fr": "On m'a fait payer trop cher : le prix n'est pas celui de l'étiquette.",
+      "pron": "mé ko-BRA-ron dé MASS él PRÉ-thyo no ÉSS él dé la é-ti-KÉ-ta",
+      "note": "« Cobrar de más », c'est faire payer trop. Le « ils » sans sujet de « cobraron » correspond à notre « on »."
     },
     {
       "id": "quejas-12",
@@ -129,7 +129,7 @@
       "fr": "Je vais écrire un avis sur internet.",
       "pron": "BOÏ a éss-kri-BIR OU-na rré-SSÉ-gna én in-tér-NÉT",
       "note": "Futur proche : ir a + infinitif. À garder comme dernier argument, pas comme première menace.",
-      "rapide": "Voy a'scribir una reseña'n internet."
+      "rapide": "Voy a'scribir una reseña en internet."
     },
     {
       "id": "quejas-18",
@@ -166,8 +166,8 @@
         },
         {
           "qui": "Dependienta",
-          "es": "Dígame, ¿qué le pasa?",
-          "fr": "Je vous écoute, quel est le problème ?"
+          "es": "Dígame, ¿en qué puedo ayudarla?",
+          "fr": "Je vous écoute, en quoi puis-je vous aider ?"
         },
         {
           "qui": "Elisabeth",
@@ -319,9 +319,9 @@
       "note": "Familier mais pas grossier. À réserver aux amis, pas au guichet."
     },
     {
-      "es": "Dar largas",
-      "fr": "Faire traîner, balader quelqu'un",
-      "note": "« Me están dando largas » : on te promet un rappel qui n'arrive jamais."
+      "es": "Lavarse las manos",
+      "fr": "S'en laver les mains",
+      "note": "Quand le magasin dit que ce n'est pas son problème. Ne te laisse pas faire : demande la hoja de reclamaciones."
     },
     {
       "es": "Poner el grito en el cielo",

@@ -65,32 +65,62 @@ export function remplirIcones(racine = document) {
 }
 
 let toastMinuteur;
+// Le message reste le temps de le lire (environ 15 caractères par seconde, entre 2,6 et 7 secondes).
 export function toast(msg) {
   const t = $("#toast");
   t.textContent = msg;
   t.hidden = false;
   clearTimeout(toastMinuteur);
-  toastMinuteur = setTimeout(() => (t.hidden = true), 2600);
+  toastMinuteur = setTimeout(() => (t.hidden = true), Math.min(7000, Math.max(2600, String(msg).length * 65)));
 }
 
 // Fenêtre par-dessus l'écran. Renvoie une promesse résolue à la fermeture.
-export function modale(html, { classe = "" } = {}) {
+// Les fenêtres passent l'une après l'autre (une lettre surprise n'en écrase jamais une autre).
+// apresOuverture(boite) : pour brancher un champ une fois la fenêtre affichée.
+let file = Promise.resolve();
+export function modale(html, options = {}) {
+  const tour = file.then(() => ouvrirModale(html, options));
+  file = tour.catch(() => {});
+  return tour;
+}
+
+function ouvrirModale(html, { classe = "", apresOuverture } = {}) {
   const m = $("#modale");
-  m.innerHTML = `<div class="modale-fond" data-fermer></div><div class="modale-boite ${classe}" role="dialog" aria-modal="true">${html}</div>`;
+  const avant = document.activeElement;
+  m.innerHTML = `<div class="modale-fond" data-fermer></div><div class="modale-boite ${classe}" role="dialog" aria-modal="true" tabindex="-1">${html}</div>`;
+  const boite = $(".modale-boite", m);
+  const titre = $("h1, h2, h3, .lettre-sur, .cartel-sur", boite);
+  if (titre) { titre.id = "modale-titre"; boite.setAttribute("aria-labelledby", "modale-titre"); }
   m.hidden = false;
   document.body.classList.add("bloque");
   return new Promise((ok) => {
     const fermer = (val) => {
       m.hidden = true;
       m.innerHTML = "";
+      m.onclick = null;
+      document.removeEventListener("keydown", clavier);
       document.body.classList.remove("bloque");
+      try { avant?.focus?.({ preventScroll: true }); } catch (_) { /* élément disparu */ }
       ok(val);
     };
+    // Échap ferme ; Tab reste dans la fenêtre.
+    const clavier = (ev) => {
+      if (ev.key === "Escape") { ev.preventDefault(); fermer(null); return; }
+      if (ev.key !== "Tab") return;
+      const focusables = $$("button, a[href], input, textarea, select", boite).filter((x) => !x.disabled);
+      if (!focusables.length) return;
+      const [premier, dernier] = [focusables[0], focusables[focusables.length - 1]];
+      if (ev.shiftKey && document.activeElement === premier) { ev.preventDefault(); dernier.focus(); }
+      else if (!ev.shiftKey && document.activeElement === dernier) { ev.preventDefault(); premier.focus(); }
+    };
+    document.addEventListener("keydown", clavier);
     m.onclick = (ev) => {
       const cible = ev.target.closest("[data-fermer],[data-valeur]");
       if (!cible) return;
       fermer(cible.dataset.valeur ?? null);
     };
+    apresOuverture?.(boite);
+    if (!boite.contains(document.activeElement)) boite.focus({ preventScroll: true });
   });
 }
 

@@ -23,7 +23,7 @@
       "id": "culture-03",
       "es": "Está lloviendo otra vez.",
       "fr": "Il pleut encore.",
-      "pron": "ess-TA yo-BYÉN-do O-tra BÉTH",
+      "pron": "éss-TA yo-BYÉN-do O-tra BÉTH",
       "note": "« Está lloviendo », c'est en ce moment même. « Llueve mucho aquí », c'est en général.",
       "rapide": "'Tá lloviendo otra vez."
     },
@@ -40,7 +40,7 @@
       "fr": "Il paraît qu'il va pleuvoir demain.",
       "pron": "DI-thén ké ma-GNA-na BA a yo-BÉR",
       "note": "« Dicen que », c'est « on dit que » : très pratique pour relayer la météo sans en être responsable.",
-      "rapide": "Dicen que mañana v'a llover."
+      "rapide": "Dicen que mañana va'llover."
     },
     {
       "id": "culture-06",
@@ -81,7 +81,7 @@
       "id": "culture-11",
       "es": "¿Has probado el vino de Rioja?",
       "fr": "Tu as goûté le vin de la Rioja ?",
-      "pron": "ass pro-BA-do él BI-no dé rri-O-kha",
+      "pron": "ass pro-BA-do él BI-no dé RRYO-kha",
       "note": "Ici, on te posera cette question souvent. La bonne réponse commence par « sí ».",
       "rapide": "¿Has probao el vino de Rioja?"
     },
@@ -103,16 +103,16 @@
       "id": "culture-14",
       "es": "¿A qué hora coméis normalmente?",
       "fr": "Vous déjeunez à quelle heure, d'habitude ?",
-      "pron": "a ké O-ra ko-MÉÏSS nor-mal-MÉN-té",
+      "pron": "a KÉ O-ra ko-MÉÏSS nor-mal-MÉN-té",
       "note": "« Comer », c'est le repas de midi. Le soir, c'est « cenar »."
     },
     {
       "id": "culture-15",
       "es": "¿Qué haces este puente?",
       "fr": "Tu fais quoi pour le pont ?",
-      "pron": "ké A-théss ESS-té POUÉN-té",
+      "pron": "ké A-théss ÉSS-té POUÉN-té",
       "note": "Un « puente », c'est un jour férié collé au week-end. Les Espagnols le guettent dès janvier.",
-      "rapide": "¿Qu'haces este puente?"
+      "rapide": "¿Qué haces 'ste puente?"
     },
     {
       "id": "culture-16",
@@ -156,7 +156,7 @@
   "dialogues": [
     {
       "titre": "Dans l'ascenseur avec Carmen",
-      "contexte": "Elisabeth croise sa voisine du troisième, une dame très bavarde, un matin glacial.",
+      "contexte": "Elisabeth croise sa voisine du deuxième, une dame très bavarde, un matin glacial.",
       "lignes": [
         {
           "qui": "Carmen",
@@ -175,8 +175,8 @@
         },
         {
           "qui": "Elisabeth",
-          "es": "Vaya... ¿Y qué haces este puente?",
-          "fr": "Mince... Et tu fais quoi pour le pont ?"
+          "es": "Vaya... ¿Y usted qué hace este puente?",
+          "fr": "Mince... Et vous, vous faites quoi pour le pont ?"
         },
         {
           "qui": "Carmen",
@@ -279,7 +279,7 @@
     "exemples": [
       {
         "es": "Hoy hace sol, pero mañana va a llover.",
-        "fr": "Aujourd'hui il fait soleil, mais demain il va pleuvoir."
+        "fr": "Aujourd'hui il y a du soleil, mais demain il va pleuvoir."
       },
       {
         "es": "Hay mucha niebla, conduce despacio.",
@@ -308,18 +308,18 @@
       "note": "Les chiens d'Espagne et de France partagent la même réputation."
     },
     {
-      "es": "el finde",
-      "fr": "le week-end",
+      "es": "El finde",
+      "fr": "Le week-end",
       "note": "Abréviation de « fin de semana ». « ¿Qué haces el finde? »"
     },
     {
-      "es": "ir de vinos",
-      "fr": "faire la tournée des bars à vin",
-      "note": "Un verre et un pincho par bar, puis on change. Sport local à Logroño."
+      "es": "¡Hace un sol de justicia!",
+      "fr": "Il fait un soleil de plomb !",
+      "note": "Pour les après-midi d'août où l'on change de trottoir pour marcher à l'ombre."
     },
     {
-      "es": "hacer puente",
-      "fr": "faire le pont",
+      "es": "Hacer puente",
+      "fr": "Faire le pont",
       "note": "« Este año hacemos puente » : on prend le jour entre le férié et le week-end."
     }
   ]

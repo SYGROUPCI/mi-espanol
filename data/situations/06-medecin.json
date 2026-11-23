@@ -52,7 +52,7 @@
       "id": "medecin-07",
       "es": "Estoy un poco mareada.",
       "fr": "J'ai un peu la tête qui tourne.",
-      "pron": "ess-TOÏ oun PO-ko ma-ré-A-da",
+      "pron": "éss-TOÏ oun PO-ko ma-ré-A-da",
       "note": "« Mareada » sert aussi pour le mal de mer ou de voiture. Au féminin, avec un a.",
       "rapide": "'Toy un poco mareada."
     },
@@ -67,7 +67,7 @@
       "id": "medecin-09",
       "es": "Estoy muy cansada últimamente.",
       "fr": "Je suis très fatiguée ces derniers temps.",
-      "pron": "ess-TOÏ MOUÏ kan-SA-da OUL-ti-ma-MÉN-té",
+      "pron": "éss-TOÏ MOUÏ kan-SA-da OUL-ti-ma-MÉN-té",
       "note": "« Últimamente » ne veut pas dire ultimement, mais ces derniers temps. Un faux ami de plus."
     },
     {
@@ -82,8 +82,8 @@
       "id": "medecin-11",
       "es": "Creo que estoy resfriada.",
       "fr": "Je crois que je suis enrhumée.",
-      "pron": "KRÉ-o ké ess-TOÏ rréss-FRYA-da",
-      "note": "Pour un gros rhume, on entend aussi « tengo un catarro »."
+      "pron": "KRÉ-o ké éss-TOÏ rréss-FRYA-da",
+      "note": "Pour un rhume, on dit aussi « tengo un catarro » ou « estoy acatarrada »."
     },
     {
       "id": "medecin-12",
@@ -125,7 +125,7 @@
       "id": "medecin-17",
       "es": "Es urgente, ¿dónde están las urgencias?",
       "fr": "C'est urgent, où sont les urgences ?",
-      "pron": "éss our-KHÉN-té DON-dé ess-TAN lass our-KHÉN-thyass",
+      "pron": "éss our-KHÉN-té DON-dé éss-TAN lass our-KHÉN-thyass",
       "note": "En cas d'urgence grave, appelle le 112, le numéro d'urgence européen.",
       "rapide": "Es urgente, ¿dónde 'tán las urgencias?"
     },

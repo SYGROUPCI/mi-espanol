@@ -10,7 +10,7 @@
       "id": "paquetes-01",
       "es": "He comprado unas zapatillas por internet y todavía no han llegado.",
       "fr": "J'ai acheté des baskets en ligne et elles ne sont toujours pas arrivées.",
-      "pron": "é kom-PRA-do OU-nass tha-pa-TI-yass por in-tér-NÉT i to-da-BI-a no ann yé-GA-do",
+      "pron": "é kom-PRA-do OU-nass tha-pa-TI-yass por in-tér-NÉT i to-da-BI-a no an yé-GA-do",
       "note": "Le passé composé pour un achat récent, dont l'effet dure encore : les baskets ne sont toujours pas là.",
       "rapide": "He comprao unas zapatillas por internet y todavía no han llegao."
     },
@@ -34,7 +34,7 @@
       "fr": "D'après le site, le colis va arriver demain entre neuf heures et deux heures.",
       "pron": "sé-GOUN la OUÉB él pa-KÉ-té BA a yé-GAR ma-GNA-na ÉN-tré lass NOUÉ-bé i lass DOSS",
       "note": "Le futur proche : « ir a » + infinitif. Le créneau de cinq heures, en revanche, n'est pas une invention.",
-      "rapide": "Según la web, el paquete va'a llegar mañana entre las nueve y las dos."
+      "rapide": "Según la web, el paquete va'llegar mañana entre las nueve y las dos."
     },
     {
       "id": "paquetes-05",
@@ -56,7 +56,7 @@
       "id": "paquetes-07",
       "es": "Ayer no estaba en casa y me dejaron un aviso en el buzón.",
       "fr": "Hier, je n'étais pas là et on m'a laissé un avis de passage dans la boîte aux lettres.",
-      "pron": "a-YÉR no éss-TA-ba én KA-ssa i mé dé-KHA-ronn oun a-BI-sso én él bou-THON",
+      "pron": "a-YÉR no éss-TA-ba én KA-ssa i mé dé-KHA-ron oun a-BI-sso én él bou-THON",
       "note": "L'imparfait « estaba » plante le décor, le passé simple « dejaron » raconte ce qui s'est passé. Comme en français, finalement."
     },
     {
@@ -79,7 +79,7 @@
       "fr": "Le carton est arrivé abîmé et le téléphone ne s'allume pas.",
       "pron": "la KA-kha a yé-GA-do RRO-ta i él MO-bil no sé én-THYÉN-dé",
       "note": "Prends des photos du carton avant de tout jeter : elles servent de preuve pour la réclamation.",
-      "rapide": "La caja'a llegao rota y el móvil no s'enciende."
+      "rapide": "La caja ha llegao rota y el móvil no s'enciende."
     },
     {
       "id": "paquetes-11",
@@ -106,7 +106,7 @@
       "id": "paquetes-14",
       "es": "Me han cobrado dos veces el mismo pedido.",
       "fr": "On m'a débité deux fois la même commande.",
-      "pron": "mé ann ko-BRA-do DOSS BÉ-théss él MISS-mo pé-DI-do",
+      "pron": "mé an ko-BRA-do DOSS BÉ-théss él MISS-mo pé-DI-do",
       "note": "« Cobrar », c'est encaisser, faire payer. Garde le relevé de ta banque pour le montrer.",
       "rapide": "M'han cobrao dos veces el mismo pedido."
     },
@@ -142,7 +142,7 @@
       "id": "paquetes-19",
       "es": "Antes de comprar, siempre miro las opiniones de otros clientes.",
       "fr": "Avant d'acheter, je regarde toujours les avis des autres clients.",
-      "pron": "AN-téss dé kom-PRAR SYÉM-pré MI-ro lass o-pi-NYO-néss dé O-tross kli-ÉN-téss",
+      "pron": "AN-téss dé kom-PRAR SYÉM-pré MI-ro lass o-pi-NYO-néss dé O-tross KLYÉN-téss",
       "note": "Une boutique inconnue qui ne propose qu'un virement comme paiement ? Méfiance."
     },
     {
@@ -156,7 +156,7 @@
   "dialogues": [
     {
       "titre": "Le livreur sonne",
-      "contexte": "Tu attends ton colis depuis ce matin. L'interphone sonne enfin.",
+      "contexte": "Tu attends ton colis depuis ce matin. L'interphone sonne enfin. En Espagne, on tutoie souvent le livreur.",
       "lignes": [
         {
           "qui": "Elisabeth",
@@ -171,22 +171,22 @@
         {
           "qui": "Elisabeth",
           "es": "¡Por fin! Te abro.",
-          "fr": "Enfin ! Je vous ouvre."
+          "fr": "Enfin ! Je t'ouvre."
         },
         {
           "qui": "Repartidor",
           "es": "Aquí tienes. ¿Me firmas aquí, por favor?",
-          "fr": "Voilà. Vous pouvez signer ici, s'il vous plaît ?"
+          "fr": "Voilà. Tu peux signer ici, s'il te plaît ?"
         },
         {
           "qui": "Elisabeth",
           "es": "Claro. Oye, ¿tienes también algo para el tercero A? Mi vecina no está.",
-          "fr": "Bien sûr. Dites, vous avez aussi quelque chose pour le troisième A ? Ma voisine n'est pas là."
+          "fr": "Bien sûr. Dis, tu as aussi quelque chose pour le troisième A ? Ma voisine n'est pas là."
         },
         {
           "qui": "Repartidor",
           "es": "Sí, pero no se lo puedo dar sin su autorización. Le dejo un aviso en el buzón.",
-          "fr": "Oui, mais je ne peux pas vous le donner sans son autorisation. Je lui laisse un avis de passage dans la boîte aux lettres."
+          "fr": "Oui, mais je ne peux pas te le donner sans son autorisation. Je lui laisse un avis de passage dans la boîte aux lettres."
         },
         {
           "qui": "Elisabeth",
@@ -201,7 +201,7 @@
         {
           "qui": "Elisabeth",
           "es": "¡Igualmente, gracias!",
-          "fr": "Vous aussi, merci !"
+          "fr": "Toi aussi, merci !"
         }
       ]
     },
@@ -210,9 +210,9 @@
       "contexte": "Ton colis est arrivé abîmé et ta banque montre deux paiements. Tu appelles le service client de la boutique.",
       "lignes": [
         {
-          "qui": "Marta",
-          "es": "Atención al cliente, le atiende Marta. ¿En qué puedo ayudarle?",
-          "fr": "Service client, Marta à l'appareil. Que puis-je faire pour vous ?"
+          "qui": "Sonia",
+          "es": "Atención al cliente, le atiende Sonia. ¿En qué puedo ayudarle?",
+          "fr": "Service client, Sonia à l'appareil. Que puis-je faire pour vous ?"
         },
         {
           "qui": "Elisabeth",
@@ -220,7 +220,7 @@
           "fr": "Bonjour. J'ai passé la commande il y a une semaine et le carton est arrivé abîmé."
         },
         {
-          "qui": "Marta",
+          "qui": "Sonia",
           "es": "Vaya, lo siento mucho. ¿Me da el número de pedido, por favor?",
           "fr": "Oh, je suis vraiment désolée. Vous pouvez me donner le numéro de commande, s'il vous plaît ?"
         },
@@ -230,7 +230,7 @@
           "fr": "Oui : quatre, cinq, huit, deux, sept. Et en plus, on m'a débité deux fois la même commande."
         },
         {
-          "qui": "Marta",
+          "qui": "Sonia",
           "es": "Déjeme ver… Tiene razón, hay dos cargos. Anulo uno ahora mismo.",
           "fr": "Laissez-moi regarder… Vous avez raison, il y a deux prélèvements. J'en annule un tout de suite."
         },
@@ -240,7 +240,7 @@
           "fr": "Quand est-ce qu'on va me rembourser ?"
         },
         {
-          "qui": "Marta",
+          "qui": "Sonia",
           "es": "Depende de su banco, normalmente unos días. ¿Y quiere devolver el producto?",
           "fr": "Ça dépend de votre banque, en général quelques jours. Et vous voulez renvoyer l'article ?"
         },
@@ -250,14 +250,14 @@
           "fr": "Oui. Comment je le renvoie ? Je dois payer les frais de retour ?"
         },
         {
-          "qui": "Marta",
+          "qui": "Sonia",
           "es": "No, en este caso no. Le mando la etiqueta por correo electrónico.",
           "fr": "Non, pas dans ce cas. Je vous envoie l'étiquette par e-mail."
         },
         {
           "qui": "Elisabeth",
-          "es": "Perfecto. Muchas gracias, Marta.",
-          "fr": "Parfait. Merci beaucoup, Marta."
+          "es": "Perfecto. Muchas gracias, Sonia.",
+          "fr": "Parfait. Merci beaucoup, Sonia."
         }
       ]
     }
@@ -302,7 +302,7 @@
     {
       "es": "¡Vaya timo!",
       "fr": "Quelle arnaque !",
-      "note": "Pour un article qui ne ressemble pas du tout à la photo. « Un timo », c'est une arnaque."
+      "note": "Pour un article qui ne ressemble pas du tout à la photo. Même famille que « me han timado »."
     },
     {
       "es": "Me ha salido rana",

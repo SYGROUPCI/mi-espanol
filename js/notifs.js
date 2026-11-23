@@ -54,7 +54,9 @@ export async function activer(heureTexte = "19:00") {
     abo = await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: cleEnOctets(VAPID_PUBLIQUE) });
   }
   const [h, m] = heureTexte.split(":").map((x) => parseInt(x, 10) || 0);
-  const r = await envoyer("/api/notifs/abonner", { abonnement: abo.toJSON(), heure: h, minute: m, fuseau: fuseau() });
+  let r;
+  try { r = await envoyer("/api/notifs/abonner", { abonnement: abo.toJSON(), heure: h, minute: m, fuseau: fuseau() }); }
+  catch { return { ok: false, erreur: "serveur" }; }
   if (!r.ok) return { ok: false, erreur: r.erreur || "serveur" };
   S.maj((s) => (s.reglages.rappel = { actif: true, heure: heureTexte }));
   return { ok: true };
@@ -70,15 +72,18 @@ export async function changerHeure(heureTexte) {
   return { ok: !!r.ok, erreur: r.erreur };
 }
 
+// Renvoie { ok } : hors ligne, le rappel reste actif (sinon il continuerait d'arriver alors que la case est décochée).
 export async function desactiver() {
   try {
     const abo = await abonnementActuel();
     if (abo) {
-      await envoyer("/api/notifs/desabonner", { endpoint: abo.endpoint });
+      const r = await envoyer("/api/notifs/desabonner", { endpoint: abo.endpoint });
+      if (!r.ok && r.statut !== 401) return { ok: false, erreur: "serveur" };
       await abo.unsubscribe();
     }
-  } catch { /* hors ligne : l'abonnement sera nettoyé côté serveur au prochain envoi */ }
+  } catch { return { ok: false, erreur: "serveur" }; }
   S.maj((s) => (s.reglages.rappel = { ...(s.reglages.rappel || {}), actif: false }));
+  return { ok: true };
 }
 
 export async function essai() {

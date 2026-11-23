@@ -64,7 +64,7 @@
       "fr": "Ne t'inquiète pas, tout va bien se passer.",
       "pron": "no té pré-o-KOU-péss TO-do BA a sa-LIR BYÉN",
       "note": "La phrase qui rassure, à dire avec une main sur l'épaule. « Salir bien », c'est bien se passer.",
-      "rapide": "No te preocupes, todo v'a salir bien."
+      "rapide": "No te preocupes, todo va'salir bien."
     },
     {
       "id": "emociones-09",
@@ -77,7 +77,7 @@
       "id": "emociones-10",
       "es": "Lo siento mucho. Si necesitas algo, aquí estoy.",
       "fr": "Je suis vraiment désolée. Si tu as besoin de quoi que ce soit, je suis là.",
-      "pron": "lo SYÉN-to MOU-tcho si né-thé-SI-tass AL-go a-KI éss-TOÏ",
+      "pron": "lo SYÉN-to MOU-tcho si né-thé-SSI-tass AL-go a-KI éss-TOÏ",
       "note": "Pour consoler après une mauvaise nouvelle. Simple et sincère, c'est ce qui compte."
     },
     {
@@ -125,7 +125,7 @@
     {
       "id": "emociones-17",
       "es": "Ya queda menos para vernos.",
-      "fr": "On se verra bientôt, il reste moins de temps.",
+      "fr": "Ça se rapproche, on se voit bientôt.",
       "pron": "YA KÉ-da MÉ-noss PA-ra BÉR-noss",
       "note": "Mot à mot : il reste déjà moins pour nous voir. La phrase des couples à distance, à répéter chaque semaine.",
       "rapide": "Ya queda menos pa' vernos."
@@ -175,8 +175,8 @@
         },
         {
           "qui": "Elisabeth",
-          "es": "¡Por eso te llamaba! Hoy estoy muy contenta: me han dado el trabajo.",
-          "fr": "C'est pour ça que je t'appelais ! Aujourd'hui je suis très contente : on m'a donné le poste."
+          "es": "¡Justo te lo iba a contar! Hoy estoy muy contenta: me han dado el trabajo.",
+          "fr": "J'allais justement te le dire ! Aujourd'hui je suis très contente : on m'a donné le poste."
         },
         {
           "qui": "Khalil",
@@ -290,9 +290,9 @@
       "note": "Pour une petite déprime passagère. « Hoy estoy de bajón » ne va inquiéter personne."
     },
     {
-      "es": "Estar hecha polvo",
-      "fr": "Être crevée",
-      "note": "Mot à mot : réduite en poussière. Au masculin, « hecho polvo »."
+      "es": "Estar con el ánimo por los suelos",
+      "fr": "Avoir le moral à zéro",
+      "note": "Mot à mot : le moral par terre. Plus fort que « estar de bajón »."
     },
     {
       "es": "Me ha sentado fatal",

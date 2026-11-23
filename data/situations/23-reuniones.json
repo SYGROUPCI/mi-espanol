@@ -12,7 +12,7 @@
       "fr": "Bonjour à tous. Si vous êtes d'accord, on commence.",
       "pron": "BOUÉ-noss DI-ass a TO-doss si léss pa-RÉ-thé ém-pé-THA-moss",
       "note": "« Si les parece » est la version formelle. Entre collègues qui se tutoient, on dit « si os parece ».",
-      "rapide": "Buenos día' a todos. Si les parece, empezamo'."
+      "rapide": "'Nos días a todos. Si les parece, empezamos."
     },
     {
       "id": "reuniones-02",
@@ -62,7 +62,7 @@
       "id": "reuniones-08",
       "es": "Esta mañana he hablado con el cliente y está contento.",
       "fr": "Ce matin, j'ai parlé avec le client et il est content.",
-      "pron": "ÉSS-ta ma-GNA-na é a-BLA-do kon él kli-ÉN-té i éss-TA kon-TÉN-to",
+      "pron": "ÉSS-ta ma-GNA-na é a-BLA-do kon él KLYÉN-té i éss-TA kon-TÉN-to",
       "note": "En Espagne, avec « esta mañana », « hoy » ou « esta semana », on utilise le passé composé.",
       "rapide": "'Sta mañana he hablao con el cliente y 'tá contento."
     },
@@ -150,7 +150,7 @@
       "fr": "Merci beaucoup pour votre aide. Bon week-end.",
       "pron": "MOU-tchass GRA-thyass por sou a-YOU-da ké TÉN-ga oun BOUÉN FIN dé sé-MA-na",
       "note": "« Que tenga… » est la version avec « usted » de « que tengas ». Parfait à l'oral comme à l'écrit, surtout un vendredi.",
-      "rapide": "Mucha' gracia' por su ayuda. Que tenga un buen fin de semana."
+      "rapide": "Muchas gracias por su ayuda. Que tenga un buen fin'e semana."
     }
   ],
   "dialogues": [
@@ -216,7 +216,7 @@
       "lignes": [
         {
           "qui": "Elisabeth",
-          "es": "Estimado señor Ruiz: le escribo para confirmar nuestra cita del jueves a las diez.",
+          "es": "Estimado señor Ruiz: Le escribo para confirmar nuestra cita del jueves a las diez.",
           "fr": "Cher Monsieur Ruiz, je vous écris pour confirmer notre rendez-vous de jeudi à dix heures."
         },
         {
@@ -231,7 +231,7 @@
         },
         {
           "qui": "Sr. Ruiz",
-          "es": "Estimada Elisabeth: muchas gracias por su correo. Lo siento, pero el jueves no estaré en la oficina.",
+          "es": "Estimada Elisabeth: Muchas gracias por su correo. Lo siento, pero el jueves no estaré en la oficina.",
           "fr": "Chère Elisabeth, merci beaucoup pour votre e-mail. Je suis désolé, mais jeudi je ne serai pas au bureau."
         },
         {

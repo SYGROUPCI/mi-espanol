@@ -12,10 +12,9 @@ export async function charger() {
   });
   index = await lire("data/index.json");
   const res = await Promise.allSettled(index.situations.map((f) => lire("data/" + f)));
-  situations = res.filter((r) => r.status === "fulfilled").map((r) => r.value)
-    .sort((a, b) => a.ordre - b.ordre);
-  try { mots = (await lire("data/mots.json")).mots.filter((m) => m.texte && m.texte.trim()); }
-  catch (e) { mots = []; }
+  // Un chargement partiel fausserait tout (défi du jour vide, A2 reverrouillé) : on préfère l'écran « Réessayer ».
+  if (res.some((r) => r.status === "rejected")) throw new Error("contenu incomplet");
+  situations = res.map((r) => r.value).sort((a, b) => a.ordre - b.ordre);
   parId = new Map();
   for (const s of situations) for (const p of s.phrases) parId.set(p.id, { phrase: p, situation: s });
 }
@@ -25,6 +24,8 @@ export const toutes = () => situations;
 export const bientot = () => index?.bientot || [];
 export const situation = (id) => situations.find((s) => s.id === id);
 export const petitsMots = () => mots;
+// Les petits mots viennent du compte (serveur), pas des fichiers publics.
+export const definirMots = (liste) => { mots = Array.isArray(liste) ? liste : []; };
 
 // Phrase par id : leçons + carnet perso.
 export function phrase(id, carnet = []) {
