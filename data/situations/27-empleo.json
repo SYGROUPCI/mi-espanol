@@ -16,6 +16,12 @@
         "es": "En Abiyán trabajaba en una tienda de ropa y llevaba la caja.",
         "fr": "À Abidjan, je travaillais dans un magasin de vêtements et je tenais la caisse.",
         "pron": "én a-bi-YAN tra-ba-KHA-ba én OU-na TYÉN-da dé RRO-pa i yé-BA-ba la KA-kha"
+      },
+      "perso": {
+        "es": "En {ciudad} era {oficio}.",
+        "fr": "À {ville}, j'étais {metier_fr}.",
+        "pron": "én {ciudad_pron} É-ra {oficio_pron}",
+        "note": "L'imperfecto décrit le décor de ta vie d'avant : ce que tu étais, ce que tu faisais d'habitude. Devant un métier, pas d'article : « era {oficio} »."
       }
     },
     {
@@ -194,6 +200,10 @@
           "duo": {
             "es": "En Abiyán trabajaba en una tienda de ropa y llevaba la caja. Durante dos años fui responsable de un equipo de cinco personas.",
             "fr": "À Abidjan, je travaillais dans un magasin de vêtements et je tenais la caisse. Pendant deux ans, j'ai été responsable d'une équipe de cinq personnes."
+          },
+          "perso": {
+            "es": "En {ciudad} era {oficio}. Durante dos años fui responsable de un equipo de cinco personas.",
+            "fr": "À {ville}, j'étais {metier_fr}. Pendant deux ans, j'ai été responsable d'une équipe de cinq personnes."
           }
         },
         {
@@ -339,6 +349,10 @@
         "duo": {
           "es": "Cuando vivía en Abiyán, trabajaba en un hotel.",
           "fr": "Quand je vivais à Abidjan, je travaillais dans un hôtel."
+        },
+        "perso": {
+          "es": "Cuando vivía en {ciudad}, trabajaba en un hotel.",
+          "fr": "Quand je vivais à {ville}, je travaillais dans un hôtel."
         }
       },
       {

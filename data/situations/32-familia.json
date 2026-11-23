@@ -141,6 +141,12 @@
         "fr": "Coucou maman ! Comment vous allez tous, là-bas à Abidjan ?",
         "pron": "O-la ma-MA KÉ TAL éss-TAÏSS TO-doss por a-bi-YAN",
         "rapide": "¡Hola, mamá! ¿Qué tal 'táis todos por Abiyán?"
+      },
+      "perso": {
+        "es": "¡Hola, mamá! ¿Qué tal estáis todos por {ciudad}?",
+        "fr": "Coucou maman ! Comment vous allez tous, là-bas à {ville} ?",
+        "pron": "O-la ma-MA KÉ TAL éss-TAÏSS TO-doss por {ciudad_pron}",
+        "rapide": "¡Hola, mamá! ¿Qué tal 'táis todos por {ciudad}?"
       }
     },
     {

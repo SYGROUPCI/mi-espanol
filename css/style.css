@@ -673,3 +673,10 @@ h1[tabindex="-1"]:focus { outline: none; }
 }
 .btn-apuntar { border: 1.5px solid currentColor; background: transparent; color: var(--encre); }
 .apunte-fait { color: var(--vert); padding-left: 0; }
+
+/* Mon profil : listes déroulantes comme les champs texte. */
+.champ select {
+  font: inherit; font-weight: 400; font-size: 1rem; color: var(--encre); background: var(--surface);
+  border: 1.5px solid var(--trait); border-radius: 12px; min-height: 48px; padding: 10px 12px;
+}
+[data-profil-apercu] .es { color: var(--violet); font-weight: 700; }

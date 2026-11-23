@@ -1,4 +1,5 @@
 // Chargement des leçons (fichiers JSON dans data/).
+import { jetons } from "./profil.js";
 
 let index = null;
 let situations = [];
@@ -24,29 +25,49 @@ export async function charger() {
 // chaque clé « duo » remplace les champs concernés (accords, prénom, origine…).
 let bruts = [];
 let profilActuel;
-let roleCourant = null, prenomCourant = "";
+let roleCourant = null, prenomCourant = "", donneesProfil = null;
 
-function personnaliser(x, duo, prenom) {
-  if (Array.isArray(x)) return x.map((v) => personnaliser(v, duo, prenom));
+// Remplit « {pais} », « {ciudad} »… ; renvoie null s'il manque une valeur (la phrase garde alors son texte écrit).
+function remplir(modele, t) {
+  let manque = false;
+  const r = (v) => {
+    if (typeof v === "string") return v.replace(/\{(\w+)\}/g, (_, k) => (k in t ? t[k] : ((manque = true), "")));
+    if (Array.isArray(v)) return v.map(r);
+    if (v && typeof v === "object") return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, r(x)]));
+    return v;
+  };
+  const res = r(modele);
+  return manque ? null : res;
+}
+
+function personnaliser(x, duo, prenom, t) {
+  if (Array.isArray(x)) return x.map((v) => personnaliser(v, duo, prenom, t));
   if (!x || typeof x !== "object") return x;
   const o = {};
-  for (const [k, v] of Object.entries(x)) if (k !== "duo") o[k] = personnaliser(v, duo, prenom);
+  for (const [k, v] of Object.entries(x)) if (k !== "duo" && k !== "perso") o[k] = personnaliser(v, duo, prenom, t);
   if (duo) {
     // D'abord le nom de la personne qui apprend, puis les variantes (qui peuvent faire parler Elisabeth).
     if (o.qui === index?.prenom && prenom) o.qui = prenom;
-    if (x.duo && typeof x.duo === "object") Object.assign(o, personnaliser(x.duo, false, prenom));
+    if (x.duo && typeof x.duo === "object") Object.assign(o, personnaliser(x.duo, false, prenom, t));
+  }
+  // Enfin le profil de la personne (pays, ville, métier), s'il est rempli.
+  if (x.perso && typeof x.perso === "object") {
+    const rempli = remplir(x.perso, t);
+    if (rempli) Object.assign(o, rempli);
   }
   return o;
 }
 
-export function profil(role, prenom) {
+export function profil(role, prenom, donnees) {
   roleCourant = role || null;
   prenomCourant = prenom || "";
-  const cle = `${roleCourant}|${prenomCourant}`;
+  if (donnees !== undefined) donneesProfil = donnees || null;
+  const cle = `${roleCourant}|${prenomCourant}|${JSON.stringify(donneesProfil || {})}`;
   if (cle === profilActuel || !bruts.length) return;
   profilActuel = cle;
   const duo = roleCourant === "duo";
-  situations = bruts.map((s) => personnaliser(s, duo, prenomCourant));
+  const t = jetons(donneesProfil, duo ? "m" : "f");
+  situations = bruts.map((s) => personnaliser(s, duo, prenomCourant, t));
   parId = new Map();
   for (const s of situations) for (const p of s.phrases) parId.set(p.id, { phrase: p, situation: s });
 }

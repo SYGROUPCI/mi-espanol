@@ -99,6 +99,11 @@
         "es": "Quiero mandar dinero a mi familia en Abiyán. ¿Cómo lo hago?",
         "fr": "Je veux envoyer de l'argent à ma famille à Abidjan. Comment je fais ?",
         "pron": "KYÉ-ro man-DAR di-NÉ-ro a mi fa-MI-lya én a-bi-YAN KO-mo lo A-go"
+      },
+      "perso": {
+        "es": "Quiero mandar dinero a mi familia en {ciudad}. ¿Cómo lo hago?",
+        "fr": "Je veux envoyer de l'argent à ma famille à {ville}. Comment je fais ?",
+        "pron": "KYÉ-ro man-DAR di-NÉ-ro a mi fa-MI-lya én {ciudad_pron} KO-mo lo A-go"
       }
     },
     {
@@ -129,6 +134,9 @@
       "note": "Le piège classique : des frais bas mais un mauvais taux de change. Fais le calcul de ce qui arrive vraiment à Conakry.",
       "duo": {
         "note": "Le piège classique : des frais bas mais un mauvais taux de change. Fais le calcul de ce qui arrive vraiment à Abidjan."
+      },
+      "perso": {
+        "note": "Le piège classique : des frais bas mais un mauvais taux de change. Fais le calcul de ce qui arrive vraiment à {ville}."
       }
     },
     {
@@ -250,6 +258,10 @@
           "duo": {
             "es": "Lucía, quiero mandar dinero a mi familia en Abiyán. ¿Se puede hacer con Bizum?",
             "fr": "Lucía, je veux envoyer de l'argent à ma famille à Abidjan. On peut le faire avec Bizum ?"
+          },
+          "perso": {
+            "es": "Lucía, quiero mandar dinero a mi familia en {ciudad}. ¿Se puede hacer con Bizum?",
+            "fr": "Lucía, je veux envoyer de l'argent à ma famille à {ville}. On peut le faire avec Bizum ?"
           }
         },
         {

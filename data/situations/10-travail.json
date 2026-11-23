@@ -40,7 +40,13 @@
       "es": "Tengo tres años de experiencia en atención al cliente.",
       "fr": "J'ai trois ans d'expérience dans l'accueil client.",
       "pron": "TÉN-go TRÉSS A-gnoss dé éks-pé-RYÉN-thya én a-tén-THYON al KLYÉN-té",
-      "note": "Adapte à ton métier : en hostelería, en limpieza, en cuidado de mayores. Et soigne le ñ de « años » : sans lui, le mot devient franchement moins présentable."
+      "note": "Adapte à ton métier : en hostelería, en limpieza, en cuidado de mayores. Et soigne le ñ de « años » : sans lui, le mot devient franchement moins présentable.",
+      "perso": {
+        "es": "Soy {oficio} y tengo tres años de experiencia.",
+        "fr": "Je suis {metier_fr} et j'ai trois ans d'expérience.",
+        "pron": "SOÏ {oficio_pron} i TÉN-go TRÉSS A-gnoss dé éks-pé-RYÉN-thya",
+        "note": "Devant un métier, pas d'article : « soy {oficio} », comme « je suis {metier_fr} ». Et soigne le ñ de « años » : sans lui, le mot devient franchement moins présentable."
+      }
     },
     {
       "id": "travail-06",
@@ -183,7 +189,11 @@
         {
           "qui": "Elisabeth",
           "es": "Buenos días. Tengo tres años de experiencia en atención al cliente.",
-          "fr": "Bonjour. J'ai trois ans d'expérience dans l'accueil client."
+          "fr": "Bonjour. J'ai trois ans d'expérience dans l'accueil client.",
+          "perso": {
+            "es": "Buenos días. Soy {oficio} y tengo tres años de experiencia.",
+            "fr": "Bonjour. Je suis {metier_fr} et j'ai trois ans d'expérience."
+          }
         },
         {
           "qui": "Marta",

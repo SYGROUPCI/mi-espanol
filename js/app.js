@@ -7,6 +7,7 @@ import * as V from "./voix.js";
 import * as K from "./compte.js";
 import * as N from "./notifs.js";
 import * as Son from "./son.js";
+import * as P from "./profil.js";
 import { $, $$, e, ico, remplirIcones, toast, modale, confirmer, melanger, auHasard } from "./ui.js";
 
 const app = $("#app");
@@ -30,7 +31,7 @@ const PETITES_PHRASES = [
 // Démarrage
 async function demarrer() {
   try {
-    C.profil(K.compte()?.role, K.compte()?.prenom);
+    C.profil(K.compte()?.role, K.compte()?.prenom, S.get().profil);
     await C.charger();
   } catch (err) {
     app.innerHTML = `<div class="vide"><h1>Oups</h1><p>Je n'arrive pas à charger les leçons. Vérifie ta connexion, puis réessaie.</p>
@@ -122,7 +123,26 @@ async function demarrer() {
 // ---------------------------------------------------------------------------
 // Navigation par l'adresse (#/...)
 function router() {
-  const [route, arg] = location.hash.replace(/^#\/?/, "").split("/");
+  const doux = !matchMedia("(prefers-reduced-motion: reduce)").matches;
+  // L'écran se décide au moment où il est dessiné (et pas au moment du clic) : si deux changements
+  // d'écran se suivent très vite, c'est toujours l'adresse actuelle qui gagne.
+  const rendre = () => {
+    nav.classList.remove("nav-cachee", "nav-clavier");
+    ecranPour(location.hash)();
+    window.scrollTo(0, 0);
+    // Lecteur d'écran : on annonce le titre du nouvel écran (au lieu de relire toute la page).
+    const h = app.querySelector("h1");
+    if (h && $("#modale").hidden) { h.setAttribute("tabindex", "-1"); h.focus({ preventScroll: true }); }
+  };
+  // Transition douce entre deux écrans quand le navigateur sait le faire (Safari 18+, Chrome).
+  if (doux && document.startViewTransition && !app.querySelector(".chargement")) {
+    const t = document.startViewTransition(rendre);
+    for (const pr of [t.ready, t.finished, t.updateCallbackDone]) pr?.catch(() => {});   // transition sautée : rien de grave
+  } else rendre();
+}
+
+function ecranPour(hash) {
+  const [route, arg] = hash.replace(/^#\/?/, "").split("/");
   const ecrans = {
     "": accueil,
     situation: () => ecranSituation(arg),
@@ -136,18 +156,7 @@ function router() {
     reglages: reglages,
     prononciation: guidePrononciation,
   };
-  const rendre = () => {
-    nav.classList.remove("nav-cachee", "nav-clavier");
-    (ecrans[route] || accueil)();
-    window.scrollTo(0, 0);
-    // Lecteur d'écran : on annonce le titre du nouvel écran (au lieu de relire toute la page).
-    const h = app.querySelector("h1");
-    if (h && $("#modale").hidden) { h.setAttribute("tabindex", "-1"); h.focus({ preventScroll: true }); }
-  };
-  // Transition douce entre deux écrans quand le navigateur sait le faire (Safari 18+, Chrome).
-  const doux = !matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if (doux && document.startViewTransition && !app.querySelector(".chargement")) document.startViewTransition(rendre);
-  else rendre();
+  return ecrans[route] || accueil;
 }
 
 function montrerNav(onglet) {
@@ -758,6 +767,21 @@ function reglages() {
         : `<p class="petit">Ce navigateur ne sait pas lire à voix haute.</p>`}
     </section>
     <section class="bloc">
+      <h2>Mon profil</h2>
+      <p class="petit">Facultatif. Les phrases qui parlent de toi (d'où tu viens, ton métier) s'adaptent à tes réponses. Laisse vide si tu préfères les phrases d'origine.</p>
+      <label class="champ">Mon pays d'origine
+        <select data-profil="pays"><option value="">Choisir…</option>
+          ${Object.entries(P.PAYS).map(([k, v]) => `<option value="${k}" ${etat.profil?.pays === k ? "selected" : ""}>${e(v.fr)}</option>`).join("")}
+        </select></label>
+      <label class="champ">Ma ville d'origine
+        <input data-profil="ville" value="${e(P.nettoyerVille(etat.profil?.ville))}" maxlength="40" autocomplete="off" placeholder="Ex. : Conakry, Abidjan"></label>
+      <label class="champ">Mon métier ou mes études
+        <select data-profil="metier"><option value="">Choisir…</option>
+          ${Object.entries(P.METIERS).map(([k, v]) => `<option value="${k}" ${etat.profil?.metier === k ? "selected" : ""}>${e(v[masc() ? "m" : "f"][2].replace(/^./, (c) => c.toUpperCase()))}</option>`).join("")}
+        </select></label>
+      <p class="petit" data-profil-apercu></p>
+    </section>
+    <section class="bloc">
       <label class="champ">Ton prénom<input data-prenom value="${e(etat.prenom)}" maxlength="30"></label>
       <label class="bascule"><input type="checkbox" data-r="pron" ${etat.reglages.pron ? "checked" : ""}><span>Afficher la prononciation à la française</span></label>
       <label class="bascule"><input type="checkbox" data-r="traductionCachee" ${etat.reglages.traductionCachee ? "checked" : ""}><span>Cacher la traduction (je la découvre en touchant)</span></label>
@@ -838,6 +862,29 @@ function reglages() {
     if (document.startViewTransition) document.startViewTransition(changer);
     else changer();
   }));
+  // Mon profil : enregistré tout de suite, et les phrases se réaccordent.
+  const apercu = () => {
+    const t = P.jetons(S.get().profil, masc() ? "m" : "f");
+    const bouts = [];
+    if (t.pais) bouts.push(t.ciudad ? `Soy de ${t.ciudad}, en ${t.pais}.` : `Soy de ${t.pais}.`);
+    else if (t.ciudad) bouts.push(`Soy de ${t.ciudad}.`);
+    if (t.oficio) bouts.push(`Soy ${t.oficio}.`);
+    const el = $("[data-profil-apercu]", app);
+    if (el) el.innerHTML = bouts.length ? `Tu diras par exemple : <span class="es" lang="es">${e(bouts.join(" "))}</span>` : "";
+  };
+  $$("[data-profil]", app).forEach((champ) => {
+    const enregistrer = () => {
+      const k = champ.dataset.profil;
+      const v = k === "ville" ? P.nettoyerVille(champ.value) : champ.value;
+      if (k === "ville" && champ.value !== v) champ.value = v;
+      S.maj((s) => { s.profil = { ...(s.profil || {}), [k]: v }; if (!v) delete s.profil[k]; });
+      C.profil(K.compte()?.role, K.compte()?.prenom, S.get().profil);
+      apercu();
+    };
+    champ.addEventListener("change", enregistrer);
+    if (champ.tagName === "INPUT") champ.addEventListener("blur", enregistrer);
+  });
+  apercu();
   $("[data-exporter]", app).onclick = exporter;
   $("[data-importer]", app).onchange = async (ev) => {
     const f = ev.target.files[0];
@@ -922,7 +969,7 @@ function majNavCompte() {
   const lien = $('a[data-onglet="surprises"]', nav);
   if (lien) lien.hidden = K.compte()?.role === "duo";
   // Les phrases s'accordent à la personne connectée (Elisabeth ou Khalil).
-  C.profil(K.compte()?.role, K.compte()?.prenom);
+  C.profil(K.compte()?.role, K.compte()?.prenom, S.get().profil);
 }
 
 function ecranCompte() {

@@ -20,6 +20,12 @@
         "fr": "Je suis de Côte d'Ivoire, d'Abidjan.",
         "pron": "SOÏ dé KOSS-ta dé mar-FIL dé a-bi-YAN",
         "note": "En espagnol, on écrit Abiyán. Si on te répond que c'est la capitale, corrige gentiment : c'est Yamusukro."
+      },
+      "perso": {
+        "es": "Soy {gentilicio}, de {ciudad}.",
+        "fr": "Je suis {nationalite_fr}, ma ville, c'est {ville}.",
+        "pron": "SOÏ {gentilicio_pron} dé {ciudad_pron}",
+        "note": "Pour la nationalité, « soy » suffit : « soy {gentilicio} ». Pour la ville, on ajoute « de » : « soy de {ciudad} »."
       }
     },
     {
@@ -156,6 +162,11 @@
         "es": "Logroño es una ciudad más pequeña y más tranquila que Abiyán.",
         "fr": "Logroño est une ville plus petite et plus calme qu'Abidjan.",
         "pron": "lo-GRO-gno ÉSS OU-na thyou-DAD MASS pé-KÉ-gna i MASS tran-KI-la ké a-bi-YAN"
+      },
+      "perso": {
+        "es": "Logroño es una ciudad más pequeña y más tranquila que {ciudad}.",
+        "fr": "Comparée à {ville}, Logroño est une ville plus petite et plus calme.",
+        "pron": "lo-GRO-gno ÉSS OU-na thyou-DAD MASS pé-KÉ-gna i MASS tran-KI-la ké {ciudad_pron}"
       }
     },
     {
@@ -168,6 +179,11 @@
         "es": "Mi barrio de Abiyán no es tan tranquilo como este.",
         "fr": "Mon quartier à Abidjan n'est pas aussi calme que celui-ci.",
         "pron": "mi BA-rryo dé a-bi-YAN no ÉSS TAN tran-KI-lo KO-mo ÉSS-té"
+      },
+      "perso": {
+        "es": "Mi barrio de {ciudad} no es tan tranquilo como este.",
+        "fr": "Mon quartier à {ville} n'est pas aussi calme que celui-ci.",
+        "pron": "mi BA-rryo dé {ciudad_pron} no ÉSS TAN tran-KI-lo KO-mo ÉSS-té"
       }
     },
     {
@@ -266,6 +282,10 @@
           "duo": {
             "es": "Soy de Costa de Marfil, de Abiyán.",
             "fr": "Je suis de Côte d'Ivoire, d'Abidjan."
+          },
+          "perso": {
+            "es": "Soy {gentilicio}, de {ciudad}.",
+            "fr": "Je suis {nationalite_fr}, ma ville, c'est {ville}."
           }
         },
         {

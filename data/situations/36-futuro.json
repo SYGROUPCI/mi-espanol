@@ -83,6 +83,12 @@
         "fr": "Si je pouvais, j'irais à Abidjan tous les étés.",
         "pron": "si pou-DYÉ-ra bya-kha-RI-a a a-bi-YAN TO-doss loss bé-RA-noss",
         "rapide": "Si pudiera, viajaría a Abiyán to'os los veranos."
+      },
+      "perso": {
+        "es": "Si pudiera, viajaría a {ciudad} todos los veranos.",
+        "fr": "Si je pouvais, j'irais à {ville} tous les étés.",
+        "pron": "si pou-DYÉ-ra bya-kha-RI-a a {ciudad_pron} TO-doss loss bé-RA-noss",
+        "rapide": "Si pudiera, viajaría a {ciudad} to'os los veranos."
       }
     },
     {
@@ -228,6 +234,10 @@
           "duo": {
             "es": "Yo no dejaría de trabajar, pero trabajaría menos. Y le compraría una casa a mi madre en Abiyán.",
             "fr": "Moi, je n'arrêterais pas de travailler, mais je travaillerais moins. Et j'achèterais une maison à ma mère à Abidjan."
+          },
+          "perso": {
+            "es": "Yo no dejaría de trabajar, pero trabajaría menos. Y le compraría una casa a mi madre en {ciudad}.",
+            "fr": "Moi, je n'arrêterais pas de travailler, mais je travaillerais moins. Et j'achèterais une maison à ma mère à {ville}."
           }
         },
         {

@@ -184,6 +184,7 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
         headers: { "Content-Type": "application/json", ...(code ? { "X-Code-Acces": code } : {}) },
         body: JSON.stringify({
           scene: conv.scene,
+          profil: etat().profil || null,
           messages: conv.messages.map((m) => ({ role: m.role, content: m.content })),
         }),
       });

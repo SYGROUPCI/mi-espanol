@@ -28,6 +28,12 @@
         "fr": "Je viens de Côte d'Ivoire, d'Abidjan.",
         "pron": "SOÏ dé KOSS-ta dé mar-FIL dé a-bi-YAN",
         "note": "En espagnol, la Côte d'Ivoire se dit « Costa de Marfil » et Abidjan s'écrit « Abiyán ». Pour la nationalité : « soy marfileño »."
+      },
+      "perso": {
+        "es": "Soy {gentilicio}, de {ciudad}.",
+        "fr": "Je suis {nationalite_fr}, ma ville, c'est {ville}.",
+        "pron": "SOÏ {gentilicio_pron} dé {ciudad_pron}",
+        "note": "Pour la nationalité, « soy » suffit : « soy {gentilicio} ». Pour la ville, on ajoute « de »."
       }
     },
     {

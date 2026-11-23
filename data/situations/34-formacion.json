@@ -104,7 +104,12 @@
       "es": "Estudié en mi país y quiero seguir formándome aquí.",
       "fr": "J'ai fait des études dans mon pays et je veux continuer à me former ici.",
       "pron": "éss-tou-DYÉ én mi pa-ÏSS i KYÉ-ro sé-GUIR for-MAN-do-mé a-KI",
-      "note": "« Formarse », c'est se former. Pour parler de tes vraies études : « estudié » + la matière (estudié Enfermería, estudié Comercio)."
+      "note": "« Formarse », c'est se former. Pour parler de tes vraies études : « estudié » + la matière (estudié Enfermería, estudié Comercio).",
+      "perso": {
+        "es": "Estudié en {ciudad} y quiero seguir formándome aquí.",
+        "fr": "J'ai fait des études à {ville} et je veux continuer à me former ici.",
+        "pron": "éss-tou-DYÉ én {ciudad_pron} i KYÉ-ro sé-GUIR for-MAN-do-mé a-KI"
+      }
     },
     {
       "id": "formacion-13",

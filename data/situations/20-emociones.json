@@ -353,6 +353,10 @@
         "duo": {
           "es": "Echo de menos a mis amigos de Abiyán.",
           "fr": "Mes amis d'Abidjan me manquent."
+        },
+        "perso": {
+          "es": "Echo de menos a mis amigos de {ciudad}.",
+          "fr": "Mes amis restés à {ville} me manquent."
         }
       },
       {

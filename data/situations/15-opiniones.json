@@ -252,6 +252,10 @@
           "duo": {
             "es": "Me gusta mucho. Es más pequeño que Abiyán y mucho más tranquilo.",
             "fr": "Ça me plaît beaucoup. C'est plus petit qu'Abidjan et beaucoup plus calme."
+          },
+          "perso": {
+            "es": "Me gusta mucho. Es más pequeño que {ciudad} y mucho más tranquilo.",
+            "fr": "Ça me plaît beaucoup. Comparé à {ville}, c'est plus petit et beaucoup plus calme."
           }
         },
         {
