@@ -605,3 +605,15 @@ input:focus, textarea:focus { border-color: var(--violet-vif); }
 .duo-ligne strong { font-family: var(--titre); font-weight: 400; font-size: 1.35rem; color: var(--encre); margin-right: 4px; }
 .duo-ligne b { color: var(--encre); }
 .bienvenue .btn-doux { margin-top: 0; }
+
+.bloc input[type="time"] { width: 100%; border: 1.5px solid var(--trait); border-radius: 12px; padding: 12px 14px; background: var(--papier); color: var(--encre); font-size: 16px; }
+
+/* ---------- Charla à voix haute ---------- */
+.btn-micro { width: 52px; min-width: 52px; padding: 0; background: var(--violet-doux); color: var(--violet); }
+.btn-micro.en-ecoute { background: var(--rouge); color: #fff; animation: pulse-voix 1s ease-in-out infinite; }
+
+/* ---------- Niveaux ---------- */
+.niveau-tete { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin: 18px 0 12px; flex-wrap: wrap; }
+.niveau-tete h3 { font-size: 1.05rem; color: var(--violet); }
+.sellos-fermes .sello { opacity: .5; }
+.sello-ferme .sello-txt span .ico { width: 14px; height: 14px; }

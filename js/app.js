@@ -5,6 +5,7 @@ import * as X from "./exercices.js";
 import { ecranCharla } from "./charla.js";
 import * as V from "./voix.js";
 import * as K from "./compte.js";
+import * as N from "./notifs.js";
 import { $, $$, e, ico, remplirIcones, toast, modale, confirmer, melanger, auHasard } from "./ui.js";
 
 const app = $("#app");
@@ -145,6 +146,11 @@ const aller = (h) => { location.hash = h; };
 // Petits calculs de progression
 const idsSituation = (s) => s.phrases.map((p) => p.id);
 const vues = (s) => idsSituation(s).filter((id) => S.carte(id));
+// Niveaux : l'A2 s'ouvre avec 6 tampons A1.
+const SEUIL_A2 = 6;
+const niveauDe = (s) => s.niveau || "A1";
+const sellosA1 = () => C.toutes().filter((s) => niveauDe(s) === "A1" && vues(s).length === s.phrases.length).length;
+const ouverte = (s) => niveauDe(s) === "A1" || sellosA1() >= SEUIL_A2;
 const nbSituationsFaites = () => C.toutes().filter((s) => vues(s).length === s.phrases.length).length;
 const idsConnus = () => {
   const etat = S.get();
@@ -153,7 +159,7 @@ const idsConnus = () => {
 const dues = () => melanger(idsConnus().filter((id) => S.estDue(id)));
 
 function prochainesNouvelles(n, sitId = null) {
-  const sits = sitId ? [C.situation(sitId)] : C.toutes();
+  const sits = sitId ? [C.situation(sitId)] : C.toutes().filter(ouverte);
   const res = [];
   for (const s of sits) {
     for (const id of idsSituation(s)) {
@@ -200,12 +206,21 @@ const COURT = {
   amis: "Amigos", telephone: "Teléfono", beaute: "Peluquería", culture: "Fiestas",
   bar: "El bar", medecin: "Médico", voisins: "Vecinos", logement: "Mi piso",
   administration: "Trámites", travail: "Trabajo", urgences: "Urgencias", ecole: "El cole",
+  finde: "Mi finde", planes: "Planes", opiniones: "Opiniones", quejas: "Quejas", viaje: "De viaje", cocina: "Cocina",
+  mipais: "Mi país", emociones: "Emociones", bienestar: "Bienestar", paquetes: "Paquetes", reuniones: "Reuniones", fiesta: "Fiesta",
 };
 const nomCourt = (s) => COURT[s.id] || s.titre_es;
 const ROTATIONS = [-8, 5, -3, 7, -6, 4, -2, 6, -7, 3, -4, 8];
 
 // Un tampon de la credencial : pointillé tant que la situation est en cours, encré quand elle est finie.
-function sello(s, k) {
+function sello(s, k, ferme = false) {
+  if (ferme) {
+    return `
+    <div class="sello sello-ferme" aria-label="${e(s.titre)} : niveau A2, pas encore ouvert">
+      <svg class="sello-svg" viewBox="0 0 100 100" aria-hidden="true"><circle class="sello-piste" cx="50" cy="50" r="46" /></svg>
+      <span class="sello-txt"><strong>${e(nomCourt(s))}</strong><span>${ico("cadenas", "ico-inline")}</span></span>
+    </div>`;
+  }
   const v = vues(s).length, n = s.phrases.length;
   const fini = v === n;
   const etat = fini ? "sellado" : v ? "en-curso" : "nuevo";
@@ -296,9 +311,16 @@ function accueil() {
           <h2>Tus sellos</h2>
           <span class="petit">${scelles} sur ${C.toutes().length} tamponnés</span>
         </div>
-        <div class="sellos">
-          ${C.toutes().map((s, k) => sello(s, k)).join("")}
-        </div>
+        ${["A1", "A2"].map((niv) => {
+          const liste = C.toutes().filter((x) => niveauDe(x) === niv);
+          if (!liste.length) return "";
+          const ferme = niv === "A2" && sellosA1() < SEUIL_A2;
+          return `
+          <div class="niveau-tete"><h3>Nivel ${niv}</h3>${ferme ? `<span class="petit">${ico("cadenas", "ico-inline")} S'ouvre avec ${SEUIL_A2} tampons A1 (${sellosA1()}/${SEUIL_A2})</span>` : ""}</div>
+          <div class="sellos ${ferme ? "sellos-fermes" : ""}">
+            ${liste.map((x) => sello(x, C.toutes().indexOf(x), ferme)).join("")}
+          </div>`;
+        }).join("")}
       </section>
     </div>`;
 
@@ -453,6 +475,11 @@ async function finMorceau(d, k, stats) {
 function ecranSituation(id, onglet = "phrases") {
   const s = C.situation(id);
   if (!s) return aller("#/");
+  if (!ouverte(s)) {
+    toast(`Le niveau A2 s'ouvre avec ${SEUIL_A2} tampons A1. Encore ${SEUIL_A2 - sellosA1()} à gagner.`);
+    history.replaceState(null, "", "#/");
+    return accueil();
+  }
   montrerNav("accueil");
   const v = vues(s).length;
   const cachee = S.get().reglages.traductionCachee;
@@ -669,6 +696,18 @@ function reglages() {
            <a class="btn" href="#/compte">Activer Face ID</a>`}
     </section>
     <section class="bloc">
+      <h2>Rappel quotidien</h2>
+      ${!K.connecte()
+        ? `<p class="petit">${N.MESSAGES.non_connecte}</p>`
+        : N.obstacle() && !etat.reglages.rappel?.actif
+          ? `<p class="petit">${N.MESSAGES[N.obstacle()]}</p>`
+          : `<label class="bascule"><input type="checkbox" data-rappel ${etat.reglages.rappel?.actif ? "checked" : ""}><span>Me rappeler mon étape chaque jour</span></label>
+             <label class="champ">À quelle heure ?<input type="time" data-rappel-heure value="${e(etat.reglages.rappel?.heure || "19:00")}"></label>
+             <button class="btn btn-doux" data-rappel-essai ${etat.reglages.rappel?.actif ? "" : "hidden"}>M'envoyer un essai</button>
+             <p class="petit">Pas de rappel les jours où tu as déjà fait ton étape.</p>`}
+      <p class="petit centre" data-rappel-message aria-live="polite"></p>
+    </section>
+    <section class="bloc">
       <h2>La voix</h2>
       ${V.disponible() ? `
       <div class="segment segment-2" role="radiogroup" aria-label="Vitesse de la voix">
@@ -706,6 +745,29 @@ function reglages() {
     if (v) { S.maj((s) => (s.prenom = v)); toast("C'est noté"); }
   };
   $$("[data-r]", app).forEach((c) => (c.onchange = () => S.maj((s) => (s.reglages[c.dataset.r] = c.checked))));
+  const msgRappel = $("[data-rappel-message]", app);
+  $("[data-rappel]", app)?.addEventListener("change", async (ev) => {
+    const caseRappel = ev.currentTarget;
+    msgRappel.textContent = "";
+    if (caseRappel.checked) {
+      const r = await N.activer($("[data-rappel-heure]", app).value || "19:00");
+      if (!r.ok) { caseRappel.checked = false; msgRappel.textContent = N.MESSAGES[r.erreur] || N.MESSAGES.serveur; return; }
+      toast("Rappel activé");
+    } else {
+      await N.desactiver();
+      toast("Rappel désactivé");
+    }
+    $("[data-rappel-essai]", app).hidden = !caseRappel.checked;
+  });
+  $("[data-rappel-heure]", app)?.addEventListener("change", async (ev) => {
+    const r = await N.changerHeure(ev.currentTarget.value || "19:00");
+    msgRappel.textContent = r.ok ? "" : (N.MESSAGES[r.erreur] || N.MESSAGES.serveur);
+    if (r.ok && S.get().reglages.rappel?.actif) toast(`Rappel à ${ev.currentTarget.value}`);
+  });
+  $("[data-rappel-essai]", app)?.addEventListener("click", async () => {
+    const r = await N.essai();
+    msgRappel.textContent = r.ok ? "Envoyé. Il arrive dans quelques secondes." : (N.MESSAGES[r.erreur] || N.MESSAGES.serveur);
+  });
   $("[data-deconnexion]", app)?.addEventListener("click", async () => {
     if (await confirmer("Te déconnecter ?", "Ta progression reste sauvegardée en ligne. Cet appareil repartira de zéro jusqu'à ta prochaine connexion avec Face ID.", "Me déconnecter")) {
       await K.seDeconnecter();

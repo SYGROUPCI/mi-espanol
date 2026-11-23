@@ -1,0 +1,337 @@
+{
+  "id": "quejas",
+  "ordre": 16,
+  "niveau": "A2",
+  "titre": "Se plaindre et réclamer",
+  "titre_es": "Quejarse y reclamar",
+  "intro": "Une cafetière qui rend l'âme au bout de trois jours, un plat qui n'est pas le bon, un serveur introuvable : ici, tu apprends à réclamer poliment mais fermement. Le sourire reste, la patience un peu moins.",
+  "phrases": [
+    {
+      "id": "quejas-01",
+      "es": "Perdone, quería hacer una reclamación.",
+      "fr": "Excusez-moi, je voudrais faire une réclamation.",
+      "pron": "pér-DO-né ké-RI-a a-THÉR OU-na rré-kla-ma-THYON",
+      "note": "« Quería » à l'imparfait adoucit la demande : c'est la façon polie d'entrer dans le sujet sans attaquer.",
+      "rapide": "Perdone, querí'hacer una reclamación."
+    },
+    {
+      "id": "quejas-02",
+      "es": "Compré esta cafetera el sábado y ya no funciona.",
+      "fr": "J'ai acheté cette cafetière samedi et elle ne marche déjà plus.",
+      "pron": "kom-PRÉ ÉSS-ta ka-fé-TÉ-ra él SA-ba-do i YA no foun-THYO-na",
+      "note": "« Compré », au passé simple : une action finie à un moment précis, samedi. Avec « esta mañana » ou « hoy », on dirait plutôt « he comprado »."
+    },
+    {
+      "id": "quejas-03",
+      "es": "Aquí tiene el tíquet de compra.",
+      "fr": "Voici le ticket de caisse.",
+      "pron": "a-KI TYÉ-né él TI-két dé KOM-pra",
+      "note": "Garde toujours le ticket : sans lui, une réclamation devient beaucoup plus compliquée. On entend aussi « el ticket » ou « el recibo »."
+    },
+    {
+      "id": "quejas-04",
+      "es": "Me gustaría cambiarlo por otro, si es posible.",
+      "fr": "J'aimerais l'échanger contre un autre, si c'est possible.",
+      "pron": "mé gouss-ta-RI-a kam-BYAR-lo por O-tro si ÉSS po-SSI-blé",
+      "note": "« Me gustaría » + infinitif, simple et poli. Évite « me gustaría que… », qui appelle le subjonctif : « ¿podría…? » fait le même travail."
+    },
+    {
+      "id": "quejas-05",
+      "es": "¿Podría devolverme el dinero?",
+      "fr": "Vous pourriez me rembourser ?",
+      "pron": "po-DRI-a dé-bol-BÉR-mé él di-NÉ-ro",
+      "note": "« Devolver el dinero », c'est rembourser. Un magasin n'est pas toujours obligé de le faire : regarde ses conditions de retour sur le ticket ou au comptoir."
+    },
+    {
+      "id": "quejas-06",
+      "es": "Esto no es lo que pedí.",
+      "fr": "Ce n'est pas ce que j'ai commandé.",
+      "pron": "ÉSS-to no ÉSS lo ké pé-DI",
+      "note": "La phrase clé d'une erreur de commande, au restaurant comme en ligne. « Pedí » vient de pedir, commander.",
+      "rapide": "Esto no'es lo que pedí."
+    },
+    {
+      "id": "quejas-07",
+      "es": "Pedí la ensalada sin cebolla, pero lleva cebolla.",
+      "fr": "J'ai demandé la salade sans oignon, mais il y a de l'oignon dedans.",
+      "pron": "pé-DI la én-ssa-LA-da sin thé-BO-ya PÉ-ro YÉ-ba thé-BO-ya",
+      "note": "Pour un plat, « llevar » veut dire contenir. Très utile en cas d'allergie : « ¿Lleva frutos secos? »."
+    },
+    {
+      "id": "quejas-08",
+      "es": "Llevamos media hora esperando y nadie nos ha atendido.",
+      "fr": "Ça fait une demi-heure qu'on attend et personne ne s'est occupé de nous.",
+      "pron": "yé-BA-moss MÉ-dya O-ra éss-pé-RAN-do i NA-dyé noss a a-tén-DI-do",
+      "note": "« Llevar » + durée + gérondif, c'est le « ça fait… que » espagnol. Piège : « atender » veut dire servir, pas attendre.",
+      "rapide": "Llevamos media hora esperando y nadie nos'atendido."
+    },
+    {
+      "id": "quejas-09",
+      "es": "Perdona, ¿nos puedes traer la cuenta? Tenemos un poco de prisa.",
+      "fr": "Pardon, tu peux nous apporter l'addition ? On est un peu pressés.",
+      "pron": "pér-DO-na noss POUÉ-déss tra-ÉR la KOUÉN-ta té-NÉ-moss oun PO-ko dé PRI-ssa",
+      "note": "Au bar, on tutoie souvent le serveur. « Tener prisa », c'est être pressé, et ça justifie poliment l'impatience.",
+      "rapide": "Perdona, ¿nos puedes traer la cuenta? Tenemos un poco'e prisa."
+    },
+    {
+      "id": "quejas-10",
+      "es": "El pedido tenía que llegar el lunes y todavía no ha llegado.",
+      "fr": "La commande devait arriver lundi et elle n'est toujours pas arrivée.",
+      "pron": "él pé-DI-do té-NI-a ké yé-GAR él LOU-néss i to-da-BI-a no a yé-GA-do",
+      "note": "« El pedido », c'est la commande. « Todavía no » + passé composé : pas encore, et ça commence à faire long."
+    },
+    {
+      "id": "quejas-11",
+      "es": "Me cobraron dos veces el mismo producto.",
+      "fr": "On m'a fait payer deux fois le même produit.",
+      "pron": "mé ko-BRA-ron DOSS BÉ-théss él MISS-mo pro-DOUK-to",
+      "note": "« Cobrar », c'est faire payer, encaisser. Le « ils » sans sujet de « cobraron » correspond à notre « on »."
+    },
+    {
+      "id": "quejas-12",
+      "es": "La caja venía rota y el móvil tiene la pantalla rayada.",
+      "fr": "Le carton est arrivé abîmé et le portable a l'écran rayé.",
+      "pron": "la KA-kha bé-NI-a RRO-ta i él MO-bil TYÉ-né la pan-TA-ya rra-YA-da",
+      "note": "« Venía rota » : l'imparfait décrit l'état du colis à l'arrivée. Prends des photos avant même de tout déballer."
+    },
+    {
+      "id": "quejas-13",
+      "es": "Mire, entiendo que no es culpa suya, pero necesito una solución.",
+      "fr": "Écoutez, je comprends que ce n'est pas votre faute, mais j'ai besoin d'une solution.",
+      "pron": "MI-ré én-TYÉN-do ké no ÉSS KOUL-pa SOU-ya PÉ-ro né-thé-SSI-to OU-na so-lou-THYON",
+      "note": "Poli mais ferme : on reconnaît que l'employé n'y est pour rien, puis on revient au problème. « Mire » sert à prendre la parole, comme « écoutez ».",
+      "rapide": "Mire, entiendo que no'es culpa suya, pero necesito una solución."
+    },
+    {
+      "id": "quejas-14",
+      "es": "¿Podría hablar con el encargado, por favor?",
+      "fr": "Je pourrais parler au responsable, s'il vous plaît ?",
+      "pron": "po-DRI-a a-BLAR kon él én-kar-GA-do por fa-BOR",
+      "note": "« El encargado » ou « la encargada », c'est le responsable du magasin ou de la salle. Demandé calmement, ça marche mieux."
+    },
+    {
+      "id": "quejas-15",
+      "es": "Quiero la hoja de reclamaciones.",
+      "fr": "Je veux la feuille de réclamation.",
+      "pron": "KYÉ-ro la O-kha dé rré-kla-ma-THYO-néss",
+      "note": "En Espagne, les commerces doivent en principe l'avoir et te la donner si tu la demandes. Ici, « quiero » sans détour passe très bien : c'est un droit, pas une faveur."
+    },
+    {
+      "id": "quejas-16",
+      "es": "Ayer vine a quejarme y me dijeron que me llamarían.",
+      "fr": "Hier, je suis venue me plaindre et on m'a dit qu'on me rappellerait.",
+      "pron": "a-YÉR BI-né a ké-KHAR-mé i mé di-KHÉ-ron ké mé ya-ma-RI-an",
+      "note": "« Vine » (venir) et « dijeron » (decir) sont deux passés simples irréguliers à apprendre par cœur. « Llamarían », c'est le conditionnel."
+    },
+    {
+      "id": "quejas-17",
+      "es": "Voy a escribir una reseña en internet.",
+      "fr": "Je vais écrire un avis sur internet.",
+      "pron": "BOÏ a éss-kri-BIR OU-na rré-SSÉ-gna én in-tér-NÉT",
+      "note": "Futur proche : ir a + infinitif. À garder comme dernier argument, pas comme première menace.",
+      "rapide": "Voy a'scribir una reseña'n internet."
+    },
+    {
+      "id": "quejas-18",
+      "es": "No es la primera vez que me pasa, así que esta vez voy a reclamar.",
+      "fr": "Ce n'est pas la première fois que ça m'arrive, alors cette fois je vais réclamer.",
+      "pron": "no ÉSS la pri-MÉ-ra BÉTH ké mé PA-ssa a-SSI ké ÉSS-ta BÉTH BOÏ a rré-kla-MAR",
+      "note": "« Así que », c'est « donc, alors » : le petit mot qui relie la cause à la décision.",
+      "rapide": "No'es la primera vez que me pasa, así que'sta vez voy a reclamar."
+    },
+    {
+      "id": "quejas-19",
+      "es": "¿Me puede dar un vale para la próxima compra?",
+      "fr": "Vous pouvez me donner un bon d'achat pour la prochaine fois ?",
+      "pron": "mé POUÉ-dé DAR oun BA-lé PA-ra la PROK-ssi-ma KOM-pra",
+      "note": "Un « vale », c'est un bon d'achat. Certains magasins le proposent à la place d'un remboursement : à toi de voir si ça te convient."
+    },
+    {
+      "id": "quejas-20",
+      "es": "Gracias por su ayuda. Al final todo se ha solucionado.",
+      "fr": "Merci pour votre aide. Finalement, tout s'est arrangé.",
+      "pron": "GRA-thyass por sou a-YOU-da al fi-NAL TO-do sé a so-lou-thyo-NA-do",
+      "note": "Toujours finir par un merci. Une réclamation polie laisse un bon souvenir, et un employé plus aimable la prochaine fois."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "La cafetière capricieuse",
+      "contexte": "Ta cafetière toute neuve refuse de chauffer. Tu retournes au magasin avec le ticket et ton plus beau sourire.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "Buenos días. Perdone, quería hacer una reclamación.",
+          "fr": "Bonjour. Excusez-moi, je voudrais faire une réclamation."
+        },
+        {
+          "qui": "Dependienta",
+          "es": "Dígame, ¿qué le pasa?",
+          "fr": "Je vous écoute, quel est le problème ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Compré esta cafetera el sábado y ya no funciona. Aquí tiene el tíquet de compra.",
+          "fr": "J'ai acheté cette cafetière samedi et elle ne marche déjà plus. Voici le ticket de caisse."
+        },
+        {
+          "qui": "Dependienta",
+          "es": "A ver… Sí, está en garantía. Se la podemos cambiar por otra.",
+          "fr": "Voyons… Oui, elle est sous garantie. On peut vous l'échanger contre une autre."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Prefiero otro modelo. ¿Podría devolverme el dinero?",
+          "fr": "Je préfère un autre modèle. Vous pourriez me rembourser ?"
+        },
+        {
+          "qui": "Dependienta",
+          "es": "Lo siento, aquí solo hacemos cambios o damos un vale.",
+          "fr": "Désolée, ici on fait seulement des échanges ou on donne un bon d'achat."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Mire, entiendo que no es culpa suya. Entonces, ¿me puede dar un vale para la próxima compra?",
+          "fr": "Écoutez, je comprends que ce n'est pas votre faute. Alors, vous pouvez me donner un bon d'achat pour la prochaine fois ?"
+        },
+        {
+          "qui": "Dependienta",
+          "es": "Por supuesto. Aquí tiene, y perdone las molestias.",
+          "fr": "Bien sûr. Voilà, et excusez-nous pour le désagrément."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Gracias por su ayuda. Al final todo se ha solucionado.",
+          "fr": "Merci pour votre aide. Finalement, tout s'est arrangé."
+        }
+      ]
+    },
+    {
+      "titre": "Le dîner qui traîne",
+      "contexte": "Khalil et toi, vous attendez vos plats dans un restaurant bondé. Quand ils arrivent enfin, surprise.",
+      "lignes": [
+        {
+          "qui": "Khalil",
+          "es": "Llevamos media hora esperando y nadie nos ha atendido.",
+          "fr": "Ça fait une demi-heure qu'on attend et personne ne s'est occupé de nous."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Paciencia, mira, ya viene el camarero.",
+          "fr": "Patience, regarde, le serveur arrive."
+        },
+        {
+          "qui": "Camarero",
+          "es": "Perdonad la espera, hoy estamos a tope. Aquí tenéis: ensalada y hamburguesa.",
+          "fr": "Désolé pour l'attente, aujourd'hui c'est plein à craquer. Voilà : une salade et un hamburger."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Perdona, esto no es lo que pedí. Pedí la ensalada sin cebolla, pero lleva cebolla.",
+          "fr": "Pardon, ce n'est pas ce que j'ai commandé. J'ai demandé la salade sans oignon, mais il y a de l'oignon dedans."
+        },
+        {
+          "qui": "Camarero",
+          "es": "Uy, tienes razón. Te la cambio ahora mismo.",
+          "fr": "Oups, tu as raison. Je te la change tout de suite."
+        },
+        {
+          "qui": "Khalil",
+          "es": "Y la hamburguesa está fría. ¿Podría hablar con el encargado, por favor?",
+          "fr": "Et le hamburger est froid. Je pourrais parler au responsable, s'il te plaît ?"
+        },
+        {
+          "qui": "Camarero",
+          "es": "El encargado soy yo. Lo siento mucho, os invito a los cafés.",
+          "fr": "Le responsable, c'est moi. Je suis vraiment désolé, les cafés sont pour moi."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Vale, gracias. Así sí.",
+          "fr": "D'accord, merci. Là, c'est mieux."
+        },
+        {
+          "qui": "Khalil",
+          "es": "Bueno… Perdona, ¿nos puedes traer la cuenta? Tenemos un poco de prisa.",
+          "fr": "Bon… Pardon, tu peux nous apporter l'addition ? On est un peu pressés."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Quería, podría et le passé simple",
+    "explication": "Pour réclamer poliment, on adoucit la demande avec l'imparfait « quería » ou le conditionnel « querría », qui veulent dire tous les deux « je voudrais ». Pour demander quelque chose à quelqu'un, « ¿podría…? » (vous pourriez… ?) est plus simple que « me gustaría que… », qui oblige à passer au subjonctif. Pour raconter le problème, on prend le passé simple : compré, pedí, me cobraron. Il s'emploie pour une action terminée à un moment précis : ayer, el sábado, la semana pasada.",
+    "tableau": [
+      [
+        "quería / querría",
+        "je voudrais"
+      ],
+      [
+        "¿podría…?",
+        "vous pourriez… ? / je pourrais… ?"
+      ],
+      [
+        "me gustaría + infinitif",
+        "j'aimerais…"
+      ],
+      [
+        "compré (comprar)",
+        "j'ai acheté"
+      ],
+      [
+        "pedí (pedir)",
+        "j'ai commandé, j'ai demandé"
+      ],
+      [
+        "me dijeron (decir)",
+        "on m'a dit"
+      ]
+    ],
+    "exemples": [
+      {
+        "es": "Quería devolver estos zapatos. Los compré ayer y me quedan pequeños.",
+        "fr": "Je voudrais rendre ces chaussures. Je les ai achetées hier et elles sont trop petites."
+      },
+      {
+        "es": "¿Podría revisar la factura? Creo que hay un error.",
+        "fr": "Vous pourriez vérifier la facture ? Je crois qu'il y a une erreur."
+      },
+      {
+        "es": "El técnico vino el martes, pero no arregló nada.",
+        "fr": "Le technicien est venu mardi, mais il n'a rien réparé."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "¡Esto es una tomadura de pelo!",
+      "fr": "C'est se moquer du monde !",
+      "note": "Quand la situation devient vraiment absurde. À dire avec fermeté, sans crier."
+    },
+    {
+      "es": "Me han timado",
+      "fr": "Je me suis fait arnaquer",
+      "note": "« Un timo », c'est une arnaque. Pour un produit qui ne vaut pas du tout son prix."
+    },
+    {
+      "es": "Estoy hasta las narices",
+      "fr": "J'en ai ras le bol",
+      "note": "Familier mais pas grossier. À réserver aux amis, pas au guichet."
+    },
+    {
+      "es": "Dar largas",
+      "fr": "Faire traîner, balader quelqu'un",
+      "note": "« Me están dando largas » : on te promet un rappel qui n'arrive jamais."
+    },
+    {
+      "es": "Poner el grito en el cielo",
+      "fr": "Pousser les hauts cris",
+      "note": "Pour quelqu'un qui s'indigne très fort. Toi, tu restes calme : c'est plus efficace."
+    },
+    {
+      "es": "Pasarse la pelota",
+      "fr": "Se renvoyer la balle",
+      "note": "Quand le magasin t'envoie vers la marque, et la marque vers le magasin."
+    }
+  ]
+}

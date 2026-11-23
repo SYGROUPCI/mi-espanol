@@ -2,7 +2,7 @@
 // Stratégie « stale-while-revalidate » : on sert tout de suite la version en cache,
 // et on met le cache à jour en arrière-plan. Les nouveautés apparaissent au lancement suivant.
 // Changer VERSION à chaque mise en ligne force le renouvellement complet du cache.
-const VERSION = "mi-espanol-20261122-2257";
+const VERSION = "mi-espanol-20261123-0246";
 
 const FICHIERS = [
   "./",
@@ -19,6 +19,8 @@ const FICHIERS = [
   "js/charla.js",
   "js/voix.js",
   "js/compte.js",
+  "js/notifs.js",
+  "js/vapid.js",
   "data/index.json",
   "data/mots.json",
   "icons/apple-touch-icon.png",
@@ -55,6 +57,36 @@ self.addEventListener("fetch", (e) => {
         })
         .catch(() => enCache);
       return enCache || reseau;
+    })
+  );
+});
+
+// ---------------------------------------------------------------------------
+// Notifications : le rappel quotidien arrive ici, même appli fermée.
+self.addEventListener("push", (e) => {
+  let d = {};
+  try { d = e.data ? e.data.json() : {}; } catch (_) { d = { body: e.data ? e.data.text() : "" }; }
+  e.waitUntil(
+    self.registration.showNotification(d.title || "Mi Español", {
+      body: d.body || "Tu etapa de hoy te espera.",
+      icon: "icons/icon-192.png",
+      badge: "icons/icon-192.png",
+      tag: "rappel-quotidien",
+      data: { url: d.url || "./" },
+    })
+  );
+});
+
+// Toucher la notification ouvre l'appli (ou la ramène au premier plan) au bon endroit.
+self.addEventListener("notificationclick", (e) => {
+  e.notification.close();
+  const cible = new URL(e.notification.data?.url || "./", self.registration.scope).href;
+  e.waitUntil(
+    self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((fenetres) => {
+      for (const f of fenetres) {
+        if ("focus" in f) { f.navigate?.(cible); return f.focus(); }
+      }
+      return self.clients.openWindow(cible);
     })
   );
 });

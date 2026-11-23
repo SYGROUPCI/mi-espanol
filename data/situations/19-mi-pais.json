@@ -1,0 +1,308 @@
+{
+  "id": "mipais",
+  "ordre": 19,
+  "niveau": "A2",
+  "titre": "Parler de mon pays",
+  "titre_es": "Hablar de mi país",
+  "intro": "Raconter d'où tu viens, ce que tu mangeais petite, le climat de Conakry et la vie à Logroño : de quoi tenir une vraie conversation, pas seulement « soy de Guinea ». Khalil a aussi ses phrases, surtout pour défendre l'attiéké.",
+  "phrases": [
+    {
+      "id": "mipais-01",
+      "es": "Soy de Guinea, de Conakri, la capital.",
+      "fr": "Je suis de Guinée, de Conakry, la capitale.",
+      "pron": "SOÏ dé gui-NÉ-a dé ko-na-KRI la ka-pi-TAL",
+      "note": "En espagnol, on écrit Conakri. Si on te répond « ¿Guinea Ecuatorial? », précise « Guinea Conakri » : l'autre Guinée parle espagnol, elle."
+    },
+    {
+      "id": "mipais-02",
+      "es": "Mi novio, Khalil, es de Abiyán, en Costa de Marfil.",
+      "fr": "Mon copain, Khalil, est d'Abidjan, en Côte d'Ivoire.",
+      "pron": "mi NO-byo kha-LIL ÉSS dé a-bi-YAN én KOSS-ta dé mar-FIL",
+      "note": "Abidjan s'écrit Abiyán en espagnol. « Novio » veut dire copain, pas forcément fiancé."
+    },
+    {
+      "id": "mipais-03",
+      "es": "La capital de Costa de Marfil es Yamusukro, pero la ciudad más grande es Abiyán.",
+      "fr": "La capitale de la Côte d'Ivoire, c'est Yamoussoukro, mais la plus grande ville, c'est Abidjan.",
+      "pron": "la ka-pi-TAL dé KOSS-ta dé mar-FIL ÉSS ya-mou-SOU-kro PÉ-ro la thyou-DAD MASS GRAN-dé ÉSS a-bi-YAN",
+      "note": "Le superlatif se fait avec « la más grande » : la plus grande. Pratique pour gagner un quiz de géographie au bar."
+    },
+    {
+      "id": "mipais-04",
+      "es": "En Guinea la lengua oficial es el francés, pero se hablan muchas otras, como el susu, el peul o el malinké.",
+      "fr": "En Guinée, la langue officielle est le français, mais on en parle beaucoup d'autres, comme le soussou, le peul ou le malinké.",
+      "pron": "én gui-NÉ-a la LÉN-goua o-fi-THYAL ÉSS él fran-THÉSS PÉ-ro sé A-blan MOU-tchass O-trass KO-mo él SOU-sou él PÉ-oul o él ma-lin-KÉ",
+      "note": "« Se hablan » : on parle, au pluriel car il y a plusieurs langues. L'orthographe espagnole de ces noms varie un peu, personne ne t'en voudra."
+    },
+    {
+      "id": "mipais-05",
+      "es": "En Costa de Marfil mucha gente habla diula o baulé, además del francés.",
+      "fr": "En Côte d'Ivoire, beaucoup de gens parlent dioula ou baoulé, en plus du français.",
+      "pron": "én KOSS-ta dé mar-FIL MOU-tcha KHÉN-té A-bla DYOU-la o baou-LÉ a-dé-MASS dél fran-THÉSS",
+      "note": "La phrase de Khalil. « Mucha gente » reste au singulier : « mucha gente habla », jamais « hablan »."
+    },
+    {
+      "id": "mipais-06",
+      "es": "Cuando era pequeña, vivía en Conakri con mis abuelos.",
+      "fr": "Quand j'étais petite, je vivais à Conakry avec mes grands-parents.",
+      "pron": "KOUAN-do É-ra pé-KÉ-gna bi-BI-a én ko-na-KRI kon miss a-BOUÉ-loss",
+      "note": "L'imparfait, le temps des souvenirs. Khalil dira « cuando era pequeño ».",
+      "rapide": "Cuand'era pequeña, vivía en Conakri con mis abuelos."
+    },
+    {
+      "id": "mipais-07",
+      "es": "De pequeña iba a la playa con mis primos los domingos.",
+      "fr": "Petite, j'allais à la plage avec mes cousins le dimanche.",
+      "pron": "dé pé-KÉ-gna I-ba a la PLA-ya kon miss PRI-moss loss do-MIN-goss",
+      "note": "« De pequeña » est un raccourci de « cuando era pequeña ». « Iba » vient de ir, un des trois imparfaits irréguliers."
+    },
+    {
+      "id": "mipais-08",
+      "es": "En casa comíamos arroz casi todos los días.",
+      "fr": "À la maison, on mangeait du riz presque tous les jours.",
+      "pron": "én KA-ssa ko-MI-a-moss a-RROTH KA-ssi TO-doss loss DI-ass",
+      "note": "Les Espagnols aussi aiment le riz, mais chez eux il finit souvent en paella le dimanche.",
+      "rapide": "En casa comíamos arroz casi to'os los días."
+    },
+    {
+      "id": "mipais-09",
+      "es": "Mi plato favorito es el arroz con salsa de cacahuete.",
+      "fr": "Mon plat préféré, c'est le riz sauce arachide.",
+      "pron": "mi PLA-to fa-bo-RI-to ÉSS él a-RROTH kon SAL-sa dé ka-ka-OUÉ-té",
+      "note": "En Espagne, l'arachide se dit « cacahuete ». En Amérique latine, c'est « maní »."
+    },
+    {
+      "id": "mipais-10",
+      "es": "Khalil dice que el attiéké es mejor que cualquier paella.",
+      "fr": "Khalil dit que l'attiéké est meilleur que n'importe quelle paella.",
+      "pron": "kha-LIL DI-thé ké él a-tyé-KÉ ÉSS mé-KHOR ké koual-KYÉR pa-É-ya",
+      "note": "À expliquer aux amis : l'attiéké, c'est une semoule de manioc. Et à dire avec un sourire, la paella est un sujet sensible.",
+      "rapide": "Khalil dice qu'el attiéké es mejor que cualquier paella."
+    },
+    {
+      "id": "mipais-11",
+      "es": "En mi país hace más calor que aquí durante todo el año.",
+      "fr": "Dans mon pays, il fait plus chaud qu'ici toute l'année.",
+      "pron": "én mi pa-ISS A-thé MASS ka-LOR ké a-KI dou-RAN-té TO-do él A-gno",
+      "note": "Más + nom ou adjectif + que : la comparaison de base. Pour la météo, on garde « hace »."
+    },
+    {
+      "id": "mipais-12",
+      "es": "En Guinea hay una estación seca y otra de lluvias.",
+      "fr": "En Guinée, il y a une saison sèche et une saison des pluies.",
+      "pron": "én gui-NÉ-a AÏ OU-na éss-ta-THYON SÉ-ka i O-tra dé YOU-byass",
+      "note": "« Estación » veut dire saison, et aussi gare. Le contexte fait le tri."
+    },
+    {
+      "id": "mipais-13",
+      "es": "Logroño es una ciudad más pequeña y más tranquila que Conakri.",
+      "fr": "Logroño est une ville plus petite et plus calme que Conakry.",
+      "pron": "lo-GRO-gno ÉSS OU-na thyou-DAD MASS pé-KÉ-gna i MASS tran-KI-la ké ko-na-KRI",
+      "note": "Les Logroñeses seront d'accord, sauf pendant les fêtes de San Mateo en septembre."
+    },
+    {
+      "id": "mipais-14",
+      "es": "Mi barrio de Conakri no era tan tranquilo como este.",
+      "fr": "Mon quartier à Conakry n'était pas aussi calme que celui-ci.",
+      "pron": "mi BA-rryo dé ko-na-KRI no É-ra TAN tran-KI-lo KO-mo ÉSS-té",
+      "note": "Tan… como, c'est l'égalité : aussi… que. Le « como » remplace le « que » français."
+    },
+    {
+      "id": "mipais-15",
+      "es": "Aquí se cena mucho más tarde que en mi país.",
+      "fr": "Ici, on dîne beaucoup plus tard que dans mon pays.",
+      "pron": "a-KI sé THÉ-na MOU-tcho MASS TAR-dé ké én mi pa-ISS",
+      "note": "« Mucho más » renforce la comparaison. Et c'est vrai : à Logroño, dîner à 21 h 30, c'est normal.",
+      "rapide": "Aquí se cena mucho más tarde qu'en mi país."
+    },
+    {
+      "id": "mipais-16",
+      "es": "Lo que más echo de menos es la comida de mi madre.",
+      "fr": "Ce qui me manque le plus, c'est la cuisine de ma mère.",
+      "pron": "lo ké MASS É-tcho dé MÉ-noss ÉSS la ko-MI-da dé mi MA-dré",
+      "note": "« Echar de menos », c'est « manquer », mais à l'envers : c'est toi le sujet. On le retrouve dans la situation des émotions."
+    },
+    {
+      "id": "mipais-17",
+      "es": "Hablo con mi familia por videollamada casi todos los domingos.",
+      "fr": "Je parle avec ma famille en visio presque tous les dimanches.",
+      "pron": "A-blo kon mi fa-MI-lya por bi-dé-o-ya-MA-da KA-ssi TO-doss loss do-MIN-goss",
+      "note": "« Familia » est au singulier en espagnol, même quand elle compte trente personnes."
+    },
+    {
+      "id": "mipais-18",
+      "es": "¿Conoces a Mory Kanté? Era un cantante guineano muy famoso.",
+      "fr": "Tu connais Mory Kanté ? C'était un chanteur guinéen très célèbre.",
+      "pron": "ko-NO-théss a MO-ri kan-TÉ É-ra oun kan-TAN-té gui-né-A-no MOUÏ fa-MO-sso",
+      "note": "Devant une personne, « conocer a ». Khalil peut, lui, parler d'Alpha Blondy ou du coupé-décalé."
+    },
+    {
+      "id": "mipais-19",
+      "es": "Llegué a España hace unos meses y todavía me sorprende el frío.",
+      "fr": "Je suis arrivée en Espagne il y a quelques mois et le froid me surprend encore.",
+      "pron": "yé-GUÉ a éss-PA-gna A-thé OU-noss MÉ-sséss i to-da-BI-a mé sor-PRÉN-dé él FRI-o",
+      "note": "« Llegué » est un passé simple : une action terminée, à un moment précis. « Hace unos meses », c'est « il y a quelques mois ».",
+      "rapide": "Llegué a España hace unos meses y toavía me sorprende el frío."
+    },
+    {
+      "id": "mipais-20",
+      "es": "El verano que viene voy a volver a Guinea para ver a mi familia.",
+      "fr": "L'été prochain, je vais retourner en Guinée pour voir ma famille.",
+      "pron": "él bé-RA-no ké BYÉ-né BOÏ a bol-BÉR a gui-NÉ-a PA-ra BÉR a mi fa-MI-lya",
+      "note": "Ir a + infinitif, le futur proche, comme en français. « Que viene » veut dire prochain : la semana que viene, el año que viene.",
+      "rapide": "El verano que viene voy a volver a Guinea pa' ver a mi familia."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Une collègue curieuse",
+      "contexte": "Pendant la pause café, Lucía, ta collègue, te pose enfin la question qu'elle n'osait pas poser.",
+      "lignes": [
+        {
+          "qui": "Lucía",
+          "es": "Oye, Elisabeth, ¿de dónde eres? Nunca te lo he preguntado.",
+          "fr": "Dis, Elisabeth, tu viens d'où ? Je ne te l'ai jamais demandé."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Soy de Guinea, de Conakri, la capital.",
+          "fr": "Je suis de Guinée, de Conakry, la capitale."
+        },
+        {
+          "qui": "Lucía",
+          "es": "¡Qué interesante! ¿Y qué idioma se habla allí?",
+          "fr": "Comme c'est intéressant ! Et quelle langue on parle là-bas ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "En Guinea la lengua oficial es el francés, pero se hablan muchas otras, como el susu, el peul o el malinké.",
+          "fr": "En Guinée, la langue officielle est le français, mais on en parle beaucoup d'autres, comme le soussou, le peul ou le malinké."
+        },
+        {
+          "qui": "Lucía",
+          "es": "¡Qué cantidad de lenguas! ¿Y qué es lo que más echas de menos?",
+          "fr": "Ça en fait, des langues ! Et qu'est-ce qui te manque le plus ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Lo que más echo de menos es la comida de mi madre. En casa comíamos arroz casi todos los días.",
+          "fr": "Ce qui me manque le plus, c'est la cuisine de ma mère. À la maison, on mangeait du riz presque tous les jours."
+        },
+        {
+          "qui": "Lucía",
+          "es": "¿Y el tiempo? Aquí en invierno hace un frío que pela.",
+          "fr": "Et le temps ? Ici, en hiver, il fait un froid de canard."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Ni me lo digas. En mi país hace más calor que aquí durante todo el año. Llegué a España hace unos meses y todavía me sorprende el frío.",
+          "fr": "M'en parle pas. Dans mon pays, il fait plus chaud qu'ici toute l'année. Je suis arrivée en Espagne il y a quelques mois et le froid me surprend encore."
+        }
+      ]
+    },
+    {
+      "titre": "Attiéké contre paella",
+      "contexte": "Vous dînez chez Marta et Dani. Dani pose une question de géographie à Khalil, et la conversation glisse vers la cuisine.",
+      "lignes": [
+        {
+          "qui": "Dani",
+          "es": "Khalil, tú eres de Costa de Marfil, ¿no? ¿La capital es Abiyán?",
+          "fr": "Khalil, toi, tu es de Côte d'Ivoire, non ? La capitale, c'est Abidjan ?"
+        },
+        {
+          "qui": "Khalil",
+          "es": "Mucha gente lo piensa, pero la capital de Costa de Marfil es Yamusukro. Abiyán es la ciudad más grande.",
+          "fr": "Beaucoup de gens le pensent, mais la capitale de la Côte d'Ivoire, c'est Yamoussoukro. Abidjan, c'est la plus grande ville."
+        },
+        {
+          "qui": "Marta",
+          "es": "¿Y qué coméis allí?",
+          "fr": "Et qu'est-ce que vous mangez là-bas ?"
+        },
+        {
+          "qui": "Khalil",
+          "es": "Mucho attiéké, que es una sémola de mandioca, y foutou, que se hace con plátano o ñame. Para mí, el attiéké es mejor que cualquier paella.",
+          "fr": "Beaucoup d'attiéké, une semoule de manioc, et du foutou, qu'on fait avec de la banane plantain ou de l'igname. Pour moi, l'attiéké est meilleur que n'importe quelle paella."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "No le hagas caso, siempre dice lo mismo.",
+          "fr": "Ne l'écoute pas, il dit toujours la même chose."
+        },
+        {
+          "qui": "Dani",
+          "es": "¡Oye, que la paella es sagrada! Bueno, a ver cuándo nos invitáis a probarlo.",
+          "fr": "Hé, la paella, c'est sacré ! Bon, on attend que vous nous invitiez à goûter."
+        },
+        {
+          "qui": "Khalil",
+          "es": "Hecho. El sábado que viene voy a cocinar para todos.",
+          "fr": "Marché conclu. Samedi prochain, je cuisine pour tout le monde."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Y yo voy a hacer arroz con salsa de cacahuete, mi plato favorito.",
+          "fr": "Et moi, je vais faire du riz sauce arachide, mon plat préféré."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Comparer et raconter son enfance",
+    "explication": "Pour comparer, on met más ou menos devant l'adjectif et que derrière : « más grande que ». Pour l'égalité, c'est tan… como. Pour la qualité, on dit plutôt mejor (meilleur) et peor (pire) que « más bueno ». Pour raconter l'enfance, on prend l'imparfait : -aba pour les verbes en -ar (jugaba), -ía pour les verbes en -er et -ir (comía, vivía). Seuls trois verbes font exception : ser (era), ir (iba) et ver (veía).",
+    "tableau": [
+      ["más … que", "plus … que"],
+      ["menos … que", "moins … que"],
+      ["tan … como", "aussi … que"],
+      ["mejor / peor que", "meilleur / pire que"],
+      ["jugaba, comía, vivía", "je jouais, je mangeais, je vivais"],
+      ["era, iba, veía", "j'étais, j'allais, je voyais"]
+    ],
+    "exemples": [
+      {
+        "es": "El invierno aquí es más frío que en Conakri.",
+        "fr": "L'hiver ici est plus froid qu'à Conakry."
+      },
+      {
+        "es": "Mi hermana no es tan alta como yo.",
+        "fr": "Ma sœur n'est pas aussi grande que moi."
+      },
+      {
+        "es": "Cuando era pequeña, jugaba en la calle con mis vecinos.",
+        "fr": "Quand j'étais petite, je jouais dans la rue avec mes voisins."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Hace un frío que pela",
+      "fr": "Il fait un froid de canard",
+      "note": "La phrase préférée des Riojanos de novembre à mars, quand souffle le cierzo."
+    },
+    {
+      "es": "Ni me lo digas",
+      "fr": "M'en parle pas",
+      "note": "Pour dire que tu es tout à fait d'accord, surtout quand on se plaint ensemble."
+    },
+    {
+      "es": "Tener morriña",
+      "fr": "Avoir le mal du pays",
+      "note": "Le mot vient de Galice, mais toute l'Espagne l'utilise. Plus doux que « nostalgia »."
+    },
+    {
+      "es": "Sentirse como en casa",
+      "fr": "Se sentir comme chez soi",
+      "note": "« Aquí ya me siento como en casa » : la phrase qui fait plaisir à tes amis espagnols."
+    },
+    {
+      "es": "No hay color",
+      "fr": "Il n'y a pas photo",
+      "note": "Pour une comparaison sans débat. Khalil l'utilise pour l'attiéké, évidemment."
+    },
+    {
+      "es": "Estar en su salsa",
+      "fr": "Être dans son élément",
+      "note": "« En la cocina, Khalil está en su salsa. » La sauce, encore elle."
+    }
+  ]
+}

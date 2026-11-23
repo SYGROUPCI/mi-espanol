@@ -1,0 +1,323 @@
+{
+  "id": "paquetes",
+  "ordre": 22,
+  "niveau": "A2",
+  "titre": "Achats en ligne et colis",
+  "titre_es": "Compras online y paquetes",
+  "intro": "Commander, suivre un colis, attendre le livreur toute la matinée puis le rater pendant les deux minutes où tu descends les poubelles : voici de quoi gérer tes achats en ligne de bout en bout, retours compris.",
+  "phrases": [
+    {
+      "id": "paquetes-01",
+      "es": "He comprado unas zapatillas por internet y todavía no han llegado.",
+      "fr": "J'ai acheté des baskets en ligne et elles ne sont toujours pas arrivées.",
+      "pron": "é kom-PRA-do OU-nass tha-pa-TI-yass por in-tér-NÉT i to-da-BI-a no ann yé-GA-do",
+      "note": "Le passé composé pour un achat récent, dont l'effet dure encore : les baskets ne sont toujours pas là.",
+      "rapide": "He comprao unas zapatillas por internet y todavía no han llegao."
+    },
+    {
+      "id": "paquetes-02",
+      "es": "Hice el pedido hace una semana y no tengo noticias.",
+      "fr": "J'ai passé la commande il y a une semaine et je n'ai pas de nouvelles.",
+      "pron": "I-thé él pé-DI-do A-thé OU-na sé-MA-na i no TÉN-go no-TI-thyass",
+      "note": "« Hacer un pedido », c'est passer commande. Avec « hace una semana », moment précis et terminé, on prend le passé simple : « hice »."
+    },
+    {
+      "id": "paquetes-03",
+      "es": "Aquí tengo el número de seguimiento del paquete.",
+      "fr": "J'ai ici le numéro de suivi du colis.",
+      "pron": "a-KI TÉN-go él NOU-mé-ro dé sé-gui-MYÉN-to dél pa-KÉ-té",
+      "note": "Garde-le sous la main : c'est la première chose qu'on te demandera au service client."
+    },
+    {
+      "id": "paquetes-04",
+      "es": "Según la web, el paquete va a llegar mañana entre las nueve y las dos.",
+      "fr": "D'après le site, le colis va arriver demain entre neuf heures et deux heures.",
+      "pron": "sé-GOUN la OUÉB él pa-KÉ-té BA a yé-GAR ma-GNA-na ÉN-tré lass NOUÉ-bé i lass DOSS",
+      "note": "Le futur proche : « ir a » + infinitif. Le créneau de cinq heures, en revanche, n'est pas une invention.",
+      "rapide": "Según la web, el paquete va'a llegar mañana entre las nueve y las dos."
+    },
+    {
+      "id": "paquetes-05",
+      "es": "Hola, soy el repartidor. Traigo un paquete para el tercero B.",
+      "fr": "Bonjour, c'est le livreur. J'ai un colis pour le troisième B.",
+      "pron": "O-la SOÏ él rré-par-ti-DOR TRAÏ-go oun pa-KÉ-té PA-ra él tér-THÉ-ro BÉ",
+      "note": "Ce que tu entendras à l'interphone. En Espagne, l'adresse donne l'étage et la porte : « tercero B », troisième étage, porte B.",
+      "rapide": "Hola, soy el repartidor. Traigo un paquete pa'l tercero B."
+    },
+    {
+      "id": "paquetes-06",
+      "es": "¿Me lo puede dejar en el buzón o con el portero?",
+      "fr": "Vous pouvez me le laisser dans la boîte aux lettres ou au gardien ?",
+      "pron": "mé lo POUÉ-dé dé-KHAR én él bou-THON o kon él por-TÉ-ro",
+      "note": "« Me lo » : me (à moi) puis lo (le colis). La personne passe toujours avant la chose.",
+      "rapide": "¿Me lo pue' dejar en el buzón o con el portero?"
+    },
+    {
+      "id": "paquetes-07",
+      "es": "Ayer no estaba en casa y me dejaron un aviso en el buzón.",
+      "fr": "Hier, je n'étais pas là et on m'a laissé un avis de passage dans la boîte aux lettres.",
+      "pron": "a-YÉR no éss-TA-ba én KA-ssa i mé dé-KHA-ronn oun a-BI-sso én él bou-THON",
+      "note": "L'imparfait « estaba » plante le décor, le passé simple « dejaron » raconte ce qui s'est passé. Comme en français, finalement."
+    },
+    {
+      "id": "paquetes-08",
+      "es": "¿Puedo recogerlo en un punto de recogida cerca de casa?",
+      "fr": "Je peux le récupérer dans un point relais près de chez moi ?",
+      "pron": "POUÉ-do rré-ko-KHÉR-lo én oun POUN-to dé rré-ko-KHI-da THÉR-ka dé KA-ssa",
+      "note": "Le point relais est souvent un bureau de tabac, une petite boutique ou une consigne automatique. Avec l'infinitif, le pronom se colle à la fin : « recogerlo »."
+    },
+    {
+      "id": "paquetes-09",
+      "es": "Vengo a recoger un paquete. Aquí tiene el aviso y mi NIE.",
+      "fr": "Je viens récupérer un colis. Voici l'avis de passage et mon NIE.",
+      "pron": "BÉN-go a rré-ko-KHÉR oun pa-KÉ-té a-KI TYÉ-né él a-BI-sso i mi NI-é",
+      "note": "En général, on te demande une pièce d'identité au guichet. Si quelqu'un y va à ta place, renseigne-toi sur l'autorisation à fournir."
+    },
+    {
+      "id": "paquetes-10",
+      "es": "La caja ha llegado rota y el móvil no se enciende.",
+      "fr": "Le carton est arrivé abîmé et le téléphone ne s'allume pas.",
+      "pron": "la KA-kha a yé-GA-do RRO-ta i él MO-bil no sé én-THYÉN-dé",
+      "note": "Prends des photos du carton avant de tout jeter : elles servent de preuve pour la réclamation.",
+      "rapide": "La caja'a llegao rota y el móvil no s'enciende."
+    },
+    {
+      "id": "paquetes-11",
+      "es": "Quiero devolver este jersey porque me queda pequeño.",
+      "fr": "Je voudrais renvoyer ce pull parce qu'il est trop petit pour moi.",
+      "pron": "KYÉ-ro dé-bol-BÉR ÉSS-té khér-SSÉÏ POR-ké mé KÉ-da pé-KÉ-gno",
+      "note": "« Devolver », c'est renvoyer un article, mais aussi rembourser. Pour un vêtement, « me queda pequeño » ou « me queda grande »."
+    },
+    {
+      "id": "paquetes-12",
+      "es": "¿Cómo lo devuelvo? ¿Tengo que pagar el envío?",
+      "fr": "Comment je le renvoie ? Je dois payer les frais de retour ?",
+      "pron": "KO-mo lo dé-BOUÉL-bo TÉN-go ké pa-GAR él én-BI-o",
+      "note": "Les conditions de retour changent d'une boutique à l'autre. Lis-les avant de commander, pas après."
+    },
+    {
+      "id": "paquetes-13",
+      "es": "Ya se lo he enviado: aquí tiene el justificante.",
+      "fr": "Je vous l'ai déjà renvoyé : voici le justificatif.",
+      "pron": "YA sé lo é én-BYA-do a-KI TYÉ-né él khouss-ti-fi-KAN-té",
+      "note": "Le petit piège du jour : « le lo » ne se dit jamais, il devient « se lo »."
+    },
+    {
+      "id": "paquetes-14",
+      "es": "Me han cobrado dos veces el mismo pedido.",
+      "fr": "On m'a débité deux fois la même commande.",
+      "pron": "mé ann ko-BRA-do DOSS BÉ-théss él MISS-mo pé-DI-do",
+      "note": "« Cobrar », c'est encaisser, faire payer. Garde le relevé de ta banque pour le montrer.",
+      "rapide": "M'han cobrao dos veces el mismo pedido."
+    },
+    {
+      "id": "paquetes-15",
+      "es": "He intentado pagar con tarjeta, pero el pago no ha funcionado.",
+      "fr": "J'ai essayé de payer par carte, mais le paiement n'est pas passé.",
+      "pron": "é in-tén-TA-do pa-GAR kon tar-KHÉ-ta PÉ-ro él PA-go no a foun-thyo-NA-do",
+      "note": "Avant de réessayer trois fois, vérifie ton compte : le premier paiement est parfois passé quand même."
+    },
+    {
+      "id": "paquetes-16",
+      "es": "¿Cuándo me van a devolver el dinero?",
+      "fr": "Quand est-ce qu'on va me rembourser ?",
+      "pron": "KOUAN-do mé BAN a dé-bol-BÉR él di-NÉ-ro",
+      "note": "Mot à mot : quand va-t-on me rendre l'argent. La question qu'on pose avec le sourire, mais en insistant."
+    },
+    {
+      "id": "paquetes-17",
+      "es": "Te lo regalo: me equivoqué de talla y ya no puedo devolverlo.",
+      "fr": "Je te l'offre : je me suis trompée de taille et je ne peux plus le renvoyer.",
+      "pron": "té lo rré-GA-lo mé é-ki-bo-KÉ dé TA-ya i YA no POUÉ-do dé-bol-BÉR-lo",
+      "note": "« Te lo » : je te le. Une erreur de taille transformée en cadeau, c'est de la diplomatie."
+    },
+    {
+      "id": "paquetes-18",
+      "es": "Khalil, ha llegado tu paquete. ¿Te lo dejo encima de la mesa?",
+      "fr": "Khalil, ton colis est arrivé. Je te le pose sur la table ?",
+      "pron": "ka-LIL a yé-GA-do tou pa-KÉ-té té lo DÉ-kho én-THI-ma dé la MÉ-ssa",
+      "note": "En espagnol, on met souvent le sujet après le verbe : « ha llegado tu paquete » sonne plus naturel que « tu paquete ha llegado »."
+    },
+    {
+      "id": "paquetes-19",
+      "es": "Antes de comprar, siempre miro las opiniones de otros clientes.",
+      "fr": "Avant d'acheter, je regarde toujours les avis des autres clients.",
+      "pron": "AN-téss dé kom-PRAR SYÉM-pré MI-ro lass o-pi-NYO-néss dé O-tross kli-ÉN-téss",
+      "note": "Une boutique inconnue qui ne propose qu'un virement comme paiement ? Méfiance."
+    },
+    {
+      "id": "paquetes-20",
+      "es": "Voy a comprarlo por internet: me lo traen a casa en dos días.",
+      "fr": "Je vais l'acheter en ligne : on me l'apporte à la maison en deux jours.",
+      "pron": "BOÏ a kom-PRAR-lo por in-tér-NÉT mé lo TRA-én a KA-ssa én DOSS DI-ass",
+      "note": "« Me lo traen » : la troisième personne du pluriel sert à dire « on », quand on ne sait pas qui fait l'action."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Le livreur sonne",
+      "contexte": "Tu attends ton colis depuis ce matin. L'interphone sonne enfin.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "¿Sí? ¿Quién es?",
+          "fr": "Oui ? Qui est-ce ?"
+        },
+        {
+          "qui": "Repartidor",
+          "es": "Hola, soy el repartidor. Traigo un paquete para el tercero B.",
+          "fr": "Bonjour, c'est le livreur. J'ai un colis pour le troisième B."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Por fin! Te abro.",
+          "fr": "Enfin ! Je vous ouvre."
+        },
+        {
+          "qui": "Repartidor",
+          "es": "Aquí tienes. ¿Me firmas aquí, por favor?",
+          "fr": "Voilà. Vous pouvez signer ici, s'il vous plaît ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Claro. Oye, ¿tienes también algo para el tercero A? Mi vecina no está.",
+          "fr": "Bien sûr. Dites, vous avez aussi quelque chose pour le troisième A ? Ma voisine n'est pas là."
+        },
+        {
+          "qui": "Repartidor",
+          "es": "Sí, pero no se lo puedo dar sin su autorización. Le dejo un aviso en el buzón.",
+          "fr": "Oui, mais je ne peux pas vous le donner sans son autorisation. Je lui laisse un avis de passage dans la boîte aux lettres."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Vale. Esta tarde se lo digo.",
+          "fr": "D'accord. Je le lui dis cet après-midi."
+        },
+        {
+          "qui": "Repartidor",
+          "es": "Perfecto. ¡Que tengas buen día!",
+          "fr": "Parfait. Bonne journée !"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Igualmente, gracias!",
+          "fr": "Vous aussi, merci !"
+        }
+      ]
+    },
+    {
+      "titre": "Une commande qui coince",
+      "contexte": "Ton colis est arrivé abîmé et ta banque montre deux paiements. Tu appelles le service client de la boutique.",
+      "lignes": [
+        {
+          "qui": "Marta",
+          "es": "Atención al cliente, le atiende Marta. ¿En qué puedo ayudarle?",
+          "fr": "Service client, Marta à l'appareil. Que puis-je faire pour vous ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Hola, buenos días. Hice el pedido hace una semana y la caja ha llegado rota.",
+          "fr": "Bonjour. J'ai passé la commande il y a une semaine et le carton est arrivé abîmé."
+        },
+        {
+          "qui": "Marta",
+          "es": "Vaya, lo siento mucho. ¿Me da el número de pedido, por favor?",
+          "fr": "Oh, je suis vraiment désolée. Vous pouvez me donner le numéro de commande, s'il vous plaît ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí: cuatro, cinco, ocho, dos, siete. Y además, me han cobrado dos veces el mismo pedido.",
+          "fr": "Oui : quatre, cinq, huit, deux, sept. Et en plus, on m'a débité deux fois la même commande."
+        },
+        {
+          "qui": "Marta",
+          "es": "Déjeme ver… Tiene razón, hay dos cargos. Anulo uno ahora mismo.",
+          "fr": "Laissez-moi regarder… Vous avez raison, il y a deux prélèvements. J'en annule un tout de suite."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Cuándo me van a devolver el dinero?",
+          "fr": "Quand est-ce qu'on va me rembourser ?"
+        },
+        {
+          "qui": "Marta",
+          "es": "Depende de su banco, normalmente unos días. ¿Y quiere devolver el producto?",
+          "fr": "Ça dépend de votre banque, en général quelques jours. Et vous voulez renvoyer l'article ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí. ¿Cómo lo devuelvo? ¿Tengo que pagar el envío?",
+          "fr": "Oui. Comment je le renvoie ? Je dois payer les frais de retour ?"
+        },
+        {
+          "qui": "Marta",
+          "es": "No, en este caso no. Le mando la etiqueta por correo electrónico.",
+          "fr": "Non, pas dans ce cas. Je vous envoie l'étiquette par e-mail."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Perfecto. Muchas gracias, Marta.",
+          "fr": "Parfait. Merci beaucoup, Marta."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Lo, la, le, se lo : je le renvoie, je te l'envoie",
+    "explication": "Pour ne pas répéter la chose, on utilise lo, la, los, las : « lo devuelvo », je le renvoie. Pour la personne à qui on donne, c'est me, te, le, nos, os, les. Quand les deux se suivent, la personne passe d'abord : « te lo envío », je te l'envoie. Petit piège : le ou les devant lo devient se, donc « se lo mando », je le lui envoie ou je vous l'envoie. Avec un infinitif, le pronom peut aussi se coller à la fin : « voy a devolverlo ».",
+    "tableau": [
+      ["Lo devuelvo.", "Je le renvoie."],
+      ["La recojo mañana.", "Je la récupère demain."],
+      ["Te lo envío.", "Je te l'envoie."],
+      ["Me lo traen a casa.", "On me l'apporte à la maison."],
+      ["Se lo mando.", "Je le lui envoie. / Je vous l'envoie."],
+      ["Voy a devolverlo.", "Je vais le renvoyer."]
+    ],
+    "exemples": [
+      {
+        "es": "¿El paquete de Khalil? Se lo he dejado en su habitación.",
+        "fr": "Le colis de Khalil ? Je le lui ai laissé dans sa chambre."
+      },
+      {
+        "es": "Las zapatillas no me quedan bien: las devuelvo mañana.",
+        "fr": "Les baskets ne me vont pas : je les renvoie demain."
+      },
+      {
+        "es": "Si quieres el libro, te lo presto.",
+        "fr": "Si tu veux le livre, je te le prête."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Está al caer",
+      "fr": "Il arrive d'une minute à l'autre",
+      "note": "Pour un colis, une personne ou une nouvelle. « El repartidor está al caer » : ne descends surtout pas les poubelles maintenant."
+    },
+    {
+      "es": "Del paquete, ni rastro",
+      "fr": "Le colis ? Aucune trace",
+      "note": "« Ni rastro de… » marche pour tout ce qui a disparu : les clés, le livreur, l'été."
+    },
+    {
+      "es": "¡Vaya timo!",
+      "fr": "Quelle arnaque !",
+      "note": "Pour un article qui ne ressemble pas du tout à la photo. « Un timo », c'est une arnaque."
+    },
+    {
+      "es": "Me ha salido rana",
+      "fr": "Ça a été une vraie déception",
+      "note": "Littéralement « c'est sorti grenouille ». Pour un achat, un plan ou une personne qui ne tient pas ses promesses."
+    },
+    {
+      "es": "He picado",
+      "fr": "Je me suis fait avoir",
+      "note": "Comme le poisson qui mord à l'hameçon. Aussi pour dire qu'on a craqué devant une promo."
+    },
+    {
+      "es": "Me han tomado el pelo",
+      "fr": "On s'est payé ma tête",
+      "note": "Quand on t'a menti ou arnaquée. Entre amis, « me estás tomando el pelo » veut juste dire « tu te moques de moi »."
+    }
+  ]
+}

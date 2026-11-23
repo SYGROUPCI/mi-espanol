@@ -1,0 +1,329 @@
+{
+  "id": "opiniones",
+  "ordre": 15,
+  "niveau": "A2",
+  "titre": "Donner son avis",
+  "titre_es": "Dar tu opinión",
+  "intro": "Un film, un plat, une ville : en Espagne, tout le monde a un avis et le donne volontiers. Voici de quoi dire le tien, être d'accord, ne pas l'être, et nuancer sans fâcher personne.",
+  "phrases": [
+    {
+      "id": "opiniones-01",
+      "es": "Creo que tienes razón.",
+      "fr": "Je crois que tu as raison.",
+      "pron": "KRÉ-o ké TYÉ-néss rra-THON",
+      "note": "« Tener razón », c'est avoir raison. Avec « creo que », ton avis reste doux et poli."
+    },
+    {
+      "id": "opiniones-02",
+      "es": "Para mí, es la mejor película del año.",
+      "fr": "Pour moi, c'est le meilleur film de l'année.",
+      "pron": "pa-ra MI ÉSS la mé-KHOR pé-LI-kou-la dél A-gno",
+      "note": "« Mejor » ne prend pas « más » : c'est déjà un comparatif, comme « meilleur ».",
+      "rapide": "Pa' mí, es la mejor película del año."
+    },
+    {
+      "id": "opiniones-03",
+      "es": "Me parece que el final es un poco flojo.",
+      "fr": "Je trouve que la fin est un peu faible.",
+      "pron": "mé pa-RÉ-thé ké él fi-NAL ÉSS oun PO-ko FLO-kho",
+      "note": "« Me parece que » est l'équivalent de « je trouve que ». « Flojo » se dit d'un film, d'un examen ou d'un café trop léger."
+    },
+    {
+      "id": "opiniones-04",
+      "es": "Estoy de acuerdo contigo.",
+      "fr": "Je suis d'accord avec toi.",
+      "pron": "éss-TOÏ dé a-KOUÉR-do kon-TI-go",
+      "note": "Attention : « con » + « ti » devient « contigo », et « con » + « mí » devient « conmigo ».",
+      "rapide": "'Toy de acuerdo contigo."
+    },
+    {
+      "id": "opiniones-05",
+      "es": "No estoy de acuerdo, pero respeto tu opinión.",
+      "fr": "Je ne suis pas d'accord, mais je respecte ton avis.",
+      "pron": "no éss-TOÏ dé a-KOUÉR-do PÉ-ro rréss-PÉ-to tou o-pi-NYON",
+      "note": "Le « pero » adoucit le désaccord. Utile en famille, au travail et devant un match de foot."
+    },
+    {
+      "id": "opiniones-06",
+      "es": "Bueno, depende. En parte sí, pero no del todo.",
+      "fr": "Bon, ça dépend. En partie oui, mais pas complètement.",
+      "pron": "BOUÉ-no dé-PÉN-dé én PAR-té SI PÉ-ro no dél TO-do",
+      "note": "Pour nuancer sans dire franchement non. « No del todo », c'est « pas tout à fait »."
+    },
+    {
+      "id": "opiniones-07",
+      "es": "¿Tú qué opinas?",
+      "fr": "Et toi, tu en penses quoi ?",
+      "pron": "TOU ké o-PI-nass",
+      "note": "Pour laisser la parole à l'autre. On entend aussi « ¿Y a ti qué te parece? »."
+    },
+    {
+      "id": "opiniones-08",
+      "es": "¿Qué te ha parecido la película?",
+      "fr": "Tu as trouvé le film comment ?",
+      "pron": "ké té a pa-ré-THI-do la pé-LI-kou-la",
+      "note": "On vient de sortir du cinéma, donc passé composé. Pour un film vu la semaine dernière : « ¿Qué te pareció? ».",
+      "rapide": "¿Qué t'ha parecido la película?"
+    },
+    {
+      "id": "opiniones-09",
+      "es": "Me ha gustado mucho, aunque es un poco larga.",
+      "fr": "Ça m'a beaucoup plu, même s'il est un peu long.",
+      "pron": "mé a gouss-TA-do MOU-tcho AOUN-ké ÉSS oun PO-ko LAR-ga",
+      "note": "« Aunque », c'est « même si » ou « bien que ». « Larga » est au féminin parce que « película » l'est."
+    },
+    {
+      "id": "opiniones-10",
+      "es": "La tortilla de Marta está más rica que la del bar.",
+      "fr": "L'omelette de Marta est meilleure que celle du bar.",
+      "pron": "la tor-TI-ya dé MAR-ta éss-TA MASS RRI-ka ké la dél BAR",
+      "note": "« Más… que » pour comparer. Pour un plat, on dit « está rico » : c'est bon. Et attention, la tortilla avec ou sans oignon est un vrai débat national."
+    },
+    {
+      "id": "opiniones-11",
+      "es": "Logroño es más tranquilo que Madrid.",
+      "fr": "Logroño est plus calme que Madrid.",
+      "pron": "lo-GRO-gno ÉSS MASS tran-KI-lo ké ma-DRID",
+      "note": "On compare deux villes avec « ser », parce que c'est leur caractère, pas un état passager."
+    },
+    {
+      "id": "opiniones-12",
+      "es": "Bilbao es tan bonito como San Sebastián, pero diferente.",
+      "fr": "Bilbao est aussi beau que Saint-Sébastien, mais différent.",
+      "pron": "bil-BA-o ÉSS TAN bo-NI-to KO-mo SAN sé-bass-TYAN PÉ-ro di-fé-RÉN-té",
+      "note": "« Tan… como » pour dire « aussi… que ». Avec un nom, on dit « tanto… como » : « tanta gente como »."
+    },
+    {
+      "id": "opiniones-13",
+      "es": "Las patatas a la riojana están buenísimas, pero pican menos que la comida de casa.",
+      "fr": "Les pommes de terre à la riojana sont délicieuses, mais elles piquent moins que la cuisine de chez nous.",
+      "pron": "lass pa-TA-tass a la rri-o-KHA-na éss-TAN boué-NI-ssi-mass PÉ-ro PI-kan MÉ-noss ké la ko-MI-da dé KA-ssa",
+      "note": "« Menos… que », c'est « moins… que ». Les patatas a la riojana se font avec du chorizo et du pimentón : ça réchauffe sans brûler."
+    },
+    {
+      "id": "opiniones-14",
+      "es": "Es demasiado caro para lo que es.",
+      "fr": "C'est trop cher pour ce que c'est.",
+      "pron": "ÉSS dé-ma-SSYA-do KA-ro pa-ra lo ké ÉSS",
+      "note": "« Demasiado », c'est « trop ». La phrase parfaite devant un menu ou une veste hors de prix.",
+      "rapide": "Es demasiao caro pa' lo que es."
+    },
+    {
+      "id": "opiniones-15",
+      "es": "Sinceramente, no me ha convencido.",
+      "fr": "Franchement, ça ne m'a pas convaincue.",
+      "pron": "sin-thé-ra-MÉN-té no mé a kon-bén-THI-do",
+      "note": "Une façon polie de dire qu'on n'a pas aimé. Plus doux que « no me ha gustado nada »."
+    },
+    {
+      "id": "opiniones-16",
+      "es": "Tienes razón, no lo había pensado.",
+      "fr": "Tu as raison, je n'y avais pas pensé.",
+      "pron": "TYÉ-néss rra-THON no lo a-BI-a pén-SSA-do",
+      "note": "Pour reconnaître le bon argument de l'autre. Ça arrive, et ça fait toujours plaisir à entendre.",
+      "rapide": "Tienes razón, no l'había pensao."
+    },
+    {
+      "id": "opiniones-17",
+      "es": "A mí me parece una idea genial.",
+      "fr": "Moi, je trouve que c'est une super idée.",
+      "pron": "a MI mé pa-RÉ-thé OU-na i-DÉ-a khé-NYAL",
+      "note": "« A mí » insiste sur ton avis à toi, comme « moi, je »."
+    },
+    {
+      "id": "opiniones-18",
+      "es": "Ya, pero eso no es lo mismo.",
+      "fr": "Oui, d'accord, mais ce n'est pas pareil.",
+      "pron": "YA PÉ-ro É-sso no ÉSS lo MISS-mo",
+      "note": "« Ya », c'est « oui, je sais » : on écoute l'autre avant de le contredire."
+    },
+    {
+      "id": "opiniones-19",
+      "es": "Prefiero el pueblo a la ciudad, se vive mejor.",
+      "fr": "Je préfère le village à la ville, on y vit mieux.",
+      "pron": "pré-FYÉ-ro él POUÉ-blo a la thyou-DAD sé BI-bé mé-KHOR",
+      "note": "« Preferir… a » pour comparer deux choix. Au présent, le e devient ie : prefiero, prefieres."
+    },
+    {
+      "id": "opiniones-20",
+      "es": "Cada uno tiene sus gustos.",
+      "fr": "Chacun ses goûts.",
+      "pron": "KA-da OU-no TYÉ-né souss GOUSS-toss",
+      "note": "Pour clore un débat sans vainqueur. Très pratique quand on parle de la tortilla avec ou sans oignon.",
+      "rapide": "Cad'uno tiene sus gustos."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "À la sortie du cinéma",
+      "contexte": "Pendant sa visite à Logroño, Khalil et toi sortez du cinéma. Il a adoré, toi un peu moins.",
+      "lignes": [
+        {
+          "qui": "Khalil",
+          "es": "¿Qué te ha parecido la película?",
+          "fr": "Tu as trouvé le film comment ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Me ha gustado mucho, aunque es un poco larga.",
+          "fr": "Ça m'a beaucoup plu, même s'il est un peu long."
+        },
+        {
+          "qui": "Khalil",
+          "es": "Para mí, es la mejor película del año.",
+          "fr": "Pour moi, c'est le meilleur film de l'année."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Bueno, depende. Me parece que el final es un poco flojo.",
+          "fr": "Bon, ça dépend. Je trouve que la fin est un peu faible."
+        },
+        {
+          "qui": "Khalil",
+          "es": "¿Flojo? No estoy de acuerdo. Es lo mejor de la película.",
+          "fr": "Faible ? Je ne suis pas d'accord. C'est le meilleur moment du film."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Ya, pero el actor principal no es tan bueno como en su última película.",
+          "fr": "Oui, mais l'acteur principal n'est pas aussi bon que dans son dernier film."
+        },
+        {
+          "qui": "Khalil",
+          "es": "Tienes razón, no lo había pensado.",
+          "fr": "Tu as raison, je n'y avais pas pensé."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Bueno, cada uno tiene sus gustos. ¿Vamos a cenar?",
+          "fr": "Bon, chacun ses goûts. On va dîner ?"
+        }
+      ]
+    },
+    {
+      "titre": "Le grand débat du bar",
+      "contexte": "Au bar avec Marta, la conversation passe de la cuisine aux villes.",
+      "lignes": [
+        {
+          "qui": "Marta",
+          "es": "Elisabeth, ¿qué tal la tortilla? La he hecho yo.",
+          "fr": "Elisabeth, elle est comment l'omelette ? C'est moi qui l'ai faite."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Buenísima! La tortilla de Marta está más rica que la del bar.",
+          "fr": "Délicieuse ! L'omelette de Marta est meilleure que celle du bar."
+        },
+        {
+          "qui": "Marta",
+          "es": "Gracias. ¿Y te gusta vivir aquí? ¿Tú qué opinas de Logroño?",
+          "fr": "Merci. Et ça te plaît de vivre ici ? Tu en penses quoi, de Logroño ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Me gusta mucho. Es más pequeña que Conakry y mucho más tranquila.",
+          "fr": "Ça me plaît beaucoup. C'est plus petit que Conakry et beaucoup plus calme."
+        },
+        {
+          "qui": "Marta",
+          "es": "Yo creo que Logroño es un poco aburrido para la gente joven.",
+          "fr": "Moi, je crois que Logroño est un peu ennuyeux pour les jeunes."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "No estoy de acuerdo, pero respeto tu opinión. Con la calle Laurel, ¡nadie se aburre!",
+          "fr": "Je ne suis pas d'accord, mais je respecte ton avis. Avec la calle Laurel, personne ne s'ennuie !"
+        },
+        {
+          "qui": "Marta",
+          "es": "En eso estoy de acuerdo contigo.",
+          "fr": "Là-dessus, je suis d'accord avec toi."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Donner son avis et comparer",
+    "explication": "Pour donner ton avis, commence par « creo que », « me parece que » ou « para mí », suivi d'une phrase normale à l'indicatif. Pour réagir : « estoy de acuerdo con » + la personne, avec contigo et conmigo à la place de « con ti » et « con mí ». Pour comparer : « más… que » (plus… que), « menos… que » (moins… que), « tan… como » (aussi… que). Deux irréguliers à retenir : mejor (meilleur, mieux) et peor (pire), jamais « más bueno ». Petit piège pour plus tard : « no creo que » demande le subjonctif, alors en attendant, préfère « creo que no ».",
+    "tableau": [
+      [
+        "Creo que…",
+        "Je crois que…"
+      ],
+      [
+        "Me parece que…",
+        "Je trouve que…"
+      ],
+      [
+        "Para mí…",
+        "Pour moi…"
+      ],
+      [
+        "Estoy de acuerdo con…",
+        "Je suis d'accord avec…"
+      ],
+      [
+        "más… que",
+        "plus… que"
+      ],
+      [
+        "menos… que",
+        "moins… que"
+      ],
+      [
+        "tan… como",
+        "aussi… que"
+      ],
+      [
+        "mejor / peor",
+        "meilleur, mieux / pire"
+      ]
+    ],
+    "exemples": [
+      {
+        "es": "Creo que el tren es más cómodo que el autobús.",
+        "fr": "Je crois que le train est plus confortable que le bus."
+      },
+      {
+        "es": "Para mí, el invierno aquí no es tan duro como dicen.",
+        "fr": "Pour moi, l'hiver ici n'est pas aussi rude qu'on le dit."
+      },
+      {
+        "es": "Estoy de acuerdo con Khalil: este restaurante es peor que el otro.",
+        "fr": "Je suis d'accord avec Khalil : ce restaurant est moins bien que l'autre."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "¡Ni de broma!",
+      "fr": "Même pas en rêve !",
+      "note": "Un non catégorique, mais avec le sourire. On dit aussi « ni de coña », plus familier."
+    },
+    {
+      "es": "Me da igual",
+      "fr": "Ça m'est égal",
+      "note": "Neutre ou un peu sec selon le ton. Pour être plus aimable : « como tú quieras »."
+    },
+    {
+      "es": "Ni fu ni fa",
+      "fr": "Bof, ni bon ni mauvais",
+      "note": "Pour un film ou un plat qui ne laisse aucun souvenir."
+    },
+    {
+      "es": "¡Totalmente!",
+      "fr": "Tout à fait !",
+      "note": "Pour un accord sans réserve. Très courant chez les jeunes comme chez les autres."
+    },
+    {
+      "es": "Para gustos, los colores",
+      "fr": "Des goûts et des couleurs, on ne discute pas",
+      "note": "La version espagnole du proverbe, pour finir un débat en paix."
+    },
+    {
+      "es": "¡Qué va!",
+      "fr": "Mais non, pas du tout !",
+      "note": "Pour contredire gentiment : « ¿Es caro? — ¡Qué va! »."
+    }
+  ]
+}

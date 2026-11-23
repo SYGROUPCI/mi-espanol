@@ -54,6 +54,8 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
   montrerNav(null);
   const c = etat().charla;
   const scene = SCENES.find((s) => s.id === c.scene);
+  const Reconnaissance = window.SpeechRecognition || window.webkitSpeechRecognition;
+  const micro = !!Reconnaissance;
   const cachee = etat().reglages.traductionCachee;
 
   app.innerHTML = `
@@ -67,7 +69,8 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
       <form class="saisie" data-saisie autocomplete="off">
         <div class="accents">${["á", "é", "í", "ó", "ú", "ñ", "¿", "¡"].map((a) => `<button type="button" data-a="${a}">${a}</button>`).join("")}</div>
         <div class="saisie-ligne">
-          <textarea rows="1" maxlength="500" autocapitalize="sentences" spellcheck="false" placeholder="Escribe en español…" aria-label="Ton message"></textarea>
+          ${micro ? `<button type="button" class="btn btn-micro" data-micro aria-label="Parler en espagnol">${ico("micro")}</button>` : ""}
+          <textarea rows="1" maxlength="500" autocapitalize="sentences" spellcheck="false" placeholder="${micro ? "Parle ou écris en español…" : "Escribe en español…"}" aria-label="Ton message"></textarea>
           <button class="btn btn-envoyer" aria-label="Envoyer">${ico("fleche")}</button>
         </div>
       </form>
@@ -77,7 +80,7 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
   const zone = $("textarea", app);
 
   const afficher = () => {
-    const msgs = etat().charla.messages.filter((m) => m.content !== ouvrir);
+    const msgs = etat().charla.messages.filter((m) => m.content !== ouvrir && String(m.content || "").trim());
     if (!msgs.length) {
       fil.innerHTML = `<p class="manuscrit fil-vide">Dis bonjour à ${e(scene.nom)}, ou touche « Nueva » pour qu'il commence.</p>`;
       return;
@@ -143,6 +146,11 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
         return { ok: false };
       }
       if (d.erreur) { toast(ERREURS[d.erreur] || "Petit souci. Réessaie dans un instant."); return { ok: false }; }
+      // Réponse inattendue (panne, page d'erreur, réseau coupé en route) : on ne l'affiche pas.
+      if (!rep.ok || typeof d.respuesta !== "string" || !d.respuesta.trim()) {
+        toast("Petit souci de connexion. Réessaie dans un instant.");
+        return { ok: false };
+      }
       return { ok: true, ...d };
     } catch {
       toast("Pas de réseau pour l'instant. La conversation a besoin d'internet.");
@@ -162,6 +170,43 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
     zone.focus();
     zone.setSelectionRange(d + 1, d + 1);
   }));
+  // Parler à voix haute : le téléphone écoute, écrit ce qu'elle dit, puis l'envoie.
+  let ecoute = null;
+  $("[data-micro]", app)?.addEventListener("click", () => {
+    const bouton = $("[data-micro]", app);
+    if (ecoute) { ecoute.stop(); return; }
+    if ($(".ecrit", fil)) return;
+    V.arreter();                         // on coupe la voix de Javi pour ne pas l'entendre en boucle
+    ecoute = new Reconnaissance();
+    ecoute.lang = "es-ES";
+    ecoute.interimResults = true;
+    ecoute.continuous = false;
+    ecoute.maxAlternatives = 1;
+    let final = "";
+    bouton.classList.add("en-ecoute");
+    zone.placeholder = "Je t'écoute… parle en espagnol";
+    ecoute.onresult = (ev) => {
+      let provisoire = "";
+      for (let i = ev.resultIndex; i < ev.results.length; i++) {
+        const t = ev.results[i][0].transcript;
+        if (ev.results[i].isFinal) final += t; else provisoire += t;
+      }
+      zone.value = (final + provisoire).trim();
+    };
+    ecoute.onerror = (ev) => {
+      if (ev.error === "not-allowed" || ev.error === "service-not-allowed") toast("Autorise le micro pour Mi Español dans les réglages de ton téléphone.");
+      else if (ev.error === "no-speech") toast("Je n'ai rien entendu. Réessaie en parlant un peu plus fort.");
+      else if (ev.error === "network") toast("La reconnaissance vocale a besoin d'internet.");
+    };
+    ecoute.onend = () => {
+      bouton.classList.remove("en-ecoute");
+      zone.placeholder = "Parle ou écris en español…";
+      ecoute = null;
+      const texte = (final || zone.value).trim();
+      if (texte && !$(".ecrit", fil)) { zone.value = ""; envoyer(texte); }
+    };
+    try { ecoute.start(); } catch { bouton.classList.remove("en-ecoute"); ecoute = null; }
+  });
   zone.addEventListener("keydown", (ev) => {
     if (ev.key === "Enter" && !ev.shiftKey) { ev.preventDefault(); $("[data-saisie]", app).requestSubmit(); }
   });

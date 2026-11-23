@@ -1,0 +1,328 @@
+{
+  "id": "fiesta",
+  "ordre": 24,
+  "niveau": "A2",
+  "titre": "Organiser une fête",
+  "titre_es": "Organizar una fiesta",
+  "intro": "Inviter, savoir quoi apporter, offrir un cadeau, trinquer comme il faut et rester des heures à table après le dessert : en Espagne, une fête se prépare autant qu'elle se raconte le lendemain.",
+  "phrases": [
+    {
+      "id": "fiesta-01",
+      "es": "El sábado es mi cumpleaños y voy a hacer una fiesta en casa.",
+      "fr": "Samedi, c'est mon anniversaire et je vais faire une fête à la maison.",
+      "pron": "él SA-ba-do ÉSS mi koum-plé-A-gnoss i BOÏ a a-THÉR OU-na FYÉSS-ta én KA-ssa",
+      "note": "« Cumpleaños » prend un s même au singulier. À l'oral, tout le monde dit « el cumple ».",
+      "rapide": "El sábado es mi cumple y voy'a hacer una fiesta en casa."
+    },
+    {
+      "id": "fiesta-02",
+      "es": "¿Te vienes? Va a venir gente del trabajo y algunos vecinos.",
+      "fr": "Tu viens ? Il y aura des gens du travail et quelques voisins.",
+      "pron": "té BYÉ-néss BA a bé-NIR KHÉN-té dél tra-BA-kho i al-GOU-noss bé-THI-noss",
+      "note": "« ¿Te vienes? » avec le « te » veut dire « tu viens avec nous ? ». C'est plus chaleureux que « ¿vienes? »."
+    },
+    {
+      "id": "fiesta-03",
+      "es": "¿Por qué no lo celebramos en el parque, si hace bueno?",
+      "fr": "Pourquoi on ne le fête pas au parc, s'il fait beau ?",
+      "pron": "por KÉ no lo thé-lé-BRA-moss én él PAR-ké si A-thé BOUÉ-no",
+      "note": "« ¿Por qué no…? » + présent : une proposition douce. « Hace bueno » veut dire il fait beau."
+    },
+    {
+      "id": "fiesta-04",
+      "es": "¿Qué llevo? ¿Algo de bebida o algo de picar?",
+      "fr": "J'apporte quoi ? Quelque chose à boire ou à grignoter ?",
+      "pron": "KÉ YÉ-bo AL-go dé bé-BI-da o AL-go dé pi-KAR",
+      "note": "Ne jamais arriver les mains vides : c'est la règle. « Picar », c'est grignoter, l'activité nationale."
+    },
+    {
+      "id": "fiesta-05",
+      "es": "No hace falta que traigas nada, solo ven con ganas.",
+      "fr": "Pas besoin d'apporter quoi que ce soit, viens juste avec ta bonne humeur.",
+      "pron": "no A-thé FAL-ta ké TRAÏ-gass NA-da SO-lo BÉN kon GA-nass",
+      "note": "Ce qu'on répond par politesse. L'invité apporte quand même une bouteille, et tout le monde est content.",
+      "rapide": "No hace falta que traigas na', solo ven con ganas."
+    },
+    {
+      "id": "fiesta-06",
+      "es": "Yo me encargo de la tortilla y Khalil trae el postre.",
+      "fr": "Moi, je m'occupe de la tortilla et Khalil apporte le dessert.",
+      "pron": "YO mé én-KAR-go dé la tor-TI-ya i ka-LIL TRA-é él POSS-tré",
+      "note": "« Encargarse de » : s'occuper de. Avec ou sans oignon dans la tortilla ? Le débat peut durer toute la soirée."
+    },
+    {
+      "id": "fiesta-07",
+      "es": "Estamos poniendo un bote para el regalo de Lucía. ¿Te apuntas?",
+      "fr": "On fait une cagnotte pour le cadeau de Lucía. Tu participes ?",
+      "pron": "éss-TA-moss po-NYÉN-do oun BO-té PA-ra él rré-GA-lo dé lou-THI-a té a-POUN-tass",
+      "note": "« Poner un bote », c'est mettre chacun de l'argent en commun. « ¿Te apuntas? » sert pour toutes les propositions."
+    },
+    {
+      "id": "fiesta-08",
+      "es": "¡Felicidades! ¿Cuántos cumples?",
+      "fr": "Joyeux anniversaire ! Tu as quel âge ?",
+      "pron": "fé-li-thi-DA-déss KOUAN-toss KOUM-pléss",
+      "note": "« Cumplir años », c'est fêter ses années. « ¡Felicidades! » marche aussi pour une naissance, un diplôme ou un nouveau travail.",
+      "rapide": "¡Felicidade'! ¿Cuánto' cumples?"
+    },
+    {
+      "id": "fiesta-09",
+      "es": "Te hemos traído un detallito. Espero que te guste.",
+      "fr": "On t'a apporté un petit quelque chose. J'espère que ça te plaira.",
+      "pron": "té É-moss tra-I-do oun dé-ta-YI-to éss-PÉ-ro ké té GOUSS-té",
+      "note": "« Un detalle », c'est une petite attention. Le diminutif « detallito » le rend encore plus modeste.",
+      "rapide": "T'hemos traído un detallito. Espero que te guste."
+    },
+    {
+      "id": "fiesta-10",
+      "es": "¡Qué ilusión! No teníais que molestaros.",
+      "fr": "Ça me fait trop plaisir ! Il ne fallait pas vous embêter.",
+      "pron": "KÉ i-lou-SSYON no té-NI-aïss ké mo-léss-TA-ross",
+      "note": "« ¡Qué ilusión! » exprime la joie sincère. Attention, « ilusión » ne veut presque jamais dire illusion."
+    },
+    {
+      "id": "fiesta-11",
+      "es": "¡Ábrelo ya, que estamos todos esperando!",
+      "fr": "Ouvre-le tout de suite, on attend tous !",
+      "pron": "A-bré-lo YA ké éss-TA-moss TO-doss éss-pé-RAN-do",
+      "note": "En Espagne, on ouvre généralement les cadeaux tout de suite, devant tout le monde. Prépare ta tête de surprise."
+    },
+    {
+      "id": "fiesta-12",
+      "es": "¡Chinchín! Por Khalil y por muchos años más.",
+      "fr": "Tchin-tchin ! À Khalil, et à encore beaucoup d'années !",
+      "pron": "tchin-TCHIN por ka-LIL i por MOU-tchoss A-gnoss MASS",
+      "note": "Pour porter un toast : « por » + la personne ou la chose. « ¡Por nosotros! », à nous !"
+    },
+    {
+      "id": "fiesta-13",
+      "es": "¡Salud! Gracias a todos por venir.",
+      "fr": "Santé ! Merci à tous d'être venus.",
+      "pron": "sa-LOUD GRA-thyass a TO-doss por bé-NIR",
+      "note": "La tradition veut qu'on se regarde dans les yeux en trinquant. Ceux qui oublient se font gentiment rappeler à l'ordre."
+    },
+    {
+      "id": "fiesta-14",
+      "es": "Vamos a cantarle el cumpleaños feliz.",
+      "fr": "On va lui chanter joyeux anniversaire.",
+      "pron": "BA-moss a kan-TAR-lé él koum-plé-A-gnoss fé-LITH",
+      "note": "« Le » désigne la personne fêtée. Ensuite on souffle les bougies, « soplar las velas », et on fait un vœu en silence."
+    },
+    {
+      "id": "fiesta-15",
+      "es": "Esta tarta está buenísima. ¿La has hecho tú?",
+      "fr": "Ce gâteau est délicieux. C'est toi qui l'as fait ?",
+      "pron": "ÉSS-ta TAR-ta éss-TA boué-NI-ssi-ma la ass É-tcho TOU",
+      "note": "« Hecho » est le participe irrégulier de « hacer ». Le compliment fonctionne même si la tarta vient de la pâtisserie.",
+      "rapide": "'Sta tarta 'tá buenísima. ¿La'as hecho tú?"
+    },
+    {
+      "id": "fiesta-16",
+      "es": "Después de comer, nos quedamos de sobremesa hasta las seis.",
+      "fr": "Après le repas, on est restés à discuter à table jusqu'à six heures.",
+      "pron": "déss-POUÉSS dé ko-MÉR noss ké-DA-moss dé so-bré-MÉ-ssa ASS-ta lass SÉÏSS",
+      "note": "La sobremesa, c'est ce temps passé à table après le repas, à parler et à refaire le monde. Elle dure souvent plus longtemps que le repas."
+    },
+    {
+      "id": "fiesta-17",
+      "es": "Lo hemos pasado genial. ¡Hay que repetirlo!",
+      "fr": "On s'est super bien amusés. Il faut remettre ça !",
+      "pron": "lo É-moss pa-SSA-do khé-NYAL AÏ ké rré-pé-TIR-lo",
+      "note": "« Pasarlo bien » ou « pasarlo genial » : passer un bon moment. Au passé composé, parce que la fête vient de finir.",
+      "rapide": "Lo hemo' pasao genial. ¡Hay que repetirlo!"
+    },
+    {
+      "id": "fiesta-18",
+      "es": "Me lo he pasado muy bien. Gracias por invitarme.",
+      "fr": "J'ai passé un très bon moment. Merci de m'avoir invitée.",
+      "pron": "mé lo é pa-SSA-do MOUÏ BYÉN GRA-thyass por in-bi-TAR-mé",
+      "note": "Avec « me », c'est la version personnelle. Le lendemain, un petit message qui le répète fait toujours plaisir."
+    },
+    {
+      "id": "fiesta-19",
+      "es": "Ya es tarde y mañana madrugo, así que me voy a ir.",
+      "fr": "Il est déjà tard et demain je me lève tôt, donc je vais y aller.",
+      "pron": "YA ÉSS TAR-dé i ma-GNA-na ma-DROU-go a-SSI ké mé BOÏ a IR",
+      "note": "« Madrugar », c'est se lever tôt. L'excuse officielle pour partir avant minuit sans vexer personne."
+    },
+    {
+      "id": "fiesta-20",
+      "es": "¿Os ayudo a recoger antes de irme?",
+      "fr": "Je vous aide à ranger avant de partir ?",
+      "pron": "oss a-YOU-do a rré-ko-KHÉR AN-téss dé IR-mé",
+      "note": "« Recoger », c'est ranger après la fête. La proposition qui fait de toi l'invitée qu'on réinvite."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "L'invitation",
+      "contexte": "Tu appelles Lucía pour l'inviter à ton anniversaire, samedi prochain.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "¡Hola, Lucía! El sábado es mi cumpleaños y voy a hacer una fiesta en casa. ¿Te vienes?",
+          "fr": "Coucou Lucía ! Samedi, c'est mon anniversaire et je vais faire une fête à la maison. Tu viens ?"
+        },
+        {
+          "qui": "Lucía",
+          "es": "¡Claro que sí! ¿A qué hora?",
+          "fr": "Bien sûr que oui ! À quelle heure ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "A partir de las dos. Primero comemos y luego, sobremesa larga.",
+          "fr": "À partir de deux heures. D'abord on mange, et ensuite, longue discussion à table."
+        },
+        {
+          "qui": "Lucía",
+          "es": "Me encanta el plan. ¿Qué llevo? ¿Algo de bebida o algo de picar?",
+          "fr": "J'adore le programme. J'apporte quoi ? Quelque chose à boire ou à grignoter ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "No hace falta que traigas nada, solo ven con ganas.",
+          "fr": "Pas besoin d'apporter quoi que ce soit, viens juste avec ta bonne humeur."
+        },
+        {
+          "qui": "Lucía",
+          "es": "Ni hablar, llevo un vino. ¿Viene mucha gente?",
+          "fr": "Pas question, j'apporte une bouteille de vin. Il y aura beaucoup de monde ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Va a venir gente del trabajo y algunos vecinos. Yo me encargo de la tortilla y Khalil trae el postre.",
+          "fr": "Il y aura des gens du travail et quelques voisins. Moi, je m'occupe de la tortilla et Khalil apporte le dessert."
+        },
+        {
+          "qui": "Lucía",
+          "es": "¡Qué bien! Oye, ¿por qué no lo celebramos en el parque, si hace bueno?",
+          "fr": "Super ! Dis, pourquoi on ne le fête pas au parc, s'il fait beau ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Buena idea, pero con el cierzo que hace, mejor en casa.",
+          "fr": "Bonne idée, mais avec le vent glacial qu'il fait, mieux vaut rester à la maison."
+        },
+        {
+          "qui": "Lucía",
+          "es": "Jaja, tienes razón. ¡Hasta el sábado!",
+          "fr": "Haha, tu as raison. À samedi !"
+        }
+      ]
+    },
+    {
+      "titre": "Le grand jour",
+      "contexte": "Samedi, chez toi. Les invités sont arrivés, le dessert est sur la table.",
+      "lignes": [
+        {
+          "qui": "Lucía",
+          "es": "¡Felicidades, Elisabeth! Te hemos traído un detallito. Espero que te guste.",
+          "fr": "Joyeux anniversaire, Elisabeth ! On t'a apporté un petit quelque chose. J'espère que ça te plaira."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Qué ilusión! No teníais que molestaros.",
+          "fr": "Ça me fait trop plaisir ! Il ne fallait pas vous embêter."
+        },
+        {
+          "qui": "Dani",
+          "es": "¡Ábrelo ya, que estamos todos esperando!",
+          "fr": "Ouvre-le tout de suite, on attend tous !"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Unos pendientes! Son preciosos, muchas gracias.",
+          "fr": "Des boucles d'oreilles ! Elles sont magnifiques, merci beaucoup."
+        },
+        {
+          "qui": "Khalil",
+          "es": "Bueno, ¿brindamos? ¡Chinchín! Por Elisabeth y por muchos años más.",
+          "fr": "Bon, on trinque ? Tchin-tchin ! À Elisabeth, et à encore beaucoup d'années !"
+        },
+        {
+          "qui": "Todos",
+          "es": "¡Salud!",
+          "fr": "Santé !"
+        },
+        {
+          "qui": "Lucía",
+          "es": "Esta tarta está buenísima. ¿La has hecho tú, Khalil?",
+          "fr": "Ce gâteau est délicieux. C'est toi qui l'as fait, Khalil ?"
+        },
+        {
+          "qui": "Khalil",
+          "es": "No, la he comprado en la pastelería de abajo. Pero la he traído con mucho cariño.",
+          "fr": "Non, je l'ai acheté à la pâtisserie d'en bas. Mais je l'ai apporté avec beaucoup d'amour."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Gracias a todos por venir. Lo hemos pasado genial. ¡Hay que repetirlo!",
+          "fr": "Merci à tous d'être venus. On s'est super bien amusés. Il faut remettre ça !"
+        },
+        {
+          "qui": "Lucía",
+          "es": "¡Cuando quieras! Pero el año que viene, en el parque.",
+          "fr": "Quand tu veux ! Mais l'année prochaine, au parc."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Inviter, proposer, puis raconter la fête",
+    "explication": "Pour inviter : « ¿Te vienes? », « ¿Te apuntas? » ou « ¿Quieres venir? ». Pour proposer : « ¿Por qué no…? » ou « ¿Y si…? » suivis du présent. Pour accepter : « ¡Me apunto! », et pour refuser gentiment : « Me encantaría, pero no puedo ». Pour raconter la fête le jour même ou juste après, on prend le passé composé : haber au présent + participe en -ado ou -ido. « Lo hemos pasado genial » : on s'est super bien amusés.",
+    "tableau": [
+      ["yo", "lo he pasado genial"],
+      ["tú", "lo has pasado genial"],
+      ["él, ella, usted", "lo ha pasado genial"],
+      ["nosotros, nosotras", "lo hemos pasado genial"],
+      ["vosotros, vosotras", "lo habéis pasado genial"],
+      ["ellos, ellas, ustedes", "lo han pasado genial"]
+    ],
+    "exemples": [
+      {
+        "es": "¿Te vienes al cumple de Lucía el sábado?",
+        "fr": "Tu viens à l'anniversaire de Lucía samedi ?"
+      },
+      {
+        "es": "¿Por qué no hacemos la cena en mi casa?",
+        "fr": "Pourquoi on ne fait pas le dîner chez moi ?"
+      },
+      {
+        "es": "Hemos bailado hasta las tres y lo hemos pasado genial.",
+        "fr": "On a dansé jusqu'à trois heures et on s'est super bien amusés."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Montar un fiestón",
+      "fr": "Organiser une sacrée fête",
+      "note": "« Fiestón », c'est une fête en grand. Les voisins sont généralement prévenus, ou pas."
+    },
+    {
+      "es": "¡Que cumplas muchos más!",
+      "fr": "Et encore plein d'autres !",
+      "note": "Ce qu'on ajoute après « ¡Felicidades! ». Très courant, en vrai comme par message."
+    },
+    {
+      "es": "Tirar de las orejas",
+      "fr": "Tirer les oreilles",
+      "note": "Une tradition d'anniversaire : on tire doucement les oreilles de la personne fêtée, une fois par année. Doucement, on a dit."
+    },
+    {
+      "es": "Ser el alma de la fiesta",
+      "fr": "Être le boute-en-train de la fête",
+      "note": "La personne qui met l'ambiance, lance la musique et fait danser même les timides."
+    },
+    {
+      "es": "Estar como una cuba",
+      "fr": "Être complètement soûl",
+      "note": "« Una cuba », c'est un tonneau. À dire du cousin le lendemain, pas devant sa belle-mère."
+    },
+    {
+      "es": "Estar de resaca",
+      "fr": "Avoir la gueule de bois",
+      "note": "Le dimanche après un fiestón. « Tengo una resaca horrible » se dit aussi."
+    }
+  ]
+}

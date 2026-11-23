@@ -1,0 +1,326 @@
+{
+  "id": "planes",
+  "ordre": 14,
+  "niveau": "A2",
+  "titre": "Faire des projets",
+  "titre_es": "Hacer planes",
+  "intro": "Proposer une sortie, se répartir les tâches, changer de programme ou se désister sans vexer personne : tout ce qu'il faut pour organiser la suite. Les vacances comprises, parce qu'il faut bien rêver un peu.",
+  "phrases": [
+    {
+      "id": "planes-01",
+      "es": "¿Qué vas a hacer este fin de semana?",
+      "fr": "Qu'est-ce que tu vas faire ce week-end ?",
+      "pron": "ké BASS a a-THÉR ÉSS-té FIN dé sé-MA-na",
+      "note": "« Ir a » + infinitif, c'est le futur proche, exactement comme « aller faire » en français.",
+      "rapide": "¿Qué vas a'cer este fin de semana?"
+    },
+    {
+      "id": "planes-02",
+      "es": "Tengo pensado ir al cine con Lucía el viernes.",
+      "fr": "J'ai prévu d'aller au cinéma avec Lucía vendredi.",
+      "pron": "TÉN-go pén-SSA-do IR al THI-né kon lou-THI-a él BYÉR-néss",
+      "note": "« Tengo pensado » + infinitif : c'est prévu, mais pas gravé dans le marbre. Très naturel à l'oral.",
+      "rapide": "Tengo pensao ir al cine con Lucía el viernes."
+    },
+    {
+      "id": "planes-03",
+      "es": "¿Te apetece venir con nosotros?",
+      "fr": "Ça te dit de venir avec nous ?",
+      "pron": "té a-pé-TÉ-thé bé-NIR kon no-SSO-tross",
+      "note": "La façon la plus douce d'inviter. Entre filles, on dit « con nosotras »."
+    },
+    {
+      "id": "planes-04",
+      "es": "Me gustaría ir a la playa este verano.",
+      "fr": "J'aimerais aller à la plage cet été.",
+      "pron": "mé gouss-ta-RI-a IR a la PLA-ya ÉSS-té bé-RA-no",
+      "note": "« Me gustaría » + infinitif exprime une envie, un souhait. C'est le conditionnel de « gustar »."
+    },
+    {
+      "id": "planes-05",
+      "es": "¿Por qué no vamos a San Sebastián el domingo?",
+      "fr": "Et si on allait à Saint-Sébastien dimanche ?",
+      "pron": "por KÉ no BA-moss a SAN sé-bass-TYAN él do-MIN-go",
+      "note": "« ¿Por qué no…? » sert à proposer, pas à demander une explication. On répond « vale » ou « venga »."
+    },
+    {
+      "id": "planes-06",
+      "es": "Vale, pero mejor el sábado, que el domingo trabajo.",
+      "fr": "D'accord, mais plutôt samedi, parce que dimanche je travaille.",
+      "pron": "BA-lé PÉ-ro mé-KHOR él SA-ba-do ké él do-MIN-go tra-BA-kho",
+      "note": "À l'oral, « que » remplace souvent « porque » pour donner une raison rapide."
+    },
+    {
+      "id": "planes-07",
+      "es": "¿Quién se encarga de comprar los billetes?",
+      "fr": "Qui s'occupe d'acheter les billets ?",
+      "pron": "KYÉN sé én-KAR-ga dé kom-PRAR loss bi-YÉ-téss",
+      "note": "« Encargarse de », c'est se charger de quelque chose. La question qui évite que personne n'achète rien."
+    },
+    {
+      "id": "planes-08",
+      "es": "Yo reservo el hotel y tú miras los horarios del tren.",
+      "fr": "Moi, je réserve l'hôtel et toi, tu regardes les horaires du train.",
+      "pron": "YO rré-SSÉR-bo él o-TÉL i TOU MI-rass loss o-RA-ryoss dél TRÉN",
+      "note": "Pour se répartir les tâches, le présent suffit, comme en français."
+    },
+    {
+      "id": "planes-09",
+      "es": "Lo siento, al final no voy a poder ir.",
+      "fr": "Désolée, finalement je ne vais pas pouvoir venir.",
+      "pron": "lo SYÉN-to al fi-NAL no BOÏ a po-DÉR IR",
+      "note": "Pour annuler, l'espagnol dit « ir » là où le français dit « venir ». Ajoute une petite raison, c'est plus poli."
+    },
+    {
+      "id": "planes-10",
+      "es": "¿Te importa si lo dejamos para la semana que viene?",
+      "fr": "Ça te dérange si on remet ça à la semaine prochaine ?",
+      "pron": "té im-POR-ta si lo dé-KHA-moss pa-ra la sé-MA-na ké BYÉ-né",
+      "note": "« Dejarlo para », c'est reporter. « La semana que viene » est plus courant à l'oral que « la próxima semana ».",
+      "rapide": "¿T'importa si lo dejamos pa' la semana que viene?"
+    },
+    {
+      "id": "planes-11",
+      "es": "Hay un cambio de planes: al final salimos a las diez.",
+      "fr": "Il y a un changement de programme : finalement, on part à dix heures.",
+      "pron": "AÏ oun KAM-byo dé PLA-néss al fi-NAL sa-LI-moss a lass DYÉTH",
+      "note": "On utilise souvent le présent pour un futur proche et sûr : « salimos a las diez » veut dire « on part à dix heures »."
+    },
+    {
+      "id": "planes-12",
+      "es": "En agosto iremos a Abiyán a ver a la familia de Khalil.",
+      "fr": "En août, on ira à Abidjan voir la famille de Khalil.",
+      "pron": "én a-GOSS-to i-RÉ-moss a a-bi-YAN a BÉR a la fa-MI-lya dé kha-LIL",
+      "note": "En espagnol, Abidjan s'écrit « Abiyán ». Le futur simple « iremos » donne un ton de projet bien décidé."
+    },
+    {
+      "id": "planes-13",
+      "es": "Este año pasaremos la Navidad en Logroño.",
+      "fr": "Cette année, on passera Noël à Logroño.",
+      "pron": "ÉSS-té A-gno pa-ssa-RÉ-moss la na-bi-DAD én lo-GRO-gno",
+      "note": "Le futur simple se forme sur l'infinitif entier : pasar donne pasaré, pasarás, pasaremos."
+    },
+    {
+      "id": "planes-14",
+      "es": "¿Ya sabes dónde vas a ir de vacaciones?",
+      "fr": "Tu sais déjà où tu vas partir en vacances ?",
+      "pron": "YA SA-béss DON-dé BASS a IR dé ba-ka-THYO-néss",
+      "note": "« Ir de vacaciones », c'est partir en vacances. « Vacaciones » est toujours au pluriel."
+    },
+    {
+      "id": "planes-15",
+      "es": "Todavía no lo sé, depende del dinero.",
+      "fr": "Je ne sais pas encore, ça dépend de l'argent.",
+      "pron": "to-da-BI-a no lo SÉ dé-PÉN-dé dél di-NÉ-ro",
+      "note": "« Depende », tout seul, est aussi une réponse complète : ça dépend.",
+      "rapide": "Todavía no lo sé, depende'l dinero."
+    },
+    {
+      "id": "planes-16",
+      "es": "Si hace buen tiempo, comeremos en el campo.",
+      "fr": "S'il fait beau, on mangera à la campagne.",
+      "pron": "si A-thé BOUÉN TYÉM-po ko-mé-RÉ-moss én él KAM-po",
+      "note": "Après « si », le présent, puis le futur, comme en français. Pas de piège ici, profites-en."
+    },
+    {
+      "id": "planes-17",
+      "es": "Me encantaría, pero ese día ya tengo planes.",
+      "fr": "J'adorerais, mais ce jour-là j'ai déjà quelque chose de prévu.",
+      "pron": "mé én-kan-ta-RI-a PÉ-ro É-ssé DI-a YA TÉN-go PLA-néss",
+      "note": "Le refus poli par excellence : on montre l'envie avant de dire non."
+    },
+    {
+      "id": "planes-18",
+      "es": "Avísame cuando lo sepas, ¿vale?",
+      "fr": "Préviens-moi quand tu sauras, d'accord ?",
+      "pron": "a-BI-ssa-mé KOUAN-do lo SÉ-pass BA-lé",
+      "note": "Après « cuando » pour parler du futur, l'espagnol met le subjonctif : « sepas ». Retiens la phrase telle quelle, on verra la règle plus tard."
+    },
+    {
+      "id": "planes-19",
+      "es": "¿Nos vemos mañana a las siete en la puerta del cine?",
+      "fr": "On se retrouve demain à sept heures devant le cinéma ?",
+      "pron": "noss BÉ-moss ma-GNA-na a lass SYÉ-té én la POUÉR-ta dél THI-né",
+      "note": "« En la puerta de », c'est devant l'entrée. Le point de rendez-vous classique en Espagne.",
+      "rapide": "¿Nos vemos mañana a las siete'n la puerta del cine?"
+    },
+    {
+      "id": "planes-20",
+      "es": "El año que viene voy a apuntarme a clases de baile.",
+      "fr": "L'année prochaine, je vais m'inscrire à des cours de danse.",
+      "pron": "él A-gno ké BYÉ-né BOÏ a a-poun-TAR-mé a KLA-sséss dé BAÏ-lé",
+      "note": "« Apuntarse a », c'est s'inscrire à une activité. La bonne résolution typique de septembre ou de janvier.",
+      "rapide": "El año que viene voy a'puntarme a clases de baile."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Une sortie à la mer",
+      "contexte": "Lucía t'appelle un mardi soir avec une idée en tête.",
+      "lignes": [
+        {
+          "qui": "Lucía",
+          "es": "Oye, Elisabeth, ¿qué vas a hacer este fin de semana?",
+          "fr": "Dis, Elisabeth, qu'est-ce que tu vas faire ce week-end ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Todavía no lo sé. ¿Por qué?",
+          "fr": "Je ne sais pas encore. Pourquoi ?"
+        },
+        {
+          "qui": "Lucía",
+          "es": "¿Por qué no vamos a San Sebastián el domingo? ¿Te apetece venir con nosotros?",
+          "fr": "Et si on allait à Saint-Sébastien dimanche ? Ça te dit de venir avec nous ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Me encantaría! Vale, pero mejor el sábado, que el domingo trabajo.",
+          "fr": "J'adorerais ! D'accord, mais plutôt samedi, parce que dimanche je travaille."
+        },
+        {
+          "qui": "Lucía",
+          "es": "Sin problema. Iremos en autobús. ¿Quién se encarga de comprar los billetes?",
+          "fr": "Pas de problème. On ira en bus. Qui s'occupe d'acheter les billets ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Los compro yo esta noche. Tú miras dónde comer, ¿vale?",
+          "fr": "Je les achète ce soir. Toi, tu regardes où manger, d'accord ?"
+        },
+        {
+          "qui": "Lucía",
+          "es": "Hecho. Si hace buen tiempo, comeremos en la playa.",
+          "fr": "Marché conclu. S'il fait beau, on mangera sur la plage."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Perfecto. Avísame cuando lo sepas.",
+          "fr": "Parfait. Préviens-moi quand tu sauras."
+        }
+      ]
+    },
+    {
+      "titre": "Changement de programme",
+      "contexte": "Vendredi, ton chef te demande de travailler samedi. Tu dois prévenir Lucía, puis Khalil t'appelle d'Abidjan pour parler des vacances.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "Lucía, lo siento mucho, al final no voy a poder ir. Mañana tengo que trabajar.",
+          "fr": "Lucía, je suis vraiment désolée, finalement je ne vais pas pouvoir venir. Demain je dois travailler."
+        },
+        {
+          "qui": "Lucía",
+          "es": "¡Vaya! Bueno, no pasa nada.",
+          "fr": "Mince ! Bon, ce n'est pas grave."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Te importa si lo dejamos para la semana que viene?",
+          "fr": "Ça te dérange si on remet ça à la semaine prochaine ?"
+        },
+        {
+          "qui": "Lucía",
+          "es": "Claro que no. Así tenemos más tiempo para organizarlo.",
+          "fr": "Bien sûr que non. Comme ça, on a plus de temps pour l'organiser."
+        },
+        {
+          "qui": "Khalil",
+          "es": "Por cierto, ¿ya sabes dónde vas a ir de vacaciones?",
+          "fr": "Au fait, tu sais déjà où tu vas partir en vacances ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Me gustaría ir a la playa este verano, pero depende del dinero.",
+          "fr": "J'aimerais aller à la plage cet été, mais ça dépend de l'argent."
+        },
+        {
+          "qui": "Khalil",
+          "es": "Pues yo tengo pensado otra cosa: en agosto iremos a Abiyán a ver a mi familia.",
+          "fr": "Eh bien moi, j'ai prévu autre chose : en août, on ira à Abidjan voir ma famille."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¡Ah, sí! Eso es todavía mejor que la playa.",
+          "fr": "Ah oui ! Ça, c'est encore mieux que la plage."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Voy a viajar, viajaré",
+    "explication": "Pour un projet proche, on prend « ir a » + infinitif : « voy a viajar », comme « je vais voyager ». Le futur simple se forme en ajoutant -é, -ás, -á, -emos, -éis, -án à l'infinitif entier : « viajaré ». À l'oral, le futur proche est le plus courant ; le futur simple sonne plus lointain ou plus décidé. Quelques irréguliers à connaître : hacer donne haré, tener donne tendré, poder donne podré, salir donne saldré. Pour une envie, « me gustaría » + infinitif, et pour un projet déjà réfléchi, « tengo pensado » + infinitif.",
+    "tableau": [
+      [
+        "yo",
+        "voy a viajar / viajaré"
+      ],
+      [
+        "tú",
+        "vas a viajar / viajarás"
+      ],
+      [
+        "él, ella, usted",
+        "va a viajar / viajará"
+      ],
+      [
+        "nosotros",
+        "vamos a viajar / viajaremos"
+      ],
+      [
+        "vosotros",
+        "vais a viajar / viajaréis"
+      ],
+      [
+        "ellos, ellas",
+        "van a viajar / viajarán"
+      ]
+    ],
+    "exemples": [
+      {
+        "es": "Esta tarde voy a llamar a mi madre.",
+        "fr": "Cet après-midi, je vais appeler ma mère."
+      },
+      {
+        "es": "Haremos una fiesta para tu cumpleaños.",
+        "fr": "On fera une fête pour ton anniversaire."
+      },
+      {
+        "es": "Tengo pensado aprender a conducir.",
+        "fr": "J'ai prévu d'apprendre à conduire."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "¡Hecho!",
+      "fr": "Marché conclu !",
+      "note": "Pour dire oui à un plan sans discuter davantage."
+    },
+    {
+      "es": "Me viene fatal",
+      "fr": "Ça ne m'arrange pas du tout",
+      "note": "Pour une date qui tombe mal. L'inverse : « me viene genial »."
+    },
+    {
+      "es": "Ya veremos",
+      "fr": "On verra",
+      "note": "Selon le ton, ça veut dire peut-être ou plutôt non. Écoute bien la voix."
+    },
+    {
+      "es": "Dar plantón",
+      "fr": "Poser un lapin",
+      "note": "« Me ha dado plantón » : il n'est pas venu. À éviter, c'est pour ça qu'on prévient."
+    },
+    {
+      "es": "¡Cuenta conmigo!",
+      "fr": "Compte sur moi !",
+      "note": "La réponse enthousiaste à une invitation. Au pluriel : « contad conmigo »."
+    },
+    {
+      "es": "Sobre la marcha",
+      "fr": "Au fur et à mesure",
+      "note": "« Lo decidimos sobre la marcha » : on verra sur place. Pour les gens qui n'aiment pas les programmes trop serrés."
+    }
+  ]
+}

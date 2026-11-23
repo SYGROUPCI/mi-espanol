@@ -1,0 +1,318 @@
+{
+  "id": "bienestar",
+  "ordre": 21,
+  "niveau": "A2",
+  "titre": "Prendre soin de soi",
+  "titre_es": "Cuidarse",
+  "intro": "Le sport, le sommeil, l'assiette et les petits rendez-vous chez le kiné ou le dentiste : prendre soin de toi, en espagnol. Les courbatures, elles, se comprennent dans toutes les langues.",
+  "phrases": [
+    {
+      "id": "bienestar-01",
+      "es": "Me he apuntado al gimnasio que está cerca de casa.",
+      "fr": "Je me suis inscrite à la salle de sport près de chez moi.",
+      "pron": "mé é a-poun-TA-do al khim-NA-syo ké éss-TA THÉR-ka dé KA-ssa",
+      "note": "« Apuntarse a », c'est s'inscrire à quelque chose : un club, un cours, un apéro. Le verbe le plus utile de la rentrée.",
+      "rapide": "M'he apuntao al gimnasio que 'tá cerca de casa."
+    },
+    {
+      "id": "bienestar-02",
+      "es": "Suelo ir tres veces por semana, por la tarde.",
+      "fr": "D'habitude, j'y vais trois fois par semaine, l'après-midi.",
+      "pron": "SOUÉ-lo IR TRÉSS BÉ-théss por sé-MA-na por la TAR-dé",
+      "note": "Soler + infinitif remplace « d'habitude ». Il se conjugue comme poder : suelo, sueles, suele."
+    },
+    {
+      "id": "bienestar-03",
+      "es": "Los sábados por la mañana salgo a correr por el parque.",
+      "fr": "Le samedi matin, je vais courir au parc.",
+      "pron": "loss SA-ba-doss por la ma-GNA-na SAL-go a ko-RRÉR por él PAR-ké",
+      "note": "« Salir a correr » : sortir courir. À Logroño, les bords de l'Èbre sont parfaits pour ça."
+    },
+    {
+      "id": "bienestar-04",
+      "es": "Corro desde hace dos meses y ya me canso menos.",
+      "fr": "Je cours depuis deux mois et je me fatigue déjà moins.",
+      "pron": "KO-rro DÉSS-dé A-thé DOSS MÉ-sséss i YA mé KAN-so MÉ-noss",
+      "note": "« Desde hace » + durée, avec le verbe au présent : c'est le « depuis » français."
+    },
+    {
+      "id": "bienestar-05",
+      "es": "Hace mucho tiempo que no voy al dentista.",
+      "fr": "Ça fait longtemps que je ne suis pas allée chez le dentiste.",
+      "pron": "A-thé MOU-tcho TYÉM-po ké no BOÏ al dén-TISS-ta",
+      "note": "« Hace + durée + que », l'autre façon de dire depuis. Le verbe reste au présent, contrairement au français."
+    },
+    {
+      "id": "bienestar-06",
+      "es": "Me gustaría apuntarme a clases de yoga o de baile.",
+      "fr": "J'aimerais m'inscrire à des cours de yoga ou de danse.",
+      "pron": "mé gouss-ta-RI-a a-poun-TAR-mé a KLA-séss dé YO-ga o dé BAÏ-lé",
+      "note": "« Me gustaría » est plus poli que « quiero ». Le « me » s'accroche à la fin de l'infinitif : apuntarme."
+    },
+    {
+      "id": "bienestar-07",
+      "es": "¿Cuánto cuesta la cuota mensual?",
+      "fr": "Combien coûte l'abonnement mensuel ?",
+      "pron": "KOUAN-to KOUÉSS-ta la KOUO-ta mén-SOUAL",
+      "note": "« La cuota » : la cotisation d'un club ou d'une salle. Demande aussi s'il y a « matrícula », des frais d'inscription."
+    },
+    {
+      "id": "bienestar-08",
+      "es": "Entre semana me levanto a las siete y me acuesto a las once.",
+      "fr": "En semaine, je me lève à sept heures et je me couche à onze heures.",
+      "pron": "ÉN-tré sé-MA-na mé lé-BAN-to a lass SYÉ-té i mé a-KOUÉSS-to a lass ON-thé",
+      "note": "Levantarse et acostarse, le début et la fin de la journée. Acostarse change o en ue : me acuesto.",
+      "rapide": "Entre semana me levanto a las siete y m'acuesto a las once."
+    },
+    {
+      "id": "bienestar-09",
+      "es": "Últimamente duermo fatal y me despierto muy pronto.",
+      "fr": "Ces derniers temps, je dors très mal et je me réveille très tôt.",
+      "pron": "oul-ti-ma-MÉN-té DOUÉR-mo fa-TAL i mé déss-PYÉR-to MOUÏ PRON-to",
+      "note": "« Pronto » veut dire tôt en Espagne. « Fatal », c'est très mal : on dort fatal, on mange fatal, on chante fatal."
+    },
+    {
+      "id": "bienestar-10",
+      "es": "Intento no mirar el móvil antes de dormir.",
+      "fr": "J'essaie de ne pas regarder mon portable avant de dormir.",
+      "pron": "in-TÉN-to no mi-RAR él MO-bil AN-téss dé dor-MIR",
+      "note": "« Intentar » + infinitif, sans préposition. La bonne résolution que tout le monde a et que personne ne tient."
+    },
+    {
+      "id": "bienestar-11",
+      "es": "Ahora como más verdura y menos fritos que antes.",
+      "fr": "Maintenant je mange plus de légumes et moins de fritures qu'avant.",
+      "pron": "a-O-ra KO-mo MASS bér-DOU-ra i MÉ-noss FRI-toss ké AN-téss",
+      "note": "« La verdura » au singulier pour les légumes en général. Les comparaisons de la situation « Mon pays » reviennent ici.",
+      "rapide": "Ahora como más verdura y menos fritos qu'antes."
+    },
+    {
+      "id": "bienestar-12",
+      "es": "Bebo por lo menos un litro y medio de agua al día.",
+      "fr": "Je bois au moins un litre et demi d'eau par jour.",
+      "pron": "BÉ-bo por lo MÉ-noss oun LI-tro i MÉ-dyo dé A-goua al DI-a",
+      "note": "« Al día », par jour ; « a la semana », par semaine. « Por lo menos » veut dire au moins.",
+      "rapide": "Bebo por lo menos un litro y medio d'agua al día."
+    },
+    {
+      "id": "bienestar-13",
+      "es": "Hoy no tengo ganas de entrenar; me quedo en el sofá.",
+      "fr": "Aujourd'hui je n'ai pas envie de m'entraîner ; je reste sur le canapé.",
+      "pron": "OÏ no TÉN-go GA-nass dé én-tré-NAR mé KÉ-do én él so-FA",
+      "note": "« Tener ganas de » : avoir envie de. Prendre soin de soi, c'est aussi savoir se reposer.",
+      "rapide": "Hoy no tengo ganas d'entrenar; me quedo en el sofá."
+    },
+    {
+      "id": "bienestar-14",
+      "es": "Me duele la espalda desde hace una semana.",
+      "fr": "J'ai mal au dos depuis une semaine.",
+      "pron": "mé DOUÉ-lé la éss-PAL-da DÉSS-dé A-thé OU-na sé-MA-na",
+      "note": "« Me duele » comme « me gusta » : c'est le dos qui fait mal. Pour plusieurs endroits, « me duelen »."
+    },
+    {
+      "id": "bienestar-15",
+      "es": "Quería pedir cita con el fisio para esta semana.",
+      "fr": "Je voudrais prendre rendez-vous avec le kiné pour cette semaine.",
+      "pron": "ké-RI-a pé-DIR THI-ta kon él FI-syo PA-ra ÉSS-ta sé-MA-na",
+      "note": "« El fisio », c'est le fisioterapeuta, le kiné. « Quería » à l'imparfait, c'est la politesse au téléphone.",
+      "rapide": "Quería pedir cita con el fisio pa' esta semana."
+    },
+    {
+      "id": "bienestar-16",
+      "es": "El fisio me ha recomendado hacer estiramientos todos los días.",
+      "fr": "Le kiné m'a conseillé de faire des étirements tous les jours.",
+      "pron": "él FI-syo mé a rré-ko-mén-DA-do a-THÉR éss-ti-ra-MYÉN-toss TO-doss loss DI-ass",
+      "note": "Le passé composé espagnol pour ce qui vient d'arriver aujourd'hui. Les étirements, eux, c'est pour tous les jours."
+    },
+    {
+      "id": "bienestar-17",
+      "es": "Tengo cita con el dentista para una limpieza.",
+      "fr": "J'ai rendez-vous chez le dentiste pour un détartrage.",
+      "pron": "TÉN-go THI-ta kon él dén-TISS-ta PA-ra OU-na lim-PYÉ-tha",
+      "note": "« Una limpieza », mot à mot un nettoyage : c'est le détartrage. Rien de grave, promis."
+    },
+    {
+      "id": "bienestar-18",
+      "es": "Me sangran un poco las encías cuando me lavo los dientes.",
+      "fr": "Mes gencives saignent un peu quand je me brosse les dents.",
+      "pron": "mé SAN-gran oun PO-ko lass én-THI-ass KOUAN-do mé LA-bo loss DYÉN-téss",
+      "note": "On dit « me lavo los dientes », et pas « mis dientes » : avec les verbes pronominaux, le corps prend l'article."
+    },
+    {
+      "id": "bienestar-19",
+      "es": "Ayer fui a clase de zumba y hoy tengo agujetas.",
+      "fr": "Hier je suis allée au cours de zumba et aujourd'hui j'ai des courbatures.",
+      "pron": "a-YÉR FOUI a KLA-ssé dé THOUM-ba i OÏ TÉN-go a-gou-KHÉ-tass",
+      "note": "« Fui », passé simple de ir. « Agujetas », c'est le mot espagnol pour les courbatures du lendemain."
+    },
+    {
+      "id": "bienestar-20",
+      "es": "La semana que viene voy a empezar a ir a la piscina.",
+      "fr": "La semaine prochaine, je vais commencer à aller à la piscine.",
+      "pron": "la sé-MA-na ké BYÉ-né BOÏ a ém-pé-THAR a IR a la piss-THI-na",
+      "note": "Futur proche plus « empezar a » : deux « a » en une phrase, et une bonne résolution."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "À l'accueil de la salle",
+      "contexte": "Tu passes à la salle de sport du quartier pour te renseigner. Sergio est à l'accueil.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "Hola, buenas. Me gustaría apuntarme a clases de yoga o de baile.",
+          "fr": "Bonjour. J'aimerais m'inscrire à des cours de yoga ou de danse."
+        },
+        {
+          "qui": "Sergio",
+          "es": "Muy bien. Tenemos yoga los martes y jueves, y zumba los lunes y miércoles.",
+          "fr": "Très bien. On a du yoga le mardi et le jeudi, et de la zumba le lundi et le mercredi."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Cuánto cuesta la cuota mensual?",
+          "fr": "Combien coûte l'abonnement mensuel ?"
+        },
+        {
+          "qui": "Sergio",
+          "es": "Treinta y cinco euros, con todas las clases incluidas. ¿Sueles hacer deporte?",
+          "fr": "Trente-cinq euros, tous les cours compris. Tu fais du sport, d'habitude ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Bueno, corro desde hace dos meses y ya me canso menos.",
+          "fr": "Eh bien, je cours depuis deux mois et je me fatigue déjà moins."
+        },
+        {
+          "qui": "Sergio",
+          "es": "¡Genial! Entonces la zumba te va a encantar.",
+          "fr": "Génial ! Alors la zumba va te plaire."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Vale, me apunto. Pero aviso: mañana voy a tener agujetas.",
+          "fr": "D'accord, je m'inscris. Mais je préviens : demain je vais avoir des courbatures."
+        },
+        {
+          "qui": "Sergio",
+          "es": "Eso es buena señal. ¡Bienvenida!",
+          "fr": "C'est bon signe. Bienvenue !"
+        }
+      ]
+    },
+    {
+      "titre": "Un rendez-vous chez le kiné",
+      "contexte": "Ton dos proteste depuis une semaine. Tu appelles un centre de kinésithérapie près de chez toi.",
+      "lignes": [
+        {
+          "qui": "Nuria",
+          "es": "Centro de fisioterapia, buenos días.",
+          "fr": "Centre de kinésithérapie, bonjour."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Hola, buenos días. Quería pedir cita con el fisio para esta semana.",
+          "fr": "Bonjour. Je voudrais prendre rendez-vous avec le kiné pour cette semaine."
+        },
+        {
+          "qui": "Nuria",
+          "es": "Claro. ¿Qué le pasa?",
+          "fr": "Bien sûr. Qu'est-ce qui vous arrive ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Me duele la espalda desde hace una semana. Creo que es por el gimnasio.",
+          "fr": "J'ai mal au dos depuis une semaine. Je crois que c'est à cause de la salle de sport."
+        },
+        {
+          "qui": "Nuria",
+          "es": "¿Le viene bien el jueves a las seis y media?",
+          "fr": "Jeudi à six heures et demie, ça vous va ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Perfecto. ¿Cuánto cuesta la sesión?",
+          "fr": "Parfait. Combien coûte la séance ?"
+        },
+        {
+          "qui": "Nuria",
+          "es": "Cuarenta euros. Traiga ropa cómoda, por favor.",
+          "fr": "Quarante euros. Apportez une tenue confortable, s'il vous plaît."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "De acuerdo. Y hasta el jueves, ¿puedo seguir yendo al gimnasio?",
+          "fr": "D'accord. Et d'ici jeudi, je peux continuer à aller à la salle ?"
+        },
+        {
+          "qui": "Nuria",
+          "es": "Mejor descanse un poco. El fisio le dirá qué ejercicios puede hacer.",
+          "fr": "Reposez-vous plutôt un peu. Le kiné vous dira quels exercices vous pouvez faire."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Vale, gracias. De todas formas, hoy no tengo ganas de entrenar.",
+          "fr": "D'accord, merci. De toute façon, aujourd'hui je n'ai pas envie de m'entraîner."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Soler, desde hace et les verbes du quotidien",
+    "explication": "Soler + infinitif sert à parler de tes habitudes : « suelo correr », d'habitude je cours. Pour une durée qui continue, on dit « desde hace » + durée (corro desde hace dos meses) ou « hace » + durée + « que » (hace dos meses que corro), toujours avec le présent. Les verbes du quotidien comme levantarse, acostarse ou ducharse se conjuguent avec me, te, se devant le verbe. Soler et acostarse ont aussi le même petit caprice : o devient ue, sauf avec nosotros et vosotros.",
+    "tableau": [
+      ["yo suelo correr", "yo me acuesto"],
+      ["tú sueles correr", "tú te acuestas"],
+      ["él, ella suele correr", "él, ella se acuesta"],
+      ["nosotros solemos correr", "nosotros nos acostamos"],
+      ["vosotros soléis correr", "vosotros os acostáis"],
+      ["ellos suelen correr", "ellos se acuestan"]
+    ],
+    "exemples": [
+      {
+        "es": "Solemos cenar a las nueve y media.",
+        "fr": "D'habitude, on dîne à neuf heures et demie."
+      },
+      {
+        "es": "Hace tres semanas que no voy al gimnasio.",
+        "fr": "Ça fait trois semaines que je ne vais plus à la salle."
+      },
+      {
+        "es": "Los domingos me levanto tarde y me ducho con calma.",
+        "fr": "Le dimanche, je me lève tard et je prends ma douche tranquillement."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Estar en forma",
+      "fr": "Être en forme",
+      "note": "Au sens physique seulement. Pour le moral, on dit plutôt « estar bien »."
+    },
+    {
+      "es": "Ponerse las pilas",
+      "fr": "Se bouger, s'y mettre",
+      "note": "Mot à mot : se mettre les piles. Le lundi matin, après un week-end sur le sofá."
+    },
+    {
+      "es": "Dormir como un tronco",
+      "fr": "Dormir comme une souche",
+      "note": "Le tronc d'arbre remplace la souche. Le meilleur effet secondaire du sport."
+    },
+    {
+      "es": "Darse un capricho",
+      "fr": "Se faire plaisir",
+      "note": "Un gâteau après la piscine, un massage après le fisio. Ça aussi, c'est prendre soin de soi."
+    },
+    {
+      "es": "Ir a tope",
+      "fr": "Être à fond",
+      "note": "Pour une semaine chargée ou une prof de zumba trop motivée."
+    },
+    {
+      "es": "No poder ni con mi alma",
+      "fr": "Être complètement épuisée",
+      "note": "Mot à mot : ne même plus pouvoir porter son âme. Après la première séance de gym, garanti."
+    }
+  ]
+}

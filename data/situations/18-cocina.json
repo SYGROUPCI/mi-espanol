@@ -1,0 +1,326 @@
+{
+  "id": "cocina",
+  "ordre": 18,
+  "niveau": "A2",
+  "titre": "Cuisiner",
+  "titre_es": "Cocinar",
+  "intro": "Faire ses courses au marché, suivre une recette, retourner une tortilla sans tout mettre par terre et inviter les amis à goûter : la cuisine, c'est aussi une excellente école d'espagnol. Tablier conseillé.",
+  "phrases": [
+    {
+      "id": "cocina-01",
+      "es": "¿Me enseñas a hacer una tortilla de patatas?",
+      "fr": "Tu m'apprends à faire une tortilla de patatas ?",
+      "pron": "mé én-SSÉ-gnass a a-THÉR OU-na tor-TI-ya dé pa-TA-tass",
+      "note": "« Enseñar a » + infinitif : apprendre à quelqu'un. La tortilla, c'est l'omelette aux pommes de terre, et le sujet de débats passionnés : avec ou sans oignon ?",
+      "rapide": "¿M'enseñas a hacer una tortilla de patatas?"
+    },
+    {
+      "id": "cocina-02",
+      "es": "¿Qué necesito para la tortilla? Así lo compro todo hoy.",
+      "fr": "Qu'est-ce qu'il me faut pour la tortilla ? Comme ça, j'achète tout aujourd'hui.",
+      "pron": "KÉ né-thé-SSI-to PA-ra la tor-TI-ya a-SSI lo KOM-pro TO-do OÏ",
+      "note": "« Así », comme ça. Un petit mot qui relie la question au projet et rend la phrase plus naturelle."
+    },
+    {
+      "id": "cocina-03",
+      "es": "Ponme medio kilo de tomates maduros, por favor.",
+      "fr": "Mets-moi un demi-kilo de tomates bien mûres, s'il te plaît.",
+      "pron": "PON-mé MÉ-dyo KI-lo dé to-MA-téss ma-DOU-ross por fa-BOR",
+      "note": "Au marché, « ponme » ou « me pones » est la façon normale de commander, pas un ordre impoli. Et on dit « medio kilo », sans « un » devant."
+    },
+    {
+      "id": "cocina-04",
+      "es": "Para el gazpacho hace falta tomate, pepino, pimiento, ajo, aceite y vinagre.",
+      "fr": "Pour le gazpacho, il faut de la tomate, du concombre, du poivron, de l'ail, de l'huile et du vinaigre.",
+      "pron": "PA-ra él gath-PA-tcho A-thé FAL-ta to-MA-té pé-PI-no pi-MYÉN-to A-kho a-THÉÏ-té i bi-NA-gré",
+      "note": "« Hace falta », il faut. Chaque famille a sa version : beaucoup ajoutent du pain rassis, certains de l'oignon."
+    },
+    {
+      "id": "cocina-05",
+      "es": "Pela las patatas y córtalas en rodajas finas.",
+      "fr": "Épluche les pommes de terre et coupe-les en fines rondelles.",
+      "pron": "PÉ-la lass pa-TA-tass i KOR-ta-lass én rro-DA-khass FI-nass",
+      "note": "À l'impératif, le pronom se colle au verbe : « córtalas ». L'accent écrit apparaît pour garder l'accent tonique au même endroit."
+    },
+    {
+      "id": "cocina-06",
+      "es": "Echa un buen chorro de aceite en la sartén.",
+      "fr": "Verse un bon filet d'huile dans la poêle.",
+      "pron": "É-tcha oun BOUÉN TCHO-rro dé a-THÉÏ-té én la sar-TÉN",
+      "note": "« Echar », c'est mettre ou verser : le verbe passe-partout de la cuisine espagnole. Et un « chorro » d'huile d'olive, ici, c'est généreux.",
+      "rapide": "Echa un buen chorro d'aceite en la sartén."
+    },
+    {
+      "id": "cocina-07",
+      "es": "Añade una pizca de sal y remueve bien.",
+      "fr": "Ajoute une pincée de sel et mélange bien.",
+      "pron": "a-GNA-dé OU-na PITH-ka dé SAL i rré-MOUÉ-bé BYÉN",
+      "note": "« Una pizca », c'est une pincée. « Remover », c'est remuer dans la poêle ou la casserole.",
+      "rapide": "Añad'una pizca'e sal y remueve bien."
+    },
+    {
+      "id": "cocina-08",
+      "es": "Bate los huevos en un bol y mézclalos con las patatas.",
+      "fr": "Bats les œufs dans un bol et mélange-les avec les pommes de terre.",
+      "pron": "BA-té loss OUÉ-boss én oun BOL i MÉTH-kla-loss kon lass pa-TA-tass",
+      "note": "« Batir » les œufs, comme en français. « Bate » n'a pas d'accent écrit, mais « mézclalos » en prend un à cause du pronom ajouté."
+    },
+    {
+      "id": "cocina-09",
+      "es": "Fríe la cebolla a fuego lento unos diez minutos.",
+      "fr": "Fais revenir l'oignon à feu doux une dizaine de minutes.",
+      "pron": "FRI-é la thé-BO-ya a FOUÉ-go LÉN-to OU-noss DYÉTH mi-NOU-toss",
+      "note": "« A fuego lento », à feu doux ; « a fuego fuerte », à feu vif. « Unos diez minutos » veut dire environ dix minutes."
+    },
+    {
+      "id": "cocina-10",
+      "es": "Ahora dale la vuelta con un plato, pero con cuidado.",
+      "fr": "Maintenant, retourne-la avec une assiette, mais doucement.",
+      "pron": "a-O-ra DA-lé la BOUÉL-ta kon oun PLA-to PÉ-ro kon koui-DA-do",
+      "note": "Le moment le plus redouté de la tortilla. « Darle la vuelta », c'est retourner. Si elle s'écrase, appelle ça un « revuelto » et personne n'y verra rien.",
+      "rapide": "Ahora dale la vuelta con un plato, pero con cuidao."
+    },
+    {
+      "id": "cocina-11",
+      "es": "¿Cuántos huevos le echo?",
+      "fr": "J'en mets combien, des œufs ?",
+      "pron": "KOUAN-toss OUÉ-boss lé É-tcho",
+      "note": "« Le echo » : j'en mets dans la recette. Les Espagnols pèsent rarement, la réponse sera souvent « a ojo », à l'œil.",
+      "rapide": "¿Cuántos huevos l'echo?"
+    },
+    {
+      "id": "cocina-12",
+      "es": "Lo he hecho como mi abuela, pero con un poco más de sal.",
+      "fr": "Je l'ai fait comme ma grand-mère, mais avec un peu plus de sel.",
+      "pron": "lo é É-tcho KO-mo mi a-BOUÉ-la PÉ-ro kon oun PO-ko MASS dé SAL",
+      "note": "« Un poco más de », un peu plus de ; « un poco menos de », un peu moins de. La base de la cuisine, et des disputes de famille."
+    },
+    {
+      "id": "cocina-13",
+      "es": "Las pochas riojanas llevan pimiento, cebolla y, a veces, chorizo.",
+      "fr": "Les pochas riojanas se font avec du poivron, de l'oignon et parfois du chorizo.",
+      "pron": "lass PO-tchass rri-o-KHA-nass YÉ-ban pi-MYÉN-to thé-BO-ya i a BÉ-théss tcho-RI-tho",
+      "note": "Les pochas sont des haricots blancs frais, typiques de La Rioja. Chaque maison a sa recette : demande celle de tes voisins."
+    },
+    {
+      "id": "cocina-14",
+      "es": "Pruébalo y dime si le falta sal.",
+      "fr": "Goûte et dis-moi s'il manque du sel.",
+      "pron": "PROUÉ-ba-lo i DI-mé si lé FAL-ta SAL",
+      "note": "« Probar », c'est goûter. Deux impératifs de suite avec le pronom collé : pruébalo, dime."
+    },
+    {
+      "id": "cocina-15",
+      "es": "¿Quieres probar? Lo he hecho yo.",
+      "fr": "Tu veux goûter ? C'est moi qui l'ai fait.",
+      "pron": "KYÉ-réss pro-BAR lo é É-tcho YO",
+      "note": "Pour inviter à goûter, avec une petite fierté bien méritée. La réponse polie attendue : « ¡Qué rico! »."
+    },
+    {
+      "id": "cocina-16",
+      "es": "Este gazpacho está más rico que el del bar.",
+      "fr": "Ce gazpacho est meilleur que celui du bar.",
+      "pron": "ÉSS-té gath-PA-tcho éss-TA MASS RRI-ko ké él dél BAR",
+      "note": "« Más rico que », littéralement plus bon que. On peut aussi dire « está mejor que ». Compliment garanti.",
+      "rapide": "Este gazpacho'stá más rico que'l del bar."
+    },
+    {
+      "id": "cocina-17",
+      "es": "¿Cuánto tiempo hay que dejarlo en la nevera?",
+      "fr": "Combien de temps faut-il le laisser au frigo ?",
+      "pron": "KOUAN-to TYÉM-po AÏ ké dé-KHAR-lo én la né-BÉ-ra",
+      "note": "Le gazpacho se sert bien froid. « Hay que » + infinitif, déjà vu pour les pannes, sert aussi en cuisine."
+    },
+    {
+      "id": "cocina-18",
+      "es": "Ayer intenté hacer pan, pero se me quemó.",
+      "fr": "Hier, j'ai essayé de faire du pain, mais je l'ai brûlé.",
+      "pron": "a-YÉR in-tén-TÉ a-THÉR PAN PÉ-ro sé mé ké-MO",
+      "note": "« Se me quemó », mot à mot « il s'est brûlé à moi », comme si c'était la faute du four. Les Espagnols adorent cette tournure pour les accidents."
+    },
+    {
+      "id": "cocina-19",
+      "es": "Este sábado voy a hacer pochas en casa. ¿Te apetece venir a comer?",
+      "fr": "Samedi, je vais faire des pochas à la maison. Ça te dit de venir manger ?",
+      "pron": "ÉSS-té SA-ba-do BOÏ a a-THÉR PO-tchass én KA-ssa té a-pé-TÉ-thé bé-NIR a ko-MÉR",
+      "note": "Futur proche plus invitation : la recette parfaite pour se faire des amis. En Espagne, « comer » désigne surtout le repas de midi."
+    },
+    {
+      "id": "cocina-20",
+      "es": "Compra también una barra de pan y un cuarto de kilo de jamón.",
+      "fr": "Achète aussi une baguette et un quart de kilo de jambon.",
+      "pron": "KOM-pra tam-BYÉN OU-na BA-rra dé PAN i oun KOUAR-to dé KI-lo dé kha-MON",
+      "note": "« Un cuarto de kilo », c'est un quart de kilo ; on dit aussi « doscientos cincuenta gramos ». « Una barra de pan », c'est la baguette espagnole.",
+      "rapide": "Compra también una barra'e pan y un cuarto'e kilo de jamón."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Au marché",
+      "contexte": "Samedi matin, tu fais les courses pour ton premier gazpacho. La marchande de fruits et légumes a l'air de s'y connaître.",
+      "lignes": [
+        {
+          "qui": "Frutera",
+          "es": "¡Buenos días, guapa! ¿Qué te pongo?",
+          "fr": "Bonjour ma belle ! Qu'est-ce que je te sers ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Ponme medio kilo de tomates maduros, por favor. Son para un gazpacho.",
+          "fr": "Mets-moi un demi-kilo de tomates bien mûres, s'il te plaît. C'est pour un gazpacho."
+        },
+        {
+          "qui": "Frutera",
+          "es": "Entonces llévate estos, que están perfectos. ¿Algo más?",
+          "fr": "Alors prends celles-ci, elles sont parfaites. Autre chose ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Sí, un pepino y un pimiento verde. ¿Qué más hace falta?",
+          "fr": "Oui, un concombre et un poivron vert. Qu'est-ce qu'il faut d'autre ?"
+        },
+        {
+          "qui": "Frutera",
+          "es": "Un diente de ajo, buen aceite y un chorrito de vinagre. Y un poco de pan duro, si te gusta más espeso.",
+          "fr": "Une gousse d'ail, une bonne huile et un filet de vinaigre. Et un peu de pain rassis, si tu l'aimes plus épais."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Cuánto tiempo hay que dejarlo en la nevera?",
+          "fr": "Combien de temps faut-il le laisser au frigo ?"
+        },
+        {
+          "qui": "Frutera",
+          "es": "Un par de horas como mínimo. Bien frío entra solo.",
+          "fr": "Deux bonnes heures au minimum. Bien frais, il se boit tout seul."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Perfecto. ¿Cuánto es todo?",
+          "fr": "Parfait. Ça fait combien en tout ?"
+        },
+        {
+          "qui": "Frutera",
+          "es": "Ahora mismo te lo digo. Y luego me cuentas qué tal te ha salido.",
+          "fr": "Je te dis ça tout de suite. Et après, tu me racontes comment il était."
+        }
+      ]
+    },
+    {
+      "titre": "La tortilla de Khalil",
+      "contexte": "Khalil veut absolument réussir une tortilla. Tu joues les cheffes, il joue le commis.",
+      "lignes": [
+        {
+          "qui": "Khalil",
+          "es": "¿Me enseñas a hacer una tortilla de patatas?",
+          "fr": "Tu m'apprends à faire une tortilla de patatas ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Claro. Primero pela las patatas y córtalas en rodajas finas.",
+          "fr": "Bien sûr. D'abord, épluche les pommes de terre et coupe-les en fines rondelles."
+        },
+        {
+          "qui": "Khalil",
+          "es": "Hecho. ¿Y ahora?",
+          "fr": "C'est fait. Et maintenant ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Echa un buen chorro de aceite en la sartén y fríe las patatas a fuego lento con la cebolla.",
+          "fr": "Verse un bon filet d'huile dans la poêle et fais cuire les pommes de terre à feu doux avec l'oignon."
+        },
+        {
+          "qui": "Khalil",
+          "es": "¿Con cebolla? En el bar me dijeron que la buena es sin cebolla.",
+          "fr": "Avec de l'oignon ? Au bar, on m'a dit que la vraie, c'est sans oignon."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Eso es un debate eterno. En esta casa, con cebolla. Ahora bate los huevos.",
+          "fr": "C'est un débat sans fin. Dans cette maison, c'est avec oignon. Maintenant, bats les œufs."
+        },
+        {
+          "qui": "Khalil",
+          "es": "¿Cuántos huevos le echo?",
+          "fr": "J'en mets combien, des œufs ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Seis o siete, a ojo. Añade una pizca de sal, mézclalo todo y luego dale la vuelta con un plato, pero con cuidado.",
+          "fr": "Six ou sept, à l'œil. Ajoute une pincée de sel, mélange tout, puis retourne-la avec une assiette, mais doucement."
+        },
+        {
+          "qui": "Khalil",
+          "es": "¡Lo he conseguido! Pruébala y dime si le falta sal.",
+          "fr": "J'ai réussi ! Goûte-la et dis-moi s'il manque du sel."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Mmm… ¡Está de rechupete!",
+          "fr": "Mmm… Elle est délicieuse !"
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "L'impératif (tú) et les quantités",
+    "explication": "Pour donner une instruction à quelqu'un qu'on tutoie, on prend le présent de « tú » et on enlève le s final : cortas devient corta, añades devient añade, echas devient echa. Quelques verbes courants sont irréguliers : poner donne pon, hacer donne haz, decir donne di, salir donne sal. Les pronoms se collent à la fin du verbe, avec souvent un accent écrit : córtalas, pruébalo, dime. Pour les quantités, on met toujours « de » avant l'ingrédient : un poco de sal, una pizca de pimienta, medio kilo de tomates.",
+    "tableau": [
+      ["cortar → corta", "coupe"],
+      ["añadir → añade", "ajoute"],
+      ["echar → echa", "mets, verse"],
+      ["poner → pon", "mets"],
+      ["hacer → haz", "fais"],
+      ["un poco de / una pizca de", "un peu de / une pincée de"],
+      ["medio kilo de / un cuarto de kilo de", "un demi-kilo de / un quart de kilo de"],
+      ["una docena de huevos", "une douzaine d'œufs"]
+    ],
+    "exemples": [
+      {
+        "es": "Corta el pimiento en trozos pequeños y échalo en la olla.",
+        "fr": "Coupe le poivron en petits morceaux et mets-le dans la marmite."
+      },
+      {
+        "es": "Haz la salsa con un poco de aceite y una pizca de sal.",
+        "fr": "Fais la sauce avec un peu d'huile et une pincée de sel."
+      },
+      {
+        "es": "Pon medio litro de agua a calentar.",
+        "fr": "Mets un demi-litre d'eau à chauffer."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Está de rechupete",
+      "fr": "C'est délicieux",
+      "note": "Très familier et très affectueux. Le compliment préféré des grands-mères."
+    },
+    {
+      "es": "Para chuparse los dedos",
+      "fr": "À s'en lécher les doigts",
+      "note": "Comme en français. Pour un plat qui mérite une deuxième assiette."
+    },
+    {
+      "es": "A ojo",
+      "fr": "À l'œil, au pif",
+      "note": "La mesure officielle des cuisines espagnoles. Pratique, sauf quand tu veux noter la recette."
+    },
+    {
+      "es": "Tener buen saque",
+      "fr": "Avoir un bon coup de fourchette",
+      "note": "Pour quelqu'un qui mange beaucoup, et sans complexe. Souvent dit avec admiration."
+    },
+    {
+      "es": "Ser pan comido",
+      "fr": "C'est du gâteau",
+      "note": "Pour quelque chose de très facile. Pas forcément la tortilla, au début."
+    },
+    {
+      "es": "Dar la vuelta a la tortilla",
+      "fr": "Renverser la situation",
+      "note": "Au sens propre en cuisine, et au sens figuré quand tout change d'un coup."
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": "finde",
+  "ordre": 13,
+  "niveau": "A2",
+  "titre": "Raconter son week-end",
+  "titre_es": "Contar el fin de semana",
+  "intro": "Le lundi matin, tout le monde demande ce que tu as fait du week-end. Voici de quoi raconter ton samedi au marché comme ton dimanche sur le canapé, au bon temps du passé.",
+  "phrases": [
+    {
+      "id": "finde-01",
+      "es": "¿Qué has hecho este finde?",
+      "fr": "Qu'est-ce que tu as fait ce week-end ?",
+      "pron": "ké ass É-tcho ÉSS-té FIN-dé",
+      "note": "« Finde », c'est le fin de semana en version courte. Avec « este finde », on utilise le passé composé : le week-end vient juste de se terminer.",
+      "rapide": "¿Qué'as hecho este finde?"
+    },
+    {
+      "id": "finde-02",
+      "es": "No he hecho nada especial, me he quedado en casa.",
+      "fr": "Je n'ai rien fait de spécial, je suis restée à la maison.",
+      "pron": "no é É-tcho NA-da éss-pé-THYAL mé é ké-DA-do én KA-ssa",
+      "note": "« Quedarse en casa », c'est rester chez soi. Réponse parfaite pour un week-end pyjama, aucune honte à avoir.",
+      "rapide": "No he hecho na' especial, m'he quedao en casa."
+    },
+    {
+      "id": "finde-03",
+      "es": "El sábado por la mañana fui al mercado y luego di un paseo por el Espolón.",
+      "fr": "Samedi matin, je suis allée au marché, puis je me suis promenée sur l'Espolón.",
+      "pron": "él SA-ba-do por la ma-GNA-na FOUI al mér-KA-do i LOUÉ-go DI oun pa-SSÉ-o por él éss-po-LON",
+      "note": "« El sábado » est un moment fini et daté, donc passé simple : « fui », « di ». « Dar un paseo », c'est se promener."
+    },
+    {
+      "id": "finde-04",
+      "es": "Ayer estuve todo el día en casa porque llovía mucho.",
+      "fr": "Hier, je suis restée toute la journée chez moi parce qu'il pleuvait beaucoup.",
+      "pron": "a-YÉR éss-TOU-bé TO-do él DI-a én KA-ssa POR-ké yo-BI-a MOU-tcho",
+      "note": "« Estuve » raconte ce que tu as fait, « llovía » décrit le décor. Comme en français avec l'imparfait."
+    },
+    {
+      "id": "finde-05",
+      "es": "Hoy he dormido hasta las once, ¡qué gusto!",
+      "fr": "Aujourd'hui, j'ai dormi jusqu'à onze heures, quel bonheur !",
+      "pron": "OÏ é dor-MI-do ASS-ta lass ON-thé ké GOUSS-to",
+      "note": "Avec « hoy », toujours le passé composé en Espagne : « he dormido », jamais « dormí »."
+    },
+    {
+      "id": "finde-06",
+      "es": "El domingo fuimos de excursión al monte con unos amigos.",
+      "fr": "Dimanche, on est partis en randonnée à la montagne avec des amis.",
+      "pron": "él do-MIN-go FOUI-moss dé éks-kour-SSYON al MON-té kon OU-noss a-MI-goss",
+      "note": "« Fuimos » sert pour « ir » et pour « ser » : le contexte fait la différence. « El monte », c'est la montagne proche, celle où l'on marche le dimanche."
+    },
+    {
+      "id": "finde-07",
+      "es": "¿Y tú qué hiciste el sábado por la noche?",
+      "fr": "Et toi, tu as fait quoi samedi soir ?",
+      "pron": "i TOU ké i-THISS-té él SA-ba-do por la NO-tché",
+      "note": "« Hacer » est irrégulier au passé simple : hice, hiciste, hizo. Le z de « hizo » remplace le c, juste pour garder le même son.",
+      "rapide": "¿Y tú qué hiciste el sábao por la noche?"
+    },
+    {
+      "id": "finde-08",
+      "es": "Salimos a cenar y después fuimos a tomar algo por el centro.",
+      "fr": "On est sortis dîner et après on est allés boire un verre dans le centre.",
+      "pron": "sa-LI-moss a thé-NAR i déss-POUÉSS FOUI-moss a to-MAR AL-go por él THÉN-tro",
+      "note": "« Salimos » est le même au présent et au passé simple. Ici, le « después » t'indique qu'on raconte."
+    },
+    {
+      "id": "finde-09",
+      "es": "Llegué a casa a las tres de la mañana, así que hoy estoy muerta.",
+      "fr": "Je suis rentrée à trois heures du matin, du coup aujourd'hui je suis morte.",
+      "pron": "yé-GUÉ a KA-ssa a lass TRÉSS dé la ma-GNA-na a-SSI ké OÏ éss-TOÏ MOUÉR-ta",
+      "note": "« Así que », c'est « du coup » ou « donc ». Pour dire qu'on rentre chez soi, on dit simplement « llegar a casa ».",
+      "rapide": "Llegué a casa a las tres de la mañana, así que hoy 'toy muerta."
+    },
+    {
+      "id": "finde-10",
+      "es": "Hemos visto una película en casa y hemos pedido una pizza.",
+      "fr": "On a regardé un film à la maison et on a commandé une pizza.",
+      "pron": "É-moss BISS-to OU-na pé-LI-kou-la én KA-ssa i É-moss pé-DI-do OU-na PIT-sa",
+      "note": "« Visto » est le participe irrégulier de « ver ». « Pedir una pizza », c'est la commander, pas la mendier."
+    },
+    {
+      "id": "finde-11",
+      "es": "El fin de semana pasado fuimos a pasar el día a Bilbao.",
+      "fr": "Le week-end dernier, on est allés passer la journée à Bilbao.",
+      "pron": "él FIN dé sé-MA-na pa-SSA-do FOUI-moss a pa-SSAR él DI-a a bil-BA-o",
+      "note": "« Pasado » ferme la porte : le week-end dernier est terminé, donc passé simple."
+    },
+    {
+      "id": "finde-12",
+      "es": "¿Lo pasaste bien?",
+      "fr": "Tu t'es bien amusée ?",
+      "pron": "lo pa-SSASS-té BYÉN",
+      "note": "« Pasarlo bien », c'est passer un bon moment. On le dit après une fête, un voyage, un mariage."
+    },
+    {
+      "id": "finde-13",
+      "es": "Lo pasamos fenomenal, pero volvimos agotados.",
+      "fr": "On s'est super bien amusés, mais on est rentrés épuisés.",
+      "pron": "lo pa-SSA-moss fé-no-mé-NAL PÉ-ro bol-BI-moss a-go-TA-doss",
+      "note": "« Fenomenal » est très courant à l'oral. « Volver », c'est rentrer ou revenir."
+    },
+    {
+      "id": "finde-14",
+      "es": "Fue un fin de semana muy tranquilo.",
+      "fr": "C'était un week-end très calme.",
+      "pron": "FOUÉ oun FIN dé sé-MA-na MOUÏ tran-KI-lo",
+      "note": "Pour faire le bilan d'une période terminée, on prend le passé simple de « ser » : « fue »."
+    },
+    {
+      "id": "finde-15",
+      "es": "Esta mañana he ido a correr por el parque.",
+      "fr": "Ce matin, je suis allée courir au parc.",
+      "pron": "ÉSS-ta ma-GNA-na é I-do a ko-RRÉR por él PAR-ké",
+      "note": "« Esta mañana » fait partie d'aujourd'hui, donc passé composé. Et en espagnol, « he » sert pour tous les verbes, même « ir ».",
+      "rapide": "'Sta mañana he ido a correr por el parque."
+    },
+    {
+      "id": "finde-16",
+      "es": "Ya he estado en Haro, pero todavía no he ido a la Batalla del Vino.",
+      "fr": "Je suis déjà allée à Haro, mais je ne suis pas encore allée à la Bataille du vin.",
+      "pron": "YA é éss-TA-do én A-ro PÉ-ro to-da-BI-a no é I-do a la ba-TA-ya dél BI-no",
+      "note": "« Ya » et « todavía no » appellent le passé composé. La Batalla del Vino a lieu à Haro chaque année fin juin : prévois des vêtements que tu ne regretteras pas."
+    },
+    {
+      "id": "finde-17",
+      "es": "Anoche salí con los compañeros del trabajo.",
+      "fr": "Hier soir, je suis sortie avec les collègues.",
+      "pron": "a-NO-tché sa-LI kon loss kom-pa-GNÉ-ross dél tra-BA-kho",
+      "note": "« Anoche », c'est hier soir : comme « ayer », il demande le passé simple."
+    },
+    {
+      "id": "finde-18",
+      "es": "Hacía mucho que no me reía tanto.",
+      "fr": "Ça faisait longtemps que je n'avais pas autant ri.",
+      "pron": "a-THI-a MOU-tcho ké no mé rré-I-a TAN-to",
+      "note": "Une formule toute faite pour dire qu'on a passé une super soirée. L'imparfait remplace ici le plus-que-parfait français."
+    },
+    {
+      "id": "finde-19",
+      "es": "Al final no hice nada de lo que tenía pensado.",
+      "fr": "Finalement, je n'ai rien fait de ce que j'avais prévu.",
+      "pron": "al fi-NAL no I-thé NA-da dé lo ké té-NI-a pén-SSA-do",
+      "note": "« Al final », c'est finalement. Phrase très utile pour les week-ends où le canapé a gagné.",
+      "rapide": "Al final no hice na' de lo que tenía pensao."
+    },
+    {
+      "id": "finde-20",
+      "es": "¿Y el tuyo, qué tal?",
+      "fr": "Et le tien, c'était comment ?",
+      "pron": "i él TOU-yo ké TAL",
+      "note": "Pour renvoyer la question après avoir raconté ton week-end. Sans elle, la conversation risque de devenir un monologue."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Lundi matin au travail",
+      "contexte": "Lundi, neuf heures. Marta, ta collègue, arrive avec un café et beaucoup de curiosité.",
+      "lignes": [
+        {
+          "qui": "Marta",
+          "es": "¡Buenos días, Elisabeth! ¿Qué has hecho este finde?",
+          "fr": "Bonjour Elisabeth ! Qu'est-ce que tu as fait ce week-end ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "El sábado por la mañana fui al mercado y luego di un paseo por el Espolón.",
+          "fr": "Samedi matin, je suis allée au marché, puis je me suis promenée sur l'Espolón."
+        },
+        {
+          "qui": "Marta",
+          "es": "¡Qué bien! ¿Y por la noche?",
+          "fr": "Super ! Et le soir ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Salimos a cenar y después fuimos a tomar algo por el centro. Hacía mucho que no me reía tanto.",
+          "fr": "On est sortis dîner et après on est allés boire un verre dans le centre. Ça faisait longtemps que je n'avais pas autant ri."
+        },
+        {
+          "qui": "Marta",
+          "es": "¿Y el domingo?",
+          "fr": "Et dimanche ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Descansar. Pero anoche dormí poco, así que hoy no me pidas mucho. ¿Y el tuyo, qué tal?",
+          "fr": "Me reposer. Mais cette nuit j'ai peu dormi, alors aujourd'hui ne m'en demande pas trop. Et le tien, c'était comment ?"
+        },
+        {
+          "qui": "Marta",
+          "es": "Fue un fin de semana muy tranquilo. Estuve en casa de mis padres, en el pueblo.",
+          "fr": "C'était un week-end très calme. J'étais chez mes parents, au village."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "¿Lo pasaste bien?",
+          "fr": "Tu t'es bien amusée ?"
+        },
+        {
+          "qui": "Marta",
+          "es": "Sí, mi madre cocinó para un regimiento. He vuelto con tres táperes.",
+          "fr": "Oui, ma mère a cuisiné pour un régiment. Je suis revenue avec trois Tupperware."
+        }
+      ]
+    },
+    {
+      "titre": "Khalil raconte Bilbao",
+      "contexte": "Khalil est venu te voir en Espagne. Au bar, Lucía lui demande des nouvelles de votre escapade à Bilbao.",
+      "lignes": [
+        {
+          "qui": "Lucía",
+          "es": "¡Hola, Khalil! ¿Qué tal el viaje a Bilbao?",
+          "fr": "Salut Khalil ! Alors, ce voyage à Bilbao ?"
+        },
+        {
+          "qui": "Khalil",
+          "es": "Muy bien. El fin de semana pasado fuimos a pasar el día allí con Elisabeth.",
+          "fr": "Très bien. Le week-end dernier, on est allés y passer la journée avec Elisabeth."
+        },
+        {
+          "qui": "Lucía",
+          "es": "¿Y qué visitasteis?",
+          "fr": "Et vous avez visité quoi ?"
+        },
+        {
+          "qui": "Khalil",
+          "es": "Paseamos por el casco viejo y comimos pintxos. Lo pasamos fenomenal, pero volvimos agotados.",
+          "fr": "On s'est promenés dans la vieille ville et on a mangé des pintxos. On s'est super bien amusés, mais on est rentrés épuisés."
+        },
+        {
+          "qui": "Lucía",
+          "es": "¿Y este finde qué habéis hecho?",
+          "fr": "Et ce week-end, vous avez fait quoi ?"
+        },
+        {
+          "qui": "Khalil",
+          "es": "Nada especial. Hemos visto una película en casa y hemos pedido una pizza.",
+          "fr": "Rien de spécial. On a regardé un film à la maison et on a commandé une pizza."
+        },
+        {
+          "qui": "Lucía",
+          "es": "Eso también es un buen plan.",
+          "fr": "C'est aussi un bon programme."
+        },
+        {
+          "qui": "Khalil",
+          "es": "Sí. Al final no hicimos nada de lo que teníamos pensado, pero descansamos.",
+          "fr": "Oui. Finalement on n'a rien fait de ce qu'on avait prévu, mais on s'est reposés."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "He ido ou fui ?",
+    "explication": "En Espagne, on choisit le passé selon le moment. Si la période n'est pas finie (hoy, esta mañana, este finde, esta semana) ou avec ya et todavía no, on prend le passé composé : « he ido ». Si le moment est terminé et daté (ayer, anoche, el sábado, el fin de semana pasado, en 2023), on prend le passé simple : « fui ». Les deux se traduisent souvent par le passé composé français, c'est le repère de temps qui décide. Bonne nouvelle : ir et ser ont le même passé simple.",
+    "tableau": [
+      [
+        "yo",
+        "he ido / fui"
+      ],
+      [
+        "tú",
+        "has ido / fuiste"
+      ],
+      [
+        "él, ella, usted",
+        "ha ido / fue"
+      ],
+      [
+        "nosotros",
+        "hemos ido / fuimos"
+      ],
+      [
+        "vosotros",
+        "habéis ido / fuisteis"
+      ],
+      [
+        "ellos, ellas",
+        "han ido / fueron"
+      ]
+    ],
+    "exemples": [
+      {
+        "es": "Esta semana he ido dos veces al gimnasio.",
+        "fr": "Cette semaine, je suis allée deux fois à la salle de sport."
+      },
+      {
+        "es": "El sábado pasado fuimos al cine con Lucía.",
+        "fr": "Samedi dernier, on est allés au cinéma avec Lucía."
+      },
+      {
+        "es": "Ayer comí con Marta y hoy he comido sola.",
+        "fr": "Hier, j'ai déjeuné avec Marta et aujourd'hui j'ai déjeuné seule."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Estoy hecha polvo",
+      "fr": "Je suis crevée",
+      "note": "Littéralement « réduite en poussière ». Au masculin, Khalil dira « estoy hecho polvo »."
+    },
+    {
+      "es": "Pegarse un madrugón",
+      "fr": "Se lever aux aurores",
+      "note": "« Me he pegado un madrugón » : je me suis levée très tôt. Se dit souvent avec un soupir."
+    },
+    {
+      "es": "Quedarse frita",
+      "fr": "S'endormir comme une masse",
+      "note": "« Me quedé frita en el sofá » : le destin de beaucoup de films du samedi soir."
+    },
+    {
+      "es": "Salir de fiesta",
+      "fr": "Sortir faire la fête",
+      "note": "On entend aussi « salir de marcha ». Le lendemain, on parle de « resaca », la gueule de bois."
+    },
+    {
+      "es": "Un finde de relax",
+      "fr": "Un week-end tranquille",
+      "note": "Pour un week-end sans rien de prévu. Le mot « relax » est entré dans l'espagnol de tous les jours."
+    },
+    {
+      "es": "¡Se me ha pasado volando!",
+      "fr": "Il est passé à toute vitesse !",
+      "note": "Ce qu'on dit du week-end, chaque lundi, partout en Espagne."
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "id": "viaje",
+  "ordre": 17,
+  "niveau": "A2",
+  "titre": "Voyager en Espagne",
+  "titre_es": "Viajar por España",
+  "intro": "Prendre le train, attraper un bus, réclamer une vraie chambre double et trouver la cathédrale sans GPS : de quoi partir explorer l'Espagne et raconter ton voyage au retour. La valise, c'est toi qui la fais.",
+  "phrases": [
+    {
+      "id": "viaje-01",
+      "es": "Quería un billete de ida y vuelta a Madrid para el viernes.",
+      "fr": "Je voudrais un billet aller-retour pour Madrid pour vendredi.",
+      "pron": "ké-RI-a oun bi-YÉ-té dé I-da i BOUÉL-ta a ma-DRID PA-ra él BYÉR-néss",
+      "note": "« Ida y vuelta », c'est l'aller-retour ; « solo ida », l'aller simple. Chez Renfe, les prix varient selon le jour et l'heure : compare avant d'acheter."
+    },
+    {
+      "id": "viaje-02",
+      "es": "¿De qué andén sale el tren para Zaragoza?",
+      "fr": "De quel quai part le train pour Saragosse ?",
+      "pron": "dé KÉ an-DÉN SA-lé él TRÉN PA-ra tha-ra-GO-tha",
+      "note": "Le quai, c'est « el andén » ; la voie, « la vía ». Sur l'écran des départs, cherche le mot « salidas ».",
+      "rapide": "¿De qué andén sale'l tren pa' Zaragoza?"
+    },
+    {
+      "id": "viaje-03",
+      "es": "El tren lleva cuarenta minutos de retraso.",
+      "fr": "Le train a quarante minutes de retard.",
+      "pron": "él TRÉN YÉ-ba koua-RÉN-ta mi-NOU-toss dé rré-TRA-sso",
+      "note": "Encore « llevar » : le train « lleva » du retard. Selon la durée, il peut y avoir un dédommagement : renseigne-toi au guichet ou sur le site de Renfe."
+    },
+    {
+      "id": "viaje-04",
+      "es": "Perdimos el autobús porque el tren llegó tarde.",
+      "fr": "On a raté le bus parce que le train est arrivé en retard.",
+      "pron": "pér-DI-moss él aou-to-BOUSS POR-ké él TRÉN yé-GO TAR-dé",
+      "note": "« Perder el autobús », c'est rater le bus. Deux passés simples reliés par « porque » : voilà un vrai petit récit."
+    },
+    {
+      "id": "viaje-05",
+      "es": "¿A qué hora sale el próximo autobús para Bilbao?",
+      "fr": "À quelle heure part le prochain bus pour Bilbao ?",
+      "pron": "a KÉ O-ra SA-lé él PROK-ssi-mo aou-to-BOUSS PA-ra bil-BA-o",
+      "note": "Les bus longue distance partent de « la estación de autobuses ». Vérifie toujours les horaires sur le site de la compagnie.",
+      "rapide": "¿A qué'ora sale'l próximo autobús pa' Bilbao?"
+    },
+    {
+      "id": "viaje-06",
+      "es": "Tengo una reserva a nombre de Elisabeth.",
+      "fr": "J'ai une réservation au nom d'Elisabeth.",
+      "pron": "TÉN-go OU-na rré-SSÉR-ba a NOM-bré dé é-li-ssa-BÉT",
+      "note": "La phrase magique de la réception. Prépare ton passeport ou ton NIE : l'hôtel va te le demander."
+    },
+    {
+      "id": "viaje-07",
+      "es": "¿El desayuno está incluido en el precio?",
+      "fr": "Le petit-déjeuner est compris dans le prix ?",
+      "pron": "él dé-ssa-YOU-no éss-TA in-KLOUI-do én él PRÉ-thyo",
+      "note": "À demander avant de réserver. Sinon, un café con leche et une tostada au bar d'en face font très bien l'affaire.",
+      "rapide": "¿El desayuno'stá incluido en el precio?"
+    },
+    {
+      "id": "viaje-08",
+      "es": "Reservé una habitación doble y me han dado una individual.",
+      "fr": "J'ai réservé une chambre double et on m'a donné une chambre simple.",
+      "pron": "rré-ssér-BÉ OU-na a-bi-ta-THYON DO-blé i mé an DA-do OU-na in-di-bi-DOUAL",
+      "note": "« Reservé » pour l'action passée, « me han dado » pour ce qui vient d'arriver. Signale-le dès l'arrivée, avant de défaire la valise."
+    },
+    {
+      "id": "viaje-09",
+      "es": "El aire acondicionado de la habitación no enfría.",
+      "fr": "La clim de la chambre ne refroidit pas.",
+      "pron": "él AÏ-ré a-kon-di-thyo-NA-do dé la a-bi-ta-THYON no én-FRI-a",
+      "note": "Pour le chauffage, on dira « la calefacción no calienta ». En plein mois d'août, la clim n'est pas un luxe."
+    },
+    {
+      "id": "viaje-10",
+      "es": "¿Nos podría cambiar a otra habitación más tranquila?",
+      "fr": "Vous pourriez nous changer pour une chambre plus calme ?",
+      "pron": "noss po-DRI-a kam-BYAR a O-tra a-bi-ta-THYON MASS tran-KI-la",
+      "note": "« Más tranquila » : la comparaison la plus simple, más + adjectif. Une chambre côté rue, c'est une chambre qui « da a la calle »."
+    },
+    {
+      "id": "viaje-11",
+      "es": "¿A qué hora hay que dejar la habitación?",
+      "fr": "À quelle heure faut-il libérer la chambre ?",
+      "pron": "a KÉ O-ra AÏ ké dé-KHAR la a-bi-ta-THYON",
+      "note": "On entend aussi « el check-out », mais « dejar la habitación » est plus naturel. Pour garder tes bagages : « ¿Puedo dejar las maletas aquí? »."
+    },
+    {
+      "id": "viaje-12",
+      "es": "Perdone, ¿para ir a la catedral?",
+      "fr": "Pardon, pour aller à la cathédrale ?",
+      "pron": "pér-DO-né PA-ra IR a la ka-té-DRAL",
+      "note": "La façon la plus courte de demander son chemin. On te répondra souvent avec de grands gestes : regarde les mains autant que tu écoutes.",
+      "rapide": "Perdone, ¿pa' ir a la catedral?"
+    },
+    {
+      "id": "viaje-13",
+      "es": "¿Está lejos de aquí? ¿Se puede ir andando?",
+      "fr": "C'est loin d'ici ? On peut y aller à pied ?",
+      "pron": "éss-TA LÉ-khoss dé a-KI sé POUÉ-dé IR an-DAN-do",
+      "note": "« Andando » ou « a pie », c'est à pied. On te répondra souvent en minutes plutôt qu'en kilomètres : « está a diez minutos ».",
+      "rapide": "¿'Tá lejos de aquí? ¿Se puede ir andando?"
+    },
+    {
+      "id": "viaje-14",
+      "es": "Siga recto hasta la plaza y luego gire a la izquierda.",
+      "fr": "Continuez tout droit jusqu'à la place, puis tournez à gauche.",
+      "pron": "SI-ga RRÉK-to AS-ta la PLA-tha i LOUÉ-go KHI-ré a la ith-KYÉR-da",
+      "note": "C'est ce que tu vas entendre, alors apprends surtout à le reconnaître. En tutoyant, ça donne « sigue recto » et « gira a la derecha »."
+    },
+    {
+      "id": "viaje-15",
+      "es": "Vamos en tren hasta San Sebastián y desde allí en autobús.",
+      "fr": "On va en train jusqu'à Saint-Sébastien, et de là en bus.",
+      "pron": "BA-moss én TRÉN AS-ta san sé-bass-TYAN i DÉSS-dé a-YI én aou-to-BOUSS",
+      "note": "« En » pour le moyen de transport (en tren, en coche), sauf à pied : « a pie ». « Desde… hasta » marque le départ et l'arrivée."
+    },
+    {
+      "id": "viaje-16",
+      "es": "Pasamos por Burgos y paramos a comer.",
+      "fr": "On est passés par Burgos et on s'est arrêtés pour manger.",
+      "pron": "pa-SSA-moss por BOUR-goss i pa-RA-moss a ko-MÉR",
+      "note": "« Por » pour l'endroit qu'on traverse, « a » pour la destination. « Pasamos » sert au présent comme au passé simple : le contexte tranche."
+    },
+    {
+      "id": "viaje-17",
+      "es": "El fin de semana pasado fuimos a Bilbao y visitamos el casco viejo.",
+      "fr": "Le week-end dernier, on est allés à Bilbao et on a visité la vieille ville.",
+      "pron": "él FIN dé sé-MA-na pa-SSA-do FOUÏ-moss a bil-BA-o i bi-ssi-TA-moss él KASS-ko BYÉ-kho",
+      "note": "« Fuimos » sert pour ir et pour ser : ici, c'est « nous sommes allés ». Le passé simple raconte le voyage étape par étape.",
+      "rapide": "El fin de semana pasao fuimos a Bilbao y visitamos el casco viejo."
+    },
+    {
+      "id": "viaje-18",
+      "es": "Me gustó más Toledo que Segovia, pero las dos son preciosas.",
+      "fr": "J'ai préféré Tolède à Ségovie, mais les deux sont magnifiques.",
+      "pron": "mé gouss-TO MASS to-LÉ-do ké sé-GO-bya PÉ-ro lass DOSS SON pré-THYO-ssass",
+      "note": "Pour comparer : « más… que ». « Me gustó » au passé simple, parce que la visite est terminée."
+    },
+    {
+      "id": "viaje-19",
+      "es": "Voy a sacar el billete por internet para no hacer cola.",
+      "fr": "Je vais prendre le billet sur internet pour ne pas faire la queue.",
+      "pron": "BOÏ a sa-KAR él bi-YÉ-té por in-tér-NÉT PA-ra no a-THÉR KO-la",
+      "note": "« Sacar un billete », c'est acheter un billet. « Por » pour le moyen, « para » pour le but : deux petits mots, deux rôles.",
+      "rapide": "Voy a sacar el billete por internet pa' no hacer cola."
+    },
+    {
+      "id": "viaje-20",
+      "es": "¿Qué me recomienda visitar en la ciudad?",
+      "fr": "Qu'est-ce que vous me conseillez de visiter en ville ?",
+      "pron": "KÉ mé rré-ko-MYÉN-da bi-ssi-TAR én la thyou-DAD",
+      "note": "À poser à la réception ou au bar du coin. Les gens adorent recommander leurs endroits préférés, souvent avec un bar à tapas en prime."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "Au guichet de la gare",
+      "contexte": "Tu veux passer le week-end à Madrid. Tu vas acheter ton billet au guichet de la gare.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "Buenos días. Quería un billete de ida y vuelta a Madrid para el viernes.",
+          "fr": "Bonjour. Je voudrais un billet aller-retour pour Madrid pour vendredi."
+        },
+        {
+          "qui": "Taquillera",
+          "es": "¿Por la mañana o por la tarde?",
+          "fr": "Le matin ou l'après-midi ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Por la mañana, lo antes posible.",
+          "fr": "Le matin, le plus tôt possible."
+        },
+        {
+          "qui": "Taquillera",
+          "es": "Hay uno a primera hora. ¿Y la vuelta?",
+          "fr": "Il y en a un tôt le matin. Et le retour ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "El domingo por la tarde. ¿De qué andén sale el tren?",
+          "fr": "Dimanche après-midi. De quel quai part le train ?"
+        },
+        {
+          "qui": "Taquillera",
+          "es": "Eso lo verá en la pantalla el mismo día, un poco antes de la salida.",
+          "fr": "Vous le verrez sur l'écran le jour même, un peu avant le départ."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Vale. ¿Y si el tren llega con retraso?",
+          "fr": "D'accord. Et si le train arrive en retard ?"
+        },
+        {
+          "qui": "Taquillera",
+          "es": "Guarde el billete y pregunte aquí. Según el retraso, a veces hay una compensación.",
+          "fr": "Gardez le billet et demandez ici. Selon le retard, il y a parfois un dédommagement."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Muy bien, muchas gracias. ¡Hasta luego!",
+          "fr": "Très bien, merci beaucoup. Au revoir !"
+        }
+      ]
+    },
+    {
+      "titre": "Une chambre côté rue",
+      "contexte": "Khalil et toi arrivez à l'hôtel après une longue journée. La chambre n'est pas tout à fait celle que vous attendiez.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "Buenas noches. Tengo una reserva a nombre de Elisabeth.",
+          "fr": "Bonsoir. J'ai une réservation au nom d'Elisabeth."
+        },
+        {
+          "qui": "Recepcionista",
+          "es": "Bienvenida. ¿Me deja su pasaporte, por favor?",
+          "fr": "Bienvenue. Vous me donnez votre passeport, s'il vous plaît ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Aquí tiene. ¿El desayuno está incluido en el precio?",
+          "fr": "Voilà. Le petit-déjeuner est compris dans le prix ?"
+        },
+        {
+          "qui": "Recepcionista",
+          "es": "Sí, se sirve en el comedor, en la planta baja.",
+          "fr": "Oui, il est servi dans la salle à manger, au rez-de-chaussée."
+        },
+        {
+          "qui": "Khalil",
+          "es": "Perdone, reservamos una habitación doble y nos han dado una individual.",
+          "fr": "Excusez-moi, on a réservé une chambre double et on nous a donné une chambre simple."
+        },
+        {
+          "qui": "Recepcionista",
+          "es": "Vaya, lo siento muchísimo. Ha sido un error nuestro.",
+          "fr": "Oh, je suis vraiment désolée. C'est une erreur de notre part."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Además da a la calle y hay mucho ruido. ¿Nos podría cambiar a otra habitación más tranquila?",
+          "fr": "En plus, elle donne sur la rue et il y a beaucoup de bruit. Vous pourriez nous changer pour une chambre plus calme ?"
+        },
+        {
+          "qui": "Recepcionista",
+          "es": "Claro. Les doy la 304: es doble y da al patio.",
+          "fr": "Bien sûr. Je vous donne la 304 : elle est double et donne sur la cour."
+        },
+        {
+          "qui": "Khalil",
+          "es": "Mucho mejor, gracias. Una última pregunta: ¿qué nos recomienda visitar en la ciudad?",
+          "fr": "Beaucoup mieux, merci. Une dernière question : qu'est-ce que vous nous conseillez de visiter en ville ?"
+        },
+        {
+          "qui": "Recepcionista",
+          "es": "El casco viejo, sin duda. Y por la noche, ¡las tapas!",
+          "fr": "La vieille ville, sans hésiter. Et le soir, les tapas !"
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "a, en, de, desde, hasta, por, para",
+    "explication": "« A » indique où l'on va (voy a Madrid), « en » où l'on est et le moyen de transport (estoy en Bilbao, voy en tren). « De » et « desde » marquent le point de départ, « hasta » le point d'arrivée. « Por » désigne l'endroit qu'on traverse ou le moyen (pasamos por Burgos, por internet), « para » la direction ou le but (el tren para Zaragoza, para no hacer cola). Pour raconter le voyage, on passe au passé simple : fuimos, llegamos, visitamos, comimos.",
+    "tableau": [
+      [
+        "Voy a Madrid.",
+        "Je vais à Madrid."
+      ],
+      [
+        "Estoy en Bilbao. Voy en tren.",
+        "Je suis à Bilbao. J'y vais en train."
+      ],
+      [
+        "Salgo de Logroño.",
+        "Je pars de Logroño."
+      ],
+      [
+        "Desde aquí hasta la plaza.",
+        "D'ici jusqu'à la place."
+      ],
+      [
+        "Pasamos por Burgos.",
+        "On est passés par Burgos."
+      ],
+      [
+        "El autobús para Pamplona.",
+        "Le bus pour Pampelune."
+      ]
+    ],
+    "exemples": [
+      {
+        "es": "Ayer fuimos en autobús desde Logroño hasta Pamplona.",
+        "fr": "Hier, on est allés en bus de Logroño jusqu'à Pampelune."
+      },
+      {
+        "es": "Paseamos por el casco viejo y comimos en una terraza.",
+        "fr": "On s'est promenés dans la vieille ville et on a mangé en terrasse."
+      },
+      {
+        "es": "Salimos de casa temprano para no perder el tren.",
+        "fr": "On est partis tôt de la maison pour ne pas rater le train."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Hacer una escapada",
+      "fr": "Partir pour une petite virée",
+      "note": "Un ou deux jours ailleurs, juste pour changer d'air. Très courant pour les week-ends."
+    },
+    {
+      "es": "Coger carretera y manta",
+      "fr": "Prendre la route",
+      "note": "Partir sans trop réfléchir, avec l'idée d'un long trajet. Très imagé, un peu à l'ancienne."
+    },
+    {
+      "es": "Ir como sardinas en lata",
+      "fr": "Être serrés comme des sardines",
+      "note": "Pour un bus ou un train bondé un vendredi soir."
+    },
+    {
+      "es": "Ir con lo puesto",
+      "fr": "Partir sans rien emporter",
+      "note": "Littéralement, avec ce qu'on a sur le dos. Pour un départ improvisé, ou une valise perdue."
+    },
+    {
+      "es": "Estoy molida",
+      "fr": "Je suis crevée",
+      "note": "Après une journée de visites. Khalil dira « estoy molido »."
+    },
+    {
+      "es": "Perderse por el casco viejo",
+      "fr": "Flâner dans la vieille ville",
+      "note": "Se perdre exprès, sans plan ni GPS : la meilleure façon de visiter."
+    }
+  ]
+}

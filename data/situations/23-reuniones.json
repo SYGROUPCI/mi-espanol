@@ -1,0 +1,318 @@
+{
+  "id": "reuniones",
+  "ordre": 23,
+  "niveau": "A2",
+  "titre": "Réunions et e-mails au travail",
+  "titre_es": "Reuniones y correos en el trabajo",
+  "intro": "Prendre la parole en réunion, faire répéter sans rougir, proposer une idée, puis écrire un e-mail poli qui ne sonne pas comme un traducteur automatique : ici, on vouvoie, on soigne les formules, et ça ouvre des portes.",
+  "phrases": [
+    {
+      "id": "reuniones-01",
+      "es": "Buenos días a todos. Si les parece, empezamos.",
+      "fr": "Bonjour à tous. Si vous êtes d'accord, on commence.",
+      "pron": "BOUÉ-noss DI-ass a TO-doss si léss pa-RÉ-thé ém-pé-THA-moss",
+      "note": "« Si les parece » est la version formelle. Entre collègues qui se tutoient, on dit « si os parece ».",
+      "rapide": "Buenos día' a todos. Si les parece, empezamo'."
+    },
+    {
+      "id": "reuniones-02",
+      "es": "Perdone que le interrumpa, ¿puedo añadir algo?",
+      "fr": "Pardon de vous interrompre, je peux ajouter quelque chose ?",
+      "pron": "pér-DO-né ké lé in-té-RROUM-pa POUÉ-do a-gna-DIR AL-go",
+      "note": "Une formule toute faite, à apprendre telle quelle. Elle permet de couper la parole tout en restant polie."
+    },
+    {
+      "id": "reuniones-03",
+      "es": "No le he entendido bien. ¿Me lo puede repetir, por favor?",
+      "fr": "Je ne vous ai pas bien compris. Vous pouvez me le répéter, s'il vous plaît ?",
+      "pron": "no lé é én-tén-DI-do BYÉN mé lo POUÉ-dé rré-pé-TIR por fa-BOR",
+      "note": "La version avec « usted » de la phrase de survie. Personne ne t'en voudra de la dire deux fois.",
+      "rapide": "No l'he entendido bien. ¿Me lo pue' repetir, por favor?"
+    },
+    {
+      "id": "reuniones-04",
+      "es": "¿Qué quiere decir exactamente con «plazo de entrega»?",
+      "fr": "Qu'est-ce que vous voulez dire exactement par « délai de livraison » ?",
+      "pron": "KÉ KYÉ-ré dé-THIR ék-sak-ta-MÉN-té kon PLA-tho dé én-TRÉ-ga",
+      "note": "« Querer decir », c'est vouloir dire. Pratique pour demander une précision sans avouer qu'on est perdue."
+    },
+    {
+      "id": "reuniones-05",
+      "es": "Tengo una propuesta: ¿y si hacemos la reunión los lunes por la mañana?",
+      "fr": "J'ai une proposition : et si on faisait la réunion le lundi matin ?",
+      "pron": "TÉN-go OU-na pro-POUÉSS-ta i si a-THÉ-moss la rré-ou-NYON loss LOU-néss por la ma-GNA-na",
+      "note": "« ¿Y si…? » suivi du présent : la façon la plus simple de lancer une idée. Pas besoin de subjonctif."
+    },
+    {
+      "id": "reuniones-06",
+      "es": "Estoy de acuerdo con usted, pero yo lo haría de otra manera.",
+      "fr": "Je suis d'accord avec vous, mais moi, je le ferais autrement.",
+      "pron": "éss-TOÏ dé a-KOUÉR-do kon ouss-TÉD PÉ-ro YO lo a-RI-a dé O-tra ma-NÉ-ra",
+      "note": "Le conditionnel « haría » adoucit le désaccord. On commence par être d'accord, ça aide.",
+      "rapide": "'Toy d'acuerdo con usted, pero yo lo haría d'otra manera."
+    },
+    {
+      "id": "reuniones-07",
+      "es": "La semana pasada terminamos la primera parte del proyecto.",
+      "fr": "La semaine dernière, on a terminé la première partie du projet.",
+      "pron": "la sé-MA-na pa-SSA-da tér-mi-NA-moss la pri-MÉ-ra PAR-té dél pro-YÉK-to",
+      "note": "Avec « la semana pasada », période terminée, on prend le passé simple. Au présent, ce serait aussi « terminamos » : le contexte fait la différence."
+    },
+    {
+      "id": "reuniones-08",
+      "es": "Esta mañana he hablado con el cliente y está contento.",
+      "fr": "Ce matin, j'ai parlé avec le client et il est content.",
+      "pron": "ÉSS-ta ma-GNA-na é a-BLA-do kon él kli-ÉN-té i éss-TA kon-TÉN-to",
+      "note": "En Espagne, avec « esta mañana », « hoy » ou « esta semana », on utilise le passé composé.",
+      "rapide": "'Sta mañana he hablao con el cliente y 'tá contento."
+    },
+    {
+      "id": "reuniones-09",
+      "es": "Voy a enviarles el resumen de la reunión esta tarde.",
+      "fr": "Je vais vous envoyer le compte rendu de la réunion cet après-midi.",
+      "pron": "BOÏ a én-BYAR-léss él rré-SSOU-mén dé la rré-ou-NYON ÉSS-ta TAR-dé",
+      "note": "« Les » s'adresse à plusieurs personnes que l'on vouvoie. Pour un compte rendu officiel, on parle aussi d'« acta »."
+    },
+    {
+      "id": "reuniones-10",
+      "es": "Estimada señora García:",
+      "fr": "Chère Madame García,",
+      "pron": "éss-ti-MA-da sé-GNO-ra gar-THI-a",
+      "note": "En espagnol, la formule d'ouverture d'un e-mail se termine par deux-points, pas par une virgule. Pour un homme : « Estimado señor… »."
+    },
+    {
+      "id": "reuniones-11",
+      "es": "Le escribo para confirmar nuestra cita del jueves a las diez.",
+      "fr": "Je vous écris pour confirmer notre rendez-vous de jeudi à dix heures.",
+      "pron": "lé éss-KRI-bo PA-ra kon-fir-MAR NOUÉSS-tra THI-ta dél KHOUÉ-béss a lass DYÉTH",
+      "note": "« Le escribo para… » est l'ouverture classique : on dit tout de suite pourquoi on écrit."
+    },
+    {
+      "id": "reuniones-12",
+      "es": "Le adjunto el documento que me pidió.",
+      "fr": "Je vous joins le document que vous m'avez demandé.",
+      "pron": "lé ad-KHOUN-to él do-kou-MÉN-to ké mé pi-DYO",
+      "note": "« Adjuntar », c'est joindre. Et vérifie que la pièce jointe est bien là avant d'envoyer, l'erreur est universelle."
+    },
+    {
+      "id": "reuniones-13",
+      "es": "Disculpe el retraso en mi respuesta.",
+      "fr": "Excusez-moi pour le retard de ma réponse.",
+      "pron": "diss-KOUL-pé él rré-TRA-sso én mi rréss-POUÉSS-ta",
+      "note": "À mettre en première ligne quand l'e-mail a dormi trois jours dans ta boîte. Inutile d'en faire plus."
+    },
+    {
+      "id": "reuniones-14",
+      "es": "¿Le vendría bien el martes por la tarde?",
+      "fr": "Mardi après-midi, ça vous conviendrait ?",
+      "pron": "lé bén-DRI-a BYÉN él MAR-téss por la TAR-dé",
+      "note": "Le conditionnel de « venir bien » : la façon la plus polie de proposer une date. Entre amis : « ¿Te viene bien? »."
+    },
+    {
+      "id": "reuniones-15",
+      "es": "Me gustaría saber si hay alguna novedad sobre mi solicitud.",
+      "fr": "J'aimerais savoir s'il y a du nouveau concernant ma demande.",
+      "pron": "mé gouss-ta-RI-a sa-BÉR si AÏ al-GOU-na no-bé-DAD SO-bré mi so-li-thi-TOUD",
+      "note": "Pour relancer sans brusquer. « Una solicitud », c'est une demande écrite, une candidature."
+    },
+    {
+      "id": "reuniones-16",
+      "es": "Quedo a su disposición para cualquier duda.",
+      "fr": "Je reste à votre disposition pour toute question.",
+      "pron": "KÉ-do a sou diss-po-ssi-THYON PA-ra koual-KYÉR DOU-da",
+      "note": "La phrase de fin d'e-mail par excellence, juste avant la formule de politesse."
+    },
+    {
+      "id": "reuniones-17",
+      "es": "Un saludo y gracias de antemano.",
+      "fr": "Cordialement, et merci d'avance.",
+      "pron": "oun sa-LOU-do i GRA-thyass dé an-té-MA-no",
+      "note": "« Un saludo » ou « Saludos » suffit dans la plupart des e-mails. « Atentamente » est réservé aux courriers très officiels."
+    },
+    {
+      "id": "reuniones-18",
+      "es": "Siento llegar tarde, el autobús se ha retrasado.",
+      "fr": "Désolée d'arriver en retard, le bus a eu du retard.",
+      "pron": "SYÉN-to yé-GAR TAR-dé él aou-to-BOUSS sé a rré-tra-SSA-do",
+      "note": "« Siento » + infinitif : je suis désolée de. Plus soigné que « perdona » quand on entre dans une salle pleine.",
+      "rapide": "Siento llegar tarde, el autobús s'ha retrasao."
+    },
+    {
+      "id": "reuniones-19",
+      "es": "¿Podríamos cambiar la reunión al jueves? El miércoles no puedo.",
+      "fr": "On pourrait déplacer la réunion à jeudi ? Mercredi, je ne peux pas.",
+      "pron": "po-DRI-a-moss kam-BYAR la rré-ou-NYON al KHOUÉ-béss él MYÉR-ko-léss no POUÉ-do",
+      "note": "« Podríamos » : nous pourrions. Le conditionnel transforme une exigence en simple suggestion."
+    },
+    {
+      "id": "reuniones-20",
+      "es": "Muchas gracias por su ayuda. Que tenga un buen fin de semana.",
+      "fr": "Merci beaucoup pour votre aide. Bon week-end.",
+      "pron": "MOU-tchass GRA-thyass por sou a-YOU-da ké TÉN-ga oun BOUÉN FIN dé sé-MA-na",
+      "note": "« Que tenga… » est la version avec « usted » de « que tengas ». Parfait à l'oral comme à l'écrit, surtout un vendredi.",
+      "rapide": "Mucha' gracia' por su ayuda. Que tenga un buen fin de semana."
+    }
+  ],
+  "dialogues": [
+    {
+      "titre": "La réunion d'équipe",
+      "contexte": "Au supermarché, la directrice réunit l'équipe pour parler des horaires de décembre. Dani, ton collègue, est là aussi.",
+      "lignes": [
+        {
+          "qui": "Sra. Ibáñez",
+          "es": "Buenos días a todos. Si les parece, empezamos. Hoy vamos a hablar de los horarios de diciembre.",
+          "fr": "Bonjour à tous. Si vous êtes d'accord, on commence. Aujourd'hui, on va parler des horaires de décembre."
+        },
+        {
+          "qui": "Dani",
+          "es": "La semana pasada terminamos el inventario, así que ya tenemos más tiempo.",
+          "fr": "La semaine dernière, on a terminé l'inventaire, donc on a déjà plus de temps."
+        },
+        {
+          "qui": "Sra. Ibáñez",
+          "es": "Muy bien. La idea es abrir también algunos domingos del mes.",
+          "fr": "Très bien. L'idée, c'est d'ouvrir aussi quelques dimanches du mois."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Perdone que le interrumpa, ¿puedo añadir algo?",
+          "fr": "Pardon de vous interrompre, je peux ajouter quelque chose ?"
+        },
+        {
+          "qui": "Sra. Ibáñez",
+          "es": "Claro, Elisabeth, adelante.",
+          "fr": "Bien sûr, Elisabeth, allez-y."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Tengo una propuesta: ¿y si hacemos turnos cortos los domingos? Así nadie trabaja todo el día.",
+          "fr": "J'ai une proposition : et si on faisait des services courts le dimanche ? Comme ça, personne ne travaille toute la journée."
+        },
+        {
+          "qui": "Sra. Ibáñez",
+          "es": "Interesante. ¿Qué quiere decir exactamente con turnos cortos?",
+          "fr": "Intéressant. Qu'est-ce que vous voulez dire exactement par services courts ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Un turno de diez a dos y otro de dos a seis, por ejemplo.",
+          "fr": "Un service de dix heures à deux heures et un autre de deux heures à six heures, par exemple."
+        },
+        {
+          "qui": "Dani",
+          "es": "Estoy de acuerdo con Elisabeth. Yo lo haría igual.",
+          "fr": "Je suis d'accord avec Elisabeth. Moi, je ferais pareil."
+        },
+        {
+          "qui": "Sra. Ibáñez",
+          "es": "Perfecto. Voy a enviarles el resumen de la reunión esta tarde.",
+          "fr": "Parfait. Je vais vous envoyer le compte rendu de la réunion cet après-midi."
+        }
+      ]
+    },
+    {
+      "titre": "Un rendez-vous par e-mail",
+      "contexte": "Tu t'inscris à une formation et tu écris au responsable, le señor Ruiz, pour confirmer ton rendez-vous. Il répond, et toi un peu plus tard.",
+      "lignes": [
+        {
+          "qui": "Elisabeth",
+          "es": "Estimado señor Ruiz: le escribo para confirmar nuestra cita del jueves a las diez.",
+          "fr": "Cher Monsieur Ruiz, je vous écris pour confirmer notre rendez-vous de jeudi à dix heures."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Le adjunto el documento que me pidió. Quedo a su disposición para cualquier duda.",
+          "fr": "Je vous joins le document que vous m'avez demandé. Je reste à votre disposition pour toute question."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Un saludo y gracias de antemano.",
+          "fr": "Cordialement, et merci d'avance."
+        },
+        {
+          "qui": "Sr. Ruiz",
+          "es": "Estimada Elisabeth: muchas gracias por su correo. Lo siento, pero el jueves no estaré en la oficina.",
+          "fr": "Chère Elisabeth, merci beaucoup pour votre e-mail. Je suis désolé, mais jeudi je ne serai pas au bureau."
+        },
+        {
+          "qui": "Sr. Ruiz",
+          "es": "¿Le vendría bien el martes por la tarde, a las cinco?",
+          "fr": "Mardi après-midi, à cinq heures, ça vous conviendrait ?"
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Disculpe el retraso en mi respuesta. El martes a las cinco me viene perfecto.",
+          "fr": "Excusez-moi pour le retard de ma réponse. Mardi à cinq heures, ça me convient parfaitement."
+        },
+        {
+          "qui": "Elisabeth",
+          "es": "Muchas gracias por su ayuda. Que tenga un buen fin de semana.",
+          "fr": "Merci beaucoup pour votre aide. Bon week-end."
+        },
+        {
+          "qui": "Sr. Ruiz",
+          "es": "Perfecto, la espero el martes. Un saludo cordial.",
+          "fr": "Parfait, je vous attends mardi. Bien cordialement."
+        }
+      ]
+    }
+  ],
+  "grammaire": {
+    "titre": "Écrire poliment : usted, conditionnel et futur",
+    "explication": "Avec usted, le verbe se conjugue comme pour él ou ella, et « te » devient « le » : « le escribo », je vous écris. Le conditionnel adoucit les demandes : infinitif + -ía (« me gustaría »), avec quelques radicaux irréguliers comme podr-, vendr-, har-. Le futur sert aux promesses écrites : « le enviaré el documento mañana ». Et dans un e-mail, on ouvre avec « Estimado » ou « Estimada » suivi de deux-points, on ferme avec « Un saludo ».",
+    "tableau": [
+      ["Le escribo para…", "Je vous écris pour…"],
+      ["Le adjunto…", "Je vous joins…"],
+      ["Me gustaría saber…", "J'aimerais savoir…"],
+      ["¿Podría enviarme…?", "Pourriez-vous m'envoyer… ?"],
+      ["¿Le vendría bien…?", "Est-ce que… vous conviendrait ?"],
+      ["Le enviaré… mañana.", "Je vous enverrai… demain."]
+    ],
+    "exemples": [
+      {
+        "es": "Le escribo para pedirle información sobre el curso.",
+        "fr": "Je vous écris pour vous demander des informations sur la formation."
+      },
+      {
+        "es": "¿Le vendría bien hablar por teléfono el lunes?",
+        "fr": "Est-ce que ça vous conviendrait de parler au téléphone lundi ?"
+      },
+      {
+        "es": "Le enviaré el contrato firmado antes del viernes.",
+        "fr": "Je vous enverrai le contrat signé avant vendredi."
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "es": "Ir al grano",
+      "fr": "Aller droit au but",
+      "note": "« Vamos al grano » : la phrase préférée des chefs pressés, en début de réunion."
+    },
+    {
+      "es": "Comerse el marrón",
+      "fr": "Se taper la corvée",
+      "note": "« Un marrón », c'est la tâche pénible dont personne ne veut. En réunion, mieux vaut ne pas lever la main trop vite."
+    },
+    {
+      "es": "Ir con el tiempo justo",
+      "fr": "Être juste niveau temps",
+      "note": "Quand le délai approche et que rien n'est prêt. On l'entend dans toutes les réunions de décembre."
+    },
+    {
+      "es": "Dar el visto bueno",
+      "fr": "Donner le feu vert",
+      "note": "« La jefa ha dado el visto bueno » : c'est validé, on peut y aller."
+    },
+    {
+      "es": "Hacer un hueco",
+      "fr": "Trouver un créneau",
+      "note": "« Un hueco », c'est un trou dans l'agenda. « ¿Me puede hacer un hueco el lunes? » marche très bien."
+    },
+    {
+      "es": "Quedamos en eso",
+      "fr": "On part là-dessus",
+      "note": "Pour conclure une discussion : c'est décidé, tout le monde est d'accord."
+    }
+  ]
+}

@@ -12,7 +12,19 @@
     "situations/09-administration.json",
     "situations/10-travail.json",
     "situations/11-urgences.json",
-    "situations/12-ecole.json"
+    "situations/12-ecole.json",
+    "situations/13-finde.json",
+    "situations/14-planes.json",
+    "situations/15-opiniones.json",
+    "situations/16-quejas.json",
+    "situations/17-viaje.json",
+    "situations/18-cocina.json",
+    "situations/19-mi-pais.json",
+    "situations/20-emociones.json",
+    "situations/21-bienestar.json",
+    "situations/22-paquetes.json",
+    "situations/23-reuniones.json",
+    "situations/24-fiesta.json"
   ],
   "bientot": []
 }
