@@ -8,6 +8,7 @@
   "duo": {
     "intro": "Un cours de langue, une formation pour trouver du travail, ce diplôme d'Abidjan qu'il faudrait faire reconnaître : ici, on parle études, inscriptions et démarches. Et tu verras que « para que » n'a rien d'effrayant."
   },
+  "pub": { "intro": "Un cours de langue, une formation pour trouver du travail, ce diplôme de ton pays qu'il faudrait faire reconnaître : ici, on parle études, inscriptions et démarches. Et tu verras que « para que » n'a rien d'effrayant." },
   "phrases": [
     {
       "id": "formacion-01",
@@ -97,6 +98,7 @@
       "fr": "La démarche peut prendre plusieurs mois, alors il faut être patient.",
       "pron": "él TRA-mi-té POUÉ-dé tar-DAR BA-ryoss MÉ-sséss a-SSI ké AÏ ké té-NÉR pa-THYÉN-thya",
       "note": "« Un trámite », c'est une démarche administrative. En Espagne, le mot revient aussi souvent que la pluie à Logroño en novembre.",
+      "pub": { "note": "« Un trámite », c'est une démarche administrative. En Espagne, le mot revient presque aussi souvent que « vale » dans une conversation." },
       "rapide": "El trámite pue' tardar varios meses, así que hay que tener paciencia."
     },
     {
@@ -152,6 +154,7 @@
       "pron": "ka-LIL té é a-poun-TA-do al KOUR-so PA-ra ké prak-TI-késs kon-MI-go",
       "note": "« Practicar » devient « practiques » : le c se change en qu pour garder le son devant le e.",
       "rapide": "Khalil, t'he apuntao al curso pa' que practiques conmigo.",
+      "pub": { "es": "Javi, te he apuntado al curso para que practiques conmigo.", "fr": "Javi, je t'ai inscrit au cours pour que tu pratiques avec moi.", "pron": "KHA-bi té é a-poun-TA-do al KOUR-so PA-ra ké prak-TI-késs kon-MI-go", "rapide": "Javi, t'he apuntao al curso pa' que practiques conmigo." },
       "duo": {
         "es": "Elisabeth, te he apuntado al curso para que practiques conmigo.",
         "fr": "Elisabeth, je t'ai inscrite au cours pour que tu pratiques avec moi.",
@@ -288,6 +291,7 @@
           "qui": "Elisabeth",
           "es": "Claro. Y he apuntado a Khalil al curso en línea para que practique conmigo.",
           "fr": "Bien sûr. Et j'ai inscrit Khalil au cours en ligne pour qu'il pratique avec moi.",
+          "pub": { "es": "Claro. Y he apuntado a mi hermano al curso en línea para que practique conmigo.", "fr": "Bien sûr. Et j'ai inscrit mon frère au cours en ligne pour qu'il pratique avec moi." },
           "duo": {
             "es": "Claro. Y Elisabeth me ha apuntado al curso en línea para que practique con ella.",
             "fr": "Bien sûr. Et Elisabeth m'a inscrit au cours en ligne pour que je pratique avec elle."

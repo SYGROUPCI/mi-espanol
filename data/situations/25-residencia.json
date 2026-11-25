@@ -4,6 +4,7 @@
   "niveau": "B1",
   "titre": "Titre de séjour et démarches",
   "titre_es": "La residencia y los trámites",
+  "pub": { "intro": "La carte de séjour à renouveler, la cita previa qui se fait désirer, la lettre officielle qu'on relit trois fois : ici, tu apprends à parler à l'administration avec les bons mots. Les démarches peuvent un peu varier d'une province à l'autre, mais le vocabulaire, lui, reste le même. Courage, les fonctionnaires ne mordent pas." },
   "intro": "La carte de séjour à renouveler, la cita previa qui se fait désirer, la lettre officielle qu'on relit trois fois : ici, tu apprends à parler à l'administration avec les bons mots. Courage, les fonctionnaires de Logroño ne mordent pas.",
   "phrases": [
     {
@@ -103,6 +104,7 @@
     },
     {
       "id": "residencia-14",
+      "pub": { "note": "C'est la règle générale. Pour certains pays, comme ceux d'Amérique latine, le Portugal ou les Philippines, deux ans suffisent ; pour la plupart des pays d'Afrique, c'est bien dix ans. Vérifie ton cas auprès d'Extranjería ou d'une association." },
       "es": "Para pedir la nacionalidad, se necesitan diez años de residencia legal.",
       "fr": "Pour demander la nationalité, il faut dix ans de résidence légale.",
       "pron": "PA-ra pé-DIR la na-thyo-na-li-DAD sé né-thé-SSI-tan DYÉTH A-gnoss dé rré-ssi-DÉN-thya lé-GAL",

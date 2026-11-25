@@ -25,7 +25,8 @@
       "fr": "Je suis rue Portales, au numéro dix.",
       "pron": "éss-TOÏ én la KA-yé por-TA-léss NOU-mé-ro DYÉTH",
       "note": "Au 112, on te demande d'abord où tu es. Si c'est chez toi, ajoute l'étage et la porte : « tercero izquierda », troisième gauche.",
-      "rapide": "'Toy en la calle Portales, número diez."
+      "rapide": "'Toy en la calle Portales, número diez.",
+      "pub": { "es": "Estoy en la calle Mayor, número diez.", "fr": "Je suis rue Mayor, au numéro dix.", "pron": "éss-TOÏ én la KA-yé ma-YOR NOU-mé-ro DYÉTH", "rapide": "'Toy en la calle Mayor, número diez." }
     },
     {
       "id": "urgences-04",
@@ -136,6 +137,7 @@
       "pron": "éss-TOÏ pér-DI-da mé POUÉ-dé a-you-DAR",
       "note": "Au féminin, puisque c'est toi. Montre l'adresse sur ton téléphone, les gens de Logroño adorent indiquer le chemin.",
       "rapide": "'Toy perdida. ¿Me puede ayudar?",
+      "pub": { "note": "Au féminin, puisque c'est toi. Montre l'adresse sur ton téléphone : en Espagne, les gens adorent indiquer le chemin.", "m": { "note": "Au masculin, puisque c'est toi. Montre l'adresse sur ton téléphone : en Espagne, les gens adorent indiquer le chemin." } },
       "duo": {
         "es": "Estoy perdido. ¿Me puede ayudar?",
         "fr": "Je suis perdu. Vous pouvez m'aider ?",
@@ -189,7 +191,8 @@
         {
           "qui": "Elisabeth",
           "es": "Estoy en la calle Portales, número diez, delante de una farmacia. No hablo bien español. ¿Hay alguien que hable francés?",
-          "fr": "Je suis rue Portales, au numéro dix, devant une pharmacie. Je ne parle pas bien espagnol. Il y a quelqu'un qui parle français ?"
+          "fr": "Je suis rue Portales, au numéro dix, devant une pharmacie. Je ne parle pas bien espagnol. Il y a quelqu'un qui parle français ?",
+          "pub": { "es": "Estoy en la calle Mayor, número diez, delante de una farmacia. No hablo bien español. ¿Hay alguien que hable francés?", "fr": "Je suis rue Mayor, au numéro dix, devant une pharmacie. Je ne parle pas bien espagnol. Il y a quelqu'un qui parle français ?" }
         },
         {
           "qui": "Operadora",
@@ -328,7 +331,8 @@
     {
       "es": "¡Ojo!",
       "fr": "Attention !",
-      "note": "Très espagnol. « ¡Ojo con el bolso! » : fais attention à ton sac, surtout dans la foule des fêtes de San Mateo."
+      "note": "Très espagnol. « ¡Ojo con el bolso! » : fais attention à ton sac, surtout dans la foule des fêtes de San Mateo.",
+      "pub": { "note": "Très espagnol. « ¡Ojo con el bolso! » : fais attention à ton sac, surtout dans la foule des fêtes de quartier." }
     },
     {
       "es": "Estar hecha un flan",

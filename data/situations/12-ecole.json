@@ -51,6 +51,7 @@
     },
     {
       "id": "ecole-07",
+      "pub": { "es": "Hola, soy la madre de Lucas. Vengo a recogerlo.", "fr": "Bonjour, je suis la mère de Lucas. Je viens le chercher.", "pron": "O-la SOÏ la MA-dré dé LOU-kass BÉN-go a rré-ko-KHÉR-lo", "note": "Les premiers jours, présente-toi à la porte : l'école ne confie pas un enfant à un inconnu. Si quelqu'un d'autre vient le chercher, préviens la maîtresse avant. Et la baby-sitter, en Espagne, s'appelle « la canguro », comme le kangourou.", "m": { "es": "Hola, soy el padre de Lucas. Vengo a recogerlo.", "fr": "Bonjour, je suis le père de Lucas. Je viens le chercher.", "pron": "O-la SOÏ él PA-dré dé LOU-kass BÉN-go a rré-ko-KHÉR-lo" } },
       "es": "Soy Elisabeth, cuido a Lucas por las tardes.",
       "fr": "Je suis Elisabeth, je garde Lucas l'après-midi.",
       "pron": "SOÏ é-li-ssa-BÉT KOUÏ-do a LOU-kass por lass TAR-déss",
@@ -163,28 +164,30 @@
       "titre": "À la sortie de l'école",
       "contexte": "Tu viens chercher Lucas, le petit que tu gardes. Tu en profites pour parler à sa maîtresse.",
       "duo": { "contexte": "Tu viens chercher Lucas, le petit qu'Elisabeth garde l'après-midi. Tu en profites pour parler à sa maîtresse." },
+      "pub": { "contexte": "Tu viens chercher ton fils Lucas à la sortie de l'école. Tu en profites pour parler à sa maîtresse, que tu n'avais encore jamais vue." },
       "lignes": [
-        { "qui": "Elisabeth", "es": "Hola, buenas tardes. Soy Elisabeth, cuido a Lucas por las tardes.", "fr": "Bonjour. Je suis Elisabeth, je garde Lucas l'après-midi.", "duo": { "es": "Hola, buenas tardes. Soy Khalil, el novio de Elisabeth. Vengo a recoger a Lucas.", "fr": "Bonjour. Je suis Khalil, le copain d'Elisabeth. Je viens chercher Lucas." } },
-        { "qui": "Marta", "es": "¡Ah, hola! Sí, su madre me ha avisado. Soy Marta, la tutora.", "fr": "Ah, bonjour ! Oui, sa mère m'a prévenue. Je suis Marta, sa maîtresse." },
+        { "qui": "Elisabeth", "es": "Hola, buenas tardes. Soy Elisabeth, cuido a Lucas por las tardes.", "fr": "Bonjour. Je suis Elisabeth, je garde Lucas l'après-midi.", "duo": { "es": "Hola, buenas tardes. Soy Khalil, el novio de Elisabeth. Vengo a recoger a Lucas.", "fr": "Bonjour. Je suis Khalil, le copain d'Elisabeth. Je viens chercher Lucas." }, "pub": { "es": "Hola, buenas tardes. Soy la madre de Lucas.", "fr": "Bonjour. Je suis la mère de Lucas.", "m": { "es": "Hola, buenas tardes. Soy el padre de Lucas.", "fr": "Bonjour. Je suis le père de Lucas." } } },
+        { "qui": "Marta", "es": "¡Ah, hola! Sí, su madre me ha avisado. Soy Marta, la tutora.", "fr": "Ah, bonjour ! Oui, sa mère m'a prévenue. Je suis Marta, sa maîtresse.", "pub": { "es": "¡Ah, hola! Por fin nos conocemos. Soy Marta, la tutora.", "fr": "Ah, bonjour ! Enfin, on se rencontre. Je suis Marta, sa maîtresse." } },
         { "qui": "Elisabeth", "es": "Encantada. ¿Qué tal va en clase? ¿Se porta bien?", "fr": "Enchantée. Comment ça se passe en classe ? Il est sage ?", "duo": { "es": "Encantado. ¿Qué tal va en clase? ¿Se porta bien?", "fr": "Enchanté. Comment ça se passe en classe ? Il est sage ?" } },
         { "qui": "Marta", "es": "Muy bien, aunque habla un poquito demasiado. Es muy simpático.", "fr": "Très bien, même s'il parle un tout petit peu trop. Il est très gentil." },
         { "qui": "Elisabeth", "es": "Ya lo sé, en casa tampoco para. Una pregunta: ¿a qué hora es la salida los jueves?", "fr": "Je sais, à la maison non plus il ne s'arrête pas. Une question : à quelle heure ils sortent le jeudi ?" },
         { "qui": "Marta", "es": "Los jueves se queda en el comedor, así que sale a las cuatro y media.", "fr": "Le jeudi, il mange à la cantine, donc il sort à quatre heures et demie." },
-        { "qui": "Elisabeth", "es": "Vale, gracias. Y su madre quería pedir una reunión con usted.", "fr": "D'accord, merci. Et sa mère voudrait vous demander un rendez-vous." },
-        { "qui": "Marta", "es": "Claro. Que me escriba una nota en la agenda y quedamos.", "fr": "Bien sûr. Qu'elle m'écrive un mot dans le cahier de liaison et on fixe un jour." },
+        { "qui": "Elisabeth", "es": "Vale, gracias. Y su madre quería pedir una reunión con usted.", "fr": "D'accord, merci. Et sa mère voudrait vous demander un rendez-vous.", "pub": { "es": "Vale, gracias. Y también quería pedir una reunión con usted.", "fr": "D'accord, merci. Et je voudrais aussi vous demander un rendez-vous." } },
+        { "qui": "Marta", "es": "Claro. Que me escriba una nota en la agenda y quedamos.", "fr": "Bien sûr. Qu'elle m'écrive un mot dans le cahier de liaison et on fixe un jour.", "pub": { "es": "Claro. Escríbame una nota en la agenda y quedamos.", "fr": "Bien sûr. Écrivez-moi un mot dans le cahier de liaison et on fixe un jour." } },
         { "qui": "Elisabeth", "es": "Perfecto. ¡Hasta mañana!", "fr": "Parfait. À demain !" }
       ]
     },
     {
       "titre": "Un après-midi au parc",
       "contexte": "Lucas joue au toboggan avec une petite fille. Sa maman, Raquel, s'assoit sur le banc à côté de toi.",
+      "pub": { "contexte": "Au parc, ton fils Lucas joue au toboggan avec une petite fille. Sa maman, Raquel, s'assoit sur le banc à côté de toi." },
       "lignes": [
         { "qui": "Raquel", "es": "¡Qué rico! ¿Cómo se llama?", "fr": "Trop mignon ! Il s'appelle comment ?" },
         { "qui": "Elisabeth", "es": "Lucas. ¿Y la tuya?", "fr": "Lucas. Et la tienne ?" },
         { "qui": "Raquel", "es": "Martina. ¿Cuántos años tiene?", "fr": "Martina. Il a quel âge ?" },
         { "qui": "Elisabeth", "es": "Tiene cinco años y no para ni un segundo.", "fr": "Il a cinq ans et il ne tient pas en place." },
         { "qui": "Raquel", "es": "¡Igual que la mía! ¿Va al cole de aquí al lado?", "fr": "Comme la mienne ! Il va à l'école juste à côté ?" },
-        { "qui": "Elisabeth", "es": "Sí. Yo lo cuido por las tardes, sus padres trabajan hasta tarde.", "fr": "Oui. Moi, je le garde l'après-midi, ses parents travaillent tard.", "duo": { "es": "Sí. Mi novia lo cuida por las tardes, sus padres trabajan hasta tarde.", "fr": "Oui. Ma copine le garde l'après-midi, ses parents travaillent tard." } },
+        { "qui": "Elisabeth", "es": "Sí. Yo lo cuido por las tardes, sus padres trabajan hasta tarde.", "fr": "Oui. Moi, je le garde l'après-midi, ses parents travaillent tard.", "duo": { "es": "Sí. Mi novia lo cuida por las tardes, sus padres trabajan hasta tarde.", "fr": "Oui. Ma copine le garde l'après-midi, ses parents travaillent tard." }, "pub": { "es": "Sí, ha empezado este año. Todavía no conozco a los otros padres.", "fr": "Oui, il a commencé cette année. Je ne connais pas encore les autres parents." } },
         { "qui": "Raquel", "es": "¡Anda! Entonces seguro que están en la misma clase. ¿Estás en el grupo de los padres?", "fr": "Tiens ! Alors ils sont sûrement dans la même classe. Tu es dans le groupe des parents ?" },
         { "qui": "Elisabeth", "es": "Todavía no. ¿Me metes en el grupo de WhatsApp de la clase?", "fr": "Pas encore. Tu m'ajoutes au groupe WhatsApp de la classe ?" },
         { "qui": "Raquel", "es": "Hecho. Y el sábado que viene es el cumple de Martina. ¿Os venís a la fiesta?", "fr": "C'est fait. Et samedi prochain, c'est l'anniversaire de Martina. Vous venez à la fête ?" },

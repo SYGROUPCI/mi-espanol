@@ -57,14 +57,21 @@ function personnaliser(x, duo, prenom, t, pub = null) {
     if (x.duo && typeof x.duo === "object") Object.assign(o, personnaliser(x.duo, false, prenom, t, pub));
   }
   // Version publique : les textes neutres écrits pour tout le monde (« pub », et « pub.m » au masculin).
+  // « pub.perso » remplace la variante de profil d'origine (souvent écrite pour Logroño) ; « pub.perso: null » la retire.
+  let perso = x.perso;
   if (pub && x.pub && typeof x.pub === "object") {
-    const { m, ...commun } = x.pub;
+    const { m, perso: persoPub, ...commun } = x.pub;
     Object.assign(o, commun);
-    if (pub.genre === "m" && m && typeof m === "object") Object.assign(o, m);
+    if (pub.genre === "m" && m && typeof m === "object") {
+      const { perso: persoM, ...communM } = m;
+      Object.assign(o, communM);
+      if (persoM !== undefined) perso = persoM;
+      else if (persoPub !== undefined) perso = persoPub;
+    } else if (persoPub !== undefined) perso = persoPub;
   }
   // Enfin le profil de la personne (pays, ville, métier), s'il est rempli.
-  if (x.perso && typeof x.perso === "object") {
-    const rempli = remplir(x.perso, t);
+  if (perso && typeof perso === "object") {
+    const rempli = remplir(perso, t);
     if (rempli) Object.assign(o, rempli);
   }
   return o;

@@ -178,6 +178,7 @@
     {
       "titre": "Le menú del día",
       "contexte": "À midi, Elisabeth et une collègue s'installent dans un petit restaurant du centre.",
+      "pub": { "contexte": "À midi, tu t'installes avec une collègue dans un petit restaurant du centre." },
       "duo": { "contexte": "À midi, Khalil et Elisabeth s'installent dans un petit restaurant du centre." },
       "lignes": [
         { "qui": "Camarera", "es": "Hola, ¿cuántos sois?", "fr": "Bonjour, vous êtes combien ?" },

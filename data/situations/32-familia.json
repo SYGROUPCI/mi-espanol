@@ -7,6 +7,7 @@
   "intro": "Présenter ta belle-famille, recevoir une tante de passage, fêter un anniversaire de mariage, appeler les tiens au pays : la famille tient une grande place dans la conversation. Et pour dire « je le lui ai envoyé » sans t'emmêler, on va apprivoiser se lo, me la et toute la bande.",
   "phrases": [
     {
+      "pub": { "es": "Te presento a mis suegros, los padres de mi pareja.", "fr": "Je te présente mes beaux-parents, les parents de ma moitié.", "pron": "té pré-SSÉN-to a miss SOUÉ-gross loss PA-dréss dé mi pa-RÉ-kha", "note": "Suegro, suegra : beau-père, belle-mère. En Espagne, on les appelle ainsi dès que le couple est sérieux, mariés ou pas. « Mi pareja » : mon ou ma partenaire, le mot marche pour tout le monde." },
       "id": "familia-01",
       "es": "Te presento a mis suegros, los padres de Khalil.",
       "fr": "Je te présente mes beaux-parents, les parents de Khalil.",
@@ -19,6 +20,7 @@
       }
     },
     {
+      "pub": { "es": "Mis suegros viven lejos, pero este verano vienen a vernos.", "fr": "Mes beaux-parents habitent loin, mais cet été ils viennent nous voir.", "pron": "miss SOUÉ-gross BI-bén LÉ-khoss PÉ-ro ÉSS-té bé-RA-no BYÉ-nén a BÉR-noss" },
       "id": "familia-02",
       "es": "Mis suegros viven en Abiyán, pero este verano vienen a vernos.",
       "fr": "Mes beaux-parents habitent à Abidjan, mais cet été ils viennent nous voir.",
@@ -44,6 +46,7 @@
       }
     },
     {
+      "pub": { "es": "La hermana de mi pareja es mi cuñada, y nos llevamos muy bien.", "fr": "La sœur de ma moitié, c'est ma belle-sœur, et on s'entend très bien.", "pron": "la ér-MA-na dé mi pa-RÉ-kha ÉSS mi kou-GNA-da i noss yé-BA-moss MOUÏ BYÉN", "rapide": "La hermana de mi pareja es mi cuñá, y nos llevamos muy bien." },
       "id": "familia-04",
       "es": "La hermana de Khalil es mi cuñada, y nos llevamos muy bien.",
       "fr": "La sœur de Khalil, c'est ma belle-sœur, et on s'entend très bien.",
@@ -109,6 +112,7 @@
       "note": "Que + subjonctif pour un vœu, comme dans « que te mejores ». Sigáis, avec vosotros, parce que tu parles aux deux."
     },
     {
+      "pub": { "note": "Llevar + durée : ça fait… que. La question que tous les couples entendent à chaque dîner, alors autant connaître la réponse par cœur." },
       "id": "familia-12",
       "es": "¿Cuánto tiempo lleváis juntos?",
       "fr": "Ça fait combien de temps que vous êtes ensemble ?",
@@ -130,6 +134,7 @@
       "note": "Nos gustaría : on aimerait, au conditionnel, pour un projet qu'on prend le temps de rêver. Casarse : se marier."
     },
     {
+      "pub": { "es": "¡Hola, mamá! ¿Qué tal estáis todos por allí?", "fr": "Coucou maman ! Comment vous allez tous, là-bas ?", "pron": "O-la ma-MA KÉ TAL éss-TAÏSS TO-doss por a-YI", "rapide": "¡Hola, mamá! ¿Qué tal 'táis todos por allí?", "note": "« Por allí » : là-bas. Avec « por » + ta ville (por Dakar, por Bamako), tu dis « du côté de ». Et estáis, parce que tu demandes des nouvelles de toute la maison." },
       "id": "familia-15",
       "es": "¡Hola, mamá! ¿Qué tal estáis todos por Conakri?",
       "fr": "Coucou maman ! Comment vous allez tous, là-bas à Conakry ?",
@@ -172,6 +177,7 @@
       "note": "Ici, le se de « no se lo cree » vient de creerse, « y croire ». Les grands-mères sont pareilles sur tous les continents."
     },
     {
+      "pub": { "es": "Mándame las fotos del cumple del niño, que quiero enseñárselas a mi pareja.", "fr": "Envoie-moi les photos de l'anniversaire du petit, je veux les montrer à ma moitié.", "pron": "MAN-da-mé lass FO-toss dél KOUM-plé dél NI-gno ké KYÉ-ro én-sé-GNAR-sé-lass a mi pa-RÉ-kha", "note": "Enseñárselas : montrer (enseñar), à ta moitié (se), elles (las), tout collé à l'infinitif. L'accent écrit garde l'accent tonique à sa place." },
       "id": "familia-19",
       "es": "Mándame las fotos del cumple del niño, que quiero enseñárselas a Khalil.",
       "fr": "Envoie-moi les photos de l'anniversaire du petit, je veux les montrer à Khalil.",
@@ -196,6 +202,7 @@
   "dialogues": [
     {
       "titre": "Tata Aminata débarque",
+      "pub": { "contexte": "Ta tante Aminata, qui vit à Madrid, vient passer le week-end chez toi. Javi, ton colocataire, la rencontre pour la première fois." },
       "contexte": "Ta tante Aminata, qui vit à Madrid, arrive à Logroño pour le week-end. Khalil est là aussi : il la rencontre pour la première fois.",
       "duo": {
         "contexte": "Ta tante Aminata, qui vit à Madrid, arrive à Logroño pour le week-end. Elisabeth est là aussi : elle la rencontre pour la première fois."
@@ -203,6 +210,7 @@
       "lignes": [
         {
           "qui": "Elisabeth",
+          "pub": { "es": "¡Tía Aminata, bienvenida! Te presento a Javi, mi compañero de piso.", "fr": "Tata Aminata, bienvenue ! Je te présente Javi, mon colocataire." },
           "es": "¡Tía Aminata, bienvenida! Te presento a Khalil.",
           "fr": "Tata Aminata, bienvenue ! Je te présente Khalil.",
           "duo": {
@@ -212,6 +220,7 @@
         },
         {
           "qui": "Khalil",
+          "pub": { "qui": "Javi", "es": "Encantado, señora. Me han hablado mucho de usted.", "fr": "Enchanté, madame. On m'a beaucoup parlé de vous." },
           "es": "Encantado, señora. Elisabeth me ha hablado mucho de usted.",
           "fr": "Enchanté, madame. Elisabeth m'a beaucoup parlé de vous.",
           "duo": {
@@ -227,6 +236,7 @@
         },
         {
           "qui": "Khalil",
+          "pub": { "qui": "Javi" },
           "es": "Vale, tía. ¿Y la maleta? ¿Te la subo a la habitación?",
           "fr": "D'accord, tata. Et la valise ? Je te la monte dans la chambre ?",
           "duo": {
@@ -235,6 +245,7 @@
         },
         {
           "qui": "Aminata",
+          "pub": { "es": "Sí, gracias, hijo. Pesa muchísimo: os he traído un montón de cosas.", "fr": "Oui, merci, mon fils. Elle pèse une tonne : je vous ai apporté plein de choses." },
           "es": "Sí, gracias, hijo. Pesa muchísimo: os he traído un montón de cosas.",
           "fr": "Oui, merci, mon fils. Elle pèse une tonne : je vous ai apporté plein de choses.",
           "duo": {
@@ -261,6 +272,7 @@
     },
     {
       "titre": "Et le mariage, c'est pour quand ?",
+      "pub": { "contexte": "Marta et Dani t'ont invitée à dîner chez eux. Entre deux plats, c'est toi qui poses les questions sur leur couple.", "m": { "contexte": "Marta et Dani t'ont invité à dîner chez eux. Entre deux plats, c'est toi qui poses les questions sur leur couple." } },
       "contexte": "Marta et Dani vous ont invités à dîner, Khalil et toi. Entre deux plats, les questions sur votre couple commencent.",
       "duo": {
         "contexte": "Marta et Dani vous ont invités à dîner, Elisabeth et toi. Entre deux plats, les questions sur votre couple commencent."
@@ -268,11 +280,13 @@
       "lignes": [
         {
           "qui": "Marta",
+          "pub": { "qui": "Elisabeth", "m": { "qui": "Khalil" } },
           "es": "¿Y cuánto tiempo lleváis juntos?",
           "fr": "Et ça fait combien de temps que vous êtes ensemble ?"
         },
         {
           "qui": "Elisabeth",
+          "pub": { "qui": "Marta", "fr": "Ouh, ça fait déjà quelques années. Et il me supporte toujours." },
           "es": "Uf, ya unos cuantos años. Y todavía me aguanta.",
           "fr": "Ouh, ça fait déjà quelques années. Et il me supporte toujours.",
           "duo": {
@@ -281,6 +295,7 @@
         },
         {
           "qui": "Khalil",
+          "pub": { "qui": "Dani", "es": "Y yo a ella, que tiene su mérito.", "fr": "Et moi, je la supporte, ce qui n'est pas rien." },
           "es": "Y yo a ella, que tiene su mérito.",
           "fr": "Et moi, je la supporte, ce qui n'est pas rien.",
           "duo": {
@@ -291,20 +306,24 @@
         },
         {
           "qui": "Dani",
+          "pub": { "qui": "Elisabeth", "es": "¿Y qué planes tenéis? ¿Os vais a quedar en {miciudad}?", "fr": "Et c'est quoi, vos projets ? Vous allez rester à {miciudad} ?", "m": { "qui": "Khalil" } },
           "es": "¿Y qué planes tenéis? ¿Os vais a quedar en Logroño?",
           "fr": "Et c'est quoi, vos projets ? Vous allez rester à Logroño ?"
         },
         {
           "qui": "Elisabeth",
+          "pub": { "qui": "Dani", "es": "Sí, aquí tenemos el trabajo y los amigos. Eso sí, mi madre me llama todas las noches, aunque sea cinco minutos.", "fr": "Oui, ici on a le travail et les amis. Par contre, ma mère m'appelle tous les soirs, même si ce n'est que cinq minutes." },
           "es": "Sí, la idea es vivir aquí los dos. De momento, hablamos todas las noches, aunque sea cinco minutos.",
           "fr": "Oui, l'idée, c'est de vivre ici tous les deux. Pour l'instant, on se parle tous les soirs, même si ce n'est que cinq minutes."
         },
         {
           "qui": "Marta",
+          "pub": { "qui": "Elisabeth", "m": { "qui": "Khalil" } },
           "es": "¿Y la boda? ¿Para cuándo la boda?",
           "fr": "Et le mariage ? C'est pour quand, le mariage ?"
         },
         {
+          "pub": { "qui": "Marta" },
           "qui": "Khalil",
           "es": "Algún día nos gustaría casarnos, pero sin prisa.",
           "fr": "Un jour, on aimerait se marier, mais sans se presser.",
@@ -319,6 +338,7 @@
         },
         {
           "qui": "Khalil",
+          "pub": { "qui": "Elisabeth", "es": "Sí, mañana cumplen treinta y cinco años. Mis hermanos y yo les hemos comprado un marco con fotos y se lo mandamos ayer.", "fr": "Si, demain ils fêtent leurs trente-cinq ans. Avec mes frères et sœurs, on leur a acheté un cadre photo et on le leur a envoyé hier.", "m": { "qui": "Khalil" } },
           "es": "Sí, mañana cumplen treinta y cinco años. Les hemos comprado un marco con fotos y se lo mandamos ayer.",
           "fr": "Si, demain ils fêtent leurs trente-cinq ans. On leur a acheté un cadre photo et on le leur a envoyé hier.",
           "duo": {
@@ -372,6 +392,7 @@
         "fr": "Cette photo est magnifique. Tu me l'envoies ?"
       },
       {
+        "pub": { "es": "Las llaves, Javi, dámelas antes de irte.", "fr": "Les clés, Javi, donne-les-moi avant de partir." },
         "es": "Las llaves, Khalil, dámelas antes de irte.",
         "fr": "Les clés, Khalil, donne-les-moi avant de partir.",
         "duo": {
@@ -400,6 +421,7 @@
     {
       "es": "Hacer buenas migas",
       "fr": "Bien s'entendre",
+      "pub": { "note": "Pour deux personnes qui accrochent tout de suite : « Javi y mi tía han hecho buenas migas »." },
       "note": "Pour deux personnes qui accrochent tout de suite : « Khalil y mi tía han hecho buenas migas ».",
       "duo": {
         "note": "Pour deux personnes qui accrochent tout de suite : « Elisabeth y mi tía han hecho buenas migas »."

@@ -3,6 +3,7 @@
   "ordre": 4,
   "titre": "Météo, fêtes et culture",
   "titre_es": "El tiempo, las fiestas y la cultura",
+  "pub": { "intro": "En Espagne, la météo est le meilleur brise-glace : un « ¡Qué frío! » dans l'ascenseur et la conversation démarre toute seule. Ensuite, on parle fêtes, repas et tapas, et là, tu commences à jouer à domicile." },
   "intro": "En Espagne, la météo est le meilleur brise-glace : un « ¡Qué frío! » dans l'ascenseur et la conversation démarre toute seule. Ensuite, on parle fêtes, vin et pinchos, et là tu es à Logroño, tu joues à domicile.",
   "phrases": [
     {
@@ -65,6 +66,7 @@
     },
     {
       "id": "culture-09",
+      "pub": { "es": "¿Has ido alguna vez a las fiestas de aquí?", "fr": "Tu es déjà allée aux fêtes d'ici ?", "pron": "ass I-do al-GOU-na BÉTH a lass FYÉSS-tass dé a-KI", "note": "Chaque ville et chaque village a ses fiestas patronales, souvent en été ou en septembre : concerts, bals et repas dans la rue pendant plusieurs jours.", "m": { "fr": "Tu es déjà allé aux fêtes d'ici ?" } },
       "es": "¿Has ido alguna vez a San Mateo?",
       "fr": "Tu es déjà allée aux fêtes de San Mateo ?",
       "pron": "ass I-do al-GOU-na BÉTH a SAN ma-TÉ-o",
@@ -72,6 +74,7 @@
     },
     {
       "id": "culture-10",
+      "pub": { "es": "En las fiestas se baila en la calle.", "fr": "Pendant les fêtes, on danse dans la rue.", "pron": "én lass FYÉSS-tass sé BAÏ-la én la KA-yé", "note": "« Se » + verbe, c'est notre « on » : se baila, se come, se canta… et on se couche très tard." },
       "es": "En San Mateo se pisa la uva.",
       "fr": "À San Mateo, on foule le raisin.",
       "pron": "én SAN ma-TÉ-o sé PI-ssa la OU-ba",
@@ -79,6 +82,7 @@
     },
     {
       "id": "culture-11",
+      "pub": { "es": "¿Has probado el vino de aquí?", "fr": "Tu as goûté le vin d'ici ?", "pron": "ass pro-BA-do él BI-no dé a-KI", "rapide": "¿Has probao el vino de aquí?", "note": "Presque chaque région d'Espagne a son vin, et en est fière. On te posera cette question souvent : la bonne réponse commence par « sí »." },
       "es": "¿Has probado el vino de Rioja?",
       "fr": "Tu as goûté le vin de la Rioja ?",
       "pron": "ass pro-BA-do él BI-no dé RRYO-kha",
@@ -87,6 +91,7 @@
     },
     {
       "id": "culture-12",
+      "pub": { "es": "¿Conoces algún bar de tapas por aquí?", "fr": "Tu connais un bar à tapas dans le coin ?", "pron": "ko-NO-théss al-GOUN BAR dé TA-pass por a-KI", "note": "Chaque ville a sa rue ou son quartier des tapas. Demande aux gens du coin : ils adorent donner leurs adresses." },
       "es": "¿Conoces la calle Laurel?",
       "fr": "Tu connais la rue Laurel ?",
       "pron": "ko-NO-théss la KA-yé laou-RÉL",
@@ -212,6 +217,7 @@
       "duo": {
         "contexte": "Lundi matin, au café. Javier, un ami d'Elisabeth, veut tout savoir du week-end de Khalil."
       },
+      "pub": { "contexte": "Lundi matin, au travail. Javier, un collègue, veut tout savoir de ton week-end." },
       "lignes": [
         {
           "qui": "Javier",
@@ -220,6 +226,7 @@
         },
         {
           "qui": "Elisabeth",
+          "pub": { "es": "Muy bien. He ido de tapas con unas amigas.", "fr": "Très bien. Je suis allée manger des tapas avec des amies.", "m": { "es": "Muy bien. He ido de tapas con unos amigos.", "fr": "Très bien. Je suis allé manger des tapas avec des amis." } },
           "es": "Muy bien. He ido a la Laurel con unas amigas.",
           "fr": "Très bien. Je suis allée rue Laurel avec des amies.",
           "duo": {
@@ -229,6 +236,7 @@
         },
         {
           "qui": "Javier",
+          "pub": { "es": "¡Muy bien! ¿Y has probado el vino de aquí?", "fr": "Bravo ! Et tu as goûté le vin d'ici ?" },
           "es": "¡Muy bien! ¿Y has probado el vino de Rioja?",
           "fr": "Bravo ! Et tu as goûté le vin de la Rioja ?"
         },
@@ -239,6 +247,7 @@
         },
         {
           "qui": "Javier",
+          "pub": { "es": "Pues tienes que ir. ¿Has ido alguna vez a las fiestas de la ciudad?", "fr": "Alors il faut que tu y ailles. Tu es déjà allée aux fêtes de la ville ?", "m": { "fr": "Alors il faut que tu y ailles. Tu es déjà allé aux fêtes de la ville ?" } },
           "es": "Pues tienes que ir. ¿Has ido alguna vez a San Mateo?",
           "fr": "Alors il faut que tu y ailles. Tu es déjà allée aux fêtes de San Mateo ?",
           "duo": {
@@ -252,6 +261,7 @@
         },
         {
           "qui": "Javier",
+          "pub": { "es": "Ya verás: hay conciertos, se come en la calle y hay fiesta por toda la ciudad.", "fr": "Tu verras : il y a des concerts, on mange dans la rue et toute la ville fait la fête." },
           "es": "Es en septiembre. Se pisa la uva y hay fiesta por toda la ciudad.",
           "fr": "C'est en septembre. On foule le raisin et toute la ville fait la fête."
         },

@@ -27,6 +27,7 @@
     },
     {
       "id": "finde-03",
+      "pub": { "es": "El sábado por la mañana fui al mercado y luego di un paseo por el centro.", "fr": "Samedi matin, je suis allée au marché, puis je me suis promenée dans le centre.", "pron": "él SA-ba-do por la ma-GNA-na FOUI al mér-KA-do i LOUÉ-go DI oun pa-SSÉ-o por él THÉN-tro", "m": { "fr": "Samedi matin, je suis allé au marché, puis je me suis promené dans le centre." } },
       "es": "El sábado por la mañana fui al mercado y luego di un paseo por el Espolón.",
       "fr": "Samedi matin, je suis allée au marché, puis je me suis promenée sur l'Espolón.",
       "pron": "él SA-ba-do por la ma-GNA-na FOUI al mér-KA-do i LOUÉ-go DI oun pa-SSÉ-o por él éss-po-LON",
@@ -139,6 +140,7 @@
     },
     {
       "id": "finde-16",
+      "pub": { "es": "Ya he estado en Valencia, pero todavía no he ido a las Fallas.", "fr": "Je suis déjà allée à Valence, mais je ne suis pas encore allée aux Fallas.", "pron": "YA é éss-TA-do én ba-LÉN-thya PÉ-ro to-da-BI-a no é I-do a lass FA-yass", "note": "« Ya » et « todavía no » appellent le passé composé. Les Fallas ont lieu à Valence chaque année en mars : prévois des bouchons d'oreilles, les pétards ne dorment jamais.", "m": { "fr": "Je suis déjà allé à Valence, mais je ne suis pas encore allé aux Fallas." } },
       "es": "Ya he estado en Haro, pero todavía no he ido a la Batalla del Vino.",
       "fr": "Je suis déjà allée à Haro, mais je ne suis pas encore allée à la Bataille du vin.",
       "pron": "YA é éss-TA-do én A-ro PÉ-ro to-da-BI-a no é I-do a la ba-TA-ya dél BI-no",
@@ -196,6 +198,7 @@
         },
         {
           "qui": "Elisabeth",
+          "pub": { "es": "El sábado por la mañana fui al mercado y luego di un paseo por el centro.", "fr": "Samedi matin, je suis allée au marché, puis je me suis promenée dans le centre.", "m": { "fr": "Samedi matin, je suis allé au marché, puis je me suis promené dans le centre." } },
           "es": "El sábado por la mañana fui al mercado y luego di un paseo por el Espolón.",
           "fr": "Samedi matin, je suis allée au marché, puis je me suis promenée sur l'Espolón.",
           "duo": {
@@ -241,6 +244,7 @@
     },
     {
       "titre": "Khalil raconte Bilbao",
+      "pub": { "titre": "Week-end à Bilbao", "contexte": "Au bar, Lucía te demande des nouvelles de ton escapade à Bilbao avec des amis." },
       "contexte": "Khalil est venu te voir en Espagne. Au bar, Lucía lui demande des nouvelles de votre escapade à Bilbao.",
       "duo": {
         "contexte": "Tu es venu voir Elisabeth en Espagne. Au bar, Lucía te demande des nouvelles de votre escapade à Bilbao."
@@ -248,11 +252,13 @@
       "lignes": [
         {
           "qui": "Lucía",
+          "pub": { "es": "¡Hola! ¿Qué tal el viaje a Bilbao?", "fr": "Salut ! Alors, ce voyage à Bilbao ?" },
           "es": "¡Hola, Khalil! ¿Qué tal el viaje a Bilbao?",
           "fr": "Salut Khalil ! Alors, ce voyage à Bilbao ?"
         },
         {
           "qui": "Khalil",
+          "pub": { "qui": "Elisabeth", "es": "Muy bien. El fin de semana pasado fuimos a pasar el día allí con unos amigos.", "fr": "Très bien. Le week-end dernier, on est allés y passer la journée avec des amis.", "m": { "qui": "Khalil" } },
           "es": "Muy bien. El fin de semana pasado fuimos a pasar el día allí con Elisabeth.",
           "fr": "Très bien. Le week-end dernier, on est allés y passer la journée avec Elisabeth."
         },
@@ -263,16 +269,19 @@
         },
         {
           "qui": "Khalil",
+          "pub": { "qui": "Elisabeth", "m": { "qui": "Khalil" } },
           "es": "Paseamos por el casco viejo y comimos pintxos. Lo pasamos fenomenal, pero volvimos agotados.",
           "fr": "On s'est promenés dans la vieille ville et on a mangé des pintxos. On s'est super bien amusés, mais on est rentrés épuisés."
         },
         {
           "qui": "Lucía",
+          "pub": { "es": "¿Y este finde qué has hecho?", "fr": "Et ce week-end, tu as fait quoi ?" },
           "es": "¿Y este finde qué habéis hecho?",
           "fr": "Et ce week-end, vous avez fait quoi ?"
         },
         {
           "qui": "Khalil",
+          "pub": { "qui": "Elisabeth", "es": "Nada especial. He visto una película en casa y he pedido una pizza.", "fr": "Rien de spécial. J'ai regardé un film à la maison et j'ai commandé une pizza.", "m": { "qui": "Khalil" } },
           "es": "Nada especial. Hemos visto una película en casa y hemos pedido una pizza.",
           "fr": "Rien de spécial. On a regardé un film à la maison et on a commandé une pizza."
         },
@@ -283,6 +292,7 @@
         },
         {
           "qui": "Khalil",
+          "pub": { "qui": "Elisabeth", "es": "Sí. Al final no he hecho nada de lo que tenía pensado, pero he descansado.", "fr": "Oui. Finalement, je n'ai rien fait de ce que j'avais prévu, mais je me suis reposée.", "m": { "qui": "Khalil", "fr": "Oui. Finalement, je n'ai rien fait de ce que j'avais prévu, mais je me suis reposé." } },
           "es": "Sí. Al final no hemos hecho nada de lo que teníamos pensado, pero hemos descansado.",
           "fr": "Oui. Finalement on n'a rien fait de ce qu'on avait prévu, mais on s'est reposés."
         }

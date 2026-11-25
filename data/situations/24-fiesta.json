@@ -46,6 +46,11 @@
     },
     {
       "id": "fiesta-06",
+      "pub": {
+        "es": "Yo me encargo de la tortilla y Carmen trae el postre.",
+        "fr": "Moi, je m'occupe de la tortilla et Carmen apporte le dessert.",
+        "pron": "YO mé én-KAR-go dé la tor-TI-ya i KAR-mén TRA-é él POSS-tré"
+      },
       "es": "Yo me encargo de la tortilla y Khalil trae el postre.",
       "fr": "Moi, je m'occupe de la tortilla et Khalil apporte le dessert.",
       "pron": "YO mé én-KAR-go dé la tor-TI-ya i ka-LIL TRA-é él POSS-tré",
@@ -94,6 +99,11 @@
     },
     {
       "id": "fiesta-12",
+      "pub": {
+        "es": "¡Chinchín! Por Lucía y por muchos años más.",
+        "fr": "Tchin-tchin ! À Lucía, et à encore beaucoup d'années !",
+        "pron": "tchin-TCHIN por lou-THI-a i por MOU-tchoss A-gnoss MASS"
+      },
       "es": "¡Chinchín! Por Khalil y por muchos años más.",
       "fr": "Tchin-tchin ! À Khalil, et à encore beaucoup d'années !",
       "pron": "tchin-TCHIN por ka-LIL i por MOU-tchoss A-gnoss MASS",
@@ -176,6 +186,9 @@
       "duo": {
         "contexte": "Tu appelles Lucía pour l'inviter à l'anniversaire d'Elisabeth, samedi prochain."
       },
+      "pub": {
+        "contexte": "Tu appelles Lucía pour l'inviter à ton anniversaire, samedi prochain."
+      },
       "lignes": [
         {
           "qui": "Elisabeth",
@@ -184,6 +197,10 @@
           "duo": {
             "es": "¡Hola, Lucía! El sábado es el cumpleaños de Elisabeth y vamos a hacer una fiesta en casa. ¿Te vienes?",
             "fr": "Coucou Lucía ! Samedi, c'est l'anniversaire d'Elisabeth et on va faire une fête à la maison. Tu viens ?"
+          },
+          "pub": {
+            "es": "¡Hola, Lucía! El sábado es mi cumpleaños y voy a hacer una fiesta en casa. ¿Te vienes?",
+            "fr": "Coucou Lucía ! Samedi, c'est mon anniversaire et je vais faire une fête à la maison. Tu viens ?"
           }
         },
         {
@@ -218,6 +235,10 @@
           "duo": {
             "es": "Va a venir gente de su trabajo y algunos vecinos. Yo me encargo del postre y Elisabeth hace la tortilla.",
             "fr": "Il y aura des collègues à elle et quelques voisins. Moi, je m'occupe du dessert et Elisabeth fait la tortilla."
+          },
+          "pub": {
+            "es": "Va a venir gente del trabajo y algunos vecinos. Yo me encargo de la tortilla y Carmen trae el postre.",
+            "fr": "Il y aura des gens du travail et quelques voisins. Moi, je m'occupe de la tortilla et Carmen apporte le dessert."
           }
         },
         {
@@ -228,7 +249,11 @@
         {
           "qui": "Elisabeth",
           "es": "Buena idea, pero con el cierzo que hace, mejor en casa.",
-          "fr": "Bonne idée, mais avec le vent glacial qu'il fait, mieux vaut rester à la maison."
+          "fr": "Bonne idée, mais avec le vent glacial qu'il fait, mieux vaut rester à la maison.",
+          "pub": {
+            "es": "Buena idea, pero con el frío que hace, mejor en casa.",
+            "fr": "Bonne idée, mais avec le froid qu'il fait, mieux vaut rester à la maison."
+          }
         },
         {
           "qui": "Lucía",
@@ -243,11 +268,20 @@
       "duo": {
         "contexte": "Samedi, chez Elisabeth : c'est son anniversaire. Les invités sont arrivés, le dessert est sur la table."
       },
+      "pub": {
+        "contexte": "Samedi, chez toi : c'est ton anniversaire. Les invités sont arrivés, le dessert de Carmen est sur la table."
+      },
       "lignes": [
         {
           "qui": "Lucía",
           "es": "¡Felicidades, Elisabeth! Te hemos traído un detallito. Espero que te guste.",
-          "fr": "Joyeux anniversaire, Elisabeth ! On t'a apporté un petit quelque chose. J'espère que ça te plaira."
+          "fr": "Joyeux anniversaire, Elisabeth ! On t'a apporté un petit quelque chose. J'espère que ça te plaira.",
+          "pub": {
+            "m": {
+              "es": "¡Felicidades, Khalil! Te hemos traído un detallito. Espero que te guste.",
+              "fr": "Joyeux anniversaire, Khalil ! On t'a apporté un petit quelque chose. J'espère que ça te plaira."
+            }
+          }
         },
         {
           "qui": "Elisabeth",
@@ -255,6 +289,11 @@
           "fr": "Ça me fait trop plaisir ! Il ne fallait pas vous embêter.",
           "duo": {
             "qui": "Elisabeth"
+          },
+          "pub": {
+            "m": {
+              "qui": "Khalil"
+            }
           }
         },
         {
@@ -268,12 +307,26 @@
           "fr": "Des boucles d'oreilles ! Elles sont magnifiques, merci beaucoup.",
           "duo": {
             "qui": "Elisabeth"
+          },
+          "pub": {
+            "m": {
+              "qui": "Khalil",
+              "es": "¡Una bufanda! Es preciosa, muchas gracias.",
+              "fr": "Une écharpe ! Elle est magnifique, merci beaucoup."
+            }
           }
         },
         {
           "qui": "Khalil",
           "es": "Bueno, ¿brindamos? ¡Chinchín! Por Elisabeth y por muchos años más.",
-          "fr": "Bon, on trinque ? Tchin-tchin ! À Elisabeth, et à encore beaucoup d'années !"
+          "fr": "Bon, on trinque ? Tchin-tchin ! À Elisabeth, et à encore beaucoup d'années !",
+          "pub": {
+            "qui": "Carmen",
+            "m": {
+              "es": "Bueno, ¿brindamos? ¡Chinchín! Por Khalil y por muchos años más.",
+              "fr": "Bon, on trinque ? Tchin-tchin ! À Khalil, et à encore beaucoup d'années !"
+            }
+          }
         },
         {
           "qui": "Todos",
@@ -283,12 +336,19 @@
         {
           "qui": "Lucía",
           "es": "Esta tarta está buenísima. ¿La has hecho tú, Khalil?",
-          "fr": "Ce gâteau est délicieux. C'est toi qui l'as fait, Khalil ?"
+          "fr": "Ce gâteau est délicieux. C'est toi qui l'as fait, Khalil ?",
+          "pub": {
+            "es": "Esta tarta está buenísima. ¿La has hecho tú, Carmen?",
+            "fr": "Ce gâteau est délicieux. C'est toi qui l'as fait, Carmen ?"
+          }
         },
         {
           "qui": "Khalil",
           "es": "No, la he comprado en la pastelería de abajo. Pero la he traído con mucho cariño.",
-          "fr": "Non, je l'ai acheté à la pâtisserie d'en bas. Mais je l'ai apporté avec beaucoup d'amour."
+          "fr": "Non, je l'ai acheté à la pâtisserie d'en bas. Mais je l'ai apporté avec beaucoup d'amour.",
+          "pub": {
+            "qui": "Carmen"
+          }
         },
         {
           "qui": "Elisabeth",
@@ -296,6 +356,11 @@
           "fr": "Merci à tous d'être venus. On passe un super moment. Il faut remettre ça !",
           "duo": {
             "qui": "Elisabeth"
+          },
+          "pub": {
+            "m": {
+              "qui": "Khalil"
+            }
           }
         },
         {

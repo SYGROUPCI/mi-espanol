@@ -91,6 +91,7 @@
     },
     {
       "id": "banco-12",
+      "pub": { "es": "Quiero mandar dinero a mi familia en mi país. ¿Cómo lo hago?", "fr": "Je veux envoyer de l'argent à ma famille au pays. Comment je fais ?", "pron": "KYÉ-ro man-DAR di-NÉ-ro a mi fa-MI-lya én mi pa-ISS KO-mo lo A-go" },
       "es": "Quiero mandar dinero a mi familia en Conakry. ¿Cómo lo hago?",
       "fr": "Je veux envoyer de l'argent à ma famille à Conakry. Comment je fais ?",
       "pron": "KYÉ-ro man-DAR di-NÉ-ro a mi fa-MI-lya én ko-NA-kri KO-mo lo A-go",
@@ -108,6 +109,7 @@
     },
     {
       "id": "banco-13",
+      "pub": { "es": "¿Se puede hacer un Bizum a un número de otro país?", "fr": "On peut faire un Bizum vers un numéro étranger ?", "pron": "sé POUÉ-dé a-THÉR oun BI-thoum a oun NOU-mé-ro dé O-tro pa-ISS" },
       "es": "¿Se puede hacer un Bizum a un número de Guinea?",
       "fr": "On peut faire un Bizum vers un numéro guinéen ?",
       "pron": "sé POUÉ-dé a-THÉR oun BI-thoum a oun NOU-mé-ro dé gui-NÉ-a",
@@ -128,6 +130,7 @@
     },
     {
       "id": "banco-15",
+      "pub": { "note": "Le piège classique : des frais bas mais un mauvais taux de change. Fais le calcul de ce qui arrive vraiment de l'autre côté." },
       "es": "¿Qué tipo de cambio me aplican?",
       "fr": "Quel taux de change vous m'appliquez ?",
       "pron": "KÉ TI-po dé KAM-byo mé a-PLI-kan",
@@ -253,6 +256,7 @@
       "lignes": [
         {
           "qui": "Elisabeth",
+          "pub": { "es": "Lucía, quiero mandar dinero a mi familia en mi país. ¿Se puede hacer con Bizum?", "fr": "Lucía, je veux envoyer de l'argent à ma famille au pays. On peut le faire avec Bizum ?" },
           "es": "Lucía, quiero mandar dinero a mi familia en Conakry. ¿Se puede hacer con Bizum?",
           "fr": "Lucía, je veux envoyer de l'argent à ma famille à Conakry. On peut le faire avec Bizum ?",
           "duo": {

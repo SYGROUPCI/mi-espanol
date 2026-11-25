@@ -4,6 +4,7 @@
   "niveau": "B1",
   "titre": "La Rioja à fond : vendanges et vin",
   "titre_es": "La Rioja a tope: vendimia y vino",
+  "pub": { "titre": "Le vin et les vendanges en Espagne", "titre_es": "El vino y la vendimia en España", "intro": "Les vendanges, une visite de bodega, crianza ou reserva, la fête où l'on foule le raisin : bienvenue au pays du vin. De quoi comparer les vins sans complexe, et dire que c'était la meilleure semaine de l'année." },
   "intro": "Les vendanges, une visite de bodega, crianza ou reserva, San Mateo et le raisin foulé sur l'Espolón : bienvenue au cœur de La Rioja. De quoi comparer les vins comme une connaisseuse, et dire que c'était la meilleure semaine de l'année.",
   "duo": {
     "intro": "Les vendanges, une visite de bodega, crianza ou reserva, San Mateo et le raisin foulé sur l'Espolón : bienvenue au cœur de La Rioja. De quoi comparer les vins comme un connaisseur, et dire que c'était la meilleure semaine de l'année."
@@ -41,6 +42,7 @@
     },
     {
       "id": "vendimia-05",
+      "pub": { "es": "En este pueblo hay algunas de las bodegas más antiguas de la región.", "fr": "Dans ce village, il y a certaines des bodegas les plus anciennes de la région.", "pron": "én ÉSS-té POUÉ-blo AÏ al-GOU-nass dé lass bo-DÉ-gass MASS an-TI-gouass dé la rré-KHYON", "note": "Le superlatif avec « de » : la más antigua de la región, la plus ancienne de la région. Certaines bodegas espagnoles ont plus de cent ans." },
       "es": "En Haro, en el barrio de la Estación, hay algunas de las bodegas más antiguas.",
       "fr": "À Haro, dans le quartier de la Gare, il y a certaines des bodegas les plus anciennes.",
       "pron": "én A-ro én él BA-rryo dé la éss-ta-THYON AÏ al-GOU-nass dé lass bo-DÉ-gass MASS an-TI-gouass",
@@ -78,6 +80,7 @@
     },
     {
       "id": "vendimia-10",
+      "pub": { "note": "On l'oublie souvent, mais l'Espagne fait aussi de très bons blancs, comme l'albariño de Galice ou le verdejo de Rueda. « Tan » + adjectif + « como » : aussi… que." },
       "es": "Este blanco es tan bueno como el tinto.",
       "fr": "Ce blanc est aussi bon que le rouge.",
       "pron": "ÉSS-té BLAN-ko ÉSS TAN BOUÉ-no KO-mo él TIN-to",
@@ -92,6 +95,7 @@
     },
     {
       "id": "vendimia-12",
+      "pub": { "es": "Las fiestas de la vendimia suelen ser en septiembre.", "fr": "Les fêtes des vendanges ont lieu en général en septembre.", "pron": "lass FYÉSS-tass dé la bén-DI-mya SOUÉ-lén SÉR én sép-TYÉM-bré", "note": "Jerez, Valdepeñas, Requena… Beaucoup de villes du vin fêtent les vendanges pendant plusieurs jours. Pendant ce temps-là, personne ne dort beaucoup." },
       "es": "Las fiestas de San Mateo son alrededor del veintiuno de septiembre.",
       "fr": "Les fêtes de San Mateo ont lieu autour du 21 septembre.",
       "pron": "lass FYÉSS-tass dé san ma-TÉ-o SON al-rré-dé-DOR dél béïn-TYOU-no dé sép-TYÉM-bré",
@@ -99,6 +103,7 @@
     },
     {
       "id": "vendimia-13",
+      "pub": { "es": "En la fiesta de la vendimia pisan la uva y bendicen el primer mosto.", "fr": "À la fête des vendanges, on foule le raisin et on bénit le premier moût.", "pron": "én la FYÉSS-ta dé la bén-DI-mya PI-ssan la OU-ba i bén-DI-thén él pri-MÉR MOSS-to", "note": "Le foulage du raisin au pied, c'est le grand classique de ces fêtes. « El mosto », c'est le jus de raisin qui n'a pas encore fermenté." },
       "es": "En el Espolón pisan la uva y ofrecen el primer mosto a la Virgen de Valvanera.",
       "fr": "Sur l'Espolón, on foule le raisin et on offre le premier moût à la Vierge de Valvanera.",
       "pron": "én él éss-po-LON PI-ssan la OU-ba i o-FRÉ-thén él pri-MÉR MOSS-to a la BIR-khén dé bal-ba-NÉ-ra",
@@ -106,6 +111,7 @@
     },
     {
       "id": "vendimia-14",
+      "pub": { "es": "Fue la mejor semana desde que vivo en España.", "fr": "C'était la meilleure semaine depuis que je vis en Espagne.", "pron": "FOUÉ la mé-KHOR sé-MA-na DÉSS-dé ké BI-bo én éss-PA-gna" },
       "es": "Fue la mejor semana desde que vivo en Logroño.",
       "fr": "C'était la meilleure semaine depuis que je vis à Logroño.",
       "pron": "FOUÉ la mé-KHOR sé-MA-na DÉSS-dé ké BI-bo én lo-GRO-gno",
@@ -118,6 +124,7 @@
     },
     {
       "id": "vendimia-15",
+      "pub": { "es": "Las chuletillas al sarmiento son el plato más típico de la zona.", "fr": "Les côtelettes d'agneau grillées sur des sarments sont le plat le plus typique du coin.", "pron": "lass tchou-lé-TI-yass al sar-MYÉN-to SON él PLA-to MASS TI-pi-ko dé la THO-na", "note": "« El sarmiento », c'est le sarment de vigne. Dans les régions de vin, on grille la viande sur ce feu-là, et ça donne un goût qu'on n'oublie pas." },
       "es": "Las chuletillas al sarmiento son el plato más típico de aquí.",
       "fr": "Les côtelettes d'agneau grillées sur des sarments sont le plat le plus typique d'ici.",
       "pron": "lass tchou-lé-TI-yass al sar-MYÉN-to SON él PLA-to MASS TI-pi-ko dé a-KI",
@@ -133,6 +140,7 @@
     },
     {
       "id": "vendimia-17",
+      "pub": { "es": "Las tapas de este bar son las más famosas de la ciudad.", "fr": "Les tapas de ce bar sont les plus célèbres de la ville.", "pron": "lass TA-pass dé ÉSS-té BAR SON lass MASS fa-MO-ssass dé la thyou-DAD", "note": "Chaque ville a son bar culte, avec sa tapa vedette et sa file d'attente. Demande aux voisins : ils auront tous un avis." },
       "es": "Los champiñones de la Laurel son los más famosos de la ciudad.",
       "fr": "Les champignons de la rue Laurel sont les plus célèbres de la ville.",
       "pron": "loss tcham-pi-GNO-néss dé la laou-RÉL SON loss MASS fa-MO-ssoss dé la thyou-DAD",
@@ -147,6 +155,7 @@
     },
     {
       "id": "vendimia-19",
+      "pub": { "es": "En la fiesta de la vendimia hay tanta gente como en Navidad, o más.", "fr": "À la fête des vendanges, il y a autant de monde qu'à Noël, sinon plus.", "pron": "én la FYÉSS-ta dé la bén-DI-mya AÏ TAN-ta KHÉN-té KO-mo én na-bi-DAD o MASS" },
       "es": "En San Mateo hay tanta gente como en Navidad, o más.",
       "fr": "À San Mateo, il y a autant de monde qu'à Noël, sinon plus.",
       "pron": "én san ma-TÉ-o AÏ TAN-ta KHÉN-té KO-mo én na-bi-DAD o MASS",
@@ -154,6 +163,7 @@
     },
     {
       "id": "vendimia-20",
+      "pub": { "es": "No hay mejor sitio que una bodega para aprender de vino.", "fr": "Il n'y a pas de meilleur endroit qu'une bodega pour s'y connaître en vin.", "pron": "no AÏ mé-KHOR SI-tyo ké OU-na bo-DÉ-ga PA-ra a-prén-DÉR dé BI-no", "rapide": "No hay mejor sitio que una bodega pa' aprender de vino." },
       "es": "No hay mejor sitio que La Rioja para aprender de vino.",
       "fr": "Il n'y a pas de meilleur endroit que La Rioja pour s'y connaître en vin.",
       "pron": "no AÏ mé-KHOR SI-tyo ké la RRYO-kha PA-ra a-prén-DÉR dé BI-no",
@@ -168,6 +178,7 @@
       "duo": {
         "contexte": "Tu es à Logroño pour quelques jours. Avec Elisabeth, vous visitez une bodega de Haro avec un guide, et la dégustation approche."
       },
+      "pub": { "contexte": "Ton frère est en Espagne pour quelques jours. Vous visitez une bodega avec un guide, et la dégustation approche." },
       "lignes": [
         {
           "qui": "Guía",
@@ -196,6 +207,7 @@
         },
         {
           "qui": "Elisabeth",
+          "pub": { "es": "Mi hermano está de visita y quiere llevar vino a mi país. ¿Qué nos recomienda?", "fr": "Mon frère est en visite et il veut rapporter du vin au pays. Qu'est-ce que vous nous conseillez ?" },
           "es": "Mi novio está de visita y quiere llevar vino a Abiyán. ¿Qué nos recomienda?",
           "fr": "Mon compagnon est en visite et il veut rapporter du vin à Abidjan. Qu'est-ce que vous nous conseillez ?",
           "duo": {
@@ -228,14 +240,17 @@
     {
       "titre": "Rendez-vous à San Mateo",
       "contexte": "Fin septembre, les fêtes de San Mateo commencent. Lucía t'appelle pour le foulage du raisin sur l'Espolón.",
+      "pub": { "titre": "Rendez-vous à la fête des vendanges", "contexte": "En septembre, la fête des vendanges commence. Lucía t'appelle pour le foulage du raisin sur la grand-place." },
       "lignes": [
         {
           "qui": "Lucía",
+          "pub": { "es": "¿Vienes mañana a la plaza? Es el pisado de la uva.", "fr": "Tu viens demain sur la place ? C'est le foulage du raisin." },
           "es": "¿Vienes mañana al Espolón? Es el pisado de la uva.",
           "fr": "Tu viens demain sur l'Espolón ? C'est le foulage du raisin."
         },
         {
           "qui": "Elisabeth",
+          "pub": { "es": "¡Claro! ¿Es verdad que bendicen el primer mosto?", "fr": "Bien sûr ! C'est vrai qu'on bénit le premier moût ?" },
           "es": "¡Claro! ¿Es verdad que ofrecen el primer mosto a la Virgen de Valvanera?",
           "fr": "Bien sûr ! C'est vrai qu'on offre le premier moût à la Vierge de Valvanera ?"
         },
@@ -246,6 +261,7 @@
         },
         {
           "qui": "Elisabeth",
+          "pub": { "es": "Este año quiero probar la vendimia en algún pueblo de la zona.", "fr": "Cette année, j'ai envie d'essayer les vendanges dans un village du coin." },
           "es": "Este año quiero probar la vendimia en algún pueblo, como Cenicero o Haro.",
           "fr": "Cette année, j'ai envie d'essayer les vendanges dans un village, comme Cenicero ou Haro."
         },
@@ -261,6 +277,7 @@
         },
         {
           "qui": "Lucía",
+          "pub": { "es": "Pues prepárate, que en la fiesta hay tanta gente como en Navidad.", "fr": "Eh bien prépare-toi, parce qu'à la fête il y a autant de monde qu'à Noël." },
           "es": "Pues prepárate, que en San Mateo hay tanta gente como en Navidad.",
           "fr": "Eh bien prépare-toi, parce qu'à San Mateo il y a autant de monde qu'à Noël."
         },

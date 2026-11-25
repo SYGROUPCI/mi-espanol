@@ -100,7 +100,8 @@
       "es": "Las pochas riojanas llevan pimiento, cebolla y, a veces, chorizo.",
       "fr": "Les pochas riojanas se font avec du poivron, de l'oignon et parfois du chorizo.",
       "pron": "lass PO-tchass rri-o-KHA-nass YÉ-ban pi-MYÉN-to thé-BO-ya i a BÉ-théss tcho-RI-tho",
-      "note": "Les pochas sont des haricots blancs frais, typiques de La Rioja. Chaque maison a sa recette : demande celle de tes voisins."
+      "note": "Les pochas sont des haricots blancs frais, typiques de La Rioja. Chaque maison a sa recette : demande celle de tes voisins.",
+      "pub": { "es": "Las lentejas llevan zanahoria, cebolla y, a veces, chorizo.", "fr": "Les lentilles se font avec de la carotte, de l'oignon et parfois du chorizo.", "pron": "lass lén-TÉ-khass YÉ-ban tha-na-O-rya thé-BO-ya i a BÉ-théss tcho-RI-tho", "note": "Les lentejas, c'est le plat d'hiver de toute l'Espagne, star du menú del día. Chaque maison a sa recette : demande celle de tes voisins." }
     },
     {
       "id": "cocina-14",
@@ -213,6 +214,7 @@
     {
       "titre": "La tortilla de Khalil",
       "contexte": "Khalil veut absolument réussir une tortilla. Tu joues les cheffes, il joue le commis.",
+      "pub": { "titre": "Leçon de tortilla", "contexte": "Ton ami Javi veut absolument réussir une tortilla. Tu joues les cheffes, il joue le commis.", "m": { "contexte": "Tu veux absolument réussir une tortilla. Ton amie Lucía joue la cheffe, toi le commis." } },
       "duo": {
         "contexte": "Tu veux absolument réussir une tortilla. Elisabeth joue la cheffe, toi le commis."
       },
@@ -220,12 +222,14 @@
         {
           "qui": "Khalil",
           "es": "¿Me enseñas a hacer una tortilla de patatas?",
-          "fr": "Tu m'apprends à faire une tortilla de patatas ?"
+          "fr": "Tu m'apprends à faire une tortilla de patatas ?",
+          "pub": { "qui": "Javi", "m": { "qui": "Khalil" } }
         },
         {
           "qui": "Elisabeth",
           "es": "Claro. Primero pela las patatas y córtalas en rodajas finas.",
           "fr": "Bien sûr. D'abord, épluche les pommes de terre et coupe-les en fines rondelles.",
+          "pub": { "m": { "qui": "Lucía" } },
           "duo": {
             "qui": "Elisabeth"
           }
@@ -233,12 +237,14 @@
         {
           "qui": "Khalil",
           "es": "Hecho. ¿Y ahora?",
-          "fr": "C'est fait. Et maintenant ?"
+          "fr": "C'est fait. Et maintenant ?",
+          "pub": { "qui": "Javi", "m": { "qui": "Khalil" } }
         },
         {
           "qui": "Elisabeth",
           "es": "Echa un buen chorro de aceite en la sartén y fríe las patatas a fuego lento con la cebolla.",
           "fr": "Verse un bon filet d'huile dans la poêle et fais cuire les pommes de terre à feu doux avec l'oignon.",
+          "pub": { "m": { "qui": "Lucía" } },
           "duo": {
             "qui": "Elisabeth"
           }
@@ -246,12 +252,14 @@
         {
           "qui": "Khalil",
           "es": "¿Con cebolla? En el bar me dijeron que la buena es sin cebolla.",
-          "fr": "Avec de l'oignon ? Au bar, on m'a dit que la vraie, c'est sans oignon."
+          "fr": "Avec de l'oignon ? Au bar, on m'a dit que la vraie, c'est sans oignon.",
+          "pub": { "qui": "Javi", "m": { "qui": "Khalil" } }
         },
         {
           "qui": "Elisabeth",
           "es": "Eso es un debate eterno. En esta casa, con cebolla. Ahora bate los huevos.",
           "fr": "C'est un débat sans fin. Dans cette maison, c'est avec oignon. Maintenant, bats les œufs.",
+          "pub": { "m": { "qui": "Lucía" } },
           "duo": {
             "qui": "Elisabeth"
           }
@@ -259,12 +267,14 @@
         {
           "qui": "Khalil",
           "es": "¿Cuántos huevos le echo?",
-          "fr": "J'en mets combien, des œufs ?"
+          "fr": "J'en mets combien, des œufs ?",
+          "pub": { "qui": "Javi", "m": { "qui": "Khalil" } }
         },
         {
           "qui": "Elisabeth",
           "es": "Seis o siete, a ojo. Añade una pizca de sal, mézclalo todo y luego dale la vuelta con un plato, pero con cuidado.",
           "fr": "Six ou sept, à l'œil. Ajoute une pincée de sel, mélange tout, puis retourne-la avec une assiette, mais doucement.",
+          "pub": { "m": { "qui": "Lucía" } },
           "duo": {
             "qui": "Elisabeth"
           }
@@ -272,12 +282,14 @@
         {
           "qui": "Khalil",
           "es": "¡Lo he conseguido! Pruébala y dime si le falta sal.",
-          "fr": "J'ai réussi ! Goûte-la et dis-moi s'il manque du sel."
+          "fr": "J'ai réussi ! Goûte-la et dis-moi s'il manque du sel.",
+          "pub": { "qui": "Javi", "m": { "qui": "Khalil" } }
         },
         {
           "qui": "Elisabeth",
           "es": "Mmm… ¡Está de rechupete!",
           "fr": "Mmm… Elle est délicieuse !",
+          "pub": { "m": { "qui": "Lucía" } },
           "duo": {
             "qui": "Elisabeth"
           }

@@ -141,6 +141,7 @@
     },
     {
       "id": "paquetes-18",
+      "pub": { "es": "Javi, ha llegado tu paquete. ¿Te lo dejo encima de la mesa?", "fr": "Javi, ton colis est arrivé. Je te le pose sur la table ?", "pron": "KHA-bi a yé-GA-do tou pa-KÉ-té té lo DÉ-kho én-THI-ma dé la MÉ-ssa" },
       "es": "Khalil, ha llegado tu paquete. ¿Te lo dejo encima de la mesa?",
       "fr": "Khalil, ton colis est arrivé. Je te le pose sur la table ?",
       "pron": "ka-LIL a yé-GA-do tou pa-KÉ-té té lo DÉ-kho én-THI-ma dé la MÉ-ssa",
@@ -288,6 +289,7 @@
     ],
     "exemples": [
       {
+        "pub": { "es": "¿El paquete de Javi? Se lo he dejado en su habitación.", "fr": "Le colis de Javi ? Je le lui ai laissé dans sa chambre." },
         "es": "¿El paquete de Khalil? Se lo he dejado en su habitación.",
         "fr": "Le colis de Khalil ? Je le lui ai laissé dans sa chambre.",
         "duo": {

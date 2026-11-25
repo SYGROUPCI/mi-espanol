@@ -5,6 +5,7 @@
   "titre": "Projets et hypothèses",
   "titre_es": "Planes de futuro y sueños",
   "intro": "Où vivre dans cinq ans, ce que tu ferais avec plus de temps, ce que tu achèterais si le Gordo tombait sur ton billet : ici, on rêve à voix haute. Le futur, le conditionnel et le fameux « si tuviera », c'est tout ce qu'il faut pour bâtir des projets à deux.",
+  "pub": { "intro": "Où vivre dans cinq ans, ce que tu ferais avec plus de temps, ce que tu achèterais si le Gordo tombait sur ton billet : ici, on rêve à voix haute. Le futur, le conditionnel et le fameux « si tuviera », c'est tout ce qu'il faut pour bâtir des projets." },
   "phrases": [
     {
       "id": "futuro-01",
@@ -16,6 +17,11 @@
         "es": "Dentro de cinco años, me veo viviendo en Logroño con Elisabeth.",
         "fr": "Dans cinq ans, je me vois vivre à Logroño avec Elisabeth.",
         "pron": "DÉN-tro dé THIN-ko A-gnoss mé BÉ-o bi-BYÉN-do én lo-GRO-gno kon é-li-ssa-BÉT"
+      },
+      "pub": {
+        "es": "Dentro de cinco años, me veo viviendo en {miciudad} con mi familia.",
+        "fr": "Dans cinq ans, je me vois vivre à {miciudad} avec ma famille.",
+        "pron": "DÉN-tro dé THIN-ko A-gnoss mé BÉ-o bi-BYÉN-do én {miciudad} kon mi fa-MI-lya"
       }
     },
     {
@@ -43,6 +49,11 @@
         "es": "Vendré a vivir aquí en cuanto tenga los papeles.",
         "fr": "Je viendrai vivre ici dès que j'aurai mes papiers.",
         "pron": "bén-DRÉ a bi-BIR a-KI én KOUAN-to TÉN-ga loss pa-PÉ-léss"
+      },
+      "pub": {
+        "es": "Mi hermana vendrá a vivir aquí en cuanto tenga los papeles.",
+        "fr": "Ma sœur viendra vivre ici dès qu'elle aura ses papiers.",
+        "pron": "mi ér-MA-na bén-DRA a bi-BIR a-KI én KOUAN-to TÉN-ga loss pa-PÉ-léss"
       }
     },
     {
@@ -83,6 +94,12 @@
         "fr": "Si je pouvais, j'irais à Abidjan tous les étés.",
         "pron": "si pou-DYÉ-ra bya-kha-RI-a a a-bi-YAN TO-doss loss bé-RA-noss",
         "rapide": "Si pudiera, viajaría a Abiyán to'os los veranos."
+      },
+      "pub": {
+        "es": "Si pudiera, viajaría a mi país todos los veranos.",
+        "fr": "Si je pouvais, j'irais dans mon pays tous les étés.",
+        "pron": "si pou-DYÉ-ra bya-kha-RI-a a mi pa-ISS TO-doss loss bé-RA-noss",
+        "rapide": "Si pudiera, viajaría a mi país to'os los veranos."
       },
       "perso": {
         "es": "Si pudiera, viajaría a {ciudad} todos los veranos.",
@@ -132,7 +149,12 @@
       "es": "Si nos casáramos, haríamos la boda en Conakri y en Abiyán.",
       "fr": "Si on se mariait, on ferait la noce à Conakry et à Abidjan.",
       "pron": "si noss ka-SSA-ra-moss a-RI-a-moss la BO-da én ko-na-KRI i én a-bi-YAN",
-      "note": "Deux pays, deux familles, deux fêtes. Rien que d'y penser, c'est épuisant et merveilleux."
+      "note": "Deux pays, deux familles, deux fêtes. Rien que d'y penser, c'est épuisant et merveilleux.",
+      "pub": {
+        "es": "Si me casara, haría la boda en mi país y en España.",
+        "fr": "Si je me mariais, je ferais la noce dans mon pays et en Espagne.",
+        "pron": "si mé ka-SSA-ra a-RI-a la BO-da én mi pa-ISS i én éss-PA-gna"
+      }
     },
     {
       "id": "futuro-15",
@@ -144,6 +166,12 @@
         "es": "Cuando viva aquí, buscaremos un piso con terraza.",
         "fr": "Quand je vivrai ici, on cherchera un appartement avec terrasse.",
         "pron": "KOUAN-do BI-ba a-KI bouss-ka-RÉ-moss oun PI-sso kon té-RRA-tha"
+      },
+      "pub": {
+        "es": "Cuando mi hermana viva aquí, buscaremos un piso con terraza.",
+        "fr": "Quand ma sœur vivra ici, on cherchera un appartement avec terrasse.",
+        "pron": "KOUAN-do mi ér-MA-na BI-ba a-KI bouss-ka-RÉ-moss oun PI-sso kon té-RRA-tha",
+        "note": "« Cuando » + subjonctif pour parler de l'avenir. Jamais « cuando vivirá », même si le français dit « quand elle vivra »."
       }
     },
     {
@@ -165,6 +193,12 @@
         "fr": "Je ne sais pas si je resterai en Espagne toute ma vie.",
         "pron": "no SÉ si mé ké-da-RÉ én éss-PA-gna TO-da la BI-da",
         "rapide": "No sé si me quedaré en España to'a la vida."
+      },
+      "pub": {
+        "es": "No sé si me quedaré en España toda la vida.",
+        "fr": "Je ne sais pas si je resterai en Espagne toute ma vie.",
+        "pron": "no SÉ si mé ké-da-RÉ én éss-PA-gna TO-da la BI-da",
+        "rapide": "No sé si me quedaré en España to'a la vida."
       }
     },
     {
@@ -178,6 +212,12 @@
         "fr": "Elisabeth ne répond pas ; elle doit être en train de travailler.",
         "pron": "é-li-ssa-BÉT no kon-TÉSS-ta éss-ta-RA tra-ba-KHAN-do",
         "note": "Le futur sert aussi à faire une supposition sur le présent : « estará trabajando », elle doit être au travail."
+      },
+      "pub": {
+        "es": "Mi hermana no contesta; estará durmiendo.",
+        "fr": "Ma sœur ne répond pas ; elle doit être en train de dormir.",
+        "pron": "mi ér-MA-na no kon-TÉSS-ta éss-ta-RA dour-MYÉN-do",
+        "note": "Le futur sert aussi à faire une supposition sur le présent : « estará durmiendo », elle doit dormir. Avec le décalage horaire, c'est souvent vrai."
       }
     },
     {
@@ -235,6 +275,10 @@
             "es": "Yo no dejaría de trabajar, pero trabajaría menos. Y le compraría una casa a mi madre en Abiyán.",
             "fr": "Moi, je n'arrêterais pas de travailler, mais je travaillerais moins. Et j'achèterais une maison à ma mère à Abidjan."
           },
+          "pub": {
+            "es": "Yo no dejaría de trabajar, pero trabajaría menos. Y le compraría una casa a mi madre en mi país.",
+            "fr": "Moi, je n'arrêterais pas de travailler, mais je travaillerais moins. Et j'achèterais une maison à ma mère, au pays."
+          },
           "perso": {
             "es": "Yo no dejaría de trabajar, pero trabajaría menos. Y le compraría una casa a mi madre en {ciudad}.",
             "fr": "Moi, je n'arrêterais pas de travailler, mais je travaillerais moins. Et j'achèterais une maison à ma mère à {ville}."
@@ -263,17 +307,25 @@
       "duo": {
         "contexte": "Le soir, appel vidéo avec Elisabeth. Ce soir, vous ne parlez ni du temps qu'il fait ni de la journée, mais de l'avenir."
       },
+      "pub": {
+        "contexte": "Le soir, appel vidéo avec Sara, ta sœur, restée au pays. Elle rêve de te rejoindre, et ce soir, vous ne parlez ni du temps qu'il fait ni de la journée, mais de l'avenir."
+      },
       "lignes": [
         {
           "qui": "Khalil",
           "es": "¿Dónde te ves dentro de cinco años?",
           "fr": "Où est-ce que tu te vois dans cinq ans ?",
-          "duo": { "qui": "Elisabeth" }
+          "duo": { "qui": "Elisabeth" },
+          "pub": { "qui": "Sara" }
         },
         {
           "qui": "Elisabeth",
           "es": "Me veo viviendo en Logroño contigo, en un piso más grande.",
-          "fr": "Je me vois vivre à Logroño avec toi, dans un appartement plus grand."
+          "fr": "Je me vois vivre à Logroño avec toi, dans un appartement plus grand.",
+          "pub": {
+            "es": "Me veo viviendo aquí contigo, en un piso más grande.",
+            "fr": "Je me vois vivre ici avec toi, dans un appartement plus grand."
+          }
         },
         {
           "qui": "Khalil",
@@ -283,6 +335,11 @@
             "qui": "Elisabeth",
             "es": "Supongo que para entonces ya tendrás trabajo aquí.",
             "fr": "Je suppose que d'ici là, tu auras déjà du travail ici."
+          },
+          "pub": {
+            "qui": "Sara",
+            "es": "Supongo que para entonces ya tendré trabajo allí.",
+            "fr": "Je suppose que d'ici là, j'aurai déjà du travail là-bas."
           }
         },
         {
@@ -292,13 +349,18 @@
           "duo": {
             "es": "Claro. Cuando viva allí, buscaremos un piso con terraza.",
             "fr": "Bien sûr. Quand je vivrai là-bas, on cherchera un appartement avec terrasse."
+          },
+          "pub": {
+            "es": "Claro. Cuando vivas aquí, buscaremos un piso con terraza.",
+            "fr": "Bien sûr. Quand tu vivras ici, on cherchera un appartement avec terrasse."
           }
         },
         {
           "qui": "Khalil",
           "es": "¿Y qué harías si tuvieras más tiempo?",
           "fr": "Et qu'est-ce que tu ferais si tu avais plus de temps ?",
-          "duo": { "qui": "Elisabeth" }
+          "duo": { "qui": "Elisabeth" },
+          "pub": { "qui": "Sara" }
         },
         {
           "qui": "Elisabeth",
@@ -317,18 +379,32 @@
             "qui": "Elisabeth",
             "es": "Y yo, si pudiera, abriría un restaurante de comida guineana en la Laurel.",
             "fr": "Et moi, si je pouvais, j'ouvrirais un restaurant guinéen dans la rue Laurel."
+          },
+          "pub": {
+            "qui": "Sara",
+            "es": "Y yo, si pudiera, abriría un restaurante con la comida de mamá en el centro.",
+            "fr": "Et moi, si je pouvais, j'ouvrirais un restaurant avec la cuisine de maman dans le centre."
           }
         },
         {
           "qui": "Elisabeth",
           "es": "¡Me encanta la idea! Ojalá podamos vivir juntos pronto.",
-          "fr": "J'adore l'idée ! Pourvu qu'on puisse vivre ensemble bientôt."
+          "fr": "J'adore l'idée ! Pourvu qu'on puisse vivre ensemble bientôt.",
+          "pub": {
+            "es": "¡Me encanta la idea! Ojalá podamos vivir juntas pronto.",
+            "m": { "es": "¡Me encanta la idea! Ojalá podamos vivir juntos pronto." }
+          }
         },
         {
           "qui": "Khalil",
           "es": "Pase lo que pase, lo haremos juntos.",
           "fr": "Quoi qu'il arrive, on le fera ensemble.",
-          "duo": { "qui": "Elisabeth" }
+          "duo": { "qui": "Elisabeth" },
+          "pub": {
+            "qui": "Sara",
+            "es": "Pase lo que pase, lo haremos juntas.",
+            "m": { "es": "Pase lo que pase, lo haremos juntos." }
+          }
         }
       ]
     }
@@ -384,7 +460,8 @@
     {
       "es": "Al mal tiempo, buena cara",
       "fr": "Faire contre mauvaise fortune bon cœur",
-      "note": "Quand les projets prennent du retard, on garde le sourire. Une devise qui va bien à deux personnes qui s'aiment à distance."
+      "note": "Quand les projets prennent du retard, on garde le sourire. Une devise qui va bien à deux personnes qui s'aiment à distance.",
+      "pub": { "note": "Quand les projets prennent du retard, on garde le sourire. Une devise qui va bien à tous ceux qui vivent loin de leurs proches." }
     },
     {
       "es": "Vivir del cuento",

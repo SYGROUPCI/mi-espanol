@@ -120,6 +120,7 @@
       "rapide": "Mi jefa quiere que trabaje el sábao, pero ya tengo planes."
     },
     {
+      "pub": { "note": "Pour remercier d'un service. On te répondra sûrement « ¡Nada, mujer! » ; à un homme, ce serait « ¡Nada, hombre! ».", "m": { "note": "Pour remercier d'un service. On te répondra sûrement « ¡Nada, hombre! » ; à une femme, ce serait « ¡Nada, mujer! »." } },
       "id": "consejos-16",
       "es": "Gracias, te debo una.",
       "fr": "Merci, je t'en dois une.",
@@ -161,6 +162,7 @@
   ],
   "dialogues": [
     {
+      "pub": { "contexte": "Rosa, ta voisine, sonne chez toi. Elle part quelques jours voir sa fille à Pampelune et elle a une petite chose à te demander." },
       "titre": "Un service entre voisines",
       "contexte": "Rosa, ta voisine, sonne chez toi. Elle part quelques jours voir sa fille à Pampelune et elle a une petite chose à te demander.",
       "duo": {

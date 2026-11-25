@@ -4,6 +4,7 @@
   "niveau": "B1",
   "titre": "L'actualité et les débats",
   "titre_es": "La actualidad y los debates",
+  "pub": { "intro": "Au bar, au travail, chez les voisins : l'actualité, c'est le meilleur prétexte pour parler. La boulangerie qui ferme, la canicule, le prix des courses, la fête du quartier… Voici de quoi donner ton avis, contredire avec le sourire et nuancer comme quelqu'un du coin." },
   "intro": "Au bar, au travail, chez la voisine : l'actualité, c'est le meilleur prétexte pour parler. La boulangerie qui ferme, la canicule, le prix des courses, la fête du quartier… Voici de quoi donner ton avis, contredire avec le sourire et nuancer comme une vraie Logroñesa.",
   "duo": {
     "intro": "Au bar, au travail, chez les voisins : l'actualité, c'est le meilleur prétexte pour parler. La boulangerie qui ferme, la canicule, le prix des courses, la fête du quartier… Voici de quoi donner ton avis, contredire avec le sourire et nuancer comme un vrai Logroñés."
@@ -18,6 +19,7 @@
     },
     {
       "id": "actualidad-02",
+      "pub": { "note": "« Las noticias » : le journal à la télé ou à la radio. Eh oui, l'été espagnol ne plaisante pas, et dans bien des villes l'hiver non plus." },
       "es": "Dicen en las noticias que esta semana vamos a llegar a cuarenta grados.",
       "fr": "Aux infos, ils disent que cette semaine on va atteindre quarante degrés.",
       "pron": "DI-thén én lass no-TI-thyass ké ÉSS-ta sé-MA-na BA-moss a yé-GAR a koua-RÉN-ta GRA-doss",
@@ -128,6 +130,7 @@
     },
     {
       "id": "actualidad-17",
+      "pub": { "note": "La grêle, c'est la grande peur des agriculteurs et des viticulteurs : en quelques minutes, elle peut abîmer toute une récolte." },
       "es": "Ayer granizó tanto que se rompieron los cristales de varios coches.",
       "fr": "Hier, il a tellement grêlé que les vitres de plusieurs voitures ont cassé.",
       "pron": "a-YÉR gra-ni-THO TAN-to ké sé rrom-PYÉ-ron loss kriss-TA-léss dé BA-ryoss KO-tchéss",
@@ -160,6 +163,7 @@
     {
       "titre": "Les nouvelles du quartier",
       "contexte": "Au marché, tu croises Rosa, la voisine du quatrième, qui sait toujours tout avant tout le monde.",
+      "pub": { "contexte": "Au marché, tu croises Rosa, la voisine du quatrième, qui sait toujours tout avant tout le monde." },
       "duo": {
         "contexte": "Au marché, tu croises Rosa, la voisine d'Elisabeth, qui sait toujours tout avant tout le monde."
       },

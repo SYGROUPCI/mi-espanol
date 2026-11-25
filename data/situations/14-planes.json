@@ -91,6 +91,12 @@
     },
     {
       "id": "planes-12",
+      "pub": {
+        "es": "En agosto iremos a mi país a ver a la familia.",
+        "fr": "En août, on ira dans mon pays voir la famille.",
+        "pron": "én a-GOSS-to i-RÉ-moss a mi pa-ISS a BÉR a la fa-MI-lya",
+        "note": "Le futur simple « iremos » donne un ton de projet bien décidé. Tu peux remplacer « mi país » par son nom : « a Senegal », « a Malí », « a Camerún »."
+      },
       "es": "En agosto iremos a Abiyán a ver a la familia de Khalil.",
       "fr": "En août, on ira à Abidjan voir la famille de Khalil.",
       "pron": "én a-GOSS-to i-RÉ-moss a a-bi-YAN a BÉR a la fa-MI-lya dé ka-LIL",
@@ -103,6 +109,11 @@
     },
     {
       "id": "planes-13",
+      "pub": {
+        "es": "Este año pasaremos la Navidad en {miciudad}.",
+        "fr": "Cette année, on passera Noël à {miciudad}.",
+        "pron": "ÉSS-té A-gno pa-ssa-RÉ-moss la na-bi-DAD én {miciudad}"
+      },
       "es": "Este año pasaremos la Navidad en Logroño.",
       "fr": "Cette année, on passera Noël à Logroño.",
       "pron": "ÉSS-té A-gno pa-ssa-RÉ-moss la na-bi-DAD én lo-GRO-gno",
@@ -218,6 +229,9 @@
       "duo": {
         "contexte": "Vendredi, le chef d'Elisabeth lui demande de travailler samedi. Elle prévient Lucía, puis tu l'appelles d'Abidjan pour parler des vacances."
       },
+      "pub": {
+        "contexte": "Vendredi, ton chef te demande de travailler samedi. Tu dois prévenir Lucía, puis ta mère t'appelle pour parler des vacances."
+      },
       "lignes": [
         {
           "qui": "Elisabeth",
@@ -225,6 +239,12 @@
           "fr": "Lucía, je suis vraiment désolée, finalement je ne vais pas pouvoir venir. Demain je dois travailler.",
           "duo": {
             "qui": "Elisabeth"
+          },
+          "pub": {
+            "m": {
+              "qui": "Khalil",
+              "fr": "Lucía, je suis vraiment désolé, finalement je ne vais pas pouvoir venir. Demain je dois travailler."
+            }
           }
         },
         {
@@ -238,6 +258,11 @@
           "fr": "Ça te dérange si on remet ça à la semaine prochaine ?",
           "duo": {
             "qui": "Elisabeth"
+          },
+          "pub": {
+            "m": {
+              "qui": "Khalil"
+            }
           }
         },
         {
@@ -248,7 +273,13 @@
         {
           "qui": "Khalil",
           "es": "¡Hola, cariño! ¿Qué tal el día?",
-          "fr": "Coucou, ma chérie ! Ta journée s'est bien passée ?"
+          "fr": "Coucou, ma chérie ! Ta journée s'est bien passée ?",
+          "pub": {
+            "qui": "Mamá",
+            "m": {
+              "fr": "Coucou, mon chéri ! Ta journée s'est bien passée ?"
+            }
+          }
         },
         {
           "qui": "Elisabeth",
@@ -256,12 +287,20 @@
           "fr": "Un peu compliquée, mais ça va.",
           "duo": {
             "qui": "Elisabeth"
+          },
+          "pub": {
+            "m": {
+              "qui": "Khalil"
+            }
           }
         },
         {
           "qui": "Khalil",
           "es": "Oye, ¿ya sabes dónde vas a ir de vacaciones?",
-          "fr": "Dis, tu sais déjà où tu vas partir en vacances ?"
+          "fr": "Dis, tu sais déjà où tu vas partir en vacances ?",
+          "pub": {
+            "qui": "Mamá"
+          }
         },
         {
           "qui": "Elisabeth",
@@ -269,12 +308,22 @@
           "fr": "J'aimerais aller à la plage cet été, mais ça dépend de l'argent.",
           "duo": {
             "qui": "Elisabeth"
+          },
+          "pub": {
+            "m": {
+              "qui": "Khalil"
+            }
           }
         },
         {
           "qui": "Khalil",
           "es": "Pues yo tengo pensado otra cosa: en agosto iremos a Abiyán a ver a mi familia.",
-          "fr": "Eh bien moi, j'ai prévu autre chose : en août, on ira à Abidjan voir ma famille."
+          "fr": "Eh bien moi, j'ai prévu autre chose : en août, on ira à Abidjan voir ma famille.",
+          "pub": {
+            "qui": "Mamá",
+            "es": "Pues yo tengo pensado otra cosa: en agosto vienes a vernos, que toda la familia tiene ganas de verte.",
+            "fr": "Eh bien moi, j'ai prévu autre chose : en août, tu viens nous voir, toute la famille a hâte de te retrouver."
+          }
         },
         {
           "qui": "Elisabeth",
@@ -282,6 +331,11 @@
           "fr": "Ah oui ! Ça, c'est encore mieux que la plage.",
           "duo": {
             "qui": "Elisabeth"
+          },
+          "pub": {
+            "m": {
+              "qui": "Khalil"
+            }
           }
         }
       ]

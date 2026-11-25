@@ -26,6 +26,7 @@
     },
     {
       "id": "especialista-03",
+      "pub": { "es": "Tengo cita en el hospital, en consultas externas.", "fr": "J'ai rendez-vous à l'hôpital, en consultation externe.", "pron": "TÉN-go THI-ta én él oss-pi-TAL én kon-SSOUL-tass éks-TÉR-nass", "note": "À l'accueil de l'hôpital, dis simplement « consultas externas » : ce sont les consultations de spécialistes, sans hospitalisation." },
       "es": "Tengo cita en el Hospital San Pedro, en consultas externas.",
       "fr": "J'ai rendez-vous à l'hôpital San Pedro, en consultation externe.",
       "pron": "TÉN-go THI-ta én él oss-pi-TAL SAN PÉ-dro én kon-SSOUL-tass éks-TÉR-nass",
@@ -162,6 +163,7 @@
   "dialogues": [
     {
       "titre": "Chez la dermatologue",
+      "pub": { "contexte": "Après des semaines sur liste d'attente, tu as enfin rendez-vous en consultation externe à l'hôpital." },
       "contexte": "Après des semaines sur liste d'attente, tu as enfin rendez-vous en consultation externe à l'hôpital San Pedro.",
       "lignes": [
         {

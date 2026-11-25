@@ -193,6 +193,14 @@
           "duo": {
             "es": "Estimado Khalil: Disculpe la demora, he estado unos días fuera de Logroño.",
             "fr": "Cher Khalil, excusez le délai, j'ai été absent de Logroño quelques jours."
+          },
+          "pub": {
+            "es": "Estimada Elisabeth: Disculpe la demora, he estado unos días fuera de {miciudad}.",
+            "fr": "Chère Elisabeth, excusez le délai, j'ai été absent de {miciudad} quelques jours.",
+            "m": {
+              "es": "Estimado Khalil: Disculpe la demora, he estado unos días fuera de {miciudad}.",
+              "fr": "Cher Khalil, excusez le délai, j'ai été absent de {miciudad} quelques jours."
+            }
           }
         },
         {

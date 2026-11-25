@@ -8,6 +8,7 @@
   "duo": {
     "intro": "Dire que tu es content, stressé ou que ta famille te manque, féliciter une amie, rassurer quelqu'un : les mots qui rapprochent les gens. Avec quelques phrases tendres pour Elisabeth, à dire au téléphone."
   },
+  "pub": { "intro": "Dire que tu es contente, stressée ou que ta famille te manque, féliciter une amie, rassurer quelqu'un : les mots qui rapprochent les gens. Avec quelques phrases tendres pour ceux que tu aimes, à dire au téléphone.", "m": { "intro": "Dire que tu es content, stressé ou que ta famille te manque, féliciter une amie, rassurer quelqu'un : les mots qui rapprochent les gens. Avec quelques phrases tendres pour ceux que tu aimes, à dire au téléphone." } },
   "phrases": [
     {
       "id": "emociones-01",
@@ -189,7 +190,8 @@
         "fr": "Je suis fier de toi. Tu as énormément travaillé.",
         "pron": "éss-TOÏ or-gou-YO-sso dé TI ass tra-ba-KHA-do mou-TCHI-ssi-mo",
         "note": "« Orgulloso » au masculin, c'est toi qui parles. Elisabeth, elle, dira « orgullosa »."
-      }
+      },
+      "pub": { "note": "« Orgullosa » au féminin, c'est toi qui parles. Un homme dira « orgulloso ».", "m": { "note": "« Orgulloso » au masculin, c'est toi qui parles. Une femme dira « orgullosa »." } }
     },
     {
       "id": "emociones-20",
@@ -206,16 +208,19 @@
       "duo": {
         "contexte": "Tu es à Abidjan, loin d'Elisabeth pour quelques semaines. Tu l'appelles après sa longue journée."
       },
+      "pub": { "contexte": "Carmen, ta meilleure amie, est partie travailler loin pour quelques semaines. Elle t'appelle après une longue journée.", "m": { "contexte": "Tu es loin de chez toi pour quelques semaines. Tu appelles Carmen, ta meilleure amie, après sa longue journée." } },
       "lignes": [
         {
           "qui": "Khalil",
           "es": "¿Qué tal, cariño? Te noto cansada.",
-          "fr": "Ça va, ma chérie ? Tu as l'air fatiguée."
+          "fr": "Ça va, ma chérie ? Tu as l'air fatiguée.",
+          "pub": { "qui": "Carmen", "m": { "qui": "Khalil" } }
         },
         {
           "qui": "Elisabeth",
           "es": "Un poco. Estoy un poco agobiada con tantos papeles.",
           "fr": "Un peu. Je suis un peu débordée avec tous ces papiers.",
+          "pub": { "m": { "qui": "Carmen" } },
           "duo": {
             "qui": "Elisabeth"
           }
@@ -223,12 +228,14 @@
         {
           "qui": "Khalil",
           "es": "No te preocupes, todo va a salir bien. ¿Y la entrevista?",
-          "fr": "Ne t'inquiète pas, tout va bien se passer. Et l'entretien ?"
+          "fr": "Ne t'inquiète pas, tout va bien se passer. Et l'entretien ?",
+          "pub": { "qui": "Carmen", "m": { "qui": "Khalil" } }
         },
         {
           "qui": "Elisabeth",
           "es": "¡Justo te lo iba a contar! Hoy estoy muy contenta: me han dado el trabajo.",
           "fr": "J'allais justement te le dire ! Aujourd'hui je suis très contente : on m'a donné le poste.",
+          "pub": { "m": { "qui": "Carmen" } },
           "duo": {
             "qui": "Elisabeth"
           }
@@ -236,12 +243,14 @@
         {
           "qui": "Khalil",
           "es": "¡Enhorabuena! Te lo mereces. Estoy orgulloso de ti.",
-          "fr": "Félicitations ! Tu le mérites. Je suis fier de toi."
+          "fr": "Félicitations ! Tu le mérites. Je suis fier de toi.",
+          "pub": { "qui": "Carmen", "es": "¡Enhorabuena! Te lo mereces. Estoy orgullosa de ti.", "fr": "Félicitations ! Tu le mérites. Je suis fière de toi.", "m": { "qui": "Khalil", "es": "¡Enhorabuena! Te lo mereces. Estoy orgulloso de ti.", "fr": "Félicitations ! Tu le mérites. Je suis fier de toi." } }
         },
         {
           "qui": "Elisabeth",
           "es": "Gracias. Hablar contigo me hace muy feliz. Te echo de menos, cariño. ¿Cuándo vienes?",
           "fr": "Merci. Parler avec toi me rend très heureuse. Tu me manques, mon chéri. Tu viens quand ?",
+          "pub": { "fr": "Merci. Parler avec toi me rend très heureuse. Tu me manques, ma chérie. Tu viens quand ?", "m": { "qui": "Carmen", "fr": "Merci. Parler avec toi me rend très heureuse. Tu me manques, mon chéri. Tu viens quand ?" } },
           "duo": {
             "qui": "Elisabeth"
           }
@@ -249,12 +258,14 @@
         {
           "qui": "Khalil",
           "es": "Dentro de tres semanas. Ya queda menos para vernos.",
-          "fr": "Dans trois semaines. On se voit bientôt."
+          "fr": "Dans trois semaines. On se voit bientôt.",
+          "pub": { "qui": "Carmen", "m": { "qui": "Khalil" } }
         },
         {
           "qui": "Elisabeth",
           "es": "Vale. Mañana te llamo y me cuentas cómo ha ido tu semana.",
           "fr": "D'accord. Demain je t'appelle et tu me racontes comment s'est passée ta semaine.",
+          "pub": { "m": { "qui": "Carmen" } },
           "duo": {
             "qui": "Elisabeth"
           }
@@ -262,7 +273,8 @@
         {
           "qui": "Khalil",
           "es": "Hecho. Un beso enorme.",
-          "fr": "Ça marche. Un énorme bisou."
+          "fr": "Ça marche. Un énorme bisou.",
+          "pub": { "qui": "Carmen", "m": { "qui": "Khalil" } }
         }
       ]
     },
@@ -345,11 +357,13 @@
     "exemples": [
       {
         "es": "Elisabeth es muy simpática, pero hoy está cansada.",
-        "fr": "Elisabeth est très sympathique, mais aujourd'hui elle est fatiguée."
+        "fr": "Elisabeth est très sympathique, mais aujourd'hui elle est fatiguée.",
+        "pub": { "es": "Lucía es muy simpática, pero hoy está cansada.", "fr": "Lucía est très sympathique, mais aujourd'hui elle est fatiguée." }
       },
       {
         "es": "Echo de menos a mis amigas de Conakri.",
         "fr": "Mes amies de Conakry me manquent.",
+        "pub": { "es": "Echo de menos a mis amigas de mi país.", "fr": "Mes amies restées au pays me manquent.", "m": { "es": "Echo de menos a mis amigos de mi país.", "fr": "Mes amis restés au pays me manquent." } },
         "duo": {
           "es": "Echo de menos a mis amigos de Abiyán.",
           "fr": "Mes amis d'Abidjan me manquent."

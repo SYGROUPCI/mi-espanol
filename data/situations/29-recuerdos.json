@@ -1,5 +1,6 @@
 {
   "id": "recuerdos",
+  "pub": { "intro": "Raconter un souvenir, c'est jongler entre deux passés : l'imparfait pour le décor, le passé simple pour ce qui arrive. Ton enfance au pays, tes premiers jours en Espagne, le fameux jour du mauvais bus : de quoi faire rire toute la tablée." },
   "ordre": 29,
   "niveau": "B1",
   "titre": "Raconter des souvenirs",
@@ -10,6 +11,7 @@
   },
   "phrases": [
     {
+      "pub": { "es": "Cuando tenía diez años, vivíamos en un barrio cerca del mar.", "fr": "Quand j'avais dix ans, on habitait dans un quartier près de la mer.", "pron": "KOUAN-do té-NI-a DYÉTH A-gnoss bi-BI-a-moss én oun BA-rryo THÉR-ka dél MAR", "note": "Tenía, vivíamos : l'imparfait plante le décor. Change-le à ta guise : cerca del río (près du fleuve), en el centro, en el campo (à la campagne)." },
       "id": "recuerdos-01",
       "es": "Cuando tenía diez años, vivíamos en Ratoma, cerca del mar.",
       "fr": "Quand j'avais dix ans, on habitait à Ratoma, près de la mer.",
@@ -51,6 +53,7 @@
       }
     },
     {
+      "pub": { "note": "Dans bien des pays d'Afrique de l'Ouest, la saison des pluies ne fait pas semblant : des trombes d'eau pendant des semaines. « Tanto que » : tellement que." },
       "id": "recuerdos-05",
       "es": "En la temporada de lluvias llovía tanto que a veces no podíamos salir a jugar.",
       "fr": "À la saison des pluies, il pleuvait tellement que parfois on ne pouvait pas sortir jouer.",
@@ -61,6 +64,7 @@
       }
     },
     {
+      "pub": { "es": "Me acuerdo muy bien de mi primer día en {miciudad}.", "fr": "Je me souviens très bien de mon premier jour à {miciudad}.", "pron": "mé a-KOUÉR-do MOUÏ BYÉN dé mi pri-MÉR DI-a én {miciudad}", "rapide": "M'acuerdo muy bien de mi primer día en {miciudad}." },
       "id": "recuerdos-06",
       "es": "Me acuerdo muy bien de mi primer día en Logroño.",
       "fr": "Je me souviens très bien de mon premier jour à Logroño.",
@@ -87,6 +91,7 @@
       "rapide": "Los primeros días no entendía na' cuando la gente hablaba rápido."
     },
     {
+      "pub": { "es": "Un día me equivoqué de autobús y acabé en la otra punta de la ciudad.", "fr": "Un jour, je me suis trompée de bus et je me suis retrouvée à l'autre bout de la ville.", "pron": "oun DI-a mé é-ki-bo-KÉ dé aou-to-BOUSS i a-ka-BÉ én la O-tra POUN-ta dé la thyou-DAD", "note": "Equivocarse de : se tromper de. « La otra punta » : l'autre bout. L'aventure, pour le prix d'un ticket de bus.", "m": { "fr": "Un jour, je me suis trompé de bus et je me suis retrouvé à l'autre bout de la ville." } },
       "id": "recuerdos-09",
       "es": "Un día me equivoqué de autobús y acabé en Villamediana.",
       "fr": "Un jour, je me suis trompée de bus et je me suis retrouvée à Villamediana.",
@@ -111,6 +116,7 @@
       "note": "Reírse fait « me reí » au passé simple, avec un accent. « Se me saltaron las lágrimas » : les larmes ont jailli toutes seules."
     },
     {
+      "pub": { "es": "Mi padre solía llevarme al mercado los sábados.", "fr": "Le samedi, mon père m'emmenait souvent au marché.", "pron": "mi PA-dré so-LI-a yé-BAR-mé al mér-KA-do loss SA-ba-doss", "rapide": "Mi padre solía llevarme al mercao los sábados.", "note": "Solía + infinitif raconte une habitude du passé. Le grand marché du samedi avec papa : un classique des souvenirs d'enfance." },
       "id": "recuerdos-12",
       "es": "Mi padre solía llevarme al mercado de Madina los sábados.",
       "fr": "Le samedi, mon père m'emmenait souvent au marché de Madina.",
@@ -133,6 +139,7 @@
       "note": "Había visto, c'est le plus-que-parfait, comme « j'avais vu » : haber à l'imparfait, puis le participe."
     },
     {
+      "pub": { "es": "Cuando por fin vi la nieve en la montaña, me puse a gritar como una niña.", "fr": "Quand j'ai enfin vu la neige à la montagne, je me suis mise à crier comme une gamine.", "pron": "KOUAN-do por FIN BI la NYÉ-bé én la mon-TA-gna mé POU-ssé a gri-TAR KO-mo OU-na NI-gna", "note": "Ponerse a + infinitif : se mettre à. En Espagne, la neige n'est jamais très loin : Pyrénées, sierra de Madrid, Sierra Nevada…", "m": { "es": "Cuando por fin vi la nieve en la montaña, me puse a gritar como un niño.", "fr": "Quand j'ai enfin vu la neige à la montagne, je me suis mis à crier comme un gamin.", "pron": "KOUAN-do por FIN BI la NYÉ-bé én la mon-TA-gna mé POU-ssé a gri-TAR KO-mo oun NI-gno" } },
       "id": "recuerdos-14",
       "es": "Cuando por fin vi la nieve en Ezcaray, me puse a gritar como una niña.",
       "fr": "Quand j'ai enfin vu la neige à Ezcaray, je me suis mise à crier comme une gamine.",
@@ -145,6 +152,7 @@
       }
     },
     {
+      "pub": { "note": "La question à poser à ta moitié ou à un ami de longue date, avec un sourire. Conocerse au passé simple : nos conocimos, on s'est rencontrés." },
       "id": "recuerdos-15",
       "es": "¿Te acuerdas de cuando nos conocimos?",
       "fr": "Tu te souviens de quand on s'est rencontrés ?",
@@ -209,6 +217,7 @@
           "fr": "Regarde, c'est moi à sept ans, au village. Et toi ? Ton enfance, elle était comment ?"
         },
         {
+          "pub": { "es": "Cuando tenía diez años, vivíamos en un barrio cerca del mar.", "fr": "Quand j'avais dix ans, on habitait dans un quartier près de la mer." },
           "qui": "Elisabeth",
           "es": "Cuando tenía diez años, vivíamos en Ratoma, cerca del mar.",
           "fr": "Quand j'avais dix ans, on habitait à Ratoma, près de la mer.",
@@ -259,6 +268,7 @@
     },
     {
       "titre": "Le jour du mauvais bus",
+      "pub": { "contexte": "Ton amie Lucía et toi passez devant un arrêt de bus. Tu lui racontes ta pire aventure des premiers jours." },
       "contexte": "Khalil est en visite à Logroño. En passant devant un arrêt de bus, tu lui racontes ta pire aventure des premiers jours.",
       "duo": {
         "contexte": "Elisabeth et toi passez devant un arrêt de bus à Logroño. Tu lui racontes ta pire aventure en ville."
@@ -266,6 +276,7 @@
       "lignes": [
         {
           "qui": "Khalil",
+          "pub": { "qui": "Lucía", "es": "¿Esta es la parada del autobús que te llevó a la otra punta de la ciudad?", "fr": "C'est l'arrêt du bus qui t'a emmenée à l'autre bout de la ville ?", "m": { "fr": "C'est l'arrêt du bus qui t'a emmené à l'autre bout de la ville ?" } },
           "es": "¿Esta es la parada del autobús que te llevó a Villamediana?",
           "fr": "C'est l'arrêt du bus qui t'a emmenée à Villamediana ?",
           "duo": {
@@ -275,6 +286,7 @@
         },
         {
           "qui": "Elisabeth",
+          "pub": { "es": "¡Esa misma! Un día me equivoqué de autobús y acabé en la otra punta de la ciudad.", "fr": "Celui-là même ! Un jour, je me suis trompée de bus et je me suis retrouvée à l'autre bout de la ville.", "m": { "fr": "Celui-là même ! Un jour, je me suis trompé de bus et je me suis retrouvé à l'autre bout de la ville." } },
           "es": "¡Esa misma! Un día me equivoqué de autobús y acabé en Villamediana.",
           "fr": "Celui-là même ! Un jour, je me suis trompée de bus et je me suis retrouvée à Villamediana.",
           "duo": {
@@ -283,6 +295,7 @@
         },
         {
           "qui": "Khalil",
+          "pub": { "qui": "Lucía" },
           "es": "¿Y qué hiciste?",
           "fr": "Et qu'est-ce que tu as fait ?",
           "duo": {
@@ -299,6 +312,7 @@
         },
         {
           "qui": "Khalil",
+          "pub": { "qui": "Lucía" },
           "es": "¡Pobrecita! ¿Y cómo volviste?",
           "fr": "Ma pauvre ! Et comment tu es rentrée ?",
           "duo": {
@@ -318,6 +332,7 @@
         },
         {
           "qui": "Khalil",
+          "pub": { "qui": "Lucía" },
           "es": "¡Qué suerte! ¿Y te acuerdas de cómo se llamaba?",
           "fr": "Quelle chance ! Et tu te souviens de son nom ?",
           "duo": {
@@ -326,6 +341,7 @@
         },
         {
           "qui": "Elisabeth",
+          "pub": { "m": { "es": "Se llamaba Pilar. ¡Y resulta que ahora es mi vecina! Cada vez que me ve, se ríe.", "fr": "Elle s'appelait Pilar. Et figure-toi que maintenant, c'est ma voisine ! Chaque fois qu'elle me voit, elle rigole." } },
           "es": "Se llamaba Pilar. ¡Y resulta que ahora es mi vecina! Cada vez que me ve, se ríe.",
           "fr": "Elle s'appelait Pilar. Et figure-toi que maintenant, c'est ma voisine ! Chaque fois qu'elle me voit, elle rigole.",
           "duo": {
@@ -361,6 +377,7 @@
         "fr": "J'étais dans la cuisine quand, tout à coup, le téléphone a sonné."
       },
       {
+        "pub": { "es": "Hacía sol, así que fuimos a pasear por el parque.", "fr": "Il faisait beau, alors on est allés se promener au parc." },
         "es": "Hacía sol, así que fuimos a pasear por el Espolón.",
         "fr": "Il faisait beau, alors on est allés se promener sur l'Espolón."
       }
@@ -385,6 +402,7 @@
     {
       "es": "¡Quién te ha visto y quién te ve!",
       "fr": "Qu'est-ce que tu as changé !",
+      "pub": { "note": "Pour quelqu'un qui a beaucoup changé, souvent en mieux. Ta famille pourra te le dire quand tu parleras espagnol comme une vraie Espagnole.", "m": { "note": "Pour quelqu'un qui a beaucoup changé, souvent en mieux. Ta famille pourra te le dire quand tu parleras espagnol comme un vrai Espagnol." } },
       "note": "Pour quelqu'un qui a beaucoup changé, souvent en mieux. Ta famille pourra te le dire quand tu parleras espagnol comme une Riojana.",
       "duo": {
         "note": "Pour quelqu'un qui a beaucoup changé, souvent en mieux. Ta famille pourra te le dire quand tu parleras espagnol comme un Riojano."

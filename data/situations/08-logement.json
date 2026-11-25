@@ -3,6 +3,7 @@
   "ordre": 8,
   "titre": "Le logement",
   "titre_es": "La vivienda",
+  "pub": { "intro": "Chercher un appartement, le visiter, signer le contrat, puis appeler le propriétaire quand la chaudière fait grève : tout ce qu'il faut pour être vraiment chez toi à {miciudad}. Avec de l'eau chaude, de préférence." },
   "intro": "Chercher un appartement, le visiter, signer le contrat, puis appeler le propriétaire quand la chaudière fait grève : tout ce qu'il faut pour être vraiment chez toi à Logroño. Avec de l'eau chaude, de préférence.",
   "phrases": [
     {
@@ -55,6 +56,7 @@
       "es": "¿Hay calefacción?",
       "fr": "Il y a le chauffage ?",
       "pron": "AÏ ka-lé-fak-THYON",
+      "pub": { "note": "Question vitale : l'hiver espagnol est plus froid qu'on ne croit, surtout dans le nord et à l'intérieur des terres. Si elle est « central », elle est souvent comprise dans les charges de l'immeuble." },
       "note": "Question vitale à Logroño, où le cierzo souffle fort en hiver. Si elle est « central », elle est souvent comprise dans les charges de l'immeuble."
     },
     {
@@ -161,6 +163,7 @@
   "dialogues": [
     {
       "titre": "La visite chez Pilar",
+      "pub": { "contexte": "Tu as rendez-vous pour voir un petit appartement dans le centre. La propriétaire t'ouvre la porte." },
       "contexte": "Tu as rendez-vous pour voir un petit appartement près de la calle Portales. La propriétaire t'ouvre la porte.",
       "lignes": [
         {
@@ -218,6 +221,7 @@
     {
       "titre": "La chaudière fait grève",
       "contexte": "Un matin de décembre, l'eau de la douche reste glacée. Tu appelles Javier, ton propriétaire.",
+      "pub": { "contexte": "Un matin de décembre, l'eau de la douche reste glacée. Tu appelles Javier, ton propriétaire." },
       "duo": { "contexte": "Un matin de décembre, chez Elisabeth, l'eau de la douche reste glacée. Tu appelles Javier, le propriétaire." },
       "lignes": [
         {
@@ -227,6 +231,7 @@
         },
         {
           "qui": "Elisabeth",
+          "pub": { "es": "Hola, Javier, soy Elisabeth, la inquilina de la calle Mayor.", "fr": "Bonjour Javier, c'est Elisabeth, la locataire de la calle Mayor.", "m": { "es": "Hola, Javier, soy Khalil, el inquilino de la calle Mayor.", "fr": "Bonjour Javier, c'est Khalil, le locataire de la calle Mayor." } },
           "es": "Hola, Javier, soy Elisabeth, la inquilina de la calle Portales.",
           "fr": "Bonjour Javier, c'est Elisabeth, la locataire de la calle Portales.",
           "duo": {

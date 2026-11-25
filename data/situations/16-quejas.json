@@ -214,6 +214,7 @@
     },
     {
       "titre": "Le dîner qui traîne",
+      "pub": { "contexte": "Ton ami Javi et toi, vous attendez vos plats dans un restaurant bondé. Quand ils arrivent enfin, surprise." },
       "contexte": "Khalil et toi, vous attendez vos plats dans un restaurant bondé. Quand ils arrivent enfin, surprise.",
       "duo": {
         "contexte": "Elisabeth et toi, vous attendez vos plats dans un restaurant bondé. Quand ils arrivent enfin, surprise."
@@ -221,11 +222,13 @@
       "lignes": [
         {
           "qui": "Khalil",
+          "pub": { "qui": "Javi", "m": { "qui": "Khalil" } },
           "es": "Llevamos media hora esperando y nadie nos ha atendido.",
           "fr": "Ça fait une demi-heure qu'on attend et personne ne s'est occupé de nous."
         },
         {
           "qui": "Elisabeth",
+          "pub": { "m": { "qui": "Javi" } },
           "es": "Paciencia, mira, ya viene el camarero.",
           "fr": "Patience, regarde, le serveur arrive.",
           "duo": {
@@ -239,6 +242,7 @@
         },
         {
           "qui": "Elisabeth",
+          "pub": { "m": { "qui": "Javi" } },
           "es": "Perdona, esto no es lo que pedí. Pedí la ensalada sin cebolla, pero lleva cebolla.",
           "fr": "Pardon, ce n'est pas ce que j'ai commandé. J'ai demandé la salade sans oignon, mais il y a de l'oignon dedans.",
           "duo": {
@@ -252,6 +256,7 @@
         },
         {
           "qui": "Khalil",
+          "pub": { "qui": "Javi", "m": { "qui": "Khalil" } },
           "es": "Y la hamburguesa está fría. ¿Podría hablar con el encargado, por favor?",
           "fr": "Et le hamburger est froid. Je pourrais parler au responsable, s'il te plaît ?"
         },
@@ -262,6 +267,7 @@
         },
         {
           "qui": "Elisabeth",
+          "pub": { "m": { "qui": "Javi" } },
           "es": "Vale, gracias. Así sí.",
           "fr": "D'accord, merci. Là, c'est mieux.",
           "duo": {
@@ -270,6 +276,7 @@
         },
         {
           "qui": "Khalil",
+          "pub": { "qui": "Javi", "m": { "qui": "Khalil" } },
           "es": "Bueno… Perdona, ¿nos puedes traer la cuenta? Tenemos un poco de prisa.",
           "fr": "Bon… Pardon, tu peux nous apporter l'addition ? On est un peu pressés."
         }

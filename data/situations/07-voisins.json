@@ -32,6 +32,7 @@
     },
     {
       "id": "voisins-04",
+      "pub": { "m": { "es": "Soy el nuevo vecino del tercero.", "fr": "Je suis le nouveau voisin du troisième.", "pron": "SOÏ él NOUÉ-bo bé-THI-no dél tér-THÉ-ro", "note": "On donne l'étage puis la porte : « el tercero B ». Et « vecino » au masculin, puisque c'est toi." } },
       "es": "Soy la nueva vecina del tercero.",
       "fr": "Je suis la nouvelle voisine du troisième.",
       "pron": "SOÏ la NOUÉ-ba bé-THI-na dél tér-THÉ-ro",
@@ -192,6 +193,7 @@
         },
         {
           "qui": "Elisabeth",
+          "pub": { "m": { "es": "Sí, soy el nuevo vecino del tercero. Me llamo Khalil.", "fr": "Oui, je suis le nouveau voisin du troisième. Je m'appelle Khalil." } },
           "es": "Sí, soy la nueva vecina del tercero. Me llamo Elisabeth.",
           "fr": "Oui, je suis la nouvelle voisine du troisième. Je m'appelle Elisabeth.",
           "duo": {
@@ -218,6 +220,7 @@
         },
         {
           "qui": "Carmen",
+          "pub": { "es": "Pues espera a enero, hija. Ya te acostumbrarás.", "fr": "Attends de voir janvier, ma petite. Tu t'y habitueras.", "m": { "es": "Pues espera a enero, hijo. Ya te acostumbrarás.", "fr": "Attends de voir janvier, mon petit. Tu t'y habitueras." } },
           "es": "Es el cierzo, hija. Ya te acostumbrarás.",
           "fr": "C'est le cierzo, ma petite. Tu t'y habitueras.",
           "duo": {

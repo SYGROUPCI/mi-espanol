@@ -8,6 +8,7 @@
   "phrases": [
     {
       "id": "empleo-01",
+      "pub": { "es": "En mi país trabajaba en una tienda de ropa y llevaba la caja.", "fr": "Dans mon pays, je travaillais dans un magasin de vêtements et je tenais la caisse.", "pron": "én mi pa-ISS tra-ba-KHA-ba én OU-na TYÉN-da dé RRO-pa i yé-BA-ba la KA-kha" },
       "es": "En Conakry trabajaba en una tienda de ropa y llevaba la caja.",
       "fr": "À Conakry, je travaillais dans un magasin de vêtements et je tenais la caisse.",
       "pron": "én ko-NA-kri tra-ba-KHA-ba én OU-na TYÉN-da dé RRO-pa i yé-BA-ba la KA-kha",
@@ -186,6 +187,7 @@
   "dialogues": [
     {
       "titre": "Le deuxième entretien",
+      "pub": { "contexte": "Un supermarché de {miciudad} te rappelle pour un second entretien, cette fois avec la responsable des ressources humaines." },
       "contexte": "Un supermarché de Logroño te rappelle pour un second entretien, cette fois avec la responsable des ressources humaines.",
       "lignes": [
         {
@@ -195,6 +197,7 @@
         },
         {
           "qui": "Elisabeth",
+          "pub": { "es": "En mi país trabajaba en una tienda de ropa y llevaba la caja. Durante dos años fui responsable de un equipo de cinco personas.", "fr": "Dans mon pays, je travaillais dans un magasin de vêtements et je tenais la caisse. Pendant deux ans, j'ai été responsable d'une équipe de cinq personnes." },
           "es": "En Conakry trabajaba en una tienda de ropa y llevaba la caja. Durante dos años fui responsable de un equipo de cinco personas.",
           "fr": "À Conakry, je travaillais dans un magasin de vêtements et je tenais la caisse. Pendant deux ans, j'ai été responsable d'une équipe de cinq personnes.",
           "duo": {
@@ -344,6 +347,7 @@
     ],
     "exemples": [
       {
+        "pub": { "es": "Cuando vivía en mi país, trabajaba en un hotel.", "fr": "Quand je vivais dans mon pays, je travaillais dans un hôtel." },
         "es": "Cuando vivía en Conakry, trabajaba en un hotel.",
         "fr": "Quand je vivais à Conakry, je travaillais dans un hôtel.",
         "duo": {

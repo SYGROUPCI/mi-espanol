@@ -1,5 +1,6 @@
 {
   "id": "travail",
+  "pub": { "intro": "Chercher une offre, passer l'entretien, comprendre ton contrat, puis survivre au premier lundi avec les collègues : tout ce qu'il faut pour travailler en espagnol, du currículum jusqu'à la nómina. Sans oublier la pause café du milieu de matinée, sacrée presque partout." },
   "ordre": 10,
   "titre": "Le travail",
   "titre_es": "El trabajo",
@@ -50,6 +51,7 @@
     },
     {
       "id": "travail-06",
+      "pub": { "note": "« Me defiendo », c'est modeste sans être timide. Le français est un vrai atout en Espagne : tourisme, hôtellerie, transport, commerce avec la France voisine." },
       "es": "Hablo francés y me defiendo en español.",
       "fr": "Je parle français et je me débrouille en espagnol.",
       "pron": "A-blo fran-THÉSS i mé dé-FYÉN-do én éss-pa-GNOL",
@@ -165,6 +167,7 @@
     },
     {
       "id": "travail-20",
+      "pub": { "note": "Dans beaucoup de régions, « el almuerzo » est l'en-cas du milieu de matinée, vers dix ou onze heures : un pincho, un bocadillo, un café. Ailleurs, le mot peut désigner le déjeuner : écoute comment disent tes collègues." },
       "es": "¿Hacemos un descanso para almorzar?",
       "fr": "On fait une pause pour manger un morceau ?",
       "pron": "a-THÉ-moss oun déss-KAN-so PA-ra al-mor-THAR",

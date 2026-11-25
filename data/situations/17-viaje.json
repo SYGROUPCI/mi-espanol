@@ -48,6 +48,7 @@
       "es": "Tengo una reserva a nombre de Elisabeth.",
       "fr": "J'ai une réservation au nom d'Elisabeth.",
       "pron": "TÉN-go OU-na rré-SSÉR-ba a NOM-bré dé é-li-ssa-BÉT",
+      "pub": { "es": "Tengo una reserva a mi nombre.", "fr": "J'ai une réservation à mon nom.", "pron": "TÉN-go OU-na rré-SSÉR-ba a mi NOM-bré", "note": "La phrase magique de la réception. Tu peux aussi dire « a nombre de » suivi de ton nom de famille. Prépare une pièce d'identité : l'hôtel va te la demander." },
       "note": "La phrase magique de la réception. Prépare ton passeport ou ta TIE : l'hôtel va te la demander.",
       "duo": {
         "es": "Tengo una reserva a nombre de Khalil.",
@@ -215,6 +216,7 @@
     {
       "titre": "Une chambre côté rue",
       "contexte": "Khalil et toi arrivez à l'hôtel après une longue journée. La chambre n'est pas tout à fait celle que vous attendiez.",
+      "pub": { "contexte": "Ton amie Lucía et toi arrivez à l'hôtel après une longue journée. La chambre n'est pas tout à fait celle que vous attendiez.", "m": { "contexte": "Ton ami Javi et toi arrivez à l'hôtel après une longue journée. La chambre n'est pas tout à fait celle que vous attendiez." } },
       "duo": {
         "contexte": "Elisabeth et toi arrivez à l'hôtel après une longue journée. La chambre n'est pas tout à fait celle que vous attendiez."
       },
@@ -223,6 +225,7 @@
           "qui": "Elisabeth",
           "es": "Buenas noches. Tengo una reserva a nombre de Elisabeth.",
           "fr": "Bonsoir. J'ai une réservation au nom d'Elisabeth.",
+          "pub": { "es": "Buenas noches. Tengo una reserva a mi nombre.", "fr": "Bonsoir. J'ai une réservation à mon nom.", "m": { "qui": "Javi" } },
           "duo": {
             "qui": "Elisabeth"
           }
@@ -236,6 +239,7 @@
           "qui": "Elisabeth",
           "es": "Aquí tiene. ¿El desayuno está incluido en el precio?",
           "fr": "Voilà. Le petit-déjeuner est compris dans le prix ?",
+          "pub": { "m": { "qui": "Javi" } },
           "duo": {
             "qui": "Elisabeth"
           }
@@ -248,7 +252,8 @@
         {
           "qui": "Khalil",
           "es": "Perdone, reservamos una habitación doble y nos han dado una individual.",
-          "fr": "Excusez-moi, on a réservé une chambre double et on nous a donné une chambre simple."
+          "fr": "Excusez-moi, on a réservé une chambre double et on nous a donné une chambre simple.",
+          "pub": { "qui": "Lucía", "m": { "qui": "Khalil" } }
         },
         {
           "qui": "Recepcionista",
@@ -259,6 +264,7 @@
           "qui": "Elisabeth",
           "es": "Además da a la calle y hay mucho ruido. ¿Nos podría cambiar a otra habitación más tranquila?",
           "fr": "En plus, elle donne sur la rue et il y a beaucoup de bruit. Vous pourriez nous changer pour une chambre plus calme ?",
+          "pub": { "m": { "qui": "Javi" } },
           "duo": {
             "qui": "Elisabeth"
           }
@@ -271,7 +277,8 @@
         {
           "qui": "Khalil",
           "es": "Mucho mejor, gracias. Una última pregunta: ¿qué nos recomienda visitar en la ciudad?",
-          "fr": "Beaucoup mieux, merci. Une dernière question : qu'est-ce que vous nous conseillez de visiter en ville ?"
+          "fr": "Beaucoup mieux, merci. Une dernière question : qu'est-ce que vous nous conseillez de visiter en ville ?",
+          "pub": { "qui": "Lucía", "m": { "qui": "Khalil" } }
         },
         {
           "qui": "Recepcionista",
@@ -283,6 +290,7 @@
   ],
   "grammaire": {
     "titre": "a, en, de, desde, hasta, por, para",
+    "pub": { "tableau": [["Voy a Madrid.", "Je vais à Madrid."], ["Estoy en Bilbao. Voy en tren.", "Je suis à Bilbao. J'y vais en train."], ["Salgo de {miciudad}.", "Je pars de {miciudad}."], ["Desde aquí hasta la plaza.", "D'ici jusqu'à la place."], ["Pasamos por Burgos.", "On est passés par Burgos."], ["El autobús para Pamplona.", "Le bus pour Pampelune."]] },
     "explication": "« A » indique où l'on va (voy a Madrid), « en » où l'on est et le moyen de transport (estoy en Bilbao, voy en tren). « De » et « desde » marquent le point de départ, « hasta » le point d'arrivée. « Por » désigne l'endroit qu'on traverse ou le moyen (pasamos por Burgos, por internet), « para » la direction ou le but (el tren para Zaragoza, para no hacer cola). Pour raconter le voyage, on passe au passé simple : fuimos, llegamos, visitamos, comimos.",
     "tableau": [
       [
@@ -313,7 +321,8 @@
     "exemples": [
       {
         "es": "Ayer fuimos en autobús desde Logroño hasta Pamplona.",
-        "fr": "Hier, on est allés en bus de Logroño jusqu'à Pampelune."
+        "fr": "Hier, on est allés en bus de Logroño jusqu'à Pampelune.",
+        "pub": { "es": "Ayer fuimos en autobús desde Madrid hasta Toledo.", "fr": "Hier, on est allés en bus de Madrid jusqu'à Tolède." }
       },
       {
         "es": "Paseamos por el casco viejo y comimos en una terraza.",
@@ -350,6 +359,7 @@
       "es": "Estoy molida",
       "fr": "Je suis crevée",
       "note": "Après une journée de visites. Khalil dira « estoy molido ».",
+      "pub": { "note": "Après une journée de visites. Un homme dira « estoy molido ».", "m": { "note": "Après une journée de visites. Une femme dira « estoy molida »." } },
       "duo": {
         "es": "Estoy molido",
         "fr": "Je suis crevé",
