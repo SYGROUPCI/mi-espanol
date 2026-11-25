@@ -29,4 +29,4 @@ Les scènes au médecin, à l'administration ou en entretien d'embauche servent 
 
 Charla dépend d'un prestataire extérieur. Elle peut être momentanément indisponible ou se mettre en pause si beaucoup de personnes l'utilisent en même temps pendant l'essai. Les leçons, elles, restent accessibles.
 
-Dernière mise à jour : [DATE DE PUBLICATION].
+Dernière mise à jour : 25 novembre 2026.

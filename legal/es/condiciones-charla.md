@@ -29,4 +29,4 @@ Las escenas en el médico, en la administración o en una entrevista de trabajo 
 
 Charla depende de un proveedor externo. Puede no estar disponible momentáneamente o pausarse si muchas personas la usan a la vez durante la prueba. Las lecciones siguen accesibles.
 
-Última actualización: [FECHA DE PUBLICACIÓN].
+Última actualización: 25 de noviembre de 2026.

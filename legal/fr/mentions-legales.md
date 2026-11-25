@@ -6,9 +6,9 @@
 
 L'application **Mi Español**, accessible à l'adresse espanol.elibangoura.com, est éditée par :
 
-- **Elisabeth Bangoura**, travailleuse indépendante (autónoma), sous la marque **elibangoura.com**
-- NIF / NIE : [À COMPLÉTER]
-- Adresse : [À COMPLÉTER], Logroño (La Rioja), Espagne
+- **Elisabeth Bangoura**, sous la marque **elibangoura.com**
+- NIF : communiqué dès l'immatriculation de l'activité commerciale (aucune vente n'a lieu pour l'instant : l'application est en essai gratuit)
+- Ville : Logroño (La Rioja), Espagne
 - E-mail de contact : [À COMPLÉTER, par exemple contact@elibangoura.com]
 - Responsable de la publication : Elisabeth Bangoura
 

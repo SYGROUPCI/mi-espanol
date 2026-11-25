@@ -6,7 +6,7 @@ Cette page explique, simplement, quelles données Mi Español utilise, pourquoi,
 
 ## Qui est responsable de tes données
 
-**Elisabeth Bangoura** (marque elibangoura.com), [ADRESSE], Espagne. Contact pour tout ce qui concerne tes données : [E-MAIL].
+**Elisabeth Bangoura** (marque elibangoura.com), Logroño (La Rioja), Espagne. Contact pour tout ce qui concerne tes données : [E-MAIL].
 
 ## Ce qui reste seulement sur ton téléphone
 
@@ -67,4 +67,4 @@ Mi Español est destiné aux personnes de **14 ans et plus** (âge du consenteme
 
 Si cette politique change de façon importante, nous te prévenons dans l'application.
 
-Dernière mise à jour : [DATE DE PUBLICATION].
+Dernière mise à jour : 25 novembre 2026.

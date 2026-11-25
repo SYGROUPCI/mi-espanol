@@ -6,9 +6,9 @@
 
 La aplicación **Mi Español**, accesible en espanol.elibangoura.com, es titularidad de:
 
-- **Elisabeth Bangoura**, trabajadora autónoma, bajo la marca **elibangoura.com**
-- NIF / NIE: [POR COMPLETAR]
-- Domicilio: [POR COMPLETAR], Logroño (La Rioja), España
+- **Elisabeth Bangoura**, bajo la marca **elibangoura.com**
+- NIF: se publicará al darse de alta la actividad comercial (por ahora no hay ventas: la aplicación está en prueba gratuita)
+- Ciudad: Logroño (La Rioja), España
 - Correo electrónico de contacto: [POR COMPLETAR, por ejemplo contact@elibangoura.com]
 - Responsable de los contenidos: Elisabeth Bangoura
 

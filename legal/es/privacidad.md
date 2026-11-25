@@ -6,7 +6,7 @@ Esta página explica, de forma sencilla, qué datos utiliza Mi Español, para qu
 
 ## Responsable del tratamiento
 
-**Elisabeth Bangoura** (marca elibangoura.com), [DOMICILIO], España. Contacto para cualquier cuestión sobre tus datos: [CORREO].
+**Elisabeth Bangoura** (marca elibangoura.com), Logroño (La Rioja), España. Contacto para cualquier cuestión sobre tus datos: [CORREO].
 
 ## Lo que se queda solo en tu teléfono
 
@@ -67,4 +67,4 @@ Mi Español está dirigido a personas de **14 años o más** (edad de consentimi
 
 Si esta política cambia de forma importante, te avisaremos en la aplicación.
 
-Última actualización: [FECHA DE PUBLICACIÓN].
+Última actualización: 25 de noviembre de 2026.

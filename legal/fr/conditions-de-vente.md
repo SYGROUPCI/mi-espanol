@@ -4,7 +4,7 @@
 
 ## 1. Qui vend quoi
 
-Mi Español est une application d'apprentissage de l'espagnol éditée par **Elisabeth Bangoura** (marque elibangoura.com, NIF [À COMPLÉTER], [ADRESSE], Espagne). Contact : [E-MAIL].
+Mi Español est une application d'apprentissage de l'espagnol éditée par **Elisabeth Bangoura** (marque elibangoura.com, Logroño, Espagne). Contact : [E-MAIL].
 
 [Si Stripe Managed Payments ou Paddle est retenu : le paiement est encaissé par **[Stripe / Paddle]**, qui agit comme revendeur officiel (« merchant of record ») : c'est lui qui émet ta facture et gère la TVA, les remboursements et les réclamations de paiement. Le contenu et le service restent fournis par Elisabeth Bangoura.]
 
@@ -70,4 +70,4 @@ Nous faisons notre possible pour que l'application soit disponible en permanence
 
 Écris d'abord à [E-MAIL] : nous répondons sous 7 jours. Elisabeth Bangoura n'adhère à aucun organisme de règlement extrajudiciaire des litiges de consommation (information prévue par la loi 7/2017). Ces conditions sont régies par le **droit espagnol**, sans te priver de la protection des lois de ton pays de résidence si elles te sont plus favorables. Tu peux aussi t'adresser aux services de consommation de ta communauté autonome (en La Rioja : Dirección General de Consumo).
 
-Dernière mise à jour : [DATE DE PUBLICATION].
+Dernière mise à jour : 25 novembre 2026.
