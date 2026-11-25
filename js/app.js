@@ -898,7 +898,8 @@ function reglages() {
       ${K.connecte()
         ? `<p>${g("Connectée", "Connecté")} en tant que <strong>${e(K.compte().prenom)}</strong>, avec Face ID. Ta progression est sauvegardée en ligne.</p>
            ${!accesComplet() ? `<p class="petit">Tu es en essai gratuit. <a class="lien" href="#/acces/reglages">Je veux l'accès complet</a></p>` : ""}
-           <button class="btn btn-doux" data-deconnexion>Me déconnecter de cet appareil</button>`
+           <button class="btn btn-doux" data-deconnexion>Me déconnecter de cet appareil</button>
+           ${!estProprio() ? `<button class="lien-texte" data-suppression>Supprimer mon compte</button>` : ""}`
         : `<p class="petit">Sans compte, ta progression reste seulement sur cet appareil.</p>
            <a class="btn" href="#/compte">Activer Face ID</a>`}
     </section>
@@ -991,6 +992,18 @@ function reglages() {
   $("[data-rappel-essai]", app)?.addEventListener("click", async () => {
     const r = await N.essai();
     msgRappel.textContent = r.ok ? "Envoyé. Il arrive dans quelques secondes." : (N.MESSAGES[r.erreur] || N.MESSAGES.serveur);
+  });
+  $("[data-suppression]", app)?.addEventListener("click", async () => {
+    const ok = await confirmer("Supprimer ton compte ?",
+      "Ton compte, ta progression, ton carnet et tes rappels seront effacés définitivement, sur nos serveurs et sur ce téléphone. Ça ne peut pas être annulé. Si tu veux garder ta progression, fais d'abord une sauvegarde (plus bas dans Ajustes).",
+      "Tout supprimer");
+    if (!ok) return;
+    const r = await K.supprimerCompte({ avantDeSortir: () => (S.get().reglages.rappel?.actif ? N.desactiver() : null) });
+    if (!r.ok) { toast(K.MESSAGES[r.erreur] || K.MESSAGES.hors_ligne); return; }
+    C.definirMots([]);
+    majNavCompte();
+    toast("Ton compte est supprimé. Merci d'avoir essayé Mi Español.");
+    aller("#/");
   });
   $("[data-deconnexion]", app)?.addEventListener("click", async () => {
     if (await confirmer("Te déconnecter ?", "Ta progression reste sauvegardée en ligne. Cet appareil repartira de zéro jusqu'à ta prochaine connexion avec Face ID.", "Me déconnecter")) {

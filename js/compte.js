@@ -245,6 +245,22 @@ export async function seDeconnecter({ avantDeSortir, prenomParDefaut = "" } = {}
   return { ok: true };
 }
 
+// Supprimer son compte : tout est effacé sur le serveur, puis sur cet appareil.
+// avantDeSortir : désabonner les rappels tant que la session existe encore.
+export async function supprimerCompte({ avantDeSortir } = {}) {
+  clearTimeout(minuteur);
+  try { await avantDeSortir?.(); } catch { /* les abonnements sont aussi effacés côté serveur */ }
+  let r;
+  try { r = await api("/api/compte/suppression", { methode: "POST" }); } catch { return { ok: false, erreur: "hors_ligne" }; }
+  if (!r.ok) return { ok: false, erreur: r.erreur || "hors_ligne" };
+  base = null;
+  const theme = S.get().reglages?.theme;
+  S.toutEffacer();
+  if (theme) S.maj((s) => (s.reglages.theme = theme));
+  oublierMots();
+  return { ok: true };
+}
+
 // « Tout recommencer » avec un compte : on efface ici, puis on remplace la copie en ligne (sans fusion,
 // sinon l'ancienne progression reviendrait à la synchro suivante).
 export async function remettreAZero(prenom) {
@@ -296,6 +312,7 @@ export async function duo() {
 export const MESSAGES = {
   code_invalide: "Ce code d'invitation n'est pas valable, ou il a déjà servi.",
   champs: "Il manque ton prénom, ta ville ou le féminin / masculin.",
+  proprietaire: "Ce compte ne peut pas être supprimé depuis l'appli.",
   trop_comptes: "Plusieurs comptes ont déjà été créés aujourd'hui depuis cette connexion. Réessaie demain.",
   trop_essais: "Trop d'essais aujourd'hui. Réessaie demain.",
   annule: "Face ID a été annulé. Tu peux réessayer quand tu veux.",
