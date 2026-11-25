@@ -3,6 +3,7 @@ import * as S from "./store.js";
 import * as C from "./contenu.js";
 import * as X from "./exercices.js";
 import { ecranCharla } from "./charla.js";
+import { ecranLegal } from "./legal.js";
 import * as V from "./voix.js";
 import * as K from "./compte.js";
 import * as N from "./notifs.js";
@@ -178,6 +179,7 @@ function ecranPour(hash) {
     charla: () => ecranCharla(app, { montrerNav, aller, publique: estPublic() }),
     compte: ecranCompte,
     acces: () => ecranAcces(arg),
+    legal: () => ecranLegal(app, arg, { montrerNav }),
     carnet: carnet,
     surprises: surprises,
     reglages: reglages,
@@ -400,6 +402,7 @@ function accueil() {
           </div>`;
         }).join("")}
       </section>
+      ${LIENS_LEGAUX}
     </div>`;
 
   $$("[data-rot]", app).forEach((el) => el.style.setProperty("--rot", el.dataset.rot + "deg"));
@@ -440,6 +443,14 @@ function bienvenue() {
   };
 }
 
+// Âge minimum (LOPDGDD art. 7) et acceptation des conditions, sous chaque bouton d'inscription.
+const MENTION_ACCEPTATION = `En continuant, tu confirmes avoir 14 ans ou plus et tu acceptes les
+  <a class="lien" href="#/legal/conditions">conditions</a> et la <a class="lien" href="#/legal/confidentialite">politique de confidentialité</a>.`;
+// Liens légaux en bas de l'accueil et des réglages.
+const LIENS_LEGAUX = `<nav class="liens-legaux petit" aria-label="Informations légales">
+  <a href="#/legal/mentions">Mentions légales</a> · <a href="#/legal/confidentialite">Confidentialité</a> ·
+  <a href="#/legal/conditions">Conditions</a> · <a href="#/legal/charla">Charla et l'IA</a> · <a href="#/legal/es">En español</a></nav>`;
+
 // Premier lancement pour une personne du public : sa credencial à son nom, dans sa ville.
 // Trois questions seulement, puis on entre dans la première étape. Le compte (Face ID) vient après.
 function bienvenuePublique() {
@@ -469,8 +480,10 @@ function bienvenuePublique() {
           </select></label>
         <p class="petit centre" data-message aria-live="polite"></p>
         <button class="btn btn-large">Empezar mi primera etapa</button>
+        <p class="petit centre">${MENTION_ACCEPTATION}</p>
       </form>
       ${K.faceIdDisponible() ? `<a class="btn btn-doux btn-large" href="#/compte">J'ai déjà un compte (Face ID)</a>` : ""}
+      ${LIENS_LEGAUX}
     </div>`;
   const form = $("[data-bienvenue]", app);
   form.prenom.addEventListener("input", () => { $("[data-apercu-nom]", app).textContent = form.prenom.value.trim() || "…"; });
@@ -525,8 +538,10 @@ function ecranAcces(source = "") {
         <button class="btn btn-large">Je veux l'accès complet</button>
       </form>
       <p class="petit centre" data-message aria-live="polite"></p>
-      <p class="petit">Ton e-mail sert uniquement à te prévenir de l'ouverture. Il n'est ni vendu ni partagé. Tu peux le retirer quand tu veux :
-        <button class="lien" type="button" data-retrait>retirer mon e-mail</button>.</p>
+      <p class="petit"><strong>Tes données.</strong> Responsable : Elisabeth Bangoura (elibangoura.com), Espagne.
+        Finalité : t'écrire une seule fois, à l'ouverture de l'accès complet (base : ton consentement). Ton e-mail, et ton prénom et ta ville si tu as un compte, sont gardés jusqu'à cet envoi, et 12 mois au plus. Ni vendus ni partagés.
+        Tu peux y accéder, le corriger ou le retirer à tout moment (<button class="lien" type="button" data-retrait>retirer mon e-mail</button>), et réclamer auprès de l'AEPD.
+        <a class="lien" href="#/legal/confidentialite">Politique de confidentialité</a></p>
     </section>`;
   const message = $("[data-message]", app);
   const envoyer = async (chemin, email) => {
@@ -962,7 +977,8 @@ function reglages() {
     <section class="bloc">
       <button class="btn btn-danger" data-effacer>Tout recommencer à zéro</button>
     </section>
-    <p class="petit centre">Mi Español · fait avec amour, phrase par phrase.</p>`;
+    <p class="petit centre">Mi Español · fait avec amour, phrase par phrase.</p>
+    ${LIENS_LEGAUX}`;
 
   $("[data-prenom]", app).onchange = (ev) => {
     const v = ev.target.value.trim();
@@ -1179,6 +1195,7 @@ function ecranCompte() {
             <option value="m" ${S.get().genre === "m" ? "selected" : ""}>au masculin</option>
           </select></label>
         <button class="btn btn-large">${ico("visage")} Créer avec Face ID</button>
+        <p class="petit centre">${MENTION_ACCEPTATION}</p>
       </form>
       <details class="petit">
         <summary>J'ai un code d'invitation</summary>

@@ -689,3 +689,17 @@ details > summary { cursor: pointer; min-height: 44px; display: flex; align-item
 details[open] > summary { margin-bottom: 8px; }
 .bienvenue .champ > span { font-weight: 700; }
 .bienvenue form { width: 100%; text-align: left; }
+
+/* Pages légales et mentions IA */
+.legal { gap: 10px; line-height: 1.55; overflow-wrap: anywhere; }
+.legal h2 { font-size: 1.1rem; margin-top: 10px; }
+.legal h3 { font-size: 1rem; margin-top: 6px; }
+.legal ul, .legal ol { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
+.legal-tableau { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.legal table { border-collapse: collapse; font-size: .88rem; min-width: 560px; }
+.legal th, .legal td { border-bottom: 1px solid var(--trait); padding: 8px 6px; text-align: left; vertical-align: top; }
+.legal th { color: var(--gris); font-weight: 700; }
+.liens-legaux { text-align: center; color: var(--gris); margin: 22px 0 8px; line-height: 2; }
+.liens-legaux a { color: var(--gris); }
+.ia-mention { font-size: .9rem; }
+.ia-mention-fil { color: var(--gris); margin: 6px 0 0; }

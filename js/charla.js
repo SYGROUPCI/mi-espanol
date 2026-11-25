@@ -50,8 +50,9 @@ function choix(app, { montrerNav, aller }) {
   const encours = etat().charla;
   const sceneEnCours = encours && SCENES.find((x) => x.id === encours.scene);
   app.innerHTML = `
-    <header class="page-haut"><div><h1 tabindex="-1">Charla</h1><p class="page-sous">Parler avec quelqu'un</p></div></header>
-    <p class="intro">Choisis une scène. La personne te répond en espagnol simple, tu réponds comme tu peux, et si tu te trompes, un petit post-it te montre la bonne tournure.</p>
+    <header class="page-haut"><div><h1 tabindex="-1">Charla</h1><p class="page-sous">S'entraîner à parler avec une IA</p></div></header>
+    <p class="intro">Choisis une scène. Le personnage te répond en espagnol simple, tu réponds comme tu peux, et si tu te trompes, un petit post-it te montre la bonne tournure.</p>
+    <p class="encart ia-mention">Les personnages de Charla sont joués par une <strong>intelligence artificielle</strong> (Claude, de la société Anthropic) : ce ne sont pas de vraies personnes. Elle peut se tromper et ne donne pas de conseil médical, juridique ou administratif. N'écris pas d'informations sensibles (numéro de document, adresse exacte, santé, banque).</p>
     ${sceneEnCours && aDejaParle(encours) ? `<button class="btn btn-large btn-reprendre" data-reprendre>Reprendre avec ${e(sceneEnCours.nom)}</button>` : ""}
     <div class="scenes">
       ${SCENES.map((s) => `
@@ -84,9 +85,10 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
     <div class="charla">
       <header class="charla-haut">
         <button class="btn-ico" data-retour aria-label="Retour">${ico("retour")}</button>
-        <div><strong>${e(scene.nom)}</strong><span class="petit">${e(scene.lieu)}</span></div>
+        <div><strong>${e(scene.nom)}</strong><span class="petit">${e(scene.lieu)} · personnage joué par une IA</span></div>
         <button class="btn btn-doux btn-petit" data-nouvelle>Nueva</button>
       </header>
+      <p class="petit centre ia-mention-fil">${e(scene.nom)} est une intelligence artificielle, pas une vraie personne.</p>
       <div class="fil" role="log" aria-live="polite" aria-relevant="additions"></div>
       <form class="saisie" data-saisie autocomplete="off">
         <div class="accents">${["á", "é", "í", "ó", "ú", "ñ", "¿", "¡"].map((a) => `<button type="button" data-a="${a}">${a}</button>`).join("")}</div>
