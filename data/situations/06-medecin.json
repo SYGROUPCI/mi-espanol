@@ -196,6 +196,7 @@
       "titre": "À la pharmacie",
       "contexte": "Quelques jours plus tard, Elisabeth tousse encore et passe à la pharmacie en bas de chez elle.",
       "duo": { "contexte": "Quelques jours plus tard, Khalil tousse encore et passe à la pharmacie en bas de chez Elisabeth." },
+      "pub": { "m": { "contexte": "Quelques jours plus tard, Khalil tousse encore et passe à la pharmacie en bas de chez lui." } },
       "lignes": [
         { "qui": "Farmacéutica", "es": "Hola, ¿qué querías?", "fr": "Bonjour, qu'est-ce qu'il te fallait ?" },
         { "qui": "Elisabeth", "es": "Hola. ¿Tiene algo para la tos?", "fr": "Bonjour. Vous avez quelque chose contre la toux ?" },

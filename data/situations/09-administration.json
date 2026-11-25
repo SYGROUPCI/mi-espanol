@@ -11,6 +11,7 @@
       "fr": "Je voudrais prendre rendez-vous pour l'inscription au padrón.",
       "pron": "ké-RI-a pé-DIR THI-ta PRÉ-bya PA-ra él ém-pa-dro-na-MYÉN-to",
       "note": "La « cita previa », c'est le rendez-vous qu'on te demande pour presque toutes les démarches. À Logroño, le padrón se fait à l'Ayuntamiento.",
+      "pub": { "note": "La « cita previa », c'est le rendez-vous qu'on te demande pour presque toutes les démarches. Le padrón se fait à l'Ayuntamiento, la mairie de ta ville." },
       "rapide": "Quería pedir cita previa pa'l empadronamiento."
     },
     {
@@ -135,7 +136,8 @@
       "es": "Quería solicitar la tarjeta sanitaria.",
       "fr": "Je voudrais demander la carte de santé.",
       "pron": "ké-RI-a so-li-thi-TAR la tar-KHÉ-ta sa-ni-TA-rya",
-      "note": "En La Rioja, elle se demande en général à ton centro de salud. On te demandera sans doute ton padrón et ton número de la Seguridad Social."
+      "note": "En La Rioja, elle se demande en général à ton centro de salud. On te demandera sans doute ton padrón et ton número de la Seguridad Social.",
+      "pub": { "note": "En général, elle se demande à ton centro de salud (les règles varient un peu selon la région). On te demandera sans doute ton padrón et ton número de la Seguridad Social." }
     },
     {
       "id": "administration-19",
@@ -160,6 +162,7 @@
     {
       "titre": "Le padrón à l'Ayuntamiento",
       "contexte": "Tu as ta cita previa à l'Ayuntamiento de Logroño pour t'inscrire au padrón. Il y a déjà du monde devant le guichet.",
+      "pub": { "contexte": "Tu as ta cita previa à l'Ayuntamiento de {miciudad} pour t'inscrire au padrón. Il y a déjà du monde devant le guichet." },
       "lignes": [
         {
           "qui": "Elisabeth",

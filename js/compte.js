@@ -159,9 +159,9 @@ export function demarrer() {
 }
 
 // ---------------------------------------------------------------------------
-// Créer son compte (code d'invitation + Face ID)
-export async function creerCompte(code) {
-  const opt = await api("/api/compte/inscription/options", { methode: "POST", corps: { code } });
+// Créer son compte : inscription ouverte (prénom, ville, genre) ou code d'invitation, puis Face ID.
+export async function creerCompte(code, infos = null) {
+  const opt = await api("/api/compte/inscription/options", { methode: "POST", corps: code ? { code } : infos });
   if (opt.erreur) return { ok: false, erreur: opt.erreur };
   let reponse;
   try {
@@ -178,9 +178,26 @@ export async function creerCompte(code) {
     corps: { defi: opt.options.challenge, reponse, progression, appareil: appareil() },
   });
   if (!v.ok) return { ok: false, erreur: v.erreur || "verification" };
-  S.remplacer({ ...S.get(), compte: v.utilisateur, prenom: v.utilisateur.prenom });
+  S.remplacer({ ...S.get(), ...infosLocales(v.utilisateur), compte: v.utilisateur, prenom: v.utilisateur.prenom });
   await synchroniser();
   return { ok: true, utilisateur: v.utilisateur };
+}
+
+// La ville et le genre du compte, recopiés sur l'appareil (pour l'accueil et les accords).
+const infosLocales = (u) => (u && u.role === "membre" ? { villeEs: u.ville || null, genre: u.genre || null } : {});
+
+// Met à jour ce que l'appareil sait du compte (statut d'essai ou d'abonné, ville, genre).
+export async function rafraichirCompte() {
+  if (!connecte()) return false;
+  try {
+    const r = await api("/api/compte/moi");
+    if (r.statut === 401) { S.remplacer({ ...S.get(), compte: null }); return true; }
+    if (r.statut !== 200 || !r.utilisateur) return false;
+    const avant = JSON.stringify(S.get().compte);
+    if (avant === JSON.stringify(r.utilisateur)) return false;
+    S.remplacer({ ...S.get(), ...infosLocales(r.utilisateur), compte: r.utilisateur });
+    return true;
+  } catch { return false; }
 }
 
 // Se connecter avec Face ID (aucun nom à taper : l'iPhone propose le bon compte).
@@ -203,7 +220,7 @@ export async function seConnecter() {
   // Si ce téléphone contenait la progression de quelqu'un d'autre, on ne la mélange pas.
   const autrePersonne = avant.compte && (avant.compte.prenom !== v.utilisateur.prenom || avant.compte.role !== v.utilisateur.role);
   const base = autrePersonne ? { bienvenueVue: true, reglages: avant.reglages } : avant;
-  S.remplacer({ ...base, compte: v.utilisateur, prenom: v.utilisateur.prenom, codeIA: avant.codeIA });
+  S.remplacer({ ...base, ...infosLocales(v.utilisateur), compte: v.utilisateur, prenom: v.utilisateur.prenom, codeIA: avant.codeIA });
   await synchroniser();
   return { ok: true, utilisateur: v.utilisateur };
 }
@@ -278,6 +295,8 @@ export async function duo() {
 
 export const MESSAGES = {
   code_invalide: "Ce code d'invitation n'est pas valable, ou il a déjà servi.",
+  champs: "Il manque ton prénom, ta ville ou le féminin / masculin.",
+  trop_comptes: "Plusieurs comptes ont déjà été créés aujourd'hui depuis cette connexion. Réessaie demain.",
   trop_essais: "Trop d'essais aujourd'hui. Réessaie demain.",
   annule: "Face ID a été annulé. Tu peux réessayer quand tu veux.",
   faceid: "Face ID n'a pas pu se lancer sur cet appareil.",

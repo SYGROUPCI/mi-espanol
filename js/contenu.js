@@ -40,15 +40,27 @@ function remplir(modele, t) {
   return manque ? null : res;
 }
 
-function personnaliser(x, duo, prenom, t) {
-  if (Array.isArray(x)) return x.map((v) => personnaliser(v, duo, prenom, t));
+const CLES_SPECIALES = new Set(["duo", "perso", "pub"]);
+
+function personnaliser(x, duo, prenom, t, pub = null) {
+  if (Array.isArray(x)) {
+    // En version publique, une phrase marquée « pub: false » (trop personnelle) disparaît.
+    const liste = pub ? x.filter((v) => !(v && typeof v === "object" && v.pub === false)) : x;
+    return liste.map((v) => personnaliser(v, duo, prenom, t, pub));
+  }
   if (!x || typeof x !== "object") return x;
   const o = {};
-  for (const [k, v] of Object.entries(x)) if (k !== "duo" && k !== "perso") o[k] = personnaliser(v, duo, prenom, t);
+  for (const [k, v] of Object.entries(x)) if (!CLES_SPECIALES.has(k)) o[k] = personnaliser(v, duo, prenom, t, pub);
   if (duo) {
     // D'abord le nom de la personne qui apprend, puis les variantes (qui peuvent faire parler Elisabeth).
     if (o.qui === index?.prenom && prenom) o.qui = prenom;
-    if (x.duo && typeof x.duo === "object") Object.assign(o, personnaliser(x.duo, false, prenom, t));
+    if (x.duo && typeof x.duo === "object") Object.assign(o, personnaliser(x.duo, false, prenom, t, pub));
+  }
+  // Version publique : les textes neutres écrits pour tout le monde (« pub », et « pub.m » au masculin).
+  if (pub && x.pub && typeof x.pub === "object") {
+    const { m, ...commun } = x.pub;
+    Object.assign(o, commun);
+    if (pub.genre === "m" && m && typeof m === "object") Object.assign(o, m);
   }
   // Enfin le profil de la personne (pays, ville, métier), s'il est rempli.
   if (x.perso && typeof x.perso === "object") {
@@ -58,16 +70,44 @@ function personnaliser(x, duo, prenom, t) {
   return o;
 }
 
-export function profil(role, prenom, donnees) {
+// Version publique : le prénom de la personne remplace celui d'Elisabeth (ou de Khalil au masculin),
+// partout où il désigne la personne qui apprend. Sa prononciation devient le prénom tel qu'il s'écrit.
+const PRONS_PRENOM = { f: /é-li-ssa-BÉT/g, m: /ka-LIL/g };
+function remplacerPrenom(x, ancien, nouveau, genre) {
+  if (typeof x === "string") return x.split(ancien).join(nouveau);
+  if (Array.isArray(x)) return x.map((v) => remplacerPrenom(v, ancien, nouveau, genre));
+  if (!x || typeof x !== "object") return x;
+  const o = {};
+  for (const [k, v] of Object.entries(x)) {
+    o[k] = k === "pron" && typeof v === "string" && PRONS_PRENOM[genre]
+      ? v.replace(PRONS_PRENOM[genre], nouveau.toUpperCase()).split(ancien).join(nouveau)
+      : remplacerPrenom(v, ancien, nouveau, genre);
+  }
+  return o;
+}
+
+let optionsPubliques = null;   // { genre, ville } pour un inscrit du public ; null pour Elisabeth et Khalil
+
+export function profil(role, prenom, donnees, publique) {
   roleCourant = role || null;
   prenomCourant = prenom || "";
   if (donnees !== undefined) donneesProfil = donnees || null;
-  const cle = `${roleCourant}|${prenomCourant}|${JSON.stringify(donneesProfil || {})}`;
+  if (publique !== undefined) optionsPubliques = publique || null;
+  const cle = `${roleCourant}|${prenomCourant}|${JSON.stringify(donneesProfil || {})}|${JSON.stringify(optionsPubliques)}`;
   if (cle === profilActuel || !bruts.length) return;
   profilActuel = cle;
-  const duo = roleCourant === "duo";
+  const pub = optionsPubliques;
+  const duo = pub ? pub.genre === "m" : roleCourant === "duo";
   const t = jetons(donneesProfil, duo ? "m" : "f");
-  situations = bruts.map((s) => personnaliser(s, duo, prenomCourant, t));
+  const miCiudad = (pub && pub.ville) || "mi ciudad";
+  if (pub) t.miciudad = miCiudad;
+  situations = bruts.map((s) => {
+    let r = personnaliser(s, duo, prenomCourant, t, pub);
+    if (pub && prenomCourant) r = remplacerPrenom(r, duo ? "Khalil" : (index?.prenom || "Elisabeth"), prenomCourant, duo ? "m" : "f");
+    // « {miciudad} » : la ville où la personne vit en Espagne (écrite dans les textes neutres).
+    if (pub) r = remplacerPrenom(r, "{miciudad}", miCiudad, "aucun");
+    return r;
+  });
   parId = new Map();
   for (const s of situations) for (const p of s.phrases) parId.set(p.id, { phrase: p, situation: s });
 }

@@ -22,7 +22,9 @@ const DEFAUT = () => ({
   sellos: [],        // tampons déjà célébrés (situations terminées)
   charla: null,      // conversation IA en cours { scene, messages }
   codeIA: null,      // code d'accès à la conversation (jamais exporté)
-  compte: null,      // { prenom, role } quand on est connecté avec Face ID
+  compte: null,      // { prenom, role, statut, ville, genre } quand on est connecté avec Face ID
+  villeEs: null,     // la ville où la personne vit en Espagne (inscrits du public)
+  genre: null,       // "f" ou "m" : pour accorder les phrases (inscrits du public)
   bienvenueVue: false,
 });
 

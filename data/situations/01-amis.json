@@ -1,5 +1,6 @@
 {
   "id": "amis",
+  "pub": { "intro": "Se présenter, proposer un verre, dire oui ou non sans vexer personne et payer sa tournée : tout ce qu'il faut pour survivre à une soirée de tapas. Le reste, c'est la bonne humeur qui s'en charge." },
   "ordre": 1,
   "titre": "Sortir entre amis",
   "titre_es": "Salir con amigos",
@@ -19,6 +20,7 @@
     },
     {
       "id": "amis-02",
+      "pub": { "es": "Soy de Senegal, de Dakar.", "fr": "Je viens du Sénégal, de Dakar.", "pron": "SOÏ dé sé-né-GAL dé da-KAR", "note": "Ce n'est qu'un exemple : indique ton pays et ta ville d'origine dans Ajustes, « Mon profil », et cette phrase parlera de toi. Si tu viens de Guinée, dis « Guinea Conakry » : en Espagne, « Guinea » fait penser à la Guinée équatoriale." },
       "es": "Soy de Guinea, de Guinea Conakry.",
       "fr": "Je viens de Guinée, la Guinée Conakry.",
       "pron": "SOÏ dé gui-NÉ-a dé gui-NÉ-a ko-NA-kri",
@@ -38,6 +40,7 @@
     },
     {
       "id": "amis-03",
+      "pub": { "es": "Vivo en {miciudad} desde hace poco.", "fr": "J'habite à {miciudad} depuis peu.", "pron": "BI-bo én {miciudad} DÉSS-dé A-thé PO-ko", "note": "Pour préciser : « desde hace dos meses », depuis deux mois." },
       "es": "Vivo en Logroño desde hace poco.",
       "fr": "J'habite à Logroño depuis peu.",
       "pron": "BI-bo én lo-GRO-gno DÉSS-dé A-thé PO-ko",
@@ -58,6 +61,7 @@
     },
     {
       "id": "amis-05",
+      "pub": { "note": "Souvent, la réponse sera « de aquí, de toda la vida » : d'ici, depuis toujours." },
       "es": "¿Y tú de dónde eres?",
       "fr": "Et toi, tu viens d'où ?",
       "pron": "i TOU dé DON-dé É-réss",
@@ -131,6 +135,7 @@
     },
     {
       "id": "amis-14",
+      "pub": { "es": "¿Vamos de tapas por el centro?", "fr": "On va manger des tapas dans le centre ?", "pron": "BA-moss dé TA-pass por él THÉN-tro", "note": "Aller « de tapas » (dans le nord, on dit souvent « de pinchos »), c'est changer de bar à chaque bouchée." },
       "es": "¿Vamos de pinchos por la Laurel?",
       "fr": "On va manger des pinchos rue Laurel ?",
       "pron": "BA-moss dé PIN-tchoss por la laou-RÉL",
@@ -138,6 +143,7 @@
     },
     {
       "id": "amis-15",
+      "pub": { "note": "En Espagne, on commande souvent le vin par son type : un joven, un crianza." },
       "es": "Para mí, un crianza, por favor.",
       "fr": "Pour moi, un crianza, s'il te plaît.",
       "pron": "PA-ra MI oun KRYAN-tha por fa-BOR",
@@ -187,23 +193,25 @@
       "titre": "Lucía propose une sortie",
       "contexte": "Lucía, une collègue sympa, t'appelle un vendredi en fin d'après-midi.",
       "duo": { "contexte": "Lucía, une collègue d'Elisabeth, t'appelle un vendredi en fin d'après-midi." },
+      "pub": { "contexte": "Lucía, une collègue sympa, t'appelle un vendredi en fin d'après-midi." },
       "lignes": [
         { "qui": "Lucía", "es": "¡Hola, guapa! ¿Qué tal?", "fr": "Coucou ma belle ! Ça va ?", "duo": { "es": "¡Hola, Khalil! ¿Qué tal?", "fr": "Salut Khalil ! Ça va ?" } },
         { "qui": "Elisabeth", "es": "¡Muy bien! ¿Y tú?", "fr": "Très bien ! Et toi ?" },
         { "qui": "Lucía", "es": "Bien. Oye, ¿quedamos esta tarde? ¿Te apetece tomar algo?", "fr": "Bien. Dis, on se voit ce soir ? Ça te dit d'aller boire un verre ?" },
         { "qui": "Elisabeth", "es": "¡Vale, me apunto! ¿A qué hora quedamos?", "fr": "OK, j'en suis ! On se retrouve à quelle heure ?" },
         { "qui": "Lucía", "es": "¿A las ocho en la plaza del Mercado?", "fr": "À huit heures sur la place du Marché ?" },
-        { "qui": "Elisabeth", "es": "Perfecto. ¿Vamos de pinchos por la Laurel?", "fr": "Parfait. On va manger des pinchos rue Laurel ?" },
+        { "qui": "Elisabeth", "es": "Perfecto. ¿Vamos de pinchos por la Laurel?", "fr": "Parfait. On va manger des pinchos rue Laurel ?", "pub": { "es": "Perfecto. ¿Vamos de tapas por el centro?", "fr": "Parfait. On va manger des tapas dans le centre ?" } },
         { "qui": "Lucía", "es": "¡Claro! Viene también mi amigo Javi, ¿vale?", "fr": "Bien sûr ! Mon ami Javi vient aussi, ça te va ?" },
         { "qui": "Elisabeth", "es": "¡Qué guay! Hasta luego.", "fr": "Trop bien ! À tout à l'heure." }
       ]
     },
     {
       "titre": "Un crianza dans la Laurel",
+      "pub": { "titre": "Un verre dans le centre", "contexte": "Dans un bar bondé du centre, Lucía te présente Javi." },
       "contexte": "Dans un bar bondé de la rue Laurel, Lucía te présente Javi.",
       "lignes": [
         { "qui": "Javi", "es": "Hola, soy Javi. ¿Tú eres Elisabeth?", "fr": "Salut, moi c'est Javi. C'est toi, Elisabeth ?", "duo": { "es": "Hola, soy Javi. ¿Tú eres Khalil?", "fr": "Salut, moi c'est Javi. C'est toi, Khalil ?" } },
-        { "qui": "Elisabeth", "es": "Sí, encantada. Soy de Guinea Conakry, pero vivo en Logroño desde hace poco.", "fr": "Oui, enchantée. Je viens de Guinée Conakry, mais j'habite à Logroño depuis peu.", "duo": { "es": "Sí, encantado. Soy de Costa de Marfil y estoy de visita en Logroño.", "fr": "Oui, enchanté. Je viens de Côte d'Ivoire et je suis de passage à Logroño." } },
+        { "qui": "Elisabeth", "es": "Sí, encantada. Soy de Guinea Conakry, pero vivo en Logroño desde hace poco.", "fr": "Oui, enchantée. Je viens de Guinée Conakry, mais j'habite à Logroño depuis peu.", "duo": { "es": "Sí, encantado. Soy de Costa de Marfil y estoy de visita en Logroño.", "fr": "Oui, enchanté. Je viens de Côte d'Ivoire et je suis de passage à Logroño." }, "pub": { "es": "Sí, encantada. Llegué a {miciudad} hace poco.", "fr": "Oui, enchantée. Je suis arrivée à {miciudad} il y a peu.", "m": { "es": "Sí, encantado. Llegué a {miciudad} hace poco.", "fr": "Oui, enchanté. Je suis arrivé à {miciudad} il y a peu." } } },
         { "qui": "Javi", "es": "¡Qué bien! ¿Y qué tal el español?", "fr": "Super ! Et ça va, l'espagnol ?" },
         { "qui": "Elisabeth", "es": "Hablo un poco de español, pero voy aprendiendo.", "fr": "Je parle un peu espagnol, mais j'apprends petit à petit." },
         { "qui": "Lucía", "es": "Venga, ¿qué queréis tomar?", "fr": "Allez, qu'est-ce que vous prenez ?" },
@@ -226,14 +234,14 @@
     ],
     "exemples": [
       { "es": "Quedo con Ana a las ocho.", "fr": "Je retrouve Ana à huit heures." },
-      { "es": "¿Vais a la Laurel esta noche?", "fr": "Vous allez rue Laurel ce soir ?" },
+      { "es": "¿Vais a la Laurel esta noche?", "fr": "Vous allez rue Laurel ce soir ?", "pub": { "es": "¿Vais al centro esta noche?", "fr": "Vous allez dans le centre ce soir ?" } },
       { "es": "¿Quieres otro vino?", "fr": "Tu veux un autre verre de vin ?" }
     ]
   },
   "expressions": [
     { "es": "¡Qué guay!", "fr": "Trop bien !", "note": "Pour tout ce qui est chouette, d'un plan de sortie à une nouvelle robe." },
     { "es": "¡Venga!", "fr": "Allez !", "note": "Sert à tout : encourager, conclure, dire au revoir. Tu l'entendras cent fois par jour." },
-    { "es": "Ir de vinos", "fr": "Faire la tournée des bars à vin", "note": "Le sport local à Logroño, surtout le week-end." },
+    { "es": "Ir de vinos", "fr": "Faire la tournée des bars à vin", "note": "Le sport local à Logroño, surtout le week-end.", "pub": { "note": "Un sport national, surtout le week-end : de bar en bar, un petit verre à chaque arrêt." } },
     { "es": "¿Nos tomamos la penúltima?", "fr": "On prend un dernier verre ?", "note": "On dit l'avant-dernière, jamais la dernière : c'est plus prudent." },
     { "es": "¡Qué morro!", "fr": "Quel culot !", "note": "Pour la copine qui oublie toujours sa tournée. Avec le sourire." },
     { "es": "Es muy majo / muy maja", "fr": "Il est très sympa / elle est très sympa", "note": "« Majo » est typique d'Espagne, et très utilisé dans le nord." }

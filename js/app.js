@@ -13,17 +13,39 @@ import { $, $$, e, ico, remplirIcones, toast, modale, confirmer, melanger, auHas
 const app = $("#app");
 const nav = $("#nav");
 
-// Accord au masculin pour le duo (Khalil), au féminin pour Elisabeth.
-const masc = () => K.compte()?.role === "duo";
+// Qui utilise l'appli ?
+// - Elisabeth et Khalil (propriétaires) : tout est ouvert, contenu d'origine (Logroño, duo, petits mots).
+// - Les autres (inscrits du public, ou personne pas encore inscrite) : version publique, essai gratuit.
+const estProprio = () => { const c = K.compte(); return !!c && (c.role === "eli" || c.role === "duo" || c.statut === "proprietaire"); };
+const estPublic = () => !estProprio();
+const accesComplet = () => estProprio() || K.compte()?.statut === "abonne";
+// Les situations ouvertes pendant l'essai : se présenter, le médecin, l'administration.
+const SITUATIONS_ESSAI = ["amis", "medecin", "administration"];
+const genre = () => {
+  const c = K.compte();
+  if (c?.genre === "m" || c?.role === "duo") return "m";
+  if (c?.genre === "f" || c?.role === "eli") return "f";
+  return S.get().genre === "m" ? "m" : "f";
+};
+const villeEspagne = () => (estPublic() ? (K.compte()?.ville || S.get().villeEs || "") : "Logroño");
+// Accord au masculin (Khalil, ou un inscrit qui l'a choisi), au féminin sinon.
+const masc = () => genre() === "m";
 const g = (fem, mas) => (masc() ? mas : fem);
 
-const PETITES_PHRASES = [
-  "Un petit peu chaque jour, et Logroño n'aura plus de secrets pour toi.",
-  () => g("Aujourd'hui, on parle comme une vraie riojana.", "Aujourd'hui, on parle comme un vrai riojano."),
-  () => g("Pas besoin d'être parfaite, juste d'être là.", "Pas besoin d'être parfait, juste d'être là."),
+// Le contenu s'accorde à la personne : d'origine pour les propriétaires, version publique pour les autres.
+function appliquerProfil() {
+  const c = K.compte();
+  if (estPublic()) C.profil("membre", S.get().prenom || c?.prenom || "", S.get().profil, { genre: genre(), ville: villeEspagne() });
+  else C.profil(c?.role, c?.prenom, S.get().profil, null);
+}
+
+const PETITES_PHRASES = () => [
+  `Un petit peu chaque jour, et ${villeEspagne() || "l'Espagne"} n'aura plus de secrets pour toi.`,
+  ...(estPublic() ? [] : [g("Aujourd'hui, on parle comme une vraie riojana.", "Aujourd'hui, on parle comme un vrai riojano."),
+    "Les tapas de la calle Laurel n'attendent que toi."]),
+  g("Pas besoin d'être parfaite, juste d'être là.", "Pas besoin d'être parfait, juste d'être là."),
   "Vale, vale… on s'y met ?",
   "Chaque phrase apprise, c'est une conversation de plus.",
-  "Les tapas de la calle Laurel n'attendent que toi.",
   "Doucement mais sûrement. Poco a poco.",
 ];
 
@@ -31,8 +53,9 @@ const PETITES_PHRASES = [
 // Démarrage
 async function demarrer() {
   try {
-    C.profil(K.compte()?.role, K.compte()?.prenom, S.get().profil);
+    appliquerProfil();
     await C.charger();
+    appliquerProfil();
   } catch (err) {
     app.innerHTML = `<div class="vide"><h1>Oups</h1><p>Je n'arrive pas à charger les leçons. Vérifie ta connexion, puis réessaie.</p>
       <button class="btn" data-reessayer>Réessayer</button></div>`;
@@ -40,11 +63,14 @@ async function demarrer() {
     return;
   }
   C.definirMots(K.motsEnCache());
-  if (!S.get().prenom) S.maj((s) => (s.prenom = C.prenomParDefaut() || "toi"));
+  // Le prénom par défaut (« Elisabeth ») n'est plus donné à une personne inconnue : l'accueil le demande.
+  if (!S.get().prenom && estProprio()) S.maj((s) => (s.prenom = K.compte().prenom));
   remplirIcones(nav);
   V.brancher();
   majNavCompte();
   K.demarrer().then(async (ok) => {
+    // Le statut du compte (essai, abonné) peut avoir changé depuis la dernière ouverture.
+    if (await K.rafraichirCompte()) ok = true;
     majNavCompte();
     C.definirMots(await K.chargerMots());
     // On ne redessine l'accueil que s'il est calme (aucune lettre ou fenêtre ouverte).
@@ -142,15 +168,16 @@ function router() {
 }
 
 function ecranPour(hash) {
-  const [route, arg] = hash.replace(/^#\/?/, "").split("/");
+  const [route, arg] = hash.replace(/^#\/?/, "").split("?")[0].split("/");
   const ecrans = {
     "": accueil,
     situation: () => ecranSituation(arg),
     apprendre: () => apprendre(arg),
     pratiquer: () => pratiquer(arg),
     defi: defi,
-    charla: () => ecranCharla(app, { montrerNav, aller }),
+    charla: () => ecranCharla(app, { montrerNav, aller, publique: estPublic() }),
     compte: ecranCompte,
+    acces: () => ecranAcces(arg),
     carnet: carnet,
     surprises: surprises,
     reglages: reglages,
@@ -177,7 +204,8 @@ const niveauDe = (s) => s.niveau || "A1";
 const sellosDe = (niv) => C.toutes().filter((s) => niveauDe(s) === niv && vues(s).length === s.phrases.length).length;
 const precedent = (niv) => NIVEAUX[NIVEAUX.indexOf(niv) - 1];
 const niveauOuvert = (niv) => niv === "A1" || (niveauOuvert(precedent(niv)) && sellosDe(precedent(niv)) >= SEUIL_A2);
-const ouverte = (s) => niveauOuvert(niveauDe(s));
+const fermeeEssai = (s) => !accesComplet() && !SITUATIONS_ESSAI.includes(s.id);
+const ouverte = (s) => niveauOuvert(niveauDe(s)) && !fermeeEssai(s);
 const nbSituationsFaites = () => C.toutes().filter((s) => vues(s).length === s.phrases.length).length;
 const idsConnus = () => {
   const etat = S.get();
@@ -248,6 +276,14 @@ const ROTATIONS = [-8, 5, -3, 7, -6, 4, -2, 6, -7, 3, -4, 8];
 
 // Un tampon de la credencial : pointillé tant que la situation est en cours, encré quand elle est finie.
 function sello(s, k, ferme = false) {
+  if (fermeeEssai(s)) {
+    // Essai gratuit : la situation se voit, mais s'ouvre avec l'accès complet.
+    return `
+    <a class="sello sello-ferme" href="#/acces/lecon" aria-label="${e(s.titre)} : dans l'accès complet">
+      <svg class="sello-svg" viewBox="0 0 100 100" aria-hidden="true"><circle class="sello-piste" cx="50" cy="50" r="46" /></svg>
+      <span class="sello-txt"><strong>${e(nomCourt(s))}</strong><span>${ico("cadenas", "ico-inline")}</span></span>
+    </a>`;
+  }
   if (ferme) {
     return `
     <div class="sello sello-ferme" aria-label="${e(s.titre)} : niveau ${niveauDe(s)}, pas encore ouvert">
@@ -295,7 +331,7 @@ function accueil() {
         <div>
           <p class="credencial-sur">Credencial de</p>
           <h1 class="credencial-nom">${e(etat.prenom)}</h1>
-          <p class="manuscrit">${e([auHasard(PETITES_PHRASES)].map((x) => (typeof x === "function" ? x() : x))[0])}</p>
+          <p class="manuscrit">${e(auHasard(PETITES_PHRASES()))}</p>
         </div>
         <div class="camino ${S.serieFaiteAujourdhui() ? "camino-hoy" : ""}">
           <strong>${serie}</strong>
@@ -305,10 +341,15 @@ function accueil() {
 
       ${!K.connecte() && K.faceIdDisponible() && !etat.compteReporte ? `
       <div class="encart encart-compte">
-        <p>Mets ta credencial à l'abri : avec Face ID, ta progression est sauvegardée et tu la retrouves sur tous tes appareils.</p>
-        <div class="rangee"><a class="btn btn-petit" href="#/compte">Activer Face ID</a><button class="btn btn-doux btn-petit" data-plus-tard>Plus tard</button></div>
+        <p>Crée ton compte gratuit avec Face ID : ta progression est sauvegardée, et tu peux t'entraîner à parler avec Charla.</p>
+        <div class="rangee"><a class="btn btn-petit" href="#/compte">Créer mon compte</a><button class="btn btn-doux btn-petit" data-plus-tard>Plus tard</button></div>
       </div>` : ""}
-      ${K.connecte() ? `<div class="duo-carte" data-duo hidden></div>` : ""}
+      ${!accesComplet() ? `
+      <div class="encart encart-essai">
+        <p><strong>Essai gratuit.</strong> ${SITUATIONS_ESSAI.length} situations sont ouvertes : se présenter, le médecin, l'administration. Les ${C.toutes().length - SITUATIONS_ESSAI.length} autres arrivent avec l'accès complet.</p>
+        <a class="btn btn-petit" href="#/acces/accueil">Je veux l'accès complet</a>
+      </div>` : ""}
+      ${K.connecte() && estProprio() ? `<div class="duo-carte" data-duo hidden></div>` : ""}
 
       ${estIOS && !installee ? `
       <div class="encart">
@@ -348,7 +389,8 @@ function accueil() {
         ${NIVEAUX.map((niv) => {
           const liste = C.toutes().filter((x) => niveauDe(x) === niv);
           if (!liste.length) return "";
-          const ferme = !niveauOuvert(niv);
+          // Pendant l'essai, le cadenas de niveau ne s'affiche pas : tout ce qui est fermé mène à l'accès complet.
+          const ferme = !niveauOuvert(niv) && accesComplet();
           const prec = precedent(niv);
           const n = prec ? Math.min(sellosDe(prec), SEUIL_A2) : 0;
           return `
@@ -367,7 +409,7 @@ function accueil() {
     accueil();
   });
   afficherDuo();
-  if (!K.compte() || K.compte().role === "eli") verifierSurprises();
+  if (K.compte()?.role === "eli") verifierSurprises();
 }
 
 function jourEnLettres() {
@@ -378,6 +420,7 @@ function jourEnLettres() {
 function bienvenue() {
   montrerNav(null);
   const etat = S.get();
+  if (estPublic()) return bienvenuePublique();
   app.innerHTML = `
     <div class="bienvenue">
       <div class="couverture">
@@ -394,6 +437,124 @@ function bienvenue() {
   $("[data-go]", app).onclick = () => {
     S.maj((s) => (s.bienvenueVue = true));
     aller("#/defi");
+  };
+}
+
+// Premier lancement pour une personne du public : sa credencial à son nom, dans sa ville.
+// Trois questions seulement, puis on entre dans la première étape. Le compte (Face ID) vient après.
+function bienvenuePublique() {
+  const etat = S.get();
+  let genreChoisi = etat.genre === "m" ? "m" : etat.genre === "f" ? "f" : null;
+  app.innerHTML = `
+    <div class="bienvenue">
+      <div class="couverture">
+        <svg class="couverture-fleche" viewBox="0 0 120 60" aria-hidden="true"><path d="M8 30h78M64 10l24 20-24 20" /></svg>
+        <p class="credencial-sur">Credencial de</p>
+        <h1 class="credencial-nom" data-apercu-nom>${e(etat.prenom || "…")}</h1>
+        <p class="couverture-lieu" data-apercu-ville>${e(etat.villeEs || "España")}</p>
+      </div>
+      <p>L'espagnol de la vraie vie en Espagne : la mairie, le médecin, le travail, les voisins. Chaque jour, une petite étape de cinq minutes, et un tampon pour chaque situation.</p>
+      <form class="pile" data-bienvenue autocomplete="off">
+        <label class="champ">Ton prénom<input name="prenom" required maxlength="30" value="${e(etat.prenom || "")}" autocomplete="given-name"></label>
+        <label class="champ">Ta ville en Espagne<input name="ville" required maxlength="40" value="${e(etat.villeEs || "")}" placeholder="Ex. : Madrid, Bilbao, Zaragoza"></label>
+        <div class="champ"><span id="lbl-genre">On te parle…</span>
+          <div class="segment segment-2" role="radiogroup" aria-labelledby="lbl-genre">
+            ${[["f", "au féminin"], ["m", "au masculin"]].map(([v, l]) =>
+              `<button type="button" role="radio" aria-checked="${genreChoisi === v}" class="${genreChoisi === v ? "actif" : ""}" data-genre="${v}">${l}</button>`).join("")}
+          </div>
+        </div>
+        <label class="champ">Ton pays d'origine (facultatif)
+          <select name="pays"><option value="">Choisir…</option>
+            ${Object.entries(P.PAYS).map(([k, v]) => `<option value="${k}" ${etat.profil?.pays === k ? "selected" : ""}>${e(v.fr)}</option>`).join("")}
+          </select></label>
+        <p class="petit centre" data-message aria-live="polite"></p>
+        <button class="btn btn-large">Empezar mi primera etapa</button>
+      </form>
+      ${K.faceIdDisponible() ? `<a class="btn btn-doux btn-large" href="#/compte">J'ai déjà un compte (Face ID)</a>` : ""}
+    </div>`;
+  const form = $("[data-bienvenue]", app);
+  form.prenom.addEventListener("input", () => { $("[data-apercu-nom]", app).textContent = form.prenom.value.trim() || "…"; });
+  form.ville.addEventListener("input", () => { $("[data-apercu-ville]", app).textContent = P.nettoyerVille(form.ville.value) || "España"; });
+  $$("[data-genre]", app).forEach((b) => (b.onclick = () => {
+    genreChoisi = b.dataset.genre;
+    $$("[data-genre]", app).forEach((x) => { x.classList.toggle("actif", x === b); x.setAttribute("aria-checked", x === b); });
+  }));
+  form.onsubmit = (ev) => {
+    ev.preventDefault();
+    const prenom = form.prenom.value.replace(/[^\p{L}\p{M} '’-]/gu, "").replace(/\s+/g, " ").trim().slice(0, 30);
+    const ville = P.nettoyerVille(form.ville.value);
+    if (!prenom || !ville || !genreChoisi) {
+      $("[data-message]", app).textContent = !genreChoisi ? "Dis-nous comment on te parle : au féminin ou au masculin." : "Il manque ton prénom ou ta ville.";
+      return;
+    }
+    S.maj((s) => {
+      s.prenom = prenom;
+      s.villeEs = ville;
+      s.genre = genreChoisi;
+      if (form.pays.value) s.profil = { ...(s.profil || {}), pays: form.pays.value };
+      s.bienvenueVue = true;
+    });
+    appliquerProfil();
+    aller("#/defi");
+  };
+}
+
+// ---------------------------------------------------------------------------
+// Accès complet : on mesure l'intérêt avant d'ouvrir le paiement (e-mail seulement).
+function ecranAcces(source = "") {
+  montrerNav("accueil");
+  if (accesComplet()) return aller("#/");
+  app.innerHTML = `
+    <header class="page-haut">
+      <a class="btn-ico" href="#/" aria-label="Retour">${ico("retour")}</a>
+      <div><h1>L'accès complet</h1><p class="page-sous">Bientôt ouvert</p></div>
+    </header>
+    <section class="bloc">
+      <h2>Ce qu'il contient</h2>
+      <ul class="liste-simple">
+        <li>Les ${C.toutes().length} situations de la vie en Espagne, du niveau A1 au B1 : logement, travail, banque, titre de séjour, école, urgences…</li>
+        <li>Charla tous les jours : tu parles avec un serveur, une voisine, un médecin, un recruteur, qui te corrigent avec douceur.</li>
+        <li>Ta progression sauvegardée et ton rappel quotidien.</li>
+      </ul>
+    </section>
+    <section class="bloc">
+      <h2>Préviens-moi à l'ouverture</h2>
+      <p class="petit">Le paiement n'est pas encore ouvert. Laisse ton e-mail : on t'écrit une seule fois, le jour où l'accès complet ouvre.</p>
+      <form class="pile" data-interet>
+        <label class="champ">Ton e-mail<input name="email" type="email" required maxlength="120" autocomplete="email" inputmode="email" placeholder="ton@email.com"></label>
+        <button class="btn btn-large">Je veux l'accès complet</button>
+      </form>
+      <p class="petit centre" data-message aria-live="polite"></p>
+      <p class="petit">Ton e-mail sert uniquement à te prévenir de l'ouverture. Il n'est ni vendu ni partagé. Tu peux le retirer quand tu veux :
+        <button class="lien" type="button" data-retrait>retirer mon e-mail</button>.</p>
+    </section>`;
+  const message = $("[data-message]", app);
+  const envoyer = async (chemin, email) => {
+    try {
+      const rep = await fetch(chemin, { method: "POST", headers: { "Content-Type": "application/json" }, credentials: "same-origin",
+        body: JSON.stringify({ email, source }) });
+      const d = await rep.json().catch(() => ({}));
+      return rep.ok && d.ok ? null : (d.erreur || "serveur");
+    } catch { return "reseau"; }
+  };
+  const ERR = { email: "Cette adresse e-mail ne semble pas valide.", trop_essais: "Trop d'essais aujourd'hui. Réessaie demain.",
+    reseau: "Pas de réseau pour l'instant. Réessaie tout à l'heure.", serveur: "Petit souci. Réessaie dans un instant." };
+  $("[data-interet]", app).onsubmit = async (ev) => {
+    ev.preventDefault();
+    const bouton = $("button", ev.currentTarget);
+    bouton.disabled = true;
+    const err = await envoyer("api/interet", ev.currentTarget.email.value);
+    bouton.disabled = false;
+    if (err) { message.textContent = ERR[err] || ERR.serveur; return; }
+    S.maj((s) => (s.interetEnvoye = true));
+    message.textContent = "C'est noté, merci ! On te prévient dès que l'accès complet ouvre.";
+    ev.currentTarget.reset();
+  };
+  $("[data-retrait]", app).onclick = async () => {
+    const email = $("[data-interet]", app).email.value;
+    if (!email) { message.textContent = "Écris ton e-mail dans le champ, puis touche « retirer mon e-mail »."; return; }
+    const err = await envoyer("api/interet/retrait", email);
+    message.textContent = err ? (ERR[err] || ERR.serveur) : "C'est fait : ton e-mail est retiré.";
   };
 }
 
@@ -516,6 +677,7 @@ async function finMorceau(d, k, stats) {
 function ecranSituation(id, onglet = "phrases") {
   const s = C.situation(id);
   if (!s) return aller("#/");
+  if (fermeeEssai(s)) { history.replaceState(null, "", "#/acces/lecon"); return ecranAcces("lecon"); }
   if (!ouverte(s)) {
     const prec = precedent(niveauDe(s));
     toast(niveauOuvert(prec)
@@ -734,7 +896,8 @@ function reglages() {
     <section class="bloc">
       <h2>Mon compte</h2>
       ${K.connecte()
-        ? `<p>Connectée en tant que <strong>${e(K.compte().prenom)}</strong>, avec Face ID. Ta progression est sauvegardée en ligne.</p>
+        ? `<p>${g("Connectée", "Connecté")} en tant que <strong>${e(K.compte().prenom)}</strong>, avec Face ID. Ta progression est sauvegardée en ligne.</p>
+           ${!accesComplet() ? `<p class="petit">Tu es en essai gratuit. <a class="lien" href="#/acces/reglages">Je veux l'accès complet</a></p>` : ""}
            <button class="btn btn-doux" data-deconnexion>Me déconnecter de cet appareil</button>`
         : `<p class="petit">Sans compte, ta progression reste seulement sur cet appareil.</p>
            <a class="btn" href="#/compte">Activer Face ID</a>`}
@@ -833,7 +996,7 @@ function reglages() {
     if (await confirmer("Te déconnecter ?", "Ta progression reste sauvegardée en ligne. Cet appareil repartira de zéro jusqu'à ta prochaine connexion avec Face ID.", "Me déconnecter")) {
       const r = await K.seDeconnecter({
         avantDeSortir: () => (S.get().reglages.rappel?.actif ? N.desactiver() : null),
-        prenomParDefaut: C.prenomParDefaut(),
+        prenomParDefaut: "",
       });
       if (!r.ok) { toast(K.MESSAGES[r.erreur] || K.MESSAGES.hors_ligne); return; }
       C.definirMots([]);
@@ -878,7 +1041,7 @@ function reglages() {
       const v = k === "ville" ? P.nettoyerVille(champ.value) : champ.value;
       if (k === "ville" && champ.value !== v) champ.value = v;
       S.maj((s) => { s.profil = { ...(s.profil || {}), [k]: v }; if (!v) delete s.profil[k]; });
-      C.profil(K.compte()?.role, K.compte()?.prenom, S.get().profil);
+      appliquerProfil();
       apercu();
     };
     champ.addEventListener("change", enregistrer);
@@ -907,12 +1070,15 @@ function reglages() {
     if (await confirmer("Tout recommencer ?", texte, "Tout effacer")) {
       if (enLigne) {
         // Le compte reste connecté : on repart de zéro ici, puis on remplace la copie en ligne.
-        const r = await K.remettreAZero(C.prenomParDefaut());
+        const r = await K.remettreAZero(K.compte()?.prenom || "");
         if (!r.ok) { toast(K.MESSAGES[r.erreur] || K.MESSAGES.hors_ligne); return; }
       } else {
+        // Sans compte : on garde qui est la personne (prénom, ville, genre), on efface la progression.
+        const { prenom, villeEs, genre: gen, profil } = S.get();
         S.toutEffacer();
-        S.maj((s) => (s.prenom = C.prenomParDefaut()));
+        S.maj((s) => Object.assign(s, { prenom, villeEs, genre: gen, profil, bienvenueVue: !!prenom }));
       }
+      appliquerProfil();
       window.appliquerTheme?.(S.get().reglages.theme || "auto");
       aller("#/");
     }
@@ -967,9 +1133,10 @@ function guidePrononciation() {
 // Compte : Face ID
 function majNavCompte() {
   const lien = $('a[data-onglet="surprises"]', nav);
-  if (lien) lien.hidden = K.compte()?.role === "duo";
-  // Les phrases s'accordent à la personne connectée (Elisabeth ou Khalil).
-  C.profil(K.compte()?.role, K.compte()?.prenom, S.get().profil);
+  // Les Sorpresas (petits mots) sont pour Elisabeth seulement.
+  if (lien) lien.hidden = K.compte()?.role !== "eli";
+  // Les phrases s'accordent à la personne connectée.
+  appliquerProfil();
 }
 
 function ecranCompte() {
@@ -987,12 +1154,26 @@ function ecranCompte() {
       <button class="btn btn-large" data-connexion>${ico("visage")} Me connecter avec Face ID</button>
     </section>
     <section class="bloc">
-      <h2>Je crée mon compte</h2>
-      <p class="petit">Avec le code d'invitation qu'on t'a donné. Il ne sert qu'une seule fois.</p>
-      <form class="pile" data-inscription autocomplete="off">
-        <input name="code" required autocapitalize="characters" autocorrect="off" spellcheck="false" placeholder="XXXX-XXXX-XXXX" aria-label="Code d'invitation">
+      <h2>Je crée mon compte gratuit</h2>
+      <p class="petit">L'essai est gratuit et sans engagement : aucun moyen de paiement n'est demandé.</p>
+      <form class="pile" data-creation autocomplete="off">
+        <label class="champ">Ton prénom<input name="prenom" required maxlength="30" value="${e(S.get().prenom || "")}" autocomplete="given-name"></label>
+        <label class="champ">Ta ville en Espagne<input name="ville" required maxlength="40" value="${e(S.get().villeEs || "")}" placeholder="Ex. : Madrid, Bilbao, Zaragoza"></label>
+        <label class="champ">On te parle…
+          <select name="genre" required>
+            <option value="" ${S.get().genre ? "" : "selected"}>Choisir…</option>
+            <option value="f" ${S.get().genre === "f" ? "selected" : ""}>au féminin</option>
+            <option value="m" ${S.get().genre === "m" ? "selected" : ""}>au masculin</option>
+          </select></label>
         <button class="btn btn-large">${ico("visage")} Créer avec Face ID</button>
       </form>
+      <details class="petit">
+        <summary>J'ai un code d'invitation</summary>
+        <form class="pile" data-inscription autocomplete="off">
+          <input name="code" required autocapitalize="characters" autocorrect="off" spellcheck="false" placeholder="XXXX-XXXX-XXXX" aria-label="Code d'invitation">
+          <button class="btn">${ico("visage")} Créer avec Face ID</button>
+        </form>
+      </details>
     </section>
     <p class="petit centre" data-message aria-live="polite"></p>`
     : `<p class="encart">Cet appareil ne permet pas Face ID. Ouvre l'appli sur ton iPhone, dans Safari ou depuis l'écran d'accueil.</p>`}`;
@@ -1001,8 +1182,8 @@ function ecranCompte() {
   const occupe = (b, on) => { if (b) { b.disabled = on; b.classList.toggle("en-cours", on); } };
   const resultat = (r) => {
     if (r.ok) {
-      toast(`Bienvenida, ${r.utilisateur.prenom}`);
       majNavCompte();
+      toast(`${g("Bienvenida", "Bienvenido")}, ${r.utilisateur.prenom}`);
       return aller("#/");
     }
     message.textContent = K.MESSAGES[r.erreur] || "Ça n'a pas marché. Réessaie dans un instant.";
@@ -1019,6 +1200,16 @@ function ecranCompte() {
     occupe(bouton, true);
     message.textContent = "";
     try { resultat(await K.creerCompte(code)); } finally { occupe(bouton, false); }
+  });
+  $("[data-creation]", app)?.addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    const f = ev.currentTarget;
+    const bouton = $("button", f);
+    const infos = { prenom: f.prenom.value.trim(), ville: P.nettoyerVille(f.ville.value), genre: f.genre.value };
+    if (!infos.prenom || !infos.ville || !infos.genre) { message.textContent = "Il manque ton prénom, ta ville ou le féminin / masculin."; return; }
+    occupe(bouton, true);
+    message.textContent = "";
+    try { resultat(await K.creerCompte(null, infos)); } finally { occupe(bouton, false); }
   });
 }
 

@@ -13,9 +13,18 @@ export const SCENES = [
   { id: "entrevista", nom: "Marta", lieu: "Entrevista", texte: "Un entretien d'embauche gentil dans une boutique de vêtements." },
   { id: "medico", nom: "Dr. Ruiz", lieu: "El médico", texte: "Ton médecin de famille. Explique ce qui ne va pas, il t'écoute." },
 ];
+// Pour les inscrits du public : les mêmes scènes, sans les détails propres à Logroño.
+const TEXTES_PUBLICS = {
+  amiga: "Une amie espagnole de ton âge. On papote : le week-end, les sorties, les fêtes du quartier.",
+  bar: "Le serveur d'un bar du centre. Commande, demande des conseils, paie.",
+};
+let options = { publique: false };
+const texteScene = (s) => (options.publique && TEXTES_PUBLICS[s.id]) || s.texte;
+
 const ouvrir = "(Empieza tú la conversación, de forma natural y breve.)";
 
 const ERREURS = {
+  pause_essai: "Beaucoup de monde essaie Charla aujourd'hui : l'essai reprend demain. Les leçons, elles, restent ouvertes.",
   pas_configure: "La conversation arrive très bientôt. Encore un peu de patience.",
   limite: "Tu as beaucoup parlé aujourd'hui, bravo. On reprend demain.",
   occupe: "Le serveur est un peu débordé. Réessaie dans une minute.",
@@ -25,7 +34,8 @@ const ERREURS = {
 
 const etat = () => S.get();
 
-export function ecranCharla(app, { montrerNav, aller }) {
+export function ecranCharla(app, { montrerNav, aller, publique = false }) {
+  options = { publique };
   const c = etat().charla;
   if (c && c.scene && SCENES.some((s) => s.id === c.scene)) return conversation(app, { montrerNav, aller });
   choix(app, { montrerNav, aller });
@@ -48,7 +58,7 @@ function choix(app, { montrerNav, aller }) {
         <button class="scene" data-scene="${s.id}">
           <span class="scene-lieu">${e(s.lieu)}</span>
           <strong>${e(s.nom)}</strong>
-          <span class="scene-texte">${e(s.texte)}</span>
+          <span class="scene-texte">${e(texteScene(s))}</span>
         </button>`).join("")}
     </div>`;
   $("[data-reprendre]", app)?.addEventListener("click", () => conversation(app, { montrerNav, aller }));
@@ -173,10 +183,12 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
   }
 
   async function appeler(conv) {
-    let code = etat().codeIA;
+    const code = etat().codeIA;
     if (!code && !etat().compte) {
-      code = await demanderCode();
-      if (!code) return { ok: false };
+      // Charla demande un compte (gratuit) : c'est lui qui compte les messages de l'essai.
+      toast("Crée ton compte gratuit pour parler avec Charla : ça prend dix secondes avec Face ID.");
+      aller("#/compte");
+      return { ok: false };
     }
     try {
       const rep = await fetch("api/conversacion", {
@@ -196,11 +208,15 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
         toast("Ce code n'est pas le bon.");
         return { ok: false };
       }
+      if (d.erreur === "fin_essai") { finEssai(aller); return { ok: false }; }
       if (d.erreur) { toast(ERREURS[d.erreur] || "Petit souci. Réessaie dans un instant."); return { ok: false }; }
       // Réponse inattendue (panne, page d'erreur, réseau coupé en route) : on ne l'affiche pas.
       if (!rep.ok || typeof d.respuesta !== "string" || !d.respuesta.trim()) {
         toast("Petit souci de connexion. Réessaie dans un instant.");
         return { ok: false };
+      }
+      if (d.essai && d.restants <= 3) {
+        toast(d.restants ? `Essai gratuit : encore ${d.restants} message${d.restants > 1 ? "s" : ""} avec Charla.` : "C'était ton dernier message d'essai avec Charla.");
       }
       return { ok: true, ...d };
     } catch {
@@ -283,20 +299,11 @@ function conversation(app, { montrerNav, aller }, demarrer = false) {
   if (!enVol && (demarrer || !etat().charla.messages.length)) envoyer(ouvrir);
 }
 
-async function demanderCode() {
-  let saisi = "";
+// Fin de l'essai Charla : on explique, et on propose l'accès complet.
+async function finEssai(aller) {
   const choix = await modale(`
-    <h2>Code d'accès</h2>
-    <p>La conversation est réservée à toi. Entre le code que l'on t'a donné.</p>
-    <input class="code-champ" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Code d'accès">
-    <div class="rangee"><button class="btn btn-doux" data-valeur="non">Annuler</button><button class="btn" data-valeur="oui">Valider</button></div>`, {
-    apresOuverture: (boite) => {
-      const champ = $(".code-champ", boite);
-      champ.addEventListener("input", () => (saisi = champ.value.trim()));
-      champ.focus();
-    },
-  });
-  if (choix !== "oui" || !saisi) return null;
-  S.maj((s) => (s.codeIA = saisi));
-  return saisi;
+    <h2>Ton essai Charla est terminé</h2>
+    <p>Tu as utilisé tes messages gratuits. Avec l'accès complet, tu parles avec Charla tous les jours, dans toutes les scènes.</p>
+    <div class="rangee"><button class="btn btn-doux" data-valeur="non">Plus tard</button><button class="btn" data-valeur="oui">Je veux l'accès complet</button></div>`);
+  if (choix === "oui") aller("#/acces/charla");
 }
