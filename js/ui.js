@@ -132,3 +132,9 @@ export const confirmer = (titre, texte, oui = "Oui", non = "Annuler") =>
 export function vibrer(ms = 15) {
   try { navigator.vibrate?.(ms); } catch (_) { /* iPhone : pas de vibration web */ }
 }
+
+// Transition d'écran en cours (View Transitions). WebKit peut planter si on modifie la page pendant
+// la transition : tout contenu chargé après coup (réseau) attend d'abord sa fin.
+let finTransition = Promise.resolve();
+export const noterTransition = (promesse) => { finTransition = Promise.resolve(promesse).catch(() => {}); };
+export const apresTransition = () => finTransition;

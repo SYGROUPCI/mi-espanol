@@ -9,7 +9,7 @@ import * as K from "./compte.js";
 import * as N from "./notifs.js";
 import * as Son from "./son.js";
 import * as P from "./profil.js";
-import { $, $$, e, ico, remplirIcones, toast, modale, confirmer, melanger, auHasard } from "./ui.js";
+import { $, $$, e, ico, remplirIcones, toast, modale, confirmer, melanger, auHasard, noterTransition, apresTransition } from "./ui.js";
 
 const app = $("#app");
 const nav = $("#nav");
@@ -165,6 +165,7 @@ function router() {
   if (doux && document.startViewTransition && !app.querySelector(".chargement")) {
     const t = document.startViewTransition(rendre);
     for (const pr of [t.ready, t.finished, t.updateCallbackDone]) pr?.catch(() => {});   // transition sautée : rien de grave
+    noterTransition(t.finished);
   } else rendre();
 }
 
@@ -522,7 +523,9 @@ function accuseTexte(r) {
   return `Mi Español (elibangoura.com) — Accusé de réception de rétractation\n\n` +
     `Référence : ${r.ref}\nNom : ${r.prenom}\nE-mail : ${r.email}\nDemande reçue le : ${dateHeure(r.recue_le)} (${r.recue_le} UTC)\n\n` +
     `Ta demande de rétractation du contrat d'abonnement à Mi Español a bien été reçue.\n` +
-    `Le montant payé te sera remboursé en totalité, par le même moyen de paiement, dans les 14 jours.\n` +
+    `Tu seras remboursé(e) du montant payé, moins la part des jours déjà écoulés (article 108.3 de la loi espagnole de protection des consommateurs) :\n` +
+    `montant remboursé = prix payé × jours restants de la période ÷ jours de la période.\n` +
+    `Le remboursement est fait par le même moyen de paiement, dans les 14 jours.\n` +
     `Contact : contact@elibangoura.com\n`;
 }
 
@@ -538,7 +541,7 @@ function ecranRetractation() {
       <section class="bloc" role="status">
         <p>Ta demande de rétractation a bien été reçue le <strong>${e(dateHeure(r.recue_le))}</strong>.</p>
         <p>Référence : <strong>${e(r.ref)}</strong></p>
-        <p>Le montant payé te sera <strong>remboursé en totalité</strong>, par le même moyen de paiement, dans les 14 jours. Elisabeth te confirmera le remboursement par e-mail, à l'adresse ${e(r.email)}.</p>
+        <p>Tu seras <strong>remboursé${g("e", "")} du montant payé, moins la part des jours déjà écoulés</strong> (prix payé × jours restants ÷ jours de la période), par le même moyen de paiement, dans les 14 jours. Elisabeth te confirmera le montant et le remboursement par e-mail, à l'adresse ${e(r.email)}.</p>
         <button class="btn" data-telecharger>Télécharger l'accusé de réception</button>
         <p class="petit">Garde ce fichier : il prouve la date et l'heure de ta demande. Une question ? contact@elibangoura.com</p>
       </section>`;
@@ -555,7 +558,7 @@ function ecranRetractation() {
     <header class="page-haut"><a class="btn-ico" href="#/reglages" aria-label="Retour">${ico("retour")}</a>
       <div><h1>Me rétracter du contrat</h1><p class="page-sous">Délai de 14 jours</p></div></header>
     <section class="bloc">
-      <p>Tu peux te rétracter de ton abonnement dans les <strong>14 jours</strong> qui suivent ta souscription, sans avoir à te justifier. Le montant payé te sera remboursé en totalité.</p>
+      <p>Tu peux te rétracter de ton abonnement dans les <strong>14 jours</strong> qui suivent ta souscription, sans avoir à te justifier. Tu es remboursé${g("e", "")} du montant payé, moins la part des jours déjà écoulés : par exemple, 4,16 € sur 4,99 € si tu te rétractes le 5e jour d'un mois. <a class="lien" href="#/legal/conditions">Le calcul exact</a></p>
       <form class="pile" data-retractation>
         <label class="champ">Ton nom<input name="prenom" required maxlength="30" value="${e(K.compte()?.prenom || etat.prenom || "")}" autocomplete="name"></label>
         <label class="champ">Ton e-mail (pour la confirmation et le remboursement)<input name="email" type="email" required maxlength="120" autocomplete="email" inputmode="email"></label>
@@ -1327,6 +1330,7 @@ async function afficherDuo() {
   const place = $("[data-duo]", app);
   if (!place) return;
   const d = await K.duo();
+  await apresTransition();
   if (!d || !document.body.contains(place)) return;
   const jours = S.serieActuelleDe ? S.serieActuelleDe(d.serie) : d.serie.jours;
   place.innerHTML = `

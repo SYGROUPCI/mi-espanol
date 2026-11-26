@@ -1,6 +1,6 @@
 // Pages légales : les textes sont des fichiers Markdown dans legal/fr et legal/es,
 // affichés ici avec un petit lecteur (titres, paragraphes, listes, tableaux, gras, italique, liens).
-import { $, e, ico } from "./ui.js";
+import { $, e, ico, apresTransition } from "./ui.js";
 
 export const PAGES = {
   mentions:        { fichier: "legal/fr/mentions-legales.md", titre: "Mentions légales" },
@@ -40,6 +40,12 @@ export function rendre(md) {
         <tbody>${corps.map((r) => `<tr>${cellules(r).map((c) => `<td>${enLigne(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`);
       continue;
     }
+    if (l.startsWith(">")) {
+      const bloc = [];
+      while (i < lignes.length && lignes[i].startsWith(">")) { bloc.push(lignes[i].replace(/^>\s?/, "")); i++; }
+      html.push(`<blockquote class="legal-formule">${enLigne(bloc.join(" "))}</blockquote>`);
+      continue;
+    }
     const puce = /^\s*(?:[-*]|\d+\.)\s+/;
     if (puce.test(l)) {
       const ordonnee = /^\s*\d+\./.test(l);
@@ -53,7 +59,7 @@ export function rendre(md) {
       continue;
     }
     const para = [];
-    while (i < lignes.length && lignes[i].trim() && !/^(#|\||\s*(?:[-*]|\d+\.)\s)/.test(lignes[i])) { para.push(lignes[i].trim()); i++; }
+    while (i < lignes.length && lignes[i].trim() && !/^(#|\||>|\s*(?:[-*]|\d+\.)\s)/.test(lignes[i])) { para.push(lignes[i].trim()); i++; }
     html.push(`<p>${enLigne(para.join(" "))}</p>`);
   }
   return html.join("\n");
@@ -83,6 +89,7 @@ export async function ecranLegal(app, page, { montrerNav }) {
     const rep = await fetch(p.fichier);
     if (!rep.ok) throw new Error(String(rep.status));
     const md = await rep.text();
+    await apresTransition();   // pas de changement de page pendant la transition d'écran (plantage WebKit)
     const article = $(".legal", app);
     if (!article) return;
     // Le titre de la page est déjà en haut : on retire le premier titre du fichier.

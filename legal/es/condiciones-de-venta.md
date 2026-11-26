@@ -45,7 +45,15 @@ Puedes darte de baja **en cualquier momento y en pocos pasos**, desde Ajustes o 
 
 Como consumidor, tienes un derecho de desistimiento de **14 días naturales** desde la contratación, sin necesidad de justificación (artículos 102 y siguientes del Real Decreto Legislativo 1/2007, Ley General para la Defensa de los Consumidores y Usuarios).
 
-El acceso completo es un servicio digital que empieza de inmediato, a petición expresa tuya en el momento del pago. **Si desistes en los 14 días, te devolvemos la totalidad del importe pagado**, sin retenciones, en los 14 días siguientes a tu solicitud y por el mismo medio de pago.
+El acceso completo es un servicio digital. En el momento del pago, solicitas expresamente que empiece de inmediato y reconoces que, si desistes, abonarás la parte del servicio ya prestada (artículo 108.3 de la Ley General para la Defensa de los Consumidores y Usuarios).
+
+**Si desistes en los 14 días, te devolvemos el importe pagado menos la parte correspondiente a los días ya transcurridos**, calculada así:
+
+> importe devuelto = precio pagado × (días restantes del periodo ÷ días del periodo)
+
+Los días transcurridos se cuentan desde el día de la suscripción hasta el día de tu solicitud de desistimiento, ambos incluidos. Ejemplos: suscripción mensual de 4,99 € (periodo de 30 días), desistimiento el 5.º día: 4,99 × 25 ÷ 30 = **4,16 € devueltos**. Suscripción anual de 39 € (365 días), desistimiento el 10.º día: 39 × 355 ÷ 365 = **37,93 € devueltos**. El importe se redondea al céntimo más próximo.
+
+El reembolso se hace en los 14 días siguientes a tu solicitud, por el mismo medio de pago, sin ningún otro gasto.
 
 Para desistir, como prefieras:
 - toca «Me rétracter du contrat» en Ajustes;

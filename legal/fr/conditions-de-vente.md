@@ -45,7 +45,15 @@ Tu peux résilier **à tout moment, en quelques gestes**, depuis Ajustes ou le l
 
 En tant que consommateur, tu disposes d'un droit de rétractation de **14 jours** à compter de ton abonnement, sans avoir à te justifier (articles 102 et suivants de la loi espagnole de protection des consommateurs, RDL 1/2007).
 
-L'accès complet est un service numérique qui commence tout de suite, à ta demande expresse au moment du paiement. **Si tu te rétractes dans les 14 jours, nous te remboursons la totalité du montant payé**, sans retenue, dans les 14 jours qui suivent ta demande, par le même moyen de paiement.
+L'accès complet est un service numérique. Au moment du paiement, tu demandes expressément qu'il commence tout de suite, et tu reconnais qu'en cas de rétractation tu paieras la part du service déjà fournie (article 108.3 de la loi espagnole de protection des consommateurs).
+
+**Si tu te rétractes dans les 14 jours, nous te remboursons le montant payé, moins la part correspondant aux jours déjà écoulés**, calculée ainsi :
+
+> montant remboursé = prix payé × (nombre de jours restants de la période ÷ nombre de jours de la période)
+
+Les jours écoulés se comptent du jour de ta souscription jusqu'au jour de ta demande de rétractation, ce jour compris. Exemples : abonnement mensuel à 4,99 € (période de 30 jours), rétractation le 5e jour : 4,99 × 25 ÷ 30 = **4,16 € remboursés**. Abonnement annuel à 39 € (365 jours), rétractation le 10e jour : 39 × 355 ÷ 365 = **37,93 € remboursés**. Le montant est arrondi au centime le plus proche.
+
+Le remboursement est fait dans les 14 jours qui suivent ta demande, par le même moyen de paiement, sans aucun autre frais.
 
 Pour te rétracter, au choix :
 - touche « Me rétracter du contrat » dans Ajustes ;

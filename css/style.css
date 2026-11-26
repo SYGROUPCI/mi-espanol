@@ -703,3 +703,4 @@ details[open] > summary { margin-bottom: 8px; }
 .liens-legaux a { color: var(--gris); }
 .ia-mention { font-size: .9rem; }
 .ia-mention-fil { color: var(--gris); margin: 6px 0 0; }
+.legal-formule { margin: 0; padding: 12px 14px; border-left: 4px solid var(--violet); background: var(--papier-2); border-radius: 10px; font-weight: 700; }
