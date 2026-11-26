@@ -9,7 +9,7 @@ La aplicación **Mi Español**, accesible en espanol.elibangoura.com, es titular
 - **Elisabeth Bangoura**, bajo la marca **elibangoura.com**
 - NIF: se publicará al darse de alta la actividad comercial (por ahora no hay ventas: la aplicación está en prueba gratuita)
 - Ciudad: Logroño (La Rioja), España
-- Correo electrónico de contacto: [POR COMPLETAR, por ejemplo contact@elibangoura.com]
+- Correo electrónico de contacto: contact@elibangoura.com
 - Responsable de los contenidos: Elisabeth Bangoura
 
 En cumplimiento de la Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico (LSSI-CE).
@@ -30,4 +30,4 @@ Mi Español ayuda a aprender el español de la vida diaria en España. La inform
 
 ## Contacto
 
-Para cualquier consulta: [CORREO DE CONTACTO].
+Para cualquier consulta: contact@elibangoura.com.

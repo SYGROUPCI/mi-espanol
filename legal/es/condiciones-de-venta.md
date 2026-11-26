@@ -4,7 +4,7 @@
 
 ## 1. Quién vende y qué
 
-Mi Español es una aplicación para aprender español cuya titular es **Elisabeth Bangoura** (marca elibangoura.com, Logroño, España). Contacto: [CORREO].
+Mi Español es una aplicación para aprender español cuya titular es **Elisabeth Bangoura** (marca elibangoura.com, Logroño, España). Contacto: contact@elibangoura.com.
 
 [Si se elige Stripe Managed Payments o Paddle: el cobro lo realiza **[Stripe / Paddle]**, que actúa como revendedor oficial («merchant of record»): emite tu factura y gestiona el IVA, los reembolsos y las reclamaciones de pago. El contenido y el servicio los presta Elisabeth Bangoura.]
 
@@ -49,7 +49,7 @@ El acceso completo es un servicio digital que empieza de inmediato, a petición 
 
 Para desistir, como prefieras:
 - toca «Me rétracter du contrat» en Ajustes;
-- o escribe a [CORREO] indicando el correo de tu suscripción;
+- o escribe a contact@elibangoura.com indicando el correo de tu suscripción;
 - o utiliza este modelo: «Por la presente le comunico que desisto del contrato de suscripción a Mi Español celebrado el [fecha], a nombre de [nombre], correo [dirección].»
 
 ## 6. Tu cuenta
@@ -68,6 +68,6 @@ Hacemos lo posible para que la aplicación esté disponible en todo momento, per
 
 ## 9. Reclamaciones y litigios
 
-Escribe primero a [CORREO]: respondemos en 7 días. Elisabeth Bangoura no está adherida a ninguna entidad de resolución alternativa de litigios de consumo (información exigida por la Ley 7/2017). Estas condiciones se rigen por la **legislación española**, sin privarte de la protección de las leyes de tu país de residencia cuando te sean más favorables. También puedes dirigirte a los servicios de consumo de tu comunidad autónoma (en La Rioja: Dirección General de Consumo).
+Escribe primero a contact@elibangoura.com: respondemos en 7 días. Elisabeth Bangoura no está adherida a ninguna entidad de resolución alternativa de litigios de consumo (información exigida por la Ley 7/2017). Estas condiciones se rigen por la **legislación española**, sin privarte de la protección de las leyes de tu país de residencia cuando te sean más favorables. También puedes dirigirte a los servicios de consumo de tu comunidad autónoma (en La Rioja: Dirección General de Consumo).
 
 Última actualización: 25 de noviembre de 2026.

@@ -6,7 +6,7 @@ Cette page explique, simplement, quelles données Mi Español utilise, pourquoi,
 
 ## Qui est responsable de tes données
 
-**Elisabeth Bangoura** (marque elibangoura.com), Logroño (La Rioja), Espagne. Contact pour tout ce qui concerne tes données : [E-MAIL].
+**Elisabeth Bangoura** (marque elibangoura.com), Logroño (La Rioja), Espagne. Contact pour tout ce qui concerne tes données : contact@elibangoura.com.
 
 ## Ce qui reste seulement sur ton téléphone
 
@@ -55,7 +55,7 @@ Tu peux **supprimer ton compte toi-même** à tout moment : Ajustes, « Supprime
 
 Tu peux aussi à tout moment demander à **accéder** à tes données, les **corriger**, les **effacer**, en **limiter** l'usage, t'**opposer** à un traitement, ou **récupérer** tes données (portabilité : le bouton « Sauvegarder ma progression » dans Ajustes te donne déjà un fichier). Tu peux retirer ton consentement à tout moment (rappels, e-mail).
 
-Écris à [E-MAIL]. Nous répondons dans un délai d'un mois.
+Écris à contact@elibangoura.com. Nous répondons dans un délai d'un mois.
 
 Si tu estimes que tes droits ne sont pas respectés, tu peux saisir l'**Agencia Española de Protección de Datos** (aepd.es).
 

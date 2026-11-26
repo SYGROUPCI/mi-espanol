@@ -6,7 +6,7 @@ Esta página explica, de forma sencilla, qué datos utiliza Mi Español, para qu
 
 ## Responsable del tratamiento
 
-**Elisabeth Bangoura** (marca elibangoura.com), Logroño (La Rioja), España. Contacto para cualquier cuestión sobre tus datos: [CORREO].
+**Elisabeth Bangoura** (marca elibangoura.com), Logroño (La Rioja), España. Contacto para cualquier cuestión sobre tus datos: contact@elibangoura.com.
 
 ## Lo que se queda solo en tu teléfono
 
@@ -55,7 +55,7 @@ Puedes **eliminar tu cuenta tú mismo** en cualquier momento: Ajustes, «Supprim
 
 También puedes solicitar en cualquier momento el **acceso** a tus datos, su **rectificación**, su **supresión**, la **limitación** de su tratamiento, **oponerte** a un tratamiento o recibir tus datos (**portabilidad**: el botón «Guardar mi progreso» de Ajustes ya te da un archivo). Puedes retirar tu consentimiento cuando quieras (recordatorios, correo).
 
-Escribe a [CORREO]. Respondemos en el plazo de un mes.
+Escribe a contact@elibangoura.com. Respondemos en el plazo de un mes.
 
 Si consideras que no se respetan tus derechos, puedes presentar una reclamación ante la **Agencia Española de Protección de Datos** (aepd.es).
 

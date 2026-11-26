@@ -9,7 +9,7 @@ L'application **Mi Español**, accessible à l'adresse espanol.elibangoura.com, 
 - **Elisabeth Bangoura**, sous la marque **elibangoura.com**
 - NIF : communiqué dès l'immatriculation de l'activité commerciale (aucune vente n'a lieu pour l'instant : l'application est en essai gratuit)
 - Ville : Logroño (La Rioja), Espagne
-- E-mail de contact : [À COMPLÉTER, par exemple contact@elibangoura.com]
+- E-mail de contact : contact@elibangoura.com
 - Responsable de la publication : Elisabeth Bangoura
 
 Conformément à la loi espagnole 34/2002 sur les services de la société de l'information et le commerce électronique (LSSI-CE).
@@ -30,4 +30,4 @@ Mi Español aide à apprendre l'espagnol de la vie quotidienne en Espagne. Les i
 
 ## Contact
 
-Pour toute question : [E-MAIL DE CONTACT].
+Pour toute question : contact@elibangoura.com.
