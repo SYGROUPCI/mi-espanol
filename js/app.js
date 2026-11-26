@@ -162,7 +162,10 @@ function router() {
     if (h && $("#modale").hidden) { h.setAttribute("tabindex", "-1"); h.focus({ preventScroll: true }); }
   };
   // Transition douce entre deux écrans quand le navigateur sait le faire (Safari 18+, Chrome).
-  if (doux && document.startViewTransition && !app.querySelector(".chargement")) {
+  // Pas de transition vers ou depuis les pages légales : WebKit y plante par moments (constaté en test,
+  // jamais sans transition). L'effet est décoratif : le texte s'affiche directement.
+  const legal = /^#\/legal/.test(location.hash) || !!app.querySelector(".legal");
+  if (doux && !legal && document.startViewTransition && !app.querySelector(".chargement")) {
     const t = document.startViewTransition(rendre);
     for (const pr of [t.ready, t.finished, t.updateCallbackDone]) pr?.catch(() => {});   // transition sautée : rien de grave
     noterTransition(t.finished);
@@ -541,7 +544,7 @@ function ecranRetractation() {
       <section class="bloc" role="status">
         <p>Ta demande de rétractation a bien été reçue le <strong>${e(dateHeure(r.recue_le))}</strong>.</p>
         <p>Référence : <strong>${e(r.ref)}</strong></p>
-        <p>Tu seras <strong>remboursé${g("e", "")} du montant payé, moins la part des jours déjà écoulés</strong> (prix payé × jours restants ÷ jours de la période), par le même moyen de paiement, dans les 14 jours. Elisabeth te confirmera le montant et le remboursement par e-mail, à l'adresse ${e(r.email)}.</p>
+        <p>Tu seras <strong>remboursé${g("e", "")} du montant payé, moins la part des jours déjà écoulés</strong> (prix payé × jours restants ÷ jours de la période), par le même moyen de paiement, dans les 14 jours. Elisabeth t'envoie aussi cet accusé de réception par e-mail, à l'adresse ${e(r.email)}, puis te confirmera le montant remboursé.</p>
         <button class="btn" data-telecharger>Télécharger l'accusé de réception</button>
         <p class="petit">Garde ce fichier : il prouve la date et l'heure de ta demande. Une question ? contact@elibangoura.com</p>
       </section>`;

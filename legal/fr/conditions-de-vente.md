@@ -26,14 +26,14 @@ Le contenu peut évoluer (nouvelles situations, corrections). Nous ne retirerons
 
 - **[4,99 €] par mois** ou **[39 €] par an**, toutes taxes comprises (TVA incluse).
 - Le paiement se fait par carte, sur une page sécurisée de [Stripe / Paddle]. Nous ne voyons jamais ton numéro de carte.
-- L'abonnement se **renouvelle automatiquement** à la fin de chaque période, au prix en vigueur. **Nous t'envoyons un rappel par e-mail au moins 15 jours avant chaque renouvellement**, avec le montant et le lien pour résilier. En cas de changement de prix, nous te prévenons au moins 30 jours avant ; tu peux résilier avant le renouvellement.
+- L'abonnement se **renouvelle automatiquement** à la fin de chaque période, au prix en vigueur. **Un rappel t'est envoyé par e-mail (par [Stripe / Paddle]) au moins 15 jours avant chaque renouvellement**, avec le montant et le lien pour résilier. En cas de changement de prix, nous te prévenons au moins 30 jours avant ; tu peux résilier avant le renouvellement.
 
 ## 3 bis. Comment s'abonner
 
 1. Dans l'appli, touche « Je veux l'accès complet », puis choisis l'offre mensuelle ou annuelle.
 2. Tu arrives sur la page de paiement sécurisée de [Stripe / Paddle] : avant de payer, tu vois le prix total, la durée, le renouvellement automatique, et tu peux corriger toute erreur ou revenir en arrière.
 3. Le bouton final indique clairement que tu t'engages à payer (« Payer et m'abonner »).
-4. Tu reçois aussitôt par e-mail la confirmation de ton abonnement et un lien vers ces conditions, que tu peux garder.
+4. Tu reçois aussitôt par e-mail, de la part de [Stripe / Paddle], la confirmation de ton abonnement et ta facture ; ces conditions restent consultables et téléchargeables dans l'appli.
 
 Ces conditions sont disponibles en **français** et en **espagnol** ; le contrat est conclu dans la langue que tu choisis. Elles sont conservées et restent consultables dans l'appli.
 

@@ -26,14 +26,14 @@ El contenido puede evolucionar (nuevas situaciones, correcciones). No retiraremo
 
 - **[4,99 €] al mes** o **[39 €] al año**, impuestos incluidos (IVA incluido).
 - El pago se hace con tarjeta en una página segura de [Stripe / Paddle]. Nunca vemos el número de tu tarjeta.
-- La suscripción se **renueva automáticamente** al final de cada periodo, al precio vigente. **Te enviamos un recordatorio por correo al menos 15 días antes de cada renovación**, con el importe y el enlace para darte de baja. Si el precio cambia, te avisaremos con al menos 30 días de antelación; puedes darte de baja antes de la renovación.
+- La suscripción se **renueva automáticamente** al final de cada periodo, al precio vigente. **Recibes un recordatorio por correo (enviado por [Stripe / Paddle]) al menos 15 días antes de cada renovación**, con el importe y el enlace para darte de baja. Si el precio cambia, te avisaremos con al menos 30 días de antelación; puedes darte de baja antes de la renovación.
 
 ## 3 bis. Cómo suscribirte
 
 1. En la aplicación, toca «Je veux l'accès complet» y elige la modalidad mensual o anual.
 2. Llegas a la página de pago segura de [Stripe / Paddle]: antes de pagar ves el precio total, la duración y la renovación automática, y puedes corregir cualquier error o volver atrás.
 3. El botón final indica claramente que te comprometes a pagar («Pagar y suscribirme»).
-4. Recibes enseguida por correo la confirmación de tu suscripción y un enlace a estas condiciones, que puedes conservar.
+4. Recibes enseguida por correo, de parte de [Stripe / Paddle], la confirmación de tu suscripción y tu factura; estas condiciones pueden consultarse y descargarse en la aplicación.
 
 Estas condiciones están disponibles en **francés** y en **español**; el contrato se celebra en el idioma que elijas. Se conservan y pueden consultarse en la aplicación.
 
