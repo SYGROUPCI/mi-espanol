@@ -180,6 +180,7 @@ function ecranPour(hash) {
     compte: ecranCompte,
     acces: () => ecranAcces(arg),
     legal: () => ecranLegal(app, arg, { montrerNav }),
+    retractation: ecranRetractation,
     carnet: carnet,
     surprises: surprises,
     reglages: reglages,
@@ -509,6 +510,82 @@ function bienvenuePublique() {
     });
     appliquerProfil();
     aller("#/defi");
+  };
+}
+
+// ---------------------------------------------------------------------------
+// Rétractation (directive 2023/2673) : une fonction toujours accessible dans Ajustes pendant le délai,
+// une étape de confirmation, puis un accusé de réception avec la date et l'heure, à garder.
+const dateHeure = (iso) => new Date(iso).toLocaleString("fr-FR", { dateStyle: "long", timeStyle: "short" });
+
+function accuseTexte(r) {
+  return `Mi Español (elibangoura.com) — Accusé de réception de rétractation\n\n` +
+    `Référence : ${r.ref}\nNom : ${r.prenom}\nE-mail : ${r.email}\nDemande reçue le : ${dateHeure(r.recue_le)} (${r.recue_le} UTC)\n\n` +
+    `Ta demande de rétractation du contrat d'abonnement à Mi Español a bien été reçue.\n` +
+    `Le montant payé te sera remboursé en totalité, par le même moyen de paiement, dans les 14 jours.\n` +
+    `Contact : contact@elibangoura.com\n`;
+}
+
+function ecranRetractation() {
+  montrerNav("reglages");
+  const etat = S.get();
+  const deja = etat.retractation;
+  if (!deja && K.compte()?.statut !== "abonne") return aller("#/reglages");
+  const montrerAccuse = (r) => {
+    app.innerHTML = `
+      <header class="page-haut"><a class="btn-ico" href="#/reglages" aria-label="Retour">${ico("retour")}</a>
+        <div><h1>Rétractation reçue</h1><p class="page-sous">Accusé de réception</p></div></header>
+      <section class="bloc" role="status">
+        <p>Ta demande de rétractation a bien été reçue le <strong>${e(dateHeure(r.recue_le))}</strong>.</p>
+        <p>Référence : <strong>${e(r.ref)}</strong></p>
+        <p>Le montant payé te sera <strong>remboursé en totalité</strong>, par le même moyen de paiement, dans les 14 jours. Elisabeth te confirmera le remboursement par e-mail, à l'adresse ${e(r.email)}.</p>
+        <button class="btn" data-telecharger>Télécharger l'accusé de réception</button>
+        <p class="petit">Garde ce fichier : il prouve la date et l'heure de ta demande. Une question ? contact@elibangoura.com</p>
+      </section>`;
+    $("[data-telecharger]", app).onclick = () => {
+      const lien = document.createElement("a");
+      lien.href = URL.createObjectURL(new Blob([accuseTexte(r)], { type: "text/plain;charset=utf-8" }));
+      lien.download = `mi-espanol-retractation-${r.ref}.txt`;
+      document.body.appendChild(lien); lien.click(); lien.remove();
+      setTimeout(() => URL.revokeObjectURL(lien.href), 2000);
+    };
+  };
+  if (deja) return montrerAccuse(deja);
+  app.innerHTML = `
+    <header class="page-haut"><a class="btn-ico" href="#/reglages" aria-label="Retour">${ico("retour")}</a>
+      <div><h1>Me rétracter du contrat</h1><p class="page-sous">Délai de 14 jours</p></div></header>
+    <section class="bloc">
+      <p>Tu peux te rétracter de ton abonnement dans les <strong>14 jours</strong> qui suivent ta souscription, sans avoir à te justifier. Le montant payé te sera remboursé en totalité.</p>
+      <form class="pile" data-retractation>
+        <label class="champ">Ton nom<input name="prenom" required maxlength="30" value="${e(K.compte()?.prenom || etat.prenom || "")}" autocomplete="name"></label>
+        <label class="champ">Ton e-mail (pour la confirmation et le remboursement)<input name="email" type="email" required maxlength="120" autocomplete="email" inputmode="email"></label>
+        <p class="petit">Contrat concerné : abonnement à Mi Español de ce compte.</p>
+        <button class="btn btn-large btn-danger">Confirmer ma rétractation</button>
+      </form>
+      <p class="petit centre" data-message aria-live="polite"></p>
+    </section>`;
+  $("[data-retractation]", app).onsubmit = async (ev) => {
+    ev.preventDefault();
+    const f = ev.currentTarget;
+    const bouton = $("button", f);
+    const message = $("[data-message]", app);
+    bouton.disabled = true;
+    message.textContent = "";
+    try {
+      const rep = await fetch("api/compte/retractation", { method: "POST", credentials: "same-origin",
+        headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prenom: f.prenom.value, email: f.email.value }) });
+      const d = await rep.json().catch(() => ({}));
+      if (!rep.ok || !d.ok) {
+        message.textContent = { email: "Cette adresse e-mail ne semble pas valide.", trop_essais: "Trop d'essais aujourd'hui. Écris à contact@elibangoura.com.",
+          pas_abonne: "Ce compte n'a pas d'abonnement en cours." }[d.erreur] || "La demande n'est pas passée. Réessaie, ou écris à contact@elibangoura.com.";
+        return;
+      }
+      const r = { ref: d.ref, recue_le: d.recue_le, prenom: f.prenom.value.trim(), email: f.email.value.trim() };
+      S.maj((s) => (s.retractation = r));
+      montrerAccuse(r);
+    } catch {
+      message.textContent = "Pas de réseau pour l'instant. Réessaie, ou écris à contact@elibangoura.com.";
+    } finally { bouton.disabled = false; }
   };
 }
 
@@ -913,6 +990,8 @@ function reglages() {
       ${K.connecte()
         ? `<p>${g("Connectée", "Connecté")} en tant que <strong>${e(K.compte().prenom)}</strong>, avec Face ID. Ta progression est sauvegardée en ligne.</p>
            ${!accesComplet() ? `<p class="petit">Tu es en essai gratuit. <a class="lien" href="#/acces/reglages">Je veux l'accès complet</a></p>` : ""}
+           ${K.compte()?.statut === "abonne" ? `<a class="btn btn-doux" href="#/retractation">Me rétracter du contrat</a>` : ""}
+           ${etat.retractation ? `<p class="petit">Demande de rétractation reçue le ${e(dateHeure(etat.retractation.recue_le))}, référence ${e(etat.retractation.ref)}. <a class="lien" href="#/retractation">Revoir l'accusé</a></p>` : ""}
            <button class="btn btn-doux" data-deconnexion>Me déconnecter de cet appareil</button>
            ${!estProprio() ? `<button class="lien-texte" data-suppression>Supprimer mon compte</button>` : ""}`
         : `<p class="petit">Sans compte, ta progression reste seulement sur cet appareil.</p>

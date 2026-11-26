@@ -25,6 +25,7 @@ Sin cuenta, todo tu progreso se guarda **en tu dispositivo** (almacenamiento loc
 | Huella de tu dirección IP (seudonimizada y recalculada cada día: nunca guardamos la dirección en claro) | Limitar abusos (número de registros e intentos) | Interés legítimo (seguridad del servicio) | Se borra automáticamente a los 2 días |
 | Correo dejado con «Quiero el acceso completo» y, si tienes cuenta, tu nombre, tu ciudad y la página desde la que lo pediste | Avisarte una sola vez de la apertura del acceso completo | Consentimiento | Hasta el envío de ese aviso, 12 meses como máximo, o hasta que lo retires |
 | Mensajes enviados a Charla | Obtener la respuesta de la IA (ver más abajo) | Ejecución del contrato | No los conservamos |
+| Solicitud de desistimiento (nombre, correo, fecha y hora, referencia) | Tramitar tu desistimiento, reembolsarte y poder acreditarlo | Obligación legal (art. 6.1.c) | Durante los plazos legales de reclamación; no se borra al eliminar la cuenta |
 | [Tras abrir el pago] Datos de pago | Cobrar tu suscripción | Ejecución del contrato | Los trata [Stripe], nunca nosotros: no vemos el número de tu tarjeta |
 
 No vendemos tus datos, no hacemos publicidad y no usamos herramientas de analítica ni de seguimiento.
@@ -51,7 +52,7 @@ Algunas de estas empresas están en Estados Unidos. Las transferencias se basan 
 
 ## Tus derechos
 
-Puedes **eliminar tu cuenta tú mismo** en cualquier momento: Ajustes, «Supprimer mon compte». Se borra todo lo vinculado a la cuenta, en nuestros servidores y en tu teléfono.
+Puedes **eliminar tu cuenta tú mismo** en cualquier momento: Ajustes, «Supprimer mon compte». Se borra todo lo vinculado a la cuenta, en nuestros servidores y en tu teléfono, salvo una posible solicitud de desistimiento, que la ley nos obliga a conservar.
 
 También puedes solicitar en cualquier momento el **acceso** a tus datos, su **rectificación**, su **supresión**, la **limitación** de su tratamiento, **oponerte** a un tratamiento o recibir tus datos (**portabilidad**: el botón «Guardar mi progreso» de Ajustes ya te da un archivo). Puedes retirar tu consentimiento cuando quieras (recordatorios, correo).
 

@@ -25,6 +25,7 @@ Sans compte, toute ta progression reste **sur ton appareil** (stockage local du 
 | Empreinte de ton adresse IP (pseudonymisée, recalculée chaque jour : nous n'enregistrons jamais l'adresse en clair) | Limiter les abus (nombre d'inscriptions, d'essais) | Intérêt légitime (sécurité du service) | Effacée automatiquement au bout de 2 jours |
 | E-mail laissé avec « Je veux l'accès complet », et, si tu as un compte, ton prénom, ta ville et la page d'où vient la demande | Te prévenir une seule fois de l'ouverture de l'accès complet | Consentement | Jusqu'à l'envoi de ce message, 12 mois au plus, ou jusqu'à ce que tu le retires |
 | Messages envoyés à Charla | Obtenir la réponse de l'IA (voir ci-dessous) | Exécution du contrat | Non conservés par nous |
+| Demande de rétractation (nom, e-mail, date et heure, référence) | Traiter ta rétractation, te rembourser et pouvoir le prouver | Obligation légale (art. 6.1.c) | Le temps des délais légaux de réclamation ; elle n'est pas effacée avec le compte |
 | [Après ouverture du paiement] Données de paiement | Encaisser ton abonnement | Exécution du contrat | Traitées par [Stripe], jamais par nous : nous ne voyons pas ton numéro de carte |
 
 Nous ne vendons pas tes données, nous ne faisons pas de publicité et nous n'utilisons aucun outil de mesure d'audience ni de pistage.
@@ -51,7 +52,7 @@ Certaines de ces entreprises sont situées aux États-Unis. Les transferts repos
 
 ## Tes droits
 
-Tu peux **supprimer ton compte toi-même** à tout moment : Ajustes, « Supprimer mon compte ». Tout ce qui est lié au compte est effacé de nos serveurs et de ton téléphone.
+Tu peux **supprimer ton compte toi-même** à tout moment : Ajustes, « Supprimer mon compte ». Tout ce qui est lié au compte est effacé de nos serveurs et de ton téléphone, sauf une éventuelle demande de rétractation, que la loi nous oblige à garder.
 
 Tu peux aussi à tout moment demander à **accéder** à tes données, les **corriger**, les **effacer**, en **limiter** l'usage, t'**opposer** à un traitement, ou **récupérer** tes données (portabilité : le bouton « Sauvegarder ma progression » dans Ajustes te donne déjà un fichier). Tu peux retirer ton consentement à tout moment (rappels, e-mail).
 
